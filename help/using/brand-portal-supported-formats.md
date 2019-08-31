@@ -9,12 +9,12 @@ products: SG_ PREPERNEMENTMANAGER/Brand_ Portal
 topic-tags: introduction
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 translation-type: tm+mt
-source-git-commit: 0b70e82d034ce56fcfc5b49396e6d3a9da4b49d4
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
-# サポートされているファイル形式{#supported-file-formats}
+# サポートされているファイル形式 {#supported-file-formats}
 
 AEM Assets Brand Portal でサポートされるファイル形式を以下の表に示します。
 
@@ -82,7 +82,7 @@ AEM Assets Brand Portal でサポートされるファイル形式を以下の�
 
 | 記号 | 意味 |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| ✓ | このファイル形式は、この機能をサポートしています |
-| ✕ | この機能はサポートされていません。 |
-| NA | この機能は適用されません。 |
-| * | この機能を AEM オーサーインスタンスで使用するには、このファイル形式用のアドオンサポートが必要です。ただし、アセットが Brand Portal に公開された後、Brand Portal で使用する際には不要です。 |
+| ✓ | このファイル形式は、この機能をサポートしています。 |
+| ✕ | この機能はサポートされていません。。 |
+| NA | この機能は適用されません。。 |
+| * | この機能を AEM オーサーインスタンスで使用するには、このファイル形式用のアドオンサポートが必要です。ただし、アセットが Brand Portal に公開された後、Brand Portal で使用する際には不要です。。 |
