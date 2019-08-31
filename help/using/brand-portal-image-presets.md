@@ -9,7 +9,7 @@ topic-tags: 管理
 products: SG_ PREPERNEMENTMANAGER/Brand_ Portal
 discoiquuid: a512dfa0- fef3-4c3f- a389- a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: c0169450c5cf1d8c99f8604df3bd2667445ff1ed
 
 ---
 
@@ -39,8 +39,6 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 >動的レンディションは、PTIFF が使用可能なアセットに対して作成されます。そのため、AEM で作成され Brand Portal に公開されているビラミッド TIFF レンディションがアセットにない場合は、アセットのシステムレンディションのみ書き出すことができますが、動的レンディションはオプションとして表示されます。アセットのビラミッド TIFF（ptiff）を作成するには、AEM（オーサー）で Dynamic Media ハイブリッドモードを有効にする必要があります。このようなアセットがブランドポータルに公開されると、画像プリセットが適用され、動的レンディションが表示されます。
 
 1. 上部のAEMツールバーから、Adobeロゴをクリックして管理ツールにアクセスします。
-
-   ![](assets/AEMlogo.png)
 
 2. From the administrative tools panel, click **[!UICONTROL Image Presets]**.
 
