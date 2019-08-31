@@ -10,26 +10,26 @@ products: SG_ PREPERNEMENTMANAGER/Brand_ Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8- dsc4c2aba79e
 translation-type: tm+mt
-source-git-commit: 770c353b1143d879280df310012ce9d4d30b40c9
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
 # アセットのデジタル著作権の管理 {#manage-digital-rights-of-assets}
 
-ブランドを守るには、クリエイティブアセットやブランドマテリアルの配布および使用を適切に保護することが不可欠です。This can be enforced across the organization and outside by associating an expiration date (and time) with approved assets published from [!DNL AEM] to [!DNL Brand Portal], or by licensing these assets for conditional use. Also, [!DNL Brand Portal] allows you to specify an expiration date for links to the assets shared from [!DNL Brand Portal].
+ブランドを守るには、クリエイティブアセットやブランドマテリアルの配布および使用を適切に保護することが不可欠です。これは、有効期限日（および時間）をAEMからブランドポータルに発行された承認済みアセットに関連付けたり、条件付き使用のためにこれらのアセットをライセンスしたりすることで、組織全体で適用できます。また、Brand Portal から共有されるアセットへのリンクに有効期限日を指定することもできます。
 
-Read on to know how the assets are secured on [!DNL Brand Portal] and understand the associated usage permissions.
+以下では、Brand Portal 上のアセットを安全に保護する方法と、関連する使用権限について説明します。
 
 ## アセットの有効期限 {#asset-expiration}
 
-アセットの有効期限は、Brand Portal 上の承認済みアセットの使用を組織全体にわたって制御する有効な方法です。All the assets published from [!DNL AEM] Assets to Brand Portal can have an expiration date, which restricts the usage of these assets by different user roles.
+アセットの有効期限は、Brand Portal 上の承認済みアセットの使用を組織全体にわたって制御する有効な方法です。AEM Assetsからブランドポータルに公開されたすべてのアセットに有効期限が設定されている場合があります。これにより、ユーザーの役割ごとにこれらのアセットの使用を制限できます。
 
 ### 期限切れアセットに関連する使用権限 {#usage-permissions-expired-assets}
 
-In [!DNL Brand Portal], Administrators can view, download, and add expired assets to collections. 一方、エディターと閲覧者にできるのは、期限切れアセットを表示することと、コレクションに追加することだけです。
+Brand Portal では、管理者は期限切れアセットを表示したり、ダウンロードしたり、コレクションに追加したりできます。一方、エディターと閲覧者にできるのは、期限切れアセットを表示することと、コレクションに追加することだけです。
 
-Administrators can publish expired assets from [!DNL AEM] Assets to [!DNL Brand Portal]. However, expired assets cannot be shared via ink from [!DNL Brand Portal]. If you select any expired asset from a folder containing both expired and non-expired assets, the **[!UICONTROL Share Link]** action is not available. ただし、期限切れおよび期限切れのアセットを含むフォルダを選択した場合は [!UICONTROL 、「共有リンク」アクション] と **[!UICONTROL 「共有リンク」]** アクションが使用できます。
+管理者は期限切れアセットを AEM Assets から Brand Portal へ公開できます。ただし、期限切れのアセットをブランドポータルから共有することはできません。If you select any expired asset from a folder containing both expired and non-expired assets, the **[!UICONTROL Share Link]** action is not available. ただし、期限切れおよび期限切れのアセットを含むフォルダを選択した場合は [!UICONTROL 、「共有リンク」アクション] と **[!UICONTROL 「共有リンク」]** アクションが使用できます。
 
 >[!NOTE]
 >
@@ -37,12 +37,12 @@ Administrators can publish expired assets from [!DNL AEM] Assets to [!DNL Brand 
 
 以下の表に、期限切れアセットの使用権限を示します。
 
-|  | **リンク共有** | **ダウンロード** | **プロパティ** | **コレクションに追加** | **削除** |
+|  | **[!UICONTROL リンク共有]** | **[!UICONTROL ダウンロード]** | **[!UICONTROL プロパティ]** | **[!UICONTROL コレクションに追加]** | **[!UICONTROL 削除]** |
 |---|---|---|---|---|---|
-| **管理者** | 使用不可 | 使用可 | 使用可 | 使用可 | 使用可 |
-| **エディター** | 使用不可 | 使用不可 | 使用可 | 使用可 | 使用不可 |
-| **閲覧者** | 使用不可 | 使用不可 | 使用可 | 使用可 | 使用不可 |
-| **ゲストユーザー** | 使用不可 | 使用不可 | 使用可 | 使用可 | 使用不可 |
+| **[!UICONTROL 管理者]** | 使用不可 | 使用可 | 使用可 | 使用可 | 使用可 |
+| **[!UICONTROL エディター]** | 使用不可 | 使用不可 | 使用可 | 使用可 | 使用不可 |
+| **[!UICONTROL 閲覧者]** | 使用不可 | 使用不可 | 使用可 | 使用可 | 使用不可 |
+| **[!UICONTROL ゲストユーザー]** | 使用不可 | 使用不可 | 使用可 | 使用可 | 使用不可 |
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Administrators can publish expired assets from [!DNL AEM] Assets to [!DNL Brand 
 
 ### アセットの有効期限ステータス {#expiration-status-of-assets}
 
-アセットの有効期限ステータスはカード表示で確認できます。カード上の赤いフラグは、そのアセットが期限切れであることを示しています。
+[!UICONTROL カード表示で、アセットの有効期限ステータスを表示]できます。カード上の赤いフラグは、そのアセットが期限切れであることを示しています。
 
 ![](assets/expired_assets_cardview.png)
 
@@ -64,21 +64,21 @@ While sharing assets through links, Administrators and Editors can set a date an
 
 ![](assets/asset-link-sharing.png)
 
-It ensures that assets shared as links expire at the date and time set by [!DNL Brand Portal] Administrators and Editors, and can no longer be viewed and downloaded beyond the expiration date. リンクによって共有されるアセットを外部ユーザーによって表示することもできますが、有効期限を指定することで、承認されたアセットが保護されていることを確認し、指定した時間以外の不明なエンティティに公開されないようにすることができます。
+これにより、リンクとして共有されたアセットは Brand Portal の管理者およびエディターが設定した日時に期限切れになり、その後は表示もダウンロードもできなくなります。リンクによって共有されるアセットを外部ユーザーによって表示することもできますが、有効期限を指定することで、承認されたアセットが保護されていることを確認し、指定した時間以外の不明なエンティティに公開されないようにすることができます。
 
 For more information about link sharing, refer to [Share assets as a link](../using/brand-portal-link-share.md).
 
 ## ライセンスで保護されたアセット {#licensed-assets}
 
-ライセンスで保護されたアセットを Brand Portal からダウンロードするときは、事前に使用許諾契約への同意が求めらます。This agreement for licensed assets comes when you directly download the asset from [!DNL Brand Portal] or via a shared link. ライセンスで保護されたアセットは、期限切れの場合も期限切れでない場合も、すべてのユーザーが見ることができます。しかし、ライセンスで保護された期限切れアセットのダウンロードと使用には制限が適用されます。ライセンスで保護された期限切れアセットの動作と、ユーザーの役割に基づいて許可される活動については、[期限切れアセットの使用権限](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets)を参照してください。
+ライセンスで保護されたアセットを Brand Portal からダウンロードするときは、事前に使用許諾契約への同意が求めらます。ライセンスで保護されたアセットの使用許諾契約は、アセットを Brand Portal から直接ダウンロードまたは共有リンクを介してダウンロードするときに表示されます。ライセンスで保護されたアセットは、期限切れの場合も期限切れでない場合も、すべてのユーザーが見ることができます。しかし、ライセンスで保護された期限切れアセットのダウンロードと使用には制限が適用されます。ライセンスで保護された期限切れアセットの動作と、ユーザーの役割に基づいて許可される活動については、[期限切れアセットの使用権限](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets)を参照してください。
 
-License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in [!DNL AEM] Assets.
+License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in AEM Assets.
 
 If you choose to download license-protected asset(s), you are redirected to [!UICONTROL Copyright Management] page.
 
 ![](assets/asset-copyright-mgmt.png)
 
-ここでダウンロードするアセットを選択し、関連付けられた使用許諾契約に同意する必要があります。If you do not accept the license agreement, the **[!UICONTROL Download]** button is not enabled.
+ここでダウンロードするアセットを選択し、関連付けられた使用許諾契約に同意する必要があります。If you do not accept the license agreement, the [!UICONTROL Download] button is not enabled.
 
 ![](assets/licensed-asset-download-2.png)
 
