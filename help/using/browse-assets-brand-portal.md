@@ -9,16 +9,16 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61- b6412e013e5c
 translation-type: tm+mt
-source-git-commit: 770c353b1143d879280df310012ce9d4d30b40c9
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
 # Brand Portal でのアセットの参照 {#browsing-assets-on-brand-portal}
 
-[!DNL AEM] Assets[!DNLブランドポータルには、さまざまな機能やユーザインターフェイス要素を利用して、さまざまなビューオプションを使用しながら、リソースの参照、アセット階層の移動、アセットの検索を行うことができます。
+AEM Assets Brand Portal は、別の表示オプションを使用しながらリソースの参照、アセット階層のトラバース、およびアセットの検索を容易におこなえる様々な機能とユーザーインターフェイス要素を提供します。
 
-[!DNL AEM][!DNL AEM]管理者ユーザーは、上部にある ツールバーの ロゴから、管理ツールパネルへアクセスできます。
+管理者ユーザーは、上部にある AEM ツールバーの AEM ロゴから、管理ツールパネルへアクセスできます。
 
 ![](assets/aemlogo.png)
 
@@ -26,17 +26,17 @@ source-git-commit: 770c353b1143d879280df310012ce9d4d30b40c9
 
 ![](assets/bp_subheader.png)
 
-Rail selector at the upper left in [!DNL Brand Portal] drops-down to expose options to navigate into asset hierarchies, streamline your search, and display resources.
+Brand Portal ドロップダウンの左上にあるレールセレクターを使用すると、アセット階層へ移動、検索を効率化、およびリソースを表示するオプションが表示されます。
 
 ![](assets/siderail-1.png)
 
-You can view, navigate through, and select assets using any of the available views (Card, Column, and List) in the view selector at the upper right in [!DNL Brand Portal].
+Brand Portal の右上にある表示セレクターで利用可能な表示（カード、列、およびリスト）のいずれかを使用すると、アセットを表示、ナビゲーション、および選択することができます。
 
 ![](assets/viewselector.png)
 
 ## リソースの表示と選択 {#viewing-and-selecting-resources}
 
-概念上、表示、ナビゲーションおよび選択はすべての表示で同じ操作ですが、使用している表示によって処理がわずかに異なります。
+表示、移動、選択は、概念的にはすべてのビューで同じですが、使用しているビューに応じて、処理に小さなバリエーションがあります。
 
 使用可能な任意の表示方法で、リソースを表示、ナビゲーションおよび（追加のアクションをおこな行うために）選択できます。
 
@@ -54,7 +54,7 @@ You can view, navigate through, and select assets using any of the available vie
 * 種類
 * タイトル
 * 名前
-* AEM から Brand Portal へアセット [!DNL Brand Portal] が [!DNL AEM]
+* AEM から Brand Portal にアセットが公開された日付と時刻
 * サイズ
 * ディメンション寸法
 
@@ -67,7 +67,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 カードのカードのカード表示では、管理者以外のユーザー（エディター、ビューアおよびゲストユーザー）にフォルダ階層情報が表示されます。この機能により、ユーザーはフォルダーの場所を把握し、親階層に関してアクセスすることができます。
 フォルダー階層の情報は、別のフォルダー階層から共有されている他のフォルダーと同様に名前を持つフォルダーを区別するのに特に役立ちます。管理者以外のユーザーが、自分たちに共有されているアセットのフォルダー構造を把握していない場合、似たような名前のアセット／フォルダーは紛らわしくなります。
 
-* カードのサイズに合わせて、それぞれのカードに表示されるパスが切り詰められます。ただし、ユーザは切り詰められたパスの上にツールチップとしてフルパスを表示できます。
+* カードのサイズに合わせて、それぞれのカードに表示されるパスが切り詰められます。ただし、切り詰められたパスの上にマウスポインターを置くと、フルパスがツールヒントとして表示されます。
 
 ![](assets/folder-hierarchy1.png)
 
@@ -75,10 +75,10 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 
 管理者以外のユーザー（エディター、ビューア、ゲストユーザー）が、選択したアセット/フォルダのアセットプロパティを表示するための概要オプションを使用できます。「概要」オプションは、次の場所に表示されます。
 
-1. アセットやフォルダーを選択する際に上部に表示されるツールバー。
-2. レールセレクターを選択する際のドロップダウン。
+* をクリックします。
+* をクリックします。
 
-アセットやフォルダーを選択した状態で「概要」オプションを選択すると、タイトル、パス、アセット作成時間を確認できます。一方、アセットの詳細ページで「概要」オプションを選択すると、ユーザーはアセットのメタデータを確認できます。
+On selecting the [!UICONTROL Overview] option while an asset/folder is selected, users can see the title, path, and time of asset creation. 一方、アセットの詳細ページで「概要」オプションを選択すると、ユーザーはアセットのメタデータを確認できます。
 
 ![](assets/overview-option.png)
 
@@ -86,7 +86,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 
 #### カード表示の表示設定
 
-表示セレクターで表示設定を選択すると、表示設定ダイアログが開き、カード表示でアセットのサムネールのサイズを変更できます。これにより、表示をパーソナライズして、表示されるサムネールの数を制御できます。
+[!UICONTROL 表示セレクターで表示設定を選択すると、表示設定ダイアログが開き、]****&#x200B;カード表示でアセットのサムネールのサイズを変更できます。これにより、表示をパーソナライズして、表示されるサムネールの数を制御できます。
 
 ![](assets/cardviewsettings.png)
 
@@ -115,7 +115,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### リスト表示の表示設定
 
-List view shows asset **Name** as the first column by default. アセットのタイトル、タイプ、ディメンション、サイズ、レーティング、公開状態などの追加情報も表示されます。ただし、「設定を表示」を使用して表示する列を選択することもできます。
+List view shows asset [!UICONTROL Name] as the first column by default. Additional information, such as asset [!UICONTROL Title], [!UICONTROL Locale], [!UICONTROL Type], [!UICONTROL Dimensions], [!UICONTROL Size], [!UICONTROL Rating], publish status are also shown. However, you can select the columns to be shown using [!UICONTROL View Settings].
 
 ![](assets/list-view-setting.png)
 
@@ -139,7 +139,7 @@ List view shows asset **Name** as the first column by default. アセットの�
 * タイトル
 * 名前
 * ディメンション寸法
-* Date and time when asset was published to [!DNL Brand Portal] from [!DNL AEM]
+* AEM から Brand Portal にアセットが公開された日付と時刻
 * サイズ
 * 種類
 * 詳細オプション（アセットの詳細ページへ移動する）
@@ -232,7 +232,7 @@ Comment Type: draft
 
 これらのビューに加えて、目的のアセットまたはフォルダを表示して選択するときに、ツリービューを使用してアセット階層をドリルダウンします。
 
-To open the tree view, tap/click the rail selector at upper left and select the **Content tree** from the menu.
+To open the tree view, tap/click the rail selector at upper left and select the **[!UICONTROL Content tree]** from the menu.
 
 ![](assets/contenttree.png)
 
@@ -246,7 +246,7 @@ To open the tree view, tap/click the rail selector at upper left and select the 
 
 ![](assets/asset-detail.png)
 
-アセットのメタデータの概要、または様々なさまざまなレンディションを表示するには、アセットの詳細ページのレールセレクターを使用します。
+アセットのメタデータを表示したり、様々なレンディションを表示したりするには、アセットの詳細ページのパネルセレクターを使用します。
 
 ![](assets/asset-overview.png)
 
@@ -254,8 +254,8 @@ To open the tree view, tap/click the rail selector at upper left and select the 
 
 ![](assets/renditions.png)
 
-To open the asset properties page, use *Properties (p)* option on the top bar.
+To open the asset properties page, use **[!UICONTROL Properties (p)]** option from the top bar.
 
 ![](assets/asset-properties.png)
 
-You can also view a list of all its related assets (source or derived assets on AEM) on an asset's properties page, as asset relationship is also published from [!DNL AEM] to [!DNL Brand Portal].
+また、アセットの関係も AEM から Brand Portal に公開されているため、アセットのプロパティページですべての関連アセット（AEM 上のソースまたは派生アセット）のリストを表示することもできます。
