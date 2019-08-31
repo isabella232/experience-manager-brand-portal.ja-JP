@@ -9,7 +9,7 @@ topic-tags: 共有
 products: SG_ PREPERNEMENTMANAGER/Brand_ Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 translation-type: tm+mt
-source-git-commit: 0b70e82d034ce56fcfc5b49396e6d3a9da4b49d4
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
@@ -23,8 +23,8 @@ Brand Portal は、アセットの取り込みをサポートしていません�
 以下に、フォルダー共有のワークフローとユーザーアクセスを示します。
 
 * AEM Assets から Brand Portal に公開されるすべてのフォルダーは、レプリケーションの設定時に「公開」として指定されていない限り、デフォルトで Brand Portal 管理者にのみ表示されます。
-* The Administrator uses the **Folder Properties** console to share a folder with selective users or groups. フォルダーを共有しているこれらのユーザーとグループのみが、Brand Portal へのログイン後にフォルダーを表示できます。それ以外のユーザーにフォルダーは表示されません。
-* The Administrator can also choose to make a folder public through the **Public Folder** check box in the **Folder Properties** console. 公開フォルダーはすべてのユーザーに表示されます。
+* The Administrator uses the [!UICONTROL Folder Properties] console to share a folder with selective users or groups. フォルダーを共有しているこれらのユーザーとグループのみが、Brand Portal へのログイン後にフォルダーを表示できます。それ以外のユーザーにフォルダーは表示されません。
+* The Administrator can also choose to make a folder public through the [!UICONTROL Public Folder] check box in the [!UICONTROL Folder Properties] console. 公開フォルダーはすべてのユーザーに表示されます。
 
 * ユーザーの役割と権限に関係なく、ユーザーが Brand Portal にログインすると、すべての公開フォルダーが表示されます。また、そのユーザーと直接共有しているフォルダーや、そのユーザーの所属グループと直接共有しているフォルダーも表示されます。非公開フォルダーや、その他のユーザーと共有しているフォルダーは、すべてのユーザーには表示されません。
 
@@ -36,15 +36,15 @@ Brand Portal は、アセットの取り込みをサポートしていません�
 
 ### 公開フォルダーの公開 {#public-folder-publish}
 
-Unless the **Public Folder Publish** option is selected while configuring Brand Portal replication, non-admin users (such as Editors and Viewers) do not have access to assets published from AEM Assets to Brand Portal.
+Unless the [!UICONTROL Public Folder Publish] option is selected while configuring Brand Portal replication, non-admin users (such as Editors and Viewers) do not have access to assets published from AEM Assets to Brand Portal.
 
 ![](assets/assetbpreplication.png)
 
-**「公開フォルダー公開** 」オプションが無効になっている場合、管理者は共有機能を使用して、管理者以外のユーザーとこれらのアセットを具体的に共有する必要があります。
+[!UICONTROL 「公開フォルダー公開] 」オプションが無効になっている場合、管理者は共有機能を使用して、管理者以外のユーザーとこれらのアセットを具体的に共有する必要があります。
 
 >[!NOTE]
 >
->**公開フォルダの公開** を有効にするオプションは、AEM6.3.2.1以降で使用できます。
+>[!UICONTROL 公開フォルダの公開] を有効にするオプションは、AEM6.3.2.1以降で使用できます。
 
 ## 共有フォルダーへのアクセス {#access-to-shared-folders}
 
@@ -57,11 +57,11 @@ Unless the **Public Folder Publish** option is selected while configuring Brand 
 | 閲覧者 | 不可* | 可。ただし、そのユーザーと共有されている場合、またはそのユーザーの所属グループと共有されている場合のみです。 | 不可 |
 | ゲストユーザー | 不可* | 可。ただし、そのユーザーと共有されている場合、またはそのユーザーの所属グループと共有されている場合のみです。 | 不可 |
 
-**デフォルトでは、AEM Authorを使用してブランドポータルのレプリケーションを設定する際に&#x200B;**、「公開フォルダー公開**」オプションは無効になります。このオプションが有効になっている場合は、Brand Portal に公開されているフォルダーが、デフォルトですべてのユーザー（管理者以外のユーザーも含む）にアクセス可能になります。*
+**デフォルトでは、AEM Authorを使用してブランドポータルのレプリケーションを設定する際に[!UICONTROL 、「公開フォルダー公開]」オプションは無効になります。このオプションが有効になっている場合は、Brand Portal に公開されているフォルダーが、デフォルトですべてのユーザー（管理者以外のユーザーも含む）にアクセス可能になります。*
 
 ### 管理者以外のユーザーによる共有フォルダーへのアクセス {#non-admin-user-access-to-shared-folders}
 
-管理者以外のユーザーは、Brand Portal 上でそのユーザーに共有されているフォルダーにのみアクセスできます。ただし、ポータルにログインしたときにこれらのフォルダーがどのように表示されるかは、「フォルダー階層を有効化」の設定によって異なります。
+管理者以外のユーザーは、Brand Portal 上でそのユーザーに共有されているフォルダーにのみアクセスできます。However, how these folders are displayed on the portal when they log in depends on the settings of [!UICONTROL Enable Folder Hierarchy] configuration.
 
 **この設定が無効な場合**
 
@@ -75,7 +75,7 @@ Unless the **Public Folder Publish** option is selected while configuring Brand 
 
 これらの親フォルダーは仮想フォルダーであり、これらに対してアクションを実行することはできません。仮想フォルダーは鍵のアイコン付きで表示されます。
 
-カード表示でこれらをカーソルで指したり選択したりしても、共有フォルダーとは異なり、アクションタスクは表示されません。列表示やリスト表示で仮想フォルダーを選択すると「概要」ボタンが表示されます。
+No action tasks are visible on hovering or selecting them in [!UICONTROL Card View], unlike the shared folders. [!UICONTROL 列ビュー] および [!UICONTROL リストビューで仮想フォルダーを選択するときに、概要ボタンが表示]されます。
 
 >[!NOTE]
 >
@@ -87,11 +87,11 @@ Unless the **Public Folder Publish** option is selected while configuring Brand 
 
 フォルダーを Brand Portal 上でユーザーと共有するには、次の手順を実行します。
 
-1. 左側のオーバーレイアイコンをクリックし、「**ナビゲーション**」を選択します。
+1. Click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.
 
    ![](assets/selectorrail.png)
 
-2. From the siderail on the left, select **Files**.
+2. From the siderail on the left, select **[!UICONTROL Files]**.
 
    ![](assets/access_files.png)
 
@@ -99,25 +99,26 @@ Unless the **Public Folder Publish** option is selected while configuring Brand 
 
    ![](assets/share-folders.png)
 
-4. From the toolbar at the top, select **Share**.
+4. From the toolbar at the top, select **[!UICONTROL Share]**.
 
    ![](assets/share_icon.png)
 
-   **フォルダーのプロパティ**&#x200B;コンソールが表示されます。
+   [!UICONTROL フォルダーのプロパティ]コンソールが表示されます。
 
    ![](assets/folder_properties.png)
 
-5. デフォルトの名前をユーザーに表示しないようにする場合は、**フォルダーのプロパティ**&#x200B;コンソールで、「**フォルダーのタイトル**」フィールドにフォルダーのタイトルを指定します。
-6. 「**ユーザーを追加**」リストで、フォルダーを共有するユーザーまたはグループを選択して、「**追加**」をクリックします。To share the folder with guest users only, and no other users, select **Anonymous Users** from the **Members** dropdown.
+5. デフォルトの名前をユーザーに表示しないようにする場合は、[!UICONTROL フォルダーのプロパティ]コンソールで、「[!UICONTROL フォルダーのタイトル]」フィールドにフォルダーのタイトルを指定します。
+6. From the [!UICONTROL Add User] list, select the users or groups with which you want to share the folder, and click **[!UICONTROL Add]**.
+To share the folder with guest users only, and no other users, select **[!UICONTROL Anonymous Users]** from the [!UICONTROL Members] dropdown.
 
    ![](assets/only-anonymous.png)
 
    >[!NOTE]
    >
-   >To make the folder available to all users irrespective of their group membership and role, make it public by selecting the **Public Folder** check box.
+   >To make the folder available to all users irrespective of their group membership and role, make it public by selecting the **[!UICONTROL Public Folder]** check box.
 
-7. 必要であれば、「**サムネールを変更**」をクリックしてフォルダーのサムネール画像を変更します。
-8. 「**保存**」をクリックします。
+7. 必要であれば、「**[!UICONTROL サムネールを変更]」をクリックしてフォルダーのサムネール画像を変更します。**
+8. Click **[!UICONTROL Save]**.
 9. 共有フォルダーにアクセスするには、フォルダーを共有しているユーザーの資格情報を使用してブランドポータルにログインします。インターフェイスで共有フォルダーを確認します。
 
 ## フォルダーの共有解除 {#unshare-the-folders}
@@ -128,11 +129,11 @@ Unless the **Public Folder Publish** option is selected while configuring Brand 
 
    ![](assets/share-folders-1.png)
 
-2. From the toolbar at the top, click **Share**.
-3. **Folder Properties** コンソールの **"Members**」で、ユーザーの横の **x** 記号をクリックして、フォルダーを共有しているユーザーのリストから削除します。
+2. From the toolbar at the top, click **[!UICONTROL Share]**.
+3. [!UICONTROL Folder Properties] コンソールの [!UICONTROL "Members]」で、ユーザーの横の **[!UICONTROL x]** 記号をクリックして、フォルダーを共有しているユーザーのリストから削除します。
 
    ![](assets/folder_propertiesunshare.png)
 
-4. 警告メッセージボックスの「**確認**」をクリックして、共有を解除することを確認します。「**Save**」をクリックします。
+4. 警告メッセージボックスの「**[!UICONTROL 確認]」をクリックして、共有を解除することを確認します。** Click **[!UICONTROL Save]**.
 
 5. 共有リストから削除したユーザーの資格情報を使用してブランドポータルにログインします。このフォルダーは、ユーザーのブランドポータルインターフェイスでは使用できません。
