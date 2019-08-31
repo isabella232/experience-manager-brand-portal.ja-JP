@@ -10,30 +10,30 @@ content-type: reference
 products: SG_ PREPERNEMENTMANAGER/Brand_ Portal
 discoiquuid: f4c237bc- f6a4-4bc4- af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: ea7fdd2df0696ed309227fa77e3f79d0141bcb58
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
 # 管理者の一般テナント設定 {#administer-general-tenant-configurations}
 
-[!DNL AEM] アセット [!DNL Brand Portal] を使用すると、組織は特定のテナントに次の機能を設定できます。
+AEM Assets Brand Portal では、各組織が特定のテナントについて以下の機能を設定することができます。
 
 * 管理者によるアセットの削除
-* Public [!UICONTROL collection] creation by non-admin users
-* Public smart [!UICONTROL collection] creation by non-admin users
+* 管理者以外のユーザーによる公開コレクションの作成
+* 管理者以外のユーザーによる公開スマートコレクションの作成
 * ダウンロードアクセラレーション
 * 管理者以外のユーザーが見られる共有フォルダーの親階層
 
-These configurations have been provided as **General Settings** configurations on the administrative tools panel.
+These configurations have been provided as **[!UICONTROL General Settings]** configurations on the administrative tools panel.
 
 ![](assets/general-configs.png)
 
-**管理者がアセットを削除できる** 設定 [!DNL Brand Portal]。（デフォルトでは有効になっています）
+**管理者がブランドポータルからアセットを削除できる** ようにするための設定です。（デフォルトでは有効になっています）
 
-**B** 設定 を参照してください。（デフォルトは有効です）
+**B** 設定を参照してください。（デフォルトでは有効になっています）
 
-**C** 設定 を参照してください。（デフォルトは有効です）
+**C** 管理者以外のユーザーに対し、公開スマートコレクションを作成することを許可する設定。（デフォルトでは有効になっています）
 
 **D** 設定を参照してください。（デフォルトでは無効になっています）
 
@@ -44,28 +44,28 @@ These configurations have been provided as **General Settings** configurations o
 これらの設定を有効化／無効化するには、次のようにします。
 
 1. 管理者権限でログインします。
-2. Select the [!DNL AEM] logo to access administrative tools, from the toolbar at the top.
-3. From the administrative tools panel, select **General** to open the **General Settings** page.
+2. 管理ツールにアクセスするには、上部のツールバーにある AEM ロゴを選択します。
+3. From the administrative tools panel, select **[!UICONTROL General]** to open the **[!UICONTROL General Settings]** page.
 4. それぞれの切り替えスイッチを使用して一般設定を有効化／無効化します。
-5. **変更内容を保存します。**
+5. **[!UICONTROL 変更内容を保存します。]**
 6. ログアウトして変更を有効にします。
 
-## Allow admin users to delete assets from [!DNL Brand Portal] {#allow-admin-users-to-delete-assets-from-brand-portal}
+## 管理者が Brand Portal からアセットを削除することを許可 {#allow-admin-users-to-delete-assets-from-brand-portal}
 
-**ユーザーが設定を削除** できるようにすることで、管理者権限を持つユーザーがアセットやフォルダを削除する（または制限する）ことができ [!DNL Brand Portal]ます。
+**[!UICONTROL ユーザーが設定を削除]** できるようにすることで、組織は、管理者権限を持つユーザーをブランドポータルから削除（または制限）することができます。
 
 ## 管理者以外による公開コレクションの作成を許可 {#allow-public-collections-creation-by-non-admins}
 
-[公開 [!UICONTROL コレクション]の作成を許可]（./using/brand- portal- share-[!UICONTROL collection]. md# main- pars- text-1915052376）設定で、管理者以外のユーザーが公開 [!UICONTROL コレクション]を作成できるかどうかを制御 [!DNL Brand Portal]します。この設定はデフォルトで有効です。By disabling the configuration organizations can prevent having numerous public [!UICONTROL collection]s on their portal so that system space can be saved.
+[[!UACROL「公開コレクションを許可」](../using/brand-portal-share-collection.md#main-pars-text-1915052376) 設定は、管理者以外のユーザーがブランドポータル上で公開コレクションを作成できるかどうかを制御します。この設定はデフォルトで有効です。この設定を無効にすると、ポータル上に多数の公開コレクションが作成されることを防止できるので、システム領域を節約できます。
 
 ## 管理者以外による公開スマートコレクションの作成を許可 {#allow-public-smart-collections-creation-by-non-admins}
 
-[公開スマートコレクションの作成](../using/brand-portal-searching.md#main-pars-header-500620467) を許可すると、管理者以外の管理者が検索をスマート [!UICONTROL コレクション] として保存し、そのテナントに対して公開することができます。この設定はデフォルトで有効です。By disabling the configuration organizations can prevent having a huge number of public smart [!UICONTROL collections] created by non-admin users on organization's [!DNL Brand Portal].
+[[!UACROL「公開スマートコレクションを許可」](../using/brand-portal-searching.md#main-pars-header-500620467) 設定は、管理者以外の管理者が検索をスマートコレクションとして保存し、そのテナントに対して公開できるかどうかを制御します。この設定はデフォルトで有効です。この設定を無効にすると、管理者以外のユーザーが組織の Brand Portal 上に多数の公開スマートコレクションを作成することを防止できます。
 
 ## ダウンロードアクセラレーションを許可 {#allow-download-acceleration}
 
-「[ダウンロードアクセラレーションを許可](../using/accelerated-download.md)[!DNL Brand Portal]」設定では、 や共有リンクからのアセットの高速ダウンロードを許可できます。これはインストールオンデマンドアプリケーションである IBM Aspera Connect との連携によって実現されます。このアプリケーションは TCP オーバーヘッドをなくす独自のテクノロジを使用しています。
+[[!UACROLを許可するダウンロードアクセラレーションを](../using/accelerated-download.md) 使用すると、企業は、インストールオンデマンドアプリケーションであるIBM Avera Connectと統合して、ブランドポータルおよび共有リンクからのアセットの高速ダウンロードを許可できます。このアプリケーションは TCP オーバーヘッドをなくす独自のテクノロジを使用しています。
 
 ## フォルダー階層の有効化 {#enable-folder-hierarchy}
 
-「[フォルダー階層を有効化](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders)」設定では、管理者以外のユーザー（エディター、閲覧者、ゲストユーザー）がログイン後に目にする共有フォルダーの表示を管理者が制御できます。
+[[!UACROLを有効にするフォルダ階層を](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) 使用すると、管理者は管理者以外のユーザー（エディター、ビューアおよびユーザーユーザー）がログイン後に共有フォルダーを表示する方法を制御できます。
