@@ -9,20 +9,20 @@ products: SG_ PREPERNEMENTMANAGER/Brand_ Portal
 topic-tags: ダウンロードインストール
 discoiquuid: ed79b120- a1c1-479c- a843-6546dcc660d7
 translation-type: tm+mt
-source-git-commit: 32c3cdb8e3fafd74cfb36e6bcfe0811e7152b2d0
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
 # Lightbox コレクションの管理 {#manage-the-lightbox-collection}
 
-[!DNL lightbox] は、アセットに容易にアクセスするための特別なタイプのコレクションです。Each user has an exclusive [!DNL lightbox] that is automatically created when they log in to [!DNL Brand Portal] for the first time. [!DNL lightbox] コレクションを削除できません。
+[!UICONTROL Lightbox は、アセットに容易にアクセスするための特別なタイプのコレクションです。]Each user has an exclusive [!UICONTROL Lightbox] that is automatically created when they log in to Brand Portal for the first time. [!UICONTROL ライトボックス] コレクションは削除できません。
 
 ## Lightbox へのアセットの追加 {#add-assets-to-lightbox}
 
-To add assets to [!DNL lightbox], do the following:
+[!UICONTROL ライトボックス]にアセットを追加するには、次の手順を実行します。
 
-1. Navigate to the location of the assets that you want to add to [!DNL lightbox], and select the assets.
+1. [!UICONTROL ライトボックス]に追加するアセットの場所に移動し、アセットを選択します。
 
    ![](assets/link_sharing_assetselection.png)
 
@@ -30,30 +30,30 @@ To add assets to [!DNL lightbox], do the following:
 
    ![](assets/add_to_collection.png)
 
-3. **コレクションに追加**&#x200B;ページでは、 コレクションがデフォルトで選択されています。[!DNL lightbox]
+3. **[!UICONTROL コレクションに追加]ページでは、Lightbox コレクションがデフォルトで選択されています。**
 
-   「**追加**」をクリックします。The selected assets are added to [!DNL lightbox].
+   Click **[!UICONTROL Add]**. The selected assets are added to the [!UICONTROL Lightbox].
 
    ![](assets/add_to_collectionlightbox.png)
 
-4. To review the assets added to [!DNL lightbox], click **Collections** on the left rail, and then click the [!DNL lightbox] collection.
+4. [!UICONTROL ライトボックス]に追加されたアセットを確認するには、左側のナビゲーションバーの **[!UICONTROL 「コレクション」]** をクリックし、 **[!UICONTROL ライトボックス]** コレクションをクリックします。
 
    ![](assets/collections_lightbox.png)
 
-   The assets added to [!DNL lightbox] appear in the [!DNL lightbox] page.
+   [!UICONTROL ライトボックス] に追加されたアセットが [!UICONTROL ライトボックス] ページに表示されます。
 
    ![](assets/added_to_collectionlightbox.png)
 
 ## Lightbox からのアセットの削除 {#remove-assets-from-lightbox}
 
-1. To review the assets in [!DNL lightbox], click **Collections** on the left rail, then click the [!DNL lightbox] collection.
+1. [!UICONTROL ライトボックス]のアセットを確認するには、左側のナビゲーションバーの **[!UICONTROL 「コレクション」]** をクリックし、 [!UICONTROL ライトボックス] コレクションをクリックします。
 
    ![](assets/collections_lightbox-1.png)
 
-2. コレクションから削除するフォルダーを選択し、上部のツールバーの「**削除**」をクリックします。
+2. コレクションから削除するフォルダーを選択し、上部のツールバーの「**[!UICONTROL 削除]」をクリックします。**
 
    ![](assets/collections_lightboxdelete.png)
 
-3. From the warning message box, click **Remove** to confirm removal.
+3. From the warning message box, click **[!UICONTROL Remove]** to confirm removal.
 
-The folder is deleted from the [!DNL lightbox] collection.
+The folder is deleted from the [!UICONTROL Lightbox] collection.
