@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: ダウンロードインストール
 discoiquuid: e18d992a- a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: d605cdd0083e8e222a3c937ea91d2c04201ab99b
 
 ---
 
@@ -106,13 +106,10 @@ Brand Portal テナントで Dynamic Media 設定をセットアップするに�
 
 1. Brand Portal で上部のツールバーにある AEM ロゴをクリックして、管理ツールにアクセスします。
 
-2. From the administrative tools panel, select the **[!UICONTROL Video]** tile.
-
-![Brand Portal での Dynamic Media ハイブリッドの設定](assets/DMHybrid-Video.png)
-
-**[!UICONTROL ダイナミックメディア設定]** ページが開きます。
-
-![Brand Portal での Dynamic Media ハイブリッドの設定](assets/edit-dynamic-media-config.png)
+2. From the administrative tools panel, select the **[!UICONTROL Video]** tile.<br />
+   ![Brand Portal での Dynamic Media ハイブリッドの設定](assets/DMHybrid-Video.png)
+   **[!UICONTROL ダイナミックメディア設定]** ページが開きます。<br />
+   ![Brand Portal での Dynamic Media ハイブリッドの設定](assets/edit-dynamic-media-config.png)
 
 3. **[!UICONTROL 登録ID]** および **[!UICONTROL ビデオサービスURL]** （DM- Gateway URL）を指定します。これらの詳細が、AEM オーサーインスタンスの&#x200B;**[!UICONTROL ツール／クラウドサービス]で指定した詳細と同じであることを確認してください。**
 
@@ -126,12 +123,10 @@ To set up Dynamic Media [!UICONTROL Scene 7] configurations on Brand Portal tena
 
 1. Brand Portal で上部のツールバーにある AEM ロゴをクリックして、管理ツールにアクセスします。
 
-2. From the administrative tools panel, select the **[!UICONTROL Dynamic Media Configuration]** tile.
+2. From the administrative tools panel, select the **[!UICONTROL Dynamic Media Configuration]** tile.<br />
    ![[!UICONTROL Brand Portal での Dynamic Media Scene7 の設定]](assets/DMS7-Tile.png)
-
-[!UICONTROL ダイナミックメディア設定] ページが開きます。
-
-![Brand Portal での Scene7 の設定](assets/S7Config.png)
+   [!UICONTROL ダイナミックメディア設定] ページが開きます。<br />
+   ![Brand Portal での Scene7 の設定](assets/S7Config.png)
 
 3. 以下を指定します。
    * [!UICONTROL タイトル]
