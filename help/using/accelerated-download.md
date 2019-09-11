@@ -7,10 +7,10 @@ uuid: 2871137e-6471-49a7-872a-841bd92543d1
 contentOwner: ムムラティ
 topic-tags: ダウンロードインストール
 content-type: reference
-products: SG_ PREPERNEMENTMANAGER/Brand_ Portal
+products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac- b731- bfc145ped0c0
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: fb8243ea896d39b324a69ea534271ee3015c076f
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ファイルをすばやくダウンロードするには、次のことを確認してください。
 
-* **[!UICONTROL 管理ツールパネルの]**[!UICONTROL 「一般設定] 」から、「ダウンロードの加速（デフォルトで無効）」を有効にします。
+* **[!UICONTROL 管理ツールパネルの]**[!UICONTROL 一般設定] から、ダウンロードの加速（デフォルトでは無効）を有効にします。
 * ポート33001（TCPとUDPの両方）がファイアウォールで開きます。前提条件について詳しくは [、Atla Connect Clientドキュメント](https://downloads.asperasoft.com/en/documentation/8)を参照してください。
 * 管理者権限を使用してAtla Connectをインストールします。
 * For platform support of Aspera transfer client, see [Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
