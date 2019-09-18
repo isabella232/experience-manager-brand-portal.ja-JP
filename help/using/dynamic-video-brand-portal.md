@@ -4,21 +4,20 @@ seo-title: Brand Portal でのダイナミックビデオのサポート
 description: Brand Portal でのダイナミックビデオのサポート
 seo-description: Brand Portal でのダイナミックビデオのサポート
 uuid: a3502a4d-3971-4ea4-953c-44ba04446269
-contentOwner: ムムラティ
-products: SG_ PREPERNEMENTMANAGER/Brand_ Portal
+contentOwner: mgulati
+products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
-topic-tags: ダウンロードインストール
-discoiquuid: e18d992a- a3b5-45f2-9696-8161993213ee
+topic-tags: download-install
+discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
-source-git-commit: d605cdd0083e8e222a3c937ea91d2c04201ab99b
+source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
 
 ---
 
 
 # Brand Portal でのダイナミックビデオのサポート {#dynamic-video-support-on-brand-portal}
 
-Dynamic Media をサポートしている Brand Portal でビデオをアダプティブにプレビューおよび再生します。ポータルおよび共有リンクから動的レンディションをダウンロードします。
- Brand Portal を使用すると、次のことが可能になります。
+Dynamic Media をサポートしている Brand Portal でビデオをアダプティブにプレビューおよび再生します。また、ポータルおよび共有リンクから動的レンディションをダウンロードします。 Brand Portal を使用すると、次のことが可能になります。
 
 * アセットの詳細ページ、カード表示、リンク共有のプレビューページでビデオをプレビューする。
 * アセットの詳細ページでビデオエンコードを再生する。
@@ -31,15 +30,15 @@ Dynamic Media をサポートしている Brand Portal でビデオをアダプ�
 
 ビデオをプレビュー、再生、ダウンロードするために、Brand Portal では次の 2 つの設定を管理者に公開しています。
 
-* [Dynamic Mediaハイブリッド設定](#configure-dm-hybrid-settings)（AEM作成者インスタンスがダイナミックメディアハイブリッドモードで実行されている場合）
-* [ダイナミックメディア[!DNL Scene7] AEM作成者インスタンス](#configure-dm-scene7-settings)がダイナミックメディア[!DNL Scene 7] モードで実行されている場合に設定。
+* [ダイナミックメディアハイブリッ](#configure-dm-hybrid-settings)ド設定：AEM作成者インスタンスがダイナミックメディアハイブリッドモードで実行されている場合。
+* [ダイナミックメディア[!DNL Scene 7]の設定](#configure-dm-scene7-settings)AEM作成者インスタンスがダイナミックメディアモードで実行され[!DNL Scene 7] ている場合。
 Brand Portal テナントの複製先となる AEM オーサーインスタンスに指定した設定に基づいて、これらの設定のいずれかを指定します。
 
 >[!NOTE]
 >
 >Dynamic videos are not supported on Brand Portal tenants integrated with AEM Author running on [!UICONTROL Scene7Connect] runmode.
 
-## How are dynamic videos played? {#how-are-dynamic-videos-played}
+## ダイナミックビデオの再生方法{#how-are-dynamic-videos-played}
 
 ![ビデオエンコードはクラウドから取得される](assets/VideoEncodes.png)
 
@@ -55,18 +54,17 @@ As video encodes are not stored in Brand Portal repository and are fetched from 
 
 Brand Portal 上でダイナミックビデオを操作するには、必ず以下をおこなってください。
 
-* **AEM Author on DM（Dynamic Media）モード**の起動:
- [Dynamic Mediaハイブリッドモード](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) または [Dynamic Media[!DNL Scene7]モード](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode)。
-* **AEM作成者**&#x200B;の動的メディアクラウドサービスの設定AEM作成者の動的メディアモードの実行中、 [Dynamic Mediaクラウドサービス](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices) のいずれかまたは [[!ツールからのAEM作成者](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) のDNL **Scene7]クラウドサービス** | **クラウドサービス** | **ダイナミックメディア**。
-* **ダイナミックメディアの設定（AEM作成者のダイナミックメディアクラウド設定に**&#x200B;基づく）、ダイナミックメディア設定の設定 [](#configure-dm-hybrid-settings) 、 [または[!ブランドポータル管理ツール](#configure-dm-scene7-settings) からのDNL Scene7の設定。
+* **AEM作成者をDMで起動（ダイナミックメディア）モード** Dynamic Media Hybridモードまたは [Dynamic Media [!DNL Scene 7]モードで、AEM作成者インスタンス（Brand portalの統合に使用）を起動します](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia)[](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode)。
+* **AEM AuthorでのDynamic Media cloudサービスの設定AEM Authorが実行しているダイナミックメディアモードに基づいて、ツールから** AEM Authorで [Dynamic Media cloudサービス](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices) [!DNL Scene 7]クラウドサービスを設定 [します](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices)**** 。|クラ **ウドサービス** |ダイナ **ミックメディア**。
+* **Brand portalでのダイナミックメディアの設定** AEM Authorのダイナミックメディアクラウドの設定に基づいて、ダイナミックメディアの設定を行うか [、Brand portal管理ツールの](#configure-dm-hybrid-settings) [!DNL Scene 7]設定を行います [](#configure-dm-scene7-settings) 。
 Make sure that [separate Brand Portal tenants](#separate-tenants) are used for AEM Author instances configured with Dynamic Media Hybrid and Dynamic Media [!UICONTROL Scene7] modes, if you are using functionalities of Dynamic Media Hybrid and Dynamic Media [!UICONTROL S7].
-* **ブランドポータル**&#x200B;適用 [ビデオエンコーディング](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) に適用されたビデオエンコードを使用してフォルダーを公開し、AEM作成者インスタンスからブランドポータルにリッチメディアアセットを含むフォルダーを公開します。
-* **ホワイトリストに登録されている場合、SPSで保護されたプレビュー機能**&#x200B;を有効にして[!DNL Scene 7] いる場合（会社に [セキュアプレビューを有効](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) にした場合）、 [!DNL Scene 7] 会社管理者 [は、SPS（](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)[!UICONTROL Scene7] Publishing System）フラッシュUIを使用して、会社の管理者が各地域に対して公開IPアドレスをホワイトリストに登録することをお勧めします。
- エグレス IP は次のとおりです。
+* **Brand portalに適用されたビデオエンコードを含むフォルダーを発行**&#x200B;す [るビデオエンコードを適用し](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) 、AEM AuthorインスタンスからBrand portalにリッチメディアアセットを含むフォルダーを発行します。
+* **セキュアプレビューが有効な場合** Scene7のホワイトリスト出力IPs Dynamic Media-[!DNL Scene 7] (会社のセキュアプレビューが有効な場合 [)を使用する場合、会社の管理者は、各SPS](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) SPS [!DNL Scene 7] SPS [SPS SPS](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) SPS SCENE公開システム（UIフラッシュ）を使用している場合)を公開
+エグレス IP は次のとおりです。
 
 | **地域** | **エグレス IP** |
 |--- |--- |
-| NA | 192.243.237.86 |
+| 該当なし | 192.243.237.86 |
 | EMEA | 185.34.189.4 |
 | APAC | 63.140.44.54 |
 
@@ -76,23 +74,24 @@ To whitelist either of these egress IPs, see [prepare your account for secure te
 
 ダイナミックビデオアセットが Brand Portal（および共有リンク）から正常にプレビュー、再生、ダウンロードされるようにするには、次のベストプラクティスに従います。
 
-### ダイナミックメディアハイブリッドモードおよびダイナミックメディアScene7モードのための個別のテナント {#separate-tenants}
+### Dynamic Media ハイブリッドモードと Dynamic Media Scene7 モードでテナントが異なる {#separate-tenants}
 
-ダイナミックメディア [!DNL Scene 7] とダイナミックメディアハイブリッド機能の両方を使用している場合は、ダイナミックメディアのハイブリッドモードとダイナミックメディア [!DNL Scene 7] モードで設定されたAEM作成者インスタンスごとに異なるブランドポータルテナントを使用することをお勧めします。
+If you are using both Dynamic Media [!DNL Scene 7] and Dynamic Media Hybrid features, it is advised that you use different Brand Portal tenants for AEM Author instances configured with Dynamic Media Hybrid and Dynamic Media [!DNL Scene 7] modes.
+
 ![オーサーと BP が 1 対 1 に対応](assets/BPDynamicMedia.png)
 
-### AEM作成者インスタンスおよびブランドポータルでの同じ設定の詳細
+### AEM オーサーインスタンスと Brand Portal で設定の詳細が同じ
 
-[!UICONTROL タイトル]、 [!UICONTROL 登録ID]、 [!UICONTROL ビデオサービスURL] （ [!UICONTROL ダイナミックメディアハイブリッド]内）、 [!UICONTROL タイトル]、資格情報（[!UICONTROL 電子メール] とパスワード）、 [!UICONTROL 地域]、 [!UICONTROL 会社] （ダイナミックメディア [!DNL Scene 7]）などの設定の詳細は、ブランドポータルと [!UICONTROL AEMクラウドの設定で同じ]です。
+[!UICONTROL Dynamic], [!UICONTROL Registration ID], [!DNL Scene 7]Video Service URL (Dynamic Media Hybrid Title, Dynamic Media Email Email, PasswordEmailEmail, PasswordEMediaIn,MandiaInManMeManyMeポータルとAEMクラウドの設定を参照してください。
 
-### Dynamic Media Scene7モード用のホワイトリストの公開IPモード
+### Dynamic Media Scene7 モードの公開エグレス IP をホワイトリストに登録する
 
-ビデオアセットをブランドポータルに提供するために、Dynamic Media [!UICONTROL Scene7]の [セキュアプレビューを有効にし](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)た場合、 [!UICONTROL Scene7] はステージング環境または内部アプリケーション用に専用の画像サーバを確立します。このサーバーへのリクエストはすべて、発信元 IP アドレスをチェックします。受信リクエストが IP アドレスの承認済みリストに含まれていない場合は、失敗のレスポンスが返されます。The [!UICONTROL Scene-7] Company Administrator, therefore, configures an approved list of IP addresses for their company’s [!UICONTROL Secure Testing] environment, through [!UICONTROL SPS] (Scene-7 Publishing System) flash UI. 該当するそれぞれの地域のエグレス IP（以下を参照）を、その承認済みリストに必ず追加してください。To whitelist either of these egress IPs, see [prepare your account for secure testing service](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
-受信者のIPアドレスは次のとおりです。
+Dynamic Media [!UICONTROL Scene 7]-having [secure preview enabled](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)-inを使用してビデオアセットをBrand Portalに提供する場合、 [!UICONTROL Scene 7] は、ステージング環境または内部アプリケーション用の専用のイメージサーバを確立します。 このサーバーへのリクエストはすべて、発信元 IP アドレスをチェックします。受信リクエストが IP アドレスの承認済みリストに含まれていない場合は、失敗のレスポンスが返されます。The [!UICONTROL Scene-7] Company Administrator, therefore, configures an approved list of IP addresses for their company’s [!UICONTROL Secure Testing] environment, through [!UICONTROL SPS] (Scene-7 Publishing System) flash UI. 該当するそれぞれの地域のエグレス IP（以下を参照）を、その承認済みリストに必ず追加してください。To whitelist either of these egress IPs, see [prepare your account for secure testing service](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
+エグレス IP は次のとおりです。
 
 | **地域** | **エグレス IP** |
 |--- |--- |
-| NA | 192.243.237.86 |
+| 該当なし | 192.243.237.86 |
 | EMEA | 185.34.189.4 |
 | APAC | 63.140.44.54 |
 
@@ -101,17 +100,17 @@ To whitelist either of these egress IPs, see [prepare your account for secure te
 If AEM Author instance is running on dynamic media hybrid mode, then use [!UICONTROL Video] tile from administrative tools panel to configure Dynamic Media gateway settings.
 >[!NOTE]
 >
->[ビデオエンコーディングプロファイル](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) は、代わりにScene7  サーバから取得され、ブランドポータルに公開されません。Therefore, for video encodes to be played successfully in Brand Portal, ensure that the configuration details are the same as the [[!UICONTROL Scene7 cloud configuration]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) in your AEM Author instance.
+>The [video encoding profiles](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) are not published to Brand Portal, instead are fetched from the [!UICONTROL Scene 7] server. Therefore, for video encodes to be played successfully in Brand Portal, ensure that the configuration details are the same as the [[!UICONTROL Scene7 cloud configuration]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) in your AEM Author instance.
 Brand Portal テナントで Dynamic Media 設定をセットアップするには：
 
 1. Brand Portal で上部のツールバーにある AEM ロゴをクリックして、管理ツールにアクセスします。
 
 2. From the administrative tools panel, select the **[!UICONTROL Video]** tile.<br />
    ![Brand Portal での Dynamic Media ハイブリッドの設定](assets/DMHybrid-Video.png)
-   **[!UICONTROL ダイナミックメディア設定]** ページが開きます。<br />
+   **[!UICONTROL Dynamic Media 設定を編集]**&#x200B;ページが開きます。<br />
    ![Brand Portal での Dynamic Media ハイブリッドの設定](assets/edit-dynamic-media-config.png)
 
-3. **[!UICONTROL 登録ID]** および **[!UICONTROL ビデオサービスURL]** （DM- Gateway URL）を指定します。これらの詳細が、AEM オーサーインスタンスの&#x200B;**[!UICONTROL ツール／クラウドサービス]で指定した詳細と同じであることを確認してください。**
+3. Specify **[!UICONTROL Registration ID]** and **[!UICONTROL Video Service URL]** (DM-Gateway URL). これらの詳細が、AEM オーサーインスタンスの&#x200B;**[!UICONTROL ツール／クラウドサービス]で指定した詳細と同じであることを確認してください。**
 
 4. 「**保存**」をクリックして、設定を保存します。
 
@@ -125,14 +124,14 @@ To set up Dynamic Media [!UICONTROL Scene 7] configurations on Brand Portal tena
 
 2. From the administrative tools panel, select the **[!UICONTROL Dynamic Media Configuration]** tile.<br />
    ![[!UICONTROL Brand Portal での Dynamic Media Scene7 の設定]](assets/DMS7-Tile.png)
-   [!UICONTROL ダイナミックメディア設定] ページが開きます。<br />
+   [!UICONTROL Dynamic Media 設定を編集]ページが開きます。<br />
    ![Brand Portal での Scene7 の設定](assets/S7Config.png)
 
 3. 以下を指定します。
    * [!UICONTROL タイトル]
    * Credentials ([!UICONTROL Email ID] and [!UICONTROL Password]) to access the Scene 7 server
-   * [!UICONTROL リージョン]これらの値がAEM作成者インスタンスの値と同じであることを確認してください。
+   * [!UICONTROL 地域]これらの値がAEM作成者インスタンスの値と同じであることを確認します。
 
 4. Select **[!UICONTROL Connect to Dynamic Media]**.
 
-5. **[!UICONTROL 会社名]**&#x200B;を入力し、設定 **[!UICONTROL を保存]** します。
+5. **[!UICONTROL 会社名]**&#x200B;を指定し、設定を&#x200B;**保存[!UICONTROL します。]**
