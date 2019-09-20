@@ -1,6 +1,6 @@
 ---
 source-git-commit: 0b70e82d034ce56fcfc5b49396e6d3a9da4b49d4
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # 投稿
@@ -15,7 +15,7 @@ translation-type: tm+mt
 
 ## 寄稿者ガイドドキュメント
 
-[「寄稿者ガイド](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)」を参照してください。
+[寄稿者ガイド](https://docs.adobe.com/content/help/jp/contributor/contributor-guide/introduction.html)を参照してください。
 
 ## 質問がある場合
 
@@ -23,12 +23,11 @@ translation-type: tm+mt
 
 ## 投稿者使用許諾契約
 
-このプロジェクトへの第三者によるすべての投稿には、署名済みの投稿者使用許諾契約が含まれている必要があります。これにより、アドビはお客様の投稿をプロジェクトの一部として再配布できるようになります。[CLAに署名](http://opensource.adobe.com/cla.html)します。アドビの CLA は一度提出するだけでよいので、以前に提出したことがある場合は、次へ進むことができます。
+このプロジェクトへの第三者によるすべての投稿には、署名済みの投稿者使用許諾契約が含まれている必要があります。これにより、アドビはお客様の投稿をプロジェクトの一部として再配布できるようになります。[CLA に署名](http://opensource.adobe.com/cla.html)してください。アドビの CLA は一度提出するだけでよいので、以前に提出したことがある場合は、次へ進むことができます。
 
 ## コードのレビュー
 
-提出はすべて、プル要求の形でおこなわれ、プロジェクトコミッターのレビューを受ける必要があります。Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/)
-for more information on sending pull requests.
+提出はすべて、プル要求の形でおこなわれ、プロジェクトコミッターのレビューを受ける必要があります。プル要求の送信について詳しくは、[GitHub のプル要求に関するドキュメント](https://help.github.com/articles/about-pull-requests/)を参照してください。
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
@@ -41,4 +40,4 @@ submitting a pull request!
 
 ## セキュリティ上の問題
 
-セキュリティ上の問題は、この問題トラッカーで報告しないでください。Instead, [file an issue to our security experts](https://helpx.adobe.com/security/alertus.html)
+セキュリティ上の問題は、この問題トラッカーで報告しないでください。代わりに、[アドビのセキュリティエキスパートに問題を報告](https://helpx.adobe.com/jp/security/alertus.html)してください。
