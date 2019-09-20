@@ -1,14 +1,14 @@
 ---
 title: リリースノート
 seo-title: リリースノート
-description: Adobe Experience Manager Assetsブランドポータル6.4.4.6およびブランドポータル6.4.4.7リリースおよびブランドポータル6.4.4.7リリースの改良点、重要な問題、既知の問題について説明します。
-seo-description: Adobe Experience Manager Assetsブランドポータル6.4.4.6およびブランドポータル6.4.4.7リリースおよびブランドポータル6.4.4.7リリースの改良点、重要な問題、既知の問題について説明します。
-uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cpdb43
+description: Adobe Experience Manager Assets Brand Portal 6.4.4.6 および Brand Portal 6.4.4.7 リリースの機能強化、修正された重要な問題および既知の問題について説明します。
+seo-description: Adobe Experience Manager Assets Brand Portal 6.4.4.6 および Brand Portal 6.4.4.7 リリースの機能強化、修正された重要な問題および既知の問題について説明します。
+uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
-topic-tags: ブランドポータル
-products: SG_ PREPERNEMENTMANAGER/Brand_ Portal
+topic-tags: brand-portal
+products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aa710fa7c482be517e9df0b0ddaac0fbeca90265
 
 ---
@@ -16,34 +16,34 @@ source-git-commit: aa710fa7c482be517e9df0b0ddaac0fbeca90265
 
 # リリースノート {#release-notes}
 
-Adobe Experience Manager Assetsブランドポータル6.4.4.6およびブランドポータル6.4.4.7リリースおよびブランドポータル6.4.4.7リリースの改良点、重要な問題、既知の問題について説明します。
+Adobe Experience Manager Assets Brand Portal 6.4.4.6 および Brand Portal 6.4.4.7 リリースの機能強化、修正された重要な問題および既知の問題について説明します。
 
 ## リリース情報 {#release-information}
 
 | 製品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| バージョン | 6.4.4.6および6.4.4.7 |
+| バージョン | 6.4.4.6 および 6.4.4.7 |
 | 日付 | 2019 年 8 月 |
 
 ## 概要 {#overview}
 
-Adobe Experience Manager（AEM）アセットブランドポータルを使用すると、承認されたクリエイティブアセットを外部のパーティや社内のビジネスユーザーに容易に取得、制御およびセキュリティで配信できます。アセットの共有を効率化し、アセットの市場投入時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。ブランドポータルを使用すると、会社が承認した形式でアセットを参照、検索、プレビュー、ダウンロードおよび書き出すことができます。
+Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。Brand Portal では、アセットの参照、検索、プレビュー、ダウンロードおよび会社で承認された形式での書き出しを、いつでも、どこでも実行できます。
 
 ## 6.4.4.7 の新機能 {#what-s-new-in-6447}
 
 ### 修正された重要な問題 {#critical-issues-fixed-6447}
 
-このリリースには、次の重要な問題の修正が含まれています。
+このリリースでは、次の重要な問題が修正されています。
 
-* 同時実行を防ぐために、User Syncプロセスを最適化します。
+* 同時実行を防止するために、ユーザー同期プロセスを最適化します。
 
 ## 6.4.4.6 の新機能 {#what-s-new-in-6446}
 
 ### 修正された重要な問題 {#critical-issues-fixed-6446}
 
-このリリースには、次の重要な問題の修正が含まれています。
+このリリースでは、次の重要な問題が修正されています。
 
-* ダウンロードレポート生成のパフォーマンス最適化。
+* ダウンロードレポート生成のためのパフォーマンス最適化。
 
 ## 言語 {#languages}
 
@@ -59,19 +59,19 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 * 簡体字中国語
 * 韓国語
 
-## 認定プラットフォーム {#certified-platforms}
+## 認定プラットフォーム{#certified-platforms}
 
-To ascertain which platforms are certified to run with this release of Brand Portal, refer to the **Support for Touch-optimized UI** column in the table in the **Supported Browsers for Authoring User Interface** section of [Technical Requirements](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
+このリリースの Brand Portal を実行できる認定プラットフォームを確認するには、[技術要件](https://helpx.adobe.com/jp/experience-manager/6-4/sites/deploying/using/technical-requirements.html)の「**オーサリングユーザーインターフェイス向けにサポートされているブラウザー**」節に掲載されている表の「**UI のサポート**」列を参照してください。
 
 ## リンク {#links}
 
-* [Adobe Experience Manager 製品ページ（adobe.com）](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Assets Brand Portal のドキュメント](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html)
+* [Adobe Experience Manager 製品ページ（adobe.com）](http://www.adobe.com/jp/marketing-cloud/experience-manager.html)
+* [Assets Brand Portal のドキュメント](https://helpx.adobe.com/jp/experience-manager/brand-portal/user-guide.html)
 
-## 製品のアクセスとサポート（制限付きサイト） {#product-access-and-support-restricted-sites}
+## 製品のアクセスとサポート（制限付きサイト）{#product-access-and-support-restricted-sites}
 
 以下のサイトは顧客のみ参照できます。アクセス権を必要とする顧客の方は、アドビのアカウントマネージャーにご連絡ください。
 
 * [](https://daycare.day.com) [製品へのアクセス](https://login.marketing.adobe.com)
 
-* [アドビカスタマーケア](https://helpx.adobe.com/contact.html)
+* [アドビカスタマーケア](https://helpx.adobe.com/jp/contact.html)
