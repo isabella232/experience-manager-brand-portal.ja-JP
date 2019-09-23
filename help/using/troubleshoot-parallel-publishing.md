@@ -3,11 +3,11 @@ title: Brand Portal への並列公開における問題のトラブルシュー
 seo-title: Brand Portal への並列公開における問題のトラブルシューティング
 description: 並列公開における問題のトラブルシューティングです。
 seo-description: 並列公開における問題のトラブルシューティングです。
-uuid: 51e45ca-8c96-4c69-84ef-2ef34f3bcde2
-products: SG_ PREPERNEMENTMANAGER/Brand_ Portal
+uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
+products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
-topic-tags: ブランドポータル
-discoiquuid: a4801024- b509-4c51- afd8- e337417e658b
+topic-tags: brand-portal
+discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
@@ -16,15 +16,15 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 # Brand Portal への並列公開における問題のトラブルシューティング {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-ブランドポータルは、AEM Assetsと統合して、AEM Assets作成者インスタンスからシームレスにインジェスト（または公開）したブランドアセットを承認します。[統合](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)が完了すると、AEM Authorは、選択したアセットをブランドポータルのユーザーが承認するために、選択したアセットをブランドポータルクラウドサービスに複製します。複数の複製エージェントがAEM6.2SP1- CFP5]、AEM CFP6.3.0.2および以降を使用して、高速な並行公開を可能にします。
+Brand portalは、AEM Assetsとの統合をサポートし、承認済みのブランドアセットをAEM Assetsオーサーインスタンスからシームレスに取り込む（または公開する）ことができます。 Once [integrated](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html), AEM Author uses a replication agent to replicate the selected asset(s) to Brand Portal cloud service for approved usage by Brand Portal users. 複数のレプリケーションエージェントを使用して、AEM 6.2 SP1-CFP5、AEM CFP 6.3.0.2以降を高速並列パブリッシングに使用します。
 
 >[!NOTE]
 >
->AEM Assets Brand Portal と AEM Assets を適切に連携させるには、AEM 6.4.1.0 にアップグレードすることを推奨します。AEM6.4の制限により、ブランドポータルとの統合の設定中にエラーが発生することがあります。
+>AEM Assets Brand Portal と AEM Assets を適切に連携させるには、AEM 6.4.1.0 にアップグレードすることを推奨します。AEM 6.4では、Brand portalとの統合を設定中にエラーが発生し、レプリケーションが失敗するという制限があります。
 
-[!UICONTROL /etc/cloudservice]のブランドポータルのクラウドサービスを設定すると、必要なすべてのユーザーとトークンが自動生成され、リポジトリに保存されます。クラウドサービスの設定が作成され、複製に必要なサービスユーザーと、コンテンツを複製するために必要なサービスユーザーも作成されます。これによって 4 つのレプリケーションエージェントが作成されます。したがって、AEMからブランドポータルに多数のアセットを公開すると、これらのアセットはラウンドロビンを介して、これらの複製エージェント間でキューに格納され分散されます。
+[!UICONTROL /etc/cloudservice] 下にブランドポータルのクラウドサービスを設定すると、必要なユーザーとトークンがすべて自動生成され、リポジトリに保存されます。クラウドサービスの設定が作成され、レプリケーションに必要なサービスユーザーと、コンテンツをレプリケートするためのレプリケーションエージェントも作成されます。これによって 4 つのレプリケーションエージェントが作成されます。So when you publish numerous assets from AEM to Brand Portal, these are queued and distributed among these replication agents through Round Robin.
 
-However, publishing can fail intermittently due to- large sling jobs, increased Network and [!UICONTROL Disk I/O] on AEM Author instance, or slowed performance of AEM Author instance. したがって、公開を開始する前に複製エージェントとの接続をテストすることをお勧めします。
+However, publishing can fail intermittently due to- large sling jobs, increased Network and [!UICONTROL Disk I/O] on AEM Author instance, or slowed performance of AEM Author instance. そのため、公開を開始する前に、レプリケーションエージェントとの接続テストをおこなうことをお勧めします。
 
 ![](assets/test-connection.png)
 
@@ -36,19 +36,19 @@ However, publishing can fail intermittently due to- large sling jobs, increased 
 2. レプリケーションエージェントが作成されているかを確認します。
 3. 接続をテストします。
 
-**クラウドサービスの作成中のテールログ**
+**クラウドサービスの作成時のテールログ**
 
-直近のログを確認します。レプリケーションエージェントが作成されているかを確認します。レプリケーションエージェントの作成が失敗している場合は、クラウドサービスに小さな変更を加えることでクラウドサービスを編集します。複製エージェントが作成されたかどうかを検証してチェックします。そうでない場合は、サービスを再編集します。
+直近のログを確認します。レプリケーションエージェントが作成されているかを確認します。レプリケーションエージェントの作成が失敗している場合は、クラウドサービスに小さな変更を加えることでクラウドサービスを編集します。検証をおこない、レプリケーションエージェントが作成されているかをもう一度確認します。作成されていない場合は、サービスを再編集します。
 
-クラウドサービスを繰り返し編集しても正しく設定されていない場合は、daycareチケットをレポートします。
+クラウドサービスを何度か編集しても適切に設定されない場合は、Daycare チケットを発行してください。
 
 **レプリケーションエージェントとの接続テスト**
 
 ログを参照して、レプリケーションログにエラーが記録されている場合は、次のようにします。
 
-1. アドビサポートにお問い合わせください。
+1. アドビサポートに問い合わせてください。
 
-2. Retry [clean-up](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) and create publish configuration again.
+2. [クリーンアップ](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config)を再試行し、公開設定をもう一度作成します。
 
 <!--
 Comment Type: remark
@@ -58,27 +58,26 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 <p>?? another thing to check in /useradmin</p>
 -->
 
-### 既存のブランドポータル公開設定のクリーンアップ {#clean-up-existing-config}
+### 既存の Brand Portal 公開設定のクリーンアップ {#clean-up-existing-config}
 
-Most of the times when publishing is not working, the reason can be that the user who is publishing (for example: [!UICONTROL mac-&lt;tenantid&gt;-replication]) doesn't have the latest private key, and hence publish fails with "401 unauthorized" error and no other error is reported in replication agent logs. トラブルシューティングを避けて、代わりに新しい設定を作成することができます。新しい設定を正常に動作させるには、AEM作成者のセットアップから以下をクリーンアップします。
+Most of the times when publishing is not working, the reason can be that the user who is publishing (for example: [!UICONTROL mac-&lt;tenantid&gt;-replication]) doesn't have the latest private key, and hence publish fails with "401 unauthorized" error and no other error is reported in replication agent logs. その場合は、トラブルシューティングをおこなうのではなく、新しい設定を作成することをお勧めします。For the new configuration to work properly, clean up the following from AEM author setup:
 
-1. localhostに [!UICONTROL 移動します。4502/crx/de] （localhostで [!UICONTROL 作成者インスタンスを実行していることを考慮）4502]）:\
-   i. delete/etc/replication/agents.author/mp_replication*\
-   ii. delete/etc/cloudservices/mediaportal/&lt; config_ name&gt;
+1. go to [!UICONTROL localhost:4502/crx/de] (considering you are running author instance on [!UICONTROL localhost:4502]):\
+   i.delete /etc/replication/agents.author/mp_replication*\
+   ii. /etc/cloudservices/mediaportal/&lt;config_name&gt;を削除します。
 
-2. localhostに [!UICONTROL 移動します。4502/useradmin]:\
-   I search for user[!UACROL mac-&lt; endiperd&gt;- replication
-ii delete this user
+2. [!UICONTROL localhost:4502/useradmin] に移動します。\
+   iユーザー[!UICONTROL mac-&lt;tenantid&gt;-replicationii]を検索し、このユーザーを削除します
 
-これによってシステム全体がクリーンアップされます。これで新しい  cloudservice  config and still use the already existing JWT application in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). 新しく作成したクラウド設定から公開鍵を更新する必要があるのではなく、新しいアプリケーションを作成する必要はありません。
+これによってシステム全体がクリーンアップされます。これで新しい      cloudservice  config and still use the already existing JWT application in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). 新しいアプリケーションを作成する必要はなく、新しく作成したクラウド設定から公開鍵を更新するだけで構いません。
 
 ## Developer Connection の JWT アプリケーションテナントの可視性の問題 {#developer-connection-jwt-application-tenant-visibility-issue}
 
-[https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)の場合、現在のユーザーがシステム管理者を保持しているすべてのOrgs（テナント）が表示されます。ここに組織名が表示されない場合や、必要なテナントのアプリケーションを作成できない場合は、そのための十分な（システム管理者の）権限を持っているかを確認してください。
+If on [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/), all the  orgs  (tenants) for which the current users hold system administrator are listed. ここに組織名が表示されない場合や、必要なテナントのアプリケーションを作成できない場合は、そのための十分な（システム管理者の）権限を持っているかを確認してください。
 
-このユーザーインターフェイスでは、テナントの上位10個のアプリケーションのみが表示されるという既知の問題が発生します。アプリケーションを作成したら、そのページにとどまり、URL をブックマークしてください。アプリケーションの一覧ページに移動して、作成したアプリケーションを検索する必要はありません。このブックマークされたURLを直接ヒットして、必要に応じてアプリケーションを更新または削除することができます。
+このユーザーインターフェイスには、既知の問題が 1 つあります。つまり、どのテナントでも上位 10 件のアプリケーションしか表示されないことです。アプリケーションを作成したら、そのページにとどまり、URL をブックマークしてください。アプリケーションの一覧ページに移動して、自分が作成したアプリケーションを探す必要はありません。ブックマークした URL に直接アクセスして、いつでも必要なときにアプリケーションを更新または削除できます。
 
-作成した JWT アプリケーションが適切にリストされない場合があります。そのため、JWT アプリケーションの作成中に URL をメモするかブックマークすることを推奨します。
+作成した JWT アプリケーションが適切にリストされない場合があります。そのため、JWT アプリケーションの作成中に URL をメモするかブックマークすることをお勧めします。
 
 ## 機能していた設定が動作を停止した場合 {#running-configuration-stops-working}
 
@@ -109,6 +108,6 @@ permission
 
 それまで問題なく Brand Portal への公開をおこなっていたレプリケーションエージェントが公開ジョブの処理を停止した場合は、レプリケーションログを確認してください。AEM には自動再試行の機能が組み込まれているので、特定のアセットの公開が失敗しても、自動的に再試行されます。ネットワークエラーなどの問題が断続的に発生している場合でも、再試行するうちに公開が成功することがあります。
 
-連続公開エラーとキューがブロックされている場合は、テスト接続をチェック **** して、レポートされているエラーを解決しようとします。
+If there are continuous publish failures and queue is blocked, then you should check test connection and try to solve the errors that are being reported.****
 
 エラーの内容に基づき、サポートチケットを発行することもできます。その場合は Brand Portal のエンジニアリングチームが問題解決をお手伝いします。
