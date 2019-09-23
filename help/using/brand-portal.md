@@ -137,7 +137,7 @@ Brand Portal 6.4.3以降では、組織はBrand portalテナントの既存のUR
    ![[!UICONTROL アクセスの申請]](assets/bplogin_request_access_2.png)
 
    **シナリオ 1**
-   1. [!UICONTROL Adobe ID、]Enterprise ID [!UICONTROL 、]Federated IDをお持ちの場合は、「サインイン [!UICONTROL 」をクリ]****ックします。
+   1. If you have an [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID], click **[!UICONTROL Sign In]**.
 [!UICONTROL ログイン]ページが開きます。
    2. [!UICONTROL Adobe ID資格情報を入力し、] 「サインイン」をク **[!UICONTROL リックします]**。<br />
    ![アドビへのログイン](assets/bplogin_request_access_3.png)
@@ -149,7 +149,7 @@ Brand Portal 6.4.3以降では、組織はBrand portalテナントの既存のUR
    2. Click **[!UICONTROL Get an Adobe ID]**.
 [!UICONTROL 新規登録]ページが開きます。
    3. 名前、電子メール ID およびパスワードを入力します。
-   4. 「入会」 **[!UICONTROL を選択します]**。<br />
+   4. Select Sign up.****<br />
    ![](assets/bplogin_request_access_5.png)
 
    [!UICONTROL アクセスを申請]ページにリダイレクトされます。
