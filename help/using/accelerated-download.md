@@ -1,27 +1,27 @@
 ---
-title: ブランドポータルのダウンロード速度の向上
-seo-title: ブランドポータルのダウンロード速度の向上
+title: Speed up the Brand Portal downloads
+seo-title: Speed up the Brand Portal downloads
 description: Brand Portal および共有リンクからのダウンロードパフォーマンスを強化します。
 seo-description: Brand Portal および共有リンクからのダウンロードパフォーマンスを強化します。
 uuid: 2871137e-6471-49a7-872a-841bd92543d1
-contentOwner: ムムラティ
-topic-tags: ダウンロードインストール
+contentOwner: mgulati
+topic-tags: download-install
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 301f7a0b-5527-4aac- b731- bfc145ped0c0
+discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
 source-git-commit: fb8243ea896d39b324a69ea534271ee3015c076f
 
 ---
 
 
-# ブランドポータルのダウンロード速度の向上 {#guide-to-accelerate-downloads-from-brand-portal}
+# Speed up the Brand Portal downloads {#guide-to-accelerate-downloads-from-brand-portal}
 
-ブランドポータルでは、インストールオンデマンドアプリケーションであるIBM Avera Connectと統合することで、大きなアセットファイルのダウンロードパフォーマンスを強化できます。アプリケーションは独自のテクノロジーを使用してTCPオーバーヘッドを削除し、アセットファイルの転送速度を向上させます。この統合により、拡張されたダウンロードエクスペリエンスが確保されます。
+Brand Portal allows enhancing the download performance of large asset files by integrating with IBM Aspera Connect, which is an install-on-demand application. The application uses proprietary technology to remove TCP overheads and helps improve transfer speed of the asset files. This integration ensures enhanced download experience.
 
 >[!NOTE]
 >
->ダウンロード速度は、ネットワーク帯域幅、サーバー遅延、地理的な場所などの要因によって異なります。
+>Download speed varies for users as it depends upon factors such as network bandwidth, server latency, and geographical location of clients.
 
 この設定が有効化されている場合、Brand Portal ユーザーは、Aspera Connect クライアントをインストールして、Brand Portal または共有リンクから希望するアセットファイルをダウンロードするのにかかる時間を大幅に短縮できます。
 
@@ -29,11 +29,11 @@ source-git-commit: fb8243ea896d39b324a69ea534271ee3015c076f
 
 ## ファイルのダウンロードを高加速化するための前提条件 {#prerequisites-to-accelerate-file-download}
 
-ファイルをすばやくダウンロードするには、次のことを確認してください。
+To download the files faster, ensure the following:
 
-* **[!UICONTROL 管理ツールパネルの]**[!UICONTROL 一般設定] から、ダウンロードの加速（デフォルトでは無効）を有効にします。
-* ポート33001（TCPとUDPの両方）がファイアウォールで開きます。前提条件について詳しくは [、Atla Connect Clientドキュメント](https://downloads.asperasoft.com/en/documentation/8)を参照してください。
-* 管理者権限を使用してAtla Connectをインストールします。
+* **[!UICONTROL 管理ツールパネルの]** 「一般設定」から「アクセラレーションをダ [!UICONTROL ウンロード] 」（デフォルトで無効）を有効にします。
+* Port 33001 (both TCP and UDP) is open on the firewall. For more information on the prerequisites, see Aspera Connect Client documentation.[](https://downloads.asperasoft.com/en/documentation/8)
+* 管理者権限を使用してAspera Connectをインストールします。
 * For platform support of Aspera transfer client, see [Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
 
 ## ドメインのダウンロード {#download-domains}
@@ -49,17 +49,17 @@ source-git-commit: fb8243ea896d39b324a69ea534271ee3015c076f
 
 ## Sample download performance using file accelerator {#expected-download-performance-using-file-accelerator}
 
-次の表に、Avera Connectファイルのダウンロードアクセラレーターを使用した2GBのファイルのダウンロードパフォーマンスを示します。
+次の表に、Aspera Connectファイルダウンロードアクセラレータを使用した2 GBファイルのダウンロードパフォーマンスを示します。
 
-**監視結果は、ネットワーク帯域幅、サーバー待ち時間、クライアントの場所など、ブランドポータルサーバがオレゴン（米国）にあることを考慮して異なります。*
+*ブ&#x200B;*ランドポータルサーバがオレゴン（米国）にあることを考慮すると、ネットワーク帯域幅、サーバの遅延、クライアントの場所などの要因によって、観測される結果は異なります。*
 
-| クライアントの場所 | クライアントとサーバー間の遅延（ミリ秒） | Atla接続ファイル転送アクセラレーター（Mbps）による速度 | Averaファイル転送アクセラレーター（秒）を使用して2GBのファイルをダウンロードする時間 |
+| クライアントの場所 | クライアントとサーバーの間のレイテンシ (ミリ秒) | Aspera Connect File Transfer Accelerator (MBps)を使用した速度 | Aspera File Transfer Acceleratorを使用した2 GBのファイルのダウンロードに要する時間（秒） |
 |---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
 | 米国西部（北カリフォルニア） | 18 | 36 | 57 |
 | 米国西部（オレゴン） | 42 | 36 | 57 |
 | 米国東部（北バージニア） | 85 | 35 | 58 |
 | APAC（東京） | 124 | 36 | 57 |
-| Noida（India） | 275 | 13.36 | 153 |
+| 野井田（インド） | 275 | 13.36 | 153 |
 | シドニー | 175 | 29 | 70 |
 | ロンドン | 179 | 35 | 58 |
 | シンガポール | 196 | 34 | 60 |
@@ -68,28 +68,30 @@ source-git-commit: fb8243ea896d39b324a69ea534271ee3015c076f
 
 Brand Portal より早くアセットをダウンロードするには：
 
-1. サポートされているブラウザーを使用してブランドポータルにログインします。
-2. ダウンロードする目的のアセットファイル、フォルダー、またはコレクションを参照および選択します。ダウンロードオプションをタップまたはクリックします。Download dialog appears with [Enable download acceleration] option selected.
+1. サポートされているブラウザーを使用してBrand portalにログインします。
+2. ダウンロードする目的のアセットファイル、フォルダー、またはコレクションを参照および選択します。ダウンロードオプションをタップまたはクリックします。「[ダウンロードアクセラレーションを有効化]」オプションが選択されたダウンロードダイアログが表示されます。
    ![](assets/download-assetsbp.png)
 
    >[!NOTE]
    >
-   >ダウンロードしたアセットをダウンロードするためのリンクとともに電子メール通知を送信する機能は、現在はサポートされていませんが、ダウンロードが有効になっています。
+   >高速ダウンロードが有効になっているときに、アセットをダウンロードするためのリンクが入った電子メールを送信する機能は、現在サポートされていません。
 
    ![](assets/fast-download-emailchk.png)
 
-3. **[!UICONTROL 「ダウンロード]** 」オプションをタップまたはクリックします。
+3. Tap/click the **[!UICONTROL Download]** option.
 Brand Portal テナントアカウントでのダウンロードエクスペリエンスを高速化するには、お使いのシステムに Aspera Connect クライアントアプリケーションをインストールする必要があります。
 
 4. **Aspera Connect クライアントをダウンロードします。**
+
+
 If Aspera Connect client is not installed on your system or the existing installed Aspera Connect client is out of date, a prompt is displayed on browser page from where you can download the system-specific Aspera Connect client by selecting **[!UICONTROL Download Latest Version]**.
 
    ![](assets/aspera-not-launched.png)
 
    To download the latest version of Aspera Connect from [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), select **[!UICONTROL Download Now]** and follow the instructions.
 
-5. **Atla Connect Client**をインストールしてIBM
-Avera Connectクライアントのセットアップをインストールするには、IBM Avera Connectクライアントアプリケーションの. msiファイルからセットアップを実行し、インストールウィザードに従います。
+5. **Aspera Connect クライアントのインストール**
+IBM Aspera Connect クライアントセットアップをインストールするには、IBM Aspera Connect クライアントアプリケーションの .msi ファイルからセットアップを実行し、インストールウィザードに従います。
 
 6. クライアントを正常にインストールしたら、ブラウザーページを更新してダウンロード手順を再開開始するか、アセットの&#x200B;**[!UICONTROL ダウンロード]**&#x200B;ダイアログボックスの「**再起動]」を選択します（手順 2）。[!UICONTROL ** When using Aspera Connect for the first time, the browser prompts to open the link using **[!UICONTROL IBM Aspera Connect]**. To skip this dialog in future, enable **[!UICONTROL Remember my choice for FASP links]**.
 
@@ -97,14 +99,13 @@ Avera Connectクライアントのセットアップをインストールする�
    >
    >実際のメッセージは、ブラウザーによって異なります。
 
-7. 転送を続行するかどうかを確認するダイアログボックスが表示されます。**[!UICONTROL "Allow]** to beginning"を選択します。
-To skip this dialog in future, enable **[!UICONTROL Use my choice for all connections with this host]**.
+7. 転送を続けるかどうかを確認するダイアログボックスが表示されます。「**[!UICONTROL Allow]」を選択して開始します。** To skip this dialog in future, enable **[!UICONTROL Use my choice for all connections with this host]**.
 ダウンロードが開始します。ダイアログボックスに、ダウンロードの進行状況が表示されます。Use the dialog box to **[!UICONTROL pause]**, **[!UICONTROL resume]**, or **[!UICONTROL cancel]** the download.
 Aspera Connect アプリケーションは、システム上にアクティビティウィンドウを提供します。ユーザーはこのウィンドウからすべての転送セッションを表示および管理することができます。詳しくは、[Aspera Connect Client のドキュメント](https://downloads.asperasoft.com/en/documentation/8)を参照してください。
 
 ![](assets/aspera-activity-window.png)
 
-ダウンロードが正常に完了すると、ユーザーのシステムにアセットがダウンロードされる場所がダイアログボックスに表示されます。問題が発生した場合は、エラーが表示されます。
+ダウンロードが正常に完了すると、ユーザーのシステム上にある、アセットのダウンロード先がダイアログボックスに表示されます。問題が発生した場合は、エラーが表示されます。
 
 >[!NOTE]
 >
@@ -116,11 +117,11 @@ Microsoft Edge は拡張保護モード（EPM）で実行され、同じプラ�
 
 ![](assets/switchapps-msedge.png)
 
-Microsoft EdgeでAccelerated Download機能を使用するには、信頼できるサイトリストからブランドポータルサイトを削除します。
+Microsoft Edge で高速ダウンロード機能を使用するには、信頼済みサイトのリストゾーンから Brand Portal サイトを削除します。
 
 1. Open the Control Panel (press **[!UICONTROL Window key + X]**, then select **[!UICONTROL Control Panel]**).
-2. **[!UICONTROL ネットワークおよびインターネット/インターネットオプションに移動]**&#x200B;します。「**[!UICONTROL セキュリティ]」タブをクリックします。**
-3. **[!UICONTROL 信頼できるサイトゾーンをクリック]**&#x200B;し、 **[!UICONTROL 「サイト]**」をクリックします。
+2. Go to **[!UICONTROL Network and Internet &gt; Internet Options]**. 「**[!UICONTROL セキュリティ]」タブをクリックします。**
+3. Click the **[!UICONTROL Trusted sites zone]**, then click **[!UICONTROL Sites]**.
 4. リストから Brand Portal サイトを削除します。
 
 ## Aspera Connect クライアントの環境設定 {#aspera-connect-client-preferences}
@@ -139,17 +140,17 @@ There are a few useful preferences which can be set in IBM Aspera Connect Client
 
 ## ダウンロードアクセラレーションに関する問題のトラブルシューティング {#troubleshoot-issues-with-download-acceleration}
 
-ダウンロードのアクセラレーションが機能しない場合は、次の手順に従ってトラブルシューティングしてください。
+ダウンロードアクセラレーションが機能しない場合は、次の手順に従ってトラブルシューティングをおこなってください。
 
 1. Check that ports are not blocked, by visiting [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) from your machine.
 
    ポートに問題がある場合は、ネットワークチームに連絡して、ポート 33001（TCP と UDP の両方）がファイアウォールでブロックされていないことを確認します。
 
-2. If the ports are OK then check if your network is not slow, by measuring the available bandwidth using [https://www.speedtest.net/](https://www.speedtest.net/).
+2. ポートに問題がない場合は、[/](https://www.speedtest.net/)https://www.speedtest.net/ を使用して使用可能な帯域幅を測定し、ネットワークが低速になっていないかどうかを確認します。
 
    帯域幅が少ない（1～10 Mbps）または Kbps 単位の場合、Aspera の環境設定を使用して、利用可能な帯域幅と同じ帯域幅に制限してみてください。
 
-3. To confirm whether the downloads from Aspera demo server are working, use [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).\
-   （ログイン:averaweb， password:人口統計体）
+3. Aspera デモサーバーからのダウンロードが機能しているかどうかを確認するには、[](https://demo.asperasoft.com/aspera/user)https://demo.asperasoft.com/aspera/user を使用します。\
+   （ログイン名：asperaweb、パスワード：demoaspera）
 
-4. 上記のトラブルシューティング手順がいずれも機能しない場合は、「ダウンロードアクセラレーションをの有効化」オプションの選択を解除して、通常のダウンロードを使用します。
+4. 上記のトラブルシューティング手順がいずれも機能しない場合は、「ダウンロードアクセラレーションを有効化」オプションの選択を解除して、通常のダウンロードを使用します。
