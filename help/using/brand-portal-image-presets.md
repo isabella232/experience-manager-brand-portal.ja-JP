@@ -1,13 +1,13 @@
 ---
 title: 画像プリセットまたは動的レンディションの適用
 seo-title: 画像プリセットまたは動的レンディションの適用
-description: '画像プリセットは、マクロと同様、サイズとフォーマットに関するコマンドのコレクションを事前に定義し、特定の名前を付けて保存したものです。画像プリセットを使用すると、サイズ、形式、プロパティが様々に異なる画像を AEM Assets Brand Portal で動的に配信できます。 '
-seo-description: '画像プリセットは、マクロと同様、サイズとフォーマットに関するコマンドのコレクションを事前に定義し、特定の名前を付けて保存したものです。画像プリセットを使用すると、サイズ、形式、プロパティが様々に異なる画像を AEM Assets Brand Portal で動的に配信できます。 '
-uuid: a3c8705c-5fbd-472c-8b61- f65b3e552c1b
+description: '画像プリセットは、マクロと同様、サイズとフォーマットに関するコマンドのコレクションを事前に定義し、名前を付けて保存したものです。画像プリセットを使用すると、サイズ、形式、プロパティが様々に異なる画像を AEM Assets Brand Portal で動的に配信できます。 '
+seo-description: '画像プリセットは、マクロと同様、サイズとフォーマットに関するコマンドのコレクションを事前に定義し、名前を付けて保存したものです。画像プリセットを使用すると、サイズ、形式、プロパティが様々に異なる画像を AEM Assets Brand Portal で動的に配信できます。 '
+uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
-topic-tags: 管理
-products: SG_ PREPERNEMENTMANAGER/Brand_ Portal
-discoiquuid: a512dfa0- fef3-4c3f- a389- a0a3a7415bac
+topic-tags: administration
+products: SG_EXPERIENCEMANAGER/Brand_Portal
+discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
 source-git-commit: c0169450c5cf1d8c99f8604df3bd2667445ff1ed
 
@@ -16,11 +16,11 @@ source-git-commit: c0169450c5cf1d8c99f8604df3bd2667445ff1ed
 
 # 画像プリセットまたは動的レンディションの適用 {#apply-image-presets-or-dynamic-renditions}
 
-画像プリセットは、マクロと同様、サイズとフォーマットに関するコマンドのコレクションを事前に定義し、特定の名前を付けて保存したものです。画像プリセットを使用すると、サイズ、形式、プロパティが様々に異なる画像を AEM Assets Brand Portal で動的に配信できます。
+画像プリセットは、マクロと同様、サイズとフォーマットに関するコマンドのコレクションを事前に定義し、名前を付けて保存したものです。画像プリセットを使用すると、サイズ、形式、プロパティが様々に異なる画像を AEM Assets Brand Portal で動的に配信できます。
 
 画像プリセットは、プレビューしたりダウンロードしたりできる画像の動的レンディションを生成するために使用します。画像とそのレンディションをプレビューするときは、プリセットを選択することにより、管理者が設定した仕様で画像を再フォーマットできます。
 
-ブランドポータルでアセットの動的レンディションを表示するには、ブランドポータルに公開するAEM作成者インスタンスに、ピラミッドTIFFレンディションが存在することを確認します。アセットを公開すると、その PTIFF レンディションも Brand Portal に公開されます。Brand Portal から PTIFF レンディションを生成する方法はありません。
+Brand portalでアセットの動的レンディションを表示するには、PramidtiffレンディションがBrand portalの公開元のAEM作成者インスタンスに存在することを確認します。 アセットを公開すると、その PTIFF レンディションも Brand Portal に公開されます。Brand Portal から PTIFF レンディションを生成する方法はありません。
 
 >[!NOTE]
 >
@@ -36,9 +36,9 @@ source-git-commit: c0169450c5cf1d8c99f8604df3bd2667445ff1ed
 
 >[!NOTE]
 >
->動的レンディションは、PTIFF が使用可能なアセットに対して作成されます。そのため、AEM で作成され Brand Portal に公開されているビラミッド TIFF レンディションがアセットにない場合は、アセットのシステムレンディションのみ書き出すことができますが、動的レンディションはオプションとして表示されます。アセットのビラミッド TIFF（ptiff）を作成するには、AEM（オーサー）で Dynamic Media ハイブリッドモードを有効にする必要があります。このようなアセットがブランドポータルに公開されると、画像プリセットが適用され、動的レンディションが表示されます。
+>動的レンディションは、PTIFF が使用可能なアセットに対して作成されます。そのため、AEM で作成され Brand Portal に公開されているビラミッド TIFF レンディションがアセットにない場合は、アセットのシステムレンディションのみ書き出すことができますが、動的レンディションはオプションとして表示されます。アセットのビラミッド TIFF（ptiff）を作成するには、AEM（オーサー）で Dynamic Media ハイブリッドモードを有効にする必要があります。そのようなアセットがブランドポータルに公開されると、画像プリセットが適用され、動的レンディションが表示されます。
 
-1. 上部のAEMツールバーから、Adobeロゴをクリックして管理ツールにアクセスします。
+1. 上部の AEM ツールバーでアドビのロゴをクリックして、管理ツールにアクセスします。
 
 2. From the administrative tools panel, click **[!UICONTROL Image Presets]**.
 
@@ -48,40 +48,40 @@ source-git-commit: c0169450c5cf1d8c99f8604df3bd2667445ff1ed
 
    ![](assets/image_preset_homepage.png)
 
-4. In the **[!UICONTROL Edit Image Preset]** page, enter values into the **[!UICONTROL Basic]** and **[!UICONTROL Advanced]** tabs as appropriate, including a name. オプションの概要については、[画像プリセットオプション](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options)で説明しています。プリセットが左側のウィンドウに表示され、他のアセットと共にその場で使用できます。
+4. **[!UICONTROL 画像プリセットを編集]**&#x200B;ページで、「**[!UICONTROL 基本]」または「**&#x200B;詳細&#x200B;**」のどちらか該当するタブに、名前などの値を入力します。**&#x200B;オプションの概要については、[画像プリセットオプション](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options)で説明しています。プリセットは左側のウィンドウに表示され、他のアセットにすぐに使用できます。
 
    ![](assets/image_preset_create.png)
 
    >[!NOTE]
    >
-   >You can also use the **[!UICONTROL Edit Image Preset]** page to edit the properties of an existing image preset. To edit an image preset, select it from the image presets page, and click **[!UICONTROL Edit]**.
+   >**[!UICONTROL 画像プリセットを編集]ページを使用して、既存の画像プリセットのプロパティを編集することもできます。** To edit an image preset, select it from the image presets page, and click **[!UICONTROL Edit]**.
 
 5. Click **[!UICONTROL Save]**. 画像プリセットが作成され、画像プリセットページに表示されます。
 6. To delete an image preset, select it from the image presets page and click **[!UICONTROL Delete]**. 確認ページで「**[!UICONTROL 削除]」をクリックして、削除することを確認します。**&#x200B;指定した画像プリセットが、画像プリセットページから削除されます。
 
-## 画像をプレビューする際の画像プリセットの適用  {#apply-image-presets-when-previewing-images}
+## 画像をプレビューする際の画像プリセットの適用      {#apply-image-presets-when-previewing-images}
 
 画像とそのレンディションをプレビューするときは、既存のプリセットから選択することで、管理者が設定した仕様で画像を再フォーマットできます。
 
-1. ブランドポータルインターフェイスから、画像をクリックして開きます。
+1. From the Brand Portal interface, click an image to open it.
 2. Click the overlay icon on the left, and choose **[!UICONTROL Renditions]**.
 
    ![](assets/image-preset-previewrenditions.png)
 
-3. **[!UICONTROL レンディション]** リストから、適切な動的レンディション（ **[!UICONTROL 例えば、サムネール]**）を選択します。選択した動的レンディションに基づいて、プレビュー画像がレンダリングされます。
+3. From the **[!UICONTROL Renditions]** list, select the appropriate dynamic rendition, for example, **[!UICONTROL Thumbnail]**. 選択した動的レンディションに基づいて、プレビュー画像がレンダリングされます。
 
    ![](assets/image-preset-previewrenditionthumbnail.png)
 
 ## 画像をダウンロードする際の画像プリセットの適用 {#apply-image-presets-when-downloading-images}
 
-ブランドポータルから画像とそのレンディションをダウンロードする場合、既存の画像プリセットから選択することはできません。ただし、再フォーマットする画像に基づいて、画像プリセットのプロパティをカスタマイズできます。
+When downloading images and their renditions from Brand Portal, you cannot choose from the existing image presets. ただし、再フォーマットする画像に基づいて、画像プリセットのプロパティをカスタマイズできます。
 
 1. ブランドポータルインターフェイスから、次のいずれかの操作を行います。
 
-   * ダウンロードする画像の上にマウスポインターを置きます。From the quick action thumbnails available, click the **[!UICONTROL Download]** icon.
+   * ダウンロードする画像の上にマウスポインターを置きます。使用できるクイックアクションサムネールから、**[!UICONTROL ダウンロード]アイコンをクリックします。**
    ![](assets/downloadsingleasset.png)
 
-   * ダウンロードする画像を選択します。From the toolbar at the top, click the **[!UICONTROL Download]** icon.
+   * ダウンロードする画像を選択します。上部のツールバーで「**[!UICONTROL ダウンロード]」アイコンをクリックします。**
    ![](assets/downloadassets.png)
 
 2. **[!UICONTROL ダウンロード]ダイアログボックスで、アセットとそのレンディションを一緒にダウンロードするかどうかに応じて、必要なオプションを選択します。**
