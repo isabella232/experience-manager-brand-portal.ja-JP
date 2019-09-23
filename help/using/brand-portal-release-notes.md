@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: aa710fa7c482be517e9df0b0ddaac0fbeca90265
 
 ---
@@ -59,14 +59,14 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 * 簡体字中国語
 * 韓国語
 
-## 認定プラットフォーム{#certified-platforms}
+## 認定プラットフォーム {#certified-platforms}
 
-このリリースの Brand Portal を実行できる認定プラットフォームを確認するには、[技術要件](https://helpx.adobe.com/jp/experience-manager/6-4/sites/deploying/using/technical-requirements.html)の「**オーサリングユーザーインターフェイス向けにサポートされているブラウザー**」節に掲載されている表の「**UI のサポート**」列を参照してください。
+To ascertain which platforms are certified to run with this release of Brand Portal, refer to the **Support for Touch-optimized UI** column in the table in the **Supported Browsers for Authoring User Interface** section of [Technical Requirements](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
 ## リンク {#links}
 
-* [Adobe Experience Manager 製品ページ（adobe.com）](http://www.adobe.com/jp/marketing-cloud/experience-manager.html)
-* [Assets Brand Portal のドキュメント](https://helpx.adobe.com/jp/experience-manager/brand-portal/user-guide.html)
+* [Adobe Experience Manager 製品ページ（adobe.com）](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
+* [Assets Brand Portal のドキュメント](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html)
 
 ## 製品のアクセスとサポート（制限付きサイト）{#product-access-and-support-restricted-sites}
 
@@ -74,4 +74,4 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 
 * [](https://daycare.day.com) [製品へのアクセス](https://login.marketing.adobe.com)
 
-* [アドビカスタマーケア](https://helpx.adobe.com/jp/contact.html)
+* [アドビカスタマーケア](https://helpx.adobe.com/contact.html)
