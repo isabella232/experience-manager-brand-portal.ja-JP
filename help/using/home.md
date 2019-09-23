@@ -1,8 +1,8 @@
 ---
 title: AEM Brand Portal ユーザーガイド
 seo-title: AEM Brand Portal ユーザーガイド
-description: AEMブランドポータルユーザガイド
-seo-description: ブランドポータルの使用方法について説明します
+description: AEM Brand Portal ユーザーガイド
+seo-description: Brand Portal の使用方法について説明します
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
@@ -11,39 +11,39 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 # 概要
 
-ブランドポータルは、承認されたブランドや製品アセットを外部代理店、パートナー、内部チーム、販売代理店に安全に配布して、マーケティングニーズに合わせてマーケティングニーズを満たすことができます。
+ブランドポータルは、承認されたブランドおよび製品アセットを外部の代理店、パートナー、内部チームおよびリセラーに安全に配布して、組織がマーケティングニーズを満たすのを支援します。
 
 安全なアセット共有ソリューションがないと、次のことが考えられます。
 
-* 電子メールまたはクラウドによる手動アセット共有
+* 電子メールまたはクラウドを通じた手動アセット共有
 * ブランドのコンプライアンスの問題が発生する
 * アセットの使用状況を制御できない
 * キャンペーンの開始や製品の発売が遅れる
 * 各地や各組織にコンテンツが重複して存在する
 * リリース前のアセットが安全でない場所に保管される
 
-ブランドポータルを使用すると、マーケティング担当者は、マーケティング担当者がチャネルパートナーや社内ビジネスユーザーと共同作業して、最新デザインガイドライン、ロゴ、キャンペーン、製品アセットを迅速に作成、管理、および配信することによってブランドコンプライアンスを保証できます。
-ブランドポータルは、クラウドベースのSaaS機能です。Adobe Experience Manager Assets製品（オンプレミスまたはマネージドサービス）のアドオンとして利用できます。
+ブランドポータルを使用すると、マーケティング担当者がチャネルパートナーや社内ビジネスユーザーと共同で、最新の設計ガイドライン、ロゴ、キャンペーン、製品アセットを迅速に作成、管理、関係者に提供でき、ブランドコンプライアンスを確保できます。
+ブランドポータルは、クラウドベースのSAASオファーです。 Adobe Experience Manager Assets製品（オンプレミスまたはマネージドサービス）のアドオンとして使用できます。
 
-ブランドポータルソリューションワークフローについては、次の画像に示します。
+以下の画像は、ブランドポータルソリューションのワークフローを示しています。
 
 ![](assets/BPWorkflow1.png)
 
-## Adobe Experience Managerブランドポータルユーザーガイド
+## Adobe Experience Manager Brand Portal ユーザーガイド
 
-このユーザーガイドでは、ブランドポータルのサービスと主要ワークフローについて説明します。左側のレールを使用してさまざまな機能をナビゲートし、ポータルでの個人的な操作方法について説明します。
+This user guide documents insights in to Brand Portal offerings and key workflows. 左側のレールを使用すると、各種機能をナビゲートでき、様々なペルソナがポータルとどのようにやり取りするかを理解することができます。
 
 ### 関連トピック
 
 | ユーザーガイド | 説明 |
 |--- |---|
-| [新機能](whats-new.md) | 以前のリリースを通して、ブランドポータルの変更された最新のサービスおよび最新の情報。 |
-| [リリースノート](brand-portal-release-notes.md) | 現在のリリースの機能強化、重要な問題および既知の問題。 |
-| [AEM Assets と Brand Portal の統合の設定](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) | AEM Assetsでブランドポータルを複製してアセットを公開する方法。 |
-| [並行公開の問題のトラブルシューティング](troubleshoot-parallel-publishing.md) | ブランドポータルとAEM Assetsのレプリケーションのトラブルシューティング |
-| [サポートされているファイル形式](brand-portal-supported-formats.md) | ブランドポータルでサポートされているファイル形式で、プレビューおよびダウンロードが可能です。 |
-| [アセットをブランドポータルに公開](../TOC.md#publish) | フォルダー、コレクション、リンク、プリセット、スキーマ、ファセットおよびタグをブランドポータルに公開する方法。 |
+| [新機能](whats-new.md) | What changed and latest offerings in Brand Portal through previous releases. |
+| [リリースノート](brand-portal-release-notes.md) | 現在のリリースにおける機能強化、解決された重要な問題、既知の問題。 |
+| [AEM Assets と Brand Portal の統合の設定](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) | Brand portalをAEM Assetsに複製してアセットを公開する方法。 |
+| [並列公開における問題のトラブルシューティング](troubleshoot-parallel-publishing.md) | Brand PortalとAEM Assets間のレプリケーションのトラブルシューティングを参照してください。 |
+| [サポートされているファイル形式](brand-portal-supported-formats.md) | プレビューおよびダウンロード用にBrand Portalでサポートされているファイル形式です。 |
+| [ブランドポータルへのアセットの公開](../TOC.md#publish) | How to publish folders, collections, links, presets, schema, facets, and tags to Brand Portal. |
 
 ### 役立つリソース
 
-* [AEM Assetsを使用したブランドポータルについて](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+* [AEM Assetsでのブランドポータルについて](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
