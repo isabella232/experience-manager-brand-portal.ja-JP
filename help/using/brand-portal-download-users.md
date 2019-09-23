@@ -3,11 +3,11 @@ title: アセットのダウンロード
 seo-title: アセットのダウンロード
 description: すべてのユーザーが、複数のアセットやフォルダーを同時にダウンロードできます。これにより、承認されたブランドアセットを安全に配布して、オフラインで使用できます。
 seo-description: すべてのユーザーが、複数のアセットやフォルダーを同時にダウンロードできます。これにより、承認されたブランドアセットを安全に配布して、オフラインで使用できます。
-uuid: 4b57118e- a76e-4d8a-992a- cb3c3097bc03
+uuid: 4b57118e-a76e-4d8a-992a-cb3c3097bc03
 content-type: reference
-products: SG_ PREPERNEMENTMANAGER/Brand_ Portal
-topic-tags: ダウンロードインストール
-discoiquuid: f90c2214- beea-4695-9102-8b952bc9fd17
+products: SG_EXPERIENCEMANAGER/Brand_Portal
+topic-tags: download-install
+discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
@@ -26,12 +26,12 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 Brand Portal のアセット、またはアセットを含むフォルダーをダウンロードするには、次の手順に従います。
 
-1. ブランドポータルインターフェイスから、次のいずれかの操作を行います。
+1. From the Brand Portal interface, do one of the following:
 
-   * ダウンロードするフォルダーまたはアセットを選択します。From the toolbar at the top, click the **[!UICONTROL Download]** icon.
+   * ダウンロードするフォルダーまたはアセットを選択します。上部のツールバーで「**[!UICONTROL ダウンロード]」アイコンをクリックします。**
    ![](assets/downloadassets-1.png)
 
-   * 1 つのフォルダーまたはアセットをダウンロードするには、そのフォルダーまたはアセットの上にマウスポインターを置きます。From the quick action thumbnails available, click the **[!UICONTROL Download]** icon.
+   * 1 つのフォルダーまたはアセットをダウンロードするには、そのフォルダーまたはアセットの上にマウスポインターを置きます。使用できるクイックアクションサムネールから、**[!UICONTROL ダウンロード]アイコンをクリックします。**
    ![](assets/downloadsingleasset-1.png)
 
    >[!NOTE]
@@ -41,13 +41,13 @@ Brand Portal のアセット、またはアセットを含むフォルダーを�
 
    ![](assets/licensed-asset-download-1.png)
 
-   **[!UICONTROL ダウンロード]** ダイアログボックスがデフォルトで選択されている **[!UICONTROL 状態で、ダウンロード]** ダイアログボックスが表示されます。
+   **[!UICONTROL ダウンロード]**&#x200B;ダイアログボックスが表示されます。デフォルトで「**アセット[!UICONTROL 」チェックボックスがオンになっています。]**
 
    ![](assets/donload-assets-dialog-1.png)
 
    >[!NOTE]
    >
-   >If the assets you are downloading are image files, and you select only the **[!UICONTROL Asset(s)]** option in Download dialog but are not [authorized by the administrator to have access to the original renditions of image files](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) then no image files are downloaded and a Notice prompts, stating that you have been restricted by administrator to access original renditions.
+   >ダウンロードしようとするアセットが画像ファイルで、ダウンロードダイアログで「**[!UICONTROL アセット]**」オプションのみを選択しているが、[画像ファイルのオリジナルのレンディションへのアクセス権が管理者によって許可](../using/brand-portal-adding-users.md#main-pars-procedure-202029708)されていない場合は、画像ファイルはダウンロードされず、オリジナルのレンディションへのアクセスが管理者によって制限されていることを示す通知が表示されます。
 
    ![](assets/restrictaccess-note.png)
 
@@ -59,18 +59,18 @@ Brand Portal のアセット、またはアセットを含むフォルダーを�
 
    >[!NOTE]
    >
-   >デフォルトでは、アセットのみがダウンロードされます。However, original renditions of image files are not downloaded if you are not [authorized by the administrator to have access to the original renditions of image files](../using/brand-portal-adding-users.md#main-pars-procedure-202029708).
+   >デフォルトでは、アセットのみがダウンロードされます。ただし、[画像ファイルのオリジナルのレンディションへのアクセスが管理者によって許可](../using/brand-portal-adding-users.md#main-pars-procedure-202029708)されていない場合は、画像ファイルのオリジナルのレンディションはダウンロードされません。
 
    * Brand Portal からのアセットファイルのダウンロードをスピードアップさせるには、「**[!UICONTROL ダウンロードアクセラレーションの有効化]**」オプションを選択し、[ウィザードに従います](../using/accelerated-download.md#main-pars-header-405749062)。To know more about faster download of assets refer [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
 
-   * To apply a [custom image preset to the asset and its renditions](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), select **[!UICONTROL Dynamic Rendition(s)]**. カスタムの画像プロパティ（サイズ、フォーマット、カラースペース、解像度および画像の修飾子）を指定して、アセットとそのレンディションをダウンロードするときにカスタムの画像プリセットを適用します。動的なレンディションのみをダウンロードするには、アセットを削除 ****&#x200B;します。
+   * To apply a [custom image preset to the asset and its renditions](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), select **[!UICONTROL Dynamic Rendition(s)]**. カスタムの画像プロパティ（サイズ、フォーマット、カラースペース、解像度および画像の修飾子）を指定して、アセットとそのレンディションをダウンロードするときにカスタムの画像プリセットを適用します。動的なレンディションのみをダウンロードするには、 アセット **[!UICONTROL を選択します]**。
    ![](assets/dynamic-renditions.png)
 
    >[!NOTE]
    >
-   >任意のアセットの動的レンディションをプレビュー（またはダウンロード）するには、動的メディアが有効になっていること、およびアセットが公開された場所からアセットのピラミッドTIFFレンディションがAEM作成者インスタンスに存在することを確認します。アセットがブランドポータルに公開されると、そのピラミッドTIFFレンディションも公開されます。ブランドポータルからピラミッドTIFFレンディションを生成する方法はありません。
+   >アセットの動的レンディションをプレビュー（またはダウンロード）するには、動的メディアが有効で、アセットのピラミッドTIFFレンディションがAEM作成者インスタンスに存在し、アセットの公開元であることを確認します。 アセットがBrand Portalに公開されると、ピラミッドTIFFレンディションも公開されます。 Brand portalからピラミッドTIFFレンディションを生成する方法はありません。
 
-   * To preserve the Brand Portal folder hierarchy while downloading assets, select **[!UICONTROL Create separate folder for each asset]**. デフォルトでは、ブランドポータルフォルダ階層は無視され、すべてのアセットがローカルシステムの1つのフォルダーにダウンロードされます。
+   * To preserve the Brand Portal folder hierarchy while downloading assets, select **[!UICONTROL Create separate folder for each asset]**. デフォルトでは、Brand Portalのフォルダー階層は無視され、すべてのアセットがローカルシステムの1つのフォルダーにダウンロードされます。
 
    * To send an email notification to users with a link for downloading the assets, select **[!UICONTROL Email]**.
    ![](assets/download-link.png)
@@ -79,7 +79,7 @@ Brand Portal のアセット、またはアセットを含むフォルダーを�
    >
    >電子メール通知に含まれるダウンロードリンクの有効期限は 45 日間です。
    >
-   >Administrators can customize email messages, that is, logo, description, and footer, using the [Branding](../using/brand-portal-branding.md) feature.
+   >管理者は、電子メールのメッセージ内容、つまりロゴ、説明およびフッターを、[ブランディング](../using/brand-portal-branding.md)機能を使用してカスタマイズできます。
 
 3. Click **[!UICONTROL Download]**.
 
@@ -89,15 +89,15 @@ Brand Portal のアセット、またはアセットを含むフォルダーを�
 
    >[!NOTE]
    >
-   >個別に選択してダウンロードしたアセットは、ダウンロードされたアセットレポートに表示されます。ただし、アセットを含むフォルダがダウンロードされている場合、ダウンロードされたアセットには、フォルダとアセットのどちらも表示されません。
+   >個別に選択してダウンロードしたアセットは、ダウンロードされたアセットレポートに表示されます。ただし、アセットを含んだフォルダーをダウンロードした場合は、そのフォルダーもアセットも、ダウンロード済みアセットのレポートには表示されません。
 
-   To know how to download assets from shared links, refer [downloading assets from shared links](../using/brand-portal-link-share.md#main-pars-header-1703469193).
+   共有リンクからアセットをダウンロードする方法については、「[共有リンクからアセットをダウンロードする](../using/brand-portal-link-share.md#main-pars-header-1703469193)」を参照してください。
 
 ## 期待されるダウンロードパフォーマンス {#expected-download-performance}
 
-ファイルのダウンロードエクスペリエンスは、ローカルインターネット接続やサーバー遅延などの要因によって異なります。2 GB のファイルを様々なクライアントの場所でダウンロードする際に期待されるパフォーマンスは次のとおりです（Brand Portal のサーバーは米国オレゴン州にあるものとします）。
+ユーザーのクライアントが様々な場所にある場合、ファイルのダウンロードエクスペリエンスは、ローカルのインターネット接続やサーバーのレイテンシなどの要因によって異なります。2 GB のファイルを様々なクライアントの場所でダウンロードする際に期待されるパフォーマンスは次のとおりです（Brand Portal のサーバーは米国オレゴン州にあるものとします）。
 
-| クライアントの場所 | クライアントとサーバーの間のレイテンシ | 予想されるダウンロード速度 | 2GBのファイルのダウンロードにかかる時間 |
+| クライアントの場所 | クライアントとサーバーの間のレイテンシ | 予想されるダウンロード速度 | 2 GB ファイルのダウンロード所要時間 |
 |-------------------------|-----------------------------------|-------------------------|------------------------------------|
 | 米国西部（北カリフォルニア） | 18 ミリ秒 | 7.68 MB/秒 | 4 分 |
 | 米国西部（オレゴン） | 42 ミリ秒 | 3.84 MB/秒 | 9 分 |
@@ -108,4 +108,4 @@ Brand Portal のアセット、またはアセットを含むフォルダーを�
 | ロンドン | 179 ミリ秒 | 0.32 MB/秒 | 106 分 |
 | シンガポール | 196 ミリ秒 | 0.5 MB/秒 | 68 分 |
 
-**注意**:参照データはテスト条件で観察されます。これは、異なる場所のユーザーによって異なる待ち時間や帯域幅が表示される場合があります。
+**注意**：引用したデータは、テスト条件下において確認されたものであり、レイテンシや帯域幅の異なる場所にいるユーザーの場合は結果が異なる可能性があります。
