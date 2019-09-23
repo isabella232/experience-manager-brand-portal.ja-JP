@@ -17,7 +17,7 @@ source-git-commit: 27bc26e0146013c3948a15d7c3ce865be4d789bd
 
 # Brand Portal でのアセットの検索 {#search-assets-on-brand-portal}
 
-ブランドポータル検索機能を使用すると、オムニサーチを使用して関連するアセットをすばやく検索し、フィルターを使用して検索を絞り込むことができます。 検索設定をスマートコレクションとして保存しておき、後で呼び出すこともできます。
+Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and faceted search that uses filters to help you further narrow down your search. 検索設定をスマートコレクションとして保存しておき、後で呼び出すこともできます。
 
 ## オムニサーチを使用したアセット検索 {#search-assets-using-omnisearch}
 
@@ -63,7 +63,7 @@ The [!UICONTROL Filters] panel includes a few standard facets, such as- [!UICONT
    >[!NOTE]
    >
    >To non-admin users, [!UICONTROL Path Browser] in [!UICONTROL Filter] panel shows only the content structure of the folders (and their ancestor folders) shared with them.\
-   >管理者ユーザーは、パスブラウザーを使用してBrand portalの任意のフォルダーに移動できます。
+   >To admin users, Path Browser allows navigating to any folder in Brand Portal.
 
    * **[!UICONTROL ファイルタイプ]**：検索するアセットファイルのタイプ（画像、ドキュメント、マルチメディア、アーカイブ）を指定します。さらに、例えば画像の MIME タイプ（Tiff、ビットマップ、GIMP 画像）やドキュメントの形式（PDF、MS Word）を指定して、検索の範囲を絞り込むことができます。
    * **[!UICONTROL ファイルサイズ]**：ファイルサイズに基づいてアセットを検索します。サイズ範囲の下限と上限を指定して検索を絞り込むことができます。また、検索の単位を指定できます。
