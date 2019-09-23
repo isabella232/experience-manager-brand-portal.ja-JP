@@ -3,11 +3,11 @@ title: Brand Portal でのアセットの参照
 seo-title: Brand Portal でアセットを参照する
 description: Brand Portal の様々な表示オプションや UI 要素を使用して、アセットの参照、アセット階層のトラバース、およびアセットの検索をおこないます。
 seo-description: Brand Portal の様々な表示オプションや UI 要素を使用して、アセットの参照、アセット階層のトラバース、およびアセットの検索をおこないます。
-uuid: 178ce217-0050-4922- a204- f4539d46f539
-products: SG_ PREPERNEMENTMANAGER/Brand_ Portal
+uuid: 178ce217-0050-4922-a204-f4539d46f539
+products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
-discoiquuid: a70ce694-81d1-4829-9e61- b6412e013e5c
+discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
@@ -36,9 +36,9 @@ Brand Portal の右上にある表示セレクターで利用可能な表示（�
 
 ## リソースの表示と選択 {#viewing-and-selecting-resources}
 
-表示、移動、選択は、概念的にはすべてのビューで同じですが、使用しているビューに応じて、処理に小さなバリエーションがあります。
+Viewing, navigating, and selecting each are conceptually the same across all views, but have small variations in handling, depending on the view you are using.
 
-使用可能な任意の表示方法で、リソースを表示、ナビゲーションおよび（追加のアクションをおこな行うために）選択できます。
+使用可能な任意の表示方法で、リソースを表示、ナビゲーションおよび（追加のアクションをおこなうために）選択できます。
 
 * 列表示
 * カード表示
@@ -48,13 +48,13 @@ Brand Portal の右上にある表示セレクターで利用可能な表示（�
 
 ![](assets/card-view.png)
 
-カード表示では、現在のレベルの各項目の情報カードを表示します。これらのカードは、次の詳細を参照してください。
+カード表示では、現在のレベルの各項目の情報カードを表示します。これらのカードには、以下の詳細が記載されています。
 
 * アセット／フォルダーの内容を視覚的に表現したもの。
 * 種類
 * タイトル
 * 名前
-* AEM から Brand Portal にアセットが公開された日付と時刻
+* アセットが   asset was published to Brand Portal from AEM
 * サイズ
 * ディメンション寸法
 
@@ -64,21 +64,20 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 
 #### 管理者以外のユーザー向けカード表示
 
-カードのカードのカード表示では、管理者以外のユーザー（エディター、ビューアおよびゲストユーザー）にフォルダ階層情報が表示されます。この機能により、ユーザーはフォルダーの場所を把握し、親階層に関してアクセスすることができます。
-フォルダー階層の情報は、別のフォルダー階層から共有されている他のフォルダーと同様に名前を持つフォルダーを区別するのに特に役立ちます。管理者以外のユーザーが、自分たちに共有されているアセットのフォルダー構造を把握していない場合、似たような名前のアセット／フォルダーは紛らわしくなります。
+カード表示のフォルダーのカードは、管理者以外のユーザー（エディター、閲覧者、およびゲストユーザー）にフォルダー階層情報を表示します。この機能は、親階層について、アクセスしようとしているフォルダーの場所をユーザーに知らせます。フォルダー階層情報は特に、似たような名前のフォルダーを、別のフォルダー階層から共有された他のフォルダーと区別する際に便利です。管理者以外のユーザーが、自分たちに共有されているアセットのフォルダー構造を把握していない場合、似たような名前のアセット／フォルダーは紛らわしくなります。
 
-* カードのサイズに合わせて、それぞれのカードに表示されるパスが切り詰められます。ただし、切り詰められたパスの上にマウスポインターを置くと、フルパスがツールヒントとして表示されます。
+* それぞれのカードに表示されるパスは、カードのサイズに合わせて切り詰めて表示されます。ただし、切り捨てられたパスの上にカーソルを置くと、フルパスがツールヒントとして表示されます。
 
 ![](assets/folder-hierarchy1.png)
 
 **アセットのプロパティを表示する「概要」オプション**
 
-管理者以外のユーザー（エディター、ビューア、ゲストユーザー）が、選択したアセット/フォルダのアセットプロパティを表示するための概要オプションを使用できます。「概要」オプションは、次の場所に表示されます。
+「概要」オプションでは、管理者以外のユーザー（エディター、閲覧者、ゲストユーザー）が、選択したアセット／フォルダーのアセットのプロパティを表示できます。「概要」オプションは、次の場所に表示されます。
 
-* をクリックします。
+* in the toolbar at the top on selecting an asset/folder.
 * をクリックします。
 
-On selecting the [!UICONTROL Overview] option while an asset/folder is selected, users can see the title, path, and time of asset creation. 一方、アセットの詳細ページで「概要」オプションを選択すると、ユーザーはアセットのメタデータを確認できます。
+On selecting the [!UICONTROL Overview] option while an asset/folder is selected, users can see the title, path, and time of asset creation. 一方、アセットの詳細ページで「概要」オプションを選択すると、アセットのメタデータを確認できます。
 
 ![](assets/overview-option.png)
 
@@ -86,7 +85,7 @@ On selecting the [!UICONTROL Overview] option while an asset/folder is selected,
 
 #### カード表示の表示設定
 
-[!UICONTROL 表示セレクターで表示設定を選択すると、表示設定ダイアログが開き、]****&#x200B;カード表示でアセットのサムネールのサイズを変更できます。これにより、表示をパーソナライズして、表示されるサムネールの数を制御できます。
+[!UICONTROL 表示セレクターで表示設定を選択すると、表示設定ダイアログが開き、]****&#x200B;カード表示でアセットのサムネールをサイズ変更できます。これにより、表示をパーソナライズして、表示されるサムネールの数を制御できます。
 
 ![](assets/cardviewsettings.png)
 
@@ -104,7 +103,7 @@ On selecting the [!UICONTROL Overview] option while an asset/folder is selected,
 * ディメンション
 * サイズ
 * 評価
-* Folder path showing asset hierarchy<sup>*</sup>
+* アセット階層画像を示すフォルダーパス <sup>*</sup>
 * Brand Portal 上のアセットの公開日
 
 * パス列を使用すると、フォルダー階層内のアセットの場所が特定しやすくなります。You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
@@ -115,7 +114,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### リスト表示の表示設定
 
-List view shows asset [!UICONTROL Name] as the first column by default. Additional information, such as asset [!UICONTROL Title], [!UICONTROL Locale], [!UICONTROL Type], [!UICONTROL Dimensions], [!UICONTROL Size], [!UICONTROL Rating], publish status are also shown. However, you can select the columns to be shown using [!UICONTROL View Settings].
+リスト表示の最初の列には、デフォルトでアセットの[!UICONTROL 名前]が表示されます。Additional information, such as asset [!UICONTROL Title], [!UICONTROL Locale], [!UICONTROL Type], [!UICONTROL Dimensions], [!UICONTROL Size], [!UICONTROL Rating], publish status are also shown. However, you can select the columns to be shown using [!UICONTROL View Settings].
 
 ![](assets/list-view-setting.png)
 
@@ -230,9 +229,9 @@ Comment Type: draft
 
 ## コンテンツツリー {#content-tree}
 
-これらのビューに加えて、目的のアセットまたはフォルダを表示して選択するときに、ツリービューを使用してアセット階層をドリルダウンします。
+これらの表示に加え、3 つのツリー表示を使用して、目的のアセットやフォルダーを表示および選択しながらアセット階層をドリルダウンします。
 
-To open the tree view, tap/click the rail selector at upper left and select the **[!UICONTROL Content tree]** from the menu.
+ツリー表示を開くには、左上のレールセレクターをタップまたはクリックし、メニューから「**[!UICONTROL コンテンツツリー]」を選択します。**
 
 ![](assets/contenttree.png)
 
@@ -246,7 +245,7 @@ To open the tree view, tap/click the rail selector at upper left and select the 
 
 ![](assets/asset-detail.png)
 
-アセットのメタデータを表示したり、様々なレンディションを表示したりするには、アセットの詳細ページのパネルセレクターを使用します。
+To view the asset's metadata, or view its various renditions, use the rail selector on asset detail page.
 
 ![](assets/asset-overview.png)
 
