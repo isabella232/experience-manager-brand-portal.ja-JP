@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 201ca4c0df9016929d63b4f41f570903a59f7ebf
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 201ca4c0df9016929d63b4f41f570903a59f7ebf
 
 ## オムニサーチを使用したアセット検索 {#search-assets-using-omnisearch}
 
-To search for assets on Brand Portal:
+ブランドポータルでアセットを検索するには：
 
 1. From the toolbar, click the **[!UICONTROL Search]** icon, or press the "**[!UICONTROL /]**" key to launch Omnisearch.
 
@@ -41,13 +41,13 @@ To search for assets on Brand Portal:
 
    *オムニサーチを使用したアセット検索*
 
-To know about search behaviour with smart tagged assets, see [understand search results and behavior](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html).
+スマートタグ付きアセットを使用した検索動作について詳しくは、検索結果と動 [作についてを参照してくださ](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html)い。
 
 ## フィルターパネルでのファセットを使用した検索 {#search-using-facets-in-filters-panel}
 
 フィルターパネルの検索ファセットを使用すると、詳細な検索条件を指定して、検索効率を高めることができます。検索ファセットでは、複数のディメンション（述語）を使用して、より複雑な検索を実行できます。より焦点を絞った検索のために、目的の詳細レベルまで簡単にドリルダウンできます。
 
-例えば、画像を検索する場合、ビットマップとベクトル画像のどちらを検索するかを選択できます。「ファイルタイプ」検索ファセットで画像の MIME タイプを指定することで、さらに検索の範囲を絞り込むことができます。同様に、ドキュメントを検索する場合は、PDF や MS Word などの形式を指定できます。
+例えば、画像を検索する場合、ビットマップとベクトル画像のどちらを検索するかを選択できます。「ファイルタイプ」検索ファセットで画像の MIME タイプを指定することで、さらに検索の範囲を絞り込むことができます。同様に、ドキュメントを検索する場合は、PDF や MS Word などの形式を指定できます。<br />
 
 ![Filters panel in Brand Portal](assets/file-type-search.png "Filters panel in Brand Portal")
 
