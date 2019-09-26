@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 AEM Brand Portal は、ゲストによるポータルへのアクセスを許可します。ゲストユーザーは資格情報がなくてもポータルに入ることができ、ポータルの公開アセット（およびコレクション）へのアクセス権を持ちます。Users in the guest session can add assets to their lightbox (private collection) and download the same until their session lasts, which is 2 hours from the beginning of the session unless the guest user chooses to [[!UICONTROL End Session]](#exit-guest-session).
 
-ゲストによるアクセス機能を使用すれば、組織は対象オーディエンスのオンボーディングをおこなわなくても、[承認済みアセットをすばやく共有](../using/brand-portal-sharing-folders.md#how-to-share-folders)することができます。Brand Portal 6.4.2 以降には、複数の同時ゲストユーザー（組織あたりの合計ユーザークォータの 10%）に対応する機能が搭載されています。ゲストアクセスを許可すると、Brand Portalで限られた機能を使用する必要があるユーザーの管理やオンボードスコアを時間を節約できます。\
+ゲストによるアクセス機能を使用すれば、組織は対象オーディエンスのオンボーディングをおこなわなくても、[承認済みアセットをすばやく共有](../using/brand-portal-sharing-folders.md#how-to-share-folders)することができます。Brand Portal 6.4.2 以降には、複数の同時ゲストユーザー（組織あたりの合計ユーザークォータの 10%）に対応する機能が搭載されています。Allowing guest access saves time to manage and on-board scores of users who need to use limited functionalities on Brand Portal.\
 Organizations can enable (or disable) guest access on Brand Portal account of the organization using **[!UICONTROL Allow Guest Access]** option from **[!UICONTROL Access]** settings in the administrative tools panel.
 
 <!--
@@ -33,7 +33,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## ゲストセッションの開始 {#begin-guest-session}
 
-匿名で Brand Portal に入るには、Brand Portal ようこそ画面で&#x200B;**[!UICONTROL ゲストとしてアクセスしますか？]**&#x200B;の横にある「**ここをクリックしてください** Brand portalのようこそ画面に表示されます。 ユーザーは、アクセス権を要求したり、管理者から認証を受けてアクセス権が付与されるのを待たなくても、Brand Portal を使用することができます。
+匿名で Brand Portal に入るには、Brand Portal ようこそ画面で&#x200B;**[!UICONTROL ゲストとしてアクセスしますか？]**&#x200B;の横にある「**ここをクリックしてください** on Brand Portal welcome screen. ユーザーは、アクセス権を要求したり、管理者から認証を受けてアクセス権が付与されるのを待たなくても、Brand Portal を使用することができます。
 
 ![](assets/bp-login-screen.png)
 
@@ -58,7 +58,7 @@ However, the guest users see the folder tree (starting from the root folder) and
 
 これらの親フォルダーは仮想フォルダーであり、これらに対してアクションを実行することはできません。仮想フォルダーは鍵のアイコン付きで表示されます。
 
-No action tasks are visible on hovering or selecting them in [!UICONTROL Card View], unlike the shared folders. [!UICONTROL 「概要] 」ボタンは、「列ビュー」と「リストビュー」で仮想フォル [!UICONTROL ダを選択する] とき [!UICONTROL に表示されます]。
+No action tasks are visible on hovering or selecting them in [!UICONTROL Card View], unlike the shared folders. [!UICONTROL Overview] button is shown on selecting a virtual folder in [!UICONTROL Column View] and [!UICONTROL List View].
 
 >[!NOTE]
 >
@@ -83,7 +83,7 @@ On selecting the [!UICONTROL Overview] option while an asset/folder is selected,
 
 ![](assets/overview-option-1.png)
 
-![](assets/overview-rail-selector-1.png)
+![](assets/overview-rail-selector-1.png)<br />
 
 左レールの「**[!UICONTROL ナビゲーション]**」オプションでは、ファイルからコレクションに移動したり、ユーザーがファイルやコレクションのアセットから参照できるよう、ゲストセッションに戻ったりすることができます。
 
