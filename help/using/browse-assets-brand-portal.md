@@ -1,5 +1,5 @@
 ---
-title: Brand Portal でのアセットの参照
+title: Brand Portal でアセットを参照する
 seo-title: Brand Portal でアセットを参照する
 description: Brand Portal の様々な表示オプションや UI 要素を使用して、アセットの参照、アセット階層のトラバース、およびアセットの検索をおこないます。
 seo-description: Brand Portal の様々な表示オプションや UI 要素を使用して、アセットの参照、アセット階層のトラバース、およびアセットの検索をおこないます。
@@ -9,12 +9,12 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
 
-# Brand Portal でのアセットの参照 {#browsing-assets-on-brand-portal}
+# Brand Portal でアセットを参照する {#browsing-assets-on-brand-portal}
 
 AEM Assets Brand Portal は、別の表示オプションを使用しながらリソースの参照、アセット階層のトラバース、およびアセットの検索を容易におこなえる様々な機能とユーザーインターフェイス要素を提供します。
 
@@ -24,7 +24,7 @@ AEM Assets Brand Portal は、別の表示オプションを使用しながら�
 
 ![](assets/admin-tools-panel-2.png)
 
-![](assets/bp_subheader.png)
+![](assets/bp_subheader.png)<br />
 
 Brand Portal ドロップダウンの左上にあるレールセレクターを使用すると、アセット階層へ移動、検索を効率化、およびリソースを表示するオプションが表示されます。
 
@@ -74,7 +74,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 
 「概要」オプションでは、管理者以外のユーザー（エディター、閲覧者、ゲストユーザー）が、選択したアセット／フォルダーのアセットのプロパティを表示できます。「概要」オプションは、次の場所に表示されます。
 
-* in the toolbar at the top on selecting an asset/folder.
+* をクリックします。
 * をクリックします。
 
 On selecting the [!UICONTROL Overview] option while an asset/folder is selected, users can see the title, path, and time of asset creation. 一方、アセットの詳細ページで「概要」オプションを選択すると、アセットのメタデータを確認できます。
