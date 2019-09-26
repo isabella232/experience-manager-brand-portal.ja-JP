@@ -10,7 +10,7 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係者（パートナーやベンダーを含む）との間で複数のアセットのリンクを共有できます。エディターは、管理者によって共有されたアセットのみを閲覧および共有できます。
 
-Sharing assets through a link is a convenient way of making them available to external parties as the receivers do not have to log in to Brand Portal to access the assets.
+受信者がBrand portalにログインしなくてもアセットにアクセスできるので、リンクを介したアセットの共有は、外部の関係者が簡単に利用できるようにする方法です。
 
 リンク共有を利用したアクセスは、エディターと管理者に制限されています。詳しくは、[ユーザー、グループ、ユーザーの役割の管理](../using/brand-portal-adding-users.md#manage-user-roles)を参照してください。
 
@@ -92,7 +92,7 @@ Sharing assets through a link is a convenient way of making them available to ex
 
    ![](assets/licensed-asset-download.png)
 
-   [!UICONTROL ダウンロード]ダイアログボックスが開きます。
+   [!UICONTROL ダウンロード]ダイアログボックスが開きます。<br />
    ![](assets/download-linkshare.png)
 
    * リンクとして共有されたアセットファイルのダウンロードをスピードアップさせるには、「**[!UICONTROL ダウンロードアクセラレーションを有効化]**」オプションを選択し、[ウィザードに従います](../using/accelerated-download.md#download-workflow-using-file-accelerator)。To know more about the fast download of assets on Brand Portal refer [Guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
