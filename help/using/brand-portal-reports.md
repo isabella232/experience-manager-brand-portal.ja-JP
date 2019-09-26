@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -95,7 +95,7 @@ The reporting capability is instrumental in assessing Brand Portal usage, and kn
 
    ![](assets/aemlogo.png)
 
-2. 管理ツールパネルの「**[!UICONTROL レポートを作成 / 管理]」をタップまたはクリックして、アセットレポートページを開きます。**
+2. From the administrative tools panel, tap/click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
 
    ![](assets/asset-reports.png)
 
