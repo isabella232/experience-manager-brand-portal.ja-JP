@@ -10,18 +10,18 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 27bc26e0146013c3948a15d7c3ce865be4d789bd
+source-git-commit: 201ca4c0df9016929d63b4f41f570903a59f7ebf
 
 ---
 
 
 # Brand Portal でのアセットの検索 {#search-assets-on-brand-portal}
 
-Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and faceted search that uses filters to help you further narrow down your search. 検索設定をスマートコレクションとして保存しておき、後で呼び出すこともできます。
+ブランドポータル検索機能を使用すると、オムニサーチを使用して関連するアセットをすばやく検索し、フィルターを使用して検索を絞り込むことができます。 検索設定をスマートコレクションとして保存しておき、後で呼び出すこともできます。
 
 ## オムニサーチを使用したアセット検索 {#search-assets-using-omnisearch}
 
-ブランドポータルでアセットを検索するには：
+To search for assets on Brand Portal:
 
 1. From the toolbar, click the **[!UICONTROL Search]** icon, or press the "**[!UICONTROL /]**" key to launch Omnisearch.
 
@@ -41,13 +41,15 @@ Brand Portal search capability lets you quickly search for relevant assets using
 
    *オムニサーチを使用したアセット検索*
 
+To know about search behaviour with smart tagged assets, see [understand search results and behavior](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html).
+
 ## フィルターパネルでのファセットを使用した検索 {#search-using-facets-in-filters-panel}
 
 フィルターパネルの検索ファセットを使用すると、詳細な検索条件を指定して、検索効率を高めることができます。検索ファセットでは、複数のディメンション（述語）を使用して、より複雑な検索を実行できます。より焦点を絞った検索のために、目的の詳細レベルまで簡単にドリルダウンできます。
 
 例えば、画像を検索する場合、ビットマップとベクトル画像のどちらを検索するかを選択できます。「ファイルタイプ」検索ファセットで画像の MIME タイプを指定することで、さらに検索の範囲を絞り込むことができます。同様に、ドキュメントを検索する場合は、PDF や MS Word などの形式を指定できます。
 
-![ブランドポータルのフィルタ](assets/file-type-search.png "ーパネルブランドポータルのフィルターパネル")
+![Filters panel in Brand Portal](assets/file-type-search.png "Filters panel in Brand Portal")
 
 The [!UICONTROL Filters] panel includes a few standard facets, such as- [!UICONTROL Path Browser], [!UICONTROL File Type], [!UICONTROL File Size], [!UICONTROL Status], and [!UICONTROL Orientation]. ただし、[!UICONTROL フィルター]パネルに[カスタム検索ファセットを追加](../using/brand-portal-search-facets.md)したり、特定の検索ファセットを削除したりすることも可能です。そのためには、基礎となる検索フォームで述語を追加または削除します。詳しくは、[Brand Portal で利用可能な検索用述語の一覧](../using/brand-portal-search-facets.md#list-of-search-predicates)を参照してください。
 
@@ -63,7 +65,7 @@ The [!UICONTROL Filters] panel includes a few standard facets, such as- [!UICONT
    >[!NOTE]
    >
    >To non-admin users, [!UICONTROL Path Browser] in [!UICONTROL Filter] panel shows only the content structure of the folders (and their ancestor folders) shared with them.\
-   >To admin users, Path Browser allows navigating to any folder in Brand Portal.
+   >管理者ユーザーは、パスブラウザーを使用してBrand portalの任意のフォルダーに移動できます。
 
    * **[!UICONTROL ファイルタイプ]**：検索するアセットファイルのタイプ（画像、ドキュメント、マルチメディア、アーカイブ）を指定します。さらに、例えば画像の MIME タイプ（Tiff、ビットマップ、GIMP 画像）やドキュメントの形式（PDF、MS Word）を指定して、検索の範囲を絞り込むことができます。
    * **[!UICONTROL ファイルサイズ]**：ファイルサイズに基づいてアセットを検索します。サイズ範囲の下限と上限を指定して検索を絞り込むことができます。また、検索の単位を指定できます。
