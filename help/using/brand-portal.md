@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: f9397850937a5adb01ec41bc3b60afa712a4ddc3
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -84,7 +84,7 @@ Brand Portal の標準ユーザーは一般的に、閲覧者の役割を持ち�
 
 An administrator includes a user marked as system administrator or Brand Portal product administrator in [!UICONTROL Admin Console]. 管理者は、システム管理者とユーザーを追加／削除したり、プリセットを定義したりできます。また、ユーザーに電子メールを送信したり、ポータルの使用状況とストレージに関するレポートを表示したりできます。
 
-管理者は、エディターが実行できる次の追加のタスクをすべて実行できます。
+An administrator can perform all tasks that an Editor can perform the following additional tasks:
 
 [ユーザー、グループ、ユーザーの役割の管理](brand-portal-adding-users.md)
 
@@ -108,7 +108,7 @@ AEM Assets の作成者は、上記のタスクに加えて、次のタスクを
 
 ## Brand Portal URL の代替エイリアス {#tenant-alias-for-portal-url}
 
-Brand Portal 6.4.3以降では、組織はBrand portalテナントの既存のURLに対して1つの代替（エイリアス）URLを持つことができます。 エイリアス URL を作成するには、既存の URL に代替プレフィックスを含めます。\
+Brand Portal 6.4.3 onwards, organizations can have one alternate (alias) URL for existing URL of their Brand Portal tenant. エイリアス URL を作成するには、既存の URL に代替プレフィックスを含めます。\
 カスタマイズできるのは Brand Portal URL のプレフィックスのみであり、URL 全体でないことに注意してください。例えば、**[!UICONTROL geomettrix.brand-portal.adobe.com]** という既存ドメインを持つ組織は、アドビに依頼することで **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** という URL を作成できます。
 
 ただし、AEM オーサーインスタンスを[設定](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)する際にはテナント ID URL のみを使用できます。テナントエイリアス（代替）URL は使用できません。
@@ -133,7 +133,7 @@ Brand Portal 6.4.3以降では、組織はBrand portalテナントの既存のUR
 
 2. To request access to an organization’s Brand Portal, you must have a valid [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID].
 
-   [!UICONTROL アクセスを申請]ページで、自分の ID を使用してログインするか（シナリオ 1）、[!UICONTROL Adobe ID] を作成します（シナリオ 2）。
+   [!UICONTROL アクセスを申請]ページで、自分の ID を使用してログインするか（シナリオ 1）、[!UICONTROL Adobe ID] を作成します（シナリオ 2）。<br />
    ![[!UICONTROL アクセスの申請]](assets/bplogin_request_access_2.png)
 
    **シナリオ 1**
@@ -142,7 +142,7 @@ Brand Portal 6.4.3以降では、組織はBrand portalテナントの既存のUR
    2. [!UICONTROL Adobe ID資格情報を入力し、] 「サインイン」をク **[!UICONTROL リックします]**。<br />
    ![アドビへのログイン](assets/bplogin_request_access_3.png)
 
-   [!UICONTROL アクセスを申請]ページにリダイレクトされます。
+   [!UICONTROL アクセスを申請]ページにリダイレクトされます。<br />
    **シナリオ 2**
    1. [!UICONTROL Adobe ID] を持っていない場合は、**[!UICONTROL アクセスを申請]ページの「**[!UICONTROL Adobe ID を取得]」をクリックして、Adobe ID を作成します。
 [!UICONTROL ログイン]ページが開きます。
@@ -154,19 +154,18 @@ Brand Portal 6.4.3以降では、組織はBrand portalテナントの既存のUR
 
    [!UICONTROL アクセスを申請]ページにリダイレクトされます。
 
-3. アクセスの申請に使用する現在のユーザーの名前と電子メール ID が次のページに表示されます。Leave a comment for the administrator, and click **[!UICONTROL Submit]**.
+3. アクセスの申請に使用する現在のユーザーの名前と電子メール ID が次のページに表示されます。Leave a comment for the administrator, and click **[!UICONTROL Submit]**.<br />
 
    ![](assets/bplogin-request-access.png)
 
 ## 製品管理者によるアクセス権の付与 {#grant-access-to-brand-portal}
 
-Brand portal製品管理者は、Brand portal通知領域と受信トレイの電子メールを通じてアクセス要求を受け取ります。
+Brand Portal product administrators receive access requests in their Brand Portal notification area and through emails in their inbox.
 
 ![アクセス申請の通知](assets/bplogin_request_access_7.png)
 
 To grant access, product administrators need to click the relevant notification in Brand Portal notification area and then click **[!UICONTROL Grant Access]**.
 Alternatively, product administrators can follow the link provided in the access request email to visit Adobe [!UICONTROL Admin Console] and add the user to the relevant product configuration.
-![](assets/bplogin_request_access_8.png)
 
 You are redirected to the [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe [!UICONTROL Admin Console] to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in [!UICONTROL Admin Console], see [Add a user](brand-portal-adding-users.md#add-a-user) (follow Steps 4-7 in the procedure to add a user).
 
@@ -178,7 +177,7 @@ You can change Brand Portal language from Adobe [!UICONTROL Experience Cloud Set
 
 To change the language:
 
-1. Select [!UICONTROL User] &gt; [!UICONTROL Edit Profile] from the top menu.
+1. Select [!UICONTROL User] &gt; [!UICONTROL Edit Profile] from the top menu.<br />
    ![プロファイルを編集](assets/EditBPProfile.png)
 
 2. On [!UICONTROL Experience Cloud Settings] page, select a language from the [!UICONTROL Language] drop-down menu.
@@ -193,7 +192,7 @@ Brand Portal のメンテナンスのために停止が計画されている場�
 
 ## リリースおよびシステム情報 {#release-and-system-information}
 
-<!--* [What's new](../using/whats-new.md)-->
+* [新機能](whats-new.md)
 * [リリースノート](brand-portal-release-notes.md)
 * [サポートされているファイル形式](brand-portal-supported-formats.md)
 
