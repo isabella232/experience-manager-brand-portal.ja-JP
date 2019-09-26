@@ -1,8 +1,8 @@
 ---
 title: AEM Assets Brand Portal の新機能
 seo-title: AEM Assets Brand Portal の新機能
-description: 6.4.4 の新機能と機能強化について説明します。
-seo-description: 6.4.4 の新機能と機能強化について説明します。
+description: 6.4.5 の新機能と機能強化について説明します。
+seo-description: 6.4.5 の新機能と機能強化について説明します。
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 94a3183f42e232f841a07644a89817591ca2d521
 
 ---
 
@@ -19,7 +19,51 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。アドビは Brand Portal の全体的なエクスペリエンスの強化に取り組んでいます。以下に、最新機能と機能強化について簡単に紹介します。
 
-## 6.4.4 の変更点 {#what-is-changing-in}
+## 6.4.5 の変更点 {#what-changed-in-645}
+
+Brand Portal 6.4.5は、アクティブなBrand portalユーザー（外部のエージェンシー/チーム）がアセットをBrand portalにアップロードし、AEMオーサリング環境にアクセスせずにAEM Assetsに公開するための共同プラットフォームの提供に重点を置いた機能リリースです。 この機能は、Brand portalで「アセッ **トソーシング」という名前が付けられます**。 This feature improves customer experiences by providing a two-way mechanism of contributing and sharing the assets with other Brand Portal users distributed globally.
+
+### ブランドポータルでのアセットソーシング {#asset-sourcing-in-bp}
+
+アセットソーシング機能を使用すると、AEM管理者は、**Asset Contributionという名前の追加プロパティを持つ新しいフォルダーを作成できます**。 作成された新しいフォルダーは、「アセット貢 *献度* 」と呼ばれます。貢献度 *フォルダ* 。 When a contribution folder is created in AEM, an internal workflow triggers which further creates two sub folders under the contribution folder namely–NEW and SHARED.
+
+AEM administrator defines the requirement by uploading a brief about the contribution folder, upload baseline asset in the SHARED folder for reference, assign active Brand Portal users to access the contribution folder, and publishes the contribution folder to Brand Portal. **** Once the contribution folder is published, the Brand Portal users having access to the contribution folder can login to their Brand Portal instance and begin contributing by uploading content/assets (files or folders) under the NEW folder. **** After uploading all the content, the Brand Portal users manually publishes the contribution folder to AEM. It may take few mins to import and reflect the published content/assets in AEM Assets.
+
+The existing functionality remains in-place, the Brand Portal users can view, search, and download assets from the contribution folder as well as from the other permitted folders. And administrators can further share the contribution folder, modify properties and add assets to collections. 最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
+
+>[!NOTE]
+>
+>Brand Portal users can upload content/assets only to the NEW folder.****
+
+>[!NOTE]
+>
+>Maximum upload limit for any Brand Portal account/tenant is 10 GB.****
+
+
+
+![](assets/asset-sourcing.png)
+
+### Upload assets in Brand Portal {#upload-assets-in-bp}
+
+アクティブなBrand portalユーザーは、貢献度フォルダーが共有されるたびに、パルスおよび電子メールの通知を受け取ります。 They can download the brief document attached to the contribution folder and download the baseline content/assets from the SHARED folder to understand the requirement.****
+
+The Brand Portal users having permission to access the contribution folder can upload assets only to the NEW folder. **** However, they can upload multiple assets or folders containing multiple assets.
+
+![](assets/upload-asset6.png)
+
+![](assets/upload-asset4.png)
+
+>[!NOTE]
+>
+>Brand Portal users do not have permission to delete an uploaded asset.
+
+### 貢献度フォルダーをAEMアセットに発行 {#publish-assets-to-aem}
+
+Brand portalユーザーは、 **NEW** folder内のアセットをアップロードした後、貢献度フォルダーをAEMに手動で公開します。 AEM Assetsで公開済みのコンテンツやアセットを読み込んで反映するのに数分かかる場合があります。 Brand portalユーザーおよびAEM管理者は、公開イベントの開始と完了時に、ジョブステータス（キュー済み/処理中/成功）と共に、パルス/電子メール通知を受け取ります。 AEMおよびブランドポータルの管理者は、それぞれのインターフェイスからジョブステータスを表示することもできます。
+
+![](assets/upload-asset5.png)
+
+## 6.4.4 の変更点 {#what-changed-in-644}
 
 Brand Portal 6.4.4 リリースでは、テキスト検索の機能強化と、お客様らのご要望への対応に重点を置いています。最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
 
@@ -60,7 +104,7 @@ Brand Portal では、検索クエリに、検索対象フレーズの単語の�
 >
 >「**部分検索**」チェックボックスを選択すると、デフォルトで「**大文字と小文字を区別しない**」がオンになります。
 
-[![](assets/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
 ## 6.4.3 の変更点 {#what-changed-in}
 
@@ -85,7 +129,7 @@ Brand Portal 6.4.3 リリースでは、様々な機能が強化されていま�
 
 ![](assets/hierarchy1-nonadmin-2.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal-general-configuration.md)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-general-configuration.md)
 
 ### 特定のフォルダー階層またはパス内での検索
 
@@ -104,7 +148,7 @@ Brand Portal 6.4.3 リリースでは、様々な機能が強化されていま�
 
 ![](assets/filter-panel.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
 ### Dynamic Media ビデオレンディションのサポート
 
@@ -126,18 +170,18 @@ Dynamic Media ビデオエンコードは以下の場所からダウンロード
 
 ![](assets/edit-dynamic-media-config.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Brand Portal への公開のスケジュール設定
 
-Assets (and folders) publish workflow from [AEM (6.4.2.0)](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) Author instance to Brand Portal can be scheduled for a later date, time.
+[](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) AEM(6.4.2.0)作成者インスタンスからBrand portalへのアセット（およびフォルダー）発行ワークフローは、後でスケジュールできます。
 
 同様に、「Brand Portal で非公開」ワークフローのスケジュールを設定することで、公開されているアセットを未来の特定の日時にポータルから取り下げることができます。
 
 ![](assets/schedule-publish.png)
 ![](assets/publishlater-workflow.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### URL 中の設定可能なテナントエイリアス
 
@@ -151,7 +195,7 @@ Assets (and folders) publish workflow from [AEM (6.4.2.0)](https://helpx.adobe.c
 **使用事例**
 以下のアイテムをアドビから提供された URL をそのまま使用するのではなく、カスタマイズされたポータル URL を取得して、ブランドのニーズを満たすことができます。
 
-[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### ダウンロードエクスペリエンスの強化
 
