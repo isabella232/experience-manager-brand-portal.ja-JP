@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
+source-git-commit: f9397850937a5adb01ec41bc3b60afa712a4ddc3
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
 
 ## Brand Portal でのユーザーのペルソナ {#Personas}
 
-Brand portalは、次のユーザの役割をサポートします。
+Brand Portal supports the following user roles:
 
 * ゲストユーザー
 * 閲覧者
@@ -137,7 +137,7 @@ Brand Portal 6.4.3以降では、組織はBrand portalテナントの既存のUR
    ![[!UICONTROL アクセスの申請]](assets/bplogin_request_access_2.png)
 
    **シナリオ 1**
-   1. If you have an [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID], click **[!UICONTROL Sign In]**.
+   1. [!UICONTROL Adobe ID、]Enterprise ID [!UICONTROL 、]Federated IDをお持ちの場合は、「サインイン [!UICONTROL 」をクリ]****ックします。
 [!UICONTROL ログイン]ページが開きます。
    2. [!UICONTROL Adobe ID資格情報を入力し、] 「サインイン」をク **[!UICONTROL リックします]**。<br />
    ![アドビへのログイン](assets/bplogin_request_access_3.png)
@@ -169,6 +169,19 @@ Alternatively, product administrators can follow the link provided in the access
 ![](assets/bplogin_request_access_8.png)
 
 You are redirected to the [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe [!UICONTROL Admin Console] to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in [!UICONTROL Admin Console], see [Add a user](brand-portal-adding-users.md#add-a-user) (follow Steps 4-7 in the procedure to add a user).
+
+## Brand Portal languages {#brand-portal-language}
+
+You can change Brand Portal language from Adobe [!UICONTROL Experience Cloud Settings].
+
+![アクセス申請の通知](assets/BPLang.png)
+
+To change the language:
+
+1. Select [!UICONTROL User] &gt; [!UICONTROL Edit Profile] from the top menu.
+   ![プロファイルを編集](assets/EditBPProfile.png)
+
+2. On [!UICONTROL Experience Cloud Settings] page, select a language from the [!UICONTROL Language] drop-down menu.
 
 ## Brand Portal のメンテナンス通知 {#brand-portal-maintenance-notification}
 
