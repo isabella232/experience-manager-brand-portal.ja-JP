@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 94a3183f42e232f841a07644a89817591ca2d521
+source-git-commit: f5318420b4598ece27d8dfac4f4e7e0c5a02753d
 
 ---
 
@@ -21,33 +21,35 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 ## 6.4.5 の変更点 {#what-changed-in-645}
 
-Brand Portal 6.4.5は、アクティブなBrand portalユーザー（外部のエージェンシー/チーム）がアセットをBrand portalにアップロードし、AEMオーサリング環境にアクセスせずにAEM Assetsに公開するための共同プラットフォームの提供に重点を置いた機能リリースです。 この機能は、Brand portalで「アセッ **トソーシング」という名前が付けられます**。 This feature improves customer experiences by providing a two-way mechanism of contributing and sharing the assets with other Brand Portal users distributed globally.
+Brand Portal 6.4.5は、Brand portalユーザ（外部のエージェンシー/チーム）に対して、作成者環境にアクセスする必要なく、Brand portalにコンテンツをアップロードしてAEM Assetsに公開する機能を提供することに重点を置いた機能リリースです。 この機能はBrand Portalで **** Asset Sourcingと呼ばれ、グローバルに分散した他のBrand portalユーザとアセットを共有し、貢献度を高める双方向のメカニズムをユーザに提供することで、顧客体験を向上させます。
 
 ### ブランドポータルでのアセットソーシング {#asset-sourcing-in-bp}
 
-アセットソーシング機能を使用すると、AEM管理者は、**Asset Contributionという名前の追加プロパティを持つ新しいフォルダーを作成できます**。 作成された新しいフォルダーは、「アセット貢 *献度* 」と呼ばれます。貢献度 *フォルダ* 。 When a contribution folder is created in AEM, an internal workflow triggers which further creates two sub folders under the contribution folder namely–NEW and SHARED.
+アセットソーシングを使用すると、AEM管理者は追加のアセット貢献度プロパティを使用して新しいフォルダーを作成できます **** 。これにより、新しく作成したフォルダーは、Brand portalユーザーがアセットを送信するために開くことができます。 これにより、新しく作成された貢献度フォルダー内にNEWとSHAREDという2つの追加のサブフォルダーを作成するワークフローが自動的にトリガ **ーされ** ます。
 
-AEM administrator defines the requirement by uploading a brief about the contribution folder, upload baseline asset in the SHARED folder for reference, assign active Brand Portal users to access the contribution folder, and publishes the contribution folder to Brand Portal. **** Once the contribution folder is published, the Brand Portal users having access to the contribution folder can login to their Brand Portal instance and begin contributing by uploading content/assets (files or folders) under the NEW folder. **** After uploading all the content, the Brand Portal users manually publishes the contribution folder to AEM. It may take few mins to import and reflect the published content/assets in AEM Assets.
+次に、AEM管理者は、貢献度フォルダーに追加する必要のあるアセットのタイプと、ベースラインアセットのセットに関する簡単な情報を **SHARED** フォルダーにアップロードして、BPユーザーが必要な参照情報を確実に取得できるように定義します。 管理者は、新しく作成した貢献度フォルダーをBrand portalに公開する前に、アクティブなBrand portalユーザーに貢献度フォルダーへのアク **セス権を** 付与できます。
 
-The existing functionality remains in-place, the Brand Portal users can view, search, and download assets from the contribution folder as well as from the other permitted folders. And administrators can further share the contribution folder, modify properties and add assets to collections. 最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
+ユーザーは、 **NEW** （新規）フォルダーにコンテンツを追加し終えると、貢献度フォルダーをAEMオーサー環境に再度公開できます。 読み込みが完了し、AEM Assets内に新しく公開されたコンテンツが反映されるまでに数分かかる場合があります。
 
->[!NOTE]
->
->Brand Portal users can upload content/assets only to the NEW folder.****
+また、既存の機能はすべて変更されません。 Brand portalユーザーは、貢献度フォルダーおよび他の許可されたフォルダーから、アセットを表示、検索およびダウンロードできます。 また、管理者は貢献度フォルダーの共有、プロパティの変更、コレクションへのアセットの追加を行うこともできます。 最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
 
 >[!NOTE]
 >
->Maximum upload limit for any Brand Portal account/tenant is 10 GB.****
+>Brand portalユーザーは、コンテンツやアセットを新規フォルダーにのみアップロード **できます** 。
+
+>[!NOTE]
+>
+>Brand portalアカウント/テナントの最大アップロード数は **10** GBです。
 
 
 
 ![](assets/asset-sourcing.png)
 
-### Upload assets in Brand Portal {#upload-assets-in-bp}
+### ブランドポータルでのアセットのアップロード {#upload-assets-in-bp}
 
-アクティブなBrand portalユーザーは、貢献度フォルダーが共有されるたびに、パルスおよび電子メールの通知を受け取ります。 They can download the brief document attached to the contribution folder and download the baseline content/assets from the SHARED folder to understand the requirement.****
+Brand portalユーザーは、貢献度フォルダーが共有されるたびにパルス/電子メール通知を自動的に受け取り、プロジェクトの要件を確実に理解するために、 **SHARED** （共有）フォルダーから簡単なドキュメントをダウンロードし、ベースラインコンテンツをダウンロードできます。
 
-The Brand Portal users having permission to access the contribution folder can upload assets only to the NEW folder. **** However, they can upload multiple assets or folders containing multiple assets.
+適切な権限を持つBrand portalユーザーは、複数のアセットまたは複数のアセットを含むフォルダーを貢献度フォルダーにアップロードできます。 ただし、Brand portalユーザーは、 **NEWサブフォルダーにのみアセットをアップロードできます** 。 SHAREDフォ **ルダは** 、プロジェクトの詳細とベースラインアセットを配布するためのフォルダです。
 
 ![](assets/upload-asset6.png)
 
@@ -55,11 +57,13 @@ The Brand Portal users having permission to access the contribution folder can u
 
 >[!NOTE]
 >
->Brand Portal users do not have permission to delete an uploaded asset.
+>Brand portalユーザーは、アップロードされたアセットを削除する権限を持っていません。
 
 ### 貢献度フォルダーをAEMアセットに発行 {#publish-assets-to-aem}
 
-Brand portalユーザーは、 **NEW** folder内のアセットをアップロードした後、貢献度フォルダーをAEMに手動で公開します。 AEM Assetsで公開済みのコンテンツやアセットを読み込んで反映するのに数分かかる場合があります。 Brand portalユーザーおよびAEM管理者は、公開イベントの開始と完了時に、ジョブステータス（キュー済み/処理中/成功）と共に、パルス/電子メール通知を受け取ります。 AEMおよびブランドポータルの管理者は、それぞれのインターフェイスからジョブステータスを表示することもできます。
+NEWフォルダーへのアップロードが完了す **ると** 、Brand portalユーザーは貢献度フォルダーをAEMに再度公開できます。 AEM Assetsで公開済みのコンテンツやアセットを読み込んで反映するのに数分かかる場合があります。
+
+Brand portalユーザーとAEM管理者は、公開アクションの開始時と完了時の両方に、ジョブの進行状況ステータス（キュー済み/処理中/成功）と共に、パルス/電子メール通知を受け取ります。 AEMおよびブランドポータルの管理者は、それぞれのインターフェイスからジョブステータスを表示することもできます。
 
 ![](assets/upload-asset5.png)
 
@@ -174,7 +178,7 @@ Dynamic Media ビデオエンコードは以下の場所からダウンロード
 
 ### Brand Portal への公開のスケジュール設定
 
-[](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) AEM(6.4.2.0)作成者インスタンスからBrand portalへのアセット（およびフォルダー）発行ワークフローは、後でスケジュールできます。
+Assets (and folders) publish workflow from [AEM (6.4.2.0)](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) Author instance to Brand Portal can be scheduled for a later date, time.
 
 同様に、「Brand Portal で非公開」ワークフローのスケジュールを設定することで、公開されているアセットを未来の特定の日時にポータルから取り下げることができます。
 
