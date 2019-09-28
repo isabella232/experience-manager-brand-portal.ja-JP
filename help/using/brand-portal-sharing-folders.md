@@ -9,7 +9,7 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -91,15 +91,15 @@ No action tasks are visible on hovering or selecting them in [!UICONTROL Card Vi
 
    ![](assets/selectorrail.png)
 
-2. From the siderail on the left, select **[!UICONTROL Files]**.
+1. From the siderail on the left, select **[!UICONTROL Files]**.
 
    ![](assets/access_files.png)
 
-3. Brand Portal インターフェイスで、共有するフォルダーを選択します。
+1. Brand Portal インターフェイスで、共有するフォルダーを選択します。
 
    ![](assets/share-folders.png)
 
-4. From the toolbar at the top, select **[!UICONTROL Share]**.
+1. From the toolbar at the top, select **[!UICONTROL Share]**.
 
    ![](assets/share_icon.png)
 
@@ -107,8 +107,8 @@ No action tasks are visible on hovering or selecting them in [!UICONTROL Card Vi
 
    ![](assets/folder_properties.png)
 
-5. デフォルトの名前をユーザーに表示しないようにする場合は、[!UICONTROL フォルダーのプロパティ]コンソールで、「[!UICONTROL フォルダーのタイトル]」フィールドにフォルダーのタイトルを指定します。
-6. From the [!UICONTROL Add User] list, select the users or groups with which you want to share the folder, and click **[!UICONTROL Add]**.
+1. デフォルトの名前をユーザーに表示しないようにする場合は、[!UICONTROL フォルダーのプロパティ]コンソールで、「[!UICONTROL フォルダーのタイトル]」フィールドにフォルダーのタイトルを指定します。
+1. From the [!UICONTROL Add User] list, select the users or groups with which you want to share the folder, and click **[!UICONTROL Add]**.
 フォルダーをゲストユーザーとのみ共有し、他のユーザーとは共有しない場合は、「[!UICONTROL **メンバー]」ドロップダウンから「**[!UICONTROL 匿名ユーザー]」を選択します。
 
    ![](assets/only-anonymous.png)
@@ -117,9 +117,9 @@ No action tasks are visible on hovering or selecting them in [!UICONTROL Card Vi
    >
    >グループのメンバーシップや役割に関係なく、すべてのユーザーがフォルダーを使用できるようにするには、「**[!UICONTROL 公開フォルダー]」チェックボックスをオンにして、そのフォルダーを公開フォルダーに設定します。**
 
-7. 必要であれば、「**[!UICONTROL サムネールを変更]」をクリックしてフォルダーのサムネール画像を変更します。**
-8. Click **[!UICONTROL Save]**.
-9. 共有フォルダーにアクセスするには、フォルダーを共有するユーザーの資格情報を使用して Brand Portal にログインします。インターフェイスで共有フォルダーを確認します。
+1. 必要であれば、「**[!UICONTROL サムネールを変更]」をクリックしてフォルダーのサムネール画像を変更します。**
+1. Click **[!UICONTROL Save]**.
+1. 共有フォルダーにアクセスするには、フォルダーを共有するユーザーの資格情報を使用して Brand Portal にログインします。インターフェイスで共有フォルダーを確認します。
 
 ## フォルダーの共有解除 {#unshare-the-folders}
 
@@ -129,11 +129,11 @@ No action tasks are visible on hovering or selecting them in [!UICONTROL Card Vi
 
    ![](assets/share-folders-1.png)
 
-2. From the toolbar at the top, click **[!UICONTROL Share]**.
-3. [!UICONTROL フォルダーのプロパティ]コンソールの「[!UICONTROL メンバー]」で、ユーザーの横にある **[!UICONTROL x]記号をクリックして、このユーザーを、フォルダーを共有しているユーザーの一覧から削除します。**
+1. From the toolbar at the top, click **[!UICONTROL Share]**.
+1. [!UICONTROL フォルダーのプロパティ]コンソールの「[!UICONTROL メンバー]」で、ユーザーの横にある **[!UICONTROL x]記号をクリックして、このユーザーを、フォルダーを共有しているユーザーの一覧から削除します。**
 
    ![](assets/folder_propertiesunshare.png)
 
-4. 警告メッセージボックスの「**[!UICONTROL 確認]」をクリックして、共有を解除することを確認します。** Click **[!UICONTROL Save]**.
+1. 警告メッセージボックスの「**[!UICONTROL 確認]」をクリックして、共有を解除することを確認します。** Click **[!UICONTROL Save]**.
 
-5. 共有リストから削除したユーザーの資格情報を使用して、Brand Portal にログインします。そのフォルダーは、そのユーザーの Brand Portal インターフェイスで利用できなくなっています。
+1. 共有リストから削除したユーザーの資格情報を使用して、Brand Portal にログインします。そのフォルダーは、そのユーザーの Brand Portal インターフェイスで利用できなくなっています。
