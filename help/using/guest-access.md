@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -33,14 +33,14 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## ゲストセッションの開始 {#begin-guest-session}
 
-匿名で Brand Portal に入るには、Brand Portal ようこそ画面で&#x200B;**[!UICONTROL ゲストとしてアクセスしますか？]**&#x200B;の横にある「**ここをクリックしてください** on Brand Portal welcome screen. ユーザーは、アクセス権を要求したり、管理者から認証を受けてアクセス権が付与されるのを待たなくても、Brand Portal を使用することができます。
+匿名で Brand Portal に入るには、Brand Portal ようこそ画面で&#x200B;**[!UICONTROL ゲストとしてアクセスしますか？]**&#x200B;の横にある「**ここをクリックしてください** Brand portalのようこそ画面に表示されます。 ユーザーは、アクセス権を要求したり、管理者から認証を受けてアクセス権が付与されるのを待たなくても、Brand Portal を使用することができます。
 
 ![](assets/bp-login-screen.png)
 
 ## ゲストセッションの期間 {#guest-session-duration}
 
 ゲストユーザーセッションは 2 時間アクティブのままになります。This means that the state of the [!UICONTROL Lightbox] is preserved until 1 hour from the session start time, and after 2 hours the current guest session restarts so the Lightbox state is lost.\
-For example, a guest user logs in to the Brand Portal at 1500 hours and adds assets to Lightbox for download at 16:50 hours. If the user doesn't download the [!UICONTROL Lightbox] collection (or its assets) before 17:00 hours, the [!UICONTROL Lightbox] will become empty as the user will have to restart the session at the end of 1 hour (that is 1700 hours).
+例えば、ゲストユーザーが1500時間でブランドポータルにログインし、16:50時間でダウンロードできるようにLightboxにアセットを追加したとします。 If the user doesn't download the [!UICONTROL Lightbox] collection (or its assets) before 17:00 hours, the [!UICONTROL Lightbox] will become empty as the user will have to restart the session at the end of 1 hour (that is 1700 hours).
 
 ## 許可されている同時ゲストセッション {#concurrent-guest-sessions-allowed}
 
@@ -58,7 +58,7 @@ However, the guest users see the folder tree (starting from the root folder) and
 
 これらの親フォルダーは仮想フォルダーであり、これらに対してアクションを実行することはできません。仮想フォルダーは鍵のアイコン付きで表示されます。
 
-No action tasks are visible on hovering or selecting them in [!UICONTROL Card View], unlike the shared folders. [!UICONTROL Overview] button is shown on selecting a virtual folder in [!UICONTROL Column View] and [!UICONTROL List View].
+No action tasks are visible on hovering or selecting them in [!UICONTROL Card View], unlike the shared folders. [!UICONTROL 「概要] 」ボタンは、「列ビュー」と「リストビュー」で仮想フォル [!UICONTROL ダを選択する] とき [!UICONTROL に表示されます]。
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ No action tasks are visible on hovering or selecting them in [!UICONTROL Card Vi
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 
-[!UICONTROL View Settings option allows the guest users to adjust card sizes in Card View or columns to display in List View.]
+[!UICONTROL 「設定を表示] 」オプションを使用すると、ゲストユーザーはカード表示でカードのサイズ [!UICONTROL を調整したり] 、リスト表示で表示する列を [!UICONTROL 調整できます]。
 
 ![](assets/nav-guest-user.png)
 
@@ -77,9 +77,7 @@ The [!UICONTROL Content tree] lets you move through assets hierarchy.
 Brand Portal provides [!UICONTROL Overview] option to guest users to view [!UICONTROL Asset Properties] of selected assets/folders. The [!UICONTROL Overview] option is visible:
 
 * アセットやフォルダーを選択する際に上部に表示されるツールバー。
-* レールセレクターを選択する際のドロップダウン。
-
-On selecting the [!UICONTROL Overview] option while an asset/folder is selected, users can see the title, path, and time of asset creation. Whereas, on asset detail page selecting [!UICONTROL Overview] option lets the users see metadata of the asset.
+* レールセレクターを選択する際のドロップダウン。On selecting the [!UICONTROL Overview] option while an asset/folder is selected, users can see the title, path, and time of asset creation. Whereas, on asset detail page selecting [!UICONTROL Overview] option lets the users see metadata of the asset.
 
 ![](assets/overview-option-1.png)
 
