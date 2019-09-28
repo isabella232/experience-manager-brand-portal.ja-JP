@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -28,11 +28,11 @@ The reporting capability is instrumental in assessing Brand Portal usage, and kn
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
+1. From the administrative tools panel, click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
 
    ![](assets/access-asset-reports.png)
 
-3. アセットレポートページから、**[!UICONTROL 使用状況]レポートなどの生成済みレポートにアクセスします。**
+1. アセットレポートページから、**[!UICONTROL 使用状況]レポートなどの生成済みレポートにアクセスします。**
 
    >[!NOTE]
    >
@@ -95,16 +95,16 @@ The reporting capability is instrumental in assessing Brand Portal usage, and kn
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, tap/click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
+1. From the administrative tools panel, tap/click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
 
    ![](assets/asset-reports.png)
 
-3. In the Asset Reports page, tap/click **[!UICONTROL Create]**.
-4. From the **[!UICONTROL Create Report]** page, select a report to create, and tap/click **[!UICONTROL Next]**.
+1. In the Asset Reports page, tap/click **[!UICONTROL Create]**.
+1. From the **[!UICONTROL Create Report]** page, select a report to create, and tap/click **[!UICONTROL Next]**.
 
    ![](assets/crete-report.png)
 
-5. レポートの詳細を設定します。[!UICONTROL ダウンロード]、[!UICONTROL 有効期限]および[!UICONTROL 公開]レポートのタイトル、説明、フォルダー構造（レポートで統計を実行、生成する場所）および期間を指定します。
+1. レポートの詳細を設定します。[!UICONTROL ダウンロード]、[!UICONTROL 有効期限]および[!UICONTROL 公開]レポートのタイトル、説明、フォルダー構造（レポートで統計を実行、生成する場所）および期間を指定します。
 
    ![](assets/create-report-page.png)
 
@@ -116,8 +116,8 @@ The reporting capability is instrumental in assessing Brand Portal usage, and kn
    >
    >レポートタイトル中の特殊文字 # および % は、レポート生成時にハイフン（-）に置き換えられます。
 
-6. Tap/click **[!UICONTROL Next]**, to configure the columns of Download, Expiration, and Publish reports.
-7. 必要に応じて、適切なチェックボックスをオンまたはオフにします。For example, to view names of users (who downloaded assets) in [!UICONTROL Download] report, select **[!UICONTROL Downloaded By]**. 次の画像は、ダウンロードレポートのデフォルト列の選択を示しています。
+1. Tap/click **[!UICONTROL Next]**, to configure the columns of Download, Expiration, and Publish reports.
+1. 必要に応じて、適切なチェックボックスをオンまたはオフにします。For example, to view names of users (who downloaded assets) in [!UICONTROL Download] report, select **[!UICONTROL Downloaded By]**. 次の画像は、ダウンロードレポートのデフォルト列の選択を示しています。
 
    ![](assets/createdownloadreport.png)
 
@@ -126,8 +126,8 @@ The reporting capability is instrumental in assessing Brand Portal usage, and kn
    ダウンロードレポート、公開レポートまたは有効期限レポートにカスタム列を追加するには、以下の手順に従います。
 
    1. カスタム列を表示するには、「**[!UICONTROL カスタム列]」の「**[!UICONTROL 追加]」をタップまたはクリックします。
-   2. 「**[!UICONTROL 列名]」フィールドで列名を指定します。**
-   3. プロパティピッカーを使用して、列と対応付ける必要があるプロパティを選択します。
+   1. 「**[!UICONTROL 列名]」フィールドで列名を指定します。**
+   1. プロパティピッカーを使用して、列と対応付ける必要があるプロパティを選択します。
 
       ![](assets/property-picker.png)または、プロパティパスフィールドにパスを入力します。
 
@@ -135,7 +135,7 @@ The reporting capability is instrumental in assessing Brand Portal usage, and kn
 
       カスタム列をさらに追加するには、「**追加**」をタップまたはクリックし、手順 2 および 3 を繰り返します。
 
-8. Tap/click **[!UICONTROL Create]**. レポートの生成が開始されたことを通知するメッセージが表示されます。
+1. Tap/click **[!UICONTROL Create]**. レポートの生成が開始されたことを通知するメッセージが表示されます。
 
 ## ダウンロードレポート {#download-reports}
 
