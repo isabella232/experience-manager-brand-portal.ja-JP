@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ## オムニサーチを使用したアセット検索 {#search-assets-using-omnisearch}
 
-ブランドポータルでアセットを検索するには：
+To search for assets on Brand Portal:
 
 1. From the toolbar, click the **[!UICONTROL Search]** icon, or press the "**[!UICONTROL /]**" key to launch Omnisearch.
 
@@ -41,7 +41,7 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
    *オムニサーチを使用したアセット検索*
 
-スマートタグ付きアセットを使用した検索動作について詳しくは、検索結果と動 [作についてを参照してくださ](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html)い。
+To know about search behaviour with smart tagged assets, see understand search results and behavior.[](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html)
 
 ## フィルターパネルでのファセットを使用した検索 {#search-using-facets-in-filters-panel}
 
@@ -49,7 +49,7 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 例えば、画像を検索する場合、ビットマップとベクトル画像のどちらを検索するかを選択できます。「ファイルタイプ」検索ファセットで画像の MIME タイプを指定することで、さらに検索の範囲を絞り込むことができます。同様に、ドキュメントを検索する場合は、PDF や MS Word などの形式を指定できます。<br />
 
-![Filters panel in Brand Portal](assets/file-type-search.png "Filters panel in Brand Portal")
+![ブランドポータルのフィルタ](assets/file-type-search.png "ーパネルブランドポータルのフィルターパネル")
 
 The [!UICONTROL Filters] panel includes a few standard facets, such as- [!UICONTROL Path Browser], [!UICONTROL File Type], [!UICONTROL File Size], [!UICONTROL Status], and [!UICONTROL Orientation]. ただし、[!UICONTROL フィルター]パネルに[カスタム検索ファセットを追加](../using/brand-portal-search-facets.md)したり、特定の検索ファセットを削除したりすることも可能です。そのためには、基礎となる検索フォームで述語を追加または削除します。詳しくは、[Brand Portal で利用可能な検索用述語の一覧](../using/brand-portal-search-facets.md#list-of-search-predicates)を参照してください。
 
@@ -59,7 +59,7 @@ The [!UICONTROL Filters] panel includes a few standard facets, such as- [!UICONT
 
    ![](assets/selectorrail.png)
 
-2. 左側の&#x200B;**[!UICONTROL フィルター]パネルから、適切なオプションを選択して、関連するフィルターを適用します。**&#x200B;例えば、以下の標準のフィルターを使用します。
+1. 左側の&#x200B;**[!UICONTROL フィルター]パネルから、適切なオプションを選択して、関連するフィルターを適用します。**&#x200B;例えば、以下の標準のフィルターを使用します。
 
    * **[!UICONTROL パスブラウザー]**：特定のディレクトリ内のアセットを検索します。The default search path of the predicate for Path Browser is **[!UICONTROL /content/dam/mac/&lt;tenant-id&gt;/]**, which can be configured by editing the default search form.
    >[!NOTE]
@@ -102,7 +102,7 @@ The [!UICONTROL Filters] panel includes a few standard facets, such as- [!UICONT
 
    アセットの検索結果と検索結果数
 
-3. 検索結果から特定の項目に移動した後、ブラウザーの戻るボタンを使用して元の検索結果に簡単に戻ることができます。検索クエリーを再実行する必要はありません。
+1. 検索結果から特定の項目に移動した後、ブラウザーの戻るボタンを使用して元の検索結果に簡単に戻ることができます。検索クエリーを再実行する必要はありません。
 
 ## 検索設定をスマートコレクションとして保存 {#save-your-searches-as-smart-collection}
 
@@ -120,10 +120,10 @@ The [!UICONTROL Filters] panel includes a few standard facets, such as- [!UICONT
 
    ![](assets/save_smartcollectionui.png)
 
-2. To save the smart collection in a different name, and select or clear the **[!UICONTROL Public]** checkbox, click **[!UICONTROL Edit Smart Collection]**.
+1. To save the smart collection in a different name, and select or clear the **[!UICONTROL Public]** checkbox, click **[!UICONTROL Edit Smart Collection]**.
 
    ![](assets/edit_smartcollection.png)
 
-3. **[!UICONTROL スマートコレクションを編集]**&#x200B;ダイアログボックスで、「**名前を付けて保存[!UICONTROL 」を選択し、スマートコレクションの名前を入力します。]** Click **[!UICONTROL Save]**.
+1. **[!UICONTROL スマートコレクションを編集]**&#x200B;ダイアログボックスで、「**名前を付けて保存[!UICONTROL 」を選択し、スマートコレクションの名前を入力します。]** Click **[!UICONTROL Save]**.
 
    ![](assets/saveas_smartsearch.png)
