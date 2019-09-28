@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 Brand Portal のアセット、またはアセットを含むフォルダーをダウンロードするには、次の手順に従います。
 
-1. From the Brand Portal interface, do one of the following:
+1. ブランドポータルインターフェイスから、次のいずれかの操作を行います。
 
    * ダウンロードするフォルダーまたはアセットを選択します。上部のツールバーで「**[!UICONTROL ダウンロード]」アイコンをクリックします。**
    ![](assets/downloadassets-1.png)
@@ -51,7 +51,7 @@ Brand Portal のアセット、またはアセットを含むフォルダーを�
 
    ![](assets/restrictaccess-note.png)
 
-2. To download the renditions of assets in addition to the assets, select **[!UICONTROL Rendition(s)]**. However, to allow auto-generated renditions to download along with custom renditions, deselect **[!UICONTROL Exclude Auto Generated Renditions]**, which is selected by default.
+1. To download the renditions of assets in addition to the assets, select **[!UICONTROL Rendition(s)]**. However, to allow auto-generated renditions to download along with custom renditions, deselect **[!UICONTROL Exclude Auto Generated Renditions]**, which is selected by default.
 
    ![](assets/exclude-auto-renditions.png)
 
@@ -63,14 +63,14 @@ Brand Portal のアセット、またはアセットを含むフォルダーを�
 
    * Brand Portal からのアセットファイルのダウンロードをスピードアップさせるには、「**[!UICONTROL ダウンロードアクセラレーションの有効化]**」オプションを選択し、[ウィザードに従います](../using/accelerated-download.md#main-pars-header-405749062)。To know more about faster download of assets refer [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
 
-   * To apply a [custom image preset to the asset and its renditions](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), select **[!UICONTROL Dynamic Rendition(s)]**. カスタムの画像プロパティ（サイズ、フォーマット、カラースペース、解像度および画像の修飾子）を指定して、アセットとそのレンディションをダウンロードするときにカスタムの画像プリセットを適用します。動的なレンディションのみをダウンロードするには、 アセット **[!UICONTROL を選択します]**。
+   * To apply a [custom image preset to the asset and its renditions](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), select **[!UICONTROL Dynamic Rendition(s)]**. カスタムの画像プロパティ（サイズ、フォーマット、カラースペース、解像度および画像の修飾子）を指定して、アセットとそのレンディションをダウンロードするときにカスタムの画像プリセットを適用します。動的なレンディションのみをダウンロードするには、 delesect Asset(s).****
    ![](assets/dynamic-renditions.png)
 
    >[!NOTE]
    >
-   >アセットの動的レンディションをプレビュー（またはダウンロード）するには、動的メディアが有効で、アセットのピラミッドTIFFレンディションがAEM作成者インスタンスに存在し、アセットの公開元であることを確認します。 アセットがBrand Portalに公開されると、ピラミッドTIFFレンディションも公開されます。 Brand portalからピラミッドTIFFレンディションを生成する方法はありません。
+   >To preview (or download) dynamic renditions of any asset, ensure that the dynamic media is enabled and the asset's Pyramid tiff rendition exists at the AEM author instance, from where the assets have been published. When an asset is published to Brand Portal, its Pyramid tiff rendition is also published. There is no way of generating the Pyramid tiff rendition from Brand Portal.
 
-   * To preserve the Brand Portal folder hierarchy while downloading assets, select **[!UICONTROL Create separate folder for each asset]**. デフォルトでは、Brand Portalのフォルダー階層は無視され、すべてのアセットがローカルシステムの1つのフォルダーにダウンロードされます。
+   * To preserve the Brand Portal folder hierarchy while downloading assets, select **[!UICONTROL Create separate folder for each asset]**. By default, Brand Portal folder hierarchy is ignored and all assets are downloaded in one folder in your local system.
 
    * To send an email notification to users with a link for downloading the assets, select **[!UICONTROL Email]**.
    ![](assets/download-link.png)
@@ -81,7 +81,7 @@ Brand Portal のアセット、またはアセットを含むフォルダーを�
    >
    >管理者は、電子メールのメッセージ内容、つまりロゴ、説明およびフッターを、[ブランディング](../using/brand-portal-branding.md)機能を使用してカスタマイズできます。
 
-3. Click **[!UICONTROL Download]**.
+1. Click **[!UICONTROL Download]**.
 
    アセット（および選択されている場合はレンディション）が ZIP ファイルとしてローカルフォルダーにダウンロードされます。ただし、レンディションなしで 1 つのアセットをダウンロードした場合、zip ファイルは作成されないので、すばやくダウンロードを行うことができます。
 
