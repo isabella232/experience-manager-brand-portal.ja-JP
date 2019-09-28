@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -26,14 +26,12 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ## Brand Portal でのユーザーのペルソナ {#Personas}
 
-Brand Portal supports the following user roles:
+Brand portalは、次のユーザの役割をサポートします。
 
 * ゲストユーザー
 * 閲覧者
 * エディター
-* 管理者
-
-次の表に、これらの役割を持つユーザーが実行できるタスクを示します。
+* 管理者次の表に、これらの役割を持つユーザーが実行できるタスクを示します。
 
 |  | **参照** | **検索** | **ダウンロード** | **フォルダーの共有** | **コレクションの共有** | **アセットをリンクとして共有** | **管理ツールにアクセス** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -131,7 +129,7 @@ Brand Portal 6.4.3 onwards, organizations can have one alternate (alias) URL for
 
    [!UICONTROL アクセスを申請]ページが開きます。
 
-2. To request access to an organization’s Brand Portal, you must have a valid [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID].
+1. To request access to an organization’s Brand Portal, you must have a valid [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID].
 
    [!UICONTROL アクセスを申請]ページで、自分の ID を使用してログインするか（シナリオ 1）、[!UICONTROL Adobe ID] を作成します（シナリオ 2）。<br />
    ![[!UICONTROL アクセスの申請]](assets/bplogin_request_access_2.png)
@@ -139,22 +137,22 @@ Brand Portal 6.4.3 onwards, organizations can have one alternate (alias) URL for
    **シナリオ 1**
    1. [!UICONTROL Adobe ID、]Enterprise ID [!UICONTROL 、]Federated IDをお持ちの場合は、「サインイン [!UICONTROL 」をクリ]****ックします。
 [!UICONTROL ログイン]ページが開きます。
-   2. [!UICONTROL Adobe ID資格情報を入力し、] 「サインイン」をク **[!UICONTROL リックします]**。<br />
+   1. [!UICONTROL Adobe ID資格情報を入力し、] 「サインイン」をク **[!UICONTROL リックします]**。<br />
    ![アドビへのログイン](assets/bplogin_request_access_3.png)
 
    [!UICONTROL アクセスを申請]ページにリダイレクトされます。<br />
    **シナリオ 2**
    1. [!UICONTROL Adobe ID] を持っていない場合は、**[!UICONTROL アクセスを申請]ページの「**[!UICONTROL Adobe ID を取得]」をクリックして、Adobe ID を作成します。
 [!UICONTROL ログイン]ページが開きます。
-   2. Click **[!UICONTROL Get an Adobe ID]**.
+   1. Click **[!UICONTROL Get an Adobe ID]**.
 [!UICONTROL 新規登録]ページが開きます。
-   3. 名前、電子メール ID およびパスワードを入力します。
-   4. Select Sign up.****<br />
+   1. 名前、電子メール ID およびパスワードを入力します。
+   1. 「入会」 **[!UICONTROL を選択します]**。<br />
    ![](assets/bplogin_request_access_5.png)
 
    [!UICONTROL アクセスを申請]ページにリダイレクトされます。
 
-3. アクセスの申請に使用する現在のユーザーの名前と電子メール ID が次のページに表示されます。Leave a comment for the administrator, and click **[!UICONTROL Submit]**.<br />
+1. アクセスの申請に使用する現在のユーザーの名前と電子メール ID が次のページに表示されます。Leave a comment for the administrator, and click **[!UICONTROL Submit]**.<br />
 
    ![](assets/bplogin-request-access.png)
 
@@ -169,18 +167,18 @@ Alternatively, product administrators can follow the link provided in the access
 
 You are redirected to the [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe [!UICONTROL Admin Console] to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in [!UICONTROL Admin Console], see [Add a user](brand-portal-adding-users.md#add-a-user) (follow Steps 4-7 in the procedure to add a user).
 
-## Brand Portal languages {#brand-portal-language}
+## ブランドポータル言語 {#brand-portal-language}
 
-You can change Brand Portal language from Adobe [!UICONTROL Experience Cloud Settings].
+ブランドポータルの言語は、Adobe [!UICONTROL Experience cloudの設定で変更できます]。
 
 ![アクセス申請の通知](assets/BPLang.png)
 
-To change the language:
+言語を変更するには：
 
-1. Select [!UICONTROL User] &gt; [!UICONTROL Edit Profile] from the top menu.<br />
+1. 上部メニ [!UICONTROL ューから] 、ユ [!UICONTROL ーザー/プロファイルを編集] を選択します。<br />
    ![プロファイルを編集](assets/EditBPProfile.png)
 
-2. On [!UICONTROL Experience Cloud Settings] page, select a language from the [!UICONTROL Language] drop-down menu.
+1. Experience cloud設定 [!UICONTROL ページで] 、言語ドロップダウンメニュー [!UICONTROL から言語] を選択します。
 
 ## Brand Portal のメンテナンス通知 {#brand-portal-maintenance-notification}
 
