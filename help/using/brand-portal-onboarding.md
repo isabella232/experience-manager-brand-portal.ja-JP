@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: e8d06818-29c7-4810-bff1-40b3e2818114
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -20,11 +20,11 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 管理者が新しいユーザーを追加した後は、ブランドポータルアカウントに追加する際に招待を受け入れる必要はありません。招待は自動的に追加されます。
 
-Brand portalに初めてログインするには、次の手順を実行します。
+To log in to Brand Portal for the first time, do the following:
 
 1. Open the welcome email, and click **[!UICONTROL Get Started]**.
 
-2. 新規登録ページで、詳細（名前、パスワード、国／地域など）を指定します。
+1. 新規登録ページで、詳細（名前、パスワード、国／地域など）を指定します。
    >[!NOTE]
    >
    >既存の Adobe Marketing Cloud ユーザーには、新規登録ページではなく、ログインページが表示されます。Adobe Marketing Cloud にログインするには、Adobe ID とパスワードを入力します。
@@ -33,8 +33,8 @@ Brand portalに初めてログインするには、次の手順を実行しま�
    >
    >組織で Enterprise ID を使用している場合は、新規登録ページは表示されずに、エンタープライズログインページにリダイレクトされます。詳しくは、[Enterprise ID、ログイン、およびアカウントヘルプ](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html)を参照してください。
 
-3. Click **[!UICONTROL Continue]** to proceed to your organization's Brand Portal page.
-4. Brand Portal サインインページの「**[!UICONTROL サインイン]」をクリックして、Brand Portal にログインします。**
+1. Click **[!UICONTROL Continue]** to proceed to your organization's Brand Portal page.
+1. Brand Portal サインインページの「**[!UICONTROL サインイン]」をクリックして、Brand Portal にログインします。**
 
    ![ブランドポータルのサインインページ](assets/signin-onboarding.png)
 
