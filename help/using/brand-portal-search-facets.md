@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -34,19 +34,19 @@ Brand Portal supports [faceted search](../using/brand-portal-searching.md#search
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Search Forms]**.
+1. From the administrative tools panel, click **[!UICONTROL Search Forms]**.
 
    ![](assets/navigation-panel-1.png)
 
-3. In the **[!UICONTROL Search Forms]** page, select **[!UICONTROL Assets Admin Search Rail]**.
+1. In the **[!UICONTROL Search Forms]** page, select **[!UICONTROL Assets Admin Search Rail]**.
 
    ![](assets/search-forms-page.png)
 
-4. 上部に表示されるツールバーの「**[!UICONTROL 編集]」をクリックして、「検索フォームを編集」を開きます。**
+1. 上部に表示されるツールバーの「**[!UICONTROL 編集]」をクリックして、「検索フォームを編集」を開きます。**
 
    ![](assets/edit-search-form-1.png)
 
-5. [!UICONTROL 検索フォームを編集]ページで、「[!UICONTROL 述語を選択]」タブからメインウィンドウに述語をドラッグします。For example, drag **[!UICONTROL Property Predicate]**.
+1. [!UICONTROL 検索フォームを編集]ページで、「[!UICONTROL 述語を選択]」タブからメインウィンドウに述語をドラッグします。For example, drag **[!UICONTROL Property Predicate]**.
 
    メインウィンドウに「**[!UICONTROL プロパティ]**」フィールドが表示され、右側の「**設定]」タブにプロパティの述語が表示されます。[!UICONTROL **
 
@@ -56,7 +56,7 @@ Brand Portal supports [faceted search](../using/brand-portal-searching.md#search
    >
    >「**[!UICONTROL 設定]」タブのヘッダーラベルは、選択した述語のタイプを示します。**
 
-6. 「**[!UICONTROL 設定]」タブで、そのプロパティの述語のラベル、プレースホルダーテキストおよび説明を入力します。**
+1. 「**[!UICONTROL 設定]」タブで、そのプロパティの述語のラベル、プレースホルダーテキストおよび説明を入力します。**
 
    * Select **[!UICONTROL Partial Search]**, if you want to allow partial phrase search (and wildcard search) of assets-based on the specified property value. 述語はデフォルトでフルテキスト検索をサポートしています。
    * Select **[!UICONTROL Ignore Case]**, if you want the asset search based on property value to be non-case sensitive. 検索フィルターでのプロパティ値の検索では、デフォルトで大文字と小文字が区別されます。
@@ -64,16 +64,16 @@ Brand Portal supports [faceted search](../using/brand-portal-searching.md#search
    >
    >「**[!UICONTROL 部分検索]**」チェックボックスを選択すると、デフォルトで「[!UICONTROL 大文字と小文字を区別しない]」がオンになります。
 
-7. 「[!UICONTROL プロパティ名]」フィールドで、プロパティピッカーを開き、検索に使用するプロパティを選択します。または、プロパティの名前を入力します。For example, enter [!UICONTROL `  jcr :content/metadata/dc:title`] or [!UICONTROL `./jcr:content/metadata/dc:title`].
+1. 「[!UICONTROL プロパティ名]」フィールドで、プロパティピッカーを開き、検索に使用するプロパティを選択します。または、プロパティの名前を入力します。For example, enter [!UICONTROL `  jcr :content/metadata/dc:title`] or [!UICONTROL `./jcr:content/metadata/dc:title`].
 
    ![](assets/title-prop.png)
 
-8. 「**[!UICONTROL 完了]」をクリックして、設定を保存します。**
-9. [!UICONTROL Assets] ユーザーインターフェイスで、オーバーレイアイコンをクリックし、「**[!UICONTROL フィルター]**」を選択して&#x200B;**フィルター[!UICONTROL パネルに移動します。]****[!UICONTROL プロパティ]の述語がパネルに追加されています。**
+1. 「**[!UICONTROL 完了]」をクリックして、設定を保存します。**
+1. [!UICONTROL Assets] ユーザーインターフェイスで、オーバーレイアイコンをクリックし、「**[!UICONTROL フィルター]**」を選択して&#x200B;**フィルター[!UICONTROL パネルに移動します。]****[!UICONTROL プロパティ]の述語がパネルに追加されています。**
 
    ![](assets/property-filter-panel.png)
 
-10. 「**[!UICONTROL プロパティ]」テキストボックスに、検索するアセットのタイトルを入力します。** For example, "Adobe". 検索を実行すると、「アドビ」と一致するタイトルを持つアセットが検索結果に表示されます。
+1. 「**[!UICONTROL プロパティ]」テキストボックスに、検索するアセットのタイトルを入力します。**&#x200B;例えば、「Adobe」とします。 検索を実行すると、「アドビ」と一致するタイトルを持つアセットが検索結果に表示されます。
 
 ## 検索用述語の一覧 {#list-of-search-predicates}
 
@@ -111,29 +111,29 @@ Brand Portal supports [faceted search](../using/brand-portal-searching.md#search
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Search Forms]**.
+1. From the administrative tools panel, click **[!UICONTROL Search Forms]**.
 
    ![](assets/navigation-panel-2.png)
 
-3. In the **[!UICONTROL Search Forms]** page, select **[!UICONTROL Assets Admin Search Rail]**.
+1. In the **[!UICONTROL Search Forms]** page, select **[!UICONTROL Assets Admin Search Rail]**.
 
    ![](assets/search-forms-page.png)
 
-4. 上部に表示されるツールバーの「**[!UICONTROL 編集]」をクリックして、「検索フォームを編集」を開きます。**
+1. 上部に表示されるツールバーの「**[!UICONTROL 編集]」をクリックして、「検索フォームを編集」を開きます。**
 
    ![](assets/edit-search-form-2.png)
 
-5. [!UICONTROL 検索フォームを編集]ページで、削除する述語をメインウィンドウから選択します。For example, select **[!UICONTROL Property Predicate]**.
+1. [!UICONTROL 検索フォームを編集]ページで、削除する述語をメインウィンドウから選択します。For example, select **[!UICONTROL Property Predicate]**.
 
    右側の「**[!UICONTROL 設定]」タブに、「プロパティの述語」に関するフィールドが表示されます。**
 
-6. プロパティの述語を削除するには、ごみ箱アイコンをクリックします。**[!UICONTROL フィールドを削除]**&#x200B;ダイアログボックスで、「**削除[!UICONTROL 」をクリックして、削除することを確認します。]**
+1. プロパティの述語を削除するには、ごみ箱アイコンをクリックします。**[!UICONTROL フィールドを削除]**&#x200B;ダイアログボックスで、「**削除[!UICONTROL 」をクリックして、削除することを確認します。]**
 
    メインウィンドウから「**[!UICONTROL プロパティの述語]**」フィールドが削除され、「**設定]」タブが空になります。[!UICONTROL **
 
    ![](assets/search-form-delete-predicate.png)
 
-7. 変更を保存するには、ツールバーの「**[!UICONTROL 完了]」をクリックします。**
-8. **[!UICONTROL Assets]** ユーザーインターフェイスで、オーバーレイアイコンをクリックし、「**[!UICONTROL フィルター]」を選択して**&#x200B;フィルター&#x200B;**パネルに移動します。**&#x200B;指定した&#x200B;**[!UICONTROL プロパティ]の述語が、パネルから削除されています。**
+1. 変更を保存するには、ツールバーの「**[!UICONTROL 完了]」をクリックします。**
+1. **[!UICONTROL Assets]** ユーザーインターフェイスで、オーバーレイアイコンをクリックし、「**[!UICONTROL フィルター]」を選択して**&#x200B;フィルター&#x200B;**パネルに移動します。**&#x200B;指定した&#x200B;**[!UICONTROL プロパティ]の述語が、パネルから削除されています。**
 
    ![](assets/property-predicate-removed.png)
