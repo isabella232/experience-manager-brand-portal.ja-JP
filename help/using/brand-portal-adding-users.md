@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -30,7 +30,7 @@ Comment Type: draft
 -->
 ![](assets/create-user-group.png)
 
-これらの製品プロファイルは、8時間ごとにブランドポータルユーザーインターフェイスと同期され、ブランドポータルでグループとして表示されます。 Once you add users and create product profiles, and add users to those product profiles, you can assign roles to users and groups in Brand Portal.
+These product profiles are synced with the Brand Portal user interface every 8 hours and visible as groups in Brand Portal. Once you add users and create product profiles, and add users to those product profiles, you can assign roles to users and groups in Brand Portal.
 
 >[!NOTE]
 >
@@ -50,15 +50,15 @@ You can login to [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.co
 
    ![AEM ロゴ](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Users]**.
+1. From the administrative tools panel, click **[!UICONTROL Users]**.
 
    ![管理ツールパネル](assets/admin-tools-panel-5.png)
 
-3. In the [!UICONTROL User Roles] page, click the **[!UICONTROL Management]** tab, then click **[!UICONTROL Launch Admin Console]**.
+1. In the [!UICONTROL User Roles] page, click the **[!UICONTROL Management]** tab, then click **[!UICONTROL Launch Admin Console]**.
 
    ![ユーザーの役割で Admin Console を起動](assets/launch_admin_console.png)
 
-4. Admin Console で、以下のいずれかの手順を実行して、新しいユーザーを作成します。
+1. Admin Console で、以下のいずれかの手順を実行して、新しいユーザーを作成します。
 
    * From the toolbar at the top, click **[!UICONTROL Overview]**. In the [!UICONTROL Overview] page, click **[!UICONTROL Assign Users]** from the Brand Portal product card.
    ![Admin Console の概要](assets/admin_console_overviewadduser.png)
@@ -66,12 +66,12 @@ You can login to [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.co
    * From the toolbar at the top, click **[!UICONTROL Users]**. [!UICONTROL ユーザー]ページでは、左レールの「[!UICONTROL ユーザー]」がデフォルトで選択されています。Click **[!UICONTROL Add User]**.
    ![Admin Console でユーザーを追加](assets/admin_console_adduseruserpage.png)
 
-5. ユーザーを追加ダイアログで、追加するユーザーの電子メール ID を入力するか、入力中に表示される候補リストからユーザーを選択します。
+1. ユーザーを追加ダイアログで、追加するユーザーの電子メール ID を入力するか、入力中に表示される候補リストからユーザーを選択します。
 
    ![Brand Portal へのユーザーの追加](assets/add_user_to_aem_bp.png)
 
-6. 1 つ以上の製品プロファイル（旧称：製品設定）にユーザーを割り当てます。製品プロファイルに割り当てられたユーザーは、Brand Portal にアクセスできます。「**[!UICONTROL この製品のプロファイルを選択してください]」フィールドから、適切な製品プロファイルを選択します。**
-7. Click **[!UICONTROL Save]**. 追加したユーザー宛に「ようこそ」の電子メールが送信されます。The invited user can access Brand Portal by clicking the link in the welcome email and signing in using an [!UICONTROL Adobe ID]. 詳しくは、[初回のログイン操作](../using/brand-portal-onboarding.md)を参照してください。
+1. 1 つ以上の製品プロファイル（旧称：製品設定）にユーザーを割り当てます。製品プロファイルに割り当てられたユーザーは、Brand Portal にアクセスできます。「**[!UICONTROL この製品のプロファイルを選択してください]」フィールドから、適切な製品プロファイルを選択します。**
+1. Click **[!UICONTROL Save]**. 追加したユーザー宛に「ようこそ」の電子メールが送信されます。The invited user can access Brand Portal by clicking the link in the welcome email and signing in using an [!UICONTROL Adobe ID]. 詳しくは、[初回のログイン操作](../using/brand-portal-onboarding.md)を参照してください。
 
    >[!NOTE]
    If a user is unable to log on to Brand Portal, the Administrator of the organization should visit Adobe [!UICONTROL Admin Console] and check whether the user is present and has been added to at least one product profile.
@@ -89,24 +89,24 @@ You can login to [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/ente
 
    ![AEM ロゴ](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Users]**.
+1. From the administrative tools panel, click **[!UICONTROL Users]**.
 
    ![管理ツールパネル](assets/admin-tools-panel-6.png)
 
-3. In the [!UICONTROL User Roles] page, click the **[!UICONTROL Management]** tab, then click **[!UICONTROL Launch Admin Console]**.
+1. In the [!UICONTROL User Roles] page, click the **[!UICONTROL Management]** tab, then click **[!UICONTROL Launch Admin Console]**.
 
    ![Admin Console の起動](assets/launch_admin_console.png)
 
-4. From the toolbar at the top, click **[!UICONTROL Products]**.
-5. [!UICONTROL 製品]ページでは、「[!UICONTROL 製品プロファイル]」がデフォルトで選択されています。Click **[!UICONTROL New Profile]**.
+1. From the toolbar at the top, click **[!UICONTROL Products]**.
+1. [!UICONTROL 製品]ページでは、「[!UICONTROL 製品プロファイル]」がデフォルトで選択されています。Click **[!UICONTROL New Profile]**.
 
    ![新しい製品プロファイルの追加](assets/admin_console_addproductprofile.png)
 
-6. [!UICONTROL 新しいプロファイルを作成]ページで、プロファイル名、表示名およびプロファイルの説明を入力します。また、ユーザーがプロファイルに追加された場合やプロファイルから削除された場合に電子メールで通知するかどうかも選択します。
+1. [!UICONTROL 新しいプロファイルを作成]ページで、プロファイル名、表示名およびプロファイルの説明を入力します。また、ユーザーがプロファイルに追加された場合やプロファイルから削除された場合に電子メールで通知するかどうかも選択します。
 
    ![製品プロファイルの作成](assets/admin_console_addaproductprofilecreatenewprofile.png)
 
-7. Click **[!UICONTROL Done]**. The product configuration group, for example **[!UICONTROL Sales group]**, is added to Brand Portal.
+1. Click **[!UICONTROL Done]**. The product configuration group, for example **[!UICONTROL Sales group]**, is added to Brand Portal.
 
    ![製品プロファイル](assets/admin_console_productprofileadded.png)
 
@@ -121,23 +121,23 @@ You can login to [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/ente
 
    ![AEM ロゴ](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Users]**.
+1. From the administrative tools panel, click **[!UICONTROL Users]**.
 
    ![管理ツールパネル](assets/admin-tools-panel-7.png)
 
-3. In the [!UICONTROL User Roles] page, click the **[!UICONTROL Management]** tab, then click **[!UICONTROL Launch Admin Console]**.
+1. In the [!UICONTROL User Roles] page, click the **[!UICONTROL Management]** tab, then click **[!UICONTROL Launch Admin Console]**.
 
    ![[!DNL Admin Console] の起動](assets/launch_admin_console.png)
 
-4. From the toolbar at the top, click **[!UICONTROL Products]**.
-5. [!UICONTROL 製品]ページでは、「[!UICONTROL 製品プロファイル]」がデフォルトで選択されています。ユーザーを追加する製品プロファイル（例：[!UICONTROL Sales group]）を開きます。
+1. From the toolbar at the top, click **[!UICONTROL Products]**.
+1. [!UICONTROL 製品]ページでは、「[!UICONTROL 製品プロファイル]」がデフォルトで選択されています。ユーザーを追加する製品プロファイル（例：[!UICONTROL Sales group]）を開きます。
 
    ![製品プロファイル](assets/admin_console_productprofileadded.png)
 
-6. 製品プロファイルにユーザーを個別に追加するには、以下の手順を実行します。
+1. 製品プロファイルにユーザーを個別に追加するには、以下の手順を実行します。
 
    * Click **[!UICONTROL Add User]**.
-   ![ブランドポータルで製品プロファイルをマップするグループ](assets/admin_console_productprofilesalesgroup.png)
+   ![Group to map Product Profile in Brand Portal](assets/admin_console_productprofilesalesgroup.png)
 
    * [!UICONTROL Sales group にユーザーを追加]ページで、追加するユーザーの電子メール ID を入力するか、入力中に表示される候補リストからユーザーを選択します。
    ![グループへのユーザーの追加](assets/admin_console_addusertosalesgroup.png)
@@ -146,7 +146,7 @@ You can login to [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/ente
 
 
 
-7. 製品プロファイルにユーザーを一括で追加するには、以下の手順を実行します。
+1. 製品プロファイルにユーザーを一括で追加するには、以下の手順を実行します。
 
    * Choose ellipsis (**[!UICONTROL ...) &gt; Add users by CSV]**.
    ![ユーザーの一括追加](assets/admin_console_addbulkusers.png)
@@ -155,7 +155,7 @@ You can login to [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/ente
    ![CSV でのユーザーの追加](assets/admin_console_addbulkuserscsv.png)
 
    * Click **[!UICONTROL Upload]**.
-   デフォルトの製品プロファイル(Brand Portal)にユーザーを追加した場合、追加したユーザーの電子メールIDにご案内の電子メールが送信されます。 The invited users can access Brand Portal by clicking the link in the welcome email and signing in using an [!UICONTROL Adobe ID]. 詳しくは、[初回のログイン操作](../using/brand-portal-onboarding.md)を参照してください。
+   If you added users to the default product profile, that is, Brand Portal, a welcome email is sent to the email ID of the users you added. The invited users can access Brand Portal by clicking the link in the welcome email and signing in using an [!UICONTROL Adobe ID]. 詳しくは、[初回のログイン操作](../using/brand-portal-onboarding.md)を参照してください。
 
    ユーザーをカスタム製品プロファイルや新しい製品プロファイルに追加したときに、そのユーザーに電子メール通知が送信されることはありません。
 
@@ -170,35 +170,35 @@ You can login to [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/ent
 
    ![AEM ロゴ](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Users]**.
+1. From the administrative tools panel, click **[!UICONTROL Users]**.
 
    ![管理ツールパネル](assets/admin-tools-panel-8.png)
 
-3. In the [!UICONTROL User Roles] page, click the **[!UICONTROL Management]** tab, then click **[!UICONTROL Launch Admin Console]**.
+1. In the [!UICONTROL User Roles] page, click the **[!UICONTROL Management]** tab, then click **[!UICONTROL Launch Admin Console]**.
 
    ![Admin Console の起動](assets/launch_admin_console.png)
 
-4. From the toolbar at the top, click **[!UICONTROL Users]**.
-5. [!UICONTROL ユーザー]ページでは、左レールの「[!UICONTROL ユーザー]」がデフォルトで選択されています。管理者権限を付与するユーザーの名前をクリックします。
+1. From the toolbar at the top, click **[!UICONTROL Users]**.
+1. [!UICONTROL ユーザー]ページでは、左レールの「[!UICONTROL ユーザー]」がデフォルトで選択されています。管理者権限を付与するユーザーの名前をクリックします。
 
    ![Admin Console でのユーザーの追加](assets/admin_console_adduseruserpage.png)
 
-6. In the user profile page, locate the **[!UICONTROL Administrative Rights]** section at the bottom, and choose ellipsis (**[!UICONTROL ... &gt; Edit admin rights]**.
+1. In the user profile page, locate the **[!UICONTROL Administrative Rights]** section at the bottom, and choose ellipsis (**[!UICONTROL ... &gt; Edit admin rights]**.
    ![Admin Console の管理者権限](assets/admin_console_editadminrights.png)
 
-7. [!UICONTROL 管理者を編集]ページで、「システム管理者」または「製品管理者」を選択します。
+1. [!UICONTROL 管理者を編集]ページで、「システム管理者」または「製品管理者」を選択します。
 
    ![Admin Console での管理者権限の編集](assets/admin_console_editadminrightsselection.png)
 
    >[!NOTE]
-   Brand Portal supports only System Administrator and Product Administrator roles.
-   システム管理者の役割は使用しないことをお勧めします。なぜなら、システム管理者の役割は、組織のすべての製品に対する組織レベルの管理者権限を付与することになるからです。例えば、3 つのマーケティングクラウド製品を扱う組織のシステム管理者は、これら 3 つの製品に対するすべての権限を保有します。Only a System Administrator can configure AEM Assets so that assets can be published from AEM Assets to Brand Portal. For more information, see [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
-   それに対して、製品管理者の役割は、特定の製品に対する管理者権限のみを付与します。If you want to enforce a more granular access control within Brand Portal, use the Product Administrator role and select the product as Brand Portal.
+   ブランドポータルは、システム管理者と製品管理者の役割のみをサポートします。
+   システム管理者の役割は使用しないことをお勧めします。なぜなら、システム管理者の役割は、組織のすべての製品に対する組織レベルの管理者権限を付与することになるからです。例えば、3 つのマーケティングクラウド製品を扱う組織のシステム管理者は、これら 3 つの製品に対するすべての権限を保有します。AEM AssetsからBrand Portalにアセットを公開できるように、AEM Assetsを設定できるのはシステム管理者だけです。 For more information, see [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
+   それに対して、製品管理者の役割は、特定の製品に対する管理者権限のみを付与します。Brand portal内でより詳細なアクセス制御を実施する場合は、製品管理者ロールを使用し、製品をブランドポータルとして選択します。
 
    >[!NOTE]
    Brand Portal は、製品プロファイル管理者（旧称：設定管理者）の権限をサポートしていません。ユーザーに製品プロファイル管理者の権限を割り当てることは避けてください。
 
-8. Review the admin type selection and click **[!UICONTROL Save]**.
+1. Review the admin type selection and click **[!UICONTROL Save]**.
 
    >[!NOTE]
    To revoke administrator privileges for a user, make the appropriate changes in the [!UICONTROL Edit Admin] page, and then click **[!UICONTROL Save]**.
@@ -216,11 +216,11 @@ You can login to [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/ent
 
    ![AEM ロゴ](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Users]**.
+1. From the administrative tools panel, click **[!UICONTROL Users]**.
 
    ![管理ツールパネル](assets/admin-tools-panel-9.png)
 
-3. [!UICONTROL ユーザー役割]ページでは、「[!UICONTROL ユーザー]」タブがデフォルトで選択されています。役割を変更するユーザーの&#x200B;**[!UICONTROL 役割]ドロップダウンから、「**[!UICONTROL エディター]**」または「**&#x200B;閲覧者]」を選択します。**[!UICONTROL **
+1. [!UICONTROL ユーザー役割]ページでは、「[!UICONTROL ユーザー]」タブがデフォルトで選択されています。役割を変更するユーザーの&#x200B;**[!UICONTROL 役割]ドロップダウンから、「**[!UICONTROL エディター]**」または「**&#x200B;閲覧者]」を選択します。**[!UICONTROL **
 
    ![ユーザーの役割の変更](assets/modify_user_role.png)
 
@@ -232,7 +232,7 @@ You can login to [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/ent
    >[!NOTE]
    ユーザーがエディターグループのメンバーの場合は、ユーザーの役割も無効になっています。ユーザーの編集権限を失効するには、エディターグループからそのユーザーを削除するか、グループ全体の役割を「閲覧者」に変更します。
 
-4. Click **[!UICONTROL Save]**. 対応するユーザーの役割が変更されます。複数のユーザーを選択している場合は、すべてのユーザーの役割が同時に変更されます。
+1. Click **[!UICONTROL Save]**. 対応するユーザーの役割が変更されます。複数のユーザーを選択している場合は、すべてのユーザーの役割が同時に変更されます。
 
    >[!NOTE]
    ユーザー権限の変更は、ユーザーが Brand Portal に再ログインするまで、[!UICONTROL ユーザー役割]ページに反映されません。
@@ -250,8 +250,8 @@ You can login to [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/ent
 特定のグループメンバーがオリジナルのレンディションにアクセスするための役割および権限を変更するには、次の手順に従います。
 
 1. [!UICONTROL ユーザーの役割]ページで、「**[!UICONTROL グループ]」タブに移動します。**
-2. 役割を変更するグループを選択します。
-3. [!UICONTROL 役割]ドロップダウンリストから、適切な役割を選択します。
+1. 役割を変更するグループを選択します。
+1. [!UICONTROL 役割]ドロップダウンリストから、適切な役割を選択します。
 
    グループのメンバーに対し、ポータルまたは共有リンクからダウンロードした画像ファイル（.jpeg、.tiff、.png、.bmp、.gif、.pjpeg、x-portable-anymap、x-portable-bitmap、x-portable-graymap、x-portable-pixmap、x-rgb、x-xbitmap、x-xpixmap、x-icon、image/photoshop、image/x-photoshop、.psd、image/vnd.adobe.photoshop）のオリジナルレンディションへのアクセスを許可するには、そのグループの「[!UICONTROL オリジナルへのアクセス]」オプションを選択したままにします。デフォルトでは、「[!UICONTROL オリジナルへのアクセス]」オプションはすべてのユーザーで選択されています。ユーザーグループがオリジナルのレンディションにアクセスできないようにするには、そのグループに対応するオプションの選択を解除します。
 
@@ -261,7 +261,7 @@ You can login to [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/ent
    ユーザーが複数のグループに追加されていて、そのいずれかのグループが制約を受ける場合、そのユーザーにはこの制約が適用されます。
    また、管理者は、画像ファイルのオリジナルのレンディションへのアクセスに関する制約を受けません（その管理者が制約対象となるグループのメンバーである場合も、制約は適用されません）。
 
-4. Click **[!UICONTROL Save]**. 対応するグループの役割が変更されます。
+1. Click **[!UICONTROL Save]**. 対応するグループの役割が変更されます。
 
    >[!NOTE]
    ユーザーとグループの関連付け、またはユーザーのグループメンバーシップは、8 時間おきに Brand Portal と同期されます。ユーザーまたはグループの役割の変更は、次回の同期ジョブの実行後に反映されます。
