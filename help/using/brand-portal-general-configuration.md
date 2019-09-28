@@ -1,7 +1,7 @@
 ---
 title: 一般的なテナント設定の管理
 seo-title: 一般的なテナント設定の管理
-description: ダウンロードアクセラレーション、パブリックスマート[!UICONTROLコレクション]の作成、パブリック[!UICONTROLコレクション]の作成を構成し、管理者ユーザーがテナント上のアセットを削除できるようにします。
+description: Configure download acceleration, public smart [!UICONTROL collection] creation, public [!UICONTROL collection] creation, and enable admin users to delete assets on tenants.
 seo-description: ダウンロードアクセラレーション、パブリックスマート[!UICONTROLコレクション]の作成、パブリック[!UICONTROLコレクション]の作成を構成し、管理者ユーザーがテナント上のアセットを削除できるようにします。
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -31,7 +31,7 @@ AEM Assets Brand Portal では、各組織が特定のテナントについて�
 
 **管理者が** 、Brand portalからアセットを削除できるようにする設定。 （デフォルトでは有効になっています）。
 
-**B   Configuration to allow the non-admin users to create public collections.**（デフォルトでは有効になっています）。
+**B** Configurationを使用して、管理者以外のユーザーがパブリックコレクションを作成できるようにします。 （デフォルトでは有効になっています）。
 
 **C** 管理者以外のユーザーに対し、公開スマートコレクションを作成することを許可する設定。（デフォルトでは有効になっています）。
 
@@ -44,11 +44,11 @@ AEM Assets Brand Portal では、各組織が特定のテナントについて�
 これらの設定を有効化／無効化するには、次のようにします。
 
 1. 管理者権限でログインします。
-2. 管理ツールにアクセスするには、上部のツールバーにある AEM ロゴを選択します。
-3. 管理ツールパネルから、**[!UICONTROL 一般]**&#x200B;を選択して&#x200B;**一般設定]ページを開きます。[!UICONTROL **
-4. それぞれの切り替えスイッチを使用して一般設定を有効化／無効化します。
-5. **[!UICONTROL 変更内容を保存します。]**
-6. ログアウトして変更を有効にします。
+1. 管理ツールにアクセスするには、上部のツールバーにある AEM ロゴを選択します。
+1. 管理ツールパネルから、**[!UICONTROL 一般]**&#x200B;を選択して&#x200B;**一般設定]ページを開きます。[!UICONTROL **
+1. それぞれの切り替えスイッチを使用して一般設定を有効化／無効化します。
+1. **[!UICONTROL 変更内容を保存します。]**
+1. ログアウトして変更を有効にします。
 
 ## 管理者が Brand Portal からアセットを削除することを許可 {#allow-admin-users-to-delete-assets-from-brand-portal}
 
@@ -56,11 +56,11 @@ AEM Assets Brand Portal では、各組織が特定のテナントについて�
 
 ## 管理者以外による公開コレクションの作成を許可 {#allow-public-collections-creation-by-non-admins}
 
-[[!UICONTROL Allow public collections creation] configuration controls whether non-administrators can create public collections on Brand Portal. ](../using/brand-portal-share-collection.md#main-pars-text-1915052376)この設定はデフォルトで有効です。この設定を無効にすると、ポータル上に多数の公開コレクションが作成されることを防止できるので、システム領域を節約できます。
+[[!UICONTROLパブリックコレクションの作成を許可]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) 構成は、管理者以外がBrand portalでパブリックコレクションを作成できるかどうかを制御します。 この設定はデフォルトで有効です。この設定を無効にすると、ポータル上に多数の公開コレクションが作成されることを防止できるので、システム領域を節約できます。
 
 ## 管理者以外による公開スマートコレクションの作成を許可 {#allow-public-smart-collections-creation-by-non-admins}
 
-[[!UICONTROL公開スマートコレクションの作成を許可]](../using/brand-portal-searching.md#main-pars-header-500620467) 構成は、管理者以外が検索をスマートコレクションとして保存し、そのテナントに対して公開するかどうかを制御します。 この設定はデフォルトで有効です。この設定を無効にすると、管理者以外のユーザーが組織の Brand Portal 上に多数の公開スマートコレクションを作成することを防止できます。
+[[!UICONTROL Allow public smart collections creation] configuration controls whether non-administrators can save their searches as smart collections and make them public for that tenant. ](../using/brand-portal-searching.md#main-pars-header-500620467)この設定はデフォルトで有効です。この設定を無効にすると、管理者以外のユーザーが組織の Brand Portal 上に多数の公開スマートコレクションを作成することを防止できます。
 
 ## ダウンロードアクセラレーションを許可 {#allow-download-acceleration}
 
