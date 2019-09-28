@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 メタデータスキーマは、プロパティページのレイアウトと、特定のスキーマを使用するアセット用に表示されるメタデータプロパティを記述します。アセットにどのスキーマを適用するかによって、そのアセットのプロパティページに表示されるメタデータフィールドが決まります。
 
-各アセットの&#x200B;**[!UICONTROL プロパティ]ページには、そのアセットの MIME タイプに応じたデフォルトのメタデータプロパティが表示されます。**&#x200B;管理者は、メタデータスキーマエディターを使用して、既存のスキーマを変更したり、カスタムのメタデータスキーマを追加したりできます。AEM Assets Brand Portal provides default forms for assets of various MIME types. However, you can also add custom forms for such assets.
+各アセットの&#x200B;**[!UICONTROL プロパティ]ページには、そのアセットの MIME タイプに応じたデフォルトのメタデータプロパティが表示されます。**&#x200B;管理者は、メタデータスキーマエディターを使用して、既存のスキーマを変更したり、カスタムのメタデータスキーマを追加したりできます。AEM Assetsブランドポータルは、様々なMIMEタイプのアセットにデフォルトのフォームを提供します。ただし、そのようなアセットにカスタムフォームを追加することもできます。
 
 ## メタデータスキーマフォームの追加 {#add-a-metadata-schema-form}
 
@@ -28,15 +28,15 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Metadata Schemas]**.
+1. From the administrative tools panel, click **[!UICONTROL Metadata Schemas]**.
 
    ![](assets/navigation-panel.png)
 
-3. On the **[!UICONTROL Metadata Schema Forms]** page, click **[!UICONTROL Create]**.
+1. On the **[!UICONTROL Metadata Schema Forms]** page, click **[!UICONTROL Create]**.
 
    ![](assets/create-metadata-schema-form.png)
 
-4. **[!UICONTROL スキーマフォームを作成]**&#x200B;ダイアログボックスで、スキーマフォームのタイトルを指定し、「**作成[!UICONTROL 」をクリックして、フォーム作成プロセスを完了します。]**
+1. **[!UICONTROL スキーマフォームを作成]**&#x200B;ダイアログボックスで、スキーマフォームのタイトルを指定し、「**作成[!UICONTROL 」をクリックして、フォーム作成プロセスを完了します。]**
 
    ![](assets/create-schema-form.png)
 
@@ -52,24 +52,24 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Metadata Schemas]**.
-3. From the **[!UICONTROL Metadata Schema Forms]** page, select a schema form to edit its properties, for example, **[!UICONTROL collection]**.
+1. From the administrative tools panel, click **[!UICONTROL Metadata Schemas]**.
+1. From the **[!UICONTROL Metadata Schema Forms]** page, select a schema form to edit its properties, for example, **[!UICONTROL collection]**.
 
    ![](assets/metadata-schema-forms.png)
 
    >[!NOTE]
    >
-   >Unedited templates display a lock symbol before them. テンプレートをカスタマイズすると、そのテンプレートの前にあるロック記号が消えます。
+   >未編集のテンプレートの前には、ロック記号が表示されます。 テンプレートをカスタマイズすると、そのテンプレートの前にあるロック記号が消えます。
 
-4. From the toolbar at the top, click **[!UICONTROL Edit]**.
+1. From the toolbar at the top, click **[!UICONTROL Edit]**.
 
    **[!UICONTROL メタデータスキーマエディター]**&#x200B;ページが開き、左側には「**[!UICONTROL 基本]」タブが、右側には「**&#x200B;フォームを作成&#x200B;**」タブが開きます。**
 
-5. **[!UICONTROL メタデータスキーマエディター]**&#x200B;ページで、アセットの&#x200B;**[!UICONTROL プロパティ]**&#x200B;ページをカスタマイズします。それには、「**フォームを作成[!UICONTROL 」タブのコンポーネントタイプのリストから「]基本**」タブに、1 つ以上のコンポーネントをドラッグします。****
+1. **[!UICONTROL メタデータスキーマエディター]**&#x200B;ページで、アセットの&#x200B;**[!UICONTROL プロパティ]**&#x200B;ページをカスタマイズします。それには、「**フォームを作成[!UICONTROL 」タブのコンポーネントタイプのリストから「]基本**」タブに、1 つ以上のコンポーネントをドラッグします。****
 
    ![](assets/metadata-schemaeditor-page.png)
 
-6. コンポーネントを設定するには、コンポーネントを選択して、「**[!UICONTROL 設定]」タブでそのプロパティを変更します。**
+1. コンポーネントを設定するには、コンポーネントを選択して、「**[!UICONTROL 設定]」タブでそのプロパティを変更します。**
 
 ### 「フォームを作成」タブのコンポーネント{#components-in-the-build-form-tab}
 
@@ -144,19 +144,19 @@ Brand Portal では、選択した特定の情報のみをアセットの[!UICON
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Metadata Schemas]**.
+1. From the administrative tools panel, click **[!UICONTROL Metadata Schemas]**.
 
-3. **[!UICONTROL メタデータスキーマフォーム]**&#x200B;ページで、アセットに適用するスキーマフォーム（例：[!UICONTROL clothing]）を選択します。
+1. **[!UICONTROL メタデータスキーマフォーム]**&#x200B;ページで、アセットに適用するスキーマフォーム（例：[!UICONTROL clothing]）を選択します。
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
-4. From the toolbar at the top, click **[!UICONTROL Apply to Folder(s)]**.
+1. From the toolbar at the top, click **[!UICONTROL Apply to Folder(s)]**.
 
-5. From the **[!UICONTROL Select Folder(s)]** page, navigate to the folder to which you want to apply the **[!UICONTROL clothing]** metadata schema, for example, **[!UICONTROL Gloves]**.
+1. From the **[!UICONTROL Select Folder(s)]** page, navigate to the folder to which you want to apply the **[!UICONTROL clothing]** metadata schema, for example, **[!UICONTROL Gloves]**.
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
-6. 「**[!UICONTROL 適用]」をクリックして、フォルダーにメタデータスキーマフォームを適用します。**
+1. 「**[!UICONTROL 適用]」をクリックして、フォルダーにメタデータスキーマフォームを適用します。**
 
    **[!UICONTROL clothing]** メタデータスキーマフォームで使用できるメタデータが **[!UICONTROL Gloves]フォルダーに適用され、そのフォルダーの**&#x200B;プロパティ&#x200B;**ページに表示されます。**
 
