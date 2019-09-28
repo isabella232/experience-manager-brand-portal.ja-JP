@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
-source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -30,8 +30,7 @@ Dynamic Media をサポートしている Brand Portal でビデオをアダプ�
 
 ビデオをプレビュー、再生、ダウンロードするために、Brand Portal では次の 2 つの設定を管理者に公開しています。
 
-* [Dynamic Media Hybrid configuration
-If AEM Author instance is running on dynamic media Hybrid mode.](#configure-dm-hybrid-settings)
+* [ダイナミックメディアハイブリッ](#configure-dm-hybrid-settings)ド設定：AEM作成者インスタンスがダイナミックメディアハイブリッドモードで実行されている場合。
 * [ダイナミックメディア[!DNL Scene 7]の設定](#configure-dm-scene7-settings)AEM作成者インスタンスがダイナミックメディアモードで実行され[!DNL Scene 7] ている場合。
 Brand Portal テナントの複製先となる AEM オーサーインスタンスに指定した設定に基づいて、これらの設定のいずれかを指定します。
 
@@ -55,10 +54,10 @@ As video encodes are not stored in Brand Portal repository and are fetched from 
 
 Brand Portal 上でダイナミックビデオを操作するには、必ず以下をおこなってください。
 
-* **Start up AEM Author on DM (Dynamic Media) mode**
-Start up the AEM Author instance (with which Brand Portal is integrated) either on [Dynamic Media Hybrid mode](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) or [Dynamic Media [!DNL Scene 7] mode](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode).
+* **AEM作成者をDMで起動（ダイナミックメディア）モード** Dynamic Media Hybridモードまたは [Dynamic Media [!DNL Scene 7]モードで、AEM作成者インスタンス（Brand portalの統合に使用）を起動します](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia)[](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode)。
 * **AEM AuthorでのDynamic Media cloudサービスの設定AEM Authorが実行しているダイナミックメディアモードに基づいて、ツールから** AEM Authorで [Dynamic Media cloudサービス](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices) [!DNL Scene 7]クラウドサービスを設定 [します](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices)**** 。|クラ **ウドサービス** |ダイナ **ミックメディア**。
-* **Brand portalでのダイナミックメディアの設定** AEM Authorのダイナミックメディアクラウドの設定に基づいて、ダイナミックメディアの設定を行うか [、Brand portal管理ツールの](#configure-dm-hybrid-settings) [!DNL Scene 7]設定を行います [](#configure-dm-scene7-settings) 。
+* **Configure Dynamic Media on Brand Portal**
+Based on the Dynamic Media cloud configurations on AEM Author, configure [Dynamic Media settings](#configure-dm-hybrid-settings) or [[!DNL Scene 7] settings](#configure-dm-scene7-settings)  from Brand Portal administrative tools.
 Make sure that [separate Brand Portal tenants](#separate-tenants) are used for AEM Author instances configured with Dynamic Media Hybrid and Dynamic Media [!UICONTROL Scene7] modes, if you are using functionalities of Dynamic Media Hybrid and Dynamic Media [!UICONTROL S7].
 * **Brand portalに適用されたビデオエンコードを含むフォルダーを発行**&#x200B;す [るビデオエンコードを適用し](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) 、AEM AuthorインスタンスからBrand portalにリッチメディアアセットを含むフォルダーを発行します。
 * **セキュアプレビューが有効な場合** Scene7のホワイトリスト出力IPs Dynamic Media-[!DNL Scene 7] (会社のセキュアプレビューが有効な場合 [)を使用する場合、会社の管理者は、各SPS](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) SPS [!DNL Scene 7] SPS [SPS SPS](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) SPS SCENE公開システム（UIフラッシュ）を使用している場合)を公開
@@ -78,7 +77,7 @@ To whitelist either of these egress IPs, see [prepare your account for secure te
 
 ### Dynamic Media ハイブリッドモードと Dynamic Media Scene7 モードでテナントが異なる {#separate-tenants}
 
-If you are using both Dynamic Media [!DNL Scene 7] and Dynamic Media Hybrid features, it is advised that you use different Brand Portal tenants for AEM Author instances configured with Dynamic Media Hybrid and Dynamic Media [!DNL Scene 7] modes.
+If you are using both Dynamic Media [!DNL Scene 7] and Dynamic Media Hybrid features, it is advised that you use different Brand Portal tenants for AEM Author instances configured with Dynamic Media Hybrid and Dynamic Media [!DNL Scene 7] modes.<br />
 
 ![オーサーと BP が 1 対 1 に対応](assets/BPDynamicMedia.png)
 
@@ -88,7 +87,7 @@ If you are using both Dynamic Media [!DNL Scene 7] and Dynamic Media Hybrid feat
 
 ### Dynamic Media Scene7 モードの公開エグレス IP をホワイトリストに登録する
 
-Dynamic Media [!UICONTROL Scene 7]-having [secure preview enabled](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)-inを使用してビデオアセットをBrand Portalに提供する場合、 [!UICONTROL Scene 7] は、ステージング環境または内部アプリケーション用の専用のイメージサーバを確立します。 このサーバーへのリクエストはすべて、発信元 IP アドレスをチェックします。受信リクエストが IP アドレスの承認済みリストに含まれていない場合は、失敗のレスポンスが返されます。The [!UICONTROL Scene-7] Company Administrator, therefore, configures an approved list of IP addresses for their company’s [!UICONTROL Secure Testing] environment, through [!UICONTROL SPS] (Scene-7 Publishing System) flash UI. 該当するそれぞれの地域のエグレス IP（以下を参照）を、その承認済みリストに必ず追加してください。To whitelist either of these egress IPs, see [prepare your account for secure testing service](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
+If Dynamic Media Scene 7–having secure preview enabled–is used to serve video assets to Brand Portal, then Scene 7 establishes a dedicated image server for staging environments or internal applications. [](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)このサーバーへのリクエストはすべて、発信元 IP アドレスをチェックします。受信リクエストが IP アドレスの承認済みリストに含まれていない場合は、失敗のレスポンスが返されます。The [!UICONTROL Scene-7] Company Administrator, therefore, configures an approved list of IP addresses for their company’s [!UICONTROL Secure Testing] environment, through [!UICONTROL SPS] (Scene-7 Publishing System) flash UI. 該当するそれぞれの地域のエグレス IP（以下を参照）を、その承認済みリストに必ず追加してください。To whitelist either of these egress IPs, see [prepare your account for secure testing service](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
 エグレス IP は次のとおりです。
 
 | **地域** | **エグレス IP** |
@@ -132,7 +131,8 @@ To set up Dynamic Media [!UICONTROL Scene 7] configurations on Brand Portal tena
 3. 以下を指定します。
    * [!UICONTROL タイトル]
    * Credentials ([!UICONTROL Email ID] and [!UICONTROL Password]) to access the Scene 7 server
-   * [!UICONTROL 地域]これらの値がAEM作成者インスタンスの値と同じであることを確認します。
+   * [!UICONTROL Region]
+Make sure these values are the same as those in your AEM Author instance.
 
 4. Select **[!UICONTROL Connect to Dynamic Media]**.
 
