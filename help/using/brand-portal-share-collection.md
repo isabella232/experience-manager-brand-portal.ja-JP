@@ -10,7 +10,7 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -31,11 +31,11 @@ AEM Assets Brand Portal 管理者は、コレクションやスマートコレ�
 
    ![](assets/contenttree-1.png)
 
-2. From the siderail on the left, click **[!UICONTROL Collections]**.
+1. From the siderail on the left, click **[!UICONTROL Collections]**.
 
    ![](assets/access_collections.png)
 
-3. **[!UICONTROL コレクション]コンソールで、以下のいずれかの手順を実行します。**
+1. **[!UICONTROL コレクション]コンソールで、以下のいずれかの手順を実行します。**
 
    * 共有するコレクションの上にマウスポインターを置きます。そのコレクションで使用できるクイックアクションサムネールから、**[!UICONTROL 設定]アイコンをクリックします。**
    ![](assets/settings_thumbnail.png)
@@ -43,7 +43,7 @@ AEM Assets Brand Portal 管理者は、コレクションやスマートコレ�
    * 共有するコレクションを選択します。From the toolbar at the top, click **[!UICONTROL Settings]**.
    ![](assets/collection-sharing.png)
 
-4. [!UICONTROL コレクション設定]ダイアログボックスで、そのコレクションを共有するユーザーまたはグループを選択し、それぞれのグローバルな役割に一致するユーザーまたはグループの役割を選択します。例えば、グローバルなエディターにはエディターの役割を割り当て、グローバルな閲覧者には閲覧者の役割を割り当てます。
+1. [!UICONTROL コレクション設定]ダイアログボックスで、そのコレクションを共有するユーザーまたはグループを選択し、それぞれのグローバルな役割に一致するユーザーまたはグループの役割を選択します。例えば、グローバルなエディターにはエディターの役割を割り当て、グローバルな閲覧者には閲覧者の役割を割り当てます。
 
    Alternatively, to make the collection available to all users irrespective of their group membership and role, make it public by selecting the **[!UICONTROL Public Collection]** check-box.
 
@@ -57,7 +57,7 @@ AEM Assets Brand Portal 管理者は、コレクションやスマートコレ�
 
    ![](assets/collection-setting-editor.png)
 
-5. Select **[!UICONTROL Add]**, and then **[!UICONTROL Save]**. コレクションが、選択したユーザーと共有されます。
+1. Select **[!UICONTROL Add]**, and then **[!UICONTROL Save]**. コレクションが、選択したユーザーと共有されます。
 
    >[!NOTE]
    >
@@ -73,12 +73,12 @@ AEM Assets Brand Portal 管理者は、コレクションやスマートコレ�
 
    ![](assets/collection_settings.png)
 
-2. [!UICONTROL コレクション設定]ダイアログボックスの「[!UICONTROL メンバー]」で、ユーザーやグループの横にある **[!UICONTROL x]記号をクリックして、これらのユーザーやグループを、コレクションを共有しているユーザーの一覧から削除します。**
+1. [!UICONTROL コレクション設定]ダイアログボックスの「[!UICONTROL メンバー]」で、ユーザーやグループの横にある **[!UICONTROL x]記号をクリックして、これらのユーザーやグループを、コレクションを共有しているユーザーの一覧から削除します。**
 
    ![](assets/unshare_collection.png)
 
-3. 警告メッセージボックスの「**[!UICONTROL 確認]」をクリックして、共有を解除することを確認します。**
+1. 警告メッセージボックスの「**[!UICONTROL 確認]」をクリックして、共有を解除することを確認します。**
 
    Click **[!UICONTROL Save]**.
 
-4. 共有リストから削除したユーザーの資格情報を使用して、Brand Portal にログインします。指定したコレクションが、**[!UICONTROL コレクション]コンソールから削除されています。**
+1. 共有リストから削除したユーザーの資格情報を使用して、Brand Portal にログインします。指定したコレクションが、**[!UICONTROL コレクション]コンソールから削除されています。**
