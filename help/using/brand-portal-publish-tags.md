@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -20,7 +20,7 @@ AEM Assets から Brand Portal にタグを公開する方法を学習します�
 
 タグはアセットの整理に役立ちます。また、アセットにタグを関連付けると検索性が向上します。タグはアセットに関連付けられるキーワードやラベル（メタデータ）のようなもので、検索結果の中から目的のアセットをすばやく見つけるために役立ちます。AEM Assets でアセットにタグを割り当てる方法については、[タグを使用したアセットの構成](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets)を参照してください。
 
-タグ付きのアセットおよびコレクションが Brand Portal に公開されると、AEM 内でそのアセットおよびコレクションに関連付けられたタグが  to Brand Portal. 公開されたタグは、そのタグに関連付けられているアセットを検索で探す際に役立ちます。
+タグ付きのアセットおよびコレクションが Brand Portal に公開されると、AEM 内でそのアセットおよびコレクションに関連付けられたタグが  をBrand portalに追加します。 公開されたタグは、そのタグに関連付けられているアセットを検索で探す際に役立ちます。
 
 >[!NOTE]
 >
@@ -37,12 +37,12 @@ Sign in to AEM Author instance with administrative privileges, and access **[!UI
 
    1. Select **[!UICONTROL Tools]**
 
-   2. Select **[!UICONTROL General]**
+   1. Select **[!UICONTROL General]**
 
-   3. Select **[!UICONTROL Tagging]**
+   1. Select **[!UICONTROL Tagging]**
 
-2. 「**[!UICONTROL 作成]**」を選択し、「**タグを作成[!UICONTROL 」オプションを選択します。]**
-3. 以下を指定します。
+1. 「**[!UICONTROL 作成]**」を選択し、「**タグを作成[!UICONTROL 」オプションを選択します。]**
+1. 以下を指定します。
 
    * **[!UICONTROL タイトル]**
       *（必須）*&#x200B;タグの表示タイトル。
@@ -52,19 +52,19 @@ Sign in to AEM Author instance with administrative privileges, and access **[!UI
       *（オプション）*&#x200B;タグの説明。
    * **タグのパス** タグの JCR パス。
 
-4. 「**[!UICONTROL 送信]」を選択すると、タグが作成されます。**
+1. 「**[!UICONTROL 送信]」を選択すると、タグが作成されます。**
 
-   Once you have created a tag on AEM instance, the tag will be available to be attached to an asset (using Properties section or Manage Tags section of that asset).
+   AEMインスタンスにタグを作成すると、そのタグを（そのアセットの「プロパティ」セクションまたは「タグを管理」セクションを使用して）アセットに添付できるようになります。
 
-5. タグを Brand Portal に公開します&#x200B;****。
+1. タグを Brand Portal に公開します&#x200B;****。
 
    Go to **[!UICONTROL AEM Tags]** console ([!UICONTROL Tools | Tagging | AEM Tags]), select the desired tag and Publish to Brand Portal.
 
-6. タグをアセット（またはコレクション）に関連付けます&#x200B;****。
+1. タグをアセット（またはコレクション）に関連付けます&#x200B;****。
 
    アセット（またはコレクション）を選択し、そのアセットの「プロパティ」セクションまたは「タグを管理」セクションを使用して、目的のタグを関連付けます。To know more about how to assign tags to assets in AEM Assets, refer [use tags to organize assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
 
-7. アセット（またはコレクション）を Brand Portal に公開します&#x200B;****。\
+1. アセット（またはコレクション）を Brand Portal に公開します&#x200B;****。\
    アセット（またはコレクション）を Brand Portal に公開すると、関連付けられているタグも Brand Portal 上で利用できるようになります。
 
    Brand Portal 内でそれぞれのアセット（またはコレクション）に関連付けられているタグを確認するには、Brand Portal にログインしてアセットを選択し、「プロパティ」セクションを見ます。このセクションに、関連付けられているタグが表示されます。
@@ -76,11 +76,11 @@ AEM Assets Brand Portal では、キーワードタグに基づいて特定の�
 アセットを昇格させる検索キーワードを設定するには、次のようにします。
 
 1. AEM オーサーインスタンスでアセットの&#x200B;**[!UICONTROL プロパティ]ページを開きます。**
-2. 「**[!UICONTROL 詳細]」タブに移動します。**
-3. 「**検索キーワードに採用**」セクション内の「**[!UICONTROL 昇格を検索]」で「**&#x200B;追加&#x200B;**」を選択して、検索キーワードまたはタグを追加します。**
+1. 「**[!UICONTROL 詳細]」タブに移動します。**
+1. 「**検索キーワードに採用**」セクション内の「**[!UICONTROL 昇格を検索]」で「**&#x200B;追加&#x200B;**」を選択して、検索キーワードまたはタグを追加します。**
 
    ![](assets/search-promote.png)
 
-4. 変更内容を保存します。
-5. アセットを Brand Portal に公開します。
-6. Brand Portal にログインします。アセットの「****&#x200B;プロパティ]」セクションの「**[!UICONTROL 詳細]」タブを表示します。[!UICONTROL **&#x200B;なお、アセットのプロパティには「**[!UICONTROL 昇格を検索]」のキーワードも表示されます。**
+1. 変更内容を保存します。
+1. アセットを Brand Portal に公開します。
+1. Brand Portal にログインします。アセットの「****&#x200B;プロパティ]」セクションの「**[!UICONTROL 詳細]」タブを表示します。[!UICONTROL **&#x200B;なお、アセットのプロパティには「**[!UICONTROL 昇格を検索]」のキーワードも表示されます。**
