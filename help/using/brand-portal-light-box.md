@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -26,17 +26,17 @@ To add assets to [!UICONTROL Lightbox], do the following:
 
    ![](assets/link_sharing_assetselection.png)
 
-2. 上部のツールバーの「コレクションに追加」アイコンをクリックします。
+1. 上部のツールバーの「コレクションに追加」アイコンをクリックします。
 
    ![](assets/add_to_collection.png)
 
-3. **[!UICONTROL コレクションに追加]ページでは、Lightbox コレクションがデフォルトで選択されています。**
+1. **[!UICONTROL コレクションに追加]ページでは、Lightbox コレクションがデフォルトで選択されています。**
 
    Click **[!UICONTROL Add]**. The selected assets are added to the [!UICONTROL Lightbox].
 
    ![](assets/add_to_collectionlightbox.png)
 
-4. To review the assets added to [!UICONTROL Lightbox], click **[!UICONTROL Collections]** on the left rail, and then click the **[!UICONTROL Lightbox]** collection.
+1. To review the assets added to [!UICONTROL Lightbox], click **[!UICONTROL Collections]** on the left rail, and then click the **[!UICONTROL Lightbox]** collection.
 
    ![](assets/collections_lightbox.png)
 
@@ -50,10 +50,10 @@ To add assets to [!UICONTROL Lightbox], do the following:
 
    ![](assets/collections_lightbox-1.png)
 
-2. コレクションから削除するフォルダーを選択し、上部のツールバーの「**[!UICONTROL 削除]」をクリックします。**
+1. コレクションから削除するフォルダーを選択し、上部のツールバーの「**[!UICONTROL 削除]」をクリックします。**
 
    ![](assets/collections_lightboxdelete.png)
 
-3. 警告メッセージボックスで「**[!UICONTROL 削除]」をクリックして、削除することを確認します。**
+1. 警告メッセージボックスで「**[!UICONTROL 削除]」をクリックして、削除することを確認します。**
 
 The folder is deleted from the [!UICONTROL Lightbox] collection.
