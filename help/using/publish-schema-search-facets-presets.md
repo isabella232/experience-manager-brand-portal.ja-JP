@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 画像プリセットを Brand Portal に公開するには、次のようにします。
 
 1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/ click the Tools icon and navigate to **[!UICONTROL Assets]** &gt; **[!UICONTROL Image Presets]**.
-2. 画像プリセットのリストから目的の画像プリセットを 1 つまたは複数選択し、「**[!UICONTROL Brand Portal に公開]**」をクリックまたはタップします。
+1. 画像プリセットのリストから目的の画像プリセットを 1 つまたは複数選択し、「**[!UICONTROL Brand Portal に公開]**」をクリックまたはタップします。
 
 ![](assets/publishpreset.png)
 
@@ -42,10 +42,10 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 >
 >ユーザーが「**[!UICONTROL Brand Portal に公開]**」をクリックすると、画像プリセットが公開用のキューに入ります。レプリケーションエージェントのログを監視して、公開が成功したかどうかを確認することを推奨します。
 
-To unpublish an image preset from Brand Portal:
+ブランドポータルから画像プリセットを非公開にするには：
 
 1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the **[!UICONTROL Tools]** icon and navigate to **[!UICONTROL Assets &gt; Image Presets]**.
-2. 画像プリセットを選択し、上部にあるオプションから「**[!UICONTROL Brand Portal から削除]**」を選択します。
+1. 画像プリセットを選択し、上部にあるオプションから「**[!UICONTROL Brand Portal から削除]**」を選択します。
 
 ## Brand Portal へのメタデータスキーマの公開 {#publish-metadata-schema-to-brand-portal}
 
@@ -53,13 +53,13 @@ To unpublish an image preset from Brand Portal:
 
 ![](assets/metadata-schema-editor.png) ![](assets/asset-properties-1.png)
 
-If users have edited the default schema on AEM Author instance and are willing to use the same schema as default schema on the Brand Portal, they can simply publish the metadata schema forms to Brand Portal. このようなシナリオでは、Brand Portalのデフォルトのスキーマは、AEM Authorインスタンスから発行されたデフォルトのスキーマによって上書きされます。
+AEM作成者インスタンスのデフォルトのスキーマを編集し、ブランドポータルのデフォルトのスキーマと同じスキーマを使用する場合は、単にメタデータスキーマフォームをBrand portalに発行できます。 このようなシナリオでは、Brand Portalのデフォルトのスキーマは、AEM Authorインスタンスから発行されたデフォルトのスキーマによって上書きされます。
 
 AEM作成者インスタンスにカスタムスキーマを作成した場合、ユーザーは同じカスタムスキーマをそこで再作成する代わりに、カスタムスキーマをBrand Portalに発行できます。 公開されたカスタムスキーマは Brand Portal 内の任意のフォルダーまたはコレクションに適用できます。
 
 >[!NOTE]
 >
->Default schemas cannot be published to the Brand Portal if they are locked at the AEM instance (that is they are unedited).
+>デフォルトのスキーマがAEMインスタンスでロックされている場合（つまり未編集の場合）、ブランドポータルに公開することはできません。
 
 ![](assets/default-schema-form.png)
 
@@ -70,7 +70,7 @@ AEM作成者インスタンスにカスタムスキーマを作成した場合�
 メタデータスキーマを AEM オーサーインスタンスから Brand Portal へ公開するには、次のようにします。
 
 1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to **[!UICONTROL Assets &gt; Metadata Schemas]**.
-2. メタデータスキーマを選択し、上部にあるオプションから「**[!UICONTROL Brand Portal に公開]**」を選択します。
+1. メタデータスキーマを選択し、上部にあるオプションから「**[!UICONTROL Brand Portal に公開]**」を選択します。
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ AEM作成者インスタンスにカスタムスキーマを作成した場合�
 Brand Portal へのメタデータスキーマの公開を取り消すには、次のようにします。
 
 1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to **[!UICONTROL Assets &gt; Metadata Schemas]**.
-2. メタデータスキーマを選択し、上部にあるオプションから「**[!UICONTROL Brand Portal から削除]**」を選択します。
+1. メタデータスキーマを選択し、上部にあるオプションから「**[!UICONTROL Brand Portal から削除]**」を選択します。
 
 ## Brand Portal への検索ファセットの公開 {#publish-search-facets-to-brand-portal}
 
@@ -92,12 +92,12 @@ If you are willing to use custom search form **[!UICONTROL Assets Admin Search R
 
 >[!NOTE]
 >
->Locked search form **[!UICONTROL Assets Admin Search Rail]** on AEM Assets cannot be published to Brand Portal unless it is edited. ブランドポータルに編集して発行すると、この検索フォームはブランドポータル上の検索フォームより優先されます。
+>Locked search form **[!UICONTROL Assets Admin Search Rail]** on AEM Assets cannot be published to Brand Portal unless it is edited. Once edited and published to Brand Portal, this search form overrides the search form on Brand Portal.
 
 編集された検索ファセットを AEM オーサーインスタンスから Brand Portal へ公開するには、次のようにします。
 
 1. Tap/click the AEM logo, and then go to **[!UICONTROL Tools]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Search Forms]**.
-2. 編集された検索フォームを選択し、「**[!UICONTROL Brand Portal に公開]**」を選択します。
+1. 編集された検索フォームを選択し、「**[!UICONTROL Brand Portal に公開]**」を選択します。
 
    >[!NOTE]
    >
@@ -106,7 +106,7 @@ If you are willing to use custom search form **[!UICONTROL Assets Admin Search R
 Brand Portal への検索フォームの公開を取り消すには、次のようにします。
 
 1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to **[!UICONTROL General &gt; Search Forms]**.
-2. 検索フォームを選択し、上部にあるオプションから「**[!UICONTROL Brand Portal から削除]**」を選択します。
+1. 検索フォームを選択し、上部にあるオプションから「**[!UICONTROL Brand Portal から削除]**」を選択します。
 
 >[!NOTE]
 >
@@ -114,8 +114,8 @@ Brand Portal への検索フォームの公開を取り消すには、次のよ�
 
 ### 制限事項 {#limitations}
 
-1. ブランドポータルの検索フィルターに適用できない検索述語はほとんどありません。 このような検索用述語が検索フォームの一部として AEM オーサーインスタンスから Brand Portal へ公開された場合は、適用できない検索用述語が削除されます。したがって、ブランドポータルで発行されたフォームに表示される述部の数は少なくなります。 詳しくは、[Brand Portal 上のフィルターに適用可能な検索用述語の一覧](../using/brand-portal-search-facets.md#list-of-search-predicates)を参照してください。
+1. Few search predicates are not applicable to search filters on the Brand Portal. このような検索用述語が検索フォームの一部として AEM オーサーインスタンスから Brand Portal へ公開された場合は、適用できない検索用述語が削除されます。Users, therefore, see less number of predicates in the published form at the Brand Portal. 詳しくは、[Brand Portal 上のフィルターに適用可能な検索用述語の一覧](../using/brand-portal-search-facets.md#list-of-search-predicates)を参照してください。
 
-2. For [!UICONTROL Options Predicate], if a user is using any custom path to read options at AEM Author instance, it won't work at the Brand Portal. このような追加のパスやオプションは、検索フォームと一緒に Brand Portal へ公開されません。In this case, users can select the **[!UICONTROL Manual]** option in **[!UICONTROL Add Options]** within **[!UICONTROL Options Predicate]** to add these options manually at Brand Portal.
+1. For [!UICONTROL Options Predicate], if a user is using any custom path to read options at AEM Author instance, it won't work at the Brand Portal. このような追加のパスやオプションは、検索フォームと一緒に Brand Portal へ公開されません。In this case, users can select the **[!UICONTROL Manual]** option in **[!UICONTROL Add Options]** within **[!UICONTROL Options Predicate]** to add these options manually at Brand Portal.
 
 ![](assets/options-predicate-manual.png)
