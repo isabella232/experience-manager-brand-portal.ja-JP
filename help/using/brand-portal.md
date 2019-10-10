@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 
 ---
 
@@ -20,7 +20,10 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 しかし問題は、広範囲に広がる内部チームやパートナー、リセラーとの間でブランドロゴやガイドライン、キャンペーンアセット、製品の写真を効率的かつ安全に共有できるソリューションを構築するのは容易ではないということです。
 
-**Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、様々なデバイスをまたいで、外部の関係者や内部のビジネスユーザーに安全に配布できます。**&#x200B;アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。
+**Adobe Experience Manager(AEM)Assets Brand Portalは** 、アセットの配布とアセット貢献度機能を提供することで、マーケティング担当者がグローバルに分散したBrand Portalユーザーと効果的に連携する必要性に焦点を当てます。
+
+アセットの配布により、承認されたクリエイティブアセットを容易に取得、制御し、デバイス間で外部の関係者や社内のビジネスユーザーに安全に配布できます。 一方、アセット貢献度を使用すると、ブランドポータルのユーザーは、アセットをブランドポータルにアップロードし、AEM Assetsに公開できます。作成者環境にアクセスする必要はありません。 貢献度機能は、ブランドポータルでのア **セットソーシングと呼ばれます**。 また、Brand portalユーザー（外部のエージェンシー/チーム）からのアセットの配布と貢献に関する全体的なBrand portalの使用感を向上させ、アセットの市場投入時間を短縮し、コンプライアンス違反や不正アクセスのリスクを軽減します。
+Brand Portalでのア [セットソーシングを参照](brand-portal-asset-sourcing.md)。
 
 ブラウザーベースのポータル環境では、アセットを簡単にアップロード、参照、検索、プレビュー、承認された形式で書き出すことができます。
 
@@ -31,7 +34,7 @@ Brand portalは、次のユーザの役割をサポートします。
 * ゲストユーザー
 * 閲覧者
 * エディター
-* 管理者次の表に、これらの役割を持つユーザーが実行できるタスクを示します。
+* 管理者次の表に、これらのロールのユーザーが実行できるタスクを示します。
 
 |  | **参照** | **検索** | **ダウンロード** | **フォルダーの共有** | **コレクションの共有** | **アセットをリンクとして共有** | **管理ツールにアクセス** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -54,7 +57,7 @@ Brand portalは、次のユーザの役割をサポートします。
 
 [公開アセットのダウンロード](brand-portal-download-users.md)
 
-[[!UICONTROL Lightbox]にアセットを追加](brand-portal-light-box.md#add-assets-to-lightbox)
+[ライトボックスへのアセットの [!UICONTROL 追加]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### 閲覧者 {#viewer}
 
@@ -66,7 +69,7 @@ Brand Portal の標準ユーザーは一般的に、閲覧者の役割を持ち�
 
 [アセットのダウンロード](brand-portal-download-users.md)
 
-### エディター {#editor}
+### エディター{#editor}
 
 エディターの役割を持つユーザーは、閲覧者が実行できるタスクをすべて実行できます。さらに、管理者によって共有されたファイルとフォルダーを表示できます。コンテンツ（ファイル、フォルダー、コレクション）を他のユーザーと共有することもできます。
 
@@ -82,7 +85,7 @@ Brand Portal の標準ユーザーは一般的に、閲覧者の役割を持ち�
 
 An administrator includes a user marked as system administrator or Brand Portal product administrator in [!UICONTROL Admin Console]. 管理者は、システム管理者とユーザーを追加／削除したり、プリセットを定義したりできます。また、ユーザーに電子メールを送信したり、ポータルの使用状況とストレージに関するレポートを表示したりできます。
 
-An administrator can perform all tasks that an Editor can perform the following additional tasks:
+管理者は、エディターが実行できる次の追加のタスクをすべて実行できます。
 
 [ユーザー、グループ、ユーザーの役割の管理](brand-portal-adding-users.md)
 
@@ -106,7 +109,7 @@ AEM Assets の作成者は、上記のタスクに加えて、次のタスクを
 
 ## Brand Portal URL の代替エイリアス {#tenant-alias-for-portal-url}
 
-Brand Portal 6.4.3 onwards, organizations can have one alternate (alias) URL for existing URL of their Brand Portal tenant. エイリアス URL を作成するには、既存の URL に代替プレフィックスを含めます。\
+Brand Portal 6.4.3以降では、組織はBrand portalテナントの既存のURLに対して1つの代替（エイリアス）URLを持つことができます。 エイリアス URL を作成するには、既存の URL に代替プレフィックスを含めます。\
 カスタマイズできるのは Brand Portal URL のプレフィックスのみであり、URL 全体でないことに注意してください。例えば、**[!UICONTROL geomettrix.brand-portal.adobe.com]** という既存ドメインを持つ組織は、アドビに依頼することで **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** という URL を作成できます。
 
 ただし、AEM オーサーインスタンスを[設定](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)する際にはテナント ID URL のみを使用できます。テナントエイリアス（代替）URL は使用できません。
@@ -144,7 +147,7 @@ Brand Portal 6.4.3 onwards, organizations can have one alternate (alias) URL for
    **シナリオ 2**
    1. [!UICONTROL Adobe ID] を持っていない場合は、**[!UICONTROL アクセスを申請]ページの「**[!UICONTROL Adobe ID を取得]」をクリックして、Adobe ID を作成します。
 [!UICONTROL ログイン]ページが開きます。
-   1. Click **[!UICONTROL Get an Adobe ID]**.
+   1. 「**[!UICONTROL Adobe ID を取得]**」をクリックします。
 [!UICONTROL 新規登録]ページが開きます。
    1. 名前、電子メール ID およびパスワードを入力します。
    1. 「入会」 **[!UICONTROL を選択します]**。<br />
@@ -158,7 +161,7 @@ Brand Portal 6.4.3 onwards, organizations can have one alternate (alias) URL for
 
 ## 製品管理者によるアクセス権の付与 {#grant-access-to-brand-portal}
 
-Brand Portal product administrators receive access requests in their Brand Portal notification area and through emails in their inbox.
+Brand portal製品管理者は、Brand portal通知領域と受信トレイの電子メールを通じてアクセス要求を受け取ります。
 
 ![アクセス申請の通知](assets/bplogin_request_access_7.png)
 
