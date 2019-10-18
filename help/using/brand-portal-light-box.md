@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
@@ -16,13 +16,13 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 # Lightbox コレクションの管理 {#manage-the-lightbox-collection}
 
-[!UICONTROL Lightbox は、アセットに容易にアクセスするための特別なタイプのコレクションです。]Each user has an exclusive [!UICONTROL Lightbox] that is automatically created when they log in to Brand Portal for the first time. The [!UICONTROL Lightbox] collection cannot be deleted.
+[!UICONTROL Lightbox] は、アセットに容易にアクセスするための特別なタイプのコレクションです。Brand Portal に初めてログインすると、各ユーザー専用の [!UICONTROL Lightbox] が自動的に作成されます。[!UICONTROL Lightbox] コレクションは削除できません。
 
 ## Lightbox へのアセットの追加 {#add-assets-to-lightbox}
 
-To add assets to [!UICONTROL Lightbox], do the following:
+[!UICONTROL Lightbox] にアセットを追加するには、以下の手順を実行します。
 
-1. Navigate to the location of the assets that you want to add to [!UICONTROL Lightbox], and select the assets.
+1. [!UICONTROL Lightbox] に追加するアセットの場所に移動し、アセットを選択します。
 
    ![](assets/link_sharing_assetselection.png)
 
@@ -30,30 +30,30 @@ To add assets to [!UICONTROL Lightbox], do the following:
 
    ![](assets/add_to_collection.png)
 
-1. **[!UICONTROL コレクションに追加]ページでは、Lightbox コレクションがデフォルトで選択されています。**
+1. **[!UICONTROL コレクションに追加]**&#x200B;ページでは、[!UICONTROL Lightbox] コレクションがデフォルトで選択されています。
 
-   Click **[!UICONTROL Add]**. The selected assets are added to the [!UICONTROL Lightbox].
+   「**[!UICONTROL 追加]**」をクリックします。選択したアセットが [!UICONTROL Lightbox] に追加されます。
 
    ![](assets/add_to_collectionlightbox.png)
 
-1. To review the assets added to [!UICONTROL Lightbox], click **[!UICONTROL Collections]** on the left rail, and then click the **[!UICONTROL Lightbox]** collection.
+1. [!UICONTROL Lightbox] に追加されているアセットを表示するには、左側のレールの「**[!UICONTROL コレクション]**」をクリックし、**[!UICONTROL Lightbox]** コレクションをクリックします。
 
    ![](assets/collections_lightbox.png)
 
-   The assets added to [!UICONTROL Lightbox] appear in the [!UICONTROL Lightbox] page.
+   [!UICONTROL Lightbox] に追加されているアセットが [!UICONTROL Lightbox] ページに表示されます。
 
    ![](assets/added_to_collectionlightbox.png)
 
 ## Lightbox からのアセットの削除 {#remove-assets-from-lightbox}
 
-1. To review the assets in [!UICONTROL Lightbox], click **[!UICONTROL Collections]** on the left rail, then click the [!UICONTROL Lightbox] collection.
+1. [!UICONTROL Lightbox] のアセットをレビューするには、左レールの「**[!UICONTROL コレクション]**」をクリックし、次に [!UICONTROL Lightbox] コレクションをクリックします。
 
    ![](assets/collections_lightbox-1.png)
 
-1. コレクションから削除するフォルダーを選択し、上部のツールバーの「**[!UICONTROL 削除]」をクリックします。**
+1. コレクションから削除するフォルダーを選択し、上部のツールバーの「**[!UICONTROL 削除]**」をクリックします。
 
    ![](assets/collections_lightboxdelete.png)
 
-1. 警告メッセージボックスで「**[!UICONTROL 削除]」をクリックして、削除することを確認します。**
+1. 警告メッセージボックスで「**[!UICONTROL 削除]**」をクリックして、削除することを確認します。
 
-The folder is deleted from the [!UICONTROL Lightbox] collection.
+そのフォルダーが [!UICONTROL Lightbox] コレクションから削除されます。
