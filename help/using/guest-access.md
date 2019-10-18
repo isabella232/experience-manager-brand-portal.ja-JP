@@ -9,7 +9,7 @@ topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
@@ -17,10 +17,10 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 # Brand Portal へのゲストによるアクセス {#guest-access-to-brand-portal}
 
-AEM Brand Portal は、ゲストによるポータルへのアクセスを許可します。ゲストユーザーは資格情報がなくてもポータルに入ることができ、ポータルの公開アセット（およびコレクション）へのアクセス権を持ちます。Users in the guest session can add assets to their lightbox (private collection) and download the same until their session lasts, which is 2 hours from the beginning of the session unless the guest user chooses to [[!UICONTROL End Session]](#exit-guest-session).
+AEM Brand Portal は、ゲストによるポータルへのアクセスを許可します。ゲストユーザーは資格情報がなくてもポータルに入ることができ、ポータルの公開アセット（およびコレクション）へのアクセス権を持ちます。ゲストセッション中のユーザーは Lightbox（非公開コレクション）にアセットを追加でき、セッションが続いている間（[[!UICONTROL セッションの終了]](#exit-guest-session)を選択した場合を除いてセッションの開始から 2 時間）は同様にダウンロードすることができます。
 
-ゲストによるアクセス機能を使用すれば、組織は対象オーディエンスのオンボーディングをおこなわなくても、[承認済みアセットをすばやく共有](../using/brand-portal-sharing-folders.md#how-to-share-folders)することができます。Brand Portal 6.4.2 以降には、複数の同時ゲストユーザー（組織あたりの合計ユーザークォータの 10%）に対応する機能が搭載されています。Allowing guest access saves time to manage and on-board scores of users who need to use limited functionalities on Brand Portal.\
-Organizations can enable (or disable) guest access on Brand Portal account of the organization using **[!UICONTROL Allow Guest Access]** option from **[!UICONTROL Access]** settings in the administrative tools panel.
+ゲストによるアクセス機能を使用すれば、組織は対象オーディエンスのオンボーディングをおこなわなくても、[承認済みアセットをすばやく共有](../using/brand-portal-sharing-folders.md#how-to-share-folders)することができます。Brand Portal 6.4.2 以降には、複数の同時ゲストユーザー（組織あたりの合計ユーザークォータの 10%）に対応する機能が搭載されています。ゲストによるアクセスを許可することで、Brand Portal の限られた機能を使う必要があるユーザーのスコアの管理やオンボーディングにかかる時間を節約できます。\
+管理ツールパネルの「**[!UICONTROL アクセス]**」設定の「**[!UICONTROL ゲストによるアクセスを許可]**」オプションを使用して、組織の Brand Portal アカウントでのゲストによるアクセスを有効化（または無効化）できます。
 
 <!--
 Comment Type: annotation
@@ -33,32 +33,32 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## ゲストセッションの開始 {#begin-guest-session}
 
-匿名で Brand Portal に入るには、Brand Portal ようこそ画面で&#x200B;**[!UICONTROL ゲストとしてアクセスしますか？]**&#x200B;の横にある「**ここをクリックしてください** Brand portalのようこそ画面に表示されます。 ユーザーは、アクセス権を要求したり、管理者から認証を受けてアクセス権が付与されるのを待たなくても、Brand Portal を使用することができます。
+匿名で Brand Portal に入るには、Brand Portal のようこそ画面で&#x200B;**[!UICONTROL ゲストとしてアクセスしますか？]**&#x200B;の横にある「**[!UICONTROL ここをクリックしてください]**」を選択します。ユーザーは、アクセス権を要求したり、管理者から認証を受けてアクセス権が付与されるのを待たなくても、Brand Portal を使用することができます。
 
 ![](assets/bp-login-screen.png)
 
 ## ゲストセッションの期間 {#guest-session-duration}
 
-ゲストユーザーセッションは 2 時間アクティブのままになります。This means that the state of the [!UICONTROL Lightbox] is preserved until 1 hour from the session start time, and after 2 hours the current guest session restarts so the Lightbox state is lost.\
-例えば、ゲストユーザーが1500時間でブランドポータルにログインし、16:50時間でダウンロードできるようにLightboxにアセットを追加したとします。 If the user doesn't download the [!UICONTROL Lightbox] collection (or its assets) before 17:00 hours, the [!UICONTROL Lightbox] will become empty as the user will have to restart the session at the end of 1 hour (that is 1700 hours).
+ゲストユーザーセッションは 2 時間アクティブのままになります。つまり、[!UICONTROL Lightbox] の状態はセッションの開始時刻から 1 時間保持され、2 時間後に現在のゲストセッションが再起動して Lightbox の状態が失われます。\
+例えば、ゲストユーザーが 15:00 に Brand Portal にログインし、16:50 にダウンロード用の Lightbox にアセットを追加するとします。ユーザーが 17:00 より前に [!UICONTROL Lightbox] コレクション（またはそのアセット）をダウンロードしなかった場合、[!UICONTROL Lightbox] は空になります。これは、ユーザーが 1 時間の最後（17:00）にセッションを再起動しなければならないからです。
 
 ## 許可されている同時ゲストセッション {#concurrent-guest-sessions-allowed}
 
-同時ゲストセッションの数は、組織あたりの合計ユーザークォータの 10% に制限されます。つまり、ユーザークォータが 200 の組織の場合、最大 20 人のゲストユーザーが同時に作業をすることができます。21番目のユーザはアクセスを拒否され、20人のアクティブなゲストユーザのセッションが終了した場合に限り、ゲストとしてアクセスできます。
+同時ゲストセッションの数は、組織あたりの合計ユーザークォータの 10% に制限されます。つまり、ユーザークォータが 200 の組織の場合、最大 20 人のゲストユーザーが同時に作業をすることができます。21 番目のユーザーはアクセスを拒否され、20 人のアクティブなゲストユーザーのいずれかがセッションを終了した場合にのみゲストとしてアクセスできるようになります。
 
 ## ゲストユーザーの Brand Portal の操作 {#guest-user-interaction-with-brand-portal}
 
 ### ゲスト UI ナビゲーション
 
-On entering the Brand Portal as the guest, users can see all the [assets and folders shared](../using/brand-portal-sharing-folders.md#sharefolders) publicly or with guest users exclusively. これはコンテンツのみの表示であり、アセットがカード、リストまたは列レイアウトで表示されます。
+ゲストとして Brand Portal に入ると、すべてのユーザーまたはゲストユーザーのみと[共有されているアセットおよびフォルダー](../using/brand-portal-sharing-folders.md#sharefolders)をすべて表示できます。これはコンテンツのみの表示であり、アセットがカード、リストまたは列レイアウトで表示されます。
 
 ![](assets/disabled-folder-hierarchy1.png)
 
-However, the guest users see the folder tree (starting from the root folder) and the shared folders arranged within their respective parent folders on logging in to the Brand Portal, if administrators have enabled [Enable Folder Hierarchy](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) configuration.
+ただし、管理者が「[フォルダー階層を有効化](../using/brand-portal-general-configuration.md#main-pars-header-1621071021)」設定を有効にしていた場合は、ゲストユーザーが Brand Portal にログインしたときに、ルートフォルダーから始まるフォルダーツリーと、それぞれの親フォルダー内に含まれる共有フォルダーが表示されます。
 
 これらの親フォルダーは仮想フォルダーであり、これらに対してアクションを実行することはできません。仮想フォルダーは鍵のアイコン付きで表示されます。
 
-No action tasks are visible on hovering or selecting them in [!UICONTROL Card View], unlike the shared folders. [!UICONTROL 「概要] 」ボタンは、「列ビュー」と「リストビュー」で仮想フォル [!UICONTROL ダを選択する] とき [!UICONTROL に表示されます]。
+[!UICONTROL カード表示]でこれらをカーソルで指したり選択したりしても、共有フォルダーとは異なり、アクションタスクは表示されません。[!UICONTROL 列表示]や[!UICONTROL リスト表示]で仮想フォルダーを選択すると「[!UICONTROL 概要]」ボタンが表示されます。
 
 >[!NOTE]
 >
@@ -66,18 +66,18 @@ No action tasks are visible on hovering or selecting them in [!UICONTROL Card Vi
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 
-[!UICONTROL 「設定を表示] 」オプションを使用すると、ゲストユーザーはカード表示でカードのサイズ [!UICONTROL を調整したり] 、リスト表示で表示する列を [!UICONTROL 調整できます]。
+「[!UICONTROL 表示設定]」オプションでは、ゲストユーザーは、[!UICONTROL カード表示]のカードサイズや、[!UICONTROL リスト表示]に表示する列を調整することができます。
 
 ![](assets/nav-guest-user.png)
 
-The [!UICONTROL Content tree] lets you move through assets hierarchy.
+[!UICONTROL コンテンツツリー]では、アセット階層内を移動することができます。
 
 ![](assets/guest-login-ui.png)
 
-Brand Portal provides [!UICONTROL Overview] option to guest users to view [!UICONTROL Asset Properties] of selected assets/folders. The [!UICONTROL Overview] option is visible:
+Brand Portal には、選択したアセット／フォルダーの[!UICONTROL アセットプロパティ]をゲストユーザーが表示できる「[!UICONTROL 概要]」オプションがあります。「[!UICONTROL 概要]」オプションは、次の場所に表示されます。
 
 * アセットやフォルダーを選択する際に上部に表示されるツールバー。
-* レールセレクターを選択する際のドロップダウン。On selecting the [!UICONTROL Overview] option while an asset/folder is selected, users can see the title, path, and time of asset creation. Whereas, on asset detail page selecting [!UICONTROL Overview] option lets the users see metadata of the asset.
+* レールセレクターを選択する際のドロップダウン。アセットやフォルダーを選択した状態で「[!UICONTROL 概要]」オプションを選択すると、タイトル、パス、アセット作成時間を確認できます。一方、アセットの詳細ページで「[!UICONTROL 概要]」オプションを選択すると、アセットのメタデータを確認できます。
 
 ![](assets/overview-option-1.png)
 
@@ -107,7 +107,7 @@ Brand Portal provides [!UICONTROL Overview] option to guest users to view [!UICO
 
 ### ゲストセッションでアセットをダウンロードする
 
-ゲストユーザーは、公開アセット、またはゲストユーザーのみと共有されたアセットを Brand Portal で直接ダウンロードできます。Guest users can also add assets to [!UICONTROL Lightbox] (public collection), and download the [!UICONTROL Lightbox] collection before their session expires.
+ゲストユーザーは、公開アセット、またはゲストユーザーのみと共有されたアセットを Brand Portal で直接ダウンロードできます。また、ゲストユーザーは [!UICONTROL Lightbox]（公開コレクション）にアセットを追加したり、セッションが期限切れになる前に [!UICONTROL Lightbox] コレクションをダウンロードしたりできます。
 
 アセットやコレクションをダウンロードするには、次の場所のダウンロードアイコンを使用します。
 
@@ -116,14 +116,14 @@ Brand Portal provides [!UICONTROL Overview] option to guest users to view [!UICO
 
 ![](assets/download-on-guest.png)
 
-ダウンロードダイアログで「**[!UICONTROL ダウンロードアクセラレーションを有効化]**[!UICONTROL 」を選択すると、]ダウンロードパフォーマンスを強化[することができます。](../using/accelerated-download.md)
+[!UICONTROL ダウンロード]ダイアログで「**[!UICONTROL ダウンロードアクセラレーションを有効化]**」を選択すると、[ダウンロードパフォーマンスを強化](../using/accelerated-download.md)することができます。
 
 ## ゲストセッションの終了 {#exit-guest-session}
 
-ゲストセッションを終了するには、ヘッダーにあるオプションから「**[!UICONTROL セッションを終了]」を使用します。**&#x200B;ただし、ゲストセッションに使用されるブラウザータブが非アクティブになっている場合、アクティビティがおこなわれなくなってから 2 時間が経過するとセッションは自動的に期限切れとなります。
+ゲストセッションを終了するには、ヘッダーにあるオプションから「**[!UICONTROL セッションを終了]**」を使用します。ただし、ゲストセッションに使用されるブラウザータブが非アクティブになっている場合、アクティビティがおこなわれなくなってから 2 時間が経過するとセッションは自動的に期限切れとなります。
 
 ![](assets/end-guest-session.png)
 
 ## ゲストユーザーアクティビティの監視 {#monitoring-guest-user-activities}
 
-管理者は、Brand Portal でのゲストユーザーの操作を監視できます。Brand Portal で生成されたレポートは、ゲストユーザーアクティビティに関する重要なインサイトを提供できます。例えばたとえば、**[!UICONTROL ダウンロード]レポートを使用すると、ゲストユーザーによってダウンロードされたアセットの数を追跡できます。****[!UICONTROL ユーザーログイン]**&#x200B;レポートでは、ゲストユーザーがポータルに最後にログインした時刻、および指定期間内のログイン頻度を確認ができます。
+管理者は、Brand Portal でのゲストユーザーの操作を監視できます。Brand Portal で生成されたレポートは、ゲストユーザーアクティビティに関する重要なインサイトを提供できます。例えば、**[!UICONTROL ダウンロード]**&#x200B;レポートを使用すると、ゲストユーザーによってダウンロードされたアセットの数を追跡できます。**[!UICONTROL ユーザーログイン]**&#x200B;レポートでは、ゲストユーザーがポータルに最後にログインした時刻、および指定期間内のログイン頻度を確認ができます。
