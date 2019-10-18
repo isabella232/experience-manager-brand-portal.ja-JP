@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
@@ -26,22 +26,22 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 Brand Portal のアセット、またはアセットを含むフォルダーをダウンロードするには、次の手順に従います。
 
-1. ブランドポータルインターフェイスから、次のいずれかの操作を行います。
+1. Brand Portal コンソールで、以下のいずれかの手順を実行します。
 
-   * ダウンロードするフォルダーまたはアセットを選択します。上部のツールバーで「**[!UICONTROL ダウンロード]」アイコンをクリックします。**
+   * ダウンロードするフォルダーまたはアセットを選択します。上部のツールバーで「**[!UICONTROL ダウンロード]**」アイコンをクリックします。
    ![](assets/downloadassets-1.png)
 
-   * 1 つのフォルダーまたはアセットをダウンロードするには、そのフォルダーまたはアセットの上にマウスポインターを置きます。使用できるクイックアクションサムネールから、**[!UICONTROL ダウンロード]アイコンをクリックします。**
+   * 1 つのフォルダーまたはアセットをダウンロードするには、そのフォルダーまたはアセットの上にマウスポインターを置きます。使用できるクイックアクションサムネールから、**[!UICONTROL ダウンロード]**&#x200B;アイコンをクリックします。
    ![](assets/downloadsingleasset-1.png)
 
    >[!NOTE]
    >
-   >ダウンロードするアセットに、ライセンスが必要なアセットが含まれている場合は、**[!UICONTROL 著作権管理]ページにリダイレクトされます。** In this page, select the assets, click **[!UICONTROL Agree]**, and then click **[!UICONTROL Download]**. 「同意しない」を選択した場合は、ライセンスが必要なアセットはダウンロードされません。\
-   >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in AEM Assets.
+   >ダウンロードするアセットに、ライセンスが必要なアセットが含まれている場合は、**[!UICONTROL 著作権管理]**&#x200B;ページにリダイレクトされます。このページで、アセットを選択し、「**[!UICONTROL 同意する]**」をクリックし、「**[!UICONTROL ダウンロード]**」をクリックします。「同意しない」を選択した場合は、ライセンスが必要なアセットはダウンロードされません。\
+   >ライセンスで保護されているアセットには、[使用許諾契約が添付](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)されています。この処理は、AEM Assets でアセットの[メタデータプロパティ](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)を設定することでおこなわれます。
 
    ![](assets/licensed-asset-download-1.png)
 
-   **[!UICONTROL ダウンロード]**&#x200B;ダイアログボックスが表示されます。デフォルトで「**アセット[!UICONTROL 」チェックボックスがオンになっています。]**
+   **[!UICONTROL ダウンロード]**&#x200B;ダイアログボックスが表示されます。デフォルトで「**[!UICONTROL アセット]**」チェックボックスがオンになっています。
 
    ![](assets/donload-assets-dialog-1.png)
 
@@ -51,28 +51,28 @@ Brand Portal のアセット、またはアセットを含むフォルダーを�
 
    ![](assets/restrictaccess-note.png)
 
-1. To download the renditions of assets in addition to the assets, select **[!UICONTROL Rendition(s)]**. However, to allow auto-generated renditions to download along with custom renditions, deselect **[!UICONTROL Exclude Auto Generated Renditions]**, which is selected by default.
+1. アセットに加えて、アセットのレンディションもダウンロードするには、「**[!UICONTROL レンディション]**」チェックボックスをオンにします。ただし、自動生成されたレンディションを、カスタムレンディションと一緒にダウンロードできるようにするには、デフォルトでオンになっている「**[!UICONTROL システムレンディションを除く自動生成されたレンディション]**」チェックボックスをオフにします。
 
    ![](assets/exclude-auto-renditions.png)
 
-   To download only the renditions, deselect **[!UICONTROL Asset(s)]**.
+   レンディションのみをダウンロードするには、「**[!UICONTROL アセット]**」チェックボックスをオフにします。
 
    >[!NOTE]
    >
    >デフォルトでは、アセットのみがダウンロードされます。ただし、[画像ファイルのオリジナルのレンディションへのアクセスが管理者によって許可](../using/brand-portal-adding-users.md#main-pars-procedure-202029708)されていない場合は、画像ファイルのオリジナルのレンディションはダウンロードされません。
 
-   * Brand Portal からのアセットファイルのダウンロードをスピードアップさせるには、「**[!UICONTROL ダウンロードアクセラレーションの有効化]**」オプションを選択し、[ウィザードに従います](../using/accelerated-download.md#main-pars-header-405749062)。To know more about faster download of assets refer [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
+   * Brand Portal からのアセットファイルのダウンロードをスピードアップさせるには、「**[!UICONTROL ダウンロードアクセラレーションの有効化]**」オプションを選択し、[ウィザードに従います](../using/accelerated-download.md#main-pars-header-405749062)。アセットの高速ダウンロードについて詳しくは、[Brand Portal からのダウンロードを高速化するためのガイド](../using/accelerated-download.md)を参照してください。
 
-   * To apply a [custom image preset to the asset and its renditions](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), select **[!UICONTROL Dynamic Rendition(s)]**. カスタムの画像プロパティ（サイズ、フォーマット、カラースペース、解像度および画像の修飾子）を指定して、アセットとそのレンディションをダウンロードするときにカスタムの画像プリセットを適用します。動的なレンディションのみをダウンロードするには、 delesect Asset(s).****
+   * [アセットとそのレンディションにカスタムの画像プリセット](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages)を適用するには、「**[!UICONTROL 動的レンディション]**」チェックボックスをオンにします。カスタムの画像プロパティ（サイズ、フォーマット、カラースペース、解像度および画像の修飾子）を指定して、アセットとそのレンディションをダウンロードするときにカスタムの画像プリセットを適用します。動的レンディションのみをダウンロードするには、「**[!UICONTROL アセット]**」チェックボックスをオフにします。
    ![](assets/dynamic-renditions.png)
 
    >[!NOTE]
    >
-   >To preview (or download) dynamic renditions of any asset, ensure that the dynamic media is enabled and the asset's Pyramid tiff rendition exists at the AEM author instance, from where the assets have been published. When an asset is published to Brand Portal, its Pyramid tiff rendition is also published. There is no way of generating the Pyramid tiff rendition from Brand Portal.
+   >アセットの動的レンディションをプレビュー（またはダウンロード）するには、ダイナミックメディアが有効になっていて、アセットのピラミッド TIFF レンディションがアセットの公開元の AEM オーサーインスタンスに存在している必要があります。Brand Portal にアセットを公開すると、そのピラミッド TIFF レンディションも公開されます。Brand Portal からピラミッド TIFF レンディションを生成する方法はありません。
 
-   * To preserve the Brand Portal folder hierarchy while downloading assets, select **[!UICONTROL Create separate folder for each asset]**. By default, Brand Portal folder hierarchy is ignored and all assets are downloaded in one folder in your local system.
+   * アセットをダウンロードする際に Brand Portal のフォルダー階層を保持するには、「**[!UICONTROL アセットごとに別のフォルダーを作成]**」チェックボックスをオンにします。デフォルトでは、Brand Portal のフォルダー階層は無視され、すべてのアセットがローカルシステムの 1 つのフォルダーにダウンロードされます。
 
-   * To send an email notification to users with a link for downloading the assets, select **[!UICONTROL Email]**.
+   * アセットのダウンロード用リンクを記載した電子メール通知をユーザーに送信するには、「**[!UICONTROL 電子メール]**」チェックボックスをオンにします。
    ![](assets/download-link.png)
 
    >[!NOTE]
@@ -81,9 +81,9 @@ Brand Portal のアセット、またはアセットを含むフォルダーを�
    >
    >管理者は、電子メールのメッセージ内容、つまりロゴ、説明およびフッターを、[ブランディング](../using/brand-portal-branding.md)機能を使用してカスタマイズできます。
 
-1. Click **[!UICONTROL Download]**.
+1. 「**[!UICONTROL ダウンロード]**」をクリックします。
 
-   アセット（および選択されている場合はレンディション）が ZIP ファイルとしてローカルフォルダーにダウンロードされます。ただし、レンディションなしで 1 つのアセットをダウンロードした場合、zip ファイルは作成されないので、すばやくダウンロードを行うことができます。
+   アセット（および選択されている場合はレンディション）が ZIP ファイルとしてローカルフォルダーにダウンロードされます。ただし、レンディションなしで 1 つのアセットをダウンロードした場合、zip ファイルは作成されないので、すばやくダウンロードをおこなうことができます。
 
    [オリジナルのレンディションへのアクセスを管理者によって許可](../using/brand-portal-adding-users.md#main-pars-procedure-202029708)されていない場合、選択したアセットのオリジナルのレンディションはダウンロードされません。
 
@@ -91,7 +91,7 @@ Brand Portal のアセット、またはアセットを含むフォルダーを�
    >
    >個別に選択してダウンロードしたアセットは、ダウンロードされたアセットレポートに表示されます。ただし、アセットを含んだフォルダーをダウンロードした場合は、そのフォルダーもアセットも、ダウンロード済みアセットのレポートには表示されません。
 
-   共有リンクからアセットをダウンロードする方法については、「[共有リンクからアセットをダウンロードする](../using/brand-portal-link-share.md#main-pars-header-1703469193)」を参照してください。
+   共有リンクからアセットをダウンロードする方法については、[共有リンクからアセットをダウンロードする](../using/brand-portal-link-share.md#main-pars-header-1703469193)を参照してください。
 
 ## 期待されるダウンロードパフォーマンス {#expected-download-performance}
 
