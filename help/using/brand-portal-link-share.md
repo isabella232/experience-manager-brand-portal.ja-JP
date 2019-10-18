@@ -1,15 +1,15 @@
 ---
 title: アセットをリンクとして共有
 seo-title: アセットをリンクとして共有
-description: AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係者（パートナーやベンダーを含む）との間で複数のアセットのリンクを共有できます。エディターは、管理者によって共有されたアセットのみを閲覧および共有できます。
-seo-description: AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係者（パートナーやベンダーを含む）との間で複数のアセットのリンクを共有できます。エディターは、管理者によって共有されたアセットのみを閲覧および共有できます。
+description: AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係者（パートナーやベンダーを含む）との間で複数のアセットのリンクを共有できます。編集者は、管理者によって共有されたアセットのみを閲覧および共有できます。
+seo-description: AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係者（パートナーやベンダーを含む）との間で複数のアセットのリンクを共有できます。編集者は、管理者によって共有されたアセットのみを閲覧および共有できます。
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
@@ -17,23 +17,23 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 # アセットをリンクとして共有 {#share-assets-as-a-link}
 
-AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係者（パートナーやベンダーを含む）との間で複数のアセットのリンクを共有できます。エディターは、管理者によって共有されたアセットのみを閲覧および共有できます。
+AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係者（パートナーやベンダーを含む）との間で複数のアセットのリンクを共有できます。編集者は、管理者によって共有されたアセットのみを閲覧および共有できます。
 
-受信者がBrand portalにログインしなくてもアセットにアクセスできるので、リンクを介したアセットの共有は、外部の関係者が簡単に利用できるようにする方法です。
+リンクを通じたアセット共有は、アセットを外部の関係者が利用できるようにする便利な方法です。リンクを共有すれば、Brand Portal にログインしなくてもアセットにアクセスできます。
 
 リンク共有を利用したアクセスは、エディターと管理者に制限されています。詳しくは、[ユーザー、グループ、ユーザーの役割の管理](../using/brand-portal-adding-users.md#manage-user-roles)を参照してください。
 
 >[!NOTE]
 >
->Brand portalでのリンク共有機能を使用したZIPダウンロードは、最大5 GBで可能です。
+>Brand Portal のリンク共有機能では、Zip ファイルのダウンロードが最大 5 GB まで可能です。
 
 アセットをリンクとして共有するには、次の手順に従います。
 
-1. Click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.
+1. 左側のオーバーレイアイコンをクリックし、「**[!UICONTROL ナビゲーション]**」を選択します。
 
    ![](assets/siderail.png)
 
-1. 左側のサイドレールで「**[!UICONTROL ファイル]」をクリックして、フォルダーや画像を共有します。**&#x200B;コレクションを共有するには、「**[!UICONTROL コレクション]**」をクリックします。
+1. 左側のサイドレールで「**[!UICONTROL ファイル]**」をクリックして、フォルダーや画像を共有します。コレクションを共有するには、「**[!UICONTROL コレクション]**」をクリックします。
 
    ![](assets/navigationrail.png)
 
@@ -41,29 +41,29 @@ AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係�
 
    ![](assets/asset-link-share.png)
 
-1. 上部のツールバーで&#x200B;**[!UICONTROL リンクを共有]アイコンをクリックします。**
+1. 上部のツールバーで&#x200B;**[!UICONTROL リンクを共有]**&#x200B;アイコンをクリックします。
 
-   **[!UICONTROL リンク共有]ダイアログボックスが表示されます。**
+   **[!UICONTROL リンク共有]**&#x200B;ダイアログボックスが表示されます。
 
    ![](assets/link-sharing.png)
 
    >[!NOTE]
    >
-   >自動的に作成されたアセットリンクが「**[!UICONTROL リンクを共有]」フィールドに表示されます。**&#x200B;このリンクのデフォルトの有効期限は 7 日間です。リンクをコピーして、別途ユーザーと共有できます。また、**[!UICONTROL リンク共有]ダイアログボックスからもリンクを共有できます。**
+   >自動的に作成されたアセットリンクが「**[!UICONTROL リンクを共有]**」フィールドに表示されます。このリンクのデフォルトの有効期限は 7 日間です。リンクをコピーして、別途ユーザーと共有できます。また、**[!UICONTROL リンク共有]**&#x200B;ダイアログボックスからもリンクを共有できます。
 
 1. 「電子メールアドレス」ボックスに、リンクを共有するユーザーの電子メール ID を入力します。リンクを複数のユーザーと共有できます。
 
-   ユーザーが組織のメンバーの場合は、ドロップダウンリストに表示される候補の中から電子メール ID を選択します。If the user is external, type the complete email ID and press **[!UICONTROL Enter]**; the email ID is added to the list of users.
+   ユーザーが組織のメンバーの場合は、ドロップダウンリストに表示される候補の中から電子メール ID を選択します。外部ユーザーの場合は、電子メール ID を入力し、**[!UICONTROL Enter]** キーを押します。電子メール ID がユーザーの一覧に追加されます。
 
    ![](assets/link-sharing-text.png)
 
-1. 「**[!UICONTROL 件名]」ボックスに、共有するアセットの件名を入力します。**
-1. 必要に応じて、「**[!UICONTROL メッセージ]」ボックスにメッセージを入力します。**
-1. 「**[!UICONTROL 有効期限]」フィールドに、日付選択を使用して、リンクの有効期限を指定します。**&#x200B;デフォルトの有効期限は、リンクを共有した日から 7 日間です。
+1. 「**[!UICONTROL 件名]**」ボックスに、共有するアセットの件名を入力します。
+1. 必要に応じて、「**[!UICONTROL メッセージ]**」ボックスにメッセージを入力します。
+1. 「**[!UICONTROL 有効期限]**」フィールドに、日付選択を使用して、リンクの有効期限を指定します。デフォルトの有効期限は、リンクを共有した日から 7 日間です。
 
-   リンク共有されるアセットは、「**[!UICONTROL 有効期限]」フィールドに指定した日時を過ぎると有効期限が切れます。** For information about the behavior of expired assets and changes in the permissible activities based on user roles in Brand Portal, see [Manage digital rights of assets](../using/manage-digital-rights-of-assets.md#asset-expiration).
+   リンクとして共有されるアセットは、「**[!UICONTROL 有効期限]**」フィールドに指定した日時を過ぎると有効期限が切れます。有効期限が切れたアセットの動作と、Brand Portal のユーザーの役割に応じて許容される操作の変更点については、[アセットのデジタル著作権の管理](../using/manage-digital-rights-of-assets.md#asset-expiration)を参照してください。
 
-1. Click **[!UICONTROL Share]**. リンクをユーザーと共有することを確認するメッセージが表示されます。リンクを含む電子メールがユーザーに届きます。
+1. 「**[!UICONTROL 共有]**」をクリックします。リンクをユーザーと共有することを確認するメッセージが表示されます。リンクを含む電子メールがユーザーに届きます。
 
    ![](assets/link-sharing-email.png)
 
@@ -77,7 +77,7 @@ AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係�
 
 共有アセットをダウンロードするには：
 
-1. アセットをクリックしてから、ツールバーの&#x200B;**[!UICONTROL ダウンロード]アイコンをクリックします。**
+1. アセットをクリックしてから、ツールバーの&#x200B;**[!UICONTROL ダウンロード]**&#x200B;アイコンをクリックします。
 
    ![](assets/assets-shared-link.png)
 
@@ -87,19 +87,18 @@ AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係�
 
    >[!NOTE]
    >
-   >ダウンロードするアセットに、ライセンスが必要なアセットが含まれている場合は、**[!UICONTROL 著作権管理]ページにリダイレクトされます。** In this page, select the licensed assets, click **[!UICONTROL Agree]**, and then click **[!UICONTROL Download]**. 「同意しない」を選択した場合は、ライセンスが不要なアセットのみがダウンロードされます。\
-   >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in [!DNL AEM Assets].
+   >ダウンロードするアセットに、ライセンスが必要なアセットが含まれている場合は、**[!UICONTROL 著作権管理]**&#x200B;ページにリダイレクトされます。このページで、ライセンスが必要なアセットを選択し、「**[!UICONTROL 同意する]**」をクリックした後、「**[!UICONTROL ダウンロード]**」をクリックします。「同意しない」を選択した場合は、ライセンスが不要なアセットのみがダウンロードされます。\
+   >ライセンスで保護されているアセットには、[使用許諾契約が添付](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)されています。この処理は、[!DNL AEM Assets] でアセットの[メタデータプロパティ](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)を設定することでおこなわれます。
 
    ![](assets/licensed-asset-download.png)
 
    [!UICONTROL ダウンロード]ダイアログボックスが開きます。<br />
    ![](assets/download-linkshare.png)
 
-   * リンクとして共有されたアセットファイルのダウンロードをスピードアップさせるには、「**[!UICONTROL ダウンロードアクセラレーションを有効化]**」オプションを選択し、[ウィザードに従います](../using/accelerated-download.md#download-workflow-using-file-accelerator)。To know more about the fast download of assets on Brand Portal refer [Guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
-[!UICONTROL
-1. 共有リンクのアセットに加えて、アセットのレンディションもダウンロードするには、「**[!UICONTROL レンディション]」オプションを選択します。** When you do so, **Exclude System Renditions]** option appears that is selected by default. これによって、承認済みのアセットレンディションやカスタムレンディションとともに、既製のレンディションがダウンロードされるのを防ぎます。
+   * リンクとして共有されたアセットファイルのダウンロードをスピードアップさせるには、「**[!UICONTROL ダウンロードアクセラレーションを有効化]**」オプションを選択し、[ウィザードに従います](../using/accelerated-download.md#download-workflow-using-file-accelerator)。Brand Portal でのアセットの高速ダウンロードについて詳しくは、[Brand Portal からのダウンロードを高速化するためのガイド](../using/accelerated-download.md)を参照してください。[!UICONTROL
+1. 共有リンクのアセットに加えて、アセットのレンディションもダウンロードするには、「**[!UICONTROL レンディション]**」オプションを選択します。すると、「**システムレンディションを除く**」オプションが表示されます（このオプションはデフォルトで選択されています）。これによって、承認済みのアセットレンディションやカスタムレンディションとともに、既製のレンディションがダウンロードされるのを防ぎます。
 
-   ただし、カスタムレンディションと共に自動生成レンディションをダウンロードすることを許可する場合は、「**[!UICONTROL システムレンディションを除く]」オプションの選択を解除します。**
+   ただし、カスタムレンディションと共に自動生成レンディションをダウンロードすることを許可する場合は、「**[!UICONTROL システムレンディションを除く]**」オプションの選択を解除します。
 
    >[!NOTE]
    >
@@ -107,7 +106,7 @@ AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係�
 
    ![](assets/download-linkshare-autoren.png)
 
-1. Tap/ click **[!UICONTROL Download]**. アセット（および選択されている場合はレンディション）が ZIP ファイルとしてローカルフォルダーにダウンロードされます。ただし、レンディションなしで 1 つのアセットをダウンロードした場合、zip ファイルは作成されないので、すばやくダウンロードを行うことができます。
+1. 「**[!UICONTROL ダウンロード]**」をタップまたはクリックします。アセット（および選択されている場合はレンディション）が ZIP ファイルとしてローカルフォルダーにダウンロードされます。ただし、レンディションなしで 1 つのアセットをダウンロードした場合、zip ファイルは作成されないので、すばやくダウンロードをおこなうことができます。
 
 >[!NOTE]
 >
@@ -189,16 +188,16 @@ AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係�
 
 リンクとして共有されているアセットの共有を解除するには、以下の手順を実行します。
 
-1. To view the assets you shared as links, click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.
+1. リンクとして共有されているアセットを表示するには、左側のオーバーレイアイコンをクリックし、「**[!UICONTROL ナビゲーション]**」を選択します。
 
    ![](assets/siderail.png)
 
-1. From the siderail, click **[!UICONTROL Shared Links]**.
+1. サイドレールの「**[!UICONTROL 共有リンク]**」をクリックします。
 
    ![](assets/navigationrail.png)
 
 1. 表示された一覧で、共有されているリンクを確認します。
-1. この一覧からリンクの共有を解除するには、リンクを選択し、リンク項目の横にあるごみ箱アイコンをクリックするか、上部のツールバーの「**[!UICONTROL 共有しない]」アイコンをクリックします。**
+1. この一覧からリンクの共有を解除するには、リンクを選択し、リンク項目の横にあるごみ箱アイコンをクリックするか、上部のツールバーの「**[!UICONTROL 共有しない]**」アイコンをクリックします。
 
    ![](assets/unshare-links.jpg)
 
@@ -206,4 +205,4 @@ AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係�
    >
    >共有されているリンクの表示は、ユーザーごとに異なります。この機能は、テナントのすべてのユーザーが共有するすべてのリンクを表示するものではありません。
 
-1. 警告メッセージボックスで「**[!UICONTROL 続行]」をクリックして、共有を解除することを確認します。**&#x200B;指定したリンク項目が、共有リンクの一覧から削除されます。
+1. 警告メッセージボックスで「**[!UICONTROL 続行]**」をクリックして、共有を解除することを確認します。指定したリンク項目が、共有リンクの一覧から削除されます。
