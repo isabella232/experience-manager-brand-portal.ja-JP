@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 # レポートの操作 {#work-with-reports}
 
-The reporting capability is instrumental in assessing Brand Portal usage, and knowing how internal and external users interact with approved assets. 管理者は Brand Portal 使用状況Usage レポートを表示できます。このレポートは、アセットレポートページでいつでも利用することができます。ただし、ユーザーログイン数、ダウンロードされたアセット、期限切れのアセット、公開されたアセット、およびリンクから共有されたアセットに関するレポートは、アセットレポートページから生成および表示できます。これらのレポートは、アセット導入を分析するために役立ちます。これらのレポートを利用して、承認されたアセットが組織の内外でどのくらい採用されたかを測定するための重要な成功指標を導き出すことができます。
+レポート機能は、Brand Portal の使用状況を調べたり、内部および外部ユーザーによる承認済みアセットの使用方法を確認したりするのに便利です。管理者は Brand Portal 使用状況レポートを表示できます。このレポートは、アセットレポートページでいつでも利用することができます。ただし、ユーザーログイン数、ダウンロードされたアセット、期限切れのアセット、公開されたアセット、およびリンクから共有されたアセットに関するレポートは、アセットレポートページから生成および表示できます。これらのレポートは、アセット導入を分析するために役立ちます。これらのレポートを利用して、承認されたアセットが組織の内外でどのくらい採用されたかを測定するための重要な成功指標を導き出すことができます。
 
 レポート管理インターフェイスは直観的な設計になっており、保存済みレポートにアクセスするためのきめ細かいオプションとコントロールを備えています。レポートの表示、ダウンロード、削除はアセットレポートページでおこないます。このページには、過去今までに生成されたすべてのレポートが表示されます。
 
@@ -28,11 +28,11 @@ The reporting capability is instrumental in assessing Brand Portal usage, and kn
 
    ![](assets/aemlogo.png)
 
-1. From the administrative tools panel, click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
+1. 管理ツールパネルの「**[!UICONTROL レポートを作成 / 管理]**」をクリックして、**[!UICONTROL アセットレポート]**&#x200B;ページを開きます。
 
    ![](assets/access-asset-reports.png)
 
-1. アセットレポートページから、**[!UICONTROL 使用状況]レポートなどの生成済みレポートにアクセスします。**
+1. アセットレポートページから、**[!UICONTROL 使用状況]**&#x200B;レポートなどの生成済みレポートにアクセスします。
 
    >[!NOTE]
    >
@@ -44,7 +44,7 @@ The reporting capability is instrumental in assessing Brand Portal usage, and kn
 
    ![](assets/usage-report.png)
 
-   [!UICONTROL ユーザーログイン]レポートには、Brand Portal にログインしたユーザーについての情報が表示されます。The report shows display names, email IDs, personas (admin, viewer, editor, guest), groups, last login, activity status, and login count of each user from Brand Portal 6.4.2 deployment until the time of report generation.
+   [!UICONTROL ユーザーログイン]レポートには、Brand Portal にログインしたユーザーについての情報が表示されます。レポートには、Brand Portal 6.4.2 を導入してからレポート生成時までの各ユーザーの表示名、電子メール ID、ペルソナ（管理者、閲覧者、編集者、ゲスト）、グループ、前回のログイン、アクティビティのステータスおよびログイン回数が表示されます。
 
    ![](assets/user-logins.png)
 
@@ -54,7 +54,7 @@ The reporting capability is instrumental in assessing Brand Portal usage, and kn
 
    >[!NOTE]
    >
-   >The assets [!UICONTROL Download] report displays only the assets that were individually selected and downloaded from Brand Portal. アセットを含んだフォルダーがダウンロードされた場合、そのフォルダーやフォルダー内のアセットはレポートに表示されません。
+   >アセットの[!UICONTROL ダウンロード]レポートには、Brand Portal から個別に選択およびダウンロードされたアセットのみが表示されます。アセットを含んだフォルダーがダウンロードされた場合、そのフォルダーやフォルダー内のアセットはレポートに表示されません。
 
    [!UICONTROL 有効期限]レポートには、特定の期間内に有効期限が切れたすべてのアセットと、それらの詳細情報が表示されます。
 
@@ -66,7 +66,7 @@ The reporting capability is instrumental in assessing Brand Portal usage, and kn
 
    >[!NOTE]
    >
-   >コンテンツフラグメントを Brand Portal に公開することはできないため、公開レポートにはコンテンツフラグメントに関する情報は表示されません。
+   >コンテンツフラグメントを Brand Portal に公開することはできないので、公開レポートにはコンテンツフラグメントに関する情報は表示されません。
 
    [!UICONTROL リンク共有レポート]には、特定の期間内に Brand Portal インターフェイスのリンクから共有されたすべてのアセットが一覧表示されます。また、レポートには、リンク経由でアセットが共有された時間とアセットを共有したユーザー、リンクの有効期限、そのテナント（およびアセットリンクが共有されたユーザー）の共有リンクの数も表示されます。リンク共有レポートの列はカスタマイズできません。
 
@@ -77,7 +77,7 @@ The reporting capability is instrumental in assessing Brand Portal usage, and kn
    >リンク共有レポートには、リンク経由で共有されたアセットにアクセスしたユーザーや、リンクからアセットをダウンロードしたユーザーは表示されません。
    >
    >
-   >共有リンクからのダウンロードを追跡するには、**[!UICONTROL レポートを作成]**&#x200B;ページで「**リンク共有ダウンロードのみ]」オプションを選択した後、ダウンロードレポートを生成する必要があります。[!UICONTROL **&#x200B;ただし、この場合、ユーザー（ダウンロードしたユーザー）は匿名です。
+   >共有リンクからのダウンロードを追跡するには、**[!UICONTROL レポートを作成]**&#x200B;ページで「**[!UICONTROL リンク共有ダウンロードのみ]**」オプションを選択した後、ダウンロードレポートを生成する必要があります。ただし、この場合、ユーザー（ダウンロードしたユーザー）は匿名です。
 
 ## レポートの生成 {#generate-reports}
 
@@ -95,12 +95,12 @@ The reporting capability is instrumental in assessing Brand Portal usage, and kn
 
    ![](assets/aemlogo.png)
 
-1. From the administrative tools panel, tap/click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
+1. 管理ツールパネルの「**[!UICONTROL レポートを作成 / 管理]**」をタップまたはクリックして、**[!UICONTROL アセットレポート]**&#x200B;ページを開きます。
 
    ![](assets/asset-reports.png)
 
-1. In the Asset Reports page, tap/click **[!UICONTROL Create]**.
-1. From the **[!UICONTROL Create Report]** page, select a report to create, and tap/click **[!UICONTROL Next]**.
+1. アセットレポートページで、「**[!UICONTROL 作成]**」をタップまたはクリックします。
+1. **[!UICONTROL レポートを作成]**&#x200B;ページで、作成するレポートを選択し、「**[!UICONTROL 次へ]**」をタップまたはクリックします。
 
    ![](assets/crete-report.png)
 
@@ -116,8 +116,8 @@ The reporting capability is instrumental in assessing Brand Portal usage, and kn
    >
    >レポートタイトル中の特殊文字 # および % は、レポート生成時にハイフン（-）に置き換えられます。
 
-1. Tap/click **[!UICONTROL Next]**, to configure the columns of Download, Expiration, and Publish reports.
-1. 必要に応じて、適切なチェックボックスをオンまたはオフにします。For example, to view names of users (who downloaded assets) in [!UICONTROL Download] report, select **[!UICONTROL Downloaded By]**. 次の画像は、ダウンロードレポートのデフォルト列の選択を示しています。
+1. 「**[!UICONTROL 次へ]**」をタップまたはクリックして、ダウンロードレポート、有効期限レポートおよび公開レポートの列を設定します。
+1. 必要に応じて、適切なチェックボックスをオンまたはオフにします。例えば、（アセットをダウンロードした）ユーザーの名前を[!UICONTROL ダウンロード]レポートに表示するには、「**[!UICONTROL ダウンロードしたユーザー]**」チェックボックスをオンにします。次の画像は、ダウンロードレポートのデフォルト列の選択を示しています。
 
    ![](assets/createdownloadreport.png)
 
@@ -125,8 +125,8 @@ The reporting capability is instrumental in assessing Brand Portal usage, and kn
 
    ダウンロードレポート、公開レポートまたは有効期限レポートにカスタム列を追加するには、以下の手順に従います。
 
-   1. カスタム列を表示するには、「**[!UICONTROL カスタム列]」の「**[!UICONTROL 追加]」をタップまたはクリックします。
-   1. 「**[!UICONTROL 列名]」フィールドで列名を指定します。**
+   1. カスタム列を表示するには、「[!UICONTROL カスタム列]」の「**[!UICONTROL 追加]**」をタップまたはクリックします。
+   1. 「**[!UICONTROL 列名]**」フィールドで列名を指定します。
    1. プロパティピッカーを使用して、列と対応付ける必要があるプロパティを選択します。
 
       ![](assets/property-picker.png)または、プロパティパスフィールドにパスを入力します。
@@ -135,23 +135,23 @@ The reporting capability is instrumental in assessing Brand Portal usage, and kn
 
       カスタム列をさらに追加するには、「**追加**」をタップまたはクリックし、手順 2 および 3 を繰り返します。
 
-1. Tap/click **[!UICONTROL Create]**. レポートの生成が開始されたことを通知するメッセージが表示されます。
+1. 「**[!UICONTROL 作成]**」をタップまたはクリックします。レポートの生成が開始されたことを通知するメッセージが表示されます。
 
 ## ダウンロードレポート {#download-reports}
 
 レポートを保存し、.csv ファイルとしてダウンロードするには、以下のいずれかの手順を実行します。
 
-* アセットレポートページでレポートを選択し、上部のツールバーの「**[!UICONTROL ダウンロード]」をタップまたはクリックします。**
+* アセットレポートページでレポートを選択し、上部のツールバーの「**[!UICONTROL ダウンロード]**」をタップまたはクリックします。
 
 ![](assets/download-asset-report.png)
 
-* アセットレポートページから、レポートを開きます。レポートページ上部の「**[!UICONTROL ダウンロード]」オプションを選択します。**
+* アセットレポートページから、レポートを開きます。レポートページ上部の「**[!UICONTROL ダウンロード]**」オプションを選択します。
 
 ![](assets/download-report-fromwithin.png)
 
 ## レポートの削除 {#delete-reports}
 
-既存のレポートを削除するには、**[!UICONTROL アセットレポート]**&#x200B;ページからレポートを選択し、上部のツールバーの「**削除]」をタップまたはクリックします。[!UICONTROL **
+既存のレポートを削除するには、**[!UICONTROL アセットレポート]**&#x200B;ページからレポートを選択し、上部のツールバーの「**[!UICONTROL 削除]**」をタップまたはクリックします。
 
 >[!NOTE]
 >
