@@ -8,7 +8,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
@@ -36,7 +36,7 @@ Brand Portal の右上にある表示セレクターで利用可能な表示（�
 
 ## リソースの表示と選択 {#viewing-and-selecting-resources}
 
-Viewing, navigating, and selecting each are conceptually the same across all views, but have small variations in handling, depending on the view you are using.
+概念上、表示、ナビゲーションおよび選択はすべての表示で同じ操作ですが、使用している表示によって処理がわずかに異なります。
 
 使用可能な任意の表示方法で、リソースを表示、ナビゲーションおよび（追加のアクションをおこなうために）選択できます。
 
@@ -54,11 +54,11 @@ Viewing, navigating, and selecting each are conceptually the same across all vie
 * 種類
 * タイトル
 * 名前
-* アセットが   asset was published to Brand Portal from AEM
+* アセットが AEM から Brand Portal に公開された日付と時刻
 * サイズ
 * ディメンション寸法
 
-You can navigate down the hierarchy by tapping/clicking cards (taking care to avoid the quick actions) or up again by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+カードを（クイックアクションを回避するために慎重に）タップまたはクリックして階層の下に移動したり、[ヘッダーのパンくずリスト](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader)を使用して再び上に移動したりできます。
 
 ![](assets/cardquickactions.png)
 
@@ -66,18 +66,18 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 
 カード表示のフォルダーのカードは、管理者以外のユーザー（エディター、閲覧者、およびゲストユーザー）にフォルダー階層情報を表示します。この機能は、親階層について、アクセスしようとしているフォルダーの場所をユーザーに知らせます。フォルダー階層情報は特に、似たような名前のフォルダーを、別のフォルダー階層から共有された他のフォルダーと区別する際に便利です。管理者以外のユーザーが、自分たちに共有されているアセットのフォルダー構造を把握していない場合、似たような名前のアセット／フォルダーは紛らわしくなります。
 
-* それぞれのカードに表示されるパスは、カードのサイズに合わせて切り詰めて表示されます。ただし、切り捨てられたパスの上にカーソルを置くと、フルパスがツールヒントとして表示されます。
+* それぞれのカードに表示されるパスは、カードのサイズに合わせて切り詰めて表示されます。ただし、ユーザーが切り詰められたパスにカーソルを合わせると、完全なパスをツールヒントとして表示することができます。
 
 ![](assets/folder-hierarchy1.png)
 
 **アセットのプロパティを表示する「概要」オプション**
 
-「概要」オプションでは、管理者以外のユーザー（エディター、閲覧者、ゲストユーザー）が、選択したアセット／フォルダーのアセットのプロパティを表示できます。「概要」オプションは、次の場所に表示されます。
+「概要」オプションでは、管理者以外のユーザー（編集者、閲覧者、ゲストユーザー）が、選択したアセット／フォルダーのアセットのプロパティを表示できます。「概要」オプションは、次の場所に表示されます。
 
-* をクリックします。
-* をクリックします。
+* アセットやフォルダーを選択する際に上部に表示されるツールバー。
+* レールセレクターを選択する際のドロップダウン。
 
-On selecting the [!UICONTROL Overview] option while an asset/folder is selected, users can see the title, path, and time of asset creation. 一方、アセットの詳細ページで「概要」オプションを選択すると、アセットのメタデータを確認できます。
+アセットやフォルダーを選択した状態で「[!UICONTROL 概要]」オプションを選択すると、タイトル、パス、アセット作成時間を確認できます。一方、アセットの詳細ページで「概要」オプションを選択すると、アセットのメタデータを確認できます。
 
 ![](assets/overview-option.png)
 
@@ -85,7 +85,7 @@ On selecting the [!UICONTROL Overview] option while an asset/folder is selected,
 
 #### カード表示の表示設定
 
-[!UICONTROL 表示セレクターで表示設定を選択すると、表示設定ダイアログが開き、]****&#x200B;カード表示でアセットのサムネールをサイズ変更できます。これにより、表示をパーソナライズして、表示されるサムネールの数を制御できます。
+表示セレクターで&#x200B;**[!UICONTROL 表示設定]**&#x200B;を選択すると、[!UICONTROL 表示設定]ダイアログが開き、カード表示でアセットのサムネールをサイズ変更できます。これにより、表示をパーソナライズして、表示されるサムネールの数を制御できます。
 
 ![](assets/cardviewsettings.png)
 
@@ -106,7 +106,7 @@ On selecting the [!UICONTROL Overview] option while an asset/folder is selected,
 * アセット階層画像を示すフォルダーパス <sup>*</sup>
 * Brand Portal 上のアセットの公開日
 
-* パス列を使用すると、フォルダー階層内のアセットの場所が特定しやすくなります。You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+* パス列を使用すると、フォルダー階層内のアセットの場所が特定しやすくなります。リソース名をタップまたはクリックして階層の下に移動したり、[ヘッダーのパンくずリスト](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader)を使用して上に戻ったりできます。
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -114,7 +114,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### リスト表示の表示設定
 
-リスト表示の最初の列には、デフォルトでアセットの[!UICONTROL 名前]が表示されます。Additional information, such as asset [!UICONTROL Title], [!UICONTROL Locale], [!UICONTROL Type], [!UICONTROL Dimensions], [!UICONTROL Size], [!UICONTROL Rating], publish status are also shown. However, you can select the columns to be shown using [!UICONTROL View Settings].
+リスト表示の最初の列には、デフォルトでアセットの[!UICONTROL 名前]が表示されます。アセットの[!UICONTROL タイトル]、[!UICONTROL ロケール]、[!UICONTROL タイプ]、[!UICONTROL ディメンション]、[!UICONTROL サイズ]、[!UICONTROL レーティング]、公開状態などの追加情報も表示されます。ただし、「[!UICONTROL 表示設定]」を使用して、表示する列を選択することもできます。
 
 ![](assets/list-view-setting.png)
 
@@ -231,7 +231,7 @@ Comment Type: draft
 
 これらの表示に加え、3 つのツリー表示を使用して、目的のアセットやフォルダーを表示および選択しながらアセット階層をドリルダウンします。
 
-ツリー表示を開くには、左上のレールセレクターをタップまたはクリックし、メニューから「**[!UICONTROL コンテンツツリー]」を選択します。**
+ツリー表示を開くには、左上のレールセレクターをタップまたはクリックし、メニューから「**[!UICONTROL コンテンツツリー]**」を選択します。
 
 ![](assets/contenttree.png)
 
@@ -239,13 +239,13 @@ Comment Type: draft
 
 ![](assets/content-tree.png)
 
-## アセットの詳細 {#asset-details}
+## アセットの詳細{#asset-details}
 
 アセットの詳細ページでは、アセットを表示、ダウンロード、アセットリンクを共有、コレクションへアセットを移動させる、またはアセットのプロパティページを表示することができます。また、同じフォルダーの他のアセットの詳細ページへ続けて移動することもできます。
 
 ![](assets/asset-detail.png)
 
-To view the asset's metadata, or view its various renditions, use the rail selector on asset detail page.
+アセットのメタデータや様々なレンディションを表示するには、アセットの詳細ページのレールセレクターを使用します。
 
 ![](assets/asset-overview.png)
 
@@ -253,8 +253,8 @@ To view the asset's metadata, or view its various renditions, use the rail selec
 
 ![](assets/renditions.png)
 
-To open the asset properties page, use **[!UICONTROL Properties (p)]** option from the top bar.
+アセットプロパティページを開くには、上部のバーにある「**[!UICONTROL プロパティ (p)]**」オプションを使用します。
 
 ![](assets/asset-properties.png)
 
-また、アセットの関係も AEM から Brand Portal に公開されているため、アセットのプロパティページですべての関連アセット（AEM 上のソースまたは派生アセット）のリストを表示することもできます。
+また、アセットの関係も AEM から Brand Portal に公開されているので、アセットのプロパティページですべての関連アセット（AEM 上のソースまたは派生アセット）のリストを表示することもできます。
