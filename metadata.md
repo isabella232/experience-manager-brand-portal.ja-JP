@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-solution-title: 学習とサポート
+solution-title: ラーニングとサポート
 solution-hub-url: https://helpx.adobe.com/jp/support/experience-manager.html
 solution-image: null
 getting-started-title: 概要
@@ -9,13 +9,13 @@ tutorials-title: チュートリアル
 tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
 git-repo: https://github.com/AdobeDocs/experience-manager-brand-portal.en
 index: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df9d75d0af7ee60f1a71609b8ba295379d278653
 
 ---
 
 
-# 内部使用のためのメタデータ
+# 内部使用メタデータ
 
 metadata.md ファイルには、リポジトリ内にあるユーザーガイドの TOC.md ファイルにパススルーされるリポジトリレベルのメタデータが含まれています。任意のユーザーガイドの metadata.md コンテンツを変更するには、任意の TOC.md ファイル内でそのように処理してください。
 
