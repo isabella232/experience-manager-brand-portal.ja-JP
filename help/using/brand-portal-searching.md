@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
@@ -17,13 +17,13 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 # Brand Portal でのアセットの検索 {#search-assets-on-brand-portal}
 
-ブランドポータル検索機能を使用すると、オムニサーチを使用して関連するアセットをすばやく検索し、フィルターを使用して検索を絞り込むことができます。 検索設定をスマートコレクションとして保存しておき、後で呼び出すこともできます。
+Brand Portal の検索機能では、オムニサーチや、フィルターを使用して検索をさらに絞り込むことができるファセット検索を使用して、目的のアセットをすばやく検索することができます。検索設定をスマートコレクションとして保存しておき、後で呼び出すこともできます。
 
 ## オムニサーチを使用したアセット検索 {#search-assets-using-omnisearch}
 
-To search for assets on Brand Portal:
+Brand Portal 上でアセットを検索するには、次のようにします。
 
-1. From the toolbar, click the **[!UICONTROL Search]** icon, or press the "**[!UICONTROL /]**" key to launch Omnisearch.
+1. ツールバーの&#x200B;**[!UICONTROL 検索]**&#x200B;アイコンをクリックするか、**[!UICONTROL /]** キーを押してオムニサーチを起動します。
 
    ![](assets/omnisearchicon-1.png)
 
@@ -41,31 +41,31 @@ To search for assets on Brand Portal:
 
    *オムニサーチを使用したアセット検索*
 
-To know about search behaviour with smart tagged assets, see understand search results and behavior.[](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html)
+スマートタグ付きアセットでの検索動作については、[AEM でのアセットの検索](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/search-assets.html)を参照してください。
 
-## フィルターパネルでのファセットを使用した検索 {#search-using-facets-in-filters-panel}
+## フィルターパネルでのファセットを使用した検索{#search-using-facets-in-filters-panel}
 
 フィルターパネルの検索ファセットを使用すると、詳細な検索条件を指定して、検索効率を高めることができます。検索ファセットでは、複数のディメンション（述語）を使用して、より複雑な検索を実行できます。より焦点を絞った検索のために、目的の詳細レベルまで簡単にドリルダウンできます。
 
 例えば、画像を検索する場合、ビットマップとベクトル画像のどちらを検索するかを選択できます。「ファイルタイプ」検索ファセットで画像の MIME タイプを指定することで、さらに検索の範囲を絞り込むことができます。同様に、ドキュメントを検索する場合は、PDF や MS Word などの形式を指定できます。<br />
 
-![ブランドポータルのフィルタ](assets/file-type-search.png "ーパネルブランドポータルのフィルターパネル")
+![Brand Portal のフィルターパネル](assets/file-type-search.png "Brand Portal のフィルターパネル")
 
-The [!UICONTROL Filters] panel includes a few standard facets, such as- [!UICONTROL Path Browser], [!UICONTROL File Type], [!UICONTROL File Size], [!UICONTROL Status], and [!UICONTROL Orientation]. ただし、[!UICONTROL フィルター]パネルに[カスタム検索ファセットを追加](../using/brand-portal-search-facets.md)したり、特定の検索ファセットを削除したりすることも可能です。そのためには、基礎となる検索フォームで述語を追加または削除します。詳しくは、[Brand Portal で利用可能な検索用述語の一覧](../using/brand-portal-search-facets.md#list-of-search-predicates)を参照してください。
+[!UICONTROL フィルター]パネルには、[!UICONTROL パスブラウザー]、[!UICONTROL ファイルタイプ]、[!UICONTROL ファイルサイズ]、[!UICONTROL ステータス]、[!UICONTROL 回転角度]などの、いくつかの標準的なファセットが用意されています。ただし、[!UICONTROL フィルター]パネルに[カスタム検索ファセットを追加](../using/brand-portal-search-facets.md)したり、特定の検索ファセットを削除したりすることも可能です。そのためには、基礎となる検索フォームで述語を追加または削除します。詳しくは、[Brand Portal で利用可能な検索用述語の一覧](../using/brand-portal-search-facets.md#list-of-search-predicates)を参照してください。
 
 利用可能な[検索ファセット](../using/brand-portal-search-facets.md)を使用して検索にフィルターを適用するには、次のようにします。
 
-1. Click the overlay icon and select **[!UICONTROL Filter]**.
+1. オーバーレイアイコンをクリックし、「**[!UICONTROL フィルター]**」を選択します。
 
    ![](assets/selectorrail.png)
 
 1. 左側の&#x200B;**[!UICONTROL フィルター]パネルから、適切なオプションを選択して、関連するフィルターを適用します。**&#x200B;例えば、以下の標準のフィルターを使用します。
 
-   * **[!UICONTROL パスブラウザー]**：特定のディレクトリ内のアセットを検索します。The default search path of the predicate for Path Browser is **[!UICONTROL /content/dam/mac/&lt;tenant-id&gt;/]**, which can be configured by editing the default search form.
+   * **[!UICONTROL パスブラウザー]**：特定のディレクトリ内のアセットを検索します。パスブラウザーの述語のデフォルト検索パスは **[!UICONTROL /content/dam/mac/&lt;tenant-id&gt;/]** です。これはデフォルトの検索フォームを編集することで設定できます。
    >[!NOTE]
    >
-   >To non-admin users, [!UICONTROL Path Browser] in [!UICONTROL Filter] panel shows only the content structure of the folders (and their ancestor folders) shared with them.\
-   >管理者ユーザーは、パスブラウザーを使用してBrand portalの任意のフォルダーに移動できます。
+   >管理者以外のユーザーの場合、[!UICONTROL フィルター]パネルの[!UICONTROL パスブラウザー]には、そのユーザーに共有されているフォルダー（とその上位層）のコンテンツ構造のみが表示されます。\
+   >管理者ユーザーは、パスブラウザーを使用して、Brand Portal の任意のフォルダーに移動できます。
 
    * **[!UICONTROL ファイルタイプ]**：検索するアセットファイルのタイプ（画像、ドキュメント、マルチメディア、アーカイブ）を指定します。さらに、例えば画像の MIME タイプ（Tiff、ビットマップ、GIMP 画像）やドキュメントの形式（PDF、MS Word）を指定して、検索の範囲を絞り込むことができます。
    * **[!UICONTROL ファイルサイズ]**：ファイルサイズに基づいてアセットを検索します。サイズ範囲の下限と上限を指定して検索を絞り込むことができます。また、検索の単位を指定できます。
@@ -77,11 +77,11 @@ The [!UICONTROL Filters] panel includes a few standard facets, such as- [!UICONT
    フィルターパネルで[カスタム検索ファセット](../using/brand-portal-search-facets.md)を使用できるようにするには、基礎となる検索フォームを編集します。
 
    * **[!UICONTROL プロパティの述語]**：検索フォームで使用すると、述語のマッピング先のメタデータプロパティに一致するアセットを検索できます。\
-      For example, if Property Predicate is mapped to [!UICONTROL `jcr:content /metadata/dc:title`], you can search assets based on their title.\
-      The [!UICONTROL Property Predicate] supports text searches for:
+      例えば、プロパティの述語が [!UICONTROL `jcr:content /metadata/dc:title`] にマッピングされている場合は、タイトルに基づいてアセットを検索できます。\
+      [!UICONTROL プロパティの述語]では、以下の場合のテキスト検索をサポートしています。
 
       **部分的な語句**
-プロパティの述語で部分的な語句を使用したアセット検索を許可するには、検索フォームの「**[!UICONTROL 部分検索]」チェックボックスを有効にします。**\
+プロパティの述語で部分的な語句を使用したアセット検索を許可するには、検索フォームの「**[!UICONTROL 部分検索]**」チェックボックスを有効にします。\
       これにより、アセットメタデータで使用する語句を指定しなくても、目的のアセットを検索できます。\
       次のことが可能です。
 * フィルターパネルのファセットで、検索する語句に使用されている単語を指定します。例えば、「**climb**」という単語を検索する（およびプロパティの述語が [!UICONTROL `dc:title`] プロパティにマッピングされている）場合は、タイトルに「**climb**」という単語を含むアセットがすべて返されます。* 検索する語句で使用されている単語の一部を指定します。その際、ワイルドカード文字（*）で補完します。例えば、次の検索をおこないます。
@@ -89,7 +89,7 @@ The [!UICONTROL Filters] panel includes a few standard facets, such as- [!UICONT
       「***climb**」と指定すると、「climb」という文字列で終わる単語がタイトルフレーズで使用されているアセットがすべて返されます。
       「***climb***」と指定すると、「climb」という文字列を含む単語がタイトルフレーズで使用されているアセットがすべて返されます。\
       **大文字と小文字を区別しないテキスト**
-プロパティの述語で大文字と小文字を区別せずに検索するには、検索フォームの「**[!UICONTROL 大文字と小文字を区別しない]」チェックボックスをオンにします。**&#x200B;プロパティの述語のテキスト検索では、デフォルトで大文字と小文字が区別されます。
+プロパティの述語で大文字と小文字を区別せずに検索するには、検索フォームの「**[!UICONTROL 大文字と小文字を区別しない]**」チェックボックスをオンにします。プロパティの述語のテキスト検索では、デフォルトで大文字と小文字が区別されます。
    >[!NOTE]
    >
    >「**[!UICONTROL 部分検索]**」チェックボックスを選択すると、デフォルトで「[!UICONTROL 大文字と小文字を区別しない]」がオンになります。
@@ -102,7 +102,7 @@ The [!UICONTROL Filters] panel includes a few standard facets, such as- [!UICONT
 
    アセットの検索結果と検索結果数
 
-1. 検索結果から特定の項目に移動した後、ブラウザーの戻るボタンを使用して元の検索結果に簡単に戻ることができます。検索クエリーを再実行する必要はありません。
+1. 検索結果から特定の項目に移動した後、ブラウザーの戻るボタンを使用して元の検索結果に簡単に戻ることができます。検索クエリを再実行する必要はありません。
 
 ## 検索設定をスマートコレクションとして保存 {#save-your-searches-as-smart-collection}
 
@@ -110,20 +110,20 @@ The [!UICONTROL Filters] panel includes a few standard facets, such as- [!UICONT
 
 検索設定をスマートコレクションとして保存するには、次のようにします。
 
-1. 「**[!UICONTROL スマートコレクションを保存]」をタップまたはクリックし、スマートコレクションの名前を指定します。**
+1. 「**[!UICONTROL スマートコレクションを保存]**」をタップまたはクリックし、スマートコレクションの名前を指定します。
 
-   To make the smart collection accessible to all users, select **[!UICONTROL Public]**. スマートコレクションが作成され、保存済みの検索の一覧に追加されたことを示すメッセージが表示されます。
+   すべてのユーザーがアクセスできるスマートコレクションにするには、「**[!UICONTROL 公開]**」を選択します。スマートコレクションが作成され、保存済みの検索の一覧に追加されたことを示すメッセージが表示されます。
 
    >[!NOTE]
    >
-   >管理者以外のユーザーによるスマートコレクションの公開を制限できます。これにより、管理者以外のユーザーが組織の Brand Portal 上に多数の公開スマートコレクションを作成することを防止できます。管理ツールパネルの&#x200B;**[!UICONTROL 一般]設定で、「****[!UICONTROL 公開スマートコレクションの作成を許可]」設定を無効化できます。**
+   >管理者以外のユーザーによるスマートコレクションの公開を制限できます。これにより、管理者以外のユーザーが組織の Brand Portal 上に多数の公開スマートコレクションを作成することを防止できます。管理ツールパネルの&#x200B;**[!UICONTROL 一般]**&#x200B;設定で、「**[!UICONTROL 公開スマートコレクションの作成を許可]**」設定を無効化できます。
 
    ![](assets/save_smartcollectionui.png)
 
-1. To save the smart collection in a different name, and select or clear the **[!UICONTROL Public]** checkbox, click **[!UICONTROL Edit Smart Collection]**.
+1. スマートコレクションを別の名前で保存したり、「**[!UICONTROL 公開]**」チェックボックスをオンまたはオフにするには、「**[!UICONTROL スマートコレクションを編集]**」をクリックします。
 
    ![](assets/edit_smartcollection.png)
 
-1. **[!UICONTROL スマートコレクションを編集]**&#x200B;ダイアログボックスで、「**名前を付けて保存[!UICONTROL 」を選択し、スマートコレクションの名前を入力します。]** Click **[!UICONTROL Save]**.
+1. **[!UICONTROL スマートコレクションを編集]**&#x200B;ダイアログボックスで、「**[!UICONTROL 名前を付けて保存]**」を選択し、スマートコレクションの名前を入力します。「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/saveas_smartsearch.png)
