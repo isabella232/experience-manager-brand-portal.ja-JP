@@ -1,15 +1,15 @@
 ---
 title: コレクションの共有
 seo-title: コレクションの共有
-description: AEM Assets Brand Portal 管理者は、コレクションやスマートコレクションを承認済みユーザーと共有したり、共有を解除したりできます。エディターは、自身が作成したコレクションおよび共有が認められているコレクションと公開コレクションのみを閲覧、共有できます。
-seo-description: AEM Assets Brand Portal 管理者は、コレクションやスマートコレクションを承認済みユーザーと共有したり、共有を解除したりできます。エディターは、自身が作成したコレクションおよび共有が認められているコレクションと公開コレクションのみを閲覧、共有できます。
+description: AEM Assets Brand Portal 管理者は、コレクションやスマートコレクションを承認済みユーザーと共有したり、共有を解除したりできます。編集者は、自身が作成したコレクションおよび共有が認められているコレクションと公開コレクションのみを閲覧、共有できます。
+seo-description: AEM Assets Brand Portal 管理者は、コレクションやスマートコレクションを承認済みユーザーと共有したり、共有を解除したりできます。編集者は、自身が作成したコレクションおよび共有が認められているコレクションと公開コレクションのみを閲覧、共有できます。
 uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
 contentOwner: bdhar
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
@@ -17,47 +17,47 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 # Brand Portal でコレクションを共有する {#share-collections-bp}
 
-AEM Assets Brand Portal 管理者は、コレクションやスマートコレクションを承認済みユーザーと共有したり、共有を解除したりできます。エディターは、自身が作成したコレクションおよび共有が認められているコレクションと公開コレクションのみを閲覧、共有できます。ただし、エディターは公開コレクションを非公開コレクションに変更できません。
+AEM Assets Brand Portal 管理者は、コレクションやスマートコレクションを承認済みユーザーと共有したり、共有を解除したりできます。編集者は、自身が作成したコレクションおよび共有が認められているコレクションと公開コレクションのみを閲覧、共有できます。ただし、編集者は公開コレクションを非公開コレクションに変更できません。
 
 >[!NOTE]
 >
->Editors cannot change a public collection to a non-public collection and, therefore, do not have [!UICONTROL Public Collection] checkbox available in [!UICONTROL Collection Settings] dialog.
+>編集者は公開コレクションを非公開コレクションに変更できないので、[!UICONTROL コレクション設定]ダイアログの「[!UICONTROL 公開コレクション]」チェックボックスは使用不可になります。
 
 ## コレクションの共有 {#share-collection}
 
 コレクションを共有するには、次のようにします。
 
-1. Click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.
+1. 左側のオーバーレイアイコンをクリックし、「**[!UICONTROL ナビゲーション]**」を選択します。
 
    ![](assets/contenttree-1.png)
 
-1. From the siderail on the left, click **[!UICONTROL Collections]**.
+1. 左側のサイドレールで「**[!UICONTROL コレクション]**」をクリックします。
 
    ![](assets/access_collections.png)
 
-1. **[!UICONTROL コレクション]コンソールで、以下のいずれかの手順を実行します。**
+1. **[!UICONTROL コレクション]**&#x200B;コンソールで、以下のいずれかの手順を実行します。
 
-   * 共有するコレクションの上にマウスポインターを置きます。そのコレクションで使用できるクイックアクションサムネールから、**[!UICONTROL 設定]アイコンをクリックします。**
+   * 共有するコレクションの上にマウスポインターを置きます。そのコレクションで使用できるクイックアクションサムネールから、**[!UICONTROL 設定]**&#x200B;アイコンをクリックします。
    ![](assets/settings_thumbnail.png)
 
-   * 共有するコレクションを選択します。From the toolbar at the top, click **[!UICONTROL Settings]**.
+   * 共有するコレクションを選択します。上部のツールバーの「**[!UICONTROL 設定]**」をクリックします。
    ![](assets/collection-sharing.png)
 
-1. [!UICONTROL コレクション設定]ダイアログボックスで、そのコレクションを共有するユーザーまたはグループを選択し、それぞれのグローバルな役割に一致するユーザーまたはグループの役割を選択します。例えば、グローバルなエディターにはエディターの役割を割り当て、グローバルな閲覧者には閲覧者の役割を割り当てます。
+1. [!UICONTROL コレクション設定]ダイアログボックスで、そのコレクションを共有するユーザーまたはグループを選択し、それぞれのグローバルな役割に一致するユーザーまたはグループの役割を選択します。例えば、グローバルな編集者には編集者の役割を割り当て、グローバルな閲覧者には閲覧者の役割を割り当てます。
 
-   Alternatively, to make the collection available to all users irrespective of their group membership and role, make it public by selecting the **[!UICONTROL Public Collection]** check-box.
+   または、グループのメンバーシップや役割に関係なく、すべてのユーザーがコレクションを使用できるようにするには、「**[!UICONTROL 公開コレクション]**」チェックボックスをオンにして、そのコレクションを公開コレクションとして設定します。
 
    >[!NOTE]
    >
-   >ただし、公開コレクションが大量に作成されてシステムの容量に影響しないように、管理者以外のユーザーによる公開コレクションの作成を制限できます。管理ツールパネルの[!UICONTROL **一般]設定で、「**[!UICONTROL 公開コレクションの作成を許可]」設定を無効化できます。
+   >ただし、公開コレクションが大量に作成されてシステムの容量に影響しないように、管理者以外のユーザーによる公開コレクションの作成を制限できます。管理ツールパネルの[!UICONTROL 一般]設定で、「**[!UICONTROL 公開コレクションの作成を許可]**」設定を無効化できます。
 
    ![](assets/collection_sharingadduser.png)
 
-   Editors cannot change a public collection to a non-public collection and, therefore, do not have [!UICONTROL Public Collection] check-box available in [!UICONTROL Collection Settings] dialog.
+   編集者は公開コレクションを非公開コレクションに変更できないので、[!UICONTROL コレクション設定]ダイアログの「[!UICONTROL 公開コレクション]」チェックボックスは使用不可になります。
 
    ![](assets/collection-setting-editor.png)
 
-1. Select **[!UICONTROL Add]**, and then **[!UICONTROL Save]**. コレクションが、選択したユーザーと共有されます。
+1. 「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL 保存]**」をクリックします。コレクションが、選択したユーザーと共有されます。
 
    >[!NOTE]
    >
@@ -69,16 +69,16 @@ AEM Assets Brand Portal 管理者は、コレクションやスマートコレ�
 
 1. [!UICONTROL コレクション]コンソールで、共有を解除するコレクションを選択します。
 
-   In the toolbar, click **[!UICONTROL Settings]**.
+   ツールバーの「**[!UICONTROL 設定]**」をクリックします。
 
    ![](assets/collection_settings.png)
 
-1. [!UICONTROL コレクション設定]ダイアログボックスの「[!UICONTROL メンバー]」で、ユーザーやグループの横にある **[!UICONTROL x]記号をクリックして、これらのユーザーやグループを、コレクションを共有しているユーザーの一覧から削除します。**
+1. [!UICONTROL コレクション設定]ダイアログボックスの「[!UICONTROL メンバー]」で、ユーザーやグループの横にある **[!UICONTROL x]** 記号をクリックして、これらのユーザーやグループを、コレクションを共有しているユーザーの一覧から削除します。
 
    ![](assets/unshare_collection.png)
 
-1. 警告メッセージボックスの「**[!UICONTROL 確認]」をクリックして、共有を解除することを確認します。**
+1. 警告メッセージボックスの「**[!UICONTROL 確認]**」をクリックして、共有を解除することを確認します。
 
-   Click **[!UICONTROL Save]**.
+   「**[!UICONTROL 保存]**」をクリックします。
 
-1. 共有リストから削除したユーザーの資格情報を使用して、Brand Portal にログインします。指定したコレクションが、**[!UICONTROL コレクション]コンソールから削除されています。**
+1. 共有リストから削除したユーザーの資格情報を使用して、Brand Portal にログインします。指定したコレクションが、**[!UICONTROL コレクション]**&#x200B;コンソールから削除されています。
