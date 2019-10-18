@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
@@ -30,7 +30,7 @@ Brand Portal は、アセットの取り込みをサポートしていません�
 
 ### Brand Portal 上でフォルダーをユーザーグループと共有する {#sharing-folders-with-user-groups-on-brand-portal}
 
-フォルダーのアセットに対するアクセス権は、その親フォルダーに対するアクセス権に依存します。子フォルダーの設定には関係ありません。この動作は AEM 内の [ACL](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM) によって制御されます。子フォルダーは親フォルダーの ACL を継承するためです。例えば、フォルダー A の中にフォルダー B があり、その中にフォルダー C がある場合、フォルダー A に対するアクセス権を持つユーザーグループ（またはユーザー）は、フォルダー B および C に対しても同じアクセス権を持ちます。フォルダー B は A の子フォルダーであるため A の ACL を継承し、フォルダー C はフォルダー B の子フォルダーであるため B の ACL を継承します。
+フォルダーのアセットに対するアクセス権は、その親フォルダーに対するアクセス権に依存します。子フォルダーの設定には関係ありません。子フォルダーは親フォルダーの ACL を継承するので、この動作は AEM 内の [ACL](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM) で制御されます。例えば、フォルダー A の中にフォルダー B があり、その中にフォルダー C がある場合、フォルダー A に対するアクセス権を持つユーザーグループ（またはユーザー）は、フォルダー B および C に対しても同じアクセス権を持ちます。フォルダー B は A の子フォルダーであるため A の ACL を継承し、フォルダー C はフォルダー B の子フォルダーであるため B の ACL を継承します。
 
 同様に、フォルダー B のみに対するアクセス権を持つユーザーグループ（またはユーザー）は、フォルダー C に対して同じアクセス権を持ちますが、フォルダー A に対するアクセス権は持ちません。したがって、組織がコンテンツを整理する際には、広範囲に公開するアセットは子フォルダーに配置して、子からルートフォルダーへのアクセスを制限することをお勧めします。
 
@@ -53,15 +53,15 @@ Brand Portal のレプリケーションの設定時に「[!UICONTROL 公開フ�
 |  | AEM Assets から Brand Portal に公開されたすべてのフォルダーへのアクセス | 共有フォルダーへのアクセス | フォルダーを共有／共有解除する権限 |
 |---------------|-----------|-----------|------------|
 | 管理者 | 可 | 可 | 可 |
-| エディター | 不可* | 可。ただし、そのユーザーと共有されている場合、またはそのユーザーの所属グループと共有されている場合のみです。 | 可。ただし、そのユーザーと共有されているフォルダー、またはそのユーザーの所属グループと共有されているフォルダーのみです。 |
+| 編集者 | 不可* | 可。ただし、そのユーザーと共有されている場合、またはそのユーザーの所属グループと共有されている場合のみです。 | 可。ただし、そのユーザーと共有されているフォルダー、またはそのユーザーの所属グループと共有されているフォルダーのみです。 |
 | 閲覧者 | 不可* | 可。ただし、そのユーザーと共有されている場合、またはそのユーザーの所属グループと共有されている場合のみです。 | 不可 |
 | ゲストユーザー | 不可* | 可。ただし、そのユーザーと共有されている場合、またはそのユーザーの所属グループと共有されている場合のみです。 | 不可 |
 
-**AEM オーサーインスタンスと Brand Portal のレプリケーションを設定する際、「[!UICONTROL 公開フォルダーの公開]」プションはデフォルトで無効になっています。このオプションが有効になっている場合は、Brand Portal に公開されているフォルダーが、デフォルトですべてのユーザー（管理者以外のユーザーも含む）にアクセス可能になります。*
+**AEM オーサーインスタンスと Brand Portal のレプリケーションを設定する際、「[!UICONTROL 公開フォルダーの公開]」オプションはデフォルトで無効になっています。このオプションが有効になっている場合は、Brand Portal に公開されているフォルダーが、デフォルトですべてのユーザー（管理者以外のユーザーも含む）にアクセス可能になります。*
 
-### 管理者以外のユーザーによる共有フォルダーへのアクセス {#non-admin-user-access-to-shared-folders}
+### 管理者以外のユーザーによる共有フォルダーへのアクセス{#non-admin-user-access-to-shared-folders}
 
-管理者以外のユーザーは、Brand Portal 上でそのユーザーに共有されているフォルダーにのみアクセスできます。However, how these folders are displayed on the portal when they log in depends on the settings of [!UICONTROL Enable Folder Hierarchy] configuration.
+管理者以外のユーザーは、Brand Portal 上でそのユーザーに共有されているフォルダーにのみアクセスできます。ただし、ポータルにログインしたときにこれらのフォルダーがどのように表示されるかは、「[!UICONTROL フォルダー階層を有効化]」の設定によって異なります。
 
 **この設定が無効な場合**
 
@@ -75,7 +75,7 @@ Brand Portal のレプリケーションの設定時に「[!UICONTROL 公開フ�
 
 これらの親フォルダーは仮想フォルダーであり、これらに対してアクションを実行することはできません。仮想フォルダーは鍵のアイコン付きで表示されます。
 
-No action tasks are visible on hovering or selecting them in [!UICONTROL Card View], unlike the shared folders. [!UICONTROL 「概要] 」ボタンは、「列ビュー」と「リストビュー」で仮想フォル [!UICONTROL ダを選択する] とき [!UICONTROL に表示されます]。
+[!UICONTROL カード表示]でこれらをカーソルで指したり選択したりしても、共有フォルダーとは異なり、アクションタスクは表示されません。[!UICONTROL 列表示]や[!UICONTROL リスト表示]で仮想フォルダーを選択すると「[!UICONTROL 概要]」ボタンが表示されます。
 
 >[!NOTE]
 >
@@ -87,11 +87,11 @@ No action tasks are visible on hovering or selecting them in [!UICONTROL Card Vi
 
 フォルダーを Brand Portal 上でユーザーと共有するには、次の手順を実行します。
 
-1. Click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.
+1. 左側のオーバーレイアイコンをクリックし、「**[!UICONTROL ナビゲーション]**」を選択します。
 
    ![](assets/selectorrail.png)
 
-1. From the siderail on the left, select **[!UICONTROL Files]**.
+1. 左側のサイドレールの「**[!UICONTROL ファイル]**」を選択します。
 
    ![](assets/access_files.png)
 
@@ -99,7 +99,7 @@ No action tasks are visible on hovering or selecting them in [!UICONTROL Card Vi
 
    ![](assets/share-folders.png)
 
-1. From the toolbar at the top, select **[!UICONTROL Share]**.
+1. 上部のツールバーの「**[!UICONTROL 共有]**」を選択します。
 
    ![](assets/share_icon.png)
 
@@ -108,20 +108,19 @@ No action tasks are visible on hovering or selecting them in [!UICONTROL Card Vi
    ![](assets/folder_properties.png)
 
 1. デフォルトの名前をユーザーに表示しないようにする場合は、[!UICONTROL フォルダーのプロパティ]コンソールで、「[!UICONTROL フォルダーのタイトル]」フィールドにフォルダーのタイトルを指定します。
-1. From the [!UICONTROL Add User] list, select the users or groups with which you want to share the folder, and click **[!UICONTROL Add]**.
-フォルダーをゲストユーザーとのみ共有し、他のユーザーとは共有しない場合は、「[!UICONTROL **メンバー]」ドロップダウンから「**[!UICONTROL 匿名ユーザー]」を選択します。
+1. 「[!UICONTROL ユーザーを追加]」リストで、フォルダーを共有するユーザーまたはグループを選択して、「**[!UICONTROL 追加]**」をクリックします。フォルダーをゲストユーザーとのみ共有し、他のユーザーとは共有しない場合は、「[!UICONTROL メンバー]」ドロップダウンから「**[!UICONTROL 匿名ユーザー]**」を選択します。
 
    ![](assets/only-anonymous.png)
 
    >[!NOTE]
    >
-   >グループのメンバーシップや役割に関係なく、すべてのユーザーがフォルダーを使用できるようにするには、「**[!UICONTROL 公開フォルダー]」チェックボックスをオンにして、そのフォルダーを公開フォルダーに設定します。**
+   >グループのメンバーシップや役割に関係なく、すべてのユーザーがフォルダーを使用できるようにするには、「**[!UICONTROL 公開フォルダー]**」チェックボックスをオンにして、そのフォルダーを公開フォルダーに設定します。
 
-1. 必要であれば、「**[!UICONTROL サムネールを変更]」をクリックしてフォルダーのサムネール画像を変更します。**
-1. Click **[!UICONTROL Save]**.
+1. 必要であれば、「**[!UICONTROL サムネールを変更]**」をクリックしてフォルダーのサムネール画像を変更します。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 1. 共有フォルダーにアクセスするには、フォルダーを共有するユーザーの資格情報を使用して Brand Portal にログインします。インターフェイスで共有フォルダーを確認します。
 
-## フォルダーの共有解除 {#unshare-the-folders}
+## フォルダーの共有解除{#unshare-the-folders}
 
 共有フォルダーの共有を解除するには、以下の手順に従います。
 
@@ -129,11 +128,11 @@ No action tasks are visible on hovering or selecting them in [!UICONTROL Card Vi
 
    ![](assets/share-folders-1.png)
 
-1. From the toolbar at the top, click **[!UICONTROL Share]**.
-1. [!UICONTROL フォルダーのプロパティ]コンソールの「[!UICONTROL メンバー]」で、ユーザーの横にある **[!UICONTROL x]記号をクリックして、このユーザーを、フォルダーを共有しているユーザーの一覧から削除します。**
+1. 上部のツールバーの「**[!UICONTROL 共有]**」をクリックします。
+1. [!UICONTROL フォルダーのプロパティ]コンソールの「[!UICONTROL メンバー]」で、ユーザーの横にある **[!UICONTROL x]** 記号をクリックして、このユーザーを、フォルダーを共有しているユーザーの一覧から削除します。
 
    ![](assets/folder_propertiesunshare.png)
 
-1. 警告メッセージボックスの「**[!UICONTROL 確認]」をクリックして、共有を解除することを確認します。** Click **[!UICONTROL Save]**.
+1. 警告メッセージボックスの「**[!UICONTROL 確認]**」をクリックして、共有を解除することを確認します。「**[!UICONTROL 保存]**」をクリックします。
 
 1. 共有リストから削除したユーザーの資格情報を使用して、Brand Portal にログインします。そのフォルダーは、そのユーザーの Brand Portal インターフェイスで利用できなくなっています。
