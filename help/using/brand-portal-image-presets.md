@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
@@ -20,13 +20,13 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 画像プリセットは、プレビューしたりダウンロードしたりできる画像の動的レンディションを生成するために使用します。画像とそのレンディションをプレビューするときは、プリセットを選択することにより、管理者が設定した仕様で画像を再フォーマットできます。
 
-To view dynamic renditions of an asset in Brand Portal, ensure that its Pyramid tiff rendition exists at the AEM author instance from where you publish to Brand Portal. アセットを公開すると、その PTIFF レンディションも Brand Portal に公開されます。Brand Portal から PTIFF レンディションを生成する方法はありません。
+Brand Portal にアセットの動的レンディションを表示するには、Brand Portal への公開元となる AEM オーサーインスタンスに、そのアセットのピラミッド TIFF レンディションが存在している必要があります。アセットを公開すると、その PTIFF レンディションも Brand Portal に公開されます。Brand Portal から PTIFF レンディションを生成する方法はありません。
 
 >[!NOTE]
 >
 >画像とそのレンディションをダウンロードするときは、既存のプリセットから選択することはできません。その代わりに、カスタム画像プリセットのプロパティを指定できます。詳しくは、[画像をダウンロードする際の画像プリセットの適用](../using/brand-portal-image-presets.md#main-pars-text-1403412644)を参照してください。
 
-画像プリセットの作成時に必要となるパラメーターについて詳しくは、[画像プリセットの管理](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html)を参照してください。
+画像プリセットの作成時に必要となるパラメーターについて詳しくは、[画像プリセットの管理](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/managing-image-presets.html)を参照してください。
 
 ## 画像プリセットの作成 {#create-an-image-preset}
 
@@ -36,63 +36,63 @@ To view dynamic renditions of an asset in Brand Portal, ensure that its Pyramid 
 
 >[!NOTE]
 >
->Dynamic renditions of an image are created using its Pyramid TIFF. If the Pyramid TIFF is not available for any asset, dynamic renditions for that asset cannot be fetched in Brand portal.
-If AEM (Author) instance is running on Dynamic Media Hybrid mode, then Pyramid TIFF renditions of image assets are created and saved in AEM repository. ****&#x200B;これに対し、AEM（作成者）インスタンスがダイナミックメディアシーン7モードで実行されている場合 ****、画像アセットのピラミッドTIFFレンディションがScene 7サーバに存在します。
-When such assets are published to brand portal, image presets are applied and dynamic renditions are displayed.
+>画像の動的レンディションは、ピラミッド TIFF を使用して作成されます。ピラミッド TIFF がどのアセットにも使用できない場合、そのアセットの動的レンディションを Brand Portal で取得することはできません。
+AEM（オーサー）インスタンスが **Dynamic Media ハイブリッドモード**&#x200B;で実行されている場合、画像アセットのピラミッド TIFF レンディションが作成されて AEM リポジトリに保存されます。これに対し、AEM（オーサー）インスタンスが **Dynamic Media Scene7 モード**で実行されている場合、画像アセットのピラミッド TIFF レンディションは Scene7 サーバー上に存在します。
+このようなアセットが Brand Portal に公開されると、画像プリセットが適用されて動的レンディションが表示されます。
 
 1. 上部の AEM ツールバーでアドビのロゴをクリックして、管理ツールにアクセスします。
 
-1. From the administrative tools panel, click **[!UICONTROL Image Presets]**.
+1. 管理ツールパネルの「**[!UICONTROL 画像プリセット]**」をクリックします。
 
    ![](assets/admin-tools-panel-4.png)
 
-1. In the image presets page, click **[!UICONTROL Create]**.
+1. 画像プリセットページの「**[!UICONTROL 作成]**」をクリックします。
 
    ![](assets/image_preset_homepage.png)
 
-1. **[!UICONTROL 画像プリセットを編集]**&#x200B;ページで、「**[!UICONTROL 基本]」または「**&#x200B;詳細&#x200B;**」のどちらか該当するタブに、名前などの値を入力します。**&#x200B;オプションの概要については、[画像プリセットオプション](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options)で説明しています。プリセットは左側のウィンドウに表示され、他のアセットにすぐに使用できます。
+1. **[!UICONTROL 画像プリセットを編集]**&#x200B;ページで、「**[!UICONTROL 基本]**」または「**[!UICONTROL 詳細]**」のどちらか該当するタブに、名前などの値を入力します。オプションの概要については、[画像プリセットオプション](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/managing-image-presets.html#Image%20preset%20options)で説明しています。プリセットは左側のウィンドウに表示され、他のアセットにすぐに使用できます。
 
    ![](assets/image_preset_create.png)
 
    >[!NOTE]
    >
-   >**[!UICONTROL 画像プリセットを編集]ページを使用して、既存の画像プリセットのプロパティを編集することもできます。** To edit an image preset, select it from the image presets page, and click **[!UICONTROL Edit]**.
+   >**[!UICONTROL 画像プリセットを編集]**&#x200B;ページを使用して、既存の画像プリセットのプロパティを編集することもできます。画像プリセットを編集するには、該当する画像プリセットを画像プリセットページから選択し、「**[!UICONTROL 編集]**」をクリックします。
 
-1. Click **[!UICONTROL Save]**. 画像プリセットが作成され、画像プリセットページに表示されます。
-1. To delete an image preset, select it from the image presets page and click **[!UICONTROL Delete]**. 確認ページで「**[!UICONTROL 削除]」をクリックして、削除することを確認します。**&#x200B;指定した画像プリセットが、画像プリセットページから削除されます。
+1. 「**[!UICONTROL 保存]**」をクリックします。画像プリセットが作成され、画像プリセットページに表示されます。
+1. 画像プリセットを削除するには、画像プリセットページから削除する画像プリセットを選択し、「**[!UICONTROL 削除]**」をクリックします。確認ページで「**[!UICONTROL 削除]**」をクリックして、削除することを確認します。指定した画像プリセットが、画像プリセットページから削除されます。
 
-## 画像をプレビューする際の画像プリセットの適用      {#apply-image-presets-when-previewing-images}
+## 画像をプレビューする際の画像プリセットの適用  {#apply-image-presets-when-previewing-images}
 
 画像とそのレンディションをプレビューするときは、既存のプリセットから選択することで、管理者が設定した仕様で画像を再フォーマットできます。
 
-1. From the Brand Portal interface, click an image to open it.
-1. Click the overlay icon on the left, and choose **[!UICONTROL Renditions]**.
+1. Brand Portal インターフェイスで、画像をクリックして開きます。
+1. 左側のオーバーレイアイコンをクリックし、「**[!UICONTROL レンディション]**」を選択します。
 
    ![](assets/image-preset-previewrenditions.png)
 
-1. From the **[!UICONTROL Renditions]** list, select the appropriate dynamic rendition, for example, **[!UICONTROL Thumbnail]**. 選択した動的レンディションに基づいて、プレビュー画像がレンダリングされます。
+1. **[!UICONTROL レンディション]**&#x200B;リストから、適切な動的レンディション（例：「**[!UICONTROL サムネール]**」）を選択します。選択した動的レンディションに基づいて、プレビュー画像がレンダリングされます。
 
    ![](assets/image-preset-previewrenditionthumbnail.png)
 
 ## 画像をダウンロードする際の画像プリセットの適用 {#apply-image-presets-when-downloading-images}
 
-Brand Portalから画像とそのレンディションをダウンロードする場合、既存の画像プリセットから選択することはできません。 ただし、再フォーマットする画像に基づいて、画像プリセットのプロパティをカスタマイズできます。
+Brand Portal から画像とそのレンディションをダウンロードするときは、既存の画像プリセットから選択することはできません。ただし、再フォーマットする画像に基づいて、画像プリセットのプロパティをカスタマイズできます。
 
-1. From the Brand Portal interface, do one of the following:
+1. Brand Portal コンソールで、以下のいずれかの手順を実行します。
 
-   * ダウンロードする画像の上にマウスポインターを置きます。使用できるクイックアクションサムネールから、**[!UICONTROL ダウンロード]アイコンをクリックします。**
+   * ダウンロードする画像の上にマウスポインターを置きます。使用できるクイックアクションサムネールから、**[!UICONTROL ダウンロード]**&#x200B;アイコンをクリックします。
    ![](assets/downloadsingleasset.png)
 
-   * ダウンロードする画像を選択します。上部のツールバーで「**[!UICONTROL ダウンロード]」アイコンをクリックします。**
+   * ダウンロードする画像を選択します。上部のツールバーで「**[!UICONTROL ダウンロード]**」アイコンをクリックします。
    ![](assets/downloadassets.png)
 
-1. **[!UICONTROL ダウンロード]ダイアログボックスで、アセットとそのレンディションを一緒にダウンロードするかどうかに応じて、必要なオプションを選択します。**
+1. **[!UICONTROL ダウンロード]**&#x200B;ダイアログボックスで、アセットとそのレンディションを一緒にダウンロードするかどうかに応じて、必要なオプションを選択します。
 
    ![](assets/donload-assets-dialog.png)
 
-1. アセットの動的レンディションをダウンロードするには、「**[!UICONTROL 動的レンディション]」オプションを選択します。**
+1. アセットの動的レンディションをダウンロードするには、「**[!UICONTROL 動的レンディション]**」オプションを選択します。
 1. 画像プリセットのプロパティを、画像とそのレンディションをダウンロード時に動的に再フォーマットしたい設定に基づいてカスタマイズします。サイズ、フォーマット、カラースペース、解像度および画像の修飾子を指定します。
 
    ![](assets/dynamicrenditions.png)
 
-1. Click **[!UICONTROL Download]**. カスタムの動的レンディションが、ダウンロード対象として選択した画像とレンディションと一緒に ZIP ファイルにダウンロードされます。ただし、ダウンロードするアセットが 1 つだけの場合は、迅速なダウンロードをおこなうために ZIP ファイルは作成されません。
+1. 「**[!UICONTROL ダウンロード]**」をクリックします。カスタムの動的レンディションが、ダウンロード対象として選択した画像とレンディションと一緒に ZIP ファイルにダウンロードされます。ただし、ダウンロードするアセットが 1 つだけの場合は、迅速なダウンロードをおこなうために ZIP ファイルは作成されません。
