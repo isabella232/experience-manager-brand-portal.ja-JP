@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
-translation-type: ht
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+translation-type: tm+mt
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
@@ -41,7 +41,7 @@ Brand Portal 上でアセットを検索するには、次のようにします�
 
    *オムニサーチを使用したアセット検索*
 
-スマートタグ付きアセットでの検索動作については、[AEM でのアセットの検索](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/search-assets.html)を参照してください。
+To know about search behaviour with smart tagged assets, see [understand search results and behavior](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html).
 
 ## フィルターパネルでのファセットを使用した検索{#search-using-facets-in-filters-panel}
 
@@ -61,7 +61,7 @@ Brand Portal 上でアセットを検索するには、次のようにします�
 
 1. 左側の&#x200B;**[!UICONTROL フィルター]パネルから、適切なオプションを選択して、関連するフィルターを適用します。**&#x200B;例えば、以下の標準のフィルターを使用します。
 
-   * **[!UICONTROL パスブラウザー]**：特定のディレクトリ内のアセットを検索します。パスブラウザーの述語のデフォルト検索パスは **[!UICONTROL /content/dam/mac/&lt;tenant-id&gt;/]** です。これはデフォルトの検索フォームを編集することで設定できます。
+   * **[!UICONTROL パスブラウザー]**：特定のディレクトリ内のアセットを検索します。The default search path of the predicate for Path Browser is `/content/dam/mac/<tenant-id>/`, which can be configured by editing the default search form.
    >[!NOTE]
    >
    >管理者以外のユーザーの場合、[!UICONTROL フィルター]パネルの[!UICONTROL パスブラウザー]には、そのユーザーに共有されているフォルダー（とその上位層）のコンテンツ構造のみが表示されます。\
