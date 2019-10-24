@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
@@ -22,18 +22,18 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 ## 6.4.5 の変更点 {#what-changed-in-645}
 
 
-Brand Portal 6.4.5は、Brand portalユーザ（外部のエージェンシー/チーム）に対して、作成者環境にアクセスする必要なく、Brand portalにコンテンツをアップロードしてAEM Assetsに公開する機能を提供することに重点を置いた機能リリースです。 この機能はBrand Portalで **[](brand-portal-asset-sourcing.md)** Asset Sourcingと呼ばれ、グローバルに分散した他のBrand portalユーザとアセットを共有し、貢献度を高める双方向のメカニズムをユーザに提供することで、顧客体験を向上させます。
+Brand Portal 6.4.5 は機能リリースで、オーサー環境にアクセスしなくても Brand Portal ユーザー（外部の代理店／チーム）が Brand Portal にコンテンツをアップロードして AEM Assets に公開できるようにしたものです。This feature is called **[Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md)**, and will improve customer experiences by providing a two-way mechanism for users to both contribute and share assets with other globally distributed Brand Portal users.
 
-### ブランドポータルでのアセットソーシング {#asset-sourcing-in-bp}
+### Brand Portal でのアセットソーシング {#asset-sourcing-in-bp}
 
-アセットソーシングを使用すると、AEMユーザー（管理者/非管理者ユーザー）は追加のアセット貢献度プロパティを使用して新しいフォルダーを作成でき、新しく作成したフォルダーは、Brand Portalユーザーがアセット送信を開くことができます。 **** これにより、新しく作成された貢献度フォルダー内にNEWとSHAREDという2つの追加のサブフォルダーを作成するワークフローが自動的にトリガ **ーされ** ます。
+Asset Sourcing allows AEM users (administrators/non-admin users) to create new folders with an additional **Asset Contribution** property, ensuring the new folder created open to asset submission by Brand Portal users. これにより、新しく作成された&#x200B;**投稿**&#x200B;フォルダー内に NEW および SHARED という 2 つのサブフォルダーを追加作成するワークフローが自動的にトリガーされます。
 
-次に、AEMユーザーは、貢献度フォルダーに追加する必要があるアセットのタイプに関する簡単な説明を [SHARED](brand-portal-configure-contribution-folder-properties.md)[](brand-portal-upload-baseline-assets.md)**** (共有)フォルダーにアップロードし、BPユーザーが必要な参照情報を確実に取得できるようにして、要件を定義します。 管理者は、新しく作成した貢献度フォルダーをBrand portalに公開する前に、アクティブなBrand portalユーザーに貢献度フォルダーへのアク **セス権を** 付与できます。
+The AEM user then defines the requirement by [uploading a brief](brand-portal-configure-contribution-folder-properties.md) about the types of assets that should be added to the contribution folder, as well as [uploading baseline assets](brand-portal-upload-baseline-assets.md), to the **SHARED** folder to ensure BP users have the reference information they need. その後、管理者は、アクティブな Brand Portal ユーザーに投稿フォルダーへのアクセスを許可してから、新しく作成した&#x200B;**投稿**&#x200B;フォルダーを Brand Portal に公開することができます。
 
 
-ユーザーは、 **NEW** （新規）フォルダーにコンテンツを追加し終えると、貢献度フォルダーをAEMオーサー環境に再度公開できます。 読み込みが完了し、AEM Assets内に新しく公開されたコンテンツが反映されるまでに数分かかる場合があります。
+**NEW** フォルダーへのコンテンツの追加を完了したら、ユーザーは、投稿フォルダーを AEM オーサー環境に公開できます。なお、読み込みが完了し、新しく公開したコンテンツが AEM Assets 内に反映されるまでに数分かかる場合があります。
 
-また、既存の機能はすべて変更されません。 Brand portalユーザーは、貢献度フォルダーおよび他の許可されたフォルダーから、アセットを表示、検索およびダウンロードできます。 また、管理者は貢献度フォルダーの共有、プロパティの変更、コレクションへのアセットの追加を行うこともできます。 最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
+また、既存の機能はすべてそのままで変わりません。Brand Portal ユーザーは、投稿フォルダーおよび許可された他のフォルダーからアセットを表示、検索およびダウンロードできます。さらに、管理者は投稿フォルダーの共有、プロパティの変更、コレクションへのアセットの追加をおこなうことができます。最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
 
 >[!NOTE]
 
@@ -44,16 +44,16 @@ Brand Portal 6.4.5は、Brand portalユーザ（外部のエージェンシー/�
 
 ### アセットを貢献度フォルダーにアップロード {#upload-assets-in-bp}
 
-適切な権限を持つBrand portalユーザーは、アセット要件をダウンロ [](brand-portal-download-asset-requirements.md) ードして貢献度の必要性を理解し、複数のアセットを含む複数のアセットまたはフォルダーを貢献度フォルダーにアップロードできます。 ただし、Brand portalユーザーは、 **NEWサブフォルダーにのみアセットをアップロードできます** 。 SHAREDフォ **ルダーは** 、要件とベースラインアセットを配布するためのフォルダーです。 詳しくは、アセットを貢 [献度フォルダーにアップロードするを参照してください](brand-portal-upload-assets-to-contribution-folder.md)
+適切な権限を持つBrand portalユーザーは、アセット要件をダウンロ [](brand-portal-download-asset-requirements.md) ードして貢献度の必要性を理解し、複数のアセットを含む複数のアセットまたはフォルダーを貢献度フォルダーにアップロードできます。 ただし、Brand Portal ユーザーは **NEW** サブフォルダーにのみアセットをアップロードできます。The **SHARED** folder is meant for the distribution of requirements and baseline assets. 詳しくは、アセットを貢 [献度フォルダーにアップロードするを参照してください](brand-portal-upload-assets-to-contribution-folder.md)
 
 ![](assets/upload-asset6.png)
 
 ![](assets/upload-asset4.png)
 
 
-### 貢献度フォルダーをAEMアセットに発行 {#publish-assets-to-aem}
+### AEM Assets への投稿フォルダーの公開 {#publish-assets-to-aem}
 
-NEWフォルダーへのアップロードが完了す **ると** 、Brand portalユーザーは貢献度フォルダーをAEMに再度公開できます。 AEM Assetsで公開済みのコンテンツやアセットを読み込んで反映するのに数分かかる場合があります。 AEM Assetsへの貢献 [度フォルダーの発行を参照してください。](brand-portal-publish-contribution-folder-to-aem-assets.md)
+**NEW** フォルダーへのアップロードが完了したら、Brand Portal ユーザーは投稿フォルダーを AEM に公開できます。読み込みが完了し公開したコンテンツ／アセットが AEM Assets に反映されるまでに数分かかる場合があります。See, [Publish contribution folder to AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
 
 
 ![](assets/upload-asset5.png)
@@ -128,10 +128,10 @@ Brand Portal 6.4.3 リリースでは、様々な機能が強化されていま�
 
 ### 特定のフォルダー階層またはパス内での検索
 
-検索フォームに&#x200B;**パスブラウザー**&#x200B;の述語が導入され、特定のディレクトリ内でアセットを検索できるようになりました。パスブラウザーの検索用述語のデフォルトの検索パスは */content/dam/mac/&lt;tenant-id&gt;/* です。これはデフォルトの検索フォームを編集することで設定できます。
+検索フォームに&#x200B;**パスブラウザー**&#x200B;の述語が導入され、特定のディレクトリ内でアセットを検索できるようになりました。The default search path of search predicate for Path Browser is `/content/dam/mac/<tenant-id>/`, which can be configured by editing the default search form.
 
 * 管理者は、パスブラウザーを使用して、Brand Portal 上の任意のフォルダーディレクトリへ移動できます。
-* 管理者以外のユーザーは、パスブラウザーを使用して、自身に共有されているフォルダーへのみ移動できます（さらに、その親フォルダーへと階層をさかのぼることができます）。例えば、*/content/dam/mac/&lt;tenant-id&gt;/folderA/folderB/folderC* が管理者以外のユーザーと共有されているとします。このユーザーは、パスブラウザーを使用して、folderC 内のアセットを検索できます。このユーザーは、folderB や folderA に移動することもできます（ユーザーと共有されている folderC の上位層だからです）。
+* 管理者以外のユーザーは、パスブラウザーを使用して、自身に共有されているフォルダーへのみ移動できます（さらに、その親フォルダーへと階層をさかのぼることができます）。For example, `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` is shared with a non-admin user. このユーザーは、パスブラウザーを使用して、folderC 内のアセットを検索できます。このユーザーは、folderB や folderA に移動することもできます（ユーザーと共有されている folderC の上位層だからです）。
 
 ![](assets/edit-search-form.png)
 
@@ -285,14 +285,14 @@ Brand Portal には、選択したアセット／フォルダーのアセット�
 ![](assets/general-configs-1.png)
 ![](assets/admin-tools-panel-13.png)
 
-### Adobe.io は OoAuth 統合を設定するための UI をホストする
+### Adobe.io は OAuth 統合を設定するための UI をホストする
 
 Brand Portal 6.4.2 onwards uses Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) interface to create JWT application, which enables configuring oAuth integrations to allow AEM Assets integration with Brand Portal. OAuth 統合を設定するための UI は以前、[/](https://marketing.adobe.com/developer/)https://marketing.adobe.com/developer/ でホストされていました。To know more about integrating AEM Assets with Brand Portal for publishing assets and collections to Brand Portal refer [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/in/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html).
 
 ## 検索の機能強化
 
 プロパティの述語で大文字と小文字を区別しないように設定できます。それには、更新されたプロパティの述語にある「大文字と小文字を区別しない」をオンにします。このオプションは、プロパティの述語と複数値プロパティの述語で使用できます。\
-ただし、大文字と小文字を区別しない検索では、プロパティの述語のデフォルト検索よりも時間がかかります。検索フィルターに大文字と小文字を区別しない述語が多数ある場合は、検索に時間がかかることがあります。そのため、大文字と小文字を区別しない検索は、賢く使用することをお勧めします。
+ただし、大文字と小文字を区別しない検索では、プロパティの述語のデフォルト検索よりも時間がかかります。検索フィルターに大文字と小文字を区別しない述語が多数ある場合は、検索に時間がかかることがあります。そのため、大文字と小文字を区別しない検索は、慎重に使用することをお勧めします。
 
 ## 6.4.1 の変更点 {#what-changed-in-2}
 
@@ -357,11 +357,13 @@ Brand Portal 6.4.1 はプラットフォームのアップグレードリリー�
 
 **リンク共有レポートの追加**
 
+
 共有リンクの情報を提供する新しいレポートが追加されました。リンク共有レポートには、指定期間内に組織全体にわたって内部および外部のユーザーと共有されるすべてのアセットへの URL が示されます。さらに、リンクがいつ共有されたか、誰と共有されたか、いつ期限が切れるかという情報も示されます。
 
 ![](assets/navigatereport.png)
 
 **使用状況レポートへのアクセスエントリポイントの変更**
+
 
 使用状況レポートは他のレポートと統合され、アセットレポートコンソールから表示できるようになりました。アセットレポートコンソールにアクセスするには、管理ツールパネルから「**レポートを作成 / 管理**」を選択します。
 
@@ -390,7 +392,7 @@ Brand Portal 6.3.2 は、顧客からの強い要望に応える新機能や拡�
 
 ### Brand Portal へのアクセス権の申請 {#request-access-to-brand-portal}
 
-ユーザーは、Brand Portal のログイン画面に「アクセスが必要ですか？」と表示される新機能を使用して、Brand Portal へのアクセスを申請できるようになりました。
+Users can now request access to Brand Portal using the new **need access** capability available on the login screen of Brand Portal.
 
 ![](assets/bplogin_request_access.png)
 
