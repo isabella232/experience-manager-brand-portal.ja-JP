@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
-translation-type: ht
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+translation-type: tm+mt
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
@@ -88,15 +88,17 @@ AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係�
    >[!NOTE]
    >
    >ダウンロードするアセットに、ライセンスが必要なアセットが含まれている場合は、**[!UICONTROL 著作権管理]**&#x200B;ページにリダイレクトされます。このページで、ライセンスが必要なアセットを選択し、「**[!UICONTROL 同意する]**」をクリックした後、「**[!UICONTROL ダウンロード]**」をクリックします。「同意しない」を選択した場合は、ライセンスが不要なアセットのみがダウンロードされます。\
-   >ライセンスで保護されているアセットには、[使用許諾契約が添付](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)されています。この処理は、[!DNL AEM Assets] でアセットの[メタデータプロパティ](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)を設定することでおこなわれます。
+   >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in [!DNL AEM Assets].
 
    ![](assets/licensed-asset-download.png)
 
-   [!UICONTROL ダウンロード]ダイアログボックスが開きます。<br />
+   **[!UICONTROL ダウンロード]ダイアログボックスが開きます。**
+
    ![](assets/download-linkshare.png)
 
-   * リンクとして共有されたアセットファイルのダウンロードをスピードアップさせるには、「**[!UICONTROL ダウンロードアクセラレーションを有効化]**」オプションを選択し、[ウィザードに従います](../using/accelerated-download.md#download-workflow-using-file-accelerator)。Brand Portal でのアセットの高速ダウンロードについて詳しくは、[Brand Portal からのダウンロードを高速化するためのガイド](../using/accelerated-download.md)を参照してください。[!UICONTROL
-1. 共有リンクのアセットに加えて、アセットのレンディションもダウンロードするには、「**[!UICONTROL レンディション]**」オプションを選択します。すると、「**システムレンディションを除く**」オプションが表示されます（このオプションはデフォルトで選択されています）。これによって、承認済みのアセットレンディションやカスタムレンディションとともに、既製のレンディションがダウンロードされるのを防ぎます。
+   * リンクとして共有されたアセットファイルのダウンロードをスピードアップさせるには、「**[!UICONTROL ダウンロードアクセラレーションを有効化]**」オプションを選択し、[ウィザードに従います](../using/accelerated-download.md#download-workflow-using-file-accelerator)。Brand Portal でのアセットの高速ダウンロードについて詳しくは、[Brand Portal からのダウンロードを高速化するためのガイド](../using/accelerated-download.md)を参照してください。
+
+1. 共有リンクのアセットに加えて、アセットのレンディションもダウンロードするには、「**[!UICONTROL レンディション]**」オプションを選択します。すると、「**[!UICONTROL システムレンディションを除く]」オプションが表示されます（このオプションはデフォルトで選択されています）。**&#x200B;これによって、承認済みのアセットレンディションやカスタムレンディションとともに、既製のレンディションがダウンロードされるのを防ぎます。
 
    ただし、カスタムレンディションと共に自動生成レンディションをダウンロードすることを許可する場合は、「**[!UICONTROL システムレンディションを除く]**」オプションの選択を解除します。
 
@@ -180,9 +182,9 @@ AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係�
 | 記号 | 意味 |
 |---|---|
 | ✓ | この機能はサポートされています。 |
-| ✕ | この機能はサポートされていません。 |
-| 該当なし | この機能は適用されません。 |
-| * | この機能を AEM オーサーインスタンスで使用するには、このファイル形式用のアドオンサポートが必要です。ただし、アセットが Brand Portal に公開された後、Brand Portal で使用する際には不要です。 |
+| ✕ | この機能はサポートされていません |
+| 該当なし | この機能は適用されません |
+| * | この機能を AEM オーサーインスタンスで使用するには、このファイル形式用のアドオンサポートが必要です。ただし、アセットが Brand Portal に公開された後、Brand Portal で使用する際には不要です |
 
 ## リンクとして共有されているアセットの共有解除 {#unshare-assets-shared-as-a-link}
 
