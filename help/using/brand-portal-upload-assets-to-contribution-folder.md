@@ -9,21 +9,21 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f6437146bafbedf85a34fbc92ee15fd5e247da0c
+source-git-commit: 3072a3a9343b64f4121262c1a3ee8a5ba439e31a
 
 ---
 
 
-# 新しいアセットを貢献度フォルダーにアップロード {#uplad-new-assets-to-contribution-folder}
+# アセットを貢献度フォルダーにアップロード {#uplad-new-assets-to-contribution-folder}
 
 Brand portalユーザーは、アセ [ット要件](brand-portal-download-asset-requirements.md) — 貢献度フォルダーに添付された簡単なドキュメントをダウンロードし、貢献度の必要性を理解するために **SHARED** （共有）フォルダーからベースラインアセットをダウンロードします。
 Brand portalユーザーは、貢献度用の新しいアセットを作成し、貢献度フォルダー内の **NEW** フォルダーにアップロードできます。
 
 >[!NOTE]
 >
->Brand portalユーザーは、コンテンツやアセットを新規フォルダーにのみアップロード **できます** 。 アップロードされたアセットを削除する権限がありません。
+>Brand Portal ユーザーは、コンテンツ／アセットを **NEW** フォルダーにのみアップロードできます。アップロードされたアセットを削除する権限がありません。
 >
->Brand portalアカウント/テナントの最大アップロード数は **10** GBです。
+>Brand Portal アカウント／テナントのアップロード上限は **10** GB です。
 
 
 **新しいアセットをアップロードするには：**
@@ -38,4 +38,4 @@ Brand portalダッシュボードは、Brand portalユーザーに許可され�
 1. 新しいアセット（ファイル/フォルダ）を参照し、 **[!UICONTROL NEWフォルダにアップロードします]** 。
    ![](assets/upload-new-assets3.png)
 
-アップロードが完了すると、Brand portalユーザーは貢献度フォルダーをAEM Assetsに再度公開できます。 AEM Assetsへの貢 [献度フォルダーの発行を参照してください](brand-portal-publish-contribution-folder-to-aem-assets.md)。
+アップロードが完了すると、Brand portalユーザーは貢献度フォルダーをAEM Assetsに再度公開できます。 See, [Publish contribution folder to AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
