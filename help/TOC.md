@@ -4,7 +4,7 @@ product: adobe experience manager
 sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Assets Brand Portal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d332aa82b0beba1e01c7bb0c8a6055145e1e0270
 
 ---
@@ -19,31 +19,31 @@ source-git-commit: d332aa82b0beba1e01c7bb0c8a6055145e1e0270
    + [リリースノート](using/brand-portal-release-notes.md)
    + [サポートされているファイル形式](using/brand-portal-supported-formats.md)
    + [Brand Portal へのゲストによるアクセス](using/guest-access.md)
-   + [AEM Assetsでのブランドポータルについて](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+   + [AEM Assets と Brand Portal について](https://helpx.adobe.com/jp/experience-manager/kt/assets/using/brand-portal-article-understand.html)
    + [Brand Portal でのアセットの参照](using/browse-assets-brand-portal.md)
 + AEM Assets から Brand Portal への公開 {#publish}
-   + [AEM Assets と Brand Portal の統合の設定](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
-   + [Brand Portal へのコレクションの公開](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
-   + [Brand Portal へのフォルダーの公開](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+   + [AEM Assets と Brand Portal の統合の設定](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+   + [Brand Portal へのコレクションの公開](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+   + [Brand Portal へのフォルダーの公開](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
    + [Brand Portal への並列公開における問題のトラブルシューティング](using/troubleshoot-parallel-publishing.md)
    + [Brand Portal へのタグの公開](using/brand-portal-publish-tags.md)
    + [Brand Portal へのプリセット、スキーマ、ファセットの公開](using/publish-schema-search-facets-presets.md)
-+ ブランドポータルでのアセットソーシング {#asset-sourcing-in-brand-portal}
++ Brand Portal でのアセットソーシング {#asset-sourcing-in-brand-portal}
    + [概要](using/brand-portal-asset-sourcing.md)
-   + AEMでのアセットソーシングの設定 {#configure-asset-sourcing-in-aem}
+   + AEM でのアセットソーシングの設定 {#configure-asset-sourcing-in-aem}
       + [アセットソーシングの有効化](using/brand-portal-enable-asset-sourcing.md)
-      + [ブランドポータルユーザリストのアップロード](using/brand-portal-upload-user-list.md)
-   + AEM Assetsでの貢献度フォルダーの設定 {#configure-contribution-folder}
+      + [Brand Portal ユーザーリストのアップロード](using/brand-portal-upload-user-list.md)
+   + AEM Assets でのコントリビューションフォルダーの設定 {#configure-contribution-folder}
       + [概要](using/brand-portal-contribution-folder.md)
-      + [貢献度フォルダーの作成](using/brand-portal-create-contribution-folder.md)
-      + [貢献度フォルダーのプロパティの設定](using/brand-portal-configure-contribution-folder-properties.md)
+      + [コントリビューションフォルダーの作成](using/brand-portal-create-contribution-folder.md)
+      + [コントリビューションフォルダーのプロパティの設定](using/brand-portal-configure-contribution-folder-properties.md)
       + [ベースラインアセットのアップロード](using/brand-portal-upload-baseline-assets.md)
-      + [Brand portalへの貢献度フォルダーの公開](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + ブランドポータルでのアセットソーシングの使用 {#using-asset-sourcing}
+      + [Brand Portal へのコントリビューションフォルダーの公開](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + Brand Portal でのアセットソーシングの使用 {#using-asset-sourcing}
       + [概要](using/brand-portal-overiew-using-asset-sourcing.md)
       + [アセット要件のダウンロード](using/brand-portal-download-asset-requirements.md)
-      + [アセットを貢献度フォルダーにアップロード](using/brand-portal-upload-assets-to-contribution-folder.md)
-      + [貢献度フォルダーをAEMアセットに発行](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+      + [コントリビューションフォルダーへのアセットのアップロード](using/brand-portal-upload-assets-to-contribution-folder.md)
+      + [AEM Assets へのコントリビューションフォルダーの公開](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + ユーザーとのアセットの共有 {#share}
    + [コレクションの共有](using/brand-portal-share-collection.md)
    + [フォルダーの共有](using/brand-portal-sharing-folders.md)
