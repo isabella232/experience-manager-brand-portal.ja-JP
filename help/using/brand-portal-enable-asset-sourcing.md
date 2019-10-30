@@ -1,14 +1,14 @@
 ---
 title: アセットソーシングの有効化
 seo-title: アセットソーシングの有効化
-description: アセットソーシング機能フラグの有効化に関する洞察を得ます。
-seo-description: アセットソーシング機能フラグの有効化に関する洞察を得ます。
+description: アセットソーシング機能フラグの有効化について説明します。
+seo-description: アセットソーシング機能フラグの有効化について説明します。
 uuid: null
 content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a9378f7929915bdb124de74ff5adf4b13d6fbcf
 
 ---
@@ -16,17 +16,17 @@ source-git-commit: 5a9378f7929915bdb124de74ff5adf4b13d6fbcf
 
 # アセットソーシングの有効化 {#enable-asset-sourcing}
 
-AEM管理者は、AEM Web Console Configuration（Configuration Managerなど）内でアセットソーシングを有効にできます。
+AEM 管理者は、AEM Web コンソール設定（Configuration Manager）内からアセットソーシングを有効にできます。
 
 **前提条件：**
 
-AEM AssetsインスタンスがBrand portalに統合されていることを確認します。 See, [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+AEM Assets インスタンスが Brand Portal と統合されていることを確認します。[AEM Assets と Brand Portal の統合の設定](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)を参照してください。
 
-**資産ソーシングを有効にする手順は、次のとおりです。**
-1. AEM作成者インスタンスにログインし、Configuration ManagerのデフォルトURLを開きます。http:// localhost:4502/system/console/configMgr
-1. キーワード「Asset Sourcing」を使用し **て** 、「Asset Sourcing **[!UICONTROL 」機能フラグ設定を検索します。]**
-1. 「資産ソーシ **[!UICONTROL ング機能フラグ設定」をクリックし]** 、設定ウィンドウを開きます。
-1. チェックボ **[!UICONTROL ックスfeature.flag.active.statusを有効にします。]**
-1. Click **[!UICONTROL Save]**.
+**アセットソーシングを有効にするには：**
+1. AEM オーサーインスタンスにログインして、Configuration Manager（デフォルト URL：http:// localhost:4502/system/console/configMgr）を開きます。
+1. キーワード「**Asset Sourcing**」を使用して検索し、**[!UICONTROL Asset Sourcing Feature Flag Config]** を探します。
+1. 「**[!UICONTROL Asset Sourcing Feature Flag Config]**」をクリックして、設定ウィンドウを開きます。
+1. 「**[!UICONTROL feature.flag.active.status]**」チェックボックスを有効にします。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ![](assets/enable-asset-sourcing.png)
