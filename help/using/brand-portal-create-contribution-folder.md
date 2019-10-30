@@ -1,33 +1,32 @@
 ---
-title: 貢献度フォルダーの作成
-seo-title: 貢献度フォルダーの作成
-description: 'AEM Assetsで貢献度フォルダーを作成する方法に関する詳細を把握できます。 '
-seo-description: AEM Assetsで貢献度フォルダーを作成する方法に関する詳細を把握できます。
+title: コントリビューションフォルダーの作成
+seo-title: コントリビューションフォルダーの作成
+description: 'AEM Assets でコントリビューションフォルダーを作成する方法を説明します。 '
+seo-description: AEM Assets でコントリビューションフォルダーを作成する方法を説明します。
 uuid: null
 content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 
 ---
 
 
-# Create contribution folder {#create-contribution-folder}
+# コントリビューションフォルダーの作成 {#create-contribution-folder}
 
-AEMユーザー（管理者/非管理者ユーザー）は、追加の **Asset Contribution** （アセット貢献度）プロパティを使用してAEM Assetsに新しいフォルダーを作成でき、新しく作成したフォルダーをBrand portalユーザーがアセット送信用に開くことができます。  これにより、新しく作成された貢献度フォルダー内に **SHARED** と **NEW**（共有）という2つの追加のサブフォルダーを作成するワークフローが自動的にトリガ **ーされます** 。
+追加の&#x200B;**アセットコントリビューション**&#x200B;プロパティを持つ新しいフォルダーを AEM ユーザー（管理者／管理者以外のユーザー）が作成できるので、この新規作成フォルダーを Brand Portal ユーザーによるアセット送信に利用することができます。これにより、新しく作成された&#x200B;**コントリビューション**&#x200B;フォルダー内に **SHARED** および **NEW** という 2 つのサブフォルダーを追加作成するワークフローが自動的にトリガーされます。
 
-**新しい貢献度フォルダーを作成するには：**
-1. AEM作成者インスタンスにログインします。デフォルトURL:http:// localhost:4502/aem/start.html
-1. アセット/フ **[!UICONTROL ァイルに移動し]**&#x200B;ます。AEM Assetsリポジトリ内の既存のフォルダーがすべて表示されます。
-1. Click **[!UICONTROL Create]** to create a new folder. フォルダの作成ポップアップウィンドウが開きます。
-1. フォルダ **[!UICONTROL ーのタイ]** トルと名前を入力し **[!UICONTROL 、「アセット貢献度」チェックボックス]** を選択します ****。
-フォルダーに名前を付ける際は、スペースを入れない小さなアルファベットを使用することをお勧めします。
-1. Click **[!UICONTROL Create]**.
+**新しいコントリビューションフォルダーを作成するには：**
+1. AEM オーサーインスタンス（デフォルト URL：http:// localhost:4502/aem/start.html）にログインします。
+1. **[!UICONTROL アセット／ファイル]**&#x200B;に移動します。AEM Assets リポジトリの既存のすべてのフォルダーがリストされます。
+1. 「**[!UICONTROL 作成]**」をクリックして、新規フォルダーを作成します。フォルダーを作成ポップアップウィンドウが開きます。
+1. フォルダーの「**[!UICONTROL タイトル]**」および「**[!UICONTROL 名前]**」を入力し、「**[!UICONTROL アセットコントリビューション]**」チェックボックスをオンにします。フォルダーの名前には、スペースを含まない小文字のアルファベットを使用することをお勧めします。
+1. 「**[!UICONTROL 作成]**」をクリックします。
    ![](assets/create-contribution-folder.png)
-1. 新しく作成された貢献度フォルダーは、AEM Assetsリポジトリに一覧表示されます。
-1. クリックして貢献度フォルダーを開くと、2つのサブフォルダー(**[!UICONTROL SHARED]** と **[!UICONTROL NEW]** )が貢献度フォルダー内に自動的に作成されます。\
+1. AEM Assets リポジトリに、新しく作成したコントリビューションフォルダーがリストされます。
+1. クリックしてコントリビューションフォルダーを開くと、コントリビューションフォルダー内に **[!UICONTROL SHARED]** と **[!UICONTROL NEW]** の 2 つのサブフォルダーが自動的に作成されているのがわかります。\
    ![](assets/contribution-folder.png)
 
-これで、新しく作成した貢献度フォルダーのプロパティを設定できます。 貢献度フォルダー [のプロパティの設定を参照してくださ](brand-portal-configure-contribution-folder-properties.md)い。
+これで、新しく作成したコントリビューションフォルダーのプロパティを設定できます。[コントリビューションフォルダーのプロパティの設定](brand-portal-configure-contribution-folder-properties.md)を参照してください。
