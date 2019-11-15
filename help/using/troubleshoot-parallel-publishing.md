@@ -8,7 +8,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
@@ -16,13 +16,13 @@ source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 # Brand Portal への並列公開における問題のトラブルシューティング {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal は AEM Assets との統合をサポートしており、承認済みブランドアセットを AEM Assets オーサーインスタンスからシームレスに取り込む（または公開する）ことができます。Once [integrated](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html), AEM Author uses a replication agent to replicate the selected asset(s) to Brand Portal cloud service for approved usage by Brand Portal users. AEM 6.2 SP1-CFP5、AEM CFP 6.3.0.2 およびそれ以降では、高速な並列公開を実現するために複数のレプリケーションエージェントが使用されています。
+Brand Portal は AEM Assets との統合をサポートしており、承認済みブランドアセットを AEM Assets オーサーインスタンスからシームレスに取り込む（または公開する）ことができます。[統合](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)された AEM オーサーインスタンスは、レプリケーションエージェントを使用して、選択されているアセットを Brand Portal クラウドサービスにレプリケートし、Brand Portal ユーザーが使用できる状態にします。AEM 6.2 SP1-CFP5、AEM CFP 6.3.0.2 およびそれ以降では、高速な並列公開を実現するために複数のレプリケーションエージェントが使用されています。
 
 >[!NOTE]
 >
 >AEM Assets Brand Portal と AEM Assets を適切に連携させるには、AEM 6.4.1.0 にアップグレードすることを推奨します。AEM 6.4 では、Brand Portal との連携を設定する際にエラーが発生し、レプリケーションが失敗します。
 
-On configuring cloud service for brand portal under **[!UICONTROL /etc/cloudservice]**, all necessary users and token are auto-generated and saved in the repository. クラウドサービスの設定が作成され、レプリケーションに必要なサービスユーザーと、コンテンツをレプリケートするためのレプリケーションエージェントも作成されます。これによって 4 つのレプリケーションエージェントが作成されます。したがって、多数のアセットを AEM から Brand Portal に公開するときは、アセットがキューを形成し、これらのレプリケーションエージェント間でラウンドロビンを通じて配分されます。
+**[!UICONTROL /etc/cloudservice]下にブランドポータルのクラウドサービスを設定すると、必要なユーザーとトークンがすべて自動生成され、リポジトリに保存されます。**&#x200B;クラウドサービスの設定が作成され、レプリケーションに必要なサービスユーザーと、コンテンツをレプリケートするためのレプリケーションエージェントも作成されます。これによって 4 つのレプリケーションエージェントが作成されます。したがって、多数のアセットを AEM から Brand Portal に公開するときは、アセットがキューを形成し、これらのレプリケーションエージェント間でラウンドロビンを通じて配分されます。
 
 ただし、大きな Sling ジョブや、AEM オーサーインスタンス上のネットワークおよび&#x200B;**[!UICONTROL ディスク I/O]の増加や AEM オーサーインスタンスのパフォーマンス低下などの理由で、公開が断続的に失敗することがあります。**&#x200B;そのため、公開を開始する前に、レプリケーションエージェントとの接続テストをおこなうことをお勧めします。
 
@@ -60,19 +60,21 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ### 既存の Brand Portal 公開設定のクリーンアップ {#clean-up-existing-config}
 
-Most of the times when publishing is not working, the reason can be that the user who is publishing (for example: `mac-<tenantid>-replication` doesn't have the latest private key, and hence publish fails with "401 unauthorized" error and no other error is reported in replication agent logs. その場合は、トラブルシューティングをおこなうのではなく、新しい設定を作成することをお勧めします。新しい設定を正しく機能させるには、AEM オーサーインスタンスのセットアップから以下をクリーンアップします。
+公開がうまくいかない場合によくある原因は、公開を実行するユーザー（例：`mac-<tenantid>-replication`）が最新の秘密鍵を持っていないことです。そのため、公開が「401 Unauthorized」エラーで失敗し、レプリケーションエージェントログに他のエラーは記録されません。その場合は、トラブルシューティングをおこなうのではなく、新しい設定を作成することをお勧めします。新しい設定を正しく機能させるには、AEM オーサーインスタンスのセットアップから以下をクリーンアップします。
 
-1. Go to `localhost:4502/crx/de/` (considering you are running author instance on localhost:4502:\
-   i.iiを削 `/etc/replication/agents.author/mp_replication`除します。 削除 `/etc/cloudservices/mediaportal/<config_name>`
+1. `localhost:4502/crx/de/` に移動します（localhost:4502 でオーサーインスタンスを実行していると仮定）。\
+   i. `/etc/replication/agents.author/mp_replication` を削除します。
+ii.`/etc/cloudservices/mediaportal/<config_name>` を削除します。
 
-1. localhost:4502/useradminに移動します。\
-   i.ユーザーiiを検索 `mac-<tenantid>replication`します。 このユーザーを削除
+1. localhost:4502/useradmin に移動します。\
+   i. ユーザー `mac-<tenantid>replication` を検索します。
+ii.このユーザーを削除します。
 
-これによってシステム全体がクリーンアップされます。これで新しいクラウドサービス設定の作成を試せるようになります。あるいは、[/](https://legacy-oauth.cloud.adobe.io/)https://legacy-oauth.cloud.adobe.io/ 内の既存の JWT アプリケーションを引き続き使用することもできます。新しいアプリケーションを作成する必要はなく、新しく作成したクラウド設定から公開鍵を更新するだけで構いません。
+これによってシステム全体がクリーンアップされます。これで新しい  クラウドサービス設定の作成を試せるようになります。あるいは、[https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) 内の既存の JWT アプリケーションを引き続き使用することもできます。新しいアプリケーションを作成する必要はなく、新しく作成したクラウド設定から公開鍵を更新するだけで構いません。
 
 ## Developer Connection の JWT アプリケーションテナントの可視性の問題 {#developer-connection-jwt-application-tenant-visibility-issue}
 
-If on [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/), all the  orgs  (tenants) for which the current users hold system administrator are listed. ここに組織名が表示されない場合や、必要なテナントのアプリケーションを作成できない場合は、そのための十分な（システム管理者の）権限を持っているかを確認してください。
+[https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) 上であれば、現在のユーザーがシステム管理者を抱えているすべての組織（テナント）が一覧表示されます。ここに組織名が表示されない場合や、必要なテナントのアプリケーションを作成できない場合は、そのための十分な（システム管理者の）権限を持っているかを確認してください。
 
 このユーザーインターフェイスには、既知の問題が 1 つあります。つまり、どのテナントでも上位 10 件のアプリケーションしか表示されないことです。アプリケーションを作成したら、そのページにとどまり、URL をブックマークしてください。アプリケーションの一覧ページに移動して、自分が作成したアプリケーションを探す必要はありません。ブックマークした URL に直接アクセスして、いつでも必要なときにアプリケーションを更新または削除できます。
 
