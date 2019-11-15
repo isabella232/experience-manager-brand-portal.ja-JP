@@ -1,41 +1,39 @@
 ---
-title: 新しいアセットを貢献度フォルダーにアップロード
-seo-title: 新しいアセットを貢献度フォルダーにアップロード
-description: Brand portalの貢献度フォルダーに新しいアセットをアップロードする際のインサイトを得ます。
-seo-description: Brand portalの貢献度フォルダーに新しいアセットをアップロードする際のインサイトを得ます。
+title: コントリビューションフォルダーへの新しいアセットのアップロード
+seo-title: コントリビューションフォルダーへの新しいアセットのアップロード
+description: Brand Portal でのコントリビューションフォルダーへの新しいアセットのアップロードについて説明します。
+seo-description: Brand Portal でのコントリビューションフォルダーへの新しいアセットのアップロードについて説明します。
 uuid: null
 content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3072a3a9343b64f4121262c1a3ee8a5ba439e31a
 
 ---
 
 
-# アセットを貢献度フォルダーにアップロード {#uplad-new-assets-to-contribution-folder}
+# コントリビューションフォルダーへのアセットのアップロード {#uplad-new-assets-to-contribution-folder}
 
-Brand portalユーザーは、アセ [ット要件](brand-portal-download-asset-requirements.md) — 貢献度フォルダーに添付された簡単なドキュメントをダウンロードし、貢献度の必要性を理解するために **SHARED** （共有）フォルダーからベースラインアセットをダウンロードします。
-Brand portalユーザーは、貢献度用の新しいアセットを作成し、貢献度フォルダー内の **NEW** フォルダーにアップロードできます。
+Brand Portal ユーザーは、[アセット要件（コントリビューションフォルダーに添付された概要ドキュメント）をダウンロード](brand-portal-download-asset-requirements.md)し、**SHARED** フォルダーからベースラインアセットをダウンロードして、コントリビューションのニーズを理解します。Brand Portal ユーザーは、コントリビューション用の新しいアセットを作成して、コントリビューションフォルダー内の **NEW** フォルダーにアップロードできます。
 
 >[!NOTE]
 >
->Brand Portal ユーザーは、コンテンツ／アセットを **NEW** フォルダーにのみアップロードできます。アップロードされたアセットを削除する権限がありません。
+>Brand Portal ユーザーは、コンテンツ／アセットを **NEW** フォルダーにのみアップロードできます。アップロードしたアセットを削除する権限はありません。
 >
 >Brand Portal アカウント／テナントのアップロード上限は **10** GB です。
 
 
 **新しいアセットをアップロードするには：**
 
-1. ブランドポータルインスタンスにログインします。
-Brand portalダッシュボードは、Brand portalユーザーに許可された既存のフォルダーを、新しく共有した貢献度フォルダーと共にすべて反映します。
-1. クリックして貢献度フォルダーを開くと、貢献度フォルダー内に2つのサブ&#x200B;**[!UICONTROL フォルダー(]** SHARED **[!UICONTROL 、]** NEW)が表示されます。
-1. 「 **[!UICONTROL NEW]** folder」をクリックします。
+1. Brand Portal インスタンスにログインします。新しく共有されたコントリビューションフォルダーと共に、Brand Portal ユーザーに対して許可された既存のすべてのフォルダーが Brand Portal ダッシュボードに反映されます。
+1. クリックしてコントリビューションフォルダーを開くと、コントリビューションフォルダー内に **[!UICONTROL SHARED]** と **[!UICONTROL NEW]** の 2 つのサブフォルダーが表示されます。
+1. **[!UICONTROL NEW]** フォルダーをクリックします。
    ![](assets/upload-new-assets1.png)
-1. 作成/フ **[!UICONTROL ァイルをクリックして]**![](assets/upload.png) 、複数のアセットを含む個々のファイルまたはフォルダー(.zip)をアップロードします。
+1. **[!UICONTROL 作成／ファイル]**（![](assets/upload.png)）をクリックして、複数のアセットを含む個別のファイルまたはフォルダー（.zip）をアップロードします。
    ![](assets/upload-new-assets2.png)
-1. 新しいアセット（ファイル/フォルダ）を参照し、 **[!UICONTROL NEWフォルダにアップロードします]** 。
+1. **[!UICONTROL NEW]** フォルダーの新しいアセット（ファイル／フォルダー）を参照およびアップロードします。
    ![](assets/upload-new-assets3.png)
 
-アップロードが完了すると、Brand portalユーザーは貢献度フォルダーをAEM Assetsに再度公開できます。 See, [Publish contribution folder to AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+アップロードが完了したら、Brand Portal ユーザーは、コントリビューションフォルダーを AEM Assets に公開し直すことができます。[AEM Assets へのコントリビューションフォルダーの公開](brand-portal-publish-contribution-folder-to-aem-assets.md)を参照してください。
