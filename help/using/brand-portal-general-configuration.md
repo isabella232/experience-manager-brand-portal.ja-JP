@@ -9,7 +9,7 @@ topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ff0c8c23b6c76dc9027b560b9db4af2f4b35313e
 
 ---
@@ -39,7 +39,7 @@ AEM Assets Brand Portal では、各組織が特定のテナントについて�
 
 **E**：共有フォルダーの（ルートからの）フォルダー階層を管理者以外のユーザー（編集者、閲覧者、ゲストユーザー）に表示する設定（デフォルトでは無効になっています）
 
-## 一般設定の有効化／無効化 {#enable-disable-general-configurations}
+## 一般設定の有効化／無効化{#enable-disable-general-configurations}
 
 これらの設定を有効化／無効化するには、次のようにします。
 
@@ -50,7 +50,7 @@ AEM Assets Brand Portal では、各組織が特定のテナントについて�
 1. 変更内容を&#x200B;**[!UICONTROL 保存]**&#x200B;します。
 1. ログアウトして変更を有効にします。
 
-## 管理者が Brand Portal からアセットを削除することを許可 {#allow-admin-users-to-delete-assets-from-brand-portal}
+## 管理者が Brand Portal からアセットを削除することを許可{#allow-admin-users-to-delete-assets-from-brand-portal}
 
 **[!UICONTROL 「ユーザーによる削除を許可]**」設定では、管理者権限を持つユーザーがアセットやフォルダーを Brand Portal から削除することを許可（または禁止）できます。
 
@@ -66,6 +66,6 @@ AEM Assets Brand Portal では、各組織が特定のテナントについて�
 
 「[[!UICONTROL ダウンロードアクセラレーションを許可]](../using/accelerated-download.md)」設定では、Brand Portal や共有リンクからのアセットの高速ダウンロードを許可できます。これはインストールオンデマンドアプリケーションである IBM Aspera Connect との連携によって実現されます。このアプリケーションは TCP オーバーヘッドをなくす独自のテクノロジを使用しています。
 
-## フォルダー階層の有効化 {#enable-folder-hierarchy}
+## フォルダー階層の有効化{#enable-folder-hierarchy}
 
 「[[!UICONTROL フォルダー階層を有効化]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders)」設定では、管理者以外のユーザー（エディター、閲覧者、ゲストユーザー）がログイン後に目にする共有フォルダーの表示を管理者が制御できます。
