@@ -9,7 +9,7 @@ topic-tags: download-install
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
@@ -27,14 +27,14 @@ Brand Portal では、インストールオンデマンドアプリケーショ�
 
 ![](assets/enable-fast-file-download.png)
 
-## ファイルのダウンロードを高加速化するための前提条件 {#prerequisites-to-accelerate-file-download}
+## ファイルのダウンロードを高加速化するための前提条件{#prerequisites-to-accelerate-file-download}
 
 ファイルのダウンロードを高速化するには、必ず以下をおこないます。
 
 * 管理ツールパネルの[!UICONTROL 一般設定]で「**[!UICONTROL ダウンロードアクセラレーションを有効化]**」をオンにします（デフォルトでは無効になっています）。
-* ファイアウォールのポート 33001（TCP と UDP の両方）を開きます。For more information on the prerequisites, see [Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
+* ファイアウォールのポート 33001（TCP と UDP の両方）を開きます。前提条件について詳しくは、[Aspera Connect Client のドキュメント](https://downloads.asperasoft.com/en/documentation/8)を参照してください。
 * 管理者権限を使用して Aspera Connect をインストールします。
-* For platform support of Aspera transfer client, see [Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
+* Aspera 転送クライアントのプラットフォームサポートについては、[Aspera Connect プラットフォームサポート一覧表](https://www.asperasoft.com/company/support/transfer-clients/)/を参照してください。
 
 ## ダウンロードドメイン {#download-domains}
 
@@ -85,7 +85,7 @@ Brand Portal より早くアセットをダウンロードするには：
 
    ![](assets/aspera-not-launched.png)
 
-   To download the latest version of Aspera Connect from [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), select **[!UICONTROL Download Now]** and follow the instructions.
+   最新バージョンの Aspera Connect を [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/) からダウンロードするには、「**[!UICONTROL 今すぐダウンロード]**」をクリックして画面の指示に従います。
 
 1. **Aspera Connect クライアントのインストール**
 IBM Aspera Connect クライアントセットアップをインストールするには、IBM Aspera Connect クライアントアプリケーションの .msi ファイルからセットアップを実行し、インストールウィザードに従います。
@@ -121,7 +121,7 @@ Microsoft Edge で高速ダウンロード機能を使用するには、信頼�
 1. **[!UICONTROL 信頼済みサイトゾーン]**、**[!UICONTROL サイト]**&#x200B;の順にクリックします。
 1. リストから Brand Portal サイトを削除します。
 
-## Aspera Connect クライアントの環境設定 {#aspera-connect-client-preferences}
+## Aspera Connect クライアントの環境設定{#aspera-connect-client-preferences}
 
 アイコンを右クリックし、「**[!UICONTROL 設定]**」を選択すると、IBM Aspera Connect クライアント環境設定で指定できる、便利な環境設定がいくつかあります。
 
@@ -135,11 +135,11 @@ Microsoft Edge で高速ダウンロード機能を使用するには、信頼�
 
 ![](assets/aspera-automaticallylaunch.png)
 
-## ダウンロードアクセラレーションに関する問題のトラブルシューティング {#troubleshoot-issues-with-download-acceleration}
+## ダウンロードアクセラレーションに関する問題のトラブルシューティング{#troubleshoot-issues-with-download-acceleration}
 
 ダウンロードアクセラレーションが機能しない場合は、次の手順に従ってトラブルシューティングをおこなってください。
 
-1. Check that ports are not blocked, by visiting [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) from your machine.
+1. お使いのコンピューターから [https://test-connect.asperasoft.com/](https://test-connect.asperasoft.com/) にアクセスして、そのポートがブロックされていないことを確認します。
 
    ポートに問題がある場合は、ネットワークチームに連絡して、ポート 33001（TCP と UDP の両方）がファイアウォールでブロックされていないことを確認します。
 
