@@ -8,8 +8,17 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+product: experience-manager
+sub-product: assets
+feature: brand-portal
+topics: collaboration, content-velocity, sharing
+doc-type: feature-video
+activity: use
+audience: author, marketer
+version: 6.5
+kt: 3838
+translation-type: tm+mt
+source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 
 ---
 
@@ -20,6 +29,8 @@ source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 
 また、既存の機能はすべてそのままで変わりません。Brand Portal ユーザーは、コントリビューションフォルダーおよび許可された他のフォルダーからアセットを表示、検索およびダウンロードできます。さらに、管理者はコントリビューションフォルダーの共有、プロパティの変更、コレクションへのアセットの追加をおこなうことができます。
 
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=jpn)
+
 >[!NOTE]
 >
 >Brand Portal のアセットソーシングは、AEM 6.5.2.0 以降でサポートされます。
@@ -28,18 +39,25 @@ source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 >
 >AEM インスタンスを最新のサポートされる AEM バージョンにアップグレードするには、アドビサポートにお問い合わせください。
 
-![](assets/asset-sourcing.png)
+![ブランドポータルアセットソーシング](assets/asset-sourcing.png)
+
+## 前提条件 {#prerequisites}
+
+* AEM 6.5.0.2以降。
+* AEM Assets インスタンスが Brand Portal と統合されていることを確認します。[AEM Assets と Brand Portal の統合の設定](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)を参照してください。。
 
 ## 関連トピック {#reference-articles}
 
 **管理者向け**
-* [AEM でのアセットソーシングの設定](brand-portal-enable-asset-sourcing.md)
-* [Brand Portal ユーザーリストのアップロード](brand-portal-upload-user-list.md)
+
+* [AEM でのアセットソーシングの設定](brand-portal-configure-asset-sourcing.md)
+* [Brand Portal ユーザーリストのアップロード](brand-portal-configure-asset-sourcing.md)
 * [コントリビューションフォルダーの設定](brand-portal-contribution-folder.md)
 * [コントリビューションフォルダーへのベースラインアセットのアップロード](brand-portal-upload-baseline-assets.md)
 * [Brand Portal へのコントリビューションフォルダーの公開](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
 **Brand Portal ユーザー向け**
+
 * [アセット要件のダウンロード](brand-portal-download-asset-requirements.md)
 * [コントリビューションフォルダーへの新しいアセットのアップロード](brand-portal-upload-assets-to-contribution-folder.md)
 * [AEM Assets へのコントリビューションフォルダーの公開](brand-portal-publish-contribution-folder-to-aem-assets.md)
