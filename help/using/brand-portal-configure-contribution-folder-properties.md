@@ -7,9 +7,10 @@ uuid: null
 content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
+version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
+source-git-commit: 6a1edaf9db40461096c5583e987f4d482cbad7cd
 
 ---
 
