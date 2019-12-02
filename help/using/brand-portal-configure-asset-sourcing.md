@@ -1,14 +1,14 @@
 ---
 title: アセットソーシングの設定
 seo-title: アセットソーシングの設定
-description: AEM Assetsのアセットソーシング機能の設定に関する洞察を得ます。
-seo-description: AEM Assetsのアセットソーシング機能の設定に関する洞察を得ます。
+description: AEM Assets のアセットソーシング機能の設定について説明します。
+seo-description: AEM Assets のアセットソーシング機能の設定について説明します。
 uuid: null
 content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
 
 ---
@@ -16,14 +16,14 @@ source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
 
 # アセットソーシングの設定 {#configure-asset-sourcing}
 
-AEM管理者は、AEMオーサ **ーインスタンス** 内からアセットソーシングを設定できます。 管理者は、 **AEM Web Console Configurationからアセットソーシング機能のフラグ設定を有効にし** 、アクティブなBrand portalユーザリストを **AEM Assetsにアップロードします**。
+AEM 管理者は、AEM オーサーインスタンス内から&#x200B;**アセットソーシング**&#x200B;を設定できます。管理者は、**AEM Web コンソール設定**&#x200B;からアセットソーシング機能のフラグ設定を有効にし、アクティブな Brand Portal ユーザーリストを **AEM Assets** にアップロードします。
 
 >[!NOTE]
 >
->設定を開始する前に、AEM AssetsインスタンスがBrand portalと統合されていることを確認します。 See, [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
+>設定を開始する前に、AEM Assets インスタンスが Brand Portal と統合されていることを確認します。[AEM Assets と Brand Portal の統合の設定](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)を参照してください。
 
 
-次のビデオでは、AEMオーサーインスタンスでアセットソーシングを設定する方法について説明します。
+次のビデオでは、AEM オーサーインスタンスでアセットソーシングを設定する方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/29771?captions=jpn)
 
@@ -42,9 +42,9 @@ AEM 管理者は、AEM Web コンソール設定（Configuration Manager）内�
 
 ## Brand Portal ユーザーリストのアップロード {#upload-bp-user-list}
 
-AEM 管理者は、AEM Assets のアクティブな Brand Portal ユーザーリストを含む Brand Portal ユーザー 設定（.csv）ファイルをアップロードできます。コントリビューションフォルダーは、ユーザーリストで定義されたアクティブな Brand Portal ユーザーのみ共有できます。また、管理者は、設定ファイルに新規ユーザーを追加して、変更したユーザーリストをアップロードできます。
+AEM 管理者は、AEM Assets のアクティブな Brand Portal ユーザーリストを含む Brand Portal ユーザー 設定（.csv）ファイルをアップロードできます。投稿フォルダーは、ユーザーリストで定義されたアクティブな Brand Portal ユーザーのみ共有できます。また、管理者は、設定ファイルに新規ユーザーを追加して、変更したユーザーリストをアップロードできます。
 
-管理者は、AEM Admin Console で新規ユーザーを追加できます。詳しくは、[ユーザーの管理](brand-portal-adding-users.md)を参照してください。Admin Console でユーザーを追加したら、これらのユーザーを Brand Portal ユーザー設定ファイルに追加して、コントリビューションフォルダーへのアクセス権を割り当てることができます。
+管理者は、AEM Admin Console で新規ユーザーを追加できます。詳しくは、[ユーザーの管理](brand-portal-adding-users.md)を参照してください。Admin Console でユーザーを追加したら、これらのユーザーを Brand Portal ユーザー設定ファイルに追加して、投稿フォルダーへのアクセス権を割り当てることができます。
 
 **Brand Portal ユーザーリストをアップロードするには：**
 1. AEM オーサーインスタンス（デフォルト URL：http:// localhost:4502/aem/start.html）にログインします。
@@ -55,6 +55,6 @@ AEM 管理者は、AEM Assets のアクティブな Brand Portal ユーザーリ
    ![](assets/upload-user-list2.png)
 
 
-管理者は、コントリビューションフォルダーを設定する際に、このユーザーリストから特定のユーザー／グループに対してアクセス権を付与できます。
+管理者は、投稿フォルダーを設定する際に、このユーザーリストから特定のユーザー／グループに対してアクセス権を付与できます。
 
-詳しくは、[コントリビューションフォルダーの設定](brand-portal-contribution-folder.md)を参照してください。
+詳しくは、[投稿フォルダーの設定](brand-portal-contribution-folder.md)を参照してください。
