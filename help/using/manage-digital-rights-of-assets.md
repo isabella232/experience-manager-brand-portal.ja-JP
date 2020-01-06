@@ -9,8 +9,8 @@ topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
-translation-type: ht
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+translation-type: tm+mt
+source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 Brand Portal では、管理者は期限切れアセットを表示したり、ダウンロードしたり、コレクションに追加したりできます。一方、編集者と閲覧者にできるのは、期限切れアセットの表示とコレクションへの追加だけです。
 
-管理者は期限切れアセットを AEM Assets から Brand Portal に公開できます。しかし、期限切れアセットを Brand Portal からリンクを介して共有することはできません。期限切れアセットと期限切れでないアセットの両方を含むフォルダーから期限切れアセットを選択している場合は、「**[!UICONTROL リンクを共有]**」アクションは使用できません。しかし、期限切れアセットと期限切れでないアセットを含んだフォルダーそのものを選択している場合は、「[!UICONTROL 共有]」アクションと「**[!UICONTROL リンクを共有]**」アクションを使用できます。
+管理者は期限切れアセットを AEM Assets から Brand Portal に公開できます。しかし、期限切れアセットを Brand Portal からリンクを介して共有することはできません。期限切れアセットと期限切れでないアセットの両方を含むフォルダーから期限切れアセットを選択している場合は、「**[!UICONTROL リンクを共有]**」アクションは使用できません。しかし、期限切れアセットと期限切れでないアセットを含んだフォルダーそのものを選択している場合は、「[!UICONTROL 共有]」アクションと「**[!UICONTROL &#x200B;リンクを共有]**」アクションを使用できます。
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Brand Portal では、管理者は期限切れアセットを表示したり、�
 
 ### アセットの有効期限ステータス {#expiration-status-of-assets}
 
-アセットの有効期限ステータスは[!UICONTROL カード表示]で確認できます。カード上の赤いフラグは、そのアセットが期限切れであることを示しています。
+アセットの有効期限ステータスは&#x200B;**[!UICONTROL カード表示]**で確認できます。カード上の赤いフラグは、そのアセットが期限切れであることを示しています。
 
 ![](assets/expired_assets_cardview.png)
 
@@ -60,7 +60,7 @@ Brand Portal では、管理者は期限切れアセットを表示したり、�
 
 ## アセットのリンクの有効期限 {#asset-link-expiration}
 
-管理者およびエディターは、リンクを通じてアセットを共有する一方で、**[!UICONTROL リンク共有]**&#x200B;ダイアログボックスの「**[!UICONTROL 有効期限]**」フィールドを使用して有効期限の日時を設定できます。リンクのデフォルトの有効期限は、リンクが共有された日から 7 日間です。
+管理者およびエディターは、リンクを通じてアセットを共有する一方で、**[!UICONTROL リンク共有]**ダイアログボックスの「**[!UICONTROL &#x200B;有効期限]**」フィールドを使用して有効期限の日時を設定できます。リンクのデフォルトの有効期限は、リンクが共有された日から 7 日間です。
 
 ![](assets/asset-link-sharing.png)
 
@@ -72,19 +72,19 @@ Brand Portal では、管理者は期限切れアセットを表示したり、�
 
 ライセンスで保護されたアセットを Brand Portal からダウンロードするときは、事前に使用許諾契約への同意が求められます。ライセンスで保護されたアセットの使用許諾契約は、アセットを Brand Portal から直接ダウンロードまたは共有リンクを介してダウンロードするときに表示されます。ライセンスで保護されたアセットは、期限切れの場合も期限切れでない場合も、すべてのユーザーが見ることができます。しかし、ライセンスで保護された期限切れアセットのダウンロードと使用には制限が適用されます。ライセンスで保護された期限切れアセットの動作と、ユーザーの役割に基づいて許可される活動については、[期限切れアセットの使用権限](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets)を参照してください。
 
-ライセンスで保護されているアセットには、[使用許諾契約が添付](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)されています。この処理は、AEM Assets でアセットの[メタデータプロパティ](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)を設定することでおこなわれます。
+License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset&#39;s [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in AEM Assets.
 
-ライセンスで保護されたアセットをダウンロードする場合は、[!UICONTROL 著作権管理]ページにリダイレクトされます。
+ライセンスで保護されたアセットをダウンロードする場合は、**[!UICONTROL 著作権管理]**ページにリダイレクトされます。
 
 ![](assets/asset-copyright-mgmt.png)
 
-ここでダウンロードするアセットを選択し、関連付けられた使用許諾契約に同意する必要があります。使用許諾契約に同意しない場合、「[!UICONTROL ダウンロード]」ボタンは無効になります。
+ここでダウンロードするアセットを選択し、関連付けられた使用許諾契約に同意する必要があります。使用許諾契約に同意しない場合、「**[!UICONTROL ダウンロード]**」ボタンは無効になります。
 
 ![](assets/licensed-asset-download-2.png)
 
 選択した項目に保護されたアセットが複数含まれている場合は、アセットを 1 つずつ選択して使用許諾契約に同意し、アセットのダウンロードに進みます。
 
-## 期限切れアセットに関するレポートの生成{#generate-report-about-expired-assets}
+## 期限切れアセットに関するレポートの生成 {#generate-report-about-expired-assets}
 
 管理者は、特定の期間内に期限切れになったすべてのアセットをリストするレポートを生成してダウンロードできます。このレポートには、期限切れアセットについての詳細情報（サイズ、種類、アセット階層内のアセットの場所を示すパス、アセットが期限切れになった日時、アセットが公開された日時など）が含まれます。このレポートの列はカスタマイズ可能であり、表示するデータを要件に応じて増やすことができます。
 
