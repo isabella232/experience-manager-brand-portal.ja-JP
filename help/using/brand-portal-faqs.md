@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
+translation-type: tm+mt
+source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
 
 ---
 
@@ -53,8 +53,8 @@ Brand Portal FAQ では、最新の AEM Assets Brand Portal 6.4.5 リリース�
 
 **質問：投稿フォルダーは誰が作成できますか。**
 
-**回答：** AEMユーザーは誰でも、AEM Assets に新しいフォルダーを作成し、**アセット投稿**&#x200B;プロパティを割り当てることができます。新しく作成されたフォルダーは、**投稿**フォルダーと呼ばれます。
-このフォルダーは、投稿用に、アクティブな Brand Portal ユーザーと共有されます。
+**回答：** AEM Assetsで新しいフォルダーを作成する権限を持つAEMユーザーは、貢献度フォルダーを作成で **きます** 。 貢献度フォルダーを作 **成するには** 、「アセット貢献度」タイプの新しいフォルダーを **作成します**。
+このフォルダーは、アクティブなBrand portalユーザーと共有され、貢献度が得られます。
 
 
 
@@ -62,6 +62,12 @@ Brand Portal FAQ では、最新の AEM Assets Brand Portal 6.4.5 リリース�
 
 **回答：**&#x200B;投稿&#x200B;**フォルダーには**、**NEW** と **SHARED** の 2 つのサブフォルダーが含まれます。始めは、NEW フォルダーは空で、SHARED フォルダーには Brand Portal ユーザーの参照コンテンツ（再利用可能なアセット）が含まれます。
 Brand Portal ユーザーは**投稿**&#x200B;フォルダーにアクセスし、**NEW** フォルダーにコンテンツをアップロードします。
+
+
+
+**質問：既存の貢献度フォルダーの名前を変更できますか。**
+
+**回答：** いいえ **、既存の貢献度フォルダーの名前を変更することはで**&#x200B;きません **** 。
 
 
 
@@ -101,7 +107,7 @@ Brand Portal ユーザーは**投稿**&#x200B;フォルダーにアクセスし�
 
 **質問：読み込みジョブと公開ジョブのステータスはどこで確認できますか。**
 
-**回答：** AEM では、読み込みの状態を&#x200B;**非同期**&#x200B;ジョブページで確認できます。Brand Portal では、**ツール／アセット投稿のステータス**&#x200B;で公開ジョブのステータスを確認できます。
+**回答：** AEM では、読み込みの状態を&#x200B;**非同期**&#x200B;ジョブページで確認できます。Brand Portal では、****ツール／アセット投稿のステータスで公開ジョブのステータスを確認できます。
 
 
 
@@ -154,4 +160,4 @@ Brand Portal ユーザーは**投稿**&#x200B;フォルダーにアクセスし�
 
 * [](https://daycare.day.com) [製品へのアクセス](https://login.marketing.adobe.com)
 
-* [アドビカスタマーケア](https://helpx.adobe.com/jp/contact.html)
+* [アドビカスタマーケア](https://helpx.adobe.com/contact.html)
