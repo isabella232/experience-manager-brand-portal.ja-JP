@@ -8,8 +8,8 @@ topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
-translation-type: ht
-source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+translation-type: tm+mt
+source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
 
@@ -29,11 +29,11 @@ source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 >[!NOTE]
 >
->AEM オーサーインスタンスが [!UICONTROL Dynamic Media モード]で動作していない（顧客が Dynamic Media を購入していない）場合、アセットの[!UICONTROL ピラミッド TIFF] レンディションはアップロード時に作成されません。画像プリセットまたは動的レンディションは、アセットの[!UICONTROL ピラミッド TIFF] で機能するので、[!UICONTROL ピラミッド TIFF] が AEM オーサーインスタンスで使用できない場合は、Brand Portal 上でも使用できません。したがって、動的レンディションがアセット詳細ページのレンディションレールやダウンロードダイアログに表示されません。
+>AEM オーサーインスタンスが **[!UICONTROL Dynamic Media モード]**で動作していない（顧客が Dynamic Media を購入していない）場合、アセットの**[!UICONTROL &#x200B;ピラミッド TIFF]** レンディションはアップロード時に作成されません。画像プリセットまたは動的レンディションは、アセットの&#x200B;**[!UICONTROL ピラミッド TIFF]**で機能するので、**[!UICONTROL &#x200B;ピラミッド TIFF]** が AEM オーサーインスタンスで使用できない場合は、Brand Portal 上でも使用できません。したがって、動的レンディションがアセット詳細ページのレンディションレールやダウンロードダイアログに表示されません。
 
 画像プリセットを Brand Portal に公開するには、次のようにします。
 
-1. AEM オーサーインスタンスで、AEM のロゴをタップまたはクリックしてグローバルナビゲーションコンソールにアクセスし、ツールアイコンをタップまたはクリックして&#x200B;**[!UICONTROL アセット／画像プリセット]**&#x200B;の順に移動します。
+1. AEM オーサーインスタンスで、AEM のロゴをタップまたはクリックしてグローバルナビゲーションコンソールにアクセスし、ツールアイコンをタップまたはクリックして&#x200B;**[!UICONTROL アセット／画像プリセット]**の順に移動します。
 1. 画像プリセットのリストから目的の画像プリセットを 1 つまたは複数選択し、「**[!UICONTROL Brand Portal に公開]**」をクリックまたはタップします。
 
 ![](assets/publishpreset.png)
@@ -44,7 +44,7 @@ source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 Brand Portal への画像プリセットの公開を取り消すには、次のようにします。
 
-1. AEM オーサーインスタンスで、AEM のロゴをタップまたはクリックしてグローバルナビゲーションコンソールにアクセスし、**[!UICONTROL ツール]**&#x200B;アイコンをタップまたはクリックして&#x200B;**[!UICONTROL アセット／画像プリセット]**&#x200B;の順に移動します。
+1. AEM オーサーインスタンスで、AEM のロゴをタップまたはクリックしてグローバルナビゲーションコンソールにアクセスし、**[!UICONTROL ツール]**アイコンをタップまたはクリックして**[!UICONTROL &#x200B;アセット／画像プリセット]**の順に移動します。
 1. 画像プリセットを選択し、上部にあるオプションから「**[!UICONTROL Brand Portal から削除]**」を選択します。
 
 ## Brand Portal へのメタデータスキーマの公開 {#publish-metadata-schema-to-brand-portal}
@@ -69,7 +69,7 @@ AEM オーサーインスタンス上でカスタムスキーマを作成して�
 
 メタデータスキーマを AEM オーサーインスタンスから Brand Portal へ公開するには、次のようにします。
 
-1. AEM オーサーインスタンスで、AEM のロゴをタップまたはクリックしてグローバルナビゲーションコンソールにアクセスし、ツールアイコンをタップまたはクリックして **[!UICONTROL アセット／メタデータスキーマ]**&#x200B;の順に移動します。
+1. AEM オーサーインスタンスで、AEM のロゴをタップまたはクリックしてグローバルナビゲーションコンソールにアクセスし、ツールアイコンをタップまたはクリックして **[!UICONTROL アセット／メタデータスキーマ]**の順に移動します。
 1. メタデータスキーマを選択し、上部にあるオプションから「**[!UICONTROL Brand Portal に公開]**」を選択します。
 
 >[!NOTE]
@@ -78,12 +78,12 @@ AEM オーサーインスタンス上でカスタムスキーマを作成して�
 
 Brand Portal へのメタデータスキーマの公開を取り消すには、次のようにします。
 
-1. AEM オーサーインスタンスで、AEM のロゴをタップまたはクリックしてグローバルナビゲーションコンソールにアクセスし、ツールアイコンをタップまたはクリックして **[!UICONTROL アセット／メタデータスキーマ]**&#x200B;の順に移動します。
+1. AEM オーサーインスタンスで、AEM のロゴをタップまたはクリックしてグローバルナビゲーションコンソールにアクセスし、ツールアイコンをタップまたはクリックして **[!UICONTROL アセット／メタデータスキーマ]**の順に移動します。
 1. メタデータスキーマを選択し、上部にあるオプションから「**[!UICONTROL Brand Portal から削除]**」を選択します。
 
 ## Brand Portal への検索ファセットの公開 {#publish-search-facets-to-brand-portal}
 
-検索フォームは、Brand Portal のユーザーに[ファセット検索](../using/brand-portal-search-facets.md)の機能を提供します。検索ファセットは Brand Portal 上での詳細検索を可能にします。検索フォームに[追加されている述語](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/search-facets.html#AddingaPredicate)はすべて、検索フィルター内の検索ファセットとしてユーザーに提供されます。
+検索フォームは、Brand Portal のユーザーに[ファセット検索](../using/brand-portal-search-facets.md)の機能を提供します。検索ファセットは Brand Portal 上での詳細検索を可能にします。検索フォームに[追加されている述語](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-facets.html#AddingaPredicate)はすべて、検索フィルター内の検索ファセットとしてユーザーに提供されます。
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)
@@ -96,7 +96,7 @@ AEM オーサーインスタンスのカスタム検索フォーム「**[!UICONT
 
 編集された検索ファセットを AEM オーサーインスタンスから Brand Portal へ公開するには、次のようにします。
 
-1. AEM ロゴをタップまたはクリックし、**[!UICONTROL ツール／一般／検索フォーム]**&#x200B;に移動します。
+1. AEM ロゴをタップまたはクリックし、**[!UICONTROL ツール／一般／検索フォーム]**に移動します。
 1. 編集された検索フォームを選択し、「**[!UICONTROL Brand Portal に公開]**」を選択します。
 
    >[!NOTE]
@@ -105,7 +105,7 @@ AEM オーサーインスタンスのカスタム検索フォーム「**[!UICONT
 
 Brand Portal への検索フォームの公開を取り消すには、次のようにします。
 
-1. AEM オーサーインスタンスで、AEM のロゴをタップまたはクリックしてグローバルナビゲーションコンソールにアクセスし、ツールアイコンをタップまたはクリックして **[!UICONTROL アセット／検索フォーム]**&#x200B;の順に移動します。
+1. AEM オーサーインスタンスで、AEM のロゴをタップまたはクリックしてグローバルナビゲーションコンソールにアクセスし、ツールアイコンをタップまたはクリックして **[!UICONTROL アセット／検索フォーム]**の順に移動します。
 1. 検索フォームを選択し、上部にあるオプションから「**[!UICONTROL Brand Portal から削除]**」を選択します。
 
 >[!NOTE]
@@ -116,6 +116,6 @@ Brand Portal への検索フォームの公開を取り消すには、次のよ�
 
 1. 検索用述語の中には、Brand Portal 上の検索フィルターに適用できないものがあります。このような検索用述語が検索フォームの一部として AEM オーサーインスタンスから Brand Portal へ公開された場合は、適用できない検索用述語が削除されます。したがって、Brand Portal 側では、公開されたフォーム内の述語の数が少なくなります。詳しくは、[Brand Portal 上のフィルターに適用可能な検索用述語の一覧](../using/brand-portal-search-facets.md#list-of-search-predicates)を参照してください。
 
-1. [!UICONTROL オプションの述語]に関しては、ユーザーが AEM オーサーインスタンス側のオプションを読み取るために任意のカスタムパスを使用している場合、そのパスは Brand Portal 側では機能しません。このような追加のパスやオプションは、検索フォームと一緒に Brand Portal へ公開されません。その場合は、ユーザーが&#x200B;**[!UICONTROL オプションの述語]**&#x200B;内の「**[!UICONTROL オプションを追加]**」で「**[!UICONTROL 手動]**」オプションを選択して、Brand Portal 側でこれらのオプションを手動で追加できます。
+1. [!UICONTROL オプションの述語]に関しては、ユーザーが AEM オーサーインスタンス側のオプションを読み取るために任意のカスタムパスを使用している場合、そのパスは Brand Portal 側では機能しません。このような追加のパスやオプションは、検索フォームと一緒に Brand Portal へ公開されません。その場合は、ユーザーが&#x200B;**[!UICONTROL オプションの述語]**内の「**[!UICONTROL &#x200B;オプションを追加]**」で「**[!UICONTROL 手動]**」オプションを選択して、Brand Portal 側でこれらのオプションを手動で追加できます。
 
 ![](assets/options-predicate-manual.png)
