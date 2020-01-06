@@ -8,8 +8,8 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
-translation-type: ht
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+translation-type: tm+mt
+source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
 
@@ -54,11 +54,11 @@ Brand Portal の右上にある表示セレクターで利用可能な表示（�
 * 種類
 * タイトル
 * 名前
-* アセットが AEM から Brand Portal に公開された日付と時刻
+* AEM から Brand Portal にアセットが公開された日付と時刻
 * サイズ
 * ディメンション寸法
 
-カードを（クイックアクションを回避するために慎重に）タップまたはクリックして階層の下に移動したり、[ヘッダーのパンくずリスト](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader)を使用して再び上に移動したりできます。
+You can navigate down the hierarchy by tapping/clicking cards (taking care to avoid the quick actions) or up again by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 ![](assets/cardquickactions.png)
 
@@ -77,7 +77,7 @@ Brand Portal の右上にある表示セレクターで利用可能な表示（�
 * アセットやフォルダーを選択する際に上部に表示されるツールバー。
 * レールセレクターを選択する際のドロップダウン。
 
-アセットやフォルダーを選択した状態で「[!UICONTROL 概要]」オプションを選択すると、タイトル、パス、アセット作成時間を確認できます。一方、アセットの詳細ページで「概要」オプションを選択すると、アセットのメタデータを確認できます。
+アセットやフォルダーを選択した状態で「**[!UICONTROL 概要]**」オプションを選択すると、タイトル、パス、アセット作成時間を確認できます。一方、アセットの詳細ページで「概要」オプションを選択すると、アセットのメタデータを確認できます。
 
 ![](assets/overview-option.png)
 
@@ -85,7 +85,7 @@ Brand Portal の右上にある表示セレクターで利用可能な表示（�
 
 #### カード表示の表示設定
 
-表示セレクターで&#x200B;**[!UICONTROL 表示設定]**&#x200B;を選択すると、[!UICONTROL 表示設定]ダイアログが開き、カード表示でアセットのサムネールをサイズ変更できます。これにより、表示をパーソナライズして、表示されるサムネールの数を制御できます。
+表示セレクターで&#x200B;**[!UICONTROL 表示設定]**を選択すると、**[!UICONTROL &#x200B;表示設定]**ダイアログが開き、カード表示でアセットのサムネールをサイズ変更できます。これにより、表示をパーソナライズして、表示されるサムネールの数を制御できます。
 
 ![](assets/cardviewsettings.png)
 
@@ -106,7 +106,7 @@ Brand Portal の右上にある表示セレクターで利用可能な表示（�
 * アセット階層画像を示すフォルダーパス <sup>*</sup>
 * Brand Portal 上のアセットの公開日
 
-* パス列を使用すると、フォルダー階層内のアセットの場所が特定しやすくなります。リソース名をタップまたはクリックして階層の下に移動したり、[ヘッダーのパンくずリスト](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader)を使用して上に戻ったりできます。
+「パス」列を使用すると、フォルダー階層内のアセットの場所を簡単に識別できます。 You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -114,7 +114,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### リスト表示の表示設定
 
-リスト表示の最初の列には、デフォルトでアセットの[!UICONTROL 名前]が表示されます。アセットの[!UICONTROL タイトル]、[!UICONTROL ロケール]、[!UICONTROL タイプ]、[!UICONTROL ディメンション]、[!UICONTROL サイズ]、[!UICONTROL レーティング]、公開状態などの追加情報も表示されます。ただし、「[!UICONTROL 表示設定]」を使用して、表示する列を選択することもできます。
+リスト表示の最初の列には、デフォルトでアセットの&#x200B;**[!UICONTROL 名前]**が表示されます。アセットの**[!UICONTROL &#x200B;タイトル]**、**[!UICONTROL ロケール]**、**[!UICONTROL &#x200B;タイプ]**、**[!UICONTROL ディメンション]**、**[!UICONTROL &#x200B;サイズ]**、**[!UICONTROL レーティング]**、公開状態などの追加情報も表示されます。ただし、「**[!UICONTROL &#x200B;表示設定]**」を使用して、表示する列を選択することもできます。
 
 ![](assets/list-view-setting.png)
 
@@ -239,7 +239,7 @@ Comment Type: draft
 
 ![](assets/content-tree.png)
 
-## アセットの詳細{#asset-details}
+## アセットの詳細 {#asset-details}
 
 アセットの詳細ページでは、アセットを表示、ダウンロード、アセットリンクを共有、コレクションへアセットを移動させる、またはアセットのプロパティページを表示することができます。また、同じフォルダーの他のアセットの詳細ページへ続けて移動することもできます。
 
