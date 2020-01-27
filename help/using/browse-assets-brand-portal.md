@@ -8,7 +8,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -26,7 +26,7 @@ AEM Assets Brand Portal は、別の表示オプションを使用しながら�
 
 ![](assets/bp_subheader.png)<br />
 
-Brand Portal ドロップダウンの左上にあるレールセレクターを使用すると、アセット階層へ移動、検索を効率化、およびリソースを表示するオプションが表示されます。
+Brand Portal ドロップダウンの左上にあるパネルセレクターを使用すると、アセット階層へ移動、検索を効率化、およびリソースを表示するオプションが表示されます。
 
 ![](assets/siderail-1.png)
 
@@ -58,13 +58,13 @@ Brand Portal の右上にある表示セレクターで利用可能な表示（�
 * サイズ
 * ディメンション寸法
 
-You can navigate down the hierarchy by tapping/clicking cards (taking care to avoid the quick actions) or up again by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+カードを（クイックアクションを回避するために慎重に）タップまたはクリックして階層の下に移動したり、[ヘッダーのパンくずリスト](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader)を使用して再び上に移動したりできます。
 
 ![](assets/cardquickactions.png)
 
 #### 管理者以外のユーザー向けカード表示
 
-カード表示のフォルダーのカードは、管理者以外のユーザー（エディター、閲覧者、およびゲストユーザー）にフォルダー階層情報を表示します。この機能は、親階層について、アクセスしようとしているフォルダーの場所をユーザーに知らせます。フォルダー階層情報は特に、似たような名前のフォルダーを、別のフォルダー階層から共有された他のフォルダーと区別する際に便利です。管理者以外のユーザーが、自分たちに共有されているアセットのフォルダー構造を把握していない場合、似たような名前のアセット／フォルダーは紛らわしくなります。
+カード表示のフォルダーのカードは、管理者以外のユーザー（編集者、閲覧者、およびゲストユーザー）にフォルダー階層情報を表示します。この機能は、親階層について、アクセスしようとしているフォルダーの場所をユーザーに知らせます。フォルダー階層情報は特に、似たような名前のフォルダーを、別のフォルダー階層から共有された他のフォルダーと区別する際に便利です。管理者以外のユーザーが、自分たちに共有されているアセットのフォルダー構造を把握していない場合、似たような名前のアセット／フォルダーは紛らわしくなります。
 
 * それぞれのカードに表示されるパスは、カードのサイズに合わせて切り詰めて表示されます。ただし、ユーザーが切り詰められたパスにカーソルを合わせると、完全なパスをツールヒントとして表示することができます。
 
@@ -75,7 +75,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 「概要」オプションでは、管理者以外のユーザー（編集者、閲覧者、ゲストユーザー）が、選択したアセット／フォルダーのアセットのプロパティを表示できます。「概要」オプションは、次の場所に表示されます。
 
 * アセットやフォルダーを選択する際に上部に表示されるツールバー。
-* レールセレクターを選択する際のドロップダウン。
+* パネルセレクターを選択する際のドロップダウン。
 
 アセットやフォルダーを選択した状態で「**[!UICONTROL 概要]**」オプションを選択すると、タイトル、パス、アセット作成時間を確認できます。一方、アセットの詳細ページで「概要」オプションを選択すると、アセットのメタデータを確認できます。
 
@@ -106,7 +106,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 * アセット階層画像を示すフォルダーパス <sup>*</sup>
 * Brand Portal 上のアセットの公開日
 
-「パス」列を使用すると、フォルダー階層内のアセットの場所を簡単に識別できます。 You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+パス列を使用すると、フォルダー階層内のアセットの場所が特定しやすくなります。リソース名をタップまたはクリックして階層の下に移動したり、[ヘッダーのパンくずリスト](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader)を使用して上に戻ったりできます。
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -227,11 +227,11 @@ Comment Type: draft
 <p>In all views, all items can be deselected by tapping escape on the keyboard if you are using a desktop device.</p>
 -->
 
-## コンテンツツリー {#content-tree}
+## コンテンツツリー{#content-tree}
 
 これらの表示に加え、3 つのツリー表示を使用して、目的のアセットやフォルダーを表示および選択しながらアセット階層をドリルダウンします。
 
-ツリー表示を開くには、左上のレールセレクターをタップまたはクリックし、メニューから「**[!UICONTROL コンテンツツリー]**」を選択します。
+ツリー表示を開くには、左上のパネルセレクターをタップまたはクリックし、メニューから「**[!UICONTROL コンテンツツリー]**」を選択します。
 
 ![](assets/contenttree.png)
 
@@ -239,13 +239,13 @@ Comment Type: draft
 
 ![](assets/content-tree.png)
 
-## アセットの詳細 {#asset-details}
+## アセットの詳細{#asset-details}
 
 アセットの詳細ページでは、アセットを表示、ダウンロード、アセットリンクを共有、コレクションへアセットを移動させる、またはアセットのプロパティページを表示することができます。また、同じフォルダーの他のアセットの詳細ページへ続けて移動することもできます。
 
 ![](assets/asset-detail.png)
 
-アセットのメタデータや様々なレンディションを表示するには、アセットの詳細ページのレールセレクターを使用します。
+アセットのメタデータや様々なレンディションを表示するには、アセットの詳細ページのパネルセレクターを使用します。
 
 ![](assets/asset-overview.png)
 
