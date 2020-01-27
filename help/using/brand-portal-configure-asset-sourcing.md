@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 62b254818503bd297ea3016f4ddd70b9283f1c47
 
 ---
@@ -20,12 +20,12 @@ AEM 管理者は、AEM オーサーインスタンス内から&#x200B;**アセ�
 
 >[!NOTE]
 >
->設定を開始する前に、AEM Assets インスタンスが Brand Portal と統合されていることを確認します。[AEM Assets と Brand Portal の統合の設定](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)を参照してください。
+>設定を開始する前に、AEM Assets インスタンスが Brand Portal と統合されていることを確認します。[AEM Assets と Brand Portal の統合の設定](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)を参照してください。
 
 
-次のビデオでは、AEMオーサーインスタンスでアセットソーシングを設定する方法を示します。
+次のビデオでは、AEM オーサーインスタンスでアセットソーシングを設定する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/29771)
+>[!VIDEO](https://video.tv.adobe.com/v/29771?captions=jpn)
 
 ## アセットソーシングの有効化 {#enable-asset-sourcing}
 
@@ -46,7 +46,7 @@ AEM 管理者は、AEM Assets のアクティブな Brand Portal ユーザーリ
 
 >[!NOTE]
 >
->CSVファイルの形式は、一括ユーザーインポートのために管理コンソールでサポートされている形式と同じです。 電子メールと氏名は必須です。
+>CSV ファイルの形式は、Admin Console での一括ユーザー読み込みでサポートされている形式と同じです。電子メールと氏名は必須です。
 
 管理者は、AEM Admin Console で新規ユーザーを追加できます。詳しくは、[ユーザーの管理](brand-portal-adding-users.md)を参照してください。Admin Console でユーザーを追加したら、これらのユーザーを Brand Portal ユーザー設定ファイルに追加して、投稿フォルダーへのアクセス権を割り当てることができます。
 
