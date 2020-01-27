@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -31,7 +31,7 @@ AEM Assets Brand Portal 管理者は、コレクションやスマートコレ�
 
    ![](assets/contenttree-1.png)
 
-1. 左側のサイドレールで「**[!UICONTROL コレクション]**」をクリックします。
+1. 左側のサイドパネルで「**[!UICONTROL コレクション]**」をクリックします。
 
    ![](assets/access_collections.png)
 
@@ -63,7 +63,7 @@ AEM Assets Brand Portal 管理者は、コレクションやスマートコレ�
    >
    >コレクション内のアセットやフォルダーへのアクセスは、ユーザーの役割によって決まります。アセットへのアクセス権を持たないユーザーは、空のコレクションを共有します。また、コレクションに対して実行できるアクションも、ユーザーの役割によって決まります。
 
-## コレクションの共有解除 {#unshare-a-collection}
+## コレクションの共有解除{#unshare-a-collection}
 
 コレクションの共有を解除するには、以下の手順を実行します。
 
