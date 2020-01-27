@@ -9,7 +9,7 @@ topic-tags: download-install
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -27,14 +27,14 @@ Brand Portal では、インストールオンデマンドアプリケーショ�
 
 ![](assets/enable-fast-file-download.png)
 
-## ファイルのダウンロードを高加速化するための前提条件 {#prerequisites-to-accelerate-file-download}
+## ファイルのダウンロードを高加速化するための前提条件{#prerequisites-to-accelerate-file-download}
 
 ファイルのダウンロードを高速化するには、必ず以下をおこないます。
 
 * 管理ツールパネルの&#x200B;**[!UICONTROL 一般設定]**で「[!UICONTROL ダウンロードアクセラレーションを有効化]」をオンにします（デフォルトでは無効になっています）。
 * ファイアウォールのポート 33001（TCP と UDP の両方）を開きます。前提条件について詳しくは、[Aspera Connect Client のドキュメント](https://downloads.asperasoft.com/en/documentation/8)を参照してください。
 * 管理者権限を使用して Aspera Connect をインストールします。
-* Aspera 転送クライアントのプラットフォームサポートについては、[Aspera Connect プラットフォームサポート一覧表](https://www.asperasoft.com/company/support/transfer-clients/)/を参照してください。
+* Aspera 転送クライアントのプラットフォームサポートについては、[Aspera Connect プラットフォームサポート一覧表](https://www.asperasoft.com/company/support/transfer-clients/)を参照してください。
 
 ## ダウンロードドメイン {#download-domains}
 
@@ -51,7 +51,7 @@ Brand Portal では、インストールオンデマンドアプリケーショ�
 
 ファイルダウンロードアクセラレーター Aspera Connect を使用した場合の 2 GB ファイルのダウンロードパフォーマンスを次の表に示します。
 
-*監視される結果は、ネットワーク帯域幅、サーバーの遅延、クライアントの場所などの要因によって異なります。Brand portalサーバーがOregon（米国）にあることを考慮してください。*
+*Brand Portal サーバーがオレゴン州（米国）にあることを考慮すると、ネットワーク帯域幅、サーバーのレイテンシ、クライアントの所在地などの要因によって測定結果は異なります。*
 
 | クライアントの場所 | クライアントとサーバーの間のレイテンシ（ミリ秒） | Aspera Connect ファイル転送アクセラレーターを使用した場合の速度（MBps） | Aspera ファイル転送アクセラレーターを使用した場合の 2 GB ファイルのダウンロード所要時間（秒） |
 |---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ Brand Portal では、インストールオンデマンドアプリケーショ�
 Brand Portal より早くアセットをダウンロードするには：
 
 1. サポートされているブラウザーを使用して Brand Portal にログインします。
-1. ダウンロードする目的のアセットファイル、フォルダー、またはコレクションを参照および選択します。ダウンロードオプションをタップまたはクリックします。「[ダウンロードアクセラレーションを有効化]」オプションが選択されたダウンロードダイアログが表示されます。
+1. ダウンロードする目的のアセットファイル、フォルダー、またはコレクションを参照および選択します。ダウンロードオプションをタップまたはクリックします。ダウンロードダイアログが表示され、「[ダウンロードアクセラレーションを有効化]」オプションが選択されます。
    ![](assets/download-assetsbp.png)
 
    >[!NOTE]
@@ -102,11 +102,11 @@ Aspera Connect アプリケーションは、システム上にアクティビ�
 
 ![](assets/aspera-activity-window.png)
 
-ダウンロードが正常に完了すると、ユーザーのシステム上でアセットがダウンロードされる場所がダイアログボックスに表示されます。 問題が発生した場合は、エラーが表示されます。
+ダウンロードが正常に完了すると、ユーザーのシステム上にある、アセットのダウンロード先がダイアログボックスに表示されます。問題が発生した場合は、エラーが表示されます。
 
 >[!NOTE]
 >
->Aspera Connect クライアントアプリケーションには、**[!UICONTROL 設定]**の「[!UICONTROL 転送]」タブで「[!UICONTROL ダウンロードしたファイルの保存先を毎回確認する]」が有効になっている場合、ダウンロード場所を選択するプロンプトが表示されないという既知の制限があります。ダウンロードを開始する前に、「**[!UICONTROL  Save downloaded files to]**」テキストボックスに場所を指定してください。
+>Aspera Connect クライアントアプリケーションには、[!UICONTROL 環境設定]の「[!UICONTROL 転送]」タブで「**[!UICONTROL ダウンロードしたファイルの保存先を毎回確認する]**」が有効になっている場合、ダウンロード場所を選択するプロンプトが表示されないという既知の制限があります。ダウンロードを開始する前に、「**[!UICONTROL  Save downloaded files to]**」テキストボックスに場所を指定してください。
 
 ## Microsoft Edge ブラウザーでのファイルアクセラレーターの使用 {#using-file-accelerator-on-microsoft-edge-browser}
 
@@ -118,12 +118,12 @@ Microsoft Edge で高速ダウンロード機能を使用するには、信頼�
 
 1. コントロールパネルを開きます（**[!UICONTROL Windows キー + X]**を押して「**[!UICONTROL &#x200B;コントロールパネル]**」を選択します）。
 1. **[!UICONTROL ネットワークとインターネット／インターネットオプション]**に移動します。「**[!UICONTROL &#x200B;セキュリティ]**」タブをクリックします。
-1. **[!UICONTROL 信頼済みサイトゾーン]**、**[!UICONTROL &#x200B;サイト]**の順にクリックします。
+1. 「**[!UICONTROL 信頼済みサイトゾーン]**」、「**[!UICONTROL &#x200B;サイト]**」の順にクリックします。
 1. リストから Brand Portal サイトを削除します。
 
-## Aspera Connect クライアントの環境設定 {#aspera-connect-client-preferences}
+## Aspera Connect クライアントの環境設定{#aspera-connect-client-preferences}
 
-アイコンを右クリックし、「**[!UICONTROL 設定]**」を選択すると、IBM Aspera Connect クライアント環境設定で指定できる、便利な環境設定がいくつかあります。
+アイコンを右クリックし、「**[!UICONTROL 環境設定]**」を選択して IBM Aspara Connect クライアント環境設定で指定できる、便利な環境設定がいくつかあります。
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
@@ -135,7 +135,7 @@ Microsoft Edge で高速ダウンロード機能を使用するには、信頼�
 
 ![](assets/aspera-automaticallylaunch.png)
 
-## ダウンロードアクセラレーションに関する問題のトラブルシューティング {#troubleshoot-issues-with-download-acceleration}
+## ダウンロードアクセラレーションに関する問題のトラブルシューティング{#troubleshoot-issues-with-download-acceleration}
 
 ダウンロードアクセラレーションが機能しない場合は、次の手順に従ってトラブルシューティングをおこなってください。
 
@@ -143,11 +143,11 @@ Microsoft Edge で高速ダウンロード機能を使用するには、信頼�
 
    ポートに問題がある場合は、ネットワークチームに連絡して、ポート 33001（TCP と UDP の両方）がファイアウォールでブロックされていないことを確認します。
 
-1. ポートに問題がない場合は、[/](https://www.speedtest.net/)https://www.speedtest.net/ を使用して使用可能な帯域幅を測定し、ネットワークが低速になっていないかどうかを確認します。
+1. ポートに問題がない場合は、[https://www.speedtest.net/](https://www.speedtest.net/) を使用して使用可能な帯域幅を測定し、ネットワークが低速になっていないかどうかを確認します。
 
    帯域幅が少ない（1～10 Mbps）または Kbps 単位の場合、Aspera の環境設定を使用して、利用可能な帯域幅と同じ帯域幅に制限してみてください。
 
-1. Aspera デモサーバーからのダウンロードが機能しているかどうかを確認するには、[](https://demo.asperasoft.com/aspera/user)https://demo.asperasoft.com/aspera/user を使用します。\
+1. Aspera デモサーバーからのダウンロードが機能しているかどうかを確認するには、[https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user) を使用します。\
    （ログイン名：asperaweb、パスワード：demoaspera）
 
 1. 上記のトラブルシューティング手順がいずれも機能しない場合は、「ダウンロードアクセラレーションを有効化」オプションの選択を解除して、通常のダウンロードを使用します。
