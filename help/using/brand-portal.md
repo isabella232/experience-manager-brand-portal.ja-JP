@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
 
 ---
@@ -102,18 +102,18 @@ Brand Portal の標準ユーザーは一般的に、閲覧者の役割を持ち�
 
 AEM Assets の作成者は、上記のタスクに加えて、次のタスクを実行できます。
 
-[AEM Assets と Brand Portal の統合の設定](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+[AEM Assets と Brand Portal の統合の設定](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
 
-[Brand Portal へのフォルダーの公開](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+[Brand Portal へのフォルダーの公開](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
 
-[Brand Portal へのコレクションの公開](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+[Brand Portal へのコレクションの公開](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
 
 ## Brand Portal URL の代替エイリアス {#tenant-alias-for-portal-url}
 
 Brand Portal 6.4.3 以降では、各組織はそれぞれの Brand Portal テナントの既存 URL に対して 1 つの代替（エイリアス）URL を持つことができます。エイリアス URL を作成するには、既存の URL に代替プレフィックスを含めます。\
 カスタマイズできるのは Brand Portal URL のプレフィックスのみであり、URL 全体でないことに注意してください。例えば、**[!UICONTROL geomettrix.brand-portal.adobe.com]**という既存ドメインを持つ組織は、アドビに依頼することで**[!UICONTROL  geomettrixinc.brand-portal.adobe.com]** という URL を作成できます。
 
-ただし、AEM オーサーインスタンスを[設定](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)する際にはテナント ID URL のみを使用できます。テナントエイリアス（代替）URL は使用できません。
+ただし、AEM オーサーインスタンスを[設定](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)する際にはテナント ID URL のみを使用できます。テナントエイリアス（代替）URL は使用できません。
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ Brand Portal 6.4.3 以降では、各組織はそれぞれの Brand Portal テ�
 
 アクセス権を申請するには、以下の手順を実行します。
 
-1. Brand Portal ログインページから、「**[!UICONTROL アクセスが必要ですか？]**」の横にある「**[!UICONTROL &#x200B;ここをクリックしてください]** です。ただし、ゲストセッションに入るには、「**[!UICONTROL ゲストとしてアクセスしますか？]**」の横にある「**[!UICONTROL &#x200B;ここをクリックしてください]**」を選択します。
+1. Brand Portal ログインページから、「**[!UICONTROL アクセスが必要ですか？]**」の横にある「**[!UICONTROL &#x200B;ここをクリックしてください]**」を選択します。ただし、ゲストセッションに入るには、「**[!UICONTROL ゲストとしてアクセスしますか？]**」の横にある「**[!UICONTROL &#x200B;ここをクリックしてください]**」を選択します。
 
    ![Brand Portal のログイン画面](assets/bp-login-requestaccess.png)
 
@@ -148,7 +148,7 @@ Brand Portal 6.4.3 以降では、各組織はそれぞれの Brand Portal テ�
    1. [!UICONTROL Adobe ID] を持っていない場合は、[!UICONTROL アクセスを申請]ページの「**[!UICONTROL Adobe ID を取得]**」をクリックして、Adobe ID を作成します。[!UICONTROL ログイン]ページが開きます。
    1. 「**[!UICONTROL Adobe ID を取得]**」をクリックします。[!UICONTROL 新規登録]ページが開きます。
    1. 名前、電子メール ID およびパスワードを入力します。
-   1. Select **[!UICONTROL Sign up]**.<br />
+   1. 「**[!UICONTROL 新規登録]**」をクリックします。<br />
    ![](assets/bplogin_request_access_5.png)
 
    [!UICONTROL アクセスを申請]ページにリダイレクトされます。
@@ -196,5 +196,5 @@ Brand Portal のメンテナンスのために停止が計画されている場�
 
 ## 関連リソース {#related-resources}
 
-* [アドビカスタマーケア](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* [アドビカスタマーケア](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html)
 * [AEM フォーラム](https://www.adobe.com/go/aod_forums_en)
