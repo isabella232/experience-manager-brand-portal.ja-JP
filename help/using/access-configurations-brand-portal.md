@@ -9,7 +9,7 @@ topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -27,8 +27,7 @@ AEM Assets Brand Portal 6.4.2 以降では、管理者は、所属組織の Bran
 
 ## ゲストによるアクセスを許可 {#allow-guest-access}
 
-ゲストアクセスを許可すると、ユーザーはBrand portalにログインしなくてもパブリックアセットにアクセスできます。
-ゲストアクセスを許可するには、管理者は次の手順を実行する必要があります。
+ゲストによるアクセスを許可すると、ユーザーは Brand Portal にログインしなくても公開アセットにアクセスできます。ゲストによるアクセスを許可するには、管理者が次の手順を実行する必要があります。
 
 1. 管理ツールにアクセスするには、上部のツールバーにある AEM ロゴを選択します。
 1. 管理ツールパネルで、**[!UICONTROL アクセス]**を選択して**[!UICONTROL &#x200B;アクセス設定]**ページを開きます。
@@ -38,7 +37,7 @@ AEM Assets Brand Portal 6.4.2 以降では、管理者は、所属組織の Bran
 
 ![](assets/bp-welcome-screen.png)
 
-## ユーザーのアクセス要求を許可 {#allow-users-to-request-access}
+## ユーザーのアクセス要求を許可{#allow-users-to-request-access}
 
 管理者は、組織ユーザーに対し、ようこそ画面から Brand Portal へのアクセスを要求することを許可できます。ただし、管理者は「**[!UICONTROL ユーザーのアクセス要求を許可]**」設定を有効にして、ようこそ画面にアクセス要求用のリンクが表示されるようにする必要があります。
 
