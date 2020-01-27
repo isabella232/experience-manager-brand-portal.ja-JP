@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -31,7 +31,7 @@ Brand Portal 管理者は、ユーザーに表示されるインターフェイ�
 
    ![](assets/admin-tools-panel-10.png)
 
-1. **[!UICONTROL ブランディングの設定]**ページの左レールでは、「**[!UICONTROL &#x200B;壁紙]**」がデフォルトで選択されています。ログインページに表示されるデフォルトの背景画像が表示されています。
+1. **[!UICONTROL ブランディングの設定]**ページの左パネルでは、「**[!UICONTROL &#x200B;壁紙]**」がデフォルトで選択されています。ログインページに表示されるデフォルトの背景画像が表示されています。
 
    ![](assets/default_wallpaper.png)
 
@@ -77,7 +77,7 @@ Brand Portal にログインすると、ヘッダーが様々な Brand Portal �
 
    ![](assets/admin-tools-panel-11.png)
 
-1. Brand Portal インターフェイスのページヘッダーをカスタマイズするには、**[!UICONTROL ブランディングを設定]**ページの左レールから「**[!UICONTROL &#x200B;ヘッダーの画像]**」を選択します。デフォルトのヘッダー画像が表示されています。
+1. Brand Portal インターフェイスのページヘッダーをカスタマイズするには、**[!UICONTROL ブランディングを設定]**ページの左パネルから「**[!UICONTROL &#x200B;ヘッダーの画像]**」を選択します。デフォルトのヘッダー画像が表示されています。
 
    ![](assets/default-header.png)
 
@@ -125,7 +125,7 @@ Brand Portal にログインすると、ヘッダーが様々な Brand Portal �
 
    ![](assets/admin-tools-panel-12.png)
 
-1. アセットをリンクとして共有したり電子メールを介してダウンロードしたりする場合や&#x200B;**[!UICONTROL コレクション]**を共有する場合は、ユーザーに電子メール通知が送信されます。電子メールメッセージをカスタマイズするには、**[!UICONTROL &#x200B;ブランディングを設定]**ページの左レールから「**[!UICONTROL 電子メールメッセージ]**」を選択します。
+1. アセットをリンクとして共有したり電子メールを介してダウンロードしたりする場合や&#x200B;**[!UICONTROL コレクション]**を共有する場合は、ユーザーに電子メール通知が送信されます。電子メールメッセージをカスタマイズするには、**[!UICONTROL &#x200B;ブランディングを設定]**ページの左パネルから「**[!UICONTROL 電子メールメッセージ]**」を選択します。
 
    ![](assets/configure-branding-page-email.png)
 
