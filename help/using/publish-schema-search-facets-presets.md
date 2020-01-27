@@ -8,7 +8,7 @@ topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -25,11 +25,11 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 ## Brand Portal への画像プリセットの公開 {#publish-image-presets-to-brand-portal}
 
 画像プリセットとは、画像配信の際に画像に適用される一連のサイズ変更コマンドやフォーマットコマンドをまとめたものです。画像プリセットは Brand Portal で作成したり修正したりできます。あるいは、AEM オーサーインスタンスがダイナミックメディアモードで動作している場合は、ユーザーが AEM オーサーインスタンス上でプリセットを作成し、そのプリセットを AEM Assets Brand Portal に公開することができます。これにより、同じプリセットを Brand Portal 上で作り直す必要がなくなります。\
-プリセットを作成すると、それがアセット詳細のレンディションレールとダウンロードダイアログに動的レンディションとしてリストされます。
+プリセットを作成すると、それがアセット詳細のレンディションパネルとダウンロードダイアログに動的レンディションとしてリストされます。
 
 >[!NOTE]
 >
->AEM オーサーインスタンスが **[!UICONTROL Dynamic Media モード]**で動作していない（顧客が Dynamic Media を購入していない）場合、アセットの**[!UICONTROL &#x200B;ピラミッド TIFF]** レンディションはアップロード時に作成されません。画像プリセットまたは動的レンディションは、アセットの&#x200B;**[!UICONTROL ピラミッド TIFF]**で機能するので、**[!UICONTROL &#x200B;ピラミッド TIFF]** が AEM オーサーインスタンスで使用できない場合は、Brand Portal 上でも使用できません。したがって、動的レンディションがアセット詳細ページのレンディションレールやダウンロードダイアログに表示されません。
+>AEM オーサーインスタンスが **[!UICONTROL Dynamic Media モード]**で動作していない（顧客が Dynamic Media を購入していない）場合、アセットの**[!UICONTROL &#x200B;ピラミッド TIFF]** レンディションはアップロード時に作成されません。画像プリセットまたは動的レンディションは、アセットの&#x200B;**[!UICONTROL ピラミッド TIFF]**で機能するので、**[!UICONTROL &#x200B;ピラミッド TIFF]** が AEM オーサーインスタンスで使用できない場合は、Brand Portal 上でも使用できません。したがって、動的レンディションがアセット詳細ページのレンディションパネルやダウンロードダイアログに表示されません。
 
 画像プリセットを Brand Portal に公開するには、次のようにします。
 
@@ -83,16 +83,16 @@ Brand Portal へのメタデータスキーマの公開を取り消すには、�
 
 ## Brand Portal への検索ファセットの公開 {#publish-search-facets-to-brand-portal}
 
-検索フォームは、Brand Portal のユーザーに[ファセット検索](../using/brand-portal-search-facets.md)の機能を提供します。検索ファセットは Brand Portal 上での詳細検索を可能にします。検索フォームに[追加されている述語](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-facets.html#AddingaPredicate)はすべて、検索フィルター内の検索ファセットとしてユーザーに提供されます。
+検索フォームは、Brand Portal のユーザーに[ファセット検索](../using/brand-portal-search-facets.md)の機能を提供します。検索ファセットは Brand Portal 上での詳細検索を可能にします。検索フォームに[追加されている述語](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/search-facets.html#AddingaPredicate)はすべて、検索フィルター内の検索ファセットとしてユーザーに提供されます。
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)
 
-AEM オーサーインスタンスのカスタム検索フォーム「**[!UICONTROL アセット管理者の検索レール]**」を使用したい場合は、Brand Portal 上で同じフォームを作成し直す代わりに、カスタマイズされた検索フォームを AEM オーサーインスタンスから Brand Portal に公開できます。
+AEM オーサーインスタンスのカスタム検索フォーム「**[!UICONTROL アセット管理者の検索パネル]**」を使用したい場合は、Brand Portal 上で同じフォームを作成し直す代わりに、カスタマイズされた検索フォームを AEM オーサーインスタンスから Brand Portal に公開できます。
 
 >[!NOTE]
 >
->AEM Assets 上のロックされた検索フォーム「**[!UICONTROL アセット管理者の検索レール]**」は Brand Portal に公開できませんが、編集されている場合は公開可能です。編集されて Brand Portal に公開されると、この検索フォームが Brand Portal 上の検索フォームをオーバーライドします。
+>AEM Assets 上のロックされた検索フォーム「**[!UICONTROL アセット管理者の検索パネル]**」は Brand Portal に公開できませんが、編集されている場合は公開可能です。編集されて Brand Portal に公開されると、この検索フォームが Brand Portal 上の検索フォームをオーバーライドします。
 
 編集された検索ファセットを AEM オーサーインスタンスから Brand Portal へ公開するには、次のようにします。
 
