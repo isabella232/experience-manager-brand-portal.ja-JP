@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
 
 ---
@@ -16,13 +16,13 @@ source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
 
 # 投稿フォルダーの設定 {#configure-contribution-folder}
 
-共同アセットソーシングの場合、AEMユーザー（管理者および権限を持つ非管理者ユーザー）はアセット貢献度タイプの新しいフォルダーを作成できます ****。作成した新しいフォルダーは、Brand portalユーザーがアセット送信用に開くことができます。  これにより、新しく作成された&#x200B;**投稿**&#x200B;フォルダー内に **SHARED** および **NEW** という 2 つのサブフォルダーを追加作成するワークフローが自動的にトリガーされます。
+共同アセットソーシングの場合、AEM ユーザー（管理者および権限を持つ非管理者ユーザー）は&#x200B;**アセット投稿**&#x200B;タイプの新しいフォルダーを作成できます。作成した新しいフォルダーは、Brand Portal ユーザーがアセット送信に利用できます。これにより、新しく作成された&#x200B;**投稿**&#x200B;フォルダー内に **SHARED** および **NEW** という 2 つのサブフォルダーを追加作成するワークフローが自動的にトリガーされます。
 
 次に、AEM ユーザーはアセット要件を定義します。それには、投稿フォルダーに追加する必要があるアセットのタイプに関する概要と一連のベースラインアセットを **SHARED** フォルダーにアップロードして、Brand Portal ユーザーが必要な情報を確実に入手できるようにします。その後、管理者は、アクティブな Brand Portal ユーザーに投稿フォルダーへのアクセスを許可してから、新しく作成した投稿フォルダーを Brand Portal に公開することができます。
 
-次のビデオでは、AEM Assetsで貢献度フォルダーを設定する方法を示します。
+次のビデオでは、AEM Assets での投稿フォルダーの設定方法を説明しています。
 
->[!VIDEO](https://video.tv.adobe.com/v/30547)
+>[!VIDEO](https://video.tv.adobe.com/v/30547?captions=jpn)
 
 AEM ユーザーは、投稿フォルダーを設定する際に、次のアクティビティを実行します。
 
