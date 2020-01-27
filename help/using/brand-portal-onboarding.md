@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: e8d06818-29c7-4810-bff1-40b3e2818114
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 初回のログイン操作は、管理者を含め、どの新規 AEM Assets Brand Portal ユーザーでも同じ手順になります。管理者が組織の Brand Portal アカウントにユーザーを追加すると、そのユーザーは自動的に追加されるので、招待に同意する必要はありません。追加されたユーザーには、組織の Brand Portal アカウントへのリンクが記載された「ようこそ」の電子メールが届きます。
 
-以下は、Brand portalに初めてログインするユーザーに対して実行する手順です。
+Brand Portal に初めてログインするユーザーが実行する手順は以下のとおりです。
 
 1. 「ようこそ」の電子メールを開いて、「**[!UICONTROL 使用を開始]**」をクリックします。
 
@@ -29,12 +29,12 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
    >[!NOTE]
    >
-   >組織で Enterprise ID を使用している場合は、新規登録ページは表示されずに、エンタープライズログインページにリダイレクトされます。詳しくは、[Enterprise ID、ログイン、およびアカウントヘルプ](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html)を参照してください。
+   >組織で Enterprise ID を使用している場合は、新規登録ページは表示されずに、エンタープライズログインページにリダイレクトされます。詳しくは、[Enterprise ID、ログイン、およびアカウントヘルプ](https://helpx.adobe.com/jp/enterprise/kb/enterprise-id-faq.html)を参照してください。
 
 1. 「**[!UICONTROL 続行]**」をクリックして、組織の Brand Portal ページに進みます。
-1. Brand Portal サインインページの「**[!UICONTROL サインイン]**」をクリックして、Brand Portal にログインします。
+1. Brand Portal ログインページの「**[!UICONTROL ログイン]**」をクリックして、Brand Portal にログインします。
 
-   ![Brand Portal のサインインページ](assets/signin-onboarding.png)
+   ![Brand Portal のログインページ](assets/signin-onboarding.png)
 
    >[!NOTE]
    >
