@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -36,7 +36,7 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
    ![](assets/add_to_collectionlightbox.png)
 
-1. **[!UICONTROL Lightbox]**に追加されているアセットを表示するには、左側のレールの「**[!UICONTROL &#x200B;コレクション]**」をクリックし、**[!UICONTROL Lightbox]**コレクションをクリックします。
+1. **[!UICONTROL Lightbox]**に追加されているアセットを表示するには、左側のパネルの「**[!UICONTROL &#x200B;コレクション]**」をクリックし、**[!UICONTROL Lightbox]**コレクションをクリックします。
 
    ![](assets/collections_lightbox.png)
 
@@ -46,7 +46,7 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ## Lightbox からのアセットの削除 {#remove-assets-from-lightbox}
 
-1. [!UICONTROL Lightbox] のアセットをレビューするには、左レールの「**[!UICONTROL コレクション]**」をクリックし、次に[!UICONTROL Lightbox]コレクションをクリックします。
+1. [!UICONTROL Lightbox] のアセットをレビューするには、左パネルの「**[!UICONTROL コレクション]**」をクリックし、次に[!UICONTROL Lightbox]コレクションをクリックします。
 
    ![](assets/collections_lightbox-1.png)
 
