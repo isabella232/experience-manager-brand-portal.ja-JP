@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 5cb6109b4e3888b7235ae1ae0d29721722ae2ba5
+source-git-commit: 37ced7a7e51d13e815d9602ddf7dc425f3fa392a
 
 ---
 
@@ -35,29 +35,29 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 このリリースには、次の新機能が含まれています。
 
-* Brand portalへのゲストログイン用のCaptcha。
+* Captchaを使用して、ブランドポータルにゲストログインします。 詳しくは、「ブ [ランドポータルのゲストアクセス](../using/guest-access.md) 」を参照してください。
 
 ### 機能強化 {#enhancements-646}
 
 Brand Portalのこのリリースで強化された機能は次のとおりです。
 
-* Adobe I/Oを使用してBrand portalでAEM Assetsが設定され、Brand portalテナントの認証用にIMSトークンが取得されるようになりました。
+* Adobe I/Oを通じてAEM AssetsがBrand Portalで設定され、Brand Portalテナントの認証用にIMSトークンを取得できるようになりました。
 
    >[!NOTE]
    >
-   >レガシーOAuthを使用した設定は、2020年4月6日からサポートされなくなり、Adobe I/Oに移行しました。
+   >レガシーOAuthを使用した設定は、2020年4月6日からはサポートされなくなり、Adobe I/Oを使用した設定に変更されました。
 
-<!--
-   For more information, see [Configure integration with Brand Portal](brand-portal-configure-integration.md)
-   -->
+
+For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
+
 
 ### 修正された重要な問題 {#critical-issues-fixed}
 
 このリリースでは、次の重要な問題が修正されています。
 
-* メタデータスキーマのドロップダウン値は、アセットプロパティに表示されません。
+* メタデータスキーマのドロップダウン値は、アセットのプロパティに表示されません。
 
-* メタデータサブスキーマは、アセットプロパティのMIMEタイプに基づくタブを表示しません。
+* メタデータのサブスキーマは、アセットのプロパティのMIMETYPEに基づいてタブを表示しません。
 
 * 非公開メタデータスキーマは、バックエンドでスキーマが削除されてもエラーメッセージを入力します。
 
@@ -65,9 +65,9 @@ Brand Portalのこのリリースで強化された機能は次のとおりで�
 
 * 名前に一重引用符が含まれているアセットを発行または非公開にできません。
 
-* 複数のアセットのダウンロード中は、利用条件は表示されません。
+* 複数のアセットのダウンロード中は、利用条件が表示されません。
 
-* セキュリティに関する小さな脆弱性が解消されました。
+* 小さなセキュリティの脆弱性に対処しました。
 
 ### 既知の問題 {#known-issues}
 
