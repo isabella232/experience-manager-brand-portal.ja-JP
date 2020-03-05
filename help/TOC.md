@@ -4,8 +4,8 @@ product: adobe experience manager
 sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
-translation-type: ht
-source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
+translation-type: tm+mt
+source-git-commit: eba4ee138d4f594c4c446a3cc8941f04fd46902c
 
 ---
 
@@ -20,12 +20,12 @@ source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
    + [よくある質問](using/brand-portal-faqs.md)
    + [サポートされているファイル形式](using/brand-portal-supported-formats.md)
    + [Brand Portal へのゲストによるアクセス](using/guest-access.md)
-   + [AEM Assets と Brand Portal について](https://helpx.adobe.com/jp/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+   + [AEM Assets と Brand Portal について](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
    + [Brand Portal でのアセットの参照](using/browse-assets-brand-portal.md)
 + AEM Assets から Brand Portal への公開 {#publish}
-   + [AEM Assets と Brand Portal の統合の設定](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
-   + [Brand Portal へのコレクションの公開](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
-   + [Brand Portal へのフォルダーの公開](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+   + [Brand PortalでのAEM Assetsの設定](using/configure-aem-assets-with-brand-portal.md)
+   + [Brand Portal へのコレクションの公開](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+   + [Brand Portal へのフォルダーの公開](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
    + [Brand Portal への並列公開における問題のトラブルシューティング](using/troubleshoot-parallel-publishing.md)
    + [Brand Portal へのタグの公開](using/brand-portal-publish-tags.md)
    + [Brand Portal へのプリセット、スキーマ、ファセットの公開](using/publish-schema-search-facets-presets.md)
