@@ -8,23 +8,23 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-translation-type: ht
-source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+translation-type: tm+mt
+source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
 
 ---
 
 
 # Brand Portal への並列公開における問題のトラブルシューティング {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal は AEM Assets との統合をサポートしており、承認済みブランドアセットを AEM Assets オーサーインスタンスからシームレスに取り込む（または公開する）ことができます。[統合](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)された AEM オーサーインスタンスは、レプリケーションエージェントを使用して、選択されているアセットを Brand Portal クラウドサービスにレプリケートし、Brand Portal ユーザーが使用できる状態にします。AEM 6.2 SP1-CFP5、AEM CFP 6.3.0.2 およびそれ以降では、高速な並列公開を実現するために複数のレプリケーションエージェントが使用されています。
+Brand Portalは、AEM Assetsを使用して設定され、承認されたブランドアセットがAEM Assets作成者インスタンスからシームレスに取り込まれ（または公開され）ます。 Once [configured](../using/configure-aem-assets-with-brand-portal.md), AEM Author uses a replication agent to replicate the selected asset(s) to Brand Portal cloud service for approved usage by Brand Portal users. AEM 6.2 SP1-CFP5、AEM CFP 6.3.0.2 およびそれ以降では、高速な並列公開を実現するために複数のレプリケーションエージェントが使用されています。
 
 >[!NOTE]
 >
->AEM Assets Brand Portal と AEM Assets を適切に連携させるには、AEM 6.4.1.0 にアップグレードすることを推奨します。AEM 6.4 では、Brand Portal との連携を設定する際にエラーが発生し、レプリケーションが失敗します。
+>AEM Assets Brand PortalがAEM Assetsで正しく設定されるように、AEM 6.4.1.0にアップグレードすることをお勧めします。 AEM 6.4では、Brand PortalでAEM Assetsを設定中にエラーが発生し、レプリケーションが失敗するという制限があります。
 
-**[!UICONTROL /etc/cloudservice]下にブランドポータルのクラウドサービスを設定すると、必要なユーザーとトークンがすべて自動生成され、リポジトリに保存されます。**&#x200B;クラウドサービスの設定が作成され、レプリケーションに必要なサービスユーザーと、コンテンツをレプリケートするためのレプリケーションエージェントも作成されます。これによって 4 つのレプリケーションエージェントが作成されます。したがって、多数のアセットを AEM から Brand Portal に公開するときは、アセットがキューを形成し、これらのレプリケーションエージェント間でラウンドロビンを通じて配分されます。
+**[!UICONTROL /etc/cloudservice]** 下にブランドポータルのクラウドサービスを設定すると、必要なユーザーとトークンがすべて自動生成され、リポジトリに保存されます。クラウドサービスの設定が作成され、レプリケーションに必要なサービスユーザーと、コンテンツをレプリケートするためのレプリケーションエージェントも作成されます。これによって 4 つのレプリケーションエージェントが作成されます。したがって、多数のアセットを AEM から Brand Portal に公開するときは、アセットがキューを形成し、これらのレプリケーションエージェント間でラウンドロビンを通じて配分されます。
 
-ただし、大きな Sling ジョブや、AEM オーサーインスタンス上のネットワークおよび&#x200B;**[!UICONTROL ディスク I/O]の増加や AEM オーサーインスタンスのパフォーマンス低下などの理由で、公開が断続的に失敗することがあります。**&#x200B;そのため、公開を開始する前に、レプリケーションエージェントとの接続テストをおこなうことをお勧めします。
+ただし、大きな Sling ジョブや、AEM オーサーインスタンス上のネットワークおよび&#x200B;**[!UICONTROL ディスク I/O]** の増加や AEM オーサーインスタンスのパフォーマンス低下などの理由で、公開が断続的に失敗することがあります。そのため、公開を開始する前に、レプリケーションエージェントとの接続テストをおこなうことをお勧めします。
 
 ![](assets/test-connection.png)
 
