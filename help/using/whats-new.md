@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: e20a75fd982d375d73461d177380349cb32b5303
+source-git-commit: eba4ee138d4f594c4c446a3cc8941f04fd46902c
 
 ---
 
@@ -21,9 +21,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 ## 6.4.6 の変更点 {#what-changed-in-646}
 
-Brand Portal 6.4.6は、AEM AssetsとBrand portalの間の認証チャネルが変更された機能強化リリースです。 Adobe I/Oを使用してBrand portalでAEM Assetsが設定され、Brand portalテナントの認証用にIMSトークンが取得されるようになりました。
-
-以前は、Brand portalは従来のOAuth Gatewayを介してクラシックUIで設定されていました。レガシーOAuth Gatewayは、JWTトークン交換を使用して認証用のIMSアクセストークンを取得します。
+Brand Portal 6.4.6は、AEM AssetsとBrand Portalの間の認証チャネルが変更された機能強化リリースです。 以前は、Brand Portalは従来のOAuth Gatewayを介してクラシックUIで設定されていました。レガシーOAuth Gatewayは、JWTトークン交換を使用して認証用のIMSアクセストークンを取得します。 Adobe I/Oを通じてAEM AssetsがBrand Portalで設定され、Brand Portalテナントの認証用にIMSトークンを取得できるようになりました。
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -39,17 +37,28 @@ Brand Portal 6.4.6は、AEM AssetsとBrand portalの間の認証チャネルが�
 
    -->
 
-Adobe I/O上のブランドポータルを使用したAEM Assets設定は、次のURLでサポートされます。
-* AEM 6.5.4.0以降
-* AEM 6.4.8.0以降
-* AEM 6.3.3.8以降
+Brand PortalでAEM Assetsを設定する手順は、AEMのバージョン、および初めて設定するか、既存の設定をアップグレードするかによって異なります。
+
+<!--| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
+|---|---|---|
+| **AEM 6.5 (6.5.4.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-65.md) |[Upgrade configuration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
+| **AEM 6.4 (6.4.8.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-64.md) |[Upgrade configuration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
+| **AEM 6.3 (6.3.3.8 and above)** |[Create configuration](../using/brand-portal-configure-integration-63.md) |[Upgrade configuration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
+| **AEM 6.2** |Contact Support |Contact Support | 
+-->
 
 
->[!NOTE]
->
->レガシーOAuthを使用した設定は、2020年4月6日からサポートされなくなり、Adobe I/Oに移行しました。
->
->既存の設定は、設定を削除または変更しない場合でも引き続き機能します。
+<!-- AEM Assets configuration with Brand Portal on Adobe I/O is supported on:
+* AEM 6.5.4.0 and above
+* AEM 6.4.8.0 and above
+* AEM 6.3.3.8 and above -->
+
+| **AEM のバージョン** | **新しい設定** | **アップグレード設定** |
+|---|---|---|
+| **AEM 6.5 （6.5.4.0以降）** | [設定の作成](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [アップグレード設定](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#Upgradeconfiguration) |
+| **AEM 6.4 （6.4.8.0以降）** | [設定の作成](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [アップグレード設定](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#Upgradeconfiguration) |
+| **AEM 6.3 （6.3.3.8以降）** | [設定の作成](https://helpx.adobe.com/in/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [アップグレード設定](https://helpx.adobe.com/in/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
+| **AEM 6.2** | サポートへのお問い合わせ | サポートへのお問い合わせ |
 
 最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
 
