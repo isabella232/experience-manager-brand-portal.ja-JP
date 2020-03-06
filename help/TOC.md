@@ -5,7 +5,7 @@ sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
 translation-type: tm+mt
-source-git-commit: eba4ee138d4f594c4c446a3cc8941f04fd46902c
+source-git-commit: c9c47422067bb287e98fa32b17f4f4a711ef9491
 
 ---
 
@@ -24,8 +24,9 @@ source-git-commit: eba4ee138d4f594c4c446a3cc8941f04fd46902c
    + [Brand Portal でのアセットの参照](using/browse-assets-brand-portal.md)
 + AEM Assets から Brand Portal への公開 {#publish}
    + [Brand PortalでのAEM Assetsの設定](using/configure-aem-assets-with-brand-portal.md)
-   + [Brand Portal へのコレクションの公開](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
-   + [Brand Portal へのフォルダーの公開](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+   + [Brand Portal へのアセットの公開](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
+   + [Brand Portal へのフォルダーの公開](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
+   + [Brand Portal へのコレクションの公開](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
    + [Brand Portal への並列公開における問題のトラブルシューティング](using/troubleshoot-parallel-publishing.md)
    + [Brand Portal へのタグの公開](using/brand-portal-publish-tags.md)
    + [Brand Portal へのプリセット、スキーマ、ファセットの公開](using/publish-schema-search-facets-presets.md)
