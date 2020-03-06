@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: eba4ee138d4f594c4c446a3cc8941f04fd46902c
+source-git-commit: 58110f1635a9e74340d4a8901e86c0c6a99cf4e2
 
 ---
 
@@ -32,9 +32,9 @@ Brand PortalでAEM Assetsを設定する手順は、AEMのバージョン、お�
 
 | **AEM のバージョン** | **新しい設定** | **アップグレード設定** |
 |---|---|---|
-| **AEM 6.5 （6.5.4.0以降）** | [設定の作成](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [アップグレード設定](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#Upgradeconfiguration) |
-| **AEM 6.4 （6.4.8.0以降）** | [設定の作成](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [アップグレード設定](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#Upgradeconfiguration) |
-| **AEM 6.3 （6.3.3.8以降）** | [設定の作成](https://helpx.adobe.com/in/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [アップグレード設定](https://helpx.adobe.com/in/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
+| **AEM 6.5 （6.5.4.0以降）** | [設定の作成](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [アップグレード設定](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
+| **AEM 6.4 （6.4.8.0以降）** | [設定の作成](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [アップグレード設定](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
+| **AEM 6.3 （6.3.3.8以降）** | [設定の作成](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [アップグレード設定](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | サポートへのお問い合わせ | サポートへのお問い合わせ |
 
 
