@@ -17,7 +17,7 @@ activity: use
 audience: author, marketer
 version: 6.5
 kt: 3838
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1aa8892cd51e262ccc16f955655fa644fec230e7
 
 ---
@@ -29,13 +29,13 @@ source-git-commit: 1aa8892cd51e262ccc16f955655fa644fec230e7
 
 また、既存の機能はすべてそのままで変わりません。Brand Portal ユーザーは、投稿フォルダーおよび許可された他のフォルダーからアセットを表示、検索およびダウンロードできます。さらに、管理者は投稿フォルダーの共有、プロパティの変更、コレクションへのアセットの追加をおこなうことができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=jpn)
 
 >[!NOTE]
 >
 >Brand Portal のアセットソーシングは、AEM 6.5.2.0 以降でサポートされます。
 >
->この機能は、以前のバージョン（AEM 6.3 および AEM 6.4）サポートされません。
+>この機能は、以前のバージョン（AEM 6.3 および AEM 6.4）ではサポートされません。
 >
 >AEM インスタンスを最新のサポートされる AEM バージョンにアップグレードするには、アドビサポートにお問い合わせください。
 
@@ -44,7 +44,7 @@ source-git-commit: 1aa8892cd51e262ccc16f955655fa644fec230e7
 ## 前提条件 {#prerequisites}
 
 * AEM 6.5.0.2 以降。
-* AEM AssetsインスタンスがBrand Portalで設定されていることを確認します。 See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* AEM Assets インスタンスと Brand Portal の連携が設定されていることを確認します。[AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
 
 ## 関連トピック {#reference-articles}
 
