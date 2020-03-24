@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
 
 ---
@@ -26,23 +26,23 @@ source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
 
 ブラウザーベースのポータル環境では、アセットを簡単にアップロード、参照、検索、プレビュー、承認された形式で書き出すことができます。
 
-## Configure AEM Assets with Brand Portal {#configure-brand-portal}
+## AEM Assets と Brand Portal の連携の設定 {#configure-brand-portal}
 
-Adobe Experience Manager (AEM)Assetsは、Adobe I/Oを通じてBrand Portalで設定され、Brand Portalテナントの認証用にIMSトークンを取得します。
+Adobe Experience Manager（AEM）Assets と Brand Portal の連携が、Adobe I/O を通じて設定されます。Adobe I/O は Brand Portal テナントの認証用の IMS トークンを取得します。
 
 >[!NOTE]
 >
->Adobe I/Oを介したBrand PortalでのAEM Assetsの設定は、AEM 6.3以降でサポートされています。
+>Adobe I/O を使用した AEM Assets と Brand Portal の連携の設定は、AEM 6.3 以降でサポートされています。
 
-### AEM AssetsをBrand Portalで設定するための前提条件 {#prerequisites}
+### AEM Assets と Brand Portal の連携を設定するための前提条件 {#prerequisites}
 
-AEM AssetsをBrand Portalで設定するには、次が必要です。
+AEM Assets と Brand Portal の連携を設定するには以下が必要です。
 
-* 最新のService Packを含むAEM Assets作成者インスタンスを起動および実行します。
-* ブランドポータルテナントURL。
-* Brand PortalテナントのIMS組織に対するシステム管理者権限を持つユーザー。
+* 最新のサービスパックを適用した実行中の AEM Assets オーサーインスタンス
+* Brand Portal テナント URL
+* Brand Portal テナントの IMS 組織に対するシステム管理者権限を持つユーザー
 
-For more information, see [configuring AEM Assets with Brand Poral](../using/configure-aem-assets-with-brand-portal.md).
+詳しくは、[AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
 
 ## Brand Portal でのユーザーのペルソナ {#Personas}
 
@@ -120,11 +120,11 @@ Brand Portal の標準ユーザーは一般的に、閲覧者の役割を持ち�
 
 AEM Assets の作成者は、上記のタスクに加えて、次のタスクを実行できます。
 
-[Brand PortalでのAEM Assetsの設定](../using/configure-aem-assets-with-brand-portal.md)
+[AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)
 
-[Brand Portal へのフォルダーの公開](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+[Brand Portal へのフォルダーの公開](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
 
-[Brand Portal へのコレクションの公開](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+[Brand Portal へのコレクションの公開](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
 
 ## Brand Portal URL の代替エイリアス {#tenant-alias-for-portal-url}
 
@@ -217,5 +217,5 @@ Brand Portal のメンテナンスのために停止が計画されている場�
 
 ## 関連リソース {#related-resources}
 
-* [アドビカスタマーケア](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* [アドビカスタマーケア](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html)
 * [AEM フォーラム](https://www.adobe.com/go/aod_forums_en)
