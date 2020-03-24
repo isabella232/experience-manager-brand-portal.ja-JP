@@ -4,7 +4,7 @@ product: adobe experience manager
 sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9c47422067bb287e98fa32b17f4f4a711ef9491
 
 ---
@@ -20,13 +20,13 @@ source-git-commit: c9c47422067bb287e98fa32b17f4f4a711ef9491
    + [よくある質問](using/brand-portal-faqs.md)
    + [サポートされているファイル形式](using/brand-portal-supported-formats.md)
    + [Brand Portal へのゲストによるアクセス](using/guest-access.md)
-   + [AEM Assets と Brand Portal について](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+   + [AEM Assets と Brand Portal について](https://helpx.adobe.com/jp/experience-manager/kt/assets/using/brand-portal-article-understand.html)
    + [Brand Portal でのアセットの参照](using/browse-assets-brand-portal.md)
 + AEM Assets から Brand Portal への公開 {#publish}
-   + [Brand PortalでのAEM Assetsの設定](using/configure-aem-assets-with-brand-portal.md)
-   + [Brand Portal へのアセットの公開](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
-   + [Brand Portal へのフォルダーの公開](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
-   + [Brand Portal へのコレクションの公開](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
+   + [AEM Assets と Brand Portal の連携の設定](using/configure-aem-assets-with-brand-portal.md)
+   + [Brand Portal へのアセットの公開](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
+   + [Brand Portal へのフォルダーの公開](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
+   + [Brand Portal へのコレクションの公開](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
    + [Brand Portal への並列公開における問題のトラブルシューティング](using/troubleshoot-parallel-publishing.md)
    + [Brand Portal へのタグの公開](using/brand-portal-publish-tags.md)
    + [Brand Portal へのプリセット、スキーマ、ファセットの公開](using/publish-schema-search-facets-presets.md)
