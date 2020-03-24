@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
 
 ---
@@ -20,12 +20,12 @@ AEM 管理者は、AEM オーサーインスタンス内から&#x200B;**アセ�
 
 >[!NOTE]
 >
->設定を開始する前に、AEM AssetsインスタンスがBrand Portalで設定されていることを確認します。 See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+>設定を開始する前に、AEM Assets インスタンスと Brand Portal の連携が設定されていることを確認します。[AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
 
 
 次のビデオでは、AEM オーサーインスタンスでアセットソーシングを設定する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/29771)
+>[!VIDEO](https://video.tv.adobe.com/v/29771?captions=jpn)
 
 ## アセットソーシングの有効化 {#enable-asset-sourcing}
 
