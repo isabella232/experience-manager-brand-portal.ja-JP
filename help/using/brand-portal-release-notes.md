@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: ht
-source-git-commit: 37ced7a7e51d13e815d9602ddf7dc425f3fa392a
+translation-type: tm+mt
+source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
 
 ---
 
@@ -48,6 +48,13 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
    >旧来の OAuth を使用した設定は、2020 年 4 月 6 日以降はサポートされなくなり、Adobe I/O を使用した設定に変更されます。
 
 
+   >[!TIP]
+   >
+   >***既存のお客様のみ***
+   >
+   >既存のレガシーOAuth Gateway設定を引き続き使用することをお勧めします。 レガシーOAuth Gatewayの設定に問題が発生した場合は、既存の設定を削除し、Adobe I/Oを使用して新しい設定を作成します。
+
+
 詳しくは、[AEM Assets と Brand Portal の連携の設定](configure-aem-assets-with-brand-portal.md)を参照してください
 
 
@@ -73,6 +80,8 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 このリリースには、次の既知の問題が含まれています。
 
+* Brand Portalユーザーは、Adobe I/Oにアップグレードする際に、貢献度フォルダーのアセットをAEM Assetsに公開できません。
+
 * アセットのダウンロード中に、「システムレンディションを除く」オプションが正常に機能しない。
 
 ## 言語 {#languages}
@@ -89,14 +98,14 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 * 簡体字中国語
 * 韓国語
 
-## 認定プラットフォーム{#certified-platforms}
+## 認定プラットフォーム {#certified-platforms}
 
-このリリースの Brand Portal を実行できる認定プラットフォームを確認するには、[技術要件](https://helpx.adobe.com/jp/experience-manager/6-4/sites/deploying/using/technical-requirements.html)の「**オーサリングユーザーインターフェイス向けにサポートされているブラウザー**」節に記載されている表の「**UI のサポート**」列を参照してください。
+このリリースの Brand Portal を実行できる認定プラットフォームを確認するには、[技術要件](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)の「**オーサリングユーザーインターフェイス向けにサポートされているブラウザー**」節に記載されている表の「**UI のサポート**」列を参照してください。
 
 ## リンク {#links}
 
-* [Adobe Experience Manager 製品ページ（adobe.com）](http://www.adobe.com/jp/marketing-cloud/experience-manager.html)
-* [Assets Brand Portal のドキュメント](https://helpx.adobe.com/jp/experience-manager/brand-portal/user-guide.html)
+* [Adobe Experience Manager 製品ページ（adobe.com）](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
+* [Assets Brand Portal のドキュメント](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html)
 
 ## 製品のアクセスとサポート（制限付きサイト）{#product-access-and-support-restricted-sites}
 
@@ -104,4 +113,4 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 
 * [](https://daycare.day.com) [製品へのアクセス](https://login.marketing.adobe.com)
 
-* [アドビカスタマーケア](https://helpx.adobe.com/jp/contact.html)
+* [アドビカスタマーケア](https://helpx.adobe.com/contact.html)
