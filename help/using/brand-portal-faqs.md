@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
+translation-type: tm+mt
+source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
 
 ---
 
@@ -19,6 +19,20 @@ source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
 Brand Portal FAQ では、最新の AEM Assets Brand Portal 6.4.5 リリース以前のバージョンで作業中に発生する可能性のあるエンドユーザー向けのクエリと問題に焦点を当てています。
 
 
+## Brand Portal 6.4.6に関するFAQ {#faqs-bp646}
+
+**質問：既存のレガシーOAuthエンドポイント(`https://legacy-oauth.cloud.adobe.io/login`)が機能していません。 考えられる理由は何でしょう？**
+
+**回答：** 従来のOAuth設定は非推奨です。 AEM Assetsの作成者インスタンスを最新のサービスパックにアップグレードし、Adobe IOを使用して設定する必要があります。 See [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md) for details. ただし、アップグレードするまでレガシーOAuth設定が機能するようにするには、レガシーOAuthエンドポイントをに更新しま `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`す。
+
+**質問：Adobe I/Oにアップグレードした後、貢献度フォルダーのアセットをBrand PortalからAEM Assetsに公開できません。作成者インスタンスがAEM 6.5.4にある。考えられる理由は何でしょう？**
+
+**回答：** はい、Adobe I/Oを使用してAEM 6.5.4上のAEM Assetsにコントリビューションフォルダーのアセットを公開する際に、既知の問題が発生しました。この問題は、次のサービスパックAEM 6.5.5で修正されます。
+
+AEM 6.5.4の即時修正を行うには、ホットフィックスをダウンロードし [て](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) 、AEMオーサーインスタンスにインストールすることをお勧めします。
+
+
+## Brand Portal 6.4.5 FAQ {#faqs-bp645}
 
 **質問：Brand Portal 6.4.5 リリースの主な変更点は何ですか。**
 
@@ -106,7 +120,7 @@ Brand Portal ユーザーは**投稿**&#x200B;フォルダーにアクセスし�
 
 **質問：読み込みジョブと公開ジョブのステータスはどこで確認できますか。**
 
-**回答：** AEM では、読み込みの状態を&#x200B;**非同期**&#x200B;ジョブページで確認できます。Brand Portal では、**[!UICONTROL ツール／アセット投稿のステータス]**で公開ジョブのステータスを確認できます。
+**回答：** AEM では、読み込みの状態を&#x200B;**非同期**&#x200B;ジョブページで確認できます。Brand Portal では、**[!UICONTROL ツール／アセット投稿のステータス]**&#x200B;で公開ジョブのステータスを確認できます。
 
 
 
@@ -159,4 +173,4 @@ Brand Portal ユーザーは**投稿**&#x200B;フォルダーにアクセスし�
 
 * [](https://daycare.day.com) [製品へのアクセス](https://login.marketing.adobe.com)
 
-* [アドビカスタマーケア](https://helpx.adobe.com/jp/contact.html)
+* [アドビカスタマーケア](https://helpx.adobe.com/contact.html)
