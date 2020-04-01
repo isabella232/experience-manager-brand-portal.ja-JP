@@ -17,8 +17,8 @@ activity: use
 audience: author, marketer
 version: 6.5
 kt: 3838
-translation-type: ht
-source-git-commit: 1aa8892cd51e262ccc16f955655fa644fec230e7
+translation-type: tm+mt
+source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 1aa8892cd51e262ccc16f955655fa644fec230e7
 
 また、既存の機能はすべてそのままで変わりません。Brand Portal ユーザーは、投稿フォルダーおよび許可された他のフォルダーからアセットを表示、検索およびダウンロードできます。さらに、管理者は投稿フォルダーの共有、プロパティの変更、コレクションへのアセットの追加をおこなうことができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 >[!NOTE]
 >
@@ -40,6 +40,18 @@ source-git-commit: 1aa8892cd51e262ccc16f955655fa644fec230e7
 >AEM インスタンスを最新のサポートされる AEM バージョンにアップグレードするには、アドビサポートにお問い合わせください。
 
 ![Brand Portal アセットソーシング](assets/asset-sourcing.png)
+
+
+>[!NOTE]
+>
+>AEM 6.5.4のユーザーの場合、アセットソーシング機能は引き続き「従来のOAuth統合」で機能します。
+>
+>ただし、Brand Portalユーザーは、AEM 6.5.4上のAdobe I/Oにアップグレードする際に、貢献度フォルダーのアセットをAEM Assetsに発行することはできません。
+>
+>この問題は、次のサービスパックAEM 6.5.5で修正されます。
+>
+>AEM 6.5.4の即時修正を行うには、ホットフィックスをダウンロードし [て作成者インスタンス](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) にインストールすることをお勧めします。
+
 
 ## 前提条件 {#prerequisites}
 
