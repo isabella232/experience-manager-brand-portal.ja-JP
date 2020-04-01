@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
+source-git-commit: e0aeb9a69c81add2d87463fc87d6d08ae57722b9
 
 ---
 
@@ -48,15 +48,14 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
    >旧来の OAuth を使用した設定は、2020 年 4 月 6 日以降はサポートされなくなり、Adobe I/O を使用した設定に変更されます。
 
 
-   >[!TIP]
-   >
-   >***既存のお客様のみ***
-   >
-   >既存のレガシーOAuth Gateway設定を引き続き使用することをお勧めします。 レガシーOAuth Gatewayの設定に問題が発生した場合は、既存の設定を削除し、Adobe I/Oを使用して新しい設定を作成します。
+>[!TIP]
+>
+>***既存のお客様のみ***
+>
+>既存のレガシーOAuth Gateway設定を引き続き使用することをお勧めします。 レガシーOAuth Gatewayの設定に問題が発生した場合は、既存の設定を削除し、Adobe I/Oを使用して新しい設定を作成します。
 
 
 詳しくは、[AEM Assets と Brand Portal の連携の設定](configure-aem-assets-with-brand-portal.md)を参照してください
-
 
 ### 修正された重要な問題 {#critical-issues-fixed}
 
@@ -80,9 +79,14 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 このリリースには、次の既知の問題が含まれています。
 
-* Brand Portalユーザーは、Adobe I/Oにアップグレードする際に、貢献度フォルダーのアセットをAEM Assetsに公開できません。
+* Brand Portalユーザーは、AEM 6.5.4上のAdobe I/Oにアップグレードする際に、貢献度フォルダーのアセットをAEM Assetsに公開できません。
 
-* アセットのダウンロード中に、「システムレンディションを除く」オプションが正常に機能しない。
+   この問題は、次のサービスパック6.5.5で修正されます。
+
+   AEM 6.5.4の即時修正を行うには、ホットフィックスをダウンロードし [て作成者インスタンス](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) にインストールすることをお勧めします。
+
+* アセットのダウンロード中に、「システムレンディションを除外」オプションが正常に機能しない。
+
 
 ## 言語 {#languages}
 
