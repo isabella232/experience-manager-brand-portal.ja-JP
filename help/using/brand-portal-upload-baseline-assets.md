@@ -5,11 +5,12 @@ description: Brand Portal でのコントリビューションフォルダーへ
 seo-description: Brand Portal でのコントリビューションフォルダーへの参照用コンテンツ（ベースラインアセット）のアップロードについて説明します。
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: a32de22b7d5ac2b53b31aab8675dfdac1f5a724c
+translation-type: tm+mt
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -24,7 +25,7 @@ AEM 管理者は、**SHARED** フォルダーのベースラインアセット�
 1. **[!UICONTROL アセット／ファイル]**&#x200B;に移動して、ベースラインアセットをアップロードするコントリビューションフォルダーを探します。
 1. クリックしてコントリビューションフォルダーを開くと、コントリビューションフォルダー内に **[!UICONTROL SHARED]** と **[!UICONTROL NEW]** の 2 つのサブフォルダーが表示されます。
 1. **[!UICONTROL SHARED]** フォルダーをクリックします。
-1. **[!UICONTROL 作成／ファイル]**（![](assets/upload.png)）をクリックして、個別のアセットをアップロードします。または、**[!UICONTROL 作成／フォルダー]**をクリックして、複数のアセットを含むフォルダー（.zip）をアップロードします。
+1. **[!UICONTROL 作成／ファイル]**![](assets/upload.png)（）をクリックして、個別のアセットをアップロードします。または、**[!UICONTROL 作成／フォルダー]**をクリックして、複数のアセットを含むフォルダー（.zip）をアップロードします。
    ![](assets/upload-baseline-assets1.png)
 1. **[!UICONTROL SHARED]** フォルダーのベースラインアセット（ファイル／フォルダー）を参照およびアップロードします。
    ![](assets/upload-baseline-assets2.png)
