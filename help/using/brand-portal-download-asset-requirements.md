@@ -5,11 +5,12 @@ description: Brand Portal でのアセット要件およびベースラインア
 seo-description: Brand Portal でのアセット要件およびベースラインアセットのダウンロード方法を説明します。
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+translation-type: tm+mt
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -29,9 +30,9 @@ Brand Portal ユーザーは、アセット要件をダウンロードするた�
 
 1. Brand Portal インスタンスにログインします。
 1. Brand Portal ダッシュボードからコントリビューションフォルダーを選択します。
-1. 「**[!UICONTROL プロパティ]**」（![](assets/properties.png)）をクリックします。プロパティウィンドウが開き、アセットコントリビューションフォルダーの詳細が表示されます。
+1. 「**[!UICONTROL プロパティ]**![](assets/properties.png)」（）をクリックします。プロパティウィンドウが開き、アセットコントリビューションフォルダーの詳細が表示されます。
    ![](assets/download-asset-requirement1.png)
-1. 「**[!UICONTROL 概要をダウンロード]**」（![](assets/download.png)）をクリックして、アセット要件ドキュメントをローカルマシンにダウンロードします。
+1. 「**[!UICONTROL 概要をダウンロード]**![](assets/download.png)」（）をクリックして、アセット要件ドキュメントをローカルマシンにダウンロードします。
    ![](assets/download-asset-requirement2.png)
 1. Brand Portal ダッシュボードに戻ります。
 1. クリックしてコントリビューションフォルダーを開くと、コントリビューションフォルダー内に **[!UICONTROL SHARED]** と **[!UICONTROL NEW]** の 2 つのサブフォルダーが表示されます。SHARED フォルダーには、管理者によって共有されたすべてのベースラインアセット（参照用コンテンツ）が含まれます。
