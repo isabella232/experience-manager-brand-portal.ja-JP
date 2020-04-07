@@ -5,12 +5,13 @@ description: 'AEM Assets で投稿フォルダーのプロパティを設定す�
 seo-description: 'AEM Assets で投稿フォルダーのプロパティを設定する方法を説明します。 '
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
-translation-type: ht
-source-git-commit: 6a1edaf9db40461096c5583e987f4d482cbad7cd
+translation-type: tm+mt
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -30,11 +31,11 @@ AEM 管理者は、投稿フォルダーのプロパティを設定する際に�
 **投稿フォルダーのプロパティを設定するには：**
 1. AEM オーサーインスタンス（デフォルト URL：http:// localhost:4502/aem/start.html）にログインします。
 1. **[!UICONTROL アセット／ファイル]**&#x200B;に移動して、投稿フォルダーを探します。
-1. 投稿フォルダー を選択して、「**[!UICONTROL プロパティ]**」（![](assets/properties.png)）をクリックします。フォルダーのプロパティウィンドウが開きます。
+1. 投稿フォルダー を選択して、「**[!UICONTROL プロパティ]**![](assets/properties.png)」（）をクリックします。フォルダーのプロパティウィンドウが開きます。
    ![](assets/contribution-folder-property1.png)
 1. 「**[!UICONTROL アセット投稿]**」タブに移動します。
 1. 投稿フォルダーの大まかな&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。
-1. **[!UICONTROL 概要をアップロード]** ![](assets/upload.png) をクリックし、ローカルマシンから参照して&#x200B;**アセット要件ドキュメント**&#x200B;をアップロードします。
+1. **[!UICONTROL 概要をアップロード]**![](assets/upload.png)  をクリックし、ローカルマシンから参照して&#x200B;**アセット要件ドキュメント**&#x200B;をアップロードします。
 1. 「**[!UICONTROL ユーザーまたはグループを追加]**」で、投稿フォルダーを共有したい Brand Portal ユーザーまたはグループを検索して「**[!UICONTROL 追加]**」します。これらの Brand Portal ユーザー／グループには、投稿フォルダーにアクセスしたり、AEM オーサーインスタンスにアクセスすることなく Brand Portal インターフェイスからコンテンツをアップロードしたりする権限があります。
 1. 「**[!UICONTROL 保存]**」をクリックします。
    ![](assets/contribution-folder-property2.png)
