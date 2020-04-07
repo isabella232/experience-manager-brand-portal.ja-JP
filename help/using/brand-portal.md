@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
-translation-type: ht
-source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
+translation-type: tm+mt
+source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
 
@@ -32,13 +32,13 @@ Adobe Experience Manager（AEM）Assets と Brand Portal の連携が、Adobe I/
 
 >[!NOTE]
 >
->Adobe I/O を使用した AEM Assets と Brand Portal の連携の設定は、AEM 6.3 以降でサポートされています。
+>Adobe I/Oを介したBrand PortalでのAEM Assetsの設定は、AEM Assetsクラウドサービス（AEM Assets 6.3以降）でサポートされます。
 
 ### AEM Assets と Brand Portal の連携を設定するための前提条件 {#prerequisites}
 
 AEM Assets と Brand Portal の連携を設定するには以下が必要です。
 
-* 最新のサービスパックを適用した実行中の AEM Assets オーサーインスタンス
+* AEM Assetsインスタンスの起動および実行。
 * Brand Portal テナント URL
 * Brand Portal テナントの IMS 組織に対するシステム管理者権限を持つユーザー
 
