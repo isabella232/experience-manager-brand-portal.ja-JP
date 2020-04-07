@@ -5,11 +5,12 @@ description: Brand Portal の AEM Assets へのコントリビューションフ
 seo-description: Brand Portal の AEM Assets へのコントリビューションフォルダーの公開について説明します。
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+translation-type: tm+mt
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -24,7 +25,7 @@ Brand Portal ユーザーは、AEM オーサーインスタンスにアクセス
 
 1. Brand Portal インスタンスにログインします。
 1. Brand Portal ダッシュボードからコントリビューションフォルダーを選択します。
-1. 「**[!UICONTROL AEM に公開]**」（![](assets/export.png)）をクリックします。
+1. 「**[!UICONTROL AEM に公開]**![](assets/export.png)」（）をクリックします。
    ![](assets/publish-contribution-folder-to-aem.png)
 
 公開ワークフローの様々なステージで、電子メール／パルス通知が Brand Portal および AEM、管理者およびユーザーに送信されます。
