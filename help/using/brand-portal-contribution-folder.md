@@ -5,11 +5,12 @@ description: Brand Portal での投稿フォルダーの設定について説明
 seo-description: Brand Portal での投稿フォルダーの設定について説明します。
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
+translation-type: tm+mt
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -22,7 +23,7 @@ source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
 
 次のビデオでは、AEM Assets での投稿フォルダーの設定方法を説明しています。
 
->[!VIDEO](https://video.tv.adobe.com/v/30547?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/30547)
 
 AEM ユーザーは、投稿フォルダーを設定する際に、次のアクティビティを実行します。
 
