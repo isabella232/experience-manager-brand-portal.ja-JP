@@ -5,11 +5,12 @@ description: Adobe Experience Manager Assets Brand Portal 6.4.6 リリースの�
 seo-description: Adobe Experience Manager Assets Brand Portal 6.4.6 リリースの機能強化、修正された重要な問題および既知の問題について説明します。
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: e0aeb9a69c81add2d87463fc87d6d08ae57722b9
+source-git-commit: a357879f921ac88f89d1bc11bff379f1d0d3e681
 
 ---
 
@@ -37,11 +38,14 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 * Captcha を使用して Brand Portal にゲストとしてログインする。詳しくは、[Brand Portal へのゲストによるアクセス](../using/guest-access.md)を参照してください。
 
+* AEM AssetsクラウドサービスでBrand Portalがサポートされるようになりました。 AEM AssetsがBrand Portalでサービスできるように設定して、Brand Portalユーザーとアセットを共有し、配布することができます。
+For more information, see [Configure AEM Assets cloud service with Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+
 ### 機能強化 {#enhancements-646}
 
 このリリースの Brand Portal で強化された機能は次のとおりです。
 
-* AEM Assets と Brand Portal の連携が、Adobe I/O を通じて設定されるようになりました。Adobe I/O が Brand Portal テナントの認証用の IMS トークンを取得します。
+* AEM 6.3以降では、AEM AssetsとBrand Portalの間の認証チャネルが変更されます。 AEM Assets と Brand Portal の連携が、Adobe I/O を通じて設定されるようになりました。Adobe I/O が Brand Portal テナントの認証用の IMS トークンを取得します。
 
    >[!NOTE]
    >
@@ -104,12 +108,12 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 
 ## 認定プラットフォーム {#certified-platforms}
 
-このリリースの Brand Portal を実行できる認定プラットフォームを確認するには、[技術要件](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)の「**オーサリングユーザーインターフェイス向けにサポートされているブラウザー**」節に記載されている表の「**UI のサポート**」列を参照してください。
+このリリースの Brand Portal を実行できる認定プラットフォームを確認するには、[技術要件](https://helpx.adobe.com/jp/experience-manager/6-4/sites/deploying/using/technical-requirements.html)の「**オーサリングユーザーインターフェイス向けにサポートされているブラウザー**」節に記載されている表の「**UI のサポート**」列を参照してください。
 
 ## リンク {#links}
 
-* [Adobe Experience Manager 製品ページ（adobe.com）](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Assets Brand Portal のドキュメント](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html)
+* [Adobe Experience Manager 製品ページ（adobe.com）](http://www.adobe.com/jp/marketing-cloud/experience-manager.html)
+* [Assets Brand Portal のドキュメント](https://helpx.adobe.com/jp/experience-manager/brand-portal/user-guide.html)
 
 ## 製品のアクセスとサポート（制限付きサイト）{#product-access-and-support-restricted-sites}
 
@@ -117,4 +121,4 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 
 * [](https://daycare.day.com) [製品へのアクセス](https://login.marketing.adobe.com)
 
-* [アドビカスタマーケア](https://helpx.adobe.com/contact.html)
+* [アドビカスタマーケア](https://helpx.adobe.com/jp/contact.html)
