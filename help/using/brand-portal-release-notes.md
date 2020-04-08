@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: a357879f921ac88f89d1bc11bff379f1d0d3e681
+source-git-commit: f90bf72c6ec4ee19ca7949fa4cf0dc8ec4c93cfd
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 * Captcha を使用して Brand Portal にゲストとしてログインする。詳しくは、[Brand Portal へのゲストによるアクセス](../using/guest-access.md)を参照してください。
 
 * AEM AssetsクラウドサービスでBrand Portalがサポートされるようになりました。 AEM AssetsがBrand Portalでサービスできるように設定して、Brand Portalユーザーとアセットを共有し、配布することができます。
-For more information, see [Configure AEM Assets cloud service with Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+For more information, see [Configure AEM Assets cloud service with Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
 
 ### 機能強化 {#enhancements-646}
 
