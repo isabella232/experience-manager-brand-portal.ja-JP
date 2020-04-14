@@ -1,11 +1,11 @@
 ---
 source-git-commit: 70e35f77b6bdd606ebcc73f1bb7951e53874e669
-translation-type: tm+mt
+translation-type: ht
 
 ---
-# Adobe Experience Manager Brand Portalドキュメント
+# Adobe Experience Manager Brand Portal ドキュメント
 
-これは、Adobe Experience Manager Brand Portalドキュメントのリポジトリです。
+Adobe Experience Manager Brand Portal ドキュメントのリポジトリです。
 
 ドキュメントに対する貢献を歓迎します。次のリソースを参照してください。
 
