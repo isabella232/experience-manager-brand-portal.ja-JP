@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-translation-type: ht
-source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
+translation-type: tm+mt
+source-git-commit: 5b16a4073592896264237f00554e361ed8929383
 
 ---
 
 
 # Brand Portal への並列公開における問題のトラブルシューティング {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal と AEM Assets の連携を設定すると、承認済みブランドアセットを AEM Assets オーサーインスタンスからシームレスに取り込む（または公開する）ことができます。[設定](../using/configure-aem-assets-with-brand-portal.md)された AEM オーサーインスタンスは、レプリケーションエージェントを使用して、選択されているアセットを Brand Portal クラウドサービスにレプリケートし、Brand Portal ユーザーが使用できる状態にします。AEM 6.2 SP1-CFP5、AEM CFP 6.3.0.2 およびそれ以降では、高速な並列公開を実現するために複数のレプリケーションエージェントが使用されています。
+Brand Portal と AEM Assets の連携を設定すると、承認済みブランドアセットを AEM Assets オーサーインスタンスからシームレスに取り込む（または公開する）ことができます。[設定](../using/configure-aem-assets-with-brand-portal.md)された AEM オーサーインスタンスは、レプリケーションエージェントを使用して、選択されているアセットを Brand Portal クラウドサービスにレプリケートし、Brand Portal ユーザーが使用できる状態にします。複数のレプリケーションエージェントを使用して、AEM 6.2 SP1 ～ CFP5、AEM CFP 6.3.0.2以降を高速並列パブリッシングに使用します。
 
 >[!NOTE]
 >
