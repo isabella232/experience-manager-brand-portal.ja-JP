@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: f90bf72c6ec4ee19ca7949fa4cf0dc8ec4c93cfd
+source-git-commit: 9bb1538165030f7f9e78af99bb89ea38897c3967
 
 ---
 
@@ -38,14 +38,14 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 * Captcha を使用して Brand Portal にゲストとしてログインする。詳しくは、[Brand Portal へのゲストによるアクセス](../using/guest-access.md)を参照してください。
 
-* AEM AssetsクラウドサービスでBrand Portalがサポートされるようになりました。 AEM AssetsがBrand Portalでサービスできるように設定して、Brand Portalユーザーとアセットを共有し、配布することができます。
-For more information, see [Configure AEM Assets cloud service with Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
+* AEM Assets Cloud Service で Brand Portal がサポートされるようになりました。AEM Assets が Brand Portal でサービスできるように設定して、Brand Portal ユーザーとアセットを共有および配布できます。
+詳しくは、[AEM Assets Cloud Service と Brand Portal の設定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html)を参照してください。
 
 ### 機能強化 {#enhancements-646}
 
 このリリースの Brand Portal で強化された機能は次のとおりです。
 
-* AEM 6.3以降では、AEM AssetsとBrand Portalの間の認証チャネルが変更されます。 AEM Assets と Brand Portal の連携が、Adobe I/O を通じて設定されるようになりました。Adobe I/O が Brand Portal テナントの認証用の IMS トークンを取得します。
+* AEM 6.3 以降では、AEM Assets と Brand Portal の間の認証チャネルが変更されます。AEM Assets と Brand Portal の連携が、Adobe I/O を通じて設定されるようになりました。Adobe I/O が Brand Portal テナントの認証用の IMS トークンを取得します。
 
    >[!NOTE]
    >
@@ -56,7 +56,7 @@ For more information, see [Configure AEM Assets cloud service with Brand Portal]
 >
 >***既存のお客様のみ***
 >
->既存のレガシーOAuth Gateway設定を引き続き使用することをお勧めします。 レガシーOAuth Gatewayの設定に問題が発生した場合は、既存の設定を削除し、Adobe I/Oを使用して新しい設定を作成します。
+>既存のレガシー OAuth Gateway 設定を引き続き使用することをお勧めします。レガシー OAuth Gateway 設定に問題が発生した場合は、既存の設定を削除し、Adobe I/O から新しい設定を作成します。
 
 
 詳しくは、[AEM Assets と Brand Portal の連携の設定](configure-aem-assets-with-brand-portal.md)を参照してください
@@ -83,13 +83,13 @@ For more information, see [Configure AEM Assets cloud service with Brand Portal]
 
 このリリースには、次の既知の問題が含まれています。
 
-* Brand Portalユーザーは、AEM 6.5.4上のAdobe I/Oにアップグレードする際に、貢献度フォルダーのアセットをAEM Assetsに公開できません。
+* Brand Portal ユーザーが AEM 6.5.4 の Adobe I/O にアップグレードする際に、投稿フォルダーのアセットを AEM Assets に公開できない。
 
-   この問題は、次のサービスパック6.5.5で修正されます。
+   この問題は、次のサービスパック 6.5.5 で修正されます。
 
-   AEM 6.5.4の即時修正を行うには、ホットフィックスをダウンロードし [て作成者インスタンス](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) にインストールすることをお勧めします。
+   AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダウンロード](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)して、オーサーインスタンスにインストールすることをお勧めします。
 
-* アセットのダウンロード中に、「システムレンディションを除外」オプションが正常に機能しない。
+* アセットのダウンロード中に、「システムレンディションを除く」オプションが正常に機能しない。
 
 
 ## 言語 {#languages}
@@ -119,6 +119,8 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 
 以下のサイトは既存ユーザーのみが参照できます。アクセス権を必要とするお客様は、アドビのアカウントマネージャーにご連絡ください。
 
-* [](https://daycare.day.com) [製品へのアクセス](https://login.marketing.adobe.com)
+* [https://daycare.day.com](https://daycare.day.com)
+
+* [製品へのアクセス](https://login.marketing.adobe.com)
 
 * [アドビカスタマーケア](https://helpx.adobe.com/jp/contact.html)
