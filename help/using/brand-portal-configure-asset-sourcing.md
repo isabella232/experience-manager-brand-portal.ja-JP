@@ -9,7 +9,7 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
@@ -26,7 +26,7 @@ AEM 管理者は、AEM オーサーインスタンス内から&#x200B;**アセ�
 
 次のビデオでは、AEM オーサーインスタンスでアセットソーシングを設定する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/29771)
+>[!VIDEO](https://video.tv.adobe.com/v/29771?captions=jpn)
 
 ## アセットソーシングの有効化 {#enable-asset-sourcing}
 
@@ -43,7 +43,7 @@ AEM 管理者は、AEM Web コンソール設定（Configuration Manager）内�
 
 ## Brand Portal ユーザーリストのアップロード {#upload-bp-user-list}
 
-AEM 管理者は、AEM Assets のアクティブな Brand Portal ユーザーリストを含む Brand Portal ユーザー 設定（.csv）ファイルをアップロードできます。投稿フォルダーは、ユーザーリストで定義されたアクティブな Brand Portal ユーザーのみ共有できます。また、管理者は、設定ファイルに新規ユーザーを追加して、変更したユーザーリストをアップロードできます。
+AEM 管理者は、AEM Assets のアクティブな Brand Portal ユーザーリストを含む Brand Portal ユーザー設定（.csv）ファイルをアップロードできます。投稿フォルダーは、ユーザーリストで定義されたアクティブな Brand Portal ユーザーのみ共有できます。また、管理者は、設定ファイルに新規ユーザーを追加して、変更したユーザーリストをアップロードできます。
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ AEM 管理者は、AEM Assets のアクティブな Brand Portal ユーザーリ
 1. AEM オーサーインスタンス（デフォルト URL：http:// localhost:4502/aem/start.html）にログインします。
 1. **ツール**（![](assets/tools.png)）パネルで、**[!UICONTROL アセット／Brand Portal ユーザー]**に移動します。
    ![](assets/upload-user-list1.png)
-1. Brand Portal 寄稿者をアップロードウィンドウが開きます。ローカルマシンから参照して、アクティブな Brand Portal ユーザーリストを含む&#x200B;**設定（.csv）ファイル**&#x200B;をアップロードします。
+1. Brand Portal 投稿者をアップロードウィンドウが開きます。ローカルマシンから参照して、アクティブな Brand Portal ユーザーリストを含む&#x200B;**設定（.csv）ファイル**&#x200B;をアップロードします。
 1. 「**[!UICONTROL 保存]**」をクリックします。
    ![](assets/upload-user-list2.png)
 
