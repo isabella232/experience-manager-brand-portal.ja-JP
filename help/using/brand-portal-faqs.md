@@ -9,7 +9,7 @@ contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
@@ -20,20 +20,20 @@ source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 Brand Portal FAQ では、最新の AEM Assets Brand Portal 6.4.5 リリース以前のバージョンで作業中に発生する可能性のあるエンドユーザー向けのクエリと問題に焦点を当てています。
 
 
-## Brand Portal 6.4.6に関するFAQ {#faqs-bp646}
+## Brand Portal 6.4.6 に関する FAQ {#faqs-bp646}
 
-**質問：既存のレガシーOAuthエンドポイント(`https://legacy-oauth.cloud.adobe.io/login`)が機能していません。 考えられる理由は何でしょう？**
+**質問：既存のレガシー OAuth エンドポイント（`https://legacy-oauth.cloud.adobe.io/login`）が機能していません。考えられる理由は何でしょうか？**
 
-**回答：** 従来のOAuth設定は非推奨です。 AEM Assetsの作成者インスタンスを最新のサービスパックにアップグレードし、Adobe IOを使用して設定する必要があります。 See [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md) for details. ただし、アップグレードするまでレガシーOAuth設定が機能するようにするには、レガシーOAuthエンドポイントをに更新しま `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`す。
+**回答：** レガシー OAuth 設定は非推奨です。AEM Assets のオーサーインスタンスを最新のサービスパックにアップグレードし、Adobe IO を使用して設定する必要があります。詳しくは、[AEM Assets と Brand Portal の連携の設定](configure-aem-assets-with-brand-portal.md)を参照してください。ただし、アップグレードするまでレガシー OAuth 設定が機能するようにするには、レガシー OAuth エンドポイントを `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/` に更新します。
 
-**質問：Adobe I/Oにアップグレードした後、貢献度フォルダーのアセットをBrand PortalからAEM Assetsに公開できません。作成者インスタンスがAEM 6.5.4にある。考えられる理由は何でしょう？**
+**質問：Adobe I/O にアップグレードした後、投稿フォルダーのアセットを Brand Portal から AEM Assets に公開できません。オーサーインスタンスが AEM 6.5.4 にあります。考えられる理由は何でしょうか？**
 
-**回答：** はい、Adobe I/Oを使用してAEM 6.5.4上のAEM Assetsにコントリビューションフォルダーのアセットを公開する際に、既知の問題が発生しました。この問題は、次のService Packで修正されます。
+**回答：** これは既知の問題で、Adobe I/O を使用して 6.5.4 の AEM Assets に投稿フォルダーのアセットを公開する際に発生します。この問題は、次のサービスパック AEM で修正されます。
 
-AEM 6.5.4の即時修正を行うには、ホットフィックスをダウンロードし [て](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) 、AEMオーサーインスタンスにインストールすることをお勧めします。
+AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダウンロード](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)して、AEM オーサーインスタンスにインストールすることをお勧めします。
 
 
-## Brand Portal 6.4.5 FAQ {#faqs-bp645}
+## Brand Portal 6.4.5 に関する FAQ {#faqs-bp645}
 
 **質問：Brand Portal 6.4.5 リリースの主な変更点は何ですか。**
 
@@ -44,7 +44,7 @@ AEM 6.5.4の即時修正を行うには、ホットフィックスをダウン�
 
 **質問：私が作成した既存のアセット、機能または設定へのアクセス権は失われますか。**
 
-**回答：**&#x200B;既存の機能と設定はすべてそのまま残ります。エンド-ユーザーに影響はなく、コンテンツはそのまま残ります。
+**回答：**&#x200B;既存の機能と設定はすべてそのまま残ります。エンドユーザーに影響はなく、コンテンツはそのまま残ります。
 
 
 
@@ -87,7 +87,7 @@ Brand Portal ユーザーは**投稿**&#x200B;フォルダーにアクセスし�
 
 **質問：投稿に関するアセットの要件とは何ですか。**
 
-**回答：****投稿**&#x200B;フォルダーに添付された&#x200B;**概要**&#x200B;ドキュメント、および&#x200B;**SHARED** フォルダーにアップロードされた参照コンテンツ（再利用可能なアセット）は、Brand Portal ユーザーが投稿の必要性と寄稿者に期待されること（総称して「アセット要件」と呼びます）を理解するのに役立ちます。
+**回答：****投稿**&#x200B;フォルダーに添付された&#x200B;**概要**&#x200B;ドキュメント、および **SHARED** フォルダーにアップロードされた参照コンテンツ（再利用可能なアセット）は、Brand Portal ユーザーが投稿の必要性と投稿者に期待されること（総称して「アセット要件」と呼びます）を理解するのに役立ちます。
 
 
 
@@ -113,7 +113,7 @@ Brand Portal ユーザーは**投稿**&#x200B;フォルダーにアクセスし�
 
 
 
-**質問：「アセット投稿」ユーザードロップダウンのユーザー（Brand Portal 寄稿者）のリストに入力される項目を教えてください。**
+**質問：「アセット投稿」ユーザードロップダウンのユーザー（Brand Portal 投稿者）のリストに入力される項目を教えてください。**
 
 **回答：**&#x200B;ドロップダウンのユーザーは、AEM にアップロードされた Brand Portal のユーザー設定（.csv）ファイルから入力されます。
 
@@ -127,7 +127,7 @@ Brand Portal ユーザーは**投稿**&#x200B;フォルダーにアクセスし�
 
 **質問：AEM で定期的に実行される読み込みジョブの頻度はどれくらいですか。**
 
-**回答：** AEMでは、ポーリングは 5 分ごとに実行されます。
+**回答：** AEM では、ポーリングは 5 分ごとに実行されます。
 
 
 
@@ -151,7 +151,7 @@ Brand Portal ユーザーは**投稿**&#x200B;フォルダーにアクセスし�
 
 **質問：AEM Assets から不安定な Brand Portal にフォルダーが公開されるとどうなりますか。**
 
-**回答：** AEMでは、フォルダーが Brand Portal に公開されるたびにログが保持されます。公開時に、Brand Portal に公開されていないすべてのアセットが複製キューに入れられます。公開ジョブがトリガーされた後にフォルダーに追加されたアセットは、Brand Portal に公開されません。AEM ユーザーがフォルダーを再度公開すると、以前に発行されなかった（複製キューに存在する）アセットのみが Brand Portal に発行されます。
+**回答：** AEM では、フォルダーが Brand Portal に公開されるたびにログが保持されます。公開時に、Brand Portal に公開されていないすべてのアセットが複製キューに入れられます。公開ジョブがトリガーされた後にフォルダーに追加されたアセットは、Brand Portal に公開されません。AEM ユーザーがフォルダーを再度公開すると、以前に発行されなかった（複製キューに存在する）アセットのみが Brand Portal に発行されます。
 これは、AEM Assets から Brand Portal に公開されたフォルダー、および投稿フォルダー内の SHARED フォルダーに対しても同じです。
 
 
