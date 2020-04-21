@@ -9,7 +9,7 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
@@ -23,12 +23,12 @@ source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 次のビデオでは、AEM Assets での投稿フォルダーの設定方法を説明しています。
 
->[!VIDEO](https://video.tv.adobe.com/v/30547)
+>[!VIDEO](https://video.tv.adobe.com/v/30547?captions=jpn)
 
 AEM ユーザーは、投稿フォルダーを設定する際に、次のアクティビティを実行します。
 
 * [投稿フォルダーの作成](brand-portal-create-contribution-folder.md)
 * [アセット要件のアップロード](brand-portal-configure-contribution-folder-properties.md)
-* [寄稿者の割り当て](brand-portal-configure-contribution-folder-properties.md)
+* [投稿者の割り当て](brand-portal-configure-contribution-folder-properties.md)
 * [ベースラインアセットのアップロード](brand-portal-upload-baseline-assets.md)
-* [Brand Portal への投稿フォルダーの公開開](brand-portal-publish-contribution-folder-to-brand-portal.md)
+* [Brand Portal への投稿フォルダーの公開](brand-portal-publish-contribution-folder-to-brand-portal.md)
