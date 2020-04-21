@@ -18,7 +18,7 @@ activity: use
 audience: author, marketer
 version: 6.5
 kt: 3838
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
@@ -30,7 +30,7 @@ source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 また、既存の機能はすべてそのままで変わりません。Brand Portal ユーザーは、投稿フォルダーおよび許可された他のフォルダーからアセットを表示、検索およびダウンロードできます。さらに、管理者は投稿フォルダーの共有、プロパティの変更、コレクションへのアセットの追加をおこなうことができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=jpn)
 
 >[!NOTE]
 >
@@ -45,13 +45,13 @@ source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 >[!NOTE]
 >
->AEM 6.5.4のユーザーの場合、アセットソーシング機能は引き続き「従来のOAuth統合」で機能します。
+>AEM 6.5.4 のユーザーの場合、アセットソーシングは引き続き「レガシー OAuth 統合」で機能します。
 >
->ただし、Brand Portalユーザーは、AEM 6.5.4上のAdobe I/Oにアップグレードする際に、貢献度フォルダーのアセットをAEM Assetsに発行することはできません。
+>ただし、Brand Portal ユーザーが AEM 6.5.4 の Adobe I/O にアップグレードする際に、投稿フォルダーのアセットを AEM Assets に公開できません。
 >
->この問題は、次のサービスパックAEM 6.5.5で修正されます。
+>この問題は、次のサービスパック AEM 6.5.5 で修正されます。
 >
->AEM 6.5.4の即時修正を行うには、ホットフィックスをダウンロードし [て作成者インスタンス](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) にインストールすることをお勧めします。
+>AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダウンロード](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)して、オーサーインスタンスにインストールすることをお勧めします。
 
 
 ## 前提条件 {#prerequisites}
