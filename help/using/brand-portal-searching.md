@@ -11,6 +11,9 @@ topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: ht
+source-wordcount: '1153'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,7 @@ Brand Portal の検索機能では、オムニサーチや、フィルターを�
 
 Brand Portal 上でアセットを検索するには、次のようにします。
 
-1. ツールバーの&#x200B;**[!UICONTROL 検索]**アイコンをクリックするか、**[!UICONTROL /]** キーを押してオムニサーチを起動します。
+1. ツールバーの&#x200B;**[!UICONTROL 検索]**&#x200B;アイコンをクリックするか、**[!UICONTROL /]** キーを押してオムニサーチを起動します。
 
    ![](assets/omnisearchicon-1.png)
 
@@ -51,7 +54,7 @@ Brand Portal 上でアセットを検索するには、次のようにします�
 
 ![Brand Portal のフィルターパネル](assets/file-type-search.png "Brand Portal のフィルターパネル")
 
-**[!UICONTROL フィルター]**パネルには、**[!UICONTROL &#x200B;パスブラウザー]**、**[!UICONTROL ファイルタイプ]**、**[!UICONTROL &#x200B;ファイルサイズ]**、**[!UICONTROL ステータス]**、**[!UICONTROL &#x200B;回転角度]**などの、いくつかの標準的なファセットが用意されています。ただし、**[!UICONTROL フィルター]**パネルに[カスタム検索ファセットを追加](../using/brand-portal-search-facets.md)したり、特定の検索ファセットを削除したりすることも可能です。そのためには、基礎となる検索フォームで述語を追加または削除します。詳しくは、[Brand Portal で利用可能な検索用述語の一覧](../using/brand-portal-search-facets.md#list-of-search-predicates)を参照してください。
+**[!UICONTROL フィルター]**&#x200B;パネルには、**[!UICONTROL パスブラウザー]**、**[!UICONTROL ファイルタイプ]**、**[!UICONTROL ファイルサイズ]**、**[!UICONTROL ステータス]**、**[!UICONTROL 回転角度]**&#x200B;などの、いくつかの標準的なファセットが用意されています。ただし、**[!UICONTROL フィルター]**&#x200B;パネルに[カスタム検索ファセットを追加](../using/brand-portal-search-facets.md)したり、特定の検索ファセットを削除したりすることも可能です。そのためには、基礎となる検索フォームで述語を追加または削除します。詳しくは、[Brand Portal で利用可能な検索用述語の一覧](../using/brand-portal-search-facets.md#list-of-search-predicates)を参照してください。
 
 利用可能な[検索ファセット](../using/brand-portal-search-facets.md)を使用して検索にフィルターを適用するには、次のようにします。
 
@@ -59,9 +62,9 @@ Brand Portal 上でアセットを検索するには、次のようにします�
 
    ![](assets/selectorrail.png)
 
-1. 左側の&#x200B;**[!UICONTROL フィルター]**パネルから、適切なオプションを選択して、関連するフィルターを適用します。例えば、以下の標準のフィルターを使用します。
+1. 左側の&#x200B;**[!UICONTROL フィルター]**&#x200B;パネルから、適切なオプションを選択して、関連するフィルターを適用します。例えば、以下の標準のフィルターを使用します。
 
-   * **[!UICONTROL パスブラウザー]**：特定のディレクトリ内のアセットを検索します。パスブラウザーの述語のデフォルト検索パスは`/content/dam/mac/<tenant-id>/`です。これはデフォルトの検索フォームを編集することで設定できます。
+   * **[!UICONTROL パスブラウザー]**：特定のディレクトリ内のアセットを検索します。パスブラウザーの述語のデフォルト検索パスは `/content/dam/mac/<tenant-id>/` です。これはデフォルトの検索フォームを編集することで設定できます。
    >[!NOTE]
    >
    >管理者以外のユーザーの場合、[!UICONTROL フィルター]パネルの[!UICONTROL パスブラウザー]には、そのユーザーに共有されているフォルダー（とその上位層）のコンテンツ構造のみが表示されます。\
@@ -93,7 +96,7 @@ Brand Portal 上でアセットを検索するには、次のようにします�
 プロパティの述語で大文字と小文字を区別せずに検索するには、検索フォームの「**[!UICONTROL 大文字と小文字を区別しない]**」チェックボックスをオンにします。プロパティの述語のテキスト検索では、デフォルトで大文字と小文字が区別されます。
    >[!NOTE]
    >
-   >「**[!UICONTROL 部分検索]**」チェックボックスを選択すると、デフォルトで「**[!UICONTROL &#x200B;大文字と小文字を区別しない]**」がオンになります。
+   >「**[!UICONTROL 部分検索]**」チェックボックスを選択すると、デフォルトで「**[!UICONTROL 大文字と小文字を区別しない]**」がオンになります。
 
    ![](assets/wildcard-prop-1.png)
 
@@ -117,14 +120,14 @@ Brand Portal 上でアセットを検索するには、次のようにします�
 
    >[!NOTE]
    >
-   >管理者以外のユーザーによるスマートコレクションの公開を制限できます。これにより、管理者以外のユーザーが組織の Brand Portal 上に多数の公開スマートコレクションを作成することを防止できます。管理ツールパネルの&#x200B;**[!UICONTROL 一般]**設定で、「**[!UICONTROL &#x200B;公開スマートコレクションの作成を許可]**」設定を無効化できます。
+   >管理者以外のユーザーによるスマートコレクションの公開を制限できます。これにより、管理者以外のユーザーが組織の Brand Portal 上に多数の公開スマートコレクションを作成することを防止できます。管理ツールパネルの&#x200B;**[!UICONTROL 一般]**&#x200B;設定で、「**[!UICONTROL 公開スマートコレクションの作成を許可]**」設定を無効化できます。
 
    ![](assets/save_smartcollectionui.png)
 
-1. スマートコレクションを別の名前で保存したり、「**[!UICONTROL 公開]**」チェックボックスをオンまたはオフにするには、「**[!UICONTROL &#x200B;スマートコレクションを編集]**」をクリックします。
+1. スマートコレクションを別の名前で保存したり、「**[!UICONTROL 公開]**」チェックボックスをオンまたはオフにするには、「**[!UICONTROL スマートコレクションを編集]**」をクリックします。
 
    ![](assets/edit_smartcollection.png)
 
-1. **[!UICONTROL スマートコレクションを編集]**ダイアログボックスで、「**[!UICONTROL &#x200B;名前を付けて保存]**」を選択し、スマートコレクションの名前を入力します。「**[!UICONTROL 保存]**」をクリックします。
+1. **[!UICONTROL スマートコレクションを編集]**&#x200B;ダイアログボックスで、「**[!UICONTROL 名前を付けて保存]**」を選択し、スマートコレクションの名前を入力します。「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/saveas_smartsearch.png)
