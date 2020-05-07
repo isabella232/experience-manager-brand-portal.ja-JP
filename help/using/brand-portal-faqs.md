@@ -11,6 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: ht
 source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
+workflow-type: ht
+source-wordcount: '1222'
+ht-degree: 100%
 
 ---
 
