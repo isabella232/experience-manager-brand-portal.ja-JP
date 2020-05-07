@@ -10,6 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: ht
 source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
+workflow-type: ht
+source-wordcount: '2209'
+ht-degree: 100%
 
 ---
 
@@ -81,7 +84,7 @@ Comment Type: draft
 
    管理者権限の付与について詳しくは、[ユーザーへの管理者権限の付与](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers)を参照してください。
 
-## 製品プロファイルの追加{#add-a-product-profile}
+## 製品プロファイルの追加 {#add-a-product-profile}
 
 [!UICONTROL Admin Console] の製品プロファイル（旧称：製品設定）は、Brand Portal でグループを作成するために使用されます。これにより、Brand Portal 内で役割の管理やアセットの共有などを一括して実行できます。**Brand Portal** は、デフォルトで使用可能な製品プロファイルです。これとは別の製品プロファイルを作成し、その新しい製品プロファイルにユーザーを追加することもできます。
 
@@ -164,7 +167,7 @@ Brand Portal グループにユーザーを追加するには、[!UICONTROL Admi
 
    ユーザーをカスタム製品プロファイルや新しい製品プロファイルに追加したときに、そのユーザーに電子メール通知が送信されることはありません。
 
-## ユーザーへの管理者権限の付与{#provide-administrator-privileges-to-users}
+## ユーザーへの管理者権限の付与 {#provide-administrator-privileges-to-users}
 
 システム管理者または製品管理者の権限を Brand Portal ユーザーに付与することができます。[!UICONTROL Admin Console] で使用可能なその他の管理権限（製品プロファイル管理者、ユーザーグループ管理者、サポート管理者などの権限）は付与しないでください。これらの役割について詳しくは、[管理ロール](https://helpx.adobe.com/jp/enterprise/using/admin-roles.html)を参照してください。
 
