@@ -10,6 +10,9 @@ topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: ht
+source-wordcount: '1039'
+ht-degree: 100%
 
 ---
 
@@ -48,7 +51,7 @@ Brand Portal の右上にある表示セレクターで利用可能な表示（�
 
 ![](assets/card-view.png)
 
-カード表示では、現在のレベルの各項目の情報カードを表示します。これらのカードには、以下の詳細が記載されています。
+カード表示では、現在のレベルの各項目の情報カードを表示します。これらのカードは、以下の詳細が記載されています。
 
 * アセット／フォルダーの内容を視覚的に表現したもの。
 * 種類
@@ -85,7 +88,7 @@ Brand Portal の右上にある表示セレクターで利用可能な表示（�
 
 #### カード表示の表示設定
 
-表示セレクターで&#x200B;**[!UICONTROL 表示設定]**を選択すると、**[!UICONTROL &#x200B;表示設定]**ダイアログが開き、カード表示でアセットのサムネールをサイズ変更できます。これにより、表示をパーソナライズして、表示されるサムネールの数を制御できます。
+表示セレクターで&#x200B;**[!UICONTROL 表示設定]**&#x200B;を選択すると、**[!UICONTROL 表示設定]**&#x200B;ダイアログが開き、カード表示でアセットのサムネールをサイズ変更できます。これにより、表示をパーソナライズして、表示されるサムネールの数を制御できます。
 
 ![](assets/cardviewsettings.png)
 
@@ -114,7 +117,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### リスト表示の表示設定
 
-リスト表示の最初の列には、デフォルトでアセットの&#x200B;**[!UICONTROL 名前]**が表示されます。アセットの**[!UICONTROL &#x200B;タイトル]**、**[!UICONTROL ロケール]**、**[!UICONTROL &#x200B;タイプ]**、**[!UICONTROL ディメンション]**、**[!UICONTROL &#x200B;サイズ]**、**[!UICONTROL レーティング]**、公開状態などの追加情報も表示されます。ただし、「**[!UICONTROL &#x200B;表示設定]**」を使用して、表示する列を選択することもできます。
+リスト表示の最初の列には、デフォルトでアセットの&#x200B;**[!UICONTROL 名前]**&#x200B;が表示されます。アセットの&#x200B;**[!UICONTROL タイトル]**、**[!UICONTROL ロケール]**、**[!UICONTROL タイプ]**、**[!UICONTROL ディメンション]**、**[!UICONTROL サイズ]**、**[!UICONTROL レーティング]**、公開状態などの追加情報も表示されます。ただし、「**[!UICONTROL 表示設定]**」を使用して、表示する列を選択することもできます。
 
 ![](assets/list-view-setting.png)
 
@@ -227,7 +230,7 @@ Comment Type: draft
 <p>In all views, all items can be deselected by tapping escape on the keyboard if you are using a desktop device.</p>
 -->
 
-## コンテンツツリー{#content-tree}
+## コンテンツツリー {#content-tree}
 
 これらの表示に加え、3 つのツリー表示を使用して、目的のアセットやフォルダーを表示および選択しながらアセット階層をドリルダウンします。
 
@@ -239,7 +242,7 @@ Comment Type: draft
 
 ![](assets/content-tree.png)
 
-## アセットの詳細{#asset-details}
+## アセットの詳細 {#asset-details}
 
 アセットの詳細ページでは、アセットを表示、ダウンロード、アセットリンクを共有、コレクションへアセットを移動させる、またはアセットのプロパティページを表示することができます。また、同じフォルダーの他のアセットの詳細ページへ続けて移動することもできます。
 
