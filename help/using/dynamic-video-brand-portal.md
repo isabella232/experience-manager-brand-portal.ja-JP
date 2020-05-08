@@ -11,11 +11,14 @@ topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: ht
 source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
+workflow-type: ht
+source-wordcount: '1209'
+ht-degree: 100%
 
 ---
 
 
-# Brand Portal でのダイナミックビデオのサポート{#dynamic-video-support-on-brand-portal}
+# Brand Portal でのダイナミックビデオのサポート {#dynamic-video-support-on-brand-portal}
 
 Dynamic Media をサポートしている Brand Portal でビデオをアダプティブにプレビューおよび再生します。また、ポータルおよび共有リンクから動的レンディションをダウンロードします。Brand Portal を使用すると、次のことが可能になります。
 
@@ -56,7 +59,7 @@ Brand Portal 上でダイナミックビデオを操作するには、必ず以�
 * **DM（Dynamic Media）モードで AEM オーサーを起動する**
 AEM オーサーインスタンス（Brand Portal の連携先）を [Dynamic Media ハイブリッドモード](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia)か [Dynamic Media [!DNL Scene 7] モード](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode)のいずれかで起動します。
 * **AEM オーサー上で Dynamic Media クラウドサービスを設定する**
-AEM オーサーが動作している Dynamic Media モードにもとづいて、[Dynamic Media クラウドサービス](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices)か [[!DNL Scene 7] クラウドサービス](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices)のいずれかを AEM オーサー上で設定します。それには、**ツール**／**クラウドサービス**／**Dynamic Media** を使用します。
+AEM オーサーが動作している Dynamic Media モードに基づいて、[Dynamic Media クラウドサービス](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices)か [[!DNL Scene 7] クラウドサービス](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices)のいずれかを AEM オーサー上で設定します。それには、**ツール**／**クラウドサービス**／**Dynamic Media** を使用します。
 * **Brand Portal 上で Dynamic Media を設定する**：Brand Portal 管理ツールで、AEM オーサー上の Dynamic Media クラウド設定に基づいて [Dynamic Media 設定](#configure-dm-hybrid-settings)か [[!DNL Scene 7] 設定](#configure-dm-scene7-settings)のいずれかを設定します。Dynamic Media ハイブリッドと Dynamic Media **[!UICONTROL S7]** の機能を使用する場合は、Dynamic Media ハイブリッドモードと Dynamic Media **[!UICONTROL Scene7]** モードで設定する AEM オーサーインスタンスに別個の [Brand Portal テナント](#separate-tenants)を使用する必要があります。
 * **Brand Portal に適用したビデオエンコードを含んだフォルダーを公開する**
 [ビデオエンコーディング](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/video-profiles.html)を適用し、リッチメディアアセットを含んだフォルダーを AEM オーサーインスタンスから Brand Portal に公開します。
