@@ -10,6 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: ht
+source-wordcount: '1249'
+ht-degree: 100%
 
 ---
 
@@ -18,9 +21,9 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 管理者は、[!UICONTROL フィルター]パネルに検索用述語を追加することで、検索をカスタマイズして、多目的な検索機能を設定できます。
 
-Brand Portal では[ファセット検索](../using/brand-portal-searching.md#search-using-facets-in-filters-panel)をサポートしており、承認済みブランドアセットの詳細な検索が可能です。この検索は[**フィルター&#x200B;**パネル](../using/brand-portal-searching.md#search-using-facets-in-filters-panel)で実行できます。検索ファセットは管理ツールの**[!UICONTROL &#x200B;検索フォーム]**を通じてフィルターパネルで使用可能になります。デフォルトの検索フォームはアセット管理検索パネルという名前で、管理ツールの検索フォームページにあります。しかし、管理者はデフォルトのフィルターパネルをカスタマイズできます。デフォルトの検索フォーム（アセット管理検索パネル）を編集し、検索用述語を追加、修正、削除することで、検索機能をカスタマイズできます。
+Brand Portal では[ファセット検索](../using/brand-portal-searching.md#search-using-facets-in-filters-panel)をサポートしており、承認済みブランドアセットの詳細な検索が可能です。この検索は[**フィルター&#x200B;**パネル](../using/brand-portal-searching.md#search-using-facets-in-filters-panel)で実行できます。検索ファセットは管理ツールの&#x200B;**[!UICONTROL 検索フォーム]**を通じてフィルターパネルで使用可能になります。デフォルトの検索フォームはアセット管理検索パネルという名前で、管理ツールの検索フォームページにあります。しかし、管理者はデフォルトのフィルターパネルをカスタマイズできます。デフォルトの検索フォーム（アセット管理検索パネル）を編集し、検索用述語を追加、修正、削除することで、検索機能をカスタマイズできます。
 
-様々な検索用述語を使用して、**[!UICONTROL フィルター]**パネルをカスタマイズできます。例えば、プロパティの述語を使用すると、この述語内でユーザーが指定した 1 つのプロパティと一致するアセットを検索できます。オプションの述語を追加すると、特定のプロパティについてユーザーが指定した 1 つ以上の値と一致するアセットを検索できます。日付範囲の述語を追加すると、指定した期間内に作成されたアセットを検索できます。
+様々な検索用述語を使用して、**[!UICONTROL フィルター]**&#x200B;パネルをカスタマイズできます。例えば、プロパティの述語を使用すると、この述語内でユーザーが指定した 1 つのプロパティと一致するアセットを検索できます。オプションの述語を追加すると、特定のプロパティについてユーザーが指定した 1 つ以上の値と一致するアセットを検索できます。日付範囲の述語を追加すると、指定した期間内に作成されたアセットを検索できます。
 
 >[!NOTE]
 >
@@ -28,7 +31,7 @@ Brand Portal では[ファセット検索](../using/brand-portal-searching.md#se
 
 ## 検索用述語の追加 {#add-a-search-predicate}
 
-**[!UICONTROL フィルター]**パネルに検索用述語を追加するには、次のようにします。
+**[!UICONTROL フィルター]**&#x200B;パネルに検索用述語を追加するには、次のようにします。
 
 1. 管理ツールにアクセスするには、上部のツールバーにある AEM ロゴをクリックします。
 
@@ -38,7 +41,7 @@ Brand Portal では[ファセット検索](../using/brand-portal-searching.md#se
 
    ![](assets/navigation-panel-1.png)
 
-1. **[!UICONTROL 検索フォーム]**ページの「**[!UICONTROL &#x200B;アセット管理者の検索パネル]**」を選択します。
+1. **[!UICONTROL 検索フォーム]**&#x200B;ページの「**[!UICONTROL アセット管理者の検索パネル]**」を選択します。
 
    ![](assets/search-forms-page.png)
 
@@ -48,7 +51,7 @@ Brand Portal では[ファセット検索](../using/brand-portal-searching.md#se
 
 1. [!UICONTROL 検索フォームを編集]ページで、「[!UICONTROL 述語を選択]」タブからメインウィンドウに述語をドラッグします。例えば、「**[!UICONTROL プロパティの述語]**」をドラッグします。
 
-   メインウィンドウに「**[!UICONTROL プロパティ]**」フィールドが表示され、右側の「**[!UICONTROL &#x200B;設定]**」タブにプロパティの述語が表示されます。
+   メインウィンドウに「**[!UICONTROL プロパティ]**」フィールドが表示され、右側の「**[!UICONTROL 設定]**」タブにプロパティの述語が表示されます。
 
    ![](assets/partial-prop-predicate.png)
 
@@ -62,14 +65,14 @@ Brand Portal では[ファセット検索](../using/brand-portal-searching.md#se
    * プロパティ値に基づいたアセット検索で大文字と小文字を区別しない場合は、「**[!UICONTROL 大文字と小文字を区別しない]**」を選択します。検索フィルターでのプロパティ値の検索では、デフォルトで大文字と小文字が区別されます。
    >[!NOTE]
    >
-   >「**[!UICONTROL 部分検索]**」チェックボックスを選択すると、デフォルトで「**[!UICONTROL &#x200B;大文字と小文字を区別しない]**」がオンになります。
+   >「**[!UICONTROL 部分検索]**」チェックボックスを選択すると、デフォルトで「**[!UICONTROL 大文字と小文字を区別しない]**」がオンになります。
 
-1. 「**[!UICONTROL プロパティ名]**」フィールドで、プロパティピッカーを開き、検索に使用するプロパティを選択します。または、プロパティの名前を入力します。例えば、`  jcr :content/metadata/dc:title`や`./jcr:content/metadata/dc:title`を入力します。
+1. 「**[!UICONTROL プロパティ名]**」フィールドで、プロパティピッカーを開き、検索に使用するプロパティを選択します。または、プロパティの名前を入力します。例えば、`  jcr :content/metadata/dc:title` や `./jcr:content/metadata/dc:title` を入力します。
 
    ![](assets/title-prop.png)
 
 1. 「**[!UICONTROL 完了]**」をクリックして、設定を保存します。
-1. [!UICONTROL Assets] ユーザーインターフェイスで、オーバーレイアイコンをクリックし、「**[!UICONTROL フィルター]**」を選択して**[!UICONTROL &#x200B;フィルター]**パネルに移動します。**[!UICONTROL プロパティ]**の述語がパネルに追加されています。
+1. [!UICONTROL Assets] ユーザーインターフェイスで、オーバーレイアイコンをクリックし、「**[!UICONTROL フィルター]**」を選択して&#x200B;**[!UICONTROL フィルター]**&#x200B;パネルに移動します。**[!UICONTROL プロパティ]**&#x200B;の述語がパネルに追加されています。
 
    ![](assets/property-filter-panel.png)
 
@@ -77,7 +80,7 @@ Brand Portal では[ファセット検索](../using/brand-portal-searching.md#se
 
 ## 検索用述語の一覧 {#list-of-search-predicates}
 
-**[!UICONTROL プロパティ]**の述語を追加する場合と同様の手順で、**[!UICONTROL &#x200B;フィルター]**パネルに、次の述語を追加できます。
+**[!UICONTROL プロパティ]**&#x200B;の述語を追加する場合と同様の手順で、**[!UICONTROL フィルター]**&#x200B;パネルに、次の述語を追加できます。
 
 | **述語名** | **説明** | **プロパティ** |
 |-------|-------|----------|
@@ -101,7 +104,7 @@ Brand Portal では[ファセット検索](../using/brand-portal-searching.md#se
 
 >[!NOTE]
 >
->「**[!UICONTROL オプションの述語]**」、「**[!UICONTROL &#x200B;公開ステータスの述語]**」および「**[!UICONTROL 評価の述語]**」を使用しないでください。これらの述語は Brand Portal では機能しません。
+>「**[!UICONTROL オプションの述語]**」、「**[!UICONTROL 公開ステータスの述語]**」および「**[!UICONTROL 評価の述語]**」を使用しないでください。これらの述語は Brand Portal では機能しません。
 
 ## 検索用述語の削除 {#delete-a-search-predicate}
 
@@ -115,7 +118,7 @@ Brand Portal では[ファセット検索](../using/brand-portal-searching.md#se
 
    ![](assets/navigation-panel-2.png)
 
-1. **[!UICONTROL 検索フォーム]**ページの「**[!UICONTROL &#x200B;アセット管理者の検索パネル]**」を選択します。
+1. **[!UICONTROL 検索フォーム]**&#x200B;ページの「**[!UICONTROL アセット管理者の検索パネル]**」を選択します。
 
    ![](assets/search-forms-page.png)
 
@@ -127,13 +130,13 @@ Brand Portal では[ファセット検索](../using/brand-portal-searching.md#se
 
    右側の「**[!UICONTROL 設定]**」タブに、「プロパティの述語」に関するフィールドが表示されます。
 
-1. プロパティの述語を削除するには、ごみ箱アイコンをクリックします。**[!UICONTROL フィールドを削除]**ダイアログボックスで、「**[!UICONTROL &#x200B;削除]**」をクリックして、削除することを確認します。
+1. プロパティの述語を削除するには、ごみ箱アイコンをクリックします。**[!UICONTROL フィールドを削除]**&#x200B;ダイアログボックスで、「**[!UICONTROL 削除]**」をクリックして、削除することを確認します。
 
-   メインウィンドウから「**[!UICONTROL プロパティの述語]**」フィールドが削除され、「**[!UICONTROL &#x200B;設定]**」タブが空になります。
+   メインウィンドウから「**[!UICONTROL プロパティの述語]**」フィールドが削除され、「**[!UICONTROL 設定]**」タブが空になります。
 
    ![](assets/search-form-delete-predicate.png)
 
 1. 変更を保存するには、ツールバーの「**[!UICONTROL 完了]**」をクリックします。
-1. **[!UICONTROL Assets]**ユーザーインターフェイスで、オーバーレイアイコンをクリックし、「**[!UICONTROL &#x200B;フィルター]**」を選択して&#x200B;**[!UICONTROL フィルター]**パネルに移動します。指定した**[!UICONTROL &#x200B;プロパティ]**の述語が、パネルから削除されています。
+1. **[!UICONTROL Assets]** ユーザーインターフェイスで、オーバーレイアイコンをクリックし、「**[!UICONTROL フィルター]**」を選択して&#x200B;**[!UICONTROL フィルター]**&#x200B;パネルに移動します。指定した&#x200B;**[!UICONTROL プロパティ]**&#x200B;の述語が、パネルから削除されています。
 
    ![](assets/property-predicate-removed.png)
