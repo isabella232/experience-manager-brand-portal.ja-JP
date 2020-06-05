@@ -8,11 +8,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
-translation-type: ht
-source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+workflow-type: tm+mt
 source-wordcount: '1522'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -31,11 +31,12 @@ ht-degree: 100%
 
 ## AEM Assets と Brand Portal の連携の設定 {#configure-brand-portal}
 
-Adobe Experience Manager（AEM）Assets と Brand Portal の連携が、Adobe I/O を通じて設定されます。Adobe I/O は Brand Portal テナントの認証用の IMS トークンを取得します。
+Adobe Experience Manager(AEM)Assetsは、Adobe Developer Consoleを介してBrand Portalで設定され、Brand Portalテナントの認証用にIMSトークンを取得します。
 
 >[!NOTE]
 >
->Adobe I/O を使用した AEM Assets と Brand Portal の連携の設定は、AEM Assets Cloud Service および AEM Assets 6.3 以降でサポートされています。
+>Adobe Developer Consoleを介してBrand PortalでAEM Assetsを設定する機能は、AEM Assetsクラウドサービス（AEM Assets 6.3以降）でサポートされます。
+
 
 ### AEM Assets と Brand Portal の連携を設定するための前提条件 {#prerequisites}
 
@@ -142,6 +143,7 @@ Brand Portal 6.4.3 以降では、各組織はそれぞれの Brand Portal テ�
 >
 >古いエイリアスを置き換えたり、古いエイリアスを削除するには、同じ手続きに従う必要があります。
 
+
 ## Brand Portal へのアクセス権の申請 {#request-access-to-brand-portal}
 
 ユーザーは、Brand Portal へのアクセス権をログイン画面から申請できます。この申請は Brand Portal 管理者に送信され、この管理者が Adobe [!UICONTROL Admin Console] を通じてユーザーにアクセス権を付与します。アクセス権が付与されると、ユーザーに通知電子メールが届きます。
@@ -163,6 +165,7 @@ Brand Portal 6.4.3 以降では、各組織はそれぞれの Brand Portal テ�
    1. [!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID] または [!UICONTROL Federated ID] を持っている場合は、「**[!UICONTROL ログイン]**」をクリックします。
 [!UICONTROL ログイン]ページが開きます。
    1. [!UICONTROL Adobe ID] 資格情報を入力し、「**[!UICONTROL ログイン]**」をクリックします。<br />
+
    ![アドビへのログイン](assets/bplogin_request_access_3.png)
 
    [!UICONTROL アクセスを申請]ページにリダイレクトされます。<br />
@@ -173,6 +176,7 @@ Brand Portal 6.4.3 以降では、各組織はそれぞれの Brand Portal テ�
 [!UICONTROL 新規登録]ページが開きます。
    1. 名前、電子メール ID およびパスワードを入力します。
    1. 「**[!UICONTROL 新規登録]**」をクリックします。<br />
+
    ![](assets/bplogin_request_access_5.png)
 
    [!UICONTROL アクセスを申請]ページにリダイレクトされます。
@@ -200,6 +204,7 @@ Brand Portal の言語は、Adobe [!UICONTROL Experience Cloud 設定]で変更�
 言語を変更するには：
 
 1. 上部メニューから、[!UICONTROL ユーザー]／[!UICONTROL プロファイルを編集]を選択します。<br />
+
    ![プロファイルを編集](assets/EditBPProfile.png)
 
 1. [!UICONTROL Experience Cloud 設定]ページで、[!UICONTROL 言語]ドロップダウンメニューから言語を選択します。
