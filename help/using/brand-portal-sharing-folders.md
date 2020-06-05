@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
-translation-type: ht
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 7b15757b92d5a9ed5f0d49f2e1d102a77619ce49
+workflow-type: tm+mt
 source-wordcount: '1154'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -49,6 +49,7 @@ Brand Portal のレプリケーションの設定時に「**[!UICONTROL 公開�
 >
 >「**[!UICONTROL 公開フォルダーの公開]**」を有効にするオプションは、AEM 6.3.2.1 以降で利用できます。
 
+
 ## 共有フォルダーへのアクセス {#access-to-shared-folders}
 
 以下の表に、様々なユーザーの役割が持つアクセス権と、アセットを共有／共有解除する権限を示します。
@@ -60,7 +61,10 @@ Brand Portal のレプリケーションの設定時に「**[!UICONTROL 公開�
 | 閲覧者 | 不可* | 可。ただし、そのユーザーと共有されている場合、またはそのユーザーの所属グループと共有されている場合のみ。 | 不可 |
 | ゲストユーザー | 不可* | 可。ただし、そのユーザーと共有されている場合、またはそのユーザーの所属グループと共有されている場合のみ。 | 不可 |
 
-**AEM オーサーインスタンスと Brand Portal のレプリケーションを設定する際、「**[!UICONTROL 公開フォルダーの公開]**」オプションはデフォルトで無効になっています。このオプションが有効になっている場合は、Brand Portal に公開されているフォルダーが、デフォルトですべてのユーザー（管理者以外のユーザーも含む）にアクセス可能になります。*
+>[!NOTE]
+>
+>By default, the **[!UICONTROL Public Folder Publish]** option is disabled while configuring replication of Brand Portal with AEM Author. このオプションが有効になっている場合は、Brand Portal に公開されているフォルダーが、デフォルトですべてのユーザー（管理者以外のユーザーも含む）にアクセス可能になります。
+
 
 ### 管理者以外のユーザーによる共有フォルダーへのアクセス {#non-admin-user-access-to-shared-folders}
 
