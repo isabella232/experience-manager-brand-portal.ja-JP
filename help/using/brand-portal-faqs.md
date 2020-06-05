@@ -9,29 +9,31 @@ contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
-workflow-type: ht
-source-wordcount: '1222'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+workflow-type: tm+mt
+source-wordcount: '1250'
+ht-degree: 92%
 
 ---
 
 
 # よくある質問 {#frequently-asked-questions}
 
-Brand Portal FAQ では、最新の AEM Assets Brand Portal 6.4.5 リリース以前のバージョンで作業中に発生する可能性のあるエンドユーザー向けのクエリと問題に焦点を当てています。
+Brand Portal FAQ では、最新の AEM Assets Brand Portal 6.4.6 リリース以前のバージョンで作業中に発生する可能性のあるエンドユーザー向けのクエリと問題に焦点を当てています。
 
 
 ## Brand Portal 6.4.6 に関する FAQ {#faqs-bp646}
 
 **質問：既存のレガシー OAuth エンドポイント（`https://legacy-oauth.cloud.adobe.io/login`）が機能していません。考えられる理由は何でしょうか？**
 
-**回答：** レガシー OAuth 設定は非推奨です。AEM Assets のオーサーインスタンスを最新のサービスパックにアップグレードし、Adobe IO を使用して設定する必要があります。詳しくは、[AEM Assets と Brand Portal の連携の設定](configure-aem-assets-with-brand-portal.md)を参照してください。ただし、アップグレードするまでレガシー OAuth 設定が機能するようにするには、レガシー OAuth エンドポイントを `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/` に更新します。
+**回答：** レガシー OAuth 設定は非推奨です。AEM Assets作成者インスタンスを最新のサービスパックにアップグレードし、Adobe Developer Consoleを使用して設定する必要があります。 詳しくは、[AEM Assets と Brand Portal の連携の設定](configure-aem-assets-with-brand-portal.md)を参照してください。ただし、アップグレードするまでレガシー OAuth 設定が機能するようにするには、レガシー OAuth エンドポイントを `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/` に更新します。
 
-**質問：Adobe I/O にアップグレードした後、投稿フォルダーのアセットを Brand Portal から AEM Assets に公開できません。オーサーインスタンスが AEM 6.5.4 にあります。考えられる理由は何でしょうか？**
+**質問：Adobe Developer Consoleにアップグレードした後、Brand PortalからAEM Assetsに貢献度フォルダーのアセットを公開できません。 作成者インスタンスがAEM 6.5.4にあります。考えられる理由は何ですか？**
 
-**回答：** これは既知の問題で、Adobe I/O を使用して 6.5.4 の AEM Assets に投稿フォルダーのアセットを公開する際に発生します。この問題は、次のサービスパック AEM で修正されます。
+**回答：** はい。貢献度フォルダーのアセットをAdobe Developer Console経由でAEM 6.5.4上のAEM Assetsに公開する際に、既知の問題が発生します。
+
+この問題はAEM 6.5.5で修正されました。AEM Assetsインスタンスを最新のサービスパックAEM 6.5.5にアップグレードし、Adobe Developer Consoleで設定を [アップグレードできます](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 。
 
 AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダウンロード](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)して、AEM オーサーインスタンスにインストールすることをお勧めします。
 
@@ -107,6 +109,7 @@ Brand Portal ユーザーは**投稿**&#x200B;フォルダーにアクセスし�
 >[!NOTE]
 >
 >既存の Brand Portal ユーザーでない場合は、AEM 管理コンソールでユーザーを作成して Brand Portal ユーザーリストのユーザー設定ファイルにプロファイルを追加するように AEM 管理者に依頼します。「[Brand Portal ユーザーの追加](brand-portal-configure-asset-sourcing.md)」を参照してください。
+
 
 
 
