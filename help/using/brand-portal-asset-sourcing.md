@@ -18,8 +18,11 @@ activity: use
 audience: author, marketer
 version: 6.5
 kt: 3838
-translation-type: ht
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+translation-type: tm+mt
+source-git-commit: 465b80ada85284ab0379e4a5922def32fffbfeb2
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 88%
 
 ---
 
@@ -30,7 +33,7 @@ source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 また、既存の機能はすべてそのままで変わりません。Brand Portal ユーザーは、投稿フォルダーおよび許可された他のフォルダーからアセットを表示、検索およびダウンロードできます。さらに、管理者は投稿フォルダーの共有、プロパティの変更、コレクションへのアセットの追加をおこなうことができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 >[!NOTE]
 >
@@ -40,16 +43,15 @@ source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 >
 >AEM インスタンスを最新のサポートされる AEM バージョンにアップグレードするには、アドビサポートにお問い合わせください。
 
+
 ![Brand Portal アセットソーシング](assets/asset-sourcing.png)
 
 
 >[!NOTE]
 >
->AEM 6.5.4 のユーザーの場合、アセットソーシングは引き続き「レガシー OAuth 統合」で機能します。
+>AEM 6.5.4には既知の問題があります。Brand Portalユーザーは、Adobe Developer Consoleにアップグレードする際に、貢献度フォルダーのアセットをAEM Assetsに公開できません。
 >
->ただし、Brand Portal ユーザーが AEM 6.5.4 の Adobe I/O にアップグレードする際に、投稿フォルダーのアセットを AEM Assets に公開できません。
->
->この問題は、次のサービスパック AEM 6.5.5 で修正されます。
+>この問題はAEM 6.5.5で修正されました。AEM Assetsインスタンスを最新のサービスパックAEM 6.5.5にアップグレードし、Adobe Developer Consoleで設定を [アップグレードできます](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 。
 >
 >AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダウンロード](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)して、オーサーインスタンスにインストールすることをお勧めします。
 
