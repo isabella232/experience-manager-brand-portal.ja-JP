@@ -19,10 +19,10 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 465b80ada85284ab0379e4a5922def32fffbfeb2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 88%
 >
 >Brand Portal のアセットソーシングは、AEM 6.5.2.0 以降でサポートされます。
 >
->この機能は、以前のバージョン（AEM 6.3 および AEM 6.4）ではサポートされません。
+>この機能は、AEM 6.3およびAEM 6.4のAEM Assetsクラウドサービスとそれ以前のバージョンではサポートされません。
 >
 >AEM インスタンスを最新のサポートされる AEM バージョンにアップグレードするには、アドビサポートにお問い合わせください。
 
