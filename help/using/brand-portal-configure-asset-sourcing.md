@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
-workflow-type: ht
-source-wordcount: '379'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,14 +29,14 @@ AEM 管理者は、AEM オーサーインスタンス内から&#x200B;**アセ�
 
 次のビデオでは、AEM オーサーインスタンスでアセットソーシングを設定する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/29771?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/29771)
 
 ## アセットソーシングの有効化 {#enable-asset-sourcing}
 
 AEM 管理者は、AEM Web コンソール設定（Configuration Manager）内からアセットソーシングを有効にできます。
 
 **アセットソーシングを有効にするには：**
-1. AEM オーサーインスタンスにログインして、Configuration Manager（デフォルト URL：http:// localhost:4502/system/console/configMgr）を開きます。
+1. AEM作成者インスタンスにログインし、Configuration ManagerのデフォルトURLを開きます。 http:// localhost:4502/system/console/configMgr
 1. キーワード「**Asset Sourcing**」を使用して検索し、**[!UICONTROL Asset Sourcing Feature Flag Config]** を探します。
 1. 「**[!UICONTROL Asset Sourcing Feature Flag Config]**」をクリックして、設定ウィンドウを開きます。
 1. 「**[!UICONTROL feature.flag.active.status]**」チェックボックスを有効にします。
@@ -55,7 +55,7 @@ AEM 管理者は、AEM Assets のアクティブな Brand Portal ユーザーリ
 管理者は、AEM Admin Console で新規ユーザーを追加できます。詳しくは、[ユーザーの管理](brand-portal-adding-users.md)を参照してください。Admin Console でユーザーを追加したら、これらのユーザーを Brand Portal ユーザー設定ファイルに追加して、投稿フォルダーへのアクセス権を割り当てることができます。
 
 **Brand Portal ユーザーリストをアップロードするには：**
-1. AEM オーサーインスタンス（デフォルト URL：http:// localhost:4502/aem/start.html）にログインします。
+1. AEM作成者インスタンスにログインします。デフォルトURL: http:// localhost:4502/aem/start.html
 1. **ツール**（![](assets/tools.png)）パネルで、**[!UICONTROL アセット／Brand Portal ユーザー]**に移動します。
    ![](assets/upload-user-list1.png)
 1. Brand Portal 投稿者をアップロードウィンドウが開きます。ローカルマシンから参照して、アクティブな Brand Portal ユーザーリストを含む&#x200B;**設定（.csv）ファイル**&#x200B;をアップロードします。
