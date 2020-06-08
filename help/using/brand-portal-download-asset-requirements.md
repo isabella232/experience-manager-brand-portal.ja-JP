@@ -9,8 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+translation-type: tm+mt
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +31,7 @@ Brand Portal ユーザーは、アセット要件をダウンロードするた�
 
 **アセット要件をダウンロードするには：**
 
-1. Brand Portal インスタンスにログインします。
+1. Brand Portalインスタンスにログインします。
 1. Brand Portal ダッシュボードから投稿フォルダーを選択します。
 1. 「**[!UICONTROL プロパティ]**」![](assets/properties.png)をクリックします。プロパティウィンドウが開き、アセットの投稿フォルダーの詳細が表示されます。
    ![](assets/download-asset-requirement1.png)
