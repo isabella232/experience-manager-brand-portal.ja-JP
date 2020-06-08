@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
 workflow-type: tm+mt
-source-wordcount: '1250'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,6 +36,25 @@ Brand Portal FAQ では、最新の AEM Assets Brand Portal 6.4.6 リリース�
 この問題はAEM 6.5.5で修正されました。AEM Assetsインスタンスを最新のサービスパックAEM 6.5.5にアップグレードし、Adobe Developer Consoleで設定を [アップグレードできます](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 。
 
 AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダウンロード](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)して、AEM オーサーインスタンスにインストールすることをお勧めします。
+
+**質問：AEM Assetsクラウドインスタンスでアセットソーシング機能を有効にしたい。 設定方法を教えてください。**
+
+**回答：** いいえ。Asset Sourcing機能は、現在、AEM Assetsクラウドサービスではサポートされていません。
+
+今後のリリースで利用可能になる機能に関する通知については、常に接続済みで、リリースノートをご覧ください。
+
+**質問：AEM AssetsからBrand Portalにアセットを発行できず、レプリケーションエージェントログで例外が発生し`java.net.SocketException: Connection timed out`ます。 簡単な修正はありますか。**
+
+**回答：** レプリケーションキューに保留中のリクエストの数がある場合、レプリケーションエージェントがアセットを発行する要求を処理せず、例外をスローする可能性があります。 `java.net.SocketException: Connection timed out`.
+
+次の手順を実行して問題を修正します。
+
+1. レプリケーションエージェントを開き、[ **[!UICONTROL 編集]** ]をクリックしてレプリケーションエージェントの設定を変更します。
+1. 「エージェントの設定」で、「 **[!UICONTROL 拡張]**」タブをクリックします。
+1. 「接続を **[!UICONTROL 閉じる]**」チェックボックスを選択します。
+1. レプリケーションバンドル（サーバ）を再起動します。
+
+4つのレプリケーションエージェントの設定をすべて有効にして、レプリケーションエージェントの問題を回避します。
 
 
 ## Brand Portal 6.4.5 に関する FAQ {#faqs-bp645}
