@@ -9,8 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+translation-type: tm+mt
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +31,8 @@ Brand Portal ユーザーは、[アセット要件（投稿フォルダーに添
 
 **新しいアセットをアップロードするには：**
 
-1. Brand Portal インスタンスにログインします。新しく共有された投稿フォルダーと共に、Brand Portal ユーザーに対して許可された既存のすべてのフォルダーが Brand Portal ダッシュボードに反映されます。
+1. Brand Portalインスタンスにログインします。
+新しく共有された投稿フォルダーと共に、Brand Portal ユーザーに対して許可された既存のすべてのフォルダーが Brand Portal ダッシュボードに反映されます。
 1. クリックして投稿フォルダーを開くと、投稿フォルダー内に **[!UICONTROL SHARED]** と **[!UICONTROL NEW]** の 2 つのサブフォルダーが表示されます。
 1. **[!UICONTROL NEW]** フォルダーをクリックします。
    ![](assets/upload-new-assets1.png)
