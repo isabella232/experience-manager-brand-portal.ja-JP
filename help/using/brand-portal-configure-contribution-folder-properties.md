@@ -10,8 +10,11 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
-translation-type: ht
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+translation-type: tm+mt
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +32,7 @@ AEM 管理者は、投稿フォルダーのプロパティを設定する際に�
 その後、管理者は、Brand Portal ユーザー／グループに投稿フォルダーへのアクセス権を付与してから、新しく作成した投稿フォルダーを Brand Portal に公開できます。
 
 **投稿フォルダーのプロパティを設定するには：**
-1. AEM オーサーインスタンス（デフォルト URL：http:// localhost:4502/aem/start.html）にログインします。
+1. AEM作成者インスタンスにログインします。デフォルトURL: http:// localhost:4502/aem/start.html
 1. **[!UICONTROL アセット／ファイル]**&#x200B;に移動して、投稿フォルダーを探します。
 1. 投稿フォルダーを選択して、「**[!UICONTROL プロパティ]**」![](assets/properties.png)をクリックします。フォルダーのプロパティウィンドウが開きます。
    ![](assets/contribution-folder-property1.png)
