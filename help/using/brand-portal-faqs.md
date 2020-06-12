@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
+source-git-commit: c15ad97fd0e1151c868f9d0fd21f281a09581277
 workflow-type: tm+mt
-source-wordcount: '1517'
-ht-degree: 83%
+source-wordcount: '1521'
+ht-degree: 82%
 
 ---
 
@@ -37,7 +37,6 @@ Brand Portal FAQ では、最新の AEM Assets Brand Portal 6.4.6 リリース�
 
 AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダウンロード](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)して、AEM オーサーインスタンスにインストールすることをお勧めします。
 
-
 **質問：AEM AssetsのBrand Portalから公開された貢献度フォルダーのコンテンツが表示されません。 考えられる理由は何でしょうか？**
 
 **回答：** AEM Assets管理者に問い合わせて設定を確認し、Brand PortalテナントがAEM Assets作成者インスタンスを1つだけ使用して設定されていることを確認してください。
@@ -58,7 +57,7 @@ AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダ
 1. 「エージェントの設定」で、「 **[!UICONTROL 拡張]** 」タブをクリックします。
 1. 「接続を **[!UICONTROL 閉じる]** 」チェックボックスを有効にします。
 1. 手順4 ～ 7を繰り返して、4つのレプリケーションエージェントをすべて構成します。
-1. サーバーを再起動します。
+1. サーバーを再起動し、接続を確認します。
 
 
 ## Brand Portal 6.4.5 に関する FAQ {#faqs-bp645}
