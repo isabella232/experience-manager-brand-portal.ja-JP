@@ -4,9 +4,9 @@ seo-title: AEM Brand Portal ユーザーガイド
 description: AEM Brand Portal ユーザーガイド
 seo-description: Brand Portal の使用方法について説明します
 translation-type: tm+mt
-source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+source-git-commit: c3abe3dab87481977e874255c11ddc0f55134064
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '344'
 ht-degree: 100%
 
 ---
@@ -49,4 +49,4 @@ Brand Portal ソリューションワークフローを次の画像に示しま�
 
 ### 役立つリソース
 
-* [AEM Assets と Brand Portal について](https://helpx.adobe.com/jp/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+* [AEM Assets と Brand Portal について](https://docs.adobe.com/content/help/ja-JP/experience-manager-brand-portal/using/home.html)
