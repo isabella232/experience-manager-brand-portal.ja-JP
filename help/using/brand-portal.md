@@ -8,11 +8,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1522'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 96%
 
 ## AEM Assets と Brand Portal の連携の設定 {#configure-brand-portal}
 
-Adobe Experience Manager(AEM)Assetsは、Adobe Developer Consoleを介してBrand Portalで設定され、Brand Portalテナントの認証用にIMSトークンを取得します。
+Adobe Experience Manager（AEM）Assets と Brand Portal の連携は、Adobe 開発者コンソールを通じて設定されます。開発者コンソールは Brand Portal テナントの認証用の IMS トークンを取得します。
 
 >[!NOTE]
 >
->Adobe Developer Consoleを介してBrand PortalでAEM Assetsを設定する機能は、AEM Assetsクラウドサービス（AEM Assets 6.3以降）でサポートされます。
+>Adobe 開発者コンソールを使用した AEM Assets と Brand Portal の連携の設定は、AEM Assets Cloud Service および AEM Assets 6.3 以降でサポートされています。
 
 
 ### AEM Assets と Brand Portal の連携を設定するための前提条件 {#prerequisites}
