@@ -21,8 +21,8 @@ kt: 3838
 translation-type: tm+mt
 source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '470'
+ht-degree: 96%
 
 ---
 
@@ -49,9 +49,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->AEM 6.5.4には既知の問題があります。Brand Portalユーザーは、Adobe Developer Consoleにアップグレードする際に、貢献度フォルダーのアセットをAEM Assetsに公開できません。
+>AEM 6.5.4 には既知の問題があります。Brand Portal ユーザーは、Adobe 開発者コンソールにアップグレードすると、投稿フォルダーのアセットを AEM Assets に公開できません。
 >
->この問題はAEM 6.5.5で修正されました。AEM Assetsインスタンスを最新のサービスパックAEM 6.5.5にアップグレードし、Adobe Developer Consoleで設定を [アップグレードできます](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 。
+>この問題は AEM 6.5.5 で修正されました。お使いの AEM Assets インスタンスを最新のサービスパック AEM 6.5.5 にアップグレードし、Adobe 開発者コンソールで[設定をアップグレード](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)してください。
 >
 >AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダウンロード](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)して、オーサーインスタンスにインストールすることをお勧めします。
 
