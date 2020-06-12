@@ -4,13 +4,16 @@ solution-title: ラーニングとサポート
 solution-hub-url: https://helpx.adobe.com/jp/support/experience-manager.html
 solution-image: null
 getting-started-title: 概要
-getting-started-url: https://helpx.adobe.com/jp/experience-manager/kt/assets/using/brand-portal-article-understand.html
+getting-started-url: https://docs.adobe.com/content/help/ja-JP/experience-manager-brand-portal/using/home.html
 tutorials-title: チュートリアル
 tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
-git-repo: https://github.com/AdobeDocs/experience-manager-brand-portal.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.ja-JP
 index: y
-translation-type: ht
-source-git-commit: df9d75d0af7ee60f1a71609b8ba295379d278653
+translation-type: tm+mt
+source-git-commit: 5a5abee164459085746aa2084eb3884fab6d35ee
+workflow-type: tm+mt
+source-wordcount: '133'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,7 @@ metadata.md ファイルには、リポジトリ内にあるユーザーガイ�
 | solution-title | 記事ヘッダーでリンクとして使用されます。 |
 | solution-hub-url | helpx ハブページを開きます。 |
 | solution-icon | ソリューションタイトルの横にソリューションアイコンを表示します。まだ実装されていません。 |
-| getting-started-url | helpx のはじめにページへのリンク |
+| getting-started-url | helpx の「はじめに」のページへのリンク |
 | tutorials-url | ビデオチュートリアル（helpx チュートリアルまたは KT チュートリアル）へのリンク |
 | mini-toc-levels | 右側のレールに表示される見出しレベルの数を決定します。デフォルトは 2 です。 |
 | git-repo | 内部使用のマスターリポジトリの場所を指定します。 |
