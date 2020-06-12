@@ -9,18 +9,18 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '335'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 
 # AEM Assets と Brand Portal の連携の設定 {#configure-integration}
 
-Adobe Experience Manager(AEM)Assetsは、Adobe Developer Consoleを介してBrand Portalで設定され、Brand Portalテナントの認証用にIMSトークンを取得します。 Brand Portal が AEM Assets Cloud Service、AEM Assets 6.3 以降でサポートされるようになりました。
+Adobe Experience Manager（AEM）Assets と Brand Portal の連携は、Adobe 開発者コンソールを通じて設定されます。開発者コンソールは Brand Portal テナントの認証用の IMS トークンを取得します。Brand Portal が AEM Assets Cloud Service、AEM Assets 6.3 以降でサポートされるようになりました。
 
 AEM Assets を Brand Portal でサービスできるように設定すると、Brand Portal ユーザーと共にアセットを公開および配布できます。従って、AEM 6.3 以降で Brand Portal を設定すると、Brand Portal ユーザ向けにアセットの公開、アセットの配布、アセットの投稿機能が可能になります。
 
@@ -30,16 +30,16 @@ AEM Assets を Brand Portal でサービスできるように設定すると、B
 >
 >これまで、Brand Portal は、旧来の OAuth ゲートウェイを通じてクラシック UI で設定されていました。このゲートウェイは、JWT トークン交換を使用して認証用の IMS アクセストークンを取得します。
 >
->レガシーOAuthを使用した設定は、2020年4月6日からはサポートされなくなり、Adobe Developer Consoleを使用した設定に変更されました。
+>旧来の OAuth を使用した設定は、2020 年 4 月 6 日以降はサポートされなくなり、Adobe 開発者コンソールを使用した設定に変更されました。
 
 
 >[!TIP]
 >
 >***既存のお客様のみ***
 >
->従来のOAuth Gateway設定は、既存のお客様で引き続き使用できます。
+>旧来の OAuth ゲートウェイを通じた設定は、既存のお客様には引き続きご利用いただけます。
 >
->レガシーOAuth Gateway設定で問題が発生した場合は、既存の設定を削除し、Adobe Developer Consoleを使用して新しい設定を作成します。
+>旧来の OAuth ゲートウェイを通じた設定で問題が発生した場合は、Adobe 開発者コンソールで既存の設定を削除し新しい設定を作成します。
 
 
 AEM Assets と Brand Portal の連携を設定する手順は、AEM のバージョンと、初めて設定するか既存の設定をアップグレードするかによって異なります。
