@@ -8,8 +8,11 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-translation-type: ht
-source-git-commit: 5b16a4073592896264237f00554e361ed8929383
+translation-type: tm+mt
+source-git-commit: 2b5d2fabc666a1d98af29c859f22a6d02bce3784
+workflow-type: tm+mt
+source-wordcount: '914'
+ht-degree: 83%
 
 ---
 
@@ -64,7 +67,8 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 1. `localhost:4502/crx/de/` に移動します（localhost:4502 でオーサーインスタンスを実行していると仮定）。\
    i. `/etc/replication/agents.author/mp_replication` を削除します。
-ii.`/etc/cloudservices/mediaportal/<config_name>` を削除します。
+ii.delete 
+`/etc/cloudservices/mediaportal/<config_name>`
 
 1. localhost:4502/useradmin に移動します。\
    i. ユーザー `mac-<tenantid>replication` を検索します。
@@ -112,3 +116,21 @@ permission
 公開エラーが引き続き発生し、キューがブロックされる場合は、**[!UICONTROL 接続テスト]**&#x200B;の結果を確認し、報告されるエラーの解決を試みてください。
 
 エラーの内容に基づき、サポートチケットを発行することもできます。その場合は Brand Portal のエンジニアリングチームが問題解決をお手伝いします。
+
+
+## 接続タイムアウトエラーを回避するためのレプリケーションエージェントの構成 {#connection-timeout}
+
+**問題**: AEM AssetsからBrand Portalにアセットを公開できません。 レプリケーションログには、接続がタイムアウトしたことが記録されます。
+
+**解像度**: レプリケーションキューに複数の保留中の要求がある場合、通常、発行はタイムアウトエラーで失敗します。 この問題を解決するには、レプリケーションエージェントがタイムアウトを回避するように構成されていることを確認します。
+
+レプリケーションエージェントを構成するには、次の手順を実行します。
+1. AEM Assetsオーサーインスタンスにログインします。
+1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
+1. In the Replication page, click **[!UICONTROL Agents on author]**. Brand Portalテナントの4つのレプリケーションエージェントを表示できます。
+1. 複製エージェントのURLをクリックして、エージェントの詳細を開きます。
+1. [ **[!UICONTROL 編集]** ]をクリックして、レプリケーションエージェントの設定を変更します。
+1. 「エージェントの設定」で、「 **[!UICONTROL 拡張]** 」タブをクリックします。
+1. 「接続を **[!UICONTROL 閉じる]** 」チェックボックスを有効にします。
+1. 手順4 ～ 7を繰り返して、4つのレプリケーションエージェントをすべて構成します。
+1. サーバーを再起動します。
