@@ -19,10 +19,10 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: fe8f872bdd07fd46778a485dafaa7ba3d1b74950
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 96%
+source-wordcount: '453'
+ht-degree: 94%
 
 ---
 
@@ -33,16 +33,18 @@ ht-degree: 96%
 
 また、既存の機能はすべてそのままで変わりません。Brand Portal ユーザーは、投稿フォルダーおよび許可された他のフォルダーからアセットを表示、検索およびダウンロードできます。さらに、管理者は投稿フォルダーの共有、プロパティの変更、コレクションへのアセットの追加をおこなうことができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+## 前提条件 {#prerequisites}
+
+* AEM 6.5.2 以降。
+* AEM Assets インスタンスと Brand Portal の連携が設定されていることを確認します。[AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
+* Brand Portalテナントが1つのAEM Assets作成者インスタンスを使用して設定されていることを確認します。
 
 >[!NOTE]
 >
->Brand Portal のアセットソーシングは、AEM 6.5.2.0 以降でサポートされます。
->
->この機能は、AEM 6.3およびAEM 6.4のAEM Assetsクラウドサービスとそれ以前のバージョンではサポートされません。
->
->AEM インスタンスを最新のサポートされる AEM バージョンにアップグレードするには、アドビサポートにお問い合わせください。
+>Asset SourcingはAEM Assetsクラウドサービスではサポートされていません。
 
+
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ![Brand Portal アセットソーシング](assets/asset-sourcing.png)
 
@@ -55,11 +57,6 @@ ht-degree: 96%
 >
 >AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダウンロード](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)して、オーサーインスタンスにインストールすることをお勧めします。
 
-
-## 前提条件 {#prerequisites}
-
-* AEM 6.5.0.2 以降。
-* AEM Assets インスタンスと Brand Portal の連携が設定されていることを確認します。[AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
 
 ## 関連トピック {#reference-articles}
 
