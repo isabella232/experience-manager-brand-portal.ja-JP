@@ -5,9 +5,9 @@ sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Assets Brand Portal
 translation-type: tm+mt
-source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+source-git-commit: c3abe3dab87481977e874255c11ddc0f55134064
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '285'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 100%
    + [よくある質問](using/brand-portal-faqs.md)
    + [サポートされているファイル形式](using/brand-portal-supported-formats.md)
    + [Brand Portal へのゲストによるアクセス](using/guest-access.md)
-   + [AEM Assets と Brand Portal について](https://helpx.adobe.com/jp/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+   + [AEM Assets と Brand Portal について](https://docs.adobe.com/content/help/ja-JP/experience-manager-brand-portal/using/home.html)
    + [Brand Portal でのアセットの参照](using/browse-assets-brand-portal.md)
 + AEM Assets から Brand Portal への公開 {#publish}
    + [AEM Assets と Brand Portal の連携の設定](using/configure-aem-assets-with-brand-portal.md)
