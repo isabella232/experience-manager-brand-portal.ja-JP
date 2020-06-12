@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c3672d2f8b22a6b430d94b8c300551451231b2bf
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 85%
+source-wordcount: '381'
+ht-degree: 91%
 
 ---
 
@@ -25,11 +25,6 @@ AEM 管理者は、AEM オーサーインスタンス内から&#x200B;**アセ�
 >[!NOTE]
 >
 >設定を開始する前に、AEM Assets インスタンスと Brand Portal の連携が設定されていることを確認します。[AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
->
->Brand Portalテナントは、1つのAEM Assets作成者インスタンスでのみ設定する必要があります。
->
->複数のAEM Assets作成者インスタンスを持つBrand Portalテナントを設定しないでください。
-
 
 
 次のビデオでは、AEM オーサーインスタンスでアセットソーシングを設定する方法について説明します。
