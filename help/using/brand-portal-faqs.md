@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: aefffb21b277d93fab2754dae407de7602f614c7
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
 workflow-type: tm+mt
-source-wordcount: '1536'
-ht-degree: 82%
+source-wordcount: '1418'
+ht-degree: 88%
 
 ---
 
@@ -25,12 +25,9 @@ Brand Portal FAQ では、最新の AEM Assets Brand Portal 6.4.6 リリース�
 
 ## Brand Portal 6.4.6 に関する FAQ {#faqs-bp646}
 
-
-
 **質問：既存のレガシー OAuth エンドポイント（`https://legacy-oauth.cloud.adobe.io/login`）が機能していません。考えられる理由は何でしょうか？**
 
 **回答：** レガシー OAuth 設定は非推奨です。AEM Assets のオーサーインスタンスを最新のサービスパックにアップグレードし、Adobe 開発者コンソールで設定する必要があります。詳しくは、[AEM Assets と Brand Portal の連携の設定](configure-aem-assets-with-brand-portal.md)を参照してください。ただし、アップグレードするまでレガシー OAuth 設定が機能するようにするには、レガシー OAuth エンドポイントを `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/` に更新します。
-
 
 **質問：Adobe 開発者コンソールにアップグレードしたら、投稿フォルダーのアセットを Brand Portal から AEM Assets に公開できません。オーサーインスタンスは AEM 6.5.4 にあります。考えられる理由は何でしょうか？**
 
@@ -40,13 +37,11 @@ Brand Portal FAQ では、最新の AEM Assets Brand Portal 6.4.6 リリース�
 
 AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダウンロード](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)して、AEM オーサーインスタンスにインストールすることをお勧めします。
 
-
 **質問：AEM Assetsクラウドインスタンスでアセットソーシング機能を有効にしたい。 設定方法を教えてください。**
 
 **回答：** いいえ。Asset Sourcing機能は、現在、AEM Assetsクラウドサービスではサポートされていません。
 
 今後のリリースで利用可能になる機能に関する通知については、常に接続済みで、リリースノートをご覧ください。
-
 
 **質問：AEM AssetsからBrand Portalにアセットを発行できず、レプリケーションエージェントログで例外が発生し`java.net.SocketException: Connection timed out`ます。 簡単な修正はありますか。**
 
@@ -61,12 +56,6 @@ AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダ
 
 4つのレプリケーションエージェントの設定をすべて有効にして、レプリケーションエージェントの問題を回避します。
 
-
-**質問：AEM AssetsのBrand Portalから公開された貢献度フォルダーのコンテンツが表示されません。 考えられる理由は何でしょうか？**
-
-**回答：** AEM Assets管理者に問い合わせて設定を確認し、Brand PortalテナントがAEM Assets作成者インスタンスを1つだけ使用して設定されていることを確認してください。
-
-この問題は、複数のAEM Assets作成者インスタンスにBrand Portalテナントを設定した場合に発生する可能性があります。 例えば、管理者が、ステージングおよび実稼動環境のAEM Assets作成者インスタンスに同じBrand Portalテナントを設定したとします。 この場合、アセットの発行はBrand Portalでトリガーされますが、AEM Assets作成者インスタンスは、レプリケーションエージェントが要求元トークンを受け取らないアセットコードを読み込めませんでした。
 
 ## Brand Portal 6.4.5 に関する FAQ {#faqs-bp645}
 
