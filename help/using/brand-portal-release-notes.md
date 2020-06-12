@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9413aa609b5c0d66c9d23ddf9dcd9d28ec4da798
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '789'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Experience Manager Assets Brand Portal 6.4.6.2 リリースの新機能、
 | 製品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | バージョン | 6.4.6.2 |
-| 日付 | 2020年6月 |
+| 日付 | 2020 年 6 月 日 |
 
 ## 概要 {#overview}
 
@@ -39,24 +39,24 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 このリリースでは、次の重要な問題が修正されています。
 
-* Brand Portalから公開済みのメタデータスキーマを削除すると、エラーが発生します。
+* 公開済みのメタデータスキーマを Brand Portal から削除すると、エラーが発生します。
 
-* 管理者がAdobe Developer Consoleを使用してBrand PortalでExperience Manager Assets 6.5.4を設定した場合、Brand Portalユーザーは、貢献度フォルダーのアセットをBrand PortalからExperience Managerに公開できません。
+* 管理者が Adobe 開発者コンソールで Adobe Experience Manager Assets 6.5.4 と Brand Portal の連携を設定した場合、Brand Portal ユーザーは、投稿フォルダーのアセットを Brand Portal から Adobe Experience Manager に公開できません。
 
-* 競合の原因となる親フォルダーの重複レプリケーションです。
+* 親フォルダーの重複レプリケーションが競合の原因になります。
 
-* ユーザはリンク共有レポートを生成できません。
+* ユーザーがリンク共有レポートを生成できません。
 
-* ユーザーは、copyPageコマンドを使用して、Brand PortalエンドポイントのMACシークレットをコピーできます。
+* ユーザーが、copyPage コマンドを使用して Brand Portal エンドポイントの MAC 秘密鍵をコピーできます。
 
-* cqTagsを使用すると、VA5クローンで再インデックスが作成されます。
+* cqTags を使用すると、VA5 クローンでインデックスが再作成されます。
 
 
 ### 既知の問題 {#known-issues-6462}
 
 このリリースには、次の既知の問題が含まれています。
 
-* 階層内のフォルダーの名前がAEM Assetsから変更され、アセットを含むネストされたフォルダーがBrand Portalに公開された場合、Brand Portalでは、ルートフォルダーが再度公開されるまで、フォルダーのタイトルは更新されません。
+* 階層内のフォルダーの名前が AEM Assets から変更され、アセットを含んだネストされたフォルダーが Brand Portal に公開された場合、そのフォルダーのタイトルは、ルートフォルダーが再度公開されるまで Brand Portal では更新されません。
 
 
 ## 6.4.6 の新機能 {#what-s-new-in-646}
@@ -74,11 +74,11 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 このリリースの Brand Portal で強化された機能は次のとおりです。
 
-* AEM 6.3 以降では、AEM Assets と Brand Portal の間の認証チャネルが変更されます。Adobe Developer Consoleを使用して、AEM AssetsがBrand Portalテナントの認証用にIMSトークンを調達するBrand Portalで設定されました。
+* AEM 6.3 以降では、AEM Assets と Brand Portal の間の認証チャネルが変更されます。AEM Assets と Brand Portal の連携が、Adobe 開発者コンソールを通じて設定されるようになりました。開発者コンソールが Brand Portal テナントの認証用の IMS トークンを取得します。
 
 >[!NOTE]
 >
->レガシーOAuthを使用した設定は、2020年4月6日からはサポートされなくなり、Adobe Developer Consoleを使用した設定に変更されました。
+>旧来の OAuth を使用した設定は、2020 年 4 月 6 日以降はサポートされなくなり、Adobe 開発者コンソールを使用した設定に変更されました。
 
 
 
@@ -86,9 +86,9 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 >
 >***既存のお客様のみ***
 >
->従来のOAuth Gateway設定は、既存のお客様で引き続き使用できます。
+>旧来の OAuth ゲートウェイを通じた設定は、既存のお客様には引き続きご利用いただけます。
 >
->レガシーOAuth Gateway設定で問題が発生した場合は、既存の設定を削除し、Adobe Developer Consoleを使用して新しい設定を作成します。
+>旧来の OAuth ゲートウェイを通じた設定で問題が発生した場合は、Adobe 開発者コンソールで既存の設定を削除し新しい設定を作成します。
 
 
 詳しくは、[AEM Assets と Brand Portal の連携の設定](configure-aem-assets-with-brand-portal.md)を参照してください
@@ -115,7 +115,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 このリリースには、次の既知の問題が含まれています。
 
-* Brand Portalのユーザーは、AEM 6.5.4上のAdobe Developer Consoleにアップグレードした場合、貢献度フォルダーアセットをAEM Assetsに公開できません。
+* AEM 6.5.4 で Adobe 開発者コンソールにアップグレードすると、Brand Portal ユーザーが投稿フォルダーのアセットを AEM Assets に公開できません。
 
    この問題は、次のサービスパック 6.5.5 で修正されます。
 
@@ -138,7 +138,7 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 * 簡体字中国語
 * 韓国語
 
-## 認定プラットフォーム {#certified-platforms}
+## 認定プラットフォーム{#certified-platforms}
 
 このリリースの Brand Portal を実行できる認定プラットフォームを確認するには、[技術要件](https://helpx.adobe.com/jp/experience-manager/6-4/sites/deploying/using/technical-requirements.html)の「**オーサリングユーザーインターフェイス向けにサポートされているブラウザー**」節に記載されている表の「**UI のサポート**」列を参照してください。
 
