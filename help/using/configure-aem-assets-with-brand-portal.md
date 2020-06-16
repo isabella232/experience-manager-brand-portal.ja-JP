@@ -9,9 +9,9 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ba8a1f09573766643f6a5013a8d181f0f0dbb4f2
+workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 100%
 
@@ -53,14 +53,3 @@ AEM Assets と Brand Portal の連携を設定する手順は、AEM のバージ
 | **AEM 6.2** | サポートへのお問い合わせ | サポートへのお問い合わせ |
 
 
-<!--
-   Comment Type: draft
-
-   <li> </li>
-   -->
-
-<!--
-   Comment Type: draft
-
-   <li>Step text</li>
-   -->
