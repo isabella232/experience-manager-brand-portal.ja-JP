@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c15ad97fd0e1151c868f9d0fd21f281a09581277
+source-git-commit: f763917659b5c1b9b37662d963484f4e84caa109
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
@@ -39,17 +39,17 @@ AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダ
 
 **質問：AEM AssetsのBrand Portalから公開された貢献度フォルダーのコンテンツが表示されません。 考えられる理由は何でしょうか？**
 
-**回答：** AEM Assets管理者に問い合わせて設定を確認し、Brand PortalテナントがAEM Assets作成者インスタンスを1つだけ使用して設定されていることを確認してください。
+**回答：** AEM Assets管理者に問い合わせて設定を確認し、Brand Portalテナントが1つのAEM Assets作成者インスタンスのみで構成されていることを確認してください。
 
-この問題は、複数のAEM Assets作成者インスタンスにBrand Portalテナントを設定した場合に発生する可能性があります。 例えば、管理者が、ステージングおよび実稼動環境のAEM Assets作成者インスタンスに同じBrand Portalテナントを設定したとします。 この場合、アセットの発行はBrand Portalでトリガーされますが、AEM Assets作成者インスタンスは、レプリケーションエージェントが要求元トークンを受け取らないアセットコードを読み込めませんでした。
+この問題は、複数のAEM Assets作成者インスタンスにBrand Portalテナントを設定した場合に発生する可能性があります。 例えば、管理者は、ステージングおよび実稼動環境のAEM Assets作成者インスタンスに同じブランドポータルテナントを設定します。 この場合、Brand Portalでアセットの発行がトリガーされますが、AEM Assets作成者インスタンスは、レプリケーションエージェントが要求トークンを受け取らないアセットコードをインポートできませんでした。
 
 
-**質問：AEM AssetsからBrand Portalにアセットを公開できません。 レプリケーションログには、接続がタイムアウトしたことが記録されます。 簡単な修正はありますか。**
+**質問：AEM AssetsからBrand Portalにアセットを公開できません。 レプリケーションログには、接続がタイムアウトしたことが記録されます。 クイックフィックスはありますか？**
 
 **回答：** レプリケーションキューに複数の保留中の要求がある場合、通常、発行はタイムアウトエラーで失敗します。 この問題を解決するには、レプリケーションエージェントがタイムアウトを回避するように構成されていることを確認します。
 
 レプリケーションエージェントを構成するには、次の手順を実行します。
-1. AEM Assetsオーサーインスタンスにログインします。
+1. AEM Assets作成者インスタンスにログインします。
 1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
 1. In the Replication page, click **[!UICONTROL Agents on author]**. Brand Portalテナントの4つのレプリケーションエージェントを表示できます。
 1. 複製エージェントのURLをクリックして、エージェントの詳細を開きます。
