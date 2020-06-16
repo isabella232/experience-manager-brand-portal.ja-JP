@@ -2,18 +2,18 @@
 title: Brand Portal でのダイナミックビデオのサポート
 seo-title: Brand Portal でのダイナミックビデオのサポート
 description: Brand Portal でのダイナミックビデオのサポート
-seo-description: Brand Portal でのダイナミックビデオのサポート
+seo-description: 'Brand Portal でのダイナミックビデオのサポート '
 uuid: a3502a4d-3971-4ea4-953c-44ba04446269
 contentOwner: mgulati
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
-translation-type: ht
-source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: eab0a56cfe03d13485386ddc60400ed458198950
+workflow-type: tm+mt
 source-wordcount: '1209'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -63,8 +63,8 @@ AEM オーサーが動作している Dynamic Media モードに基づいて、[
 * **Brand Portal 上で Dynamic Media を設定する**：Brand Portal 管理ツールで、AEM オーサー上の Dynamic Media クラウド設定に基づいて [Dynamic Media 設定](#configure-dm-hybrid-settings)か [[!DNL Scene 7] 設定](#configure-dm-scene7-settings)のいずれかを設定します。Dynamic Media ハイブリッドと Dynamic Media **[!UICONTROL S7]** の機能を使用する場合は、Dynamic Media ハイブリッドモードと Dynamic Media **[!UICONTROL Scene7]** モードで設定する AEM オーサーインスタンスに別個の [Brand Portal テナント](#separate-tenants)を使用する必要があります。
 * **Brand Portal に適用したビデオエンコードを含んだフォルダーを公開する**
 [ビデオエンコーディング](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/video-profiles.html)を適用し、リッチメディアアセットを含んだフォルダーを AEM オーサーインスタンスから Brand Portal に公開します。
-* **セキュアプレビューが有効な場合は、SPS でエグレス IP をホワイトリストに登録する**
-（会社に対して[セキュアプレビューが有効](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)な状態で）Dynamic Media - **[!DNL Scene 7]** を使用する場合は、**[!DNL Scene 7]** の会社管理者が SPS（**[!UICONTROL Scene 7]** Publishing System）Flash UI を使用して、それぞれの地域の[公開エグレス IP をホワイトリストに登録する](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)ことをお勧めします。エグレス IP は次のとおりです。
+* **セキュアプレビューが有効な場合SPS内の許可リスト出力IP** Dynamic Media-**[!DNL Scene 7]** (セキュアプレビューが会社に対して有効な場合 [)を使用する場合は、](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) 会社管理者 **[!DNL Scene 7]** 許可リストIPsを使用する各SPS(scene7Scene Ui ui Flash)に対する公開出力IPs [](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)**** 。
+エグレス IP は次のとおりです。
 
 | **地域** | **エグレス IP** |
 |--- |--- |
@@ -72,7 +72,7 @@ AEM オーサーが動作している Dynamic Media モードに基づいて、[
 | EMEA | 185.34.189.4 |
 | APAC | 63.140.44.54 |
 
-これらのいずれかのエグレス IP をホワイトリストに登録するには、[セキュアテストサービス用アカウントの準備方法](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)を参照してください。
+To allowlist either of these egress IPs, see [prepare your account for secure testing service](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
 
 ## ベストプラクティス
 
@@ -88,9 +88,10 @@ Dynamic Media **[!DNL Scene 7]** 機能と Dynamic Media ハイブリッド機�
 
 **[!UICONTROL タイトル]**、**[!UICONTROL 登録 ID]**、**[!UICONTROL ビデオサービス URL]**（**[!UICONTROL Dynamic Media ハイブリッド]**&#x200B;の場合）や、**[!UICONTROL タイトル]**、資格情報（**[!UICONTROL 電子メール]**&#x200B;とパスワード）、**[!UICONTROL 地域]**、**[!UICONTROL 会社]**（Dynamic Media **[!DNL Scene 7]** の場合）などの設定詳細を、Brand Portal と **[!UICONTROL AEM クラウド設定]**&#x200B;で同じにする必要があります。
 
-### Dynamic Media Scene7 モードの公開エグレス IP をホワイトリストに登録する
+### Dynamic Mediaの許可リスト公開出力IP Scene7モード
 
-Dynamic Media **[!UICONTROL Scene7]**（[セキュアプレビューが有効](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)）を使用して Brand Portal にビデオアセットを配信する場合、**[!UICONTROL Scene7]** はステージング環境または内部アプリケーション用に専用の画像サーバーを設定します。このサーバーへのリクエストはすべて、発信元 IP アドレスをチェックします。受信リクエストが IP アドレスの承認済みリストに含まれていない場合は、失敗のレスポンスが返されます。そのため、**[!UICONTROL Scene7]** の会社管理者は、**[!UICONTROL SPS]**（Scene7 Publishing System）Flash UI を使用して、自社の&#x200B;**[!UICONTROL セキュアテスト]**&#x200B;環境用の承認済み IP アドレスリストを設定します。該当するそれぞれの地域のエグレス IP（以下を参照）を、その承認済みリストに必ず追加してください。これらのいずれかのエグレス IP をホワイトリストに登録するには、[セキュアテストサービス用アカウントの準備方法](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)を参照してください。エグレス IP は次のとおりです。
+Dynamic Media **[!UICONTROL Scene7]**（[セキュアプレビューが有効](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)）を使用して Brand Portal にビデオアセットを配信する場合、**[!UICONTROL Scene7]** はステージング環境または内部アプリケーション用に専用の画像サーバーを設定します。このサーバーへのリクエストはすべて、発信元 IP アドレスをチェックします。受信リクエストが IP アドレスの承認済みリストに含まれていない場合は、失敗のレスポンスが返されます。そのため、**[!UICONTROL Scene7]** の会社管理者は、**[!UICONTROL SPS]**（Scene7 Publishing System）Flash UI を使用して、自社の&#x200B;**[!UICONTROL セキュアテスト]**&#x200B;環境用の承認済み IP アドレスリストを設定します。該当するそれぞれの地域のエグレス IP（以下を参照）を、その承認済みリストに必ず追加してください。To allowlist either of these egress IPs, see [prepare your account for secure testing service](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
+エグレス IP は次のとおりです。
 
 | **地域** | **エグレス IP** |
 |--- |--- |
@@ -108,6 +109,7 @@ AEM オーサーインスタンスが Dynamic Media ハイブリッドモード�
 1. Brand Portal で上部のツールバーにある AEM ロゴをクリックして、管理ツールにアクセスします。
 
 2. 管理ツールパネルで&#x200B;**[!UICONTROL ビデオ]**&#x200B;タイルを選択します。<br />
+
    ![Brand Portal での Dynamic Media ハイブリッドの設定](assets/DMHybrid-Video.png)
    **[!UICONTROL Dynamic Media 設定を編集]**&#x200B;ページが開きます。<br />
    ![Brand Portal での Dynamic Media ハイブリッドの設定](assets/edit-dynamic-media-config.png)
