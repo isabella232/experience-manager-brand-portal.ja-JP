@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 2b5d2fabc666a1d98af29c859f22a6d02bce3784
+source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 83%
@@ -24,6 +24,7 @@ Brand Portal と AEM Assets の連携を設定すると、承認済みブラン�
 >[!NOTE]
 >
 >AEM Assets Brand Portal と AEM Assets の連携を適切に設定するには、AEM 6.4.1.0 にアップグレードすることをお勧めします。AEM 6.4 では、AEM Assets と Brand Portal の連携を設定する際にエラーが発生し、レプリケーションが失敗します。
+
 
 **[!UICONTROL /etc/cloudservice]** 下にブランドポータルのクラウドサービスを設定すると、必要なユーザーとトークンがすべて自動生成され、リポジトリに保存されます。クラウドサービスの設定が作成され、レプリケーションに必要なサービスユーザーと、コンテンツをレプリケートするためのレプリケーションエージェントも作成されます。これによって 4 つのレプリケーションエージェントが作成されます。したがって、多数のアセットを AEM から Brand Portal に公開するときは、アセットがキューを形成し、これらのレプリケーションエージェント間でラウンドロビンを通じて配分されます。
 
@@ -125,7 +126,7 @@ permission
 **解像度**: レプリケーションキューに複数の保留中の要求がある場合、通常、発行はタイムアウトエラーで失敗します。 この問題を解決するには、レプリケーションエージェントがタイムアウトを回避するように構成されていることを確認します。
 
 レプリケーションエージェントを構成するには、次の手順を実行します。
-1. AEM Assetsオーサーインスタンスにログインします。
+1. AEM Assets作成者インスタンスにログインします。
 1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
 1. In the Replication page, click **[!UICONTROL Agents on author]**. Brand Portalテナントの4つのレプリケーションエージェントを表示できます。
 1. 複製エージェントのURLをクリックして、エージェントの詳細を開きます。
