@@ -9,9 +9,9 @@ topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
-translation-type: ht
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 100%
 
@@ -38,6 +38,7 @@ Brand Portal では、管理者は期限切れアセットを表示したり、�
 >
 >フォルダーは、その中に期限切れアセットが含まれている場合でも、リンクとして共有できます。その場合、共有されたリンクは期限切れアセットをリストせず、期限切れでないアセットのみが共有されます。
 
+
 以下の表に、期限切れアセットの使用権限を示します。
 
 |  | **[!UICONTROL リンク共有]** | **[!UICONTROL ダウンロード]** | **[!UICONTROL プロパティ]** | **[!UICONTROL コレクションに追加]** | **[!UICONTROL 削除]** |
@@ -51,6 +52,7 @@ Brand Portal では、管理者は期限切れアセットを表示したり、�
 >
 >閲覧者およびエディターが期限切れアセットと期限切れでないアセットを含むフォルダーをダウンロードした場合は、期限切れでないアセットのみがダウンロードされます。フォルダーに期限切れアセットのみが含まれている場合は、空のフォルダーがダウンロードされます。
 
+
 ### アセットの有効期限ステータス {#expiration-status-of-assets}
 
 アセットの有効期限ステータスは&#x200B;**[!UICONTROL カード表示]**&#x200B;で確認できます。カード上の赤いフラグは、そのアセットが期限切れであることを示しています。
@@ -60,6 +62,7 @@ Brand Portal では、管理者は期限切れアセットを表示したり、�
 >[!NOTE]
 >
 >リスト表示と列表示では、アセットの有効期限ステータスは表示されません。
+
 
 ## アセットのリンクの有効期限 {#asset-link-expiration}
 
