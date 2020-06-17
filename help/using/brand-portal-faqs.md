@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f763917659b5c1b9b37662d963484f4e84caa109
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 83%
@@ -192,6 +192,7 @@ Brand Portal ユーザーは**投稿**&#x200B;フォルダーにアクセスし�
 >[!NOTE]
 >
 >リリース日程は暫定的なものであり、変更の可能性があります。最新のリリース日程についてアドビのアカウントマネージャーまたはカスタマーサポートにお問い合わせください。
+
 
 
 
