@@ -37,11 +37,11 @@ ht-degree: 94%
 
 * AEM 6.5.2 以降。
 * AEM Assets インスタンスと Brand Portal の連携が設定されていることを確認します。[AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
-* Brand Portalテナントが1つのAEM Assets作成者インスタンスを使用して設定されていることを確認します。
+* Brand Portalテナントが1つのAEM Assets作成者インスタンスで構成されていることを確認します。
 
 >[!NOTE]
 >
->Asset SourcingはAEM Assetsクラウドサービスではサポートされていません。
+>AEM Assetsクラウドサービスでは、アセットソーシングはサポートされていません。
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
