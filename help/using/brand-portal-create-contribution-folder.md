@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c1c64f770482da9274c66e00fd7355cd522f7beb
+source-git-commit: 9c3002429d003c67b8e3f2770d5b9e39d053b20b
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 90%
+source-wordcount: '291'
+ht-degree: 77%
 
 ---
 
@@ -37,7 +37,7 @@ AEM 管理者と、新しいフォルダーを作成する権限を持つ非管�
 
 >[!NOTE]
 >
->作成後にフォルダー名を変更できないので、投稿フォルダーには適切な名前を付けてください。
+>管理者以外のユーザーは、貢献度フォルダーの作成と共有のみが可能です。 貢献度フォルダーの作成後に、管理者以外のユーザーが貢献度フォルダーを変更または削除できないので、貢献度フォルダーに適切な名前を指定してください。
 >
 >貢献度フォルダーのネストはサポートされていません。 1つのフォルダー内に複数の貢献度フォルダーを作成できますが、別の貢献度フォルダー内に貢献度フォルダーを作成することはできません。
 
