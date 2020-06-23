@@ -11,10 +11,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: d0c5adad47fdc83adfad79bae4119cb6d38caf5e
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '330'
+ht-degree: 83%
 
 ---
 
@@ -39,7 +39,9 @@ AEM 管理者は、投稿フォルダーのプロパティを設定する際に�
 1. 「**[!UICONTROL アセット投稿]**」タブに移動します。
 1. 投稿フォルダーの大まかな&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。
 1. **[!UICONTROL 概要をアップロード]**![](assets/upload.png)をクリックし、ローカルマシンから参照して&#x200B;**アセット要件ドキュメント**&#x200B;をアップロードします。
-1. 「**[!UICONTROL ユーザーまたはグループを追加]**」で、投稿フォルダーを共有したい Brand Portal ユーザーまたはグループを検索して「**[!UICONTROL 追加]**」します。これらの Brand Portal ユーザー／グループには、投稿フォルダーにアクセスしたり、AEM オーサーインスタンスにアクセスすることなく Brand Portal インターフェイスからコンテンツをアップロードしたりする権限があります。
+1. In **[!UICONTROL Add User or Group]**, search and **[!UICONTROL Add]** Brand Portal users with whom you want to share the contribution folder. 貢献度フォルダーをグループに割り当てることはできません。
+これらのBrand Portalユーザーは、AEM作成者インスタンスにアクセスすることなく、貢献度フォルダーにアクセスし、Brand Portalインターフェイスからコンテンツをアップロードする権限を持ちます。
+
 1. 「**[!UICONTROL 保存]**」をクリックします。
    ![](assets/contribution-folder-property2.png)
 
