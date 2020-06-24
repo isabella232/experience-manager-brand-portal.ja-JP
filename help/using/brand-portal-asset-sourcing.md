@@ -18,11 +18,11 @@ activity: use
 audience: author, marketer
 version: 6.5
 kt: 3838
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe8f872bdd07fd46778a485dafaa7ba3d1b74950
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -37,14 +37,14 @@ ht-degree: 94%
 
 * AEM 6.5.2 以降。
 * AEM Assets インスタンスと Brand Portal の連携が設定されていることを確認します。[AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
-* Brand Portalテナントが1つのAEM Assets作成者インスタンスで構成されていることを確認します。
+* Brand Portal テナントが 1 つのAEM Assets オーサーインスタンスで構成されていることを確認します。
 
 >[!NOTE]
 >
->AEM Assetsクラウドサービスでは、アセットソーシングはサポートされていません。
+>アセットソーシングは、AEM Assets Cloud Service ではサポートされていません。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=jpn)
 
 ![Brand Portal アセットソーシング](assets/asset-sourcing.png)
 
