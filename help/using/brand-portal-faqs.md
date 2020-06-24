@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1521'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -37,26 +37,26 @@ Brand Portal FAQ では、最新の AEM Assets Brand Portal 6.4.6 リリース�
 
 AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダウンロード](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)して、AEM オーサーインスタンスにインストールすることをお勧めします。
 
-**質問：AEM AssetsのBrand Portalから公開された貢献度フォルダーのコンテンツが表示されません。 考えられる理由は何でしょうか？**
+**質問：Brand Portal から公開された投稿フォルダー内コンテンツが AEM Assets に表示されません。考えられる理由は何でしょうか？**
 
-**回答：** AEM Assets管理者に問い合わせて設定を確認し、Brand Portalテナントが1つのAEM Assets作成者インスタンスのみで構成されていることを確認してください。
+**回答：** AEM Assets 管理者に設定を問い合わせて、Brand Portal テナントが 1 つの AEM Assets オーサーインスタンスのみで設定されていることを確認してください。
 
-この問題は、複数のAEM Assets作成者インスタンスにBrand Portalテナントを設定した場合に発生する可能性があります。 例えば、管理者は、ステージングおよび実稼動環境のAEM Assets作成者インスタンスに同じブランドポータルテナントを設定します。 この場合、Brand Portalでアセットの発行がトリガーされますが、AEM Assets作成者インスタンスは、レプリケーションエージェントが要求トークンを受け取らないアセットコードをインポートできませんでした。
+この問題は、複数の AEM Assets オーサーインスタンスに Brand Portal テナントを設定した場合に発生する可能性があります。例えば、管理者が、ステージング環境と実稼動環境の AEM Assets オーサーインスタンスに同じ Brand Portal テナントを設定するとします。この場合、Brand Portal でアセットの公開がトリガーされますが、レプリケーションエージェントが要求トークンを受信しないので、AEM Assets オーサーインスタンスはアセットを読み込むことができません。
 
 
-**質問：AEM AssetsからBrand Portalにアセットを公開できません。 レプリケーションログには、接続がタイムアウトしたことが記録されます。 クイックフィックスはありますか？**
+**質問：AEM Assets から Brand Portal にアセットを公開できません。レプリケーションログには、接続がタイムアウトしたことが記録されています。クイックフィックスはありますか？**
 
-**回答：** レプリケーションキューに複数の保留中の要求がある場合、通常、発行はタイムアウトエラーで失敗します。 この問題を解決するには、レプリケーションエージェントがタイムアウトを回避するように構成されていることを確認します。
+**回答：**&#x200B;公開がタイムアウトエラーで失敗するのは、通常、レプリケーションキューに保留中のリクエストが複数ある場合です。この問題を解決するには、タイムアウトを回避するようにレプリケーションエージェントを設定します。
 
-レプリケーションエージェントを構成するには、次の手順を実行します。
-1. AEM Assets作成者インスタンスにログインします。
-1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
-1. In the Replication page, click **[!UICONTROL Agents on author]**. Brand Portalテナントの4つのレプリケーションエージェントを表示できます。
-1. 複製エージェントのURLをクリックして、エージェントの詳細を開きます。
-1. [ **[!UICONTROL 編集]** ]をクリックして、レプリケーションエージェントの設定を変更します。
-1. 「エージェントの設定」で、「 **[!UICONTROL 拡張]** 」タブをクリックします。
-1. 「接続を **[!UICONTROL 閉じる]** 」チェックボックスを有効にします。
-1. 手順4 ～ 7を繰り返して、4つのレプリケーションエージェントをすべて構成します。
+レプリケーションエージェントを設定するには、次の手順を実行します。
+1. AEM Assets オーサーインスタンスにログインします。
+1. **ツール**&#x200B;パネルで、**[!UICONTROL デプロイメント]**／**[!UICONTROL レプリケーション]**&#x200B;に移動します。
+1. レプリケーションページで、「**[!UICONTROL 作成者のエージェント]**」をクリックします。Brand Portal テナントの 4 つのレプリケーションエージェントを表示できます。
+1. レプリケーションエージェントの URL をクリックして、エージェントの詳細を開きます。
+1. 「**[!UICONTROL 編集]**」をクリックして、レプリケーションエージェントの設定を変更します。
+1. エージェントの設定で「**[!UICONTROL 拡張]**」タブをクリックします。
+1. 「**[!UICONTROL 接続を閉じる]**」チェックボックスをオンにします。
+1. 手順 4～7 を繰り返して、4 つのレプリケーションエージェントをすべて設定します。
 1. サーバーを再起動し、接続を確認します。
 
 
