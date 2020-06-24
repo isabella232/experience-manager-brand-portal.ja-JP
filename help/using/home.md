@@ -3,9 +3,9 @@ title: AEM Brand Portal ユーザーガイド
 seo-title: AEM Brand Portal ユーザーガイド
 description: AEM Brand Portal ユーザーガイド
 seo-description: Brand Portal の使用方法について説明します
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3abe3dab87481977e874255c11ddc0f55134064
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
 ht-degree: 100%
 
