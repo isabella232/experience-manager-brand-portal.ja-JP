@@ -8,11 +8,11 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '914'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -68,14 +68,14 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 1. `localhost:4502/crx/de/` に移動します（localhost:4502 でオーサーインスタンスを実行していると仮定）。\
    i. `/etc/replication/agents.author/mp_replication` を削除します。
-ii.delete 
+ii.次を削除します。 
 `/etc/cloudservices/mediaportal/<config_name>`
 
 1. localhost:4502/useradmin に移動します。\
    i. ユーザー `mac-<tenantid>replication` を検索します。
 ii.このユーザーを削除します。
 
-これによってシステム全体がクリーンアップされます。これで新しい      クラウドサービス設定の作成を試せるようになります。あるいは、[https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) 内の既存の JWT アプリケーションを引き続き使用することもできます。新しいアプリケーションを作成する必要はなく、新しく作成したクラウド設定から公開鍵を更新するだけで構いません。
+これによってシステム全体がクリーンアップされます。これで新しい        クラウドサービス設定の作成を試せるようになります。あるいは、[https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) 内の既存の JWT アプリケーションを引き続き使用することもできます。新しいアプリケーションを作成する必要はなく、新しく作成したクラウド設定から公開鍵を更新するだけで構いません。
 
 ## Developer Connection の JWT アプリケーションテナントの可視性の問題 {#developer-connection-jwt-application-tenant-visibility-issue}
 
@@ -119,19 +119,19 @@ permission
 エラーの内容に基づき、サポートチケットを発行することもできます。その場合は Brand Portal のエンジニアリングチームが問題解決をお手伝いします。
 
 
-## 接続タイムアウトエラーを回避するためのレプリケーションエージェントの構成 {#connection-timeout}
+## 接続タイムアウトエラーを回避するためのレプリケーションエージェントの設定 {#connection-timeout}
 
-**問題**: AEM AssetsからBrand Portalにアセットを公開できません。 レプリケーションログには、接続がタイムアウトしたことが記録されます。
+**問題**：AEM Assets から Brand Portal にアセットを公開できません。レプリケーションログには、接続がタイムアウトしたことが記録されています。
 
-**解像度**: レプリケーションキューに複数の保留中の要求がある場合、通常、発行はタイムアウトエラーで失敗します。 この問題を解決するには、レプリケーションエージェントがタイムアウトを回避するように構成されていることを確認します。
+**解決策**：公開がタイムアウトエラーで失敗するのは、通常、レプリケーションキューに保留中のリクエストが複数ある場合です。この問題を解決するには、タイムアウトを回避するようにレプリケーションエージェントを設定します。
 
-レプリケーションエージェントを構成するには、次の手順を実行します。
-1. AEM Assets作成者インスタンスにログインします。
-1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
-1. In the Replication page, click **[!UICONTROL Agents on author]**. Brand Portalテナントの4つのレプリケーションエージェントを表示できます。
-1. 複製エージェントのURLをクリックして、エージェントの詳細を開きます。
-1. [ **[!UICONTROL 編集]** ]をクリックして、レプリケーションエージェントの設定を変更します。
-1. 「エージェントの設定」で、「 **[!UICONTROL 拡張]** 」タブをクリックします。
-1. 「接続を **[!UICONTROL 閉じる]** 」チェックボックスを有効にします。
-1. 手順4 ～ 7を繰り返して、4つのレプリケーションエージェントをすべて構成します。
+レプリケーションエージェントを設定するには、次の手順を実行します。
+1. AEM Assets オーサーインスタンスにログインします。
+1. **ツール**&#x200B;パネルで、**[!UICONTROL デプロイメント]**／**[!UICONTROL レプリケーション]**&#x200B;に移動します。
+1. レプリケーションページで、「**[!UICONTROL 作成者のエージェント]**」をクリックします。Brand Portal テナントの 4 つのレプリケーションエージェントを表示できます。
+1. レプリケーションエージェントの URL をクリックして、エージェントの詳細を開きます。
+1. 「**[!UICONTROL 編集]**」をクリックして、レプリケーションエージェントの設定を変更します。
+1. エージェントの設定で「**[!UICONTROL 拡張]**」タブをクリックします。
+1. 「**[!UICONTROL 接続を閉じる]**」チェックボックスをオンにします。
+1. 手順 4～7 を繰り返して、4 つのレプリケーションエージェントをすべて設定します。
 1. サーバーを再起動します。
