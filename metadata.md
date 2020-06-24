@@ -7,13 +7,13 @@ getting-started-title: 概要
 getting-started-url: https://docs.adobe.com/content/help/ja-JP/experience-manager-brand-portal/using/home.html
 tutorials-title: チュートリアル
 tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
-git-repo: https://github.com/AdobeDocs/experience-manager-brand-portal.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.ja-JP
 index: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eab0a56cfe03d13485386ddc60400ed458198950
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '133'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -30,4 +30,4 @@ metadata.md ファイルには、リポジトリ内にあるユーザーガイ�
 | getting-started-url | helpx の「はじめに」のページへのリンク |
 | tutorials-url | ビデオチュートリアル（helpx チュートリアルまたは KT チュートリアル）へのリンク |
 | mini-toc-levels | 右側のレールに表示される見出しレベルの数を決定します。デフォルトは 2 です。 |
-| git-repo | 内部で使用する主要レポートの場所を指定します |
+| git-repo | 内部使用のプライマリリポジトリの場所を指定します。 |
