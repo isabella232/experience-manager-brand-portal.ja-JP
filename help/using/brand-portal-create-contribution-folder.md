@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9c3002429d003c67b8e3f2770d5b9e39d053b20b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ AEM 管理者と、新しいフォルダーを作成する権限を持つ非管�
 
 >[!NOTE]
 >
->管理者以外のユーザーは、貢献度フォルダーの作成と共有のみが可能です。 貢献度フォルダーの作成後に、管理者以外のユーザーが貢献度フォルダーを変更または削除できないので、貢献度フォルダーに適切な名前を指定してください。
+>管理者以外のユーザーは、投稿フォルダーの作成と共有のみ可能です。投稿フォルダーの作成後、管理者以外のユーザーは投稿フォルダーを変更または削除できないので、投稿フォルダーには適切な名前を指定してください。
 >
 >投稿フォルダーのネストはサポートされていません。1 つのフォルダー内に複数の投稿フォルダーを作成できますが、別の投稿フォルダー内に投稿フォルダーを作成することはできません。
 
