@@ -9,9 +9,9 @@ contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 100%
 
@@ -131,9 +131,6 @@ Brand Portal ユーザーは**投稿**&#x200B;フォルダーにアクセスし�
 >[!NOTE]
 >
 >既存の Brand Portal ユーザーでない場合は、AEM 管理コンソールでユーザーを作成して Brand Portal ユーザーリストのユーザー設定ファイルにプロファイルを追加するように AEM 管理者に依頼します。「[Brand Portal ユーザーの追加](brand-portal-configure-asset-sourcing.md)」を参照してください。
-
-
-
 
 **質問：ユーザー読み込み用の CSV ファイルの形式は何ですか。**
 
