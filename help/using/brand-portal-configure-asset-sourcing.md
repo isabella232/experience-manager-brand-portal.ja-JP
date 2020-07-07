@@ -9,9 +9,9 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 100%
 
@@ -26,11 +26,9 @@ AEM 管理者は、AEM オーサーインスタンス内から&#x200B;**アセ�
 >
 >設定を開始する前に、AEM Assets インスタンスと Brand Portal の連携が設定されていることを確認します。[AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
 
-
-
 次のビデオでは、AEM オーサーインスタンスでアセットソーシングを設定する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/29771?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/29771)
 
 ## アセットソーシングの有効化 {#enable-asset-sourcing}
 
@@ -52,7 +50,6 @@ AEM 管理者は、AEM Assets のアクティブな Brand Portal ユーザーリ
 >[!NOTE]
 >
 >CSV ファイルの形式は、Admin Console での一括ユーザー読み込みでサポートされている形式と同じです。電子メールと氏名は必須です。
-
 
 管理者は、AEM Admin Console で新規ユーザーを追加できます。詳しくは、[ユーザーの管理](brand-portal-adding-users.md)を参照してください。Admin Console でユーザーを追加したら、これらのユーザーを Brand Portal ユーザー設定ファイルに追加して、投稿フォルダーへのアクセス権を割り当てることができます。
 
