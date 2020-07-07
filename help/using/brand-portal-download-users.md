@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
-translation-type: ht
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 100%
 
@@ -25,8 +25,7 @@ ht-degree: 100%
 >
 >有効期限が切れたアセットをダウンロードできるのは、管理者のみです。有効期限が切れたアセットについて詳しくは、[アセットのデジタル著作権の管理](../using/manage-digital-rights-of-assets.md)を参照してください。
 
-
-## アセットのダウンロード手順{#steps-to-download-assets}
+## アセットのダウンロード手順 {#steps-to-download-assets}
 
 Brand Portal のアセット、またはアセットを含むフォルダーをダウンロードするには、次の手順に従います。
 
