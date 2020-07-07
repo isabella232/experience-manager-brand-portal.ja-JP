@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
-translation-type: ht
-source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '1522'
 ht-degree: 100%
 
@@ -36,7 +36,6 @@ Adobe Experience Manager（AEM）Assets と Brand Portal の連携は、Adobe �
 >[!NOTE]
 >
 >Adobe 開発者コンソールを使用した AEM Assets と Brand Portal の連携の設定は、AEM Assets Cloud Service および AEM Assets 6.3 以降でサポートされています。
-
 
 ### AEM Assets と Brand Portal の連携を設定するための前提条件 {#prerequisites}
 
@@ -142,7 +141,6 @@ Brand Portal 6.4.3 以降では、各組織はそれぞれの Brand Portal テ�
 >既存のポータル URL 中のテナント名のエイリアスを取得するには、各組織からアドビサポートへ新規テナント名の作成依頼を出す必要があります。このリクエストが処理される際は、まずそのエイリアスが使用可能かどうかの確認がおこなわれ、その後でエイリアスが作成されます。
 >
 >古いエイリアスを置き換えたり、古いエイリアスを削除するには、同じ手続きに従う必要があります。
-
 
 ## Brand Portal へのアクセス権の申請 {#request-access-to-brand-portal}
 
