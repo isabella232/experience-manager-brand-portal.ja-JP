@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
-translation-type: ht
-source-git-commit: 67b905dc71d6b1b4f314a9791e386f7a27781967
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 100%
 
@@ -32,6 +32,7 @@ AEM 管理者は、投稿フォルダーのプロパティを設定する際に�
 その後、管理者は、Brand Portal ユーザー／グループに投稿フォルダーへのアクセス権を付与してから、新しく作成した投稿フォルダーを Brand Portal に公開できます。
 
 **投稿フォルダーのプロパティを設定するには：**
+
 1. AEM オーサーインスタンス（デフォルト URL：http://localhost:4502/aem/start.html）にログインします。
 1. **[!UICONTROL アセット／ファイル]**&#x200B;に移動して、投稿フォルダーを探します。
 1. 投稿フォルダーを選択して、「**[!UICONTROL プロパティ]**」![](assets/properties.png)をクリックします。フォルダーのプロパティウィンドウが開きます。
@@ -40,11 +41,10 @@ AEM 管理者は、投稿フォルダーのプロパティを設定する際に�
 1. 投稿フォルダーの大まかな&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。
 1. **[!UICONTROL 概要をアップロード]**![](assets/upload.png)をクリックし、ローカルマシンから参照して&#x200B;**アセット要件ドキュメント**&#x200B;をアップロードします。
 1. 「**[!UICONTROL ユーザーまたはグループを追加]**」フィールドで、投稿フォルダーを共有したい Brand Portal ユーザーを追加します。追加されたユーザーは、Brand Portal インターフェイスを使用して、投稿フォルダーにアクセスし、アップロードできます。現在、投稿フォルダーにグループを追加することはできません。
-
 1. 「**[!UICONTROL 保存]**」をクリックします。
-   ![](assets/contribution-folder-property2.png)
+
+![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
 >
 >検索結果は、AEM Assets に設定された Brand Portal ユーザーリストに基づきます。Brand Portal ユーザーリストを更新しておくようにします。[Brand Portal ユーザーリストのアップロード](brand-portal-configure-asset-sourcing.md)を参照してください。
-
