@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 92961850279ad5a676ec0bc655d3a16f0497b024
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 79%
@@ -40,4 +40,3 @@ AEM 管理者と、新しいフォルダーを作成する権限を持つ非管�
 >管理者以外のユーザーは、アセット貢献度フォルダーの作成と共有のみが可能です。 貢献度フォルダーを作成した後は、管理者以外のユーザーはその貢献度フォルダーを変更または削除できません。
 >
 >アセット貢献度フォルダーのネストはサポートされていません。 1つのフォルダー内に複数の貢献度フォルダーを作成できますが、別の貢献度フォルダー内に貢献度フォルダーを作成しないでください。
-
