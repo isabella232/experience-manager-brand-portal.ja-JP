@@ -9,9 +9,9 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: b7de0dbcbb5b4723c291277705f8671e075562e0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%
 
@@ -27,8 +27,6 @@ Brand Portal ユーザーは、[アセット要件（投稿フォルダーに添
 >Brand Portal ユーザーは、コンテンツ／アセットを **NEW** フォルダーにのみアップロードできます。アップロードしたアセットを削除する権限はありません。
 >
 >Brand Portal アカウント／テナントのアップロード上限は **10** GB です。
-
-
 
 **新しいアセットをアップロードするには：**
 
