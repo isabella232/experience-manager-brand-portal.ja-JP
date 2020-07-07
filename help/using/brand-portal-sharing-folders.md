@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
-translation-type: ht
-source-git-commit: 7b15757b92d5a9ed5f0d49f2e1d102a77619ce49
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Brand Portal は、アセットの取り込みをサポートしていません。したがって、事前設定済みの AEM オーサーインスタンスから Brand Portal にアセットを公開する必要があります。
 
-## Brand Portal でのフォルダー共有ワークフロー{#folder-sharing-workflow-in-brand-portal}
+## Brand Portal でのフォルダー共有ワークフロー {#folder-sharing-workflow-in-brand-portal}
 
 以下に、フォルダー共有のワークフローとユーザーアクセスを示します。
 
@@ -49,7 +49,6 @@ Brand Portal のレプリケーションの設定時に「**[!UICONTROL 公開�
 >
 >「**[!UICONTROL 公開フォルダーの公開]**」を有効にするオプションは、AEM 6.3.2.1 以降で利用できます。
 
-
 ## 共有フォルダーへのアクセス {#access-to-shared-folders}
 
 以下の表に、様々なユーザーの役割が持つアクセス権と、アセットを共有／共有解除する権限を示します。
@@ -64,7 +63,6 @@ Brand Portal のレプリケーションの設定時に「**[!UICONTROL 公開�
 >[!NOTE]
 >
 >AEM オーサーインスタンスと Brand Portal のレプリケーションを設定する際、「**[!UICONTROL 公開フォルダーの公開]**」オプションはデフォルトで無効になっています。このオプションが有効になっている場合は、Brand Portal に公開されているフォルダーが、デフォルトですべてのユーザー（管理者以外のユーザーも含む）にアクセス可能になります。
-
 
 ### 管理者以外のユーザーによる共有フォルダーへのアクセス {#non-admin-user-access-to-shared-folders}
 
@@ -127,7 +125,7 @@ Brand Portal のレプリケーションの設定時に「**[!UICONTROL 公開�
 1. 「**[!UICONTROL 保存]**」をクリックします。
 1. 共有フォルダーにアクセスするには、フォルダーを共有するユーザーの資格情報を使用して Brand Portal にログインします。インターフェイスで共有フォルダーを確認します。
 
-## フォルダーの共有解除{#unshare-the-folders}
+## フォルダーの共有解除 {#unshare-the-folders}
 
 共有フォルダーの共有を解除するには、以下の手順に従います。
 
