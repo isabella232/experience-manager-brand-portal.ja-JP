@@ -9,9 +9,9 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: ht
-source-git-commit: 9413aa609b5c0d66c9d23ddf9dcd9d28ec4da798
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 100%
 
@@ -80,8 +80,6 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 >
 >旧来の OAuth を使用した設定は、2020 年 4 月 6 日以降はサポートされなくなり、Adobe 開発者コンソールを使用した設定に変更されました。
 
-
-
 >[!TIP]
 >
 >***既存のお客様のみ***
@@ -89,7 +87,6 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 >旧来の OAuth ゲートウェイを通じた設定は、既存のお客様には引き続きご利用いただけます。
 >
 >旧来の OAuth ゲートウェイを通じた設定で問題が発生した場合は、Adobe 開発者コンソールで既存の設定を削除し新しい設定を作成します。
-
 
 詳しくは、[AEM Assets と Brand Portal の連携の設定](configure-aem-assets-with-brand-portal.md)を参照してください
 
@@ -138,7 +135,7 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 * 簡体字中国語
 * 韓国語
 
-## 認定プラットフォーム{#certified-platforms}
+## 認定プラットフォーム {#certified-platforms}
 
 このリリースの Brand Portal を実行できる認定プラットフォームを確認するには、[技術要件](https://helpx.adobe.com/jp/experience-manager/6-4/sites/deploying/using/technical-requirements.html)の「**オーサリングユーザーインターフェイス向けにサポートされているブラウザー**」節に記載されている表の「**UI のサポート**」列を参照してください。
 
