@@ -9,9 +9,9 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: ba8a1f09573766643f6a5013a8d181f0f0dbb4f2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 100%
 
@@ -32,7 +32,6 @@ AEM Assets を Brand Portal でサービスできるように設定すると、B
 >
 >旧来の OAuth を使用した設定は、2020 年 4 月 6 日以降はサポートされなくなり、Adobe 開発者コンソールを使用した設定に変更されました。
 
-
 >[!TIP]
 >
 >***既存のお客様のみ***
@@ -40,7 +39,6 @@ AEM Assets を Brand Portal でサービスできるように設定すると、B
 >旧来の OAuth ゲートウェイを通じた設定は、既存のお客様には引き続きご利用いただけます。
 >
 >旧来の OAuth ゲートウェイを通じた設定で問題が発生した場合は、Adobe 開発者コンソールで既存の設定を削除し新しい設定を作成します。
-
 
 AEM Assets と Brand Portal の連携を設定する手順は、AEM のバージョンと、初めて設定するか既存の設定をアップグレードするかによって異なります。
 
