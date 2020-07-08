@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 855bc65b6a7faebbb497af9277daf4da5ffc42f9
+source-git-commit: bc6effb6e8d828e5a299f69547c2c783fcf66a1e
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 88%
+source-wordcount: '186'
+ht-degree: 63%
 
 ---
 
@@ -32,8 +32,8 @@ Brand Portal ユーザーは、AEM オーサーインスタンスにアクセス
    ![](assets/publish-contribution-folder-to-aem.png)
 
 電子メール/パルス通知は、投稿ワークフローの異なる段階で、Brand PortalユーザーとAEM管理者に送信されます。
-1. **待機中** - Brand Portal で公開ワークフローがトリガーされると、投稿フォルダーが Brand Portal から AEM Assets に公開されます。
+1. **キューに登録済み** - Brand Portalで投稿ワークフローがトリガーされると、Brand Portalユーザーに通知が送信されます。
 
-1. **完了** - 公開ワークフローが完了すると、投稿フォルダーは AEM Assets に正常に読み込まれています。
+1. **完了** — 投稿ワークフローが完了すると、貢献度フォルダーがAEM Assetsに正常に発行されると、Brand PortalユーザーとAEM管理者に通知が送信されます。
 
 
