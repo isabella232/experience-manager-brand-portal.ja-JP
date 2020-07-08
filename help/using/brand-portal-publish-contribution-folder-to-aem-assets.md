@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: bc6effb6e8d828e5a299f69547c2c783fcf66a1e
+source-git-commit: 3fa975c598adda96f2358621bc06038186aeeb2f
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 63%
+source-wordcount: '190'
+ht-degree: 62%
 
 ---
 
@@ -31,9 +31,9 @@ Brand Portal ユーザーは、AEM オーサーインスタンスにアクセス
 1. 「**[!UICONTROL AEM に公開]**」![](assets/export.png)をクリックします。
    ![](assets/publish-contribution-folder-to-aem.png)
 
-電子メール/パルス通知は、投稿ワークフローの異なる段階で、Brand PortalユーザーとAEM管理者に送信されます。
-1. **キューに登録済み** - Brand Portalで投稿ワークフローがトリガーされると、Brand Portalユーザーに通知が送信されます。
+電子メール/パルス通知は、投稿ワークフローの様々な段階で、Brand Portalユーザーおよび管理者に送信されます。
+1. **キューに登録済み** - Brand Portalで投稿ワークフローがトリガーされると、Brand PortalユーザーおよびBrand Portal管理者に通知が送信されます。
 
-1. **完了** — 投稿ワークフローが完了すると、貢献度フォルダーがAEM Assetsに正常に発行されると、Brand PortalユーザーとAEM管理者に通知が送信されます。
+1. **完了** — 投稿ワークフローが完了すると、貢献度フォルダーがAEM Assetsに正常に発行されると、Brand PortalユーザーおよびBrand Portal管理者に通知が送信されます。
 
 
