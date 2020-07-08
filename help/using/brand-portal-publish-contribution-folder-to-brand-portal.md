@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
-workflow-type: ht
-source-wordcount: '194'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 168177bae46b2242d883838da538218b8d192031
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 91%
 
 ---
 
@@ -30,4 +30,4 @@ ht-degree: 100%
    ![](assets/publish-contribution-folder-to-bp.png)
 投稿フォルダーが Brand Portal に公開されると、成功メッセージを受け取ります。
 
-投稿フォルダーに割り当てられた Brand Portal ユーザー／グループに電子メール／パルス通知が送信されます。Brand Portal ユーザーは、投稿フォルダーにアクセスして投稿を開始できます。[投稿フォルダーへのアセットのアップロード](brand-portal-upload-assets-to-contribution-folder.md)を参照してください。
+電子メール/パルス通知が、貢献度フォルダーに割り当てられたBrand Portalユーザーに送信されます。 Brand Portal ユーザーは、投稿フォルダーにアクセスして投稿を開始できます。[投稿フォルダーへのアセットのアップロード](brand-portal-upload-assets-to-contribution-folder.md)を参照してください。
