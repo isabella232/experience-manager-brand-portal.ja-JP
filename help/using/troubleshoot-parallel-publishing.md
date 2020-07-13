@@ -75,9 +75,7 @@ ii.次を削除します。 `/etc/cloudservices/mediaportal/<config_name>`
 i. ユーザー `mac-<tenantid>replication` を検索します。
 ii.このユーザーを削除します。-ERR:REF-NOT-FOUND-
 
-## 
-
-Developer Connection の JWT アプリケーションテナントの可視性の問題 {#developer-connection-jwt-application-tenant-visibility-issue}-ERR:REF-NOT-FOUND-
+## Developer Connection の JWT アプリケーションテナントの可視性の問題 {#developer-connection-jwt-application-tenant-visibility-issue}-ERR:REF-NOT-FOUND-
 
 
 
