@@ -4,9 +4,9 @@ product: adobe experience manager
 sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Assets Brand Portal
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c3abe3dab87481977e874255c11ddc0f55134064
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%
 
