@@ -30,7 +30,7 @@ Brand Portal ユーザーは、AEM オーサーインスタンスにアクセス
 1. ダッシュボードから貢献度フォルダーを選択します。
 1. Click **[!UICONTROL Publish to AEM]**
 
-   ![](assets/export.png)。
+   ![](assets/export.png).
 
    ![](assets/publish-contribution-folder-to-aem.png)
 
