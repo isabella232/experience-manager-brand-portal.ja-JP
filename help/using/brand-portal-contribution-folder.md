@@ -9,9 +9,9 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 次のビデオでは、AEM Assets での投稿フォルダーの設定方法を説明しています。
 
->[!VIDEO](https://video.tv.adobe.com/v/30547?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/30547)
 
 AEM ユーザーは、投稿フォルダーを設定する際に、次のアクティビティを実行します。
 
