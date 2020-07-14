@@ -8,8 +8,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 100%
 
 ---
 
@@ -83,6 +86,6 @@ AEM Assets Brand Portal でサポートされるファイル形式を以下の�
 | 記号 | 意味 |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | ✓ | この機能はサポートされています。 |
-| ✕ | この機能はサポートされていません。 |
+| ✕ | この機能はサポートされていません. |
 | 該当なし | この機能は適用されません。 |
-| * | この機能を AEM オーサーインスタンスで使用するには、このファイル形式用のアドオンサポートが必要です。ただし、アセットが Brand Portal に公開された後、Brand Portal で使用する際には不要です。 |
+| * | この機能を AEM オーサーインスタンスで使用するには、このファイル形式用のアドオンサポートが必要です。ただし、アセットが Brand Portal に公開された後、Brand Portal で使用する際には不要です. |
