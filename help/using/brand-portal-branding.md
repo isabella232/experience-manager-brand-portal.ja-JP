@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 100%
 
@@ -46,6 +46,7 @@ Brand Portal 管理者は、ユーザーに表示されるインターフェイ�
 
    * お使いのコンピューターから画像をアップロードするには、「**[!UICONTROL アップロード]**」をクリックします。必要な画像に移動してアップロードします。
    * Brand Portal の既存の画像を使用するには、「**[!UICONTROL 既存から選択]**」をクリックします。アセットピッカーを使用して画像を選択します。
+
    ![](assets/asset-picker.png)
 
 1. 背景画像のヘッダーテキストと説明を指定します。変更内容を保存するには、上部のツールバーの「**[!UICONTROL 保存]**」をクリックします。
@@ -59,9 +60,11 @@ Brand Portal 管理者は、ユーザーに表示されるインターフェイ�
 1. デフォルトの壁紙をアクティベートまたはアクティベート解除するには、**[!UICONTROL ブランディングを設定／壁紙]**&#x200B;ページで、以下の操作を実行します。
 
    * Brand Portal ログインページにデフォルトの壁紙画像を表示するには、上部のツールバーの「**[!UICONTROL 壁紙のアクティベートを解除]**」をクリックします。カスタム画像のアクティベート解除を確認するメッセージが表示されます。
+
    ![](assets/chlimage_1-1.png)
 
    * Brand Portal ログインページにカスタム画像を再度表示するには、ツールバーの「**[!UICONTROL 壁紙をアクティベート]**」をクリックします。カスタム画像の再度表示を確認するメッセージが表示されます。
+
    ![](assets/chlimage_1-2.png)
 
    * 「**[!UICONTROL 保存]**」をクリックして、変更を保存します。
@@ -108,9 +111,11 @@ Brand Portal にログインすると、ヘッダーが様々な Brand Portal �
 1. ヘッダー画像をアクティベートまたはアクティベート解除するには、**[!UICONTROL ブランディングを設定／ヘッダーの画像]**&#x200B;ページで、以下の操作を実行します。
 
    * Brand Portal ページにヘッダー画像を表示しない場合は、上部のツールバーの「**[!UICONTROL ヘッダーのアクティベートを解除]**」をクリックします。ヘッダー画像のアクティベート解除を確認するメッセージが表示されます。
+
    ![](assets/chlimage_1-4.png)
 
    * Brand Portal ページにヘッダー画像を再度表示するには、上部のツールバーの「**[!UICONTROL ヘッダーをアクティベート]**」をクリックします。ヘッダー画像のアクティベートを確認するメッセージが表示されます。
+
    ![](assets/chlimage_1-5.png)
 
    * 「**[!UICONTROL 保存]**」をクリックして、変更を保存します。
