@@ -9,8 +9,11 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+workflow-type: tm+mt
+source-wordcount: '1117'
+ht-degree: 100%
 
 ---
 
@@ -61,7 +64,7 @@ AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係�
 1. 必要に応じて、「**[!UICONTROL メッセージ]**」ボックスにメッセージを入力します。
 1. 「**[!UICONTROL 有効期限]**」フィールドに、日付選択を使用して、リンクの有効期限を指定します。デフォルトの有効期限は、リンクを共有した日から 7 日間です。
 
-   リンクとして共有されるアセットは、「**[!UICONTROL 有効期限]**」フィールドに指定した日時を過ぎると有効期限が切れます。有効期限が切れたアセットの動作と、Brand Portal のユーザーの役割に応じて許容される操作の変更点については、[アセットのデジタル著作権の管理](../using/manage-digital-rights-of-assets.md#asset-expiration)を参照してください。
+   リンク共有されるアセットは、「**[!UICONTROL 有効期限]**」フィールドに指定した日時を過ぎると有効期限が切れます。有効期限が切れたアセットの動作と、Brand Portal のユーザーの役割に応じて許容される操作の変更点については、[アセットのデジタル著作権の管理](../using/manage-digital-rights-of-assets.md#asset-expiration)を参照してください。
 
 1. 「**[!UICONTROL 共有]**」をクリックします。リンクをユーザーと共有することを確認するメッセージが表示されます。リンクを含む電子メールがユーザーに届きます。
 
@@ -92,13 +95,13 @@ AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係�
 
    ![](assets/licensed-asset-download.png)
 
-   **[!UICONTROL ダウンロード]ダイアログボックスが開きます。**
+   **[!UICONTROL ダウンロード]**&#x200B;ダイアログボックスが開きます。
 
    ![](assets/download-linkshare.png)
 
    * リンクとして共有されたアセットファイルのダウンロードをスピードアップさせるには、「**[!UICONTROL ダウンロードアクセラレーションを有効化]**」オプションを選択し、[ウィザードに従います](../using/accelerated-download.md#download-workflow-using-file-accelerator)。Brand Portal でのアセットの高速ダウンロードについて詳しくは、[Brand Portal からのダウンロードを高速化するためのガイド](../using/accelerated-download.md)を参照してください。
 
-1. 共有リンクのアセットに加えて、アセットのレンディションもダウンロードするには、「**[!UICONTROL レンディション]**」オプションを選択します。すると、「**[!UICONTROL システムレンディションを除く]」オプションが表示されます（このオプションはデフォルトで選択されています）。**&#x200B;これによって、承認済みのアセットレンディションやカスタムレンディションとともに、既製のレンディションがダウンロードされるのを防ぎます。
+1. 共有リンクのアセットに加えて、アセットのレンディションもダウンロードするには、「**[!UICONTROL レンディション]**」オプションを選択します。すると、「**[!UICONTROL システムレンディションを除く]**」オプションが表示されます（このオプションはデフォルトで選択されています）。これによって、承認済みのアセットレンディションやカスタムレンディションとともに、既製のレンディションがダウンロードされるのを防ぎます。
 
    ただし、カスタムレンディションと共に自動生成レンディションをダウンロードすることを許可する場合は、「**[!UICONTROL システムレンディションを除く]**」オプションの選択を解除します。
 
