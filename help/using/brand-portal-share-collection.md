@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 100%
 
@@ -41,9 +41,11 @@ AEM Assets Brand Portal 管理者は、コレクションやスマートコレ�
 1. **[!UICONTROL コレクション]**&#x200B;コンソールで、以下のいずれかの手順を実行します。
 
    * 共有するコレクションの上にマウスポインターを置きます。そのコレクションで使用できるクイックアクションサムネールから、**[!UICONTROL 設定]**&#x200B;アイコンをクリックします。
+
    ![](assets/settings_thumbnail.png)
 
    * 共有するコレクションを選択します。上部のツールバーの「**[!UICONTROL 設定]**」をクリックします。
+
    ![](assets/collection-sharing.png)
 
 1. [!UICONTROL コレクション設定]ダイアログボックスで、そのコレクションを共有するユーザーまたはグループを選択し、それぞれのグローバルな役割に一致するユーザーまたはグループの役割を選択します。例えば、グローバルな編集者には編集者の役割を割り当て、グローバルな閲覧者には閲覧者の役割を割り当てます。
