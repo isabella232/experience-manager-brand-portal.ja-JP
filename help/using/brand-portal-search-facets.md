@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 100%
 
@@ -63,6 +63,7 @@ Brand Portal では[ファセット検索](../using/brand-portal-searching.md#se
 
    * 指定したプロパティ値に基づく、アセットの部分フレーズ検索（およびワイルドカード検索）を可能にする場合は、「**[!UICONTROL 部分検索]**」を選択します。述語はデフォルトでフルテキスト検索をサポートしています。
    * プロパティ値に基づいたアセット検索で大文字と小文字を区別しない場合は、「**[!UICONTROL 大文字と小文字を区別しない]**」を選択します。検索フィルターでのプロパティ値の検索では、デフォルトで大文字と小文字が区別されます。
+
    >[!NOTE]
    >
    >「**[!UICONTROL 部分検索]**」チェックボックスを選択すると、デフォルトで「**[!UICONTROL 大文字と小文字を区別しない]**」がオンになります。
