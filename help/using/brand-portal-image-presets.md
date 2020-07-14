@@ -8,8 +8,11 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+workflow-type: tm+mt
+source-wordcount: '892'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +29,7 @@ Brand Portal にアセットの動的レンディションを表示するには�
 >
 >画像とそのレンディションをダウンロードするときは、既存のプリセットから選択することはできません。その代わりに、カスタム画像プリセットのプロパティを指定できます。詳しくは、[画像をダウンロードする際の画像プリセットの適用](../using/brand-portal-image-presets.md#main-pars-text-1403412644)を参照してください。
 
-画像プリセットの作成時に必要となるパラメーターについて詳しくは、[画像プリセットの管理](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/managing-image-presets.html)を参照してください。
+画像プリセットの作成時に必要となるパラメーターについて詳しくは、[画像プリセットの管理](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html)を参照してください。
 
 ## 画像プリセットの作成 {#create-an-image-preset}
 
@@ -50,7 +53,7 @@ AEM（オーサー）インスタンスが **Dynamic Media ハイブリッドモ
 
    ![](assets/image_preset_homepage.png)
 
-1. **[!UICONTROL 画像プリセットを編集]**&#x200B;ページで、「**[!UICONTROL 基本]**」または「**[!UICONTROL 詳細]**」のどちらか該当するタブに、名前などの値を入力します。オプションの概要については、[画像プリセットオプション](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/managing-image-presets.html#Image%20preset%20options)で説明しています。プリセットは左側のウィンドウに表示され、他のアセットにすぐに使用できます。
+1. **[!UICONTROL 画像プリセットを編集]**&#x200B;ページで、「**[!UICONTROL 基本]**」または「**[!UICONTROL 詳細]**」のどちらか該当するタブに、名前などの値を入力します。オプションの概要については、[画像プリセットオプション](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options)で説明しています。プリセットは左側のウィンドウに表示され、他のアセットにすぐに使用できます。
 
    ![](assets/image_preset_create.png)
 
@@ -81,9 +84,11 @@ Brand Portal から画像とそのレンディションをダウンロードす�
 1. Brand Portal コンソールで、以下のいずれかの手順を実行します。
 
    * ダウンロードする画像の上にマウスポインターを置きます。使用できるクイックアクションサムネールから、**[!UICONTROL ダウンロード]**&#x200B;アイコンをクリックします。
+
    ![](assets/downloadsingleasset.png)
 
    * ダウンロードする画像を選択します。上部のツールバーで「**[!UICONTROL ダウンロード]**」アイコンをクリックします。
+
    ![](assets/downloadassets.png)
 
 1. **[!UICONTROL ダウンロード]**&#x200B;ダイアログボックスで、アセットとそのレンディションを一緒にダウンロードするかどうかに応じて、必要なオプションを選択します。
