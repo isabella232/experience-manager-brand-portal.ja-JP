@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1756'
 ht-degree: 100%
 
