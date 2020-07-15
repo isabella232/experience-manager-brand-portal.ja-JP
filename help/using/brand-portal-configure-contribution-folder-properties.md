@@ -13,8 +13,8 @@ discoiquuid: null
 translation-type: tm+mt
 source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ AEM 管理者は、投稿フォルダーのプロパティを設定する際に�
 
 **投稿フォルダーのプロパティを設定するには：**
 
-1. AEM オーサーインスタンス（デフォルト URL：http://localhost:4502/aem/start.html） にログインします。
+1. AEM オーサーインスタンス（デフォルト URL：http://localhost:4502/aem/start.html）  にログインします。
 1. **[!UICONTROL アセット／ファイル]**&#x200B;に移動して、投稿フォルダーを探します。
 1. 投稿フォルダーを選択して、「**[!UICONTROL プロパティ]**」![](assets/properties.png)をクリックします。フォルダーのプロパティウィンドウが開きます。
    ![](assets/contribution-folder-property1.png)
