@@ -7,14 +7,14 @@ translation-type: tm+mt
 source-git-commit: 48e17836b50101d3c175c7034326f2b698697697
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
 # 概要
 
-**Adobe Experience Manager(AEM)Assets Brand Portalは、承認されたブランドおよび製品アセットを外部のエージェンシー、パートナー、内部チームおよびリセラーに安全に配布し、組織がマーケティングのニーズを満たすのを支援します。**
+**Adobe Experience Manager (AEM) Assets Brand Portal** は、組織が承認済みのブランドおよび製品アセットを外部の代理店、パートナー、内部チーム、販売店などにダウンロードで安全に配布してマーケティングニーズに応えるうえで役に立ちます。
 
 安全なアセット共有ソリューションがないと、次のことが考えられます。
 
