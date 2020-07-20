@@ -12,8 +12,8 @@ discoiquuid: null
 translation-type: tm+mt
 source-git-commit: 7ec61993e627f07c20a2e5a2b43f2daa629622d6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '257'
+ht-degree: 100%
 
 ---
 
