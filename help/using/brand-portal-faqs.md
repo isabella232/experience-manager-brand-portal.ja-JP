@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 100%
+source-wordcount: '1632'
+ht-degree: 93%
 
 ---
 
@@ -28,6 +28,12 @@ Brand Portal FAQ では、最新の AEM Assets Brand Portal 6.4.6 リリース�
 **質問：既存のレガシー OAuth エンドポイント（`https://legacy-oauth.cloud.adobe.io/login`）が機能していません。考えられる理由は何でしょうか？**
 
 **回答：** レガシー OAuth 設定は非推奨です。AEM Assets のオーサーインスタンスを最新のサービスパックにアップグレードし、Adobe 開発者コンソールで設定する必要があります。詳しくは、[AEM Assets と Brand Portal の連携の設定](configure-aem-assets-with-brand-portal.md)を参照してください。ただし、アップグレードするまでレガシー OAuth 設定が機能するようにするには、レガシー OAuth エンドポイントを `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/` に更新します。
+
+
+**質問：管理者が共有するアセットリンクを使用してコレクションを作成しました。 ただし、コレクションの共有リンクを作成できません。 これを行うには特別な権限が必要ですか？**
+
+**回答：** 機能は、ユーザーを追加して共有リンクを作成できないため、権限が制限されているので、Viewerのユーザーはコレクションのリンクを共有できません。 コレクションの共有リンクが現在Viewerユーザーに表示される既知の問題です。 この問題は、今後のリリースで修正される予定です。コレクションのリンクを共有するオプションは、Viewerユーザーには提供されません。
+
 
 **質問：Adobe 開発者コンソールにアップグレードしたら、投稿フォルダーのアセットを Brand Portal から AEM Assets に公開できません。オーサーインスタンスは AEM 6.5.4 にあります。考えられる理由は何でしょうか？**
 
