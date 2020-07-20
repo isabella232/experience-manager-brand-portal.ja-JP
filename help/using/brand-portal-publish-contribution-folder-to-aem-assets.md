@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: d9bf1be1fe25607a7f716828a8b982080857b38c
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '184'
 ht-degree: 100%
 
 ---
@@ -27,10 +27,11 @@ Brand Portal ユーザーは、AEM オーサーインスタンスにアクセス
 **投稿フォルダーを公開するには：**
 
 1. Brand Portal インスタンスにログインします。
-1. ダッシュボードから投稿フォルダーを選択します。
+
+1. Brand Portal ダッシュボードから投稿フォルダーを選択します。
 1. 「**[!UICONTROL AEM に公開]**」をクリックします。
 
-   ![](assets/export.png)。
+   ![](assets/export.png)
 
    ![](assets/publish-contribution-folder-to-aem.png)
 
