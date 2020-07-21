@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 93%
+source-wordcount: '1521'
+ht-degree: 100%
 
 ---
 
@@ -29,11 +29,11 @@ Brand Portal FAQ では、最新の AEM Assets Brand Portal 6.4.6 リリース�
 
 **回答：** レガシー OAuth 設定は非推奨です。AEM Assets のオーサーインスタンスを最新のサービスパックにアップグレードし、Adobe 開発者コンソールで設定する必要があります。詳しくは、[AEM Assets と Brand Portal の連携の設定](configure-aem-assets-with-brand-portal.md)を参照してください。ただし、アップグレードするまでレガシー OAuth 設定が機能するようにするには、レガシー OAuth エンドポイントを `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/` に更新します。
 
+<!--
+**Ques. I have created a collection using the asset link shared by the administrator. But I am unable to create a share link for my collection. Do I need special permissions to do this?**
 
-**質問：管理者が共有するアセットリンクを使用してコレクションを作成しました。 ただし、コレクションの共有リンクを作成できません。 これを行うには特別な権限が必要ですか？**
-
-**回答：** 機能は、ユーザーを追加して共有リンクを作成できないため、権限が制限されているので、Viewerのユーザーはコレクションのリンクを共有できません。 コレクションの共有リンクが現在Viewerユーザーに表示される既知の問題です。 この問題は、今後のリリースで修正される予定です。コレクションのリンクを共有するオプションは、Viewerユーザーには提供されません。
-
+**Ans.** The functionality is by design, the viewer users are not permitted to share link for collections as they have limited privileges due to which they cannot add users to create a share link. It is a known issue that the share link for collections is currently visible to the viewer users. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.    
+-->
 
 **質問：Adobe 開発者コンソールにアップグレードしたら、投稿フォルダーのアセットを Brand Portal から AEM Assets に公開できません。オーサーインスタンスは AEM 6.5.4 にあります。考えられる理由は何でしょうか？**
 
