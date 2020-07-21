@@ -10,19 +10,21 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 21043cee0839beaa900cc4ffcc8b05afe60a425d
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 94%
+source-wordcount: '1118'
+ht-degree: 99%
 
 ---
 
 
 # アセットをリンクとして共有 {#share-assets-as-a-link}
 
-AEM Assetsブランドポータルの管理者および編集者は、権限を持つ内部ユーザーおよび外部エンティティ（パートナーやベンダーを含む）と複数のアセットのリンクを共有できます。 編集者は、管理者によって共有されたアセットのみを閲覧および共有できます。
+AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係者（パートナーやベンダーを含む）との間で複数のアセットのリンクを共有できます。編集者は、管理者によって共有されたアセットのみを閲覧および共有できます。
 
-リンクを通じたアセット共有は、アセットを外部の関係者が利用できるようにする便利な方法です。リンクを共有すれば、Brand Portal にログインしなくてもアセットにアクセスできます。受信者（ビューアのユーザ）は、共有された公開アセットにアクセスしてダウンロードでき、これらのアセットを追加して独自のコレクションを作成できます。
+リンクを通じたアセット共有は、アセットを外部の関係者が利用できるようにする便利な方法です。リンクを共有すれば、Brand Portal にログインしなくてもアセットにアクセスできます。
+
+リンク共有を利用したアクセスは、エディターと管理者に制限されています。
 
 詳しくは、[ユーザー、グループ、ユーザーの役割の管理](../using/brand-portal-adding-users.md#manage-user-roles)を参照してください。
 
