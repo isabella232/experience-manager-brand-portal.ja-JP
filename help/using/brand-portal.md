@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 216c49639d264730fffa0b74e07d49ffbeffc56e
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 94%
+source-wordcount: '1522'
+ht-degree: 100%
 
 ---
 
@@ -61,18 +61,21 @@ Brand Portal では次のユーザー役割をサポートしています。
 |  | **参照** | **検索** | **ダウンロード** | **フォルダーの共有** | **コレクションの共有** | **アセットをリンクとして共有** | **管理ツールにアクセス** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **ゲストユーザー** | ✓* | ✓* | ✓* | x | x | x | x |
-| **閲覧者** | ✓* | ✓* | ✓* | x | x | x | x |
+| **閲覧者** | ✓ | ✓ | ✓ | x | x | x | x |
 | **編集者** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **管理者** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 * ゲストユーザーは、公開フォルダーおよび公開コレクション内にあるアセットのみを参照、アクセス、および検索できます。
 
-* Viewerのユーザーは、共有されている公開アセットにアクセスしてダウンロードでき、これらのアセットを追加して独自のコレクションを作成できます。
+<!--
+&#42; Viewer users can access and download the public assets shared with them, and can add these assets to create their own collections.
 
 >[!NOTE]
->
->コレクションの共有リンクが現在Viewerユーザーに表示されるという既知の問題があります。 ビューアのユーザには、共有リンクを作成するためのユーザを追加する権限がありません。 この問題は、今後のリリースで修正される予定です。コレクションのリンクを共有するオプションは、Viewerユーザーには提供されません。
-
+ >
+ >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
+ >
+ 
+-->
 
 ### ゲストユーザー {#guest-user}
 
