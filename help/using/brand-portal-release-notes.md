@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 98%
+source-wordcount: '813'
+ht-degree: 97%
 
 ---
 
@@ -56,7 +56,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 このリリースには、次の既知の問題が含まれています。
 
-* コレクションの共有リンクは、現在、Viewerユーザーに対して表示されます。
+* Viewerユーザーはコレクションのリンクを共有できませんが、共有するオプションは製品インターフェイスで表示されます。
 
 * 階層内のフォルダーの名前が AEM Assets から変更され、アセットを含んだネストされたフォルダーが Brand Portal に公開された場合、そのフォルダーのタイトルは、ルートフォルダーが再度公開されるまで Brand Portal では更新されません。
 
