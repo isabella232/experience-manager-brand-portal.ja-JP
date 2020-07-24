@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
 source-wordcount: '1118'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係�
 >Brand Portal のリンク共有機能では、Zip ファイルのダウンロードが最大 5 GB まで可能です。
 
 
-以下は、アセットをリンクとして共有する手順です。
+アセットをリンクとして共有する手順を次に示します。
 
 1. 左側のオーバーレイアイコンをクリックし、「**[!UICONTROL ナビゲーション]**」を選択します。
 
