@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '813'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Experience Manager Assets Brand Portal 6.4.6.2 リリースの新機能、
 | 製品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | バージョン | 6.4.6.2 |
-| 日付 | 2020 年 6 月 日 |
+| 日付 | 2020 年 6 月 |
 
 ## 概要 {#overview}
 
@@ -56,7 +56,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 このリリースには、次の既知の問題が含まれています。
 
-* Viewerユーザーはコレクションのリンクを共有できませんが、共有するオプションは製品インターフェイスで表示されます。
+* 閲覧者ユーザーはコレクションのリンクを共有できませんが、共有するオプションは製品インターフェイスで表示されます。
 
 * 階層内のフォルダーの名前が AEM Assets から変更され、アセットを含んだネストされたフォルダーが Brand Portal に公開された場合、そのフォルダーのタイトルは、ルートフォルダーが再度公開されるまで Brand Portal では更新されません。
 
