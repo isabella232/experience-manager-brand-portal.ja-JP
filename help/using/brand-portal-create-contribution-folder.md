@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 7ec61993e627f07c20a2e5a2b43f2daa629622d6
+source-git-commit: c359cf9c467fa6d20bebfdf2f8a72e8dd0e50916
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 100%
@@ -26,7 +26,6 @@ AEM 管理者と、新しいフォルダーを作成する権限を持つ非管�
 >[!NOTE]
 >
 >1 つのフォルダー内に複数の投稿フォルダーを作成できますが、投稿フォルダー内に別の投稿フォルダーは作成できません。
-
 
 投稿フォルダーを作成するには：
 1. AEM オーサーインスタンスにログインします。
