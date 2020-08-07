@@ -1,8 +1,8 @@
 ---
 title: AEM Assets Brand Portal の新機能
 seo-title: AEM Assets Brand Portal の新機能
-description: 6.4.6 の新機能と機能強化について説明します。
-seo-description: 6.4.6 の新機能と機能強化について説明します。
+description: 6.4.7 の新機能と機能強化について説明します。
+seo-description: 6.4.7 の新機能と機能強化について説明します。
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 0691a95799bbbd4987678edd553d9b7a0b3c3e3f
 workflow-type: tm+mt
-source-wordcount: '4462'
-ht-degree: 100%
+source-wordcount: '4746'
+ht-degree: 94%
 
 ---
 
@@ -21,6 +21,35 @@ ht-degree: 100%
 # AEM Assets Brand Portal の新機能 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。アドビは Brand Portal の全体的なエクスペリエンスの強化に取り組んでいます。以下に、最新機能と機能強化について簡単に紹介します。
+
+## 6.4.7 の変更点 {#what-changed-in-647}
+
+Brand Portal 6.4.7リリースは、ドキュメントビューアの操作性の向上、Brand Portalからアセットをダウンロードするための設定、お客様の上位のリクエストに重点を置いています。 最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
+
+### ドキュメントビューア {#doc-viewer}
+
+*ドキュメントビューアを使用すると* 、PDFビューアの操作性が向上します。 これは、Adobe Document CloudがBrand PortalでPDFファイルを表示した場合と同じようなエクスペリエンスを提供します。
+
+以前は、レンディションはPDFファイルの最初のページでのみ使用でき、デフォルトのPDFビューアで使用できるオプションも制限されていました。
+
+Brand Portalの *ドキュメントViewer* Implementationでは、PDFメタデータを表示し、新しいオプション(ページ表示、インデックス表示、インライン検索、ズームイン、ズームアウト、前ページ、次ページ、ページ切り替え、ウィンドウに合わせる、画面に合わせる、非表示、ツールバーなど)を表示できます。
+
+Brand PortalユーザーがPDFビューアの使用感を向上させた機能を提供する場合、その他の形式の使用感は変わりません。
+
+![](assets/doc-viewer.png)
+
+### ダウンロード設定 {#download-configurations}
+
+ダウンロード設定は、Brand Portal管理者がBrand Portalからのアセットのダウンロードを設定できるようにする新しい設定です。
+
+Brand Portalからアセットをダウンロードする既存のワークフローでは、必ずポップアップウィンドウが表示され、その後に複数のダウンロードオプションが表示されます。
+
+Brand Portal 6.4.7では、Brand Portalユーザーインターフェイスからアセットをダウンロードするように設定できます。 高速ダウンロード、カスタムレンディション、システムレンディションの3つの構成を使用できます。 Brand Portal管理者は、任意の組み合わせを選択して、アセットのダウンロードを設定できます。 管理者は、これらの設定を有効または無効にすることもできます。
+
+高速ダウンロードの設定では、アセットのダウンロード中にポップアップウィンドウの表示がスキップされます。 カスタムレンディション、システムレンディション、または複数の設定の場合は、ポップアップウィンドウが表示され、元のアセットとアセットレンディションがダウンロードされます。
+
+![](assets/download-configuration.png)
+
 
 ## 6.4.6 の変更点 {#what-changed-in-646}
 
