@@ -1,126 +1,77 @@
 ---
 title: リリースノート
 seo-title: リリースノート
-description: Adobe Experience Manager Assets Brand Portal 6.4.6.2 リリースの機能、機能強化、修正された重要な問題および既知の問題について説明します。
-seo-description: Adobe Experience Manager Assets Brand Portal 6.4.6.2 リリースの機能強化、修正された重要な問題および既知の問題について説明します。
+description: Adobe Experience Manager Assets Brand Portal 6.4.7 リリースの機能、機能強化、修正された重要な問題および既知の問題について説明します。
+seo-description: Adobe Experience Manager Assets Brand Portal 6.4.7 リリースの機能強化、修正された重要な問題および既知の問題について説明します。
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: ht
-source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
-workflow-type: ht
-source-wordcount: '813'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 72a04e29d48ea5187d6624fdea5ec425e29e4a7a
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 62%
 
 ---
 
 
 # リリースノート {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 6.4.6.2 リリースの新機能、機能強化、修正された重要な問題および既知の問題について説明します。
+Adobe Experience Manager Assets Brand Portal 6.4.7 リリースの新機能、機能強化、修正された重要な問題および既知の問題について説明します。
 
 ## リリース情報 {#release-information}
 
 | 製品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| バージョン | 6.4.6.2 |
-| 日付 | 2020 年 6 月 |
+| バージョン | 6.4.7 |
+| 日付 | 2020 年 8 月 |
 
 ## 概要 {#overview}
 
 Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。Brand Portal では、アセットの参照、検索、プレビュー、ダウンロードおよび会社で承認された形式での書き出しを、いつでも、どこでも実行できます。
 
-## 6.4.6.2 の新機能 {#what-s-new-in-6462}
+## 6.4.7 の新機能 {#whats-new-in-647}
 
-### 修正された重要な問題 {#critical-issues-fixed-6462}
-
-このリリースでは、次の重要な問題が修正されています。
-
-* 公開済みのメタデータスキーマを Brand Portal から削除すると、エラーが発生します。
-
-* 管理者が Adobe 開発者コンソールで Adobe Experience Manager Assets 6.5.4 と Brand Portal の連携を設定した場合、Brand Portal ユーザーは、投稿フォルダーのアセットを Brand Portal から Adobe Experience Manager に公開できません。
-
-* 親フォルダーの重複レプリケーションが競合の原因になります。
-
-* ユーザーがリンク共有レポートを生成できません。
-
-* ユーザーが、copyPage コマンドを使用して Brand Portal エンドポイントの MAC 秘密鍵をコピーできます。
-
-* cqTags を使用すると、VA5 クローンでインデックスが再作成されます。
-
-
-### 既知の問題 {#known-issues-6462}
-
-このリリースには、次の既知の問題が含まれています。
-
-* 閲覧者ユーザーはコレクションのリンクを共有できませんが、共有するオプションは製品インターフェイスで表示されます。
-
-* 階層内のフォルダーの名前が AEM Assets から変更され、アセットを含んだネストされたフォルダーが Brand Portal に公開された場合、そのフォルダーのタイトルは、ルートフォルダーが再度公開されるまで Brand Portal では更新されません。
-
-
-## 6.4.6 の新機能 {#what-s-new-in-646}
-
-### 新機能 {#new-feature}
+### 新機能 {#new-features}
 
 このリリースには、次の新機能が含まれています。
 
-* Captcha を使用して Brand Portal にゲストとしてログインする。詳しくは、[Brand Portal へのゲストによるアクセス](../using/guest-access.md)を参照してください。
+* ドキュメントビューアが導入され、PDFの表示操作が強化されました。 Brand PortalでPDFファイルを表示するための新しいオプションが追加されました。
 
-* AEM Assets Cloud Service で Brand Portal がサポートされるようになりました。AEM Assets が Brand Portal でサービスできるように設定して、Brand Portal ユーザーとアセットを共有および配布できます。
-詳しくは、[AEM Assets Cloud Service と Brand Portal の設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html)を参照してください。
+<!--
+* Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
+-->
 
-### 機能強化 {#enhancements-646}
+* アセットのダウンロードプロセスが進み、Brand Portalからアセットをダウンロードする際のBrand Portalのユーザーエクスペリエンスが向上しました。 Brand Portalの管理者は、「 **[!UICONTROL Fast Download]**」、「 **[!UICONTROL Custom Renditions」]**、「 **[!UICONTROL System Renditions]** 」の各設定を、「DownloadDownload Settings」 **** から設定できます。
 
-このリリースの Brand Portal で強化された機能は次のとおりです。
+For details, see [what&#39;s new in Brand Portal 6.4.7](whats-new.md).
 
-* AEM 6.3 以降では、AEM Assets と Brand Portal の間の認証チャネルが変更されます。AEM Assets と Brand Portal の連携が、Adobe 開発者コンソールを通じて設定されるようになりました。開発者コンソールが Brand Portal テナントの認証用の IMS トークンを取得します。
-
->[!NOTE]
->
->旧来の OAuth を使用した設定は、2020 年 4 月 6 日以降はサポートされなくなり、Adobe 開発者コンソールを使用した設定に変更されました。
-
->[!TIP]
->
->***既存のお客様のみ***
->
->旧来の OAuth ゲートウェイを通じた設定は、既存のお客様には引き続きご利用いただけます。
->
->旧来の OAuth ゲートウェイを通じた設定で問題が発生した場合は、Adobe 開発者コンソールで既存の設定を削除し新しい設定を作成します。
-
-詳しくは、[AEM Assets と Brand Portal の連携の設定](configure-aem-assets-with-brand-portal.md)を参照してください
-
-### 修正された重要な問題 {#critical-issues-fixed}
+### 修正された重要な問題 {#critical-issues-fixed-647}
 
 このリリースでは、次の重要な問題が修正されています。
 
-* メタデータスキーマのドロップダウン値が、アセットプロパティに表示されない。
+* Viewerユーザーはコレクションのリンクを共有できませんが、共有するオプションは製品インターフェイスで表示されます。
 
-* メタデータサブスキーマに、アセットプロパティの MIME タイプに基づくタブが表示されない。
+* オプションバーの「 **[!UICONTROL ダウンロード]** 」ボタンをクリックしても、選択したフォルダーのライセンス済みアセットの一部がリストされるわけではありません。
 
-* 非公開メタデータスキーマが、バックエンドでスキーマが削除されてもエラーメッセージを入力する。
+* 特定のキーワードの結果が表示されるまでに、検索に時間がかかります。
 
-* 公開済みアセットのプレビュー画像が表示されない。
+* ダウンロード中にライセンス済みおよびライセンスされていないアセットの一括選択時に **[!UICONTROL 、「同意しない]** 」と「 **[!UICONTROL 同意しない]** 」のチェックボックスが表示されない。
 
-* 名前に一重引用符が含まれているアセットを公開または非公開にできない。
+* フィルタベースの検索では、検索結果のない製品インターフェイス上での処理が表示されます。
 
-* 複数アセットのダウンロード中に利用条件が表示されない。
+* 共有フォルダーに多数の大きいアセットが含まれている場合、共有リンクからアセットをダウンロードすることはできません。
 
-* セキュリティに関する小さな脆弱性を解消。
 
-### 既知の問題 {#known-issues}
+### 既知の問題 {#known-issues-647}
 
 このリリースには、次の既知の問題が含まれています。
 
-* AEM 6.5.4 で Adobe 開発者コンソールにアップグレードすると、Brand Portal ユーザーが投稿フォルダーのアセットを AEM Assets に公開できません。
+* 複数のアセットを選択した場合、共有リンクを使用してダウンロード中に使用許諾契約ページの「利用条件」をクリックしても、ライセンステキストは表示されません。
 
-   この問題は、次のサービスパック 6.5.5 で修正されます。
-
-   AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダウンロード](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)して、オーサーインスタンスにインストールすることをお勧めします。
-
-* アセットのダウンロード中に、「システムレンディションを除く」オプションが正常に機能しない。
 
 
 ## 言語 {#languages}
@@ -137,7 +88,7 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 * 簡体字中国語
 * 韓国語
 
-## 認定プラットフォーム  {#certified-platforms}
+## 認定プラットフォーム   {#certified-platforms}
 
 このリリースの Brand Portal を実行できる認定プラットフォームを確認するには、[技術要件](https://helpx.adobe.com/jp/experience-manager/6-4/sites/deploying/using/technical-requirements.html)の「**オーサリングユーザーインターフェイス向けにサポートされているブラウザー**」節に記載されている表の「**UI のサポート**」列を参照してください。
 
