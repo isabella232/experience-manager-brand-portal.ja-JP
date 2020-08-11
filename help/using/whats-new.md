@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 0691a95799bbbd4987678edd553d9b7a0b3c3e3f
+source-git-commit: 43425f5987c017682d9060dfbbe789a150b2e267
 workflow-type: tm+mt
-source-wordcount: '4746'
+source-wordcount: '4753'
 ht-degree: 94%
 
 ---
@@ -24,29 +24,46 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 ## 6.4.7 の変更点 {#what-changed-in-647}
 
-Brand Portal 6.4.7リリースは、ドキュメントビューアの操作性の向上、Brand Portalからアセットをダウンロードするための設定、お客様の上位のリクエストに重点を置いています。 最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
+Brand Portal 6.4.7リリースでは、ドキュメントビューアが導入され、アセットのダウンロード体験が向上し、重要な修正が行われました。 最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
+
+<!--
+Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Portal administrators to configure asset download, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+-->
 
 ### ドキュメントビューア {#doc-viewer}
 
-*ドキュメントビューアを使用すると* 、PDFビューアの操作性が向上します。 これは、Adobe Document CloudがBrand PortalでPDFファイルを表示した場合と同じようなエクスペリエンスを提供します。
+ドキュメントビューアを使用すると、PDF表示機能が強化されます。 Brand PortalでPDFファイルを表示すると、Adobe Document Cloudの場合と同様の操作性が得られます。
 
-以前は、レンディションはPDFファイルの最初のページでのみ使用でき、デフォルトのPDFビューアで使用できるオプションも制限されていました。
+以前は、PDFファイルの表示には、制限付きのオプションが使用できました。
 
-Brand Portalの *ドキュメントViewer* Implementationでは、PDFメタデータを表示し、新しいオプション(ページ表示、インデックス表示、インライン検索、ズームイン、ズームアウト、前ページ、次ページ、ページ切り替え、ウィンドウに合わせる、画面に合わせる、非表示、ツールバーなど)を表示できます。
+ドキュメントビューアを使用すると、Brand Portalユーザは、表示ページ、表示のしおり、ページ上のテキストの検索、ズームイン、ズームアウト、前のページと次のページへの移動、ページへの切り替え、ウィンドウに合わせる、画面に合わせる、ツールバーの非表示を切り替えることができます。
 
-Brand PortalユーザーがPDFビューアの使用感を向上させた機能を提供する場合、その他の形式の使用感は変わりません。
+>[!NOTE]
+>
+>その他のドキュメント形式の表示方法は変更されません。
+
+
 
 ![](assets/doc-viewer.png)
 
-### ダウンロード設定 {#download-configurations}
+### エクスペリエンスのダウンロード {#download-configurations}
 
-ダウンロード設定は、Brand Portal管理者がBrand Portalからのアセットのダウンロードを設定できるようにする新しい設定です。
+アセットのダウンロード処理が改良され、Brand Portalからアセットをダウンロードする際のユーザー操作がシンプルになりました。
 
-Brand Portalからアセットをダウンロードする既存のワークフローでは、必ずポップアップウィンドウが表示され、その後に複数のダウンロードオプションが表示されます。
+Brand Portalからアセットをダウンロードする既存のワークフローでは、必ず複数のダウンロードオプションを選択する **[!UICONTROL ダウンロード]** ダイアログが表示されます。
 
-Brand Portal 6.4.7では、Brand Portalユーザーインターフェイスからアセットをダウンロードするように設定できます。 高速ダウンロード、カスタムレンディション、システムレンディションの3つの構成を使用できます。 Brand Portal管理者は、任意の組み合わせを選択して、アセットのダウンロードを設定できます。 管理者は、これらの設定を有効または無効にすることもできます。
+Brand Portal 6.4.7では、Brand Portal管理者は、アセットの **[!UICONTROL ダウンロード]** 設定を設定できます。 次の設定を使用できます。
+* **[!UICONTROL 高速ダウンロード]**
+* **[!UICONTROL カスタムレンディション]**
+* **[!UICONTROL システムレンディション]**
 
-高速ダウンロードの設定では、アセットのダウンロード中にポップアップウィンドウの表示がスキップされます。 カスタムレンディション、システムレンディション、または複数の設定の場合は、ポップアップウィンドウが表示され、元のアセットとアセットレンディションがダウンロードされます。
+Brand Portal管理者は、任意の組み合わせを有効にして、アセットのダウンロードを設定できます。
+
+<!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
+
+* 3つの設定がすべてオフの場合、追加のダイアログなしでアセットがダウンロードされ、ブランドポータルユーザーのダウンロード操作が簡単になります。 設定に基づき、ダウンロードワークフローは、スタンドアロンのアセット、複数のアセット、アセットを含むフォルダ、ライセンス済みまたはライセンスされていないアセットに対して一定に保たれます。また、共有リンクを使用してアセットをダウンロードする場合も同じです。
+
+* 「 **[!UICONTROL カスタムレンディション]** 」または「 **[!UICONTROL システムレンディション]** 」のいずれかが有効な場合は、 **** ダウンロードダイアログが表示され、元のアセットとアセットレンディションがダウンロードされます。 「 **[!UICONTROL 高速ダウンロード]** 」設定を有効にすると、ダウンロード処理が高速になります。
 
 ![](assets/download-configuration.png)
 
