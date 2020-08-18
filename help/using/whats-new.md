@@ -50,7 +50,7 @@ Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Po
 
 アセットのダウンロード処理が改良され、Brand Portalからアセットをダウンロードする際のユーザー操作がシンプルになりました。
 
-Brand Portalからアセットをダウンロードする既存のワークフローでは、必ず複数のダウンロードオプションを選択する **[!UICONTROL ダウンロード]** ダイアログが表示されます。
+The existing workflow of downloading assets from Brand Portal is inevitably followed by the appearance of a  **[!UICONTROL Download]** dialog with multiple download options to choose from.
 
 Brand Portal 6.4.7では、Brand Portal管理者は、アセットの **[!UICONTROL ダウンロード]** 設定を設定できます。 次の設定を使用できます。
 * **[!UICONTROL 高速ダウンロード]**
@@ -121,7 +121,7 @@ AEM Assets と Brand Portal の連携を設定する手順は、AEM のバージ
 ## 6.4.5 の変更点 {#what-changed-in-645}
 
 
-Brand Portal 6.4.5 は機能リリースで、オーサー環境にアクセスしなくても Brand Portal ユーザー（外部の代理店／チーム）が Brand Portal にコンテンツをアップロードして AEM Assets に公開できるようにしたものです。この機能は **[Brand Portal でのアセットソーシング](brand-portal-asset-sourcing.md)**と呼ばれます。世界中に分散している他の Brand Portal ユーザーに対するアセットの投稿と共有を実現する双方向メカニズムを提供することで、カスタマーエクスペリエンスを向上させます。
+Brand Portal 6.4.5 は機能リリースで、オーサー環境にアクセスしなくても Brand Portal ユーザー（外部の代理店／チーム）が Brand Portal にコンテンツをアップロードして AEM Assets に公開できるようにしたものです。この機能は **[Brand Portal でのアセットソーシング](brand-portal-asset-sourcing.md)**&#x200B;と呼ばれます。世界中に分散している他の Brand Portal ユーザーに対するアセットの投稿と共有を実現する双方向メカニズムを提供することで、カスタマーエクスペリエンスを向上させます。
 
 ### Brand Portal でのアセットソーシング {#asset-sourcing-in-bp}
 
@@ -166,7 +166,7 @@ Brand Portal 6.4.4 以降では、フィルタリングウィンドウのプロ�
 
 部分テキスト検索およびワイルドカード検索について詳しくは、以下の説明を参照してください。
 
-#### 部分フレーズ検索   {#partial-phrase-search}
+#### 部分フレーズ検索    {#partial-phrase-search}
 
 フィルタリングウィンドウで、検索対象フレーズの一部分（1 つか 2 つの単語）のみを指定してアセットを検索できます。
 
@@ -458,11 +458,13 @@ Brand Portal 6.4.1 はプラットフォームのアップグレードリリー�
 
 
 
+
 共有リンクの情報を提供する新しいレポートが追加されました。リンク共有レポートには、指定期間内に組織全体にわたって内部および外部のユーザーと共有されるすべてのアセットへの URL が示されます。さらに、リンクがいつ共有されたか、誰と共有されたか、いつ期限が切れるかという情報も示されます。
 
 ![](assets/navigatereport.png)
 
 **使用状況レポートへのアクセスエントリポイントの変更**
+
 
 
 
