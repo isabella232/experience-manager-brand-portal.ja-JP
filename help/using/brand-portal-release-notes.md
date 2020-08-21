@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 72a04e29d48ea5187d6624fdea5ec425e29e4a7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -39,38 +39,38 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 このリリースには、次の新機能が含まれています。
 
-* ドキュメントビューアが導入され、PDFの表示操作が強化されました。 Brand PortalでPDFファイルを表示するための新しいオプションが追加されました。
+* ドキュメントビューアが導入され、PDF の表示操作が強化されました。Brand Portal で PDF ファイルを表示するための新しいオプションが追加されました。
 
 <!--
 * Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
 -->
 
-* アセットのダウンロードプロセスが進み、Brand Portalからアセットをダウンロードする際のBrand Portalのユーザーエクスペリエンスが向上しました。 Brand Portalの管理者は、「 **[!UICONTROL Fast Download]**」、「 **[!UICONTROL Custom Renditions」]**、「 **[!UICONTROL System Renditions]** 」の各設定を、「DownloadDownload Settings」 **** から設定できます。
+* アセットのダウンロードプロセスが前進し、Brand Portal からアセットをダウンロードする際の Brand Portal のユーザーエクスペリエンスが向上しました。Brand Portal の管理者は、**[!UICONTROL 高速ダウンロード]**、**[!UICONTROL カスタムレンディション]**、**[!UICONTROL システムレンディション]**&#x200B;の各設定を、**[!UICONTROL ダウンロード]**&#x200B;設定から設定できます。
 
-For details, see [what&#39;s new in Brand Portal 6.4.7](whats-new.md).
+詳しくは、[Brand Portal 6.4.7 の新機能](whats-new.md)を参照してください。
 
 ### 修正された重要な問題 {#critical-issues-fixed-647}
 
 このリリースでは、次の重要な問題が修正されています。
 
-* Viewerユーザーはコレクションのリンクを共有できませんが、共有するオプションは製品インターフェイスで表示されます。
+* 閲覧者ユーザーはコレクションのリンクを共有できないが、共有するオプションが製品インターフェイスで表示される。
 
-* オプションバーの「 **[!UICONTROL ダウンロード]** 」ボタンをクリックしても、選択したフォルダーのライセンス済みアセットの一部がリストされるわけではありません。
+* オプションバーの「**[!UICONTROL ダウンロード]**」ボタンをクリックしても、選択したフォルダーのライセンス済みアセットがすべてリストされない。
 
-* 特定のキーワードの結果が表示されるまでに、検索に時間がかかります。
+* 特定のキーワードの結果が表示されるまでに、検索に時間がかかる。
 
-* ダウンロード中にライセンス済みおよびライセンスされていないアセットの一括選択時に **[!UICONTROL 、「同意しない]** 」と「 **[!UICONTROL 同意しない]** 」のチェックボックスが表示されない。
+* ダウンロード中にライセンス済みおよびライセンスされていないアセットを一括選択すると、「**[!UICONTROL 同意する]**」と「**[!UICONTROL 同意しない]**」チェックボックスが表示されない。
 
-* フィルタベースの検索では、検索結果のない製品インターフェイス上での処理が表示されます。
+* フィルターベースの検索で、検索結果のない製品インターフェイスでの処理が表示される。
 
-* 共有フォルダーに多数の大きいアセットが含まれている場合、共有リンクからアセットをダウンロードすることはできません。
+* 共有フォルダーに大きいアセットが多数含まれている場合、共有リンクからアセットをダウンロードできない。
 
 
 ### 既知の問題 {#known-issues-647}
 
 このリリースには、次の既知の問題が含まれています。
 
-* 複数のアセットを選択した場合、共有リンクを使用してダウンロード中に使用許諾契約ページの「利用条件」をクリックしても、ライセンステキストは表示されません。
+* 複数のアセットを選択した場合、共有リンクを使用してダウンロード中に使用許諾契約ページの「利用条件」をクリックしても、ライセンステキストが表示されない。
 
 
 
