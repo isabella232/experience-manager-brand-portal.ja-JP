@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '383'
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ AEM 管理者は、AEM Web コンソール設定（Configuration Manager）内�
 1. AEM オーサーインスタンスにログインして、Configuration Manager（デフォルト URL：http://localhost:4502/system/console/configMgr）を開きます。
 1. キーワード「**Asset Sourcing**」を使用して検索し、**[!UICONTROL Asset Sourcing Feature Flag Config]** を探します。
 1. 「**[!UICONTROL Asset Sourcing Feature Flag Config]**」をクリックして、設定ウィンドウを開きます。
-1. 「**[!UICONTROL feature.flag.active.status]**」チェックボックスを有効にします。
+1. 「 **[!UICONTROL feature.flag.active.status]** 」チェックボックスをオンにします。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ![](assets/enable-asset-sourcing.png)
