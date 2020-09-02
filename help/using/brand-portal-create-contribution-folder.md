@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: c359cf9c467fa6d20bebfdf2f8a72e8dd0e50916
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 70d93d37b04d899979e38b454e342ebd78bad3bb
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 94%
 
 ---
 
@@ -36,7 +36,8 @@ AEM 管理者と、新しいフォルダーを作成する権限を持つ非管�
 
 1. 「**[!UICONTROL 作成]**」をクリックして、新規フォルダーを作成します。「**[!UICONTROL フォルダーを作成]**」ダイアログが開きます。
 
-1. フォルダーの「**[!UICONTROL タイトル]**」および「**[!UICONTROL 名前]**」を入力し、「**[!UICONTROL アセット投稿]**」チェックボックスをオンにします。フォルダーの名前には、スペースを含まない小文字のアルファベットを使用することをお勧めします。
+1. Enter **[!UICONTROL Title]** and **[!UICONTROL Name]** of the folder and select the **[!UICONTROL Asset Contribution]** check box.
+フォルダーの名前には、スペースを含まない小文字のアルファベットを使用することをお勧めします。
 
 1. 「**[!UICONTROL 作成]**」をクリックします。AEM Assets リポジトリに、投稿フォルダーがリストされます。
 
