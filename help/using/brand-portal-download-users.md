@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 80a7736d384383f7b196fe144ded1a3a4153eb91
+source-git-commit: 030fab342dba6e6561668eb34c0bb2c9c056db41
 workflow-type: tm+mt
 source-wordcount: '1294'
 ht-degree: 24%
@@ -79,7 +79,8 @@ Brand Portalテナントに管理者としてログインし、 **[!UICONTROL �
 * 「 **[!UICONTROL カスタムレンディション]** 」と「 **[!UICONTROL システムレンディション]** 」の両方の設定がオフになっている場合、アセットの元のレンディションは、追加のダイアログをユーザーに表示することなくダウンロードされます。
 
 <!--
-If all the three download configurations are turned-off, or only the **[!UICONTROL Fast Download]** configuration is enabled, the original assets are directly downloaded on your local system with no additional step required. 
+If all the three download configurations are turned-off, or only the **[!UICONTROL Fast Download]** configuration is enabled, the original assets are directly downloaded on your local system with no additional step required.
+Test.. 
 -->
 
 * カス **[!UICONTROL タムレンディション]** または **[!UICONTROL システムレンディションの設定が有効になっている場合、追加の]****** ダウンロードダイアログボックスが表示され、元のアセットとレンディションをダウンロードするか、特定のレンディションのみをダウンロードするかを選択できます。
