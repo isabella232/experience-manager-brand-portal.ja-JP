@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 100%
+source-wordcount: '1090'
+ht-degree: 81%
 
 ---
 
@@ -26,15 +26,16 @@ Brand Portal では、インストールオンデマンドアプリケーショ�
 >
 >ダウンロード速度は、ネットワーク帯域幅、サーバーのレイテンシ、クライアントの所在地などの要因によって異なるので、ユーザーごとに異なります。
 
-この設定が有効化されている場合、Brand Portal ユーザーは、Aspera Connect クライアントをインストールして、Brand Portal または共有リンクから希望するアセットファイルをダウンロードするのにかかる時間を大幅に短縮できます。
 
-![](assets/enable-fast-file-download.png)
+「 **[!UICONTROL 高速ダウンロード]** 」設定はデフォルトで有効になっているので、Brand Portalから目的のアセットファイルをダウンロードするのにかかる時間が大幅に短縮されます。
+
+![](assets/download-configuration.png)
 
 ## ファイルのダウンロードを高加速化するための前提条件 {#prerequisites-to-accelerate-file-download}
 
 ファイルのダウンロードを高速化するには、必ず以下をおこないます。
 
-* 管理ツールパネルの&#x200B;**[!UICONTROL 一般設定]**&#x200B;で「[!UICONTROL ダウンロードアクセラレーションを有効化]」をオンにします（デフォルトでは無効になっています）。
+* **[!UICONTROL ツール]** / **[!UICONTROL ダウンロードに移動し]** 、Download Settingsダウンロード設定で ********&#x200B;高速ダウンロード設定が有効になっていることを確認します。
 * ファイアウォールのポート 33001（TCP と UDP の両方）を開きます。前提条件について詳しくは、[Aspera Connect Client のドキュメント](https://downloads.asperasoft.com/en/documentation/8)を参照してください。
 * 管理者権限を使用して Aspera Connect をインストールします。
 * Aspera 転送クライアントのプラットフォームサポートについては、[Aspera Connect プラットフォームサポート一覧表](https://www.asperasoft.com/company/support/transfer-clients/)を参照してください。
@@ -72,7 +73,8 @@ Brand Portal では、インストールオンデマンドアプリケーショ�
 Brand Portal より早くアセットをダウンロードするには：
 
 1. サポートされているブラウザーを使用して Brand Portal にログインします。
-1. ダウンロードする目的のアセットファイル、フォルダー、またはコレクションを参照および選択します。ダウンロードオプションをタップまたはクリックします。ダウンロードダイアログが表示され、「[ダウンロードアクセラレーションを有効化]」オプションが選択されます。
+1. ダウンロードするフォルダーまたはアセットを参照して選択します。 上部のツールバーで「**[!UICONTROL ダウンロード]**」アイコンをクリックします。**[!UICONTROL ダウンロード]** ダイアログが表示され、デフォルトでは、「 **[!UICONTROL アセット]** 」チェックボックスと「ダウンロードの加速を **[!UICONTROL 有効にする]** 」チェックボックスがオンになっています。
+
    ![](assets/download-assetsbp.png)
 
    >[!NOTE]
@@ -81,19 +83,27 @@ Brand Portal より早くアセットをダウンロードするには：
 
    ![](assets/fast-download-emailchk.png)
 
-1. 「**[!UICONTROL ダウンロード]**」オプションをタップまたはクリックします。Brand Portal テナントアカウントでのダウンロードエクスペリエンスを高速化するには、お使いのシステムに Aspera Connect クライアントアプリケーションをインストールする必要があります。
+1. 「**[!UICONTROL ダウンロード]**」をクリックします。
+
+   Brand Portalテナントアカウントでのダウンロードを高速化するには、ブラウザーの拡張機能にAspera Connectクライアントアプリケーションをインストールする必要があります。
 
 1. **Aspera Connect クライアントをダウンロードします。**
-お使いのシステムに Aspera Connect クライアントがインストールされていない場合や、インストールされている既存の Aspera Connect クライアントが古い場合は、ブラウザーページに表示されるメッセージから「**[!UICONTROL 最新バージョンのダウンロード]**」を選択してシステム固有の Aspera Connect をダウンロードします。
+
+
+
+   If Aspera Connect client is not installed on your system or the existing Aspera Connect client is out of date, a prompt is displayed on the browser page from where you can download the system-specific Aspera Connect client by selecting **[!UICONTROL Download Latest Version]**.
 
    ![](assets/aspera-not-launched.png)
 
    最新バージョンの Aspera Connect を [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/) からダウンロードするには、「**[!UICONTROL 今すぐダウンロード]**」をクリックして画面の指示に従います。
 
-1. **Aspera Connect クライアントのインストール**
-IBM Aspera Connect クライアントセットアップをインストールするには、IBM Aspera Connect クライアントアプリケーションの .msi ファイルからセットアップを実行し、インストールウィザードに従います。
+1. **Aspera Connect Clientのインストール**
 
-1. クライアントを正常にインストールしたら、ブラウザーページを更新してダウンロード手順を再開開始するか、アセットの&#x200B;**[!UICONTROL ダウンロード]**&#x200B;ダイアログボックスの「**[!UICONTROL 再起動]**」を選択します（手順 2）。Aspera Connect を初めて使用する場合、ブラウザーには、**[!UICONTROL IBM Aspera Connect]** を使用してリンクを開くように促すメッセージが表示されます。今後このダイアログをスキップするには、「**[!UICONTROL Remember my choice for FASP links]**」を有効にします。
+   IBM Aspera Connectクライアントセットアップをインストールするには、IBM Aspera Connectクライアントアプリケーションの.msiファイルからセットアップを実行し、インストールウィザードに従います。
+
+1. クライアントが正常にインストールされたら、ブラウザーページを更新し、ダウンロード手順を再開します。
+
+   Aspera Connect を初めて使用する場合、ブラウザーには、**[!UICONTROL IBM Aspera Connect]** を使用してリンクを開くように促すメッセージが表示されます。今後このダイアログをスキップするには、「**[!UICONTROL Remember my choice for FASP links]**」を有効にします。
 
    >[!NOTE]
    >
@@ -109,7 +119,7 @@ Aspera Connect アプリケーションは、システム上にアクティビ�
 
 >[!NOTE]
 >
->Aspera Connect クライアントアプリケーションには、[!UICONTROL 環境設定]の「[!UICONTROL 転送]」タブで「**[!UICONTROL ダウンロードしたファイルの保存先を毎回確認する]**」が有効になっている場合、ダウンロード場所を選択するプロンプトが表示されないという既知の制限があります。ダウンロードを開始する前に、「**[!UICONTROL Save downloaded files to]**」テキストボックスに場所を指定してください。
+>Aspera Connect クライアントアプリケーションには、**[!UICONTROL 環境設定]**&#x200B;の「**[!UICONTROL 転送]**」タブで「**[!UICONTROL ダウンロードしたファイルの保存先を毎回確認する]**」が有効になっている場合、ダウンロード場所を選択するプロンプトが表示されないという既知の制限があります。ダウンロードを開始する前に、「**[!UICONTROL Save downloaded files to]**」テキストボックスに場所を指定してください。
 
 ## Microsoft Edge ブラウザーでのファイルアクセラレーターの使用 {#using-file-accelerator-on-microsoft-edge-browser}
 
@@ -119,8 +129,8 @@ Microsoft Edge は拡張保護モード（EPM）で実行され、同じプラ�
 
 Microsoft Edge で高速ダウンロード機能を使用するには、信頼済みサイトのリストゾーンから Brand Portal サイトを削除します。
 
-1. コントロールパネルを開きます（**[!UICONTROL Windows キー + X]** を押して「**[!UICONTROL コントロールパネル]**」を選択します）。
-1. **[!UICONTROL ネットワークとインターネット／インターネットオプション]**&#x200B;に移動します。「**[!UICONTROL セキュリティ]**」タブをクリックします。
+1. Open the Control Panel (**[!UICONTROL Window key + X]**, then select **[!UICONTROL Control Panel]**).
+1. Go to **[!UICONTROL Network and Internet]** > **[!UICONTROL Internet Options]**. 「**[!UICONTROL セキュリティ]**」タブをクリックします。
 1. 「**[!UICONTROL 信頼済みサイトゾーン]**」、「**[!UICONTROL サイト]**」の順にクリックします。
 1. リストから Brand Portal サイトを削除します。
 
