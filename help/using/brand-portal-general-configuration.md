@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: ff0c8c23b6c76dc9027b560b9db4af2f4b35313e
+source-git-commit: 307bed102148f6e5a68bac8273a93729b9d49854
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 100%
+source-wordcount: '402'
+ht-degree: 95%
 
 ---
 
@@ -25,12 +25,11 @@ AEM Assets Brand Portal では、各組織が特定のテナントについて�
 * 管理者によるアセットの削除
 * 管理者以外のユーザーによる公開コレクションの作成
 * 管理者以外のユーザーによる公開スマートコレクションの作成
-* ダウンロードアクセラレーション
 * 管理者以外のユーザーが見られる共有フォルダーの親階層
 
 これらの設定は、管理ツールパネルで&#x200B;**[!UICONTROL 一般設定]**&#x200B;として提供されています。
 
-![](assets/general-configs.png)
+![](assets/general-config.png)
 
 **A**：管理者に対し、Brand Portal からアセットを削除することを許可する設定（デフォルトでは有効になっています）
 
@@ -38,9 +37,7 @@ AEM Assets Brand Portal では、各組織が特定のテナントについて�
 
 **C**：管理者以外のユーザーに対し、公開スマートコレクションを作成することを許可する設定（デフォルトでは有効になっています）
 
-**D**：ポータルや共有リンクからダウンロードしたアセットのダウンロードアクセラレーションを許可する設定（デフォルトでは無効になっています）
-
-**E**：共有フォルダーの（ルートからの）フォルダー階層を管理者以外のユーザー（編集者、閲覧者、ゲストユーザー）に表示する設定（デフォルトでは無効になっています）
+**D** Configuration（共有フォルダーのルートにあるフォルダー階層）から非管理者ユーザー（エディター、ビューア、ゲストユーザー）に対してフォルダー階層を表示する設定)。 （デフォルトでは無効になっています）
 
 ## 一般設定の有効化／無効化 {#enable-disable-general-configurations}
 
@@ -65,9 +62,11 @@ AEM Assets Brand Portal では、各組織が特定のテナントについて�
 
 「[[!UICONTROL 公開スマートコレクションの作成を許可]](../using/brand-portal-searching.md#main-pars-header-500620467)」設定では、管理者以外のユーザーが検索をスマートコレクションとして保存して、そのテナントの公開スマートコレクションにすることを許可するかどうかを制御できます。この設定はデフォルトで有効です。この設定を無効にすると、管理者以外のユーザーが組織の Brand Portal 上に多数の公開スマートコレクションを作成することを防止できます。
 
-## ダウンロードアクセラレーションを許可 {#allow-download-acceleration}
+<!-- 
+## Allow download acceleration {#allow-download-acceleration}
 
-「[[!UICONTROL ダウンロードアクセラレーションを許可]](../using/accelerated-download.md)」設定では、Brand Portal や共有リンクからのアセットの高速ダウンロードを許可できます。これはインストールオンデマンドアプリケーションである IBM Aspera Connect との連携によって実現されます。このアプリケーションは TCP オーバーヘッドをなくす独自のテクノロジを使用しています。
+[[!UICONTROL Allow download acceleration]](../using/accelerated-download.md) configuration lets the organizations to allow accelerated downloads of assets from Brand Portal and shared links, by integrating with IBM Aspera Connect that is an install-on-demand application. The application uses proprietary technology to remove TCP overheads.
+-->
 
 ## フォルダー階層の有効化 {#enable-folder-hierarchy}
 
