@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f6ba54780fb74e7cf8634e8a90ab62c2401a1a33
+source-git-commit: 69ed6cd7dc3dad8c3d3b0a82a8480cbeb5a61af4
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '218'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ Brand Portal ユーザーは、[アセット要件（投稿フォルダーに添
 
 >[!NOTE]
 >
->Brand Portal ユーザーは、コンテンツ／アセットを **NEW** フォルダーにのみアップロードできます。アップロードしたアセットを削除する権限はありません。
+>Brand Portal ユーザーは、コンテンツ／アセットを **NEW** フォルダーにのみアップロードできます。
 >
 >Brand Portal アカウント／テナントのアップロード上限は **10** GB です。
 
