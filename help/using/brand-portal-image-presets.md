@@ -9,10 +9,10 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
+source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 91%
+ht-degree: 85%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 91%
 
 画像プリセットは、プレビューしたりダウンロードしたりできる画像の動的レンディションを生成するために使用します。画像とそのレンディションをプレビューするときは、プリセットを選択することにより、管理者が設定した仕様で画像を再フォーマットできます。
 
-(AEM（作成者）インスタンスが&#x200B;*ダイナミックMediaハイブリッドモードで実行されている&#x200B;**場合***)Brand Portalでアセットの動的レンディションを表示するには、Brand Portalに公開するAEMオーサーインスタンスにピラミッドTIFFレンディションが存在することを確認します。 アセットを公開すると、その PTIFF レンディションも Brand Portal に公開されます。
+(AEM作成者インスタンスが&#x200B;*ダイナミックMediaハイブリッドモードで実行されている&#x200B;**場合***)Brand Portalでアセットの動的レンディションを表示するには、Pramid tiffレンディションが、Brand Portalへの公開元のAEM作成者インスタンスに存在することを確認します。 アセットを公開すると、その PTIFF レンディションも Brand Portal に公開されます。
 
 >[!NOTE]
 >
@@ -42,10 +42,9 @@ AEM管理者は、アセットの詳細ページに動的レンディション�
 >画像の動的レンディションは、ピラミッド TIFF を使用して作成されます。ピラミッド TIFF がどのアセットにも使用できない場合、そのアセットの動的レンディションを Brand Portal で取得することはできません。
 
 >
->AEM（オーサー）インスタンスが **Dynamic Media ハイブリッドモード**&#x200B;で実行されている場合、画像アセットのピラミッド TIFF レンディションが作成されて AEM リポジトリに保存されます。
+>If AEM author instance is running on **Dynamic Media Hybrid mode**, then Pyramid TIFF renditions of image assets are created and saved in AEM repository.
 >
->これに対し、AEM（オーサー）インスタンスが **Dynamic Media Scene7 モード**で実行されている場合、画像アセットのピラミッド TIFF レンディションは Scene7 サーバー上に存在します。
-
+>Whereas, if AEM author instance is running on **Dynamic Media Scene 7 mode**, then Pyramid TIFF renditions of image assets exist on Scene 7 server.
 >このようなアセットが Brand Portal に公開されると、画像プリセットが適用されて動的レンディションが表示されます。
 
 
