@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 69ed6cd7dc3dad8c3d3b0a82a8480cbeb5a61af4
+source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 92%
@@ -45,7 +45,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 * Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
 -->
 
-* Advances in the asset download process which improves the Brand Portal user experience while [downloading assets from Brand Portal](brand-portal-download-users.md). Brand Portal の管理者は、**[!UICONTROL 高速ダウンロード]**、**[!UICONTROL カスタムレンディション]**、**[!UICONTROL システムレンディション]**&#x200B;の各設定を、**[!UICONTROL ダウンロード]**&#x200B;設定から設定できます。
+* Advances in the asset download process which improves the Brand Portal user experience while [downloading assets from Brand Portal](brand-portal-download-assets.md). Brand Portal の管理者は、**[!UICONTROL 高速ダウンロード]**、**[!UICONTROL カスタムレンディション]**、**[!UICONTROL システムレンディション]**&#x200B;の各設定を、**[!UICONTROL ダウンロード]**&#x200B;設定から設定できます。
 
 詳しくは、[Brand Portal 6.4.7 の新機能](whats-new.md)を参照してください。
 
