@@ -9,11 +9,11 @@ topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 307bed102148f6e5a68bac8273a93729b9d49854
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '402'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ AEM Assets Brand Portal では、各組織が特定のテナントについて�
 * 管理者によるアセットの削除
 * 管理者以外のユーザーによる公開コレクションの作成
 * 管理者以外のユーザーによる公開スマートコレクションの作成
-* 管理者以外のユーザーが見られる共有フォルダーの親階層
+* 管理者以外のユーザーに表示される共有フォルダーの親階層
 
 これらの設定は、管理ツールパネルで&#x200B;**[!UICONTROL 一般設定]**&#x200B;として提供されています。
 
@@ -37,9 +37,9 @@ AEM Assets Brand Portal では、各組織が特定のテナントについて�
 
 **C**：管理者以外のユーザーに対し、公開スマートコレクションを作成することを許可する設定（デフォルトでは有効になっています）
 
-**D** Configuration（共有フォルダーのルートにあるフォルダー階層）から非管理者ユーザー（エディター、ビューア、ゲストユーザー）に対してフォルダー階層を表示する設定)。 （デフォルトでは無効になっています）
+**D**：共有フォルダーの（ルートからの）フォルダー階層を管理者以外のユーザー（編集者、閲覧者、ゲストユーザー）に表示する設定（デフォルトでは無効になっています）
 
-## 一般設定の有効化／無効化 {#enable-disable-general-configurations}
+## 一般設定の有効化／無効化{#enable-disable-general-configurations}
 
 これらの設定を有効化／無効化するには、次のようにします。
 
@@ -50,9 +50,9 @@ AEM Assets Brand Portal では、各組織が特定のテナントについて�
 1. **[!UICONTROL 変更内容を保存します。]**
 1. ログアウトして変更を有効にします。
 
-## 管理者が Brand Portal からアセットを削除することを許可 {#allow-admin-users-to-delete-assets-from-brand-portal}
+## 管理者が Brand Portal からアセットを削除することを許可{#allow-admin-users-to-delete-assets-from-brand-portal}
 
-**[!UICONTROL 「ユーザーによる削除を許可]**」設定では、管理者権限を持つユーザーがアセットやフォルダーを Brand Portal から削除することを許可（または禁止）できます。
+「**[!UICONTROL ユーザーによる削除を許可]**」設定では、管理者権限を持つユーザーがアセットやフォルダーを Brand Portal から削除することを許可（または禁止）できます。
 
 ## 管理者以外による公開コレクションの作成を許可 {#allow-public-collections-creation-by-non-admins}
 
