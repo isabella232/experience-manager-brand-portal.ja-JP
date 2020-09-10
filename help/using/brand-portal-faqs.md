@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1522'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダ
 1. レプリケーションエージェントの URL をクリックして、エージェントの詳細を開きます。
 1. 「**[!UICONTROL 編集]**」をクリックして、レプリケーションエージェントの設定を変更します。
 1. エージェントの設定で「**[!UICONTROL 拡張]**」タブをクリックします。
-1. 「接続を **[!UICONTROL 閉じる]** 」チェックボックスをオンにします。
+1. 「**[!UICONTROL 接続を閉じる]**」チェックボックスをオンにします。
 1. 手順 4～7 を繰り返して、4 つのレプリケーションエージェントをすべて設定します。
 1. サーバーを再起動し、接続を確認します。
 
