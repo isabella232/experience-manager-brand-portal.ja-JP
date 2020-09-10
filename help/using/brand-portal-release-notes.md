@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 * 特定のキーワードの結果が表示されるまでに、検索に時間がかかる。
 
-* The **[!UICONTROL Agree]** and **[!UICONTROL Disagree]** check boxes does not appear on bulk selection of licensed and unlicensed assets during download.
+* ダウンロード中にライセンス済みおよびライセンスされていないアセットを一括選択すると、「**[!UICONTROL 同意する]**」と「**[!UICONTROL 同意しない]**」チェックボックスが表示されない。
 
 * フィルターベースの検索で、検索結果のない製品インターフェイスでの処理が表示される。
 
@@ -88,7 +88,7 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 * 簡体字中国語
 * 韓国語
 
-## 認定プラットフォーム    {#certified-platforms}
+## 認定プラットフォーム      {#certified-platforms}
 
 このリリースの Brand Portal を実行できる認定プラットフォームを確認するには、[技術要件](https://helpx.adobe.com/jp/experience-manager/6-4/sites/deploying/using/technical-requirements.html)の「**オーサリングユーザーインターフェイス向けにサポートされているブラウザー**」節に記載されている表の「**UI のサポート**」列を参照してください。
 
