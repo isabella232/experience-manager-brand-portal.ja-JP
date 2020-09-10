@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 77555866aaf5185a99b83d94f265ad08ec2b337e
+source-git-commit: a502a60a7d93595a202d50a79e2374c8d9734486
 workflow-type: tm+mt
 source-wordcount: '892'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -122,7 +122,7 @@ permission
 
 レプリケーションキューに複数の保留中の要求がある場合、通常、公開ジョブはタイムアウトエラーで失敗します。 この問題を解決するには、レプリケーションエージェントがタイムアウトを回避するように構成されていることを確認します。
 
-レプリケーションエージェントを設定するには、次の手順を実行します。
+レプリケーションエージェントを構成するには、次の手順を実行します。
 1. AEM Assets オーサーインスタンスにログインします。
 1. **ツール**&#x200B;パネルで、**[!UICONTROL デプロイメント]**／**[!UICONTROL レプリケーション]**&#x200B;に移動します。
 1. レプリケーションページで、「**[!UICONTROL 作成者のエージェント]**」をクリックします。Brand Portalテナントの4つのレプリケーションエージェントを表示できます。
