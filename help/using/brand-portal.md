@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '1524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Experience Manager（AEM）Assets と Brand Portal の統合は、Adobe �
 
 >[!NOTE]
 >
->Adobeデベロッパーコンソールを使用したBrand PortalでのAEM Assetsの設定は、AEM Assets、AEM Assets6.3以降のCloud Serviceとしてサポートされています。
+>Adobe 開発者コンソールを使用した AEM Assets と Brand Portal の連携の設定は、AEM Assets as a Cloud Service および AEM Assets 6.3 以降でサポートされています。
 
 ### AEM Assets と Brand Portal の連携を設定するための前提条件 {#prerequisites}
 
