@@ -9,26 +9,26 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: de21e84b93a657570db2024c2ceba58704ba5844
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
 
 # AEM Assets と Brand Portal の連携の設定 {#configure-integration}
 
-Adobe Experience Managerアセットブランドポータルを使用してCloud ServiceとしてAdobe Experience Managerアセットを設定すると、ブランドポータルユーザと共にアセットを公開および配信できます。 一方、AEM 6.3（およびそれ以降）をBrand Portalで設定すると、Brand Portalユーザーがアセットを公開、配信、およびアセット貢献度機能を使用できます。
+Adobe Experience Manager Assets Brand Portal を使用して Adobe Experience Manager Assets as a Cloud Service を設定すると、ブランドポータルユーザと共にアセットを公開および配布できます。従って、Brand Portal で AEM 6.3 以降を設定すると、Brand Portal ユーザー向けにアセットの公開、アセットの配布、アセットの投稿機能が可能になります。
 
-Adobe Experience Managerアセットは、Adobe開発者コンソールを介してBrand Portalで設定され、Brand Portalテナントの認証用にAdobeIdentity Managementサービス(IMS)トークンを調達します。
+Adobe Experience Manager Assets と Brand Portal の統合は、Adobe 開発者コンソールを通じて設定されます。開発者コンソールは Brand Portal テナントの認証用の Adobe Identity Management Services（IMS）トークンを取得します。
 
 >[!NOTE]
 >
 >***AEM Assets 6.3 以降の場合***
 >
->以前は、Brand Portalは、レガシーOAuth Gateway経由の従来のインターフェイスで設定されていました。レガシーOAuth Gatewayは、JSON Webトークン(JWT)交換を使用して、認証用のIMSトークンを取得します。
+>これまで、Brand Portal は、旧来の OAuth ゲートウェイを通じてクラシックインターフェイスで設定されていました。このゲートウェイは、JSON Web トークン（JWT）交換を使用して認証用の IMS トークンを取得します。
 >
 >旧来の OAuth を使用した設定は、2020 年 4 月 6 日以降はサポートされなくなり、Adobe 開発者コンソールを使用した設定に変更されました。
 
@@ -42,7 +42,7 @@ Adobe Experience Managerアセットは、Adobe開発者コンソールを介し
 >旧来の OAuth ゲートウェイを通じた設定で問題が発生した場合は、Adobe 開発者コンソールで既存の設定を削除し新しい設定を作成します。
 
 
-Brand PortalでAEM Assetsを設定する手順は、AEMのバージョンによって異なります。また、初めて設定する場合と、既存の設定をアップグレードする場合でも、それぞれ異なります。
+AEM Assets と Brand Portal の連携を設定する手順は、AEM のバージョンと、初めて設定するか既存の設定をアップグレードするかによって異なります。
 
 | **AEM のバージョン** | **新しい設定** | **設定のアップグレード** |
 |---|---|---|
