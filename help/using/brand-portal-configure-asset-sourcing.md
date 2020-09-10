@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '383'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ AEM 管理者は、AEM オーサーインスタンス内から&#x200B;**アセ�
 
 次のビデオでは、AEM オーサーインスタンスでアセットソーシングを設定する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/29771)
+>[!VIDEO](https://video.tv.adobe.com/v/29771?captions=jpn)
 
 ## アセットソーシングの有効化 {#enable-asset-sourcing}
 
@@ -38,7 +38,7 @@ AEM 管理者は、AEM Web コンソール設定（Configuration Manager）内�
 1. AEM オーサーインスタンスにログインして、Configuration Manager（デフォルト URL：http://localhost:4502/system/console/configMgr）を開きます。
 1. キーワード「**Asset Sourcing**」を使用して検索し、**[!UICONTROL Asset Sourcing Feature Flag Config]** を探します。
 1. 「**[!UICONTROL Asset Sourcing Feature Flag Config]**」をクリックして、設定ウィンドウを開きます。
-1. 「 **[!UICONTROL feature.flag.active.status]** 」チェックボックスをオンにします。
+1. 「**[!UICONTROL feature.flag.active.status]**」チェックボックスをオンにします。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ![](assets/enable-asset-sourcing.png)
