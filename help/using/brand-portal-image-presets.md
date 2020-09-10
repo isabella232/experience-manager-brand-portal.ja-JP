@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 85%
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 85%
 
 画像プリセットは、プレビューしたりダウンロードしたりできる画像の動的レンディションを生成するために使用します。画像とそのレンディションをプレビューするときは、プリセットを選択することにより、管理者が設定した仕様で画像を再フォーマットできます。
 
-(AEM作成者インスタンスが&#x200B;*ダイナミックMediaハイブリッドモードで実行されている&#x200B;**場合***)Brand Portalでアセットの動的レンディションを表示するには、Pramid tiffレンディションが、Brand Portalへの公開元のAEM作成者インスタンスに存在することを確認します。 アセットを公開すると、その PTIFF レンディションも Brand Portal に公開されます。
+(*If AEM author instance is running on **Dynamic Media Hybrid mode***) To view dynamic renditions of an asset in Brand Portal, ensure that its Pyramid tiff rendition exists at the AEM author instance from where you publish to Brand Portal. アセットを公開すると、その PTIFF レンディションも Brand Portal に公開されます。
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ ht-degree: 85%
 
 ## 画像プリセットの作成 {#create-an-image-preset}
 
-AEM管理者は、アセットの詳細ページに動的レンディションとして表示される画像プリセットを作成できます。 画像プリセットを一から作成することも、既存の画像プリセットに新しい名前を付けて保存することもできます。画像プリセットを作成するときは、画像配信のサイズと、フォーマットコマンドを選択します。画像が表示用に配信されるときには、選択したコマンドに応じて画像の外観が最適化されます。
+AEM 管理者は、アセットの詳細ページに動的レンディションとして表示される画像プリセットを作成できます。画像プリセットを一から作成することも、既存の画像プリセットに新しい名前を付けて保存することもできます。画像プリセットを作成するときは、画像配信のサイズと、フォーマットコマンドを選択します。画像が表示用に配信されるときには、選択したコマンドに応じて画像の外観が最適化されます。
 
 
 >[!NOTE]
@@ -58,7 +58,7 @@ AEM管理者は、アセットの詳細ページに動的レンディション�
 
    ![](assets/image_preset_homepage.png)
 
-1. **[!UICONTROL 画像プリセットを編集]**&#x200B;ページで、「**[!UICONTROL 基本]**」または「**[!UICONTROL 詳細]**」のどちらか該当するタブに、名前などの値を入力します。オプションの概要については、[画像プリセットオプション](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options)で説明しています。プリセットは左側のウィンドウに表示され、他のアセットにすぐに使用できます。
+1. **[!UICONTROL 画像プリセットを編集]**&#x200B;ページで、「**[!UICONTROL 基本]**」または「**[!UICONTROL 詳細]**」のどちらか該当するタブに、名前などの値を入力します。オプションの概要については、[画像プリセットオプション](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options )で説明しています。プリセットは左側のウィンドウに表示され、他のアセットにすぐに使用できます。
 
    ![](assets/image_preset_create.png)
 
@@ -69,7 +69,7 @@ AEM管理者は、アセットの詳細ページに動的レンディション�
 1. 「**[!UICONTROL 保存]**」をクリックします。画像プリセットが作成され、画像プリセットページに表示されます。
 1. 画像プリセットを削除するには、画像プリセットページから削除する画像プリセットを選択し、「**[!UICONTROL 削除]**」をクリックします。確認ページで「**[!UICONTROL 削除]**」をクリックして、削除することを確認します。指定した画像プリセットが、画像プリセットページから削除されます。
 
-## 画像をプレビューする際の画像プリセットの適用  {#apply-image-presets-when-previewing-images}
+## 画像をプレビューする際の画像プリセットの適用      {#apply-image-presets-when-previewing-images}
 
 画像とそのレンディションをプレビューするときは、既存のプリセットから選択することで、管理者が設定した仕様で画像を再フォーマットできます。
 
