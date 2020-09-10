@@ -18,18 +18,18 @@ activity: use
 audience: author, marketer
 version: 6.5
 kt: 3838
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
 # アセットソーシングの概要 {#overview-asset-sourcing-in-bp}
 
-**Asset Sourcing** を使用すると、AEMユーザー（管理者/非管理者ユーザー）は追加の **アセット貢献度** (Asset Contribution)プロパティを使用して新しいフォルダーを作成でき、Brand Portalユーザーがアセット送信を開くように作成した新しいフォルダーを確実に作成できます。 これにより、新しく作成された&#x200B;**投稿**&#x200B;フォルダー内に **SHARED** および **NEW** という 2 つのサブフォルダーを追加作成するワークフローが自動的にトリガーされます。The AEM administrator then defines the requirement by uploading a brief about the types of assets that should be added to the contribution folder, as well as a set of baseline assets, to the **SHARED** folder to ensure BP users have the reference information they need. その後、管理者は、アクティブな Brand Portal ユーザーに投稿フォルダーへのアクセスを許可してから、新しく作成した&#x200B;**投稿**&#x200B;フォルダーを Brand Portal に公開することができます。**NEW** フォルダーへのコンテンツの追加を完了したら、ユーザーは、投稿フォルダーを AEM オーサー環境に公開できます。なお、読み込みが完了し、新しく公開したコンテンツが AEM Assets 内に反映されるまでに数分かかる場合があります。
+****&#x200B;アセットソーシングを使用すると、追加の&#x200B;**アセット投稿**&#x200B;プロパティを持つ新しいフォルダーを AEM ユーザー（管理者／管理者以外のユーザー）が作成できるので、この新規作成フォルダーを Brand Portal ユーザーによるアセット送信に利用することができます。これにより、新しく作成された&#x200B;**投稿**&#x200B;フォルダー内に **SHARED** および **NEW** という 2 つのサブフォルダーを追加作成するワークフローが自動的にトリガーされます。次に、AEM 管理者はプロジェクトの要件を定義します。それには、投稿フォルダーに追加する必要があるアセットのタイプの簡単な説明と一連のベースラインアセットを **SHARED** フォルダーにアップロードして、BP ユーザーが必要な参照情報を確実に入手できるようにします。その後、管理者は、アクティブな Brand Portal ユーザーに投稿フォルダーへのアクセスを許可してから、新しく作成した&#x200B;**投稿**&#x200B;フォルダーを Brand Portal に公開することができます。**NEW** フォルダーへのコンテンツの追加を完了したら、ユーザーは、投稿フォルダーを AEM オーサー環境に公開できます。なお、読み込みが完了し、新しく公開したコンテンツが AEM Assets 内に反映されるまでに数分かかる場合があります。
 
 また、既存の機能はすべてそのままで変わりません。Brand Portal ユーザーは、投稿フォルダーおよび許可された他のフォルダーからアセットを表示、検索およびダウンロードできます。さらに、管理者は投稿フォルダーの共有、プロパティの変更、コレクションへのアセットの追加をおこなうことができます。
 
@@ -37,14 +37,14 @@ ht-degree: 80%
 
 * AEM 6.5.2 以降。
 * AEM Assets インスタンスと Brand Portal の連携が設定されていることを確認します。[AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
-* Brand Portal テナントが 1 つのAEM Assets オーサーインスタンスで構成されていることを確認します。
+* Brand Portal テナントが 1 つの AEM Assets オーサーインスタンスで構成されていることを確認します。
 
 >[!NOTE]
 >
->資産調達は、Cloud ServiceとしてAEM Assetsではサポートされていません。
+>アセットソーシングは、AEM Assets as a Cloud Service ではサポートされていません。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=jpn)
 
 ![Brand Portal アセットソーシング](assets/asset-sourcing.png)
 
