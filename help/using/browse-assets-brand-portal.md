@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca60fe1b76c6e99d835457627fcc4bf402b6bd87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1039'
 ht-degree: 100%
 
