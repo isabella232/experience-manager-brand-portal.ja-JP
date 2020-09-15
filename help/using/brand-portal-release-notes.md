@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 * Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
 -->
 
-* Advances in the asset download process which improves the Brand Portal user experience while [downloading assets from Brand Portal](brand-portal-download-assets.md). Brand Portal の管理者は、**[!UICONTROL 高速ダウンロード]**、**[!UICONTROL カスタムレンディション]**、**[!UICONTROL システムレンディション]**&#x200B;の各設定を、**[!UICONTROL ダウンロード]**&#x200B;設定から設定できます。
+* アセットのダウンロードプロセスが前進し、[Brand Portal からアセットをダウンロード](brand-portal-download-assets.md)する際の Brand Portal のユーザーエクスペリエンスが向上しました。Brand Portal の管理者は、**[!UICONTROL 高速ダウンロード]**、**[!UICONTROL カスタムレンディション]**、**[!UICONTROL システムレンディション]**&#x200B;の各設定を、**[!UICONTROL ダウンロード]**&#x200B;設定から設定できます。
 
 詳しくは、[Brand Portal 6.4.7 の新機能](whats-new.md)を参照してください。
 
@@ -88,7 +88,7 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 * 簡体字中国語
 * 韓国語
 
-## 認定プラットフォーム      {#certified-platforms}
+## 認定プラットフォーム {#certified-platforms}
 
 このリリースの Brand Portal を実行できる認定プラットフォームを確認するには、[技術要件](https://helpx.adobe.com/jp/experience-manager/6-4/sites/deploying/using/technical-requirements.html)の「**オーサリングユーザーインターフェイス向けにサポートされているブラウザー**」節に記載されている表の「**UI のサポート**」列を参照してください。
 
