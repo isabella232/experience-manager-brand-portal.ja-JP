@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a87f85a11e8892e6f306a003d971403581a9e3d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1521'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダ
 
 **質問：AEM Assets から Brand Portal にアセットを公開できません。レプリケーションログには、接続がタイムアウトしたことが記録されています。クイックフィックスはありますか？**
 
-**回答：** レプリケーションキューに複数の保留中の要求がある場合、通常、公開はタイムアウトエラーで失敗します。 この問題を解決するには、レプリケーションエージェントがタイムアウトを回避するように構成されていることを確認します。
+**回答：**&#x200B;通常、公開がタイムアウトエラーで失敗する場合は、レプリケーションキューに保留中のリクエストが複数あります。この問題を解決するには、タイムアウトを回避するようにレプリケーションエージェントを設定します。
 
 レプリケーションエージェントを設定するには、次の手順を実行します。
 1. AEM Assets オーサーインスタンスにログインします。
