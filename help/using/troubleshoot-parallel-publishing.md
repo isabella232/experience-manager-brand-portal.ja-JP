@@ -8,11 +8,11 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a502a60a7d93595a202d50a79e2374c8d9734486
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ ii.次を削除します。
    i. ユーザー `mac-<tenantid>replication` を検索します。
 ii.このユーザーを削除します。
 
-これによってシステム全体がクリーンアップされます。これで新しい          クラウドサービス設定の作成を試せるようになります。あるいは、[https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) 内の既存の JWT アプリケーションを引き続き使用することもできます。新しいアプリケーションを作成する必要はなく、新しく作成したクラウド設定から公開鍵を更新するだけで構いません。
+これによってシステム全体がクリーンアップされます。これで新しい            クラウドサービス設定の作成を試せるようになります。あるいは、[https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) 内の既存の JWT アプリケーションを引き続き使用することもできます。新しいアプリケーションを作成する必要はなく、新しく作成したクラウド設定から公開鍵を更新するだけで構いません。
 
 ## Developer Connection の JWT アプリケーションテナントの可視性の問題 {#developer-connection-jwt-application-tenant-visibility-issue}
 
@@ -120,12 +120,12 @@ permission
 
 ## 接続タイムアウトエラーを回避するためのレプリケーションエージェントの設定 {#connection-timeout}
 
-レプリケーションキューに複数の保留中の要求がある場合、通常、公開ジョブはタイムアウトエラーで失敗します。 この問題を解決するには、レプリケーションエージェントがタイムアウトを回避するように構成されていることを確認します。
+ジョブの公開がタイムアウトエラーで失敗する場合は、通常、レプリケーションキューに保留中のリクエストが複数あります。この問題を解決するには、タイムアウトを回避するようにレプリケーションエージェントを設定します。
 
-レプリケーションエージェントを構成するには、次の手順を実行します。
+レプリケーションエージェントを設定するには、次の手順を実行します。
 1. AEM Assets オーサーインスタンスにログインします。
 1. **ツール**&#x200B;パネルで、**[!UICONTROL デプロイメント]**／**[!UICONTROL レプリケーション]**&#x200B;に移動します。
-1. レプリケーションページで、「**[!UICONTROL 作成者のエージェント]**」をクリックします。Brand Portalテナントの4つのレプリケーションエージェントを表示できます。
+1. レプリケーションページで、「**[!UICONTROL 作成者のエージェント]**」をクリックします。Brand Portal テナントの 4 つのレプリケーションエージェントを表示できます。
 1. レプリケーションエージェントの URL をクリックして、エージェントの詳細を開きます。
 1. 「**[!UICONTROL 編集]**」をクリックして、レプリケーションエージェントの設定を変更します。
 1. エージェントの設定で「**[!UICONTROL 拡張]**」タブをクリックします。
