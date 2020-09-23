@@ -9,9 +9,9 @@ content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
-translation-type: ht
-source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 0c73578ea3be53f39e44d81826dcbc0be08acccf
+workflow-type: tm+mt
 source-wordcount: '4758'
 ht-degree: 100%
 
@@ -168,12 +168,11 @@ Brand Portal 6.4.4 以降では、フィルタリングウィンドウのプロ�
 
 部分テキスト検索およびワイルドカード検索について詳しくは、以下の説明を参照してください。
 
-#### 部分フレーズ検索       {#partial-phrase-search}
+#### 部分フレーズ検索        {#partial-phrase-search}
 
 フィルタリングウィンドウで、検索対象フレーズの一部分（1 つか 2 つの単語）のみを指定してアセットを検索できます。
 
-**使用事例**
-部分フレーズ検索は、検索対象フレーズに出現する正確な単語の組み合わせが不明な場合に役立ちます。
+**使用事例**&#x200B;部分フレーズ検索は、検索対象フレーズに出現する正確な単語の組み合わせが不明な場合に役立ちます。
 
 例えば、Brand Portal の検索フォームで、「プロパティの述語」を使用してアセットのタイトルの部分検索をおこなう場合、「**camp**」という単語を指定すると、タイトルフレーズで「camp」という単語を使用しているアセットがすべて返されます。
 
@@ -515,7 +514,7 @@ Adobe ID を持っている場合と、Adobe ID を作成する必要がある�
 
 詳しくは、[Brand Portal へのアクセス権の申請](../using/brand-portal.md#requestaccesstobrandportal)を参照してください。
 
-### ダウンロードされたアセットのレポートの機能強化{#enhancement-in-the-assets-downloaded-report}
+### ダウンロードされたアセットのレポートの機能強化 {#enhancement-in-the-assets-downloaded-report}
 
 ダウンロードされたアセットのレポートに、指定期間中のユーザー別のアセットダウンロード回数が含まれるようになりました。このレポートを .csv 形式でダウンロードすると、ライセンスが必要なアセットの合計ダウンロード数などのデータを集計できます。
 
@@ -543,7 +542,7 @@ Adobe ID を持っている場合と、Adobe ID を作成する必要がある�
 
 ユーザーピッカーのパフォーマンスが向上し、ユーザーを膨大に抱える顧客のニーズに対応できるようになりました。
 
-### Adobe Experience Cloud ブランディングの変更{#experience-cloud-branding-changes}
+### Adobe Experience Cloud ブランディングの変更 {#experience-cloud-branding-changes}
 
 Brand Portal は、新しい Adobe Experience Cloud ブランディングに準拠するようになりました。
 
@@ -553,7 +552,7 @@ Brand Portal は、新しい Adobe Experience Cloud ブランディングに準�
 
 Brand Portal 6.3.1 は、Brand Portal と AEM の統合に向けた新機能と拡張機能を含みます。
 
-### ユーザーインターフェイスのアップグレード{#upgraded-user-interface}
+### ユーザーインターフェイスのアップグレード {#upgraded-user-interface}
 
 現在、Brand Portal のユーザーエクスペリエンスを AEM と統合するために、Coral 3 ユーザーインターフェイスへの移行を進めています。この変更により、ナビゲーションや外観を含む全体的な操作性が向上します。
 
@@ -575,7 +574,7 @@ Brand Portal 6.3.1 は、Brand Portal と AEM の統合に向けた新機能と�
 
 ![](assets/omnisearchicon.png)
 
-### 閲覧の強化{#enhanced-browsing-experience}
+### 閲覧の強化 {#enhanced-browsing-experience}
 
 * 新しい列表示で、ネストされたフォルダーを参照できます。
 
@@ -583,7 +582,7 @@ Brand Portal 6.3.1 は、Brand Portal と AEM の統合に向けた新機能と�
 
 * アップロードされた最新のアセットは、フォルダー内のアセットの一覧の一番上に表示されます。
 
-### 検索の強化{#enhanced-search-experience}
+### 検索の強化 {#enhanced-search-experience}
 
 * 新しいオムニサーチ機能により、検索キーワードを入力すると自動的に検索候補が表示されるので、その中から関連するコンテンツや機能、タグにすばやくアクセスできます。オムニサーチは、すべての検索機能で使用できます。
 
@@ -598,15 +597,15 @@ Brand Portal 6.3.1 は、Brand Portal と AEM の統合に向けた新機能と�
 * 新しい検索ブースト機能を使用すると、検索関連性を向上させて、特定のアセットを検索結果の一番上に表示できます。
 * 新しいパスベースの検索機能を使用すると、アセットを検索できるネストされたフォルダーへのパスが見つかります。
 
-#### 新しいスマートタグベースの検索{#new-smart-tags-based-search}
+#### 新しいスマートタグベースの検索 {#new-smart-tags-based-search}
 
 スマートタグ付きの画像が AEM Assets から Brand Portal に公開されている場合は、Brand Portal 内で、スマートタグの名前を検索キーワードとして使用して、これらの画像を検索できます。この機能は、ファイルに対してのみ使用できます。
 
-### ダウンロードの強化{#enhanced-downloading-experience}
+### ダウンロードの強化 {#enhanced-downloading-experience}
 
 ネストされたフォルダーをダウンロードした後も、元のフォルダー階層を保持できます。ネストされたフォルダー内のアセットを、それぞれのフォルダーではなく、単一のフォルダーにダウンロードすることも可能です。
 
-### パフォーマンスの強化{#improved-performance}
+### パフォーマンスの強化 {#improved-performance}
 
 参照、検索およびダウンロード機能が強化され、Brand Portal のパフォーマンスが大幅に向上しています。
 
@@ -614,7 +613,7 @@ Brand Portal 6.3.1 は、Brand Portal と AEM の統合に向けた新機能と�
 
 管理者は、アセットを共有する前に、そのアセットの有効期限（日時）を設定できます。有効期限が切れたアセットは、閲覧者とエディターが見ることはできますが、ダウンロードはできません。アセットの有効期限が切れると、管理者に通知されます。
 
-### アセットの並べ替えの強化{#enhanced-asset-sorting}
+### アセットの並べ替えの強化 {#enhanced-asset-sorting}
 
 リスト表示でのフォルダー内アセットの並べ替えを、最初のページに表示されるアセットの数に関係なく実行できるようになりました。フォルダー内のすべてのアセットが最初のページに表示されるかどうかに関係なく、すべてのアセットが並べ替えられます。
 
@@ -624,7 +623,7 @@ Brand Portal 6.3.1 は、Brand Portal と AEM の統合に向けた新機能と�
 
 ![](assets/newreport.png)
 
-### 追加のメタデータ{#additional-metadata}
+### 追加のメタデータ {#additional-metadata}
 
 Brand Portal 6.3.1 には、AEM Assets 6.3 と同じメタデータが追加されています。スキーマエディターフォームを使用して、アセットのプロパティページに表示するメタデータを制御できます。アセットメタデータは、外部のリンク共有ユーザーには表示されません。これらのユーザーは、リンク共有 URL を使用して、アセットのプレビューとダウンロードのみおこなえます。
 
@@ -638,7 +637,7 @@ Brand Portal 6.3.1 には、AEM Assets 6.3 と同じメタデータが追加さ�
 
 * 管理者が追加する新しいユーザーは、Brand Portal に自動的に追加されるので、Brand Portal への招待に同意する必要はありません。
 
-### AEM Assets 6.3 の新しい公開機能{#new-publishing-capabilities-in-aem-assets}
+### AEM Assets 6.3 の新しい公開機能 {#new-publishing-capabilities-in-aem-assets}
 
 * AEM 管理者は、2017 年 Q4 に提供される AEM 6.3 SP 1-CFP 1（6.3.1.1）を使用して、AEM Assets から Brand Portal にメタデータスキーマを公開できます。
 
