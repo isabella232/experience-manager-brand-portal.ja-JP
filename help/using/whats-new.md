@@ -9,9 +9,9 @@ content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0c73578ea3be53f39e44d81826dcbc0be08acccf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4758'
 ht-degree: 100%
 
