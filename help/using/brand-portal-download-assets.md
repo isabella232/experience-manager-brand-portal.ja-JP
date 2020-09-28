@@ -8,11 +8,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
-translation-type: ht
-source-git-commit: f4f92724cdd4ba8c79d3d72de5cba9451dceadb1
-workflow-type: ht
-source-wordcount: '1294'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ca789ebfa9534a554e9fb973a36f8bef827a3a0d
+workflow-type: tm+mt
+source-wordcount: '1356'
+ht-degree: 95%
 
 ---
 
@@ -116,6 +116,12 @@ Brand Portal からアセットまたはアセットを含むフォルダーを�
       >ライセンスで保護されているアセットには、[使用許諾契約が添付](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)されています。この処理は、Experience Manager Assets でアセットの[メタデータプロパティ](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)を設定することでおこなわれます。
 
       ![](assets/licensed-asset-download-1.png)
+
+      >[!NOTE]
+      >
+      >アセットの詳細ページからアセットをダウンロードする際に、必要なすべてのアセットレンディションを選択し、「 **[!UICONTROL ダウンロード]**」をクリックします。 選択したレンディションがローカルマシンにダウンロードされます。
+      > 
+      >ダウンロードしたレンディションの重複コピーを作成しないように、ダウンロ **[!UICONTROL ード後は]** 「ダウンロード」ボタンが無効になります。 他のレンディションをダウンロードする（見つからない、または他のレンディションのコピーをダウンロードする）には、ブラウザーを更新して、ダウンロードボタンを再度有効にします。
 
       **[!UICONTROL ダウンロード設定]**&#x200B;で、**[!UICONTROL カスタムレンディション]**&#x200B;または&#x200B;**[!UICONTROL システムレンディション]**&#x200B;の設定が有効になっている場合、デフォルトで「**[!UICONTROL アセット]**」チェックボックスが選択された状態で&#x200B;**[!UICONTROL ダウンロード]**&#x200B;ダイアログが表示されます。「**[!UICONTROL 高速ダウンロード]**」設定が有効の場合、デフォルトで「**[!UICONTROL ダウンロードアクセラレーションを有効化]**」チェックボックスがオンになっています。
 
