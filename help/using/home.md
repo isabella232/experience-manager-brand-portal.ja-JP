@@ -4,17 +4,17 @@ seo-title: AEM Brand Portal ユーザーガイド
 description: AEM Brand Portal ユーザーガイド
 seo-description: Brand Portal の使用方法について説明します
 translation-type: tm+mt
-source-git-commit: 48e17836b50101d3c175c7034326f2b698697697
+source-git-commit: 5d8bd0187f08c179db76bcc3af2143d689060d85
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 100%
+source-wordcount: '353'
+ht-degree: 91%
 
 ---
 
 
-# 概要
+# Adobe Experience Manager Assets Brand Portal {#aem-brand-portal}
 
-**Adobe Experience Manager (AEM) Assets Brand Portal** は、組織が承認済みのブランドおよび製品アセットを外部の代理店、パートナー、内部チーム、販売店などにダウンロードで安全に配布してマーケティングニーズに応えるうえで役に立ちます。
+**Adobe Experience Managerアセットブランドポータル** (Brand Portal)は、承認されたブランドおよび製品アセットを外部の代理店、パートナー、社内チームおよびリセラーに安全に配布して、マーケティングニーズを満たすのに役立ちます。
 
 安全なアセット共有ソリューションがないと、次のことが考えられます。
 
