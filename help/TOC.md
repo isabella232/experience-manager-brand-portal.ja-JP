@@ -6,16 +6,16 @@ audience: end-user
 user-guide-title: AEM Assets Brand Portal
 breadcrumb-title: Brand Portal Guide
 user-guide-description: Use AEM Assets Brand Portal to meet marketing needs by securely distributing approved brand and product assets to external agencies, partners, internal teams, and resellers for download.
-translation-type: ht
-source-git-commit: 24ec8bc66f24b573a154c8bcd150c7c1b197bbf2
-workflow-type: ht
-source-wordcount: '286'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 97%
 
 ---
 
 
-# AEM Assets Brand Portal ドキュメント {#using}
+# Adobe Experience Manager Assets Brand Portal Guide {#using}
 
 + [Brand Portal ガイド](using/home.md)
 + 概要 {#introduction}
