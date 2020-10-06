@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e497fb791030d74d9e5672b68387661ca7140d8a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1294'
 ht-degree: 100%
 
