@@ -9,10 +9,10 @@ content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
-translation-type: ht
-source-git-commit: 0c73578ea3be53f39e44d81826dcbc0be08acccf
-workflow-type: ht
-source-wordcount: '4758'
+translation-type: tm+mt
+source-git-commit: d06381d84c70ab1566ac40c825233577de40af87
+workflow-type: tm+mt
+source-wordcount: '4755'
 ht-degree: 100%
 
 ---
@@ -213,10 +213,13 @@ Brand Portal 6.4.3 リリースでは、様々な機能が強化されていま�
 * **無効**&#x200B;にした場合は、共有フォルダーのみランディングページに表示されます。
 
 ![](assets/enable-folder-hierarchy.png)
-**使用事例**
 
 「[フォルダー階層を有効化](../using/brand-portal-general-configuration.md)」の機能は（有効にした場合）、別の階層から共有されている同名のフォルダーを区別するために役立ちます。管理者以外のユーザーがログインすると、共有フォルダーの仮想親フォルダー（とその上位層）が表示されます。
-![](assets/disabled-folder-hierarchy1-2.png)![](assets/enabled-hierarchy1-2.png)
+
+
+![](assets/disabled-folder-hierarchy1-2.png)
+
+![](assets/enabled-hierarchy1-2.png)
 
 共有フォルダーは、仮想フォルダー内のそれぞれのディレクトリ内で整理されます。仮想フォルダーは鍵のアイコン付きで表示されます。
 
@@ -231,7 +234,9 @@ Brand Portal 6.4.3 リリースでは、様々な機能が強化されていま�
 検索フォームに&#x200B;**パスブラウザー**&#x200B;の述語が導入され、特定のディレクトリ内でアセットを検索できるようになりました。パスブラウザーの検索用述語のデフォルトの検索パスは `/content/dam/mac/<tenant-id>/` です。これはデフォルトの検索フォームを編集することで設定できます。
 
 * 管理者は、パスブラウザーを使用して、Brand Portal 上の任意のフォルダーディレクトリへ移動できます。
-* 管理者以外のユーザーは、パスブラウザーを使用して、自身に共有されているフォルダーへのみ移動できます（さらに、その親フォルダーへと階層をさかのぼることができます）。例えば、`/content/dam/mac/<tenant-id>/folderA/folderB/folderC` が管理者以外のユーザーと共有されているとします。このユーザーは、パスブラウザーを使用して、folderC 内のアセットを検索できます。このユーザーは、folderB や folderA に移動することもできます（ユーザーと共有されている folderC の上位層だからです）。
+* 管理者以外のユーザーは、パスブラウザーを使用して、自身に共有されているフォルダーへのみ移動できます（さらに、その親フォルダーへと階層をさかのぼることができます）。
+
+   例えば、`/content/dam/mac/<tenant-id>/folderA/folderB/folderC` が管理者以外のユーザーと共有されているとします。このユーザーは、パスブラウザーを使用して、folderC 内のアセットを検索できます。このユーザーは、folderB や folderA に移動することもできます（ユーザーと共有されている folderC の上位層だからです）。
 
 ![](assets/edit-search-form.png)
 
