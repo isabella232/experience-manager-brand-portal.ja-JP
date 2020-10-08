@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
-translation-type: ht
-source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
 
@@ -29,13 +29,11 @@ ht-degree: 100%
 >
 >画像とそのレンディションをダウンロードするときは、既存のプリセットから選択することはできません。その代わりに、カスタム画像プリセットのプロパティを指定できます。詳しくは、[画像をダウンロードする際の画像プリセットの適用](../using/brand-portal-image-presets.md#main-pars-text-1403412644)を参照してください。
 
-
 画像プリセットの作成時に必要となるパラメーターについて詳しくは、[画像プリセットの管理](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html)を参照してください。
 
 ## 画像プリセットの作成 {#create-an-image-preset}
 
 AEM 管理者は、アセットの詳細ページに動的レンディションとして表示される画像プリセットを作成できます。画像プリセットを一から作成することも、既存の画像プリセットに新しい名前を付けて保存することもできます。画像プリセットを作成するときは、画像配信のサイズと、フォーマットコマンドを選択します。画像が表示用に配信されるときには、選択したコマンドに応じて画像の外観が最適化されます。
-
 
 >[!NOTE]
 >
@@ -44,9 +42,9 @@ AEM 管理者は、アセットの詳細ページに動的レンディション�
 >
 >AEM（オーサー）インスタンスが **Dynamic Media ハイブリッドモード**&#x200B;で実行されている場合、画像アセットのピラミッド TIFF レンディションが作成されて AEM リポジトリに保存されます。
 >
->これに対し、AEM（オーサー）インスタンスが **Dynamic Media Scene7 モード**で実行されている場合、画像アセットのピラミッド TIFF レンディションは Scene7 サーバー上に存在します。
+>これに対し、AEM（オーサー）インスタンスが **Dynamic Media Scene7 モード**&#x200B;で実行されている場合、画像アセットのピラミッド TIFF レンディションは Scene7 サーバー上に存在します。
+>
 >このようなアセットが Brand Portal に公開されると、画像プリセットが適用されて動的レンディションが表示されます。
-
 
 1. 上部の AEM ツールバーでアドビのロゴをクリックして、管理ツールにアクセスします。
 
@@ -69,7 +67,7 @@ AEM 管理者は、アセットの詳細ページに動的レンディション�
 1. 「**[!UICONTROL 保存]**」をクリックします。画像プリセットが作成され、画像プリセットページに表示されます。
 1. 画像プリセットを削除するには、画像プリセットページから削除する画像プリセットを選択し、「**[!UICONTROL 削除]**」をクリックします。確認ページで「**[!UICONTROL 削除]**」をクリックして、削除することを確認します。指定した画像プリセットが、画像プリセットページから削除されます。
 
-## 画像をプレビューする際の画像プリセットの適用  {#apply-image-presets-when-previewing-images}
+## 画像をプレビューする際の画像プリセットの適用    {#apply-image-presets-when-previewing-images}
 
 画像とそのレンディションをプレビューするときは、既存のプリセットから選択することで、管理者が設定した仕様で画像を再フォーマットできます。
 
@@ -82,7 +80,7 @@ AEM 管理者は、アセットの詳細ページに動的レンディション�
 
    ![](assets/image-preset-previewrenditionthumbnail.png)
 
-## 画像をダウンロードする際の画像プリセットの適用{#apply-image-presets-when-downloading-images}
+## 画像をダウンロードする際の画像プリセットの適用 {#apply-image-presets-when-downloading-images}
 
 Brand Portal から画像とそのレンディションをダウンロードするときは、既存の画像プリセットから選択することはできません。ただし、再フォーマットする画像に基づいて、画像プリセットのプロパティをカスタマイズできます。
 
