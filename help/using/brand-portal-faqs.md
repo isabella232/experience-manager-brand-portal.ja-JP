@@ -9,9 +9,9 @@ contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: a87f85a11e8892e6f306a003d971403581a9e3d7
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 100%
 
@@ -185,20 +185,13 @@ Brand Portal ユーザーは**投稿**&#x200B;フォルダーにアクセスし�
 **回答：** AEM では、フォルダーが Brand Portal に公開されるたびにログが保持されます。公開時に、Brand Portal に公開されていないすべてのアセットが複製キューに入れられます。公開ジョブがトリガーされた後にフォルダーに追加されたアセットは、Brand Portal に公開されません。AEM ユーザーがフォルダーを再度公開すると、以前に発行されなかった（複製キューに存在する）アセットのみが Brand Portal に発行されます。
 これは、AEM Assets から Brand Portal に公開されたフォルダー、および投稿フォルダー内の SHARED フォルダーに対しても同じです。
 
-
-
 **質問：質問は誰に問い合わせればいいですか。**
 
 **回答：**&#x200B;アドビのアカウントマネージャーか、カスタマーサポートまでお願いします。
 
-
 >[!NOTE]
 >
 >リリース日程は暫定的なものであり、変更の可能性があります。最新のリリース日程についてアドビのアカウントマネージャーまたはカスタマーサポートにお問い合わせください。
-
-
-
-
 
 ## 製品のアクセスとサポート（制限付きサイト）{#product-access-and-support-restricted-sites}
 
