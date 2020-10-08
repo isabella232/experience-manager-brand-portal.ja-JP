@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 100%
@@ -209,7 +209,6 @@ Brand Portal グループにユーザーを追加するには、[!UICONTROL Admi
    >
    >Brand Portal では、システム管理者と製品管理者の役割のみをサポートしています。
    >
-   >
    >システム管理者の役割は使用しないことをお勧めします。なぜなら、システム管理者の役割は、組織のすべての製品に対する組織レベルの管理者権限を付与することになるからです。例えば、3 つのマーケティングクラウド製品を扱う組織のシステム管理者は、これら 3 つの製品に対するすべての権限を保有します。AEM Assets から Brand Portal にアセットを公開できるように AEM Assets を設定できるのは、システム管理者だけです。詳しくは、[AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
    >
    >それに対して、製品管理者の役割は、特定の製品に対する管理者権限のみを付与します。Brand Portal 内で、より詳細なアクセス制御を適用する場合は、製品管理者の役割を使用して、製品を「Brand Portal」として選択します。
@@ -286,7 +285,6 @@ Brand Portal グループにユーザーを追加するには、[!UICONTROL Admi
    >
    >ユーザーが複数のグループに追加されていて、そのいずれかのグループが制約を受ける場合、そのユーザーにはこの制約が適用されます。
    >
-   >
    >また、管理者は、画像ファイルのオリジナルのレンディションへのアクセスに関する制約を受けません（その管理者が制約対象となるグループのメンバーである場合も、制約は適用されません）。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。対応するグループの役割が変更されます。
@@ -294,4 +292,3 @@ Brand Portal グループにユーザーを追加するには、[!UICONTROL Admi
    >[!NOTE]
    >
    >ユーザーとグループの関連付け、またはユーザーのグループメンバーシップは、8 時間おきに Brand Portal と同期されます。ユーザーまたはグループの役割の変更は、次回の同期ジョブの実行後に反映されます。
-
