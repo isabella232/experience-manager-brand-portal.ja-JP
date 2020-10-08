@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
-translation-type: ht
-source-git-commit: e497fb791030d74d9e5672b68387661ca7140d8a
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+workflow-type: tm+mt
 source-wordcount: '1294'
 ht-degree: 100%
 
@@ -28,7 +28,6 @@ Adobe Experience Manager Assets Brand Portal は、Brand Portal から複数の�
 >[!NOTE]
 >
 >Brand Portal からアセットをダウンロードする前に、ブラウザーの拡張機能に IBM Aspera Connect 3.9.9 をインストールします。
-
 
 <!--
 **Types of renditions in Brand Portal:**
@@ -88,7 +87,6 @@ Test..
 >[!NOTE]
 >
 >管理者のみが、期限切れのアセットをダウンロードできます。有効期限が切れたアセットについて詳しくは、[アセットのデジタル著作権の管理](../using/manage-digital-rights-of-assets.md)を参照してください。
-
 
 ## アセットのダウンロード手順 {#steps-to-download-assets}
 
@@ -166,7 +164,9 @@ Brand Portal からアセットまたはアセットを含むフォルダーを�
       >
       >Brand Portal では、ハイブリッドモードと Scene 7 モードの両方の Dynamic Media 設定をサポートしています。
       >
-      >（*AEM オーサーインスタンスが&#x200B;**Dynamic Media ハイブリッドモード***で動作している場合）      >アセットの動的レンディションをプレビューまたはダウンロードするには、ダイナミックメディアが有効になっていて、アセットのピラミッド TIFF レンディションがアセットの公開元の AEM Assets オーサーインスタンスに存在している必要があります。Brand Portal にアセットを公開すると、そのピラミッド TIFF レンディションも公開されます。
+      >（*AEM オーサーインスタンスが&#x200B;**Dynamic Media ハイブリッドモード***で動作している場合）
+      >
+      >アセットの動的レンディションをプレビューまたはダウンロードするには、ダイナミックメディアが有効になっていて、アセットのピラミッド TIFF レンディションがアセットの公開元の AEM Assets オーサーインスタンスに存在している必要があります。Brand Portal にアセットを公開すると、そのピラミッド TIFF レンディションも公開されます。
 
    * アセットをダウンロードする際に Brand Portal のフォルダー階層を保持するには、「**[!UICONTROL アセットごとに別のフォルダーを作成]**」チェックボックスをオンにします。デフォルトでは、Brand Portal のフォルダー階層は無視され、すべてのアセットがローカルシステムの 1 つのフォルダーにダウンロードされます。
 
@@ -179,7 +179,6 @@ Brand Portal からアセットまたはアセットを含むフォルダーを�
    >[!NOTE]
    >
    >個別にダウンロードしたアセットは、アセットダウンロードレポートに表示されます。ただし、アセットを含んだフォルダーをダウンロードした場合は、そのフォルダーもアセットも、アセットダウンロードレポートに表示されません。
-
 
 ## 期待されるダウンロードパフォーマンス {#expected-download-performance}
 
@@ -199,4 +198,3 @@ Brand Portal からアセットまたはアセットを含むフォルダーを�
 >[!NOTE]
 >
 >引用したデータは、テスト条件下において確認されたものであり、レイテンシや帯域幅の異なる場所にいるユーザーの場合は結果が異なる可能性があります。
-
