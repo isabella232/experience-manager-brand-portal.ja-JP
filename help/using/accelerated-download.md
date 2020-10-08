@@ -9,9 +9,9 @@ topic-tags: download-install
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
-translation-type: ht
-source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 100%
 
@@ -25,7 +25,6 @@ Brand Portal では、インストールオンデマンドアプリケーショ�
 >[!NOTE]
 >
 >ダウンロード速度は、ネットワーク帯域幅、サーバーのレイテンシ、クライアントの所在地などの要因によって異なるので、ユーザーごとに異なります。
-
 
 「**[!UICONTROL 高速ダウンロード]**」設定はデフォルトで有効になっているので、Brand Portal から目的のアセットファイルをダウンロードするのにかかる時間が大幅に短縮されます。
 
@@ -134,7 +133,7 @@ Microsoft Edge で高速ダウンロード機能を使用するには、信頼�
 1. 「**[!UICONTROL 信頼済みサイトゾーン]**」、「**[!UICONTROL サイト]**」の順にクリックします。
 1. リストから Brand Portal サイトを削除します。
 
-## Aspera Connect クライアントの環境設定{#aspera-connect-client-preferences}
+## Aspera Connect クライアントの環境設定 {#aspera-connect-client-preferences}
 
 アイコンを右クリックし、「**[!UICONTROL 環境設定]**」を選択して IBM Aspara Connect クライアント環境設定で指定できる、便利な環境設定がいくつかあります。
 
@@ -148,7 +147,7 @@ Microsoft Edge で高速ダウンロード機能を使用するには、信頼�
 
 ![](assets/aspera-automaticallylaunch.png)
 
-## ダウンロードアクセラレーションに関する問題のトラブルシューティング{#troubleshoot-issues-with-download-acceleration}
+## ダウンロードアクセラレーションに関する問題のトラブルシューティング {#troubleshoot-issues-with-download-acceleration}
 
 ダウンロードアクセラレーションが機能しない場合は、次の手順に従ってトラブルシューティングをおこなってください。
 
