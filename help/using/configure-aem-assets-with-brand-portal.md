@@ -9,9 +9,9 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: de21e84b93a657570db2024c2ceba58704ba5844
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
 
@@ -32,7 +32,6 @@ Adobe Experience Manager Assets と Brand Portal の統合は、Adobe 開発者�
 >
 >旧来の OAuth を使用した設定は、2020 年 4 月 6 日以降はサポートされなくなり、Adobe 開発者コンソールを使用した設定に変更されました。
 
-
 >[!TIP]
 >
 >***既存のお客様のみ***
@@ -40,7 +39,6 @@ Adobe Experience Manager Assets と Brand Portal の統合は、Adobe 開発者�
 >旧来の OAuth ゲートウェイを通じた設定は、既存のお客様には引き続きご利用いただけます。
 >
 >旧来の OAuth ゲートウェイを通じた設定で問題が発生した場合は、Adobe 開発者コンソールで既存の設定を削除し新しい設定を作成します。
-
 
 AEM Assets と Brand Portal の連携を設定する手順は、AEM のバージョンと、初めて設定するか既存の設定をアップグレードするかによって異なります。
 
@@ -51,5 +49,3 @@ AEM Assets と Brand Portal の連携を設定する手順は、AEM のバージ
 | **AEM 6.4（6.4.8.0 以降）** | [設定の作成](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [設定のアップグレード](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3（6.3.3.8 以降）** | [設定の作成](https://helpx.adobe.com/jp/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [設定のアップグレード](https://helpx.adobe.com/jp/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | サポートへのお問い合わせ | サポートへのお問い合わせ |
-
-
