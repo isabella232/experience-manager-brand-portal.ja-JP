@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
-translation-type: ht
-source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 100%
 
@@ -31,7 +31,6 @@ AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係�
 >[!NOTE]
 >
 >Brand Portal のリンク共有機能では、Zip ファイルのダウンロードが最大 5 GB まで可能です。
-
 
 アセットをリンクとして共有する手順を次に示します。
 
