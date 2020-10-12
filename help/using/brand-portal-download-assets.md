@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 3a2a9d315a5db80232e6f7fc8470ada88fddc1ff
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1356'
 ht-degree: 100%
 
 ---
@@ -115,14 +115,13 @@ Brand Portal からアセットまたはアセットを含むフォルダーを�
 
       ![](assets/licensed-asset-download-1.png)
 
-      <!--
-     >>[!NOTE]
-     >
-     >Ensure to select all the required asset renditions while downloading them from the asset details page, and click **[!UICONTROL Download]**. The selected renditions are downloaded to your local machine.
-     > 
-     >Once you download, the **[!UICONTROL Download]** button is disabled to avoid creating duplicate copies of the downloaded renditions. To download more (missing or another copy of renditions), refresh the browser to re-enable the download button.
-     >
-     -->
+
+      >[!NOTE]
+      >
+      >アセットの詳細ページからダウンロードする際に、必要なすべてのアセットレンディションを選択し、「**[!UICONTROL ダウンロード]**」をクリックします。選択したレンディションがローカルマシンにダウンロードされます。
+      > 
+      >ダウンロードしたレンディションのコピーを重複して作成しないように、ダウンロード後は「**[!UICONTROL ダウンロード]**」ボタンが無効になります。他のレンディション（見つからないレンディション、またレンディションの別のコピー）をダウンロードするには、ブラウザーを更新して、ダウンロードボタンを再度有効にします。
+
 
       **[!UICONTROL ダウンロード設定]**&#x200B;で、**[!UICONTROL カスタムレンディション]**&#x200B;または&#x200B;**[!UICONTROL システムレンディション]**&#x200B;の設定が有効になっている場合、デフォルトで「**[!UICONTROL アセット]**」チェックボックスが選択された状態で&#x200B;**[!UICONTROL ダウンロード]**&#x200B;ダイアログが表示されます。「**[!UICONTROL 高速ダウンロード]**」設定が有効の場合、デフォルトで「**[!UICONTROL ダウンロードアクセラレーションを有効化]**」チェックボックスがオンになっています。
 
