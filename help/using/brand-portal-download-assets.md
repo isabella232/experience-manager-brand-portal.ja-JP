@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 3a2a9d315a5db80232e6f7fc8470ada88fddc1ff
+source-git-commit: 71409bb00357a32541b0c7dbc001e7ec308d6dec
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 100%
@@ -121,7 +121,6 @@ Brand Portal からアセットまたはアセットを含むフォルダーを�
       >アセットの詳細ページからダウンロードする際に、必要なすべてのアセットレンディションを選択し、「**[!UICONTROL ダウンロード]**」をクリックします。選択したレンディションがローカルマシンにダウンロードされます。
       > 
       >ダウンロードしたレンディションのコピーを重複して作成しないように、ダウンロード後は「**[!UICONTROL ダウンロード]**」ボタンが無効になります。他のレンディション（見つからないレンディション、またレンディションの別のコピー）をダウンロードするには、ブラウザーを更新して、ダウンロードボタンを再度有効にします。
-
 
       **[!UICONTROL ダウンロード設定]**&#x200B;で、**[!UICONTROL カスタムレンディション]**&#x200B;または&#x200B;**[!UICONTROL システムレンディション]**&#x200B;の設定が有効になっている場合、デフォルトで「**[!UICONTROL アセット]**」チェックボックスが選択された状態で&#x200B;**[!UICONTROL ダウンロード]**&#x200B;ダイアログが表示されます。「**[!UICONTROL 高速ダウンロード]**」設定が有効の場合、デフォルトで「**[!UICONTROL ダウンロードアクセラレーションを有効化]**」チェックボックスがオンになっています。
 
