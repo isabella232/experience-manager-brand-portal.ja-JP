@@ -1,8 +1,8 @@
 ---
 title: AEM Assets Brand Portal の新機能
 seo-title: AEM Assets Brand Portal の新機能
-description: 6.4.7 の新機能と機能強化について説明します。
-seo-description: 6.4.7 の新機能と機能強化について説明します。
+description: 2020.10.0 の新機能と機能強化について説明します。
+seo-description: 2020.10.0 の新機能と機能強化について説明します。
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 3a2a9d315a5db80232e6f7fc8470ada88fddc1ff
 workflow-type: tm+mt
-source-wordcount: '4755'
-ht-degree: 100%
+source-wordcount: '5387'
+ht-degree: 87%
 
 ---
 
@@ -21,6 +21,94 @@ ht-degree: 100%
 # AEM Assets Brand Portal の新機能 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。アドビは Brand Portal の全体的なエクスペリエンスの強化に取り組んでいます。以下に、最新機能と機能強化について簡単に紹介します。
+
+## 2020.10.0 の変更点 {#what-changed-in-oct-2020}
+
+Brand Portal 2020.10.0は、アセットのダウンロード操作の簡素化に重点を置いた機能強化リリースで、重要な修正が含まれています。 この機能強化には、アセットのダウンロードの新しい強化されたワークフロー、レンディションを除外するオプション、レンディション **** パネルから直接ダウンロードするオプション、特定のユーザーグループのアクセス権とダウンロード権限を許可する設定、すべてのBrand Portalページからのファイル、コレクション、共有リンクへの簡単なナビゲーションが含まれます。 最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
+
+
+### シンプル化されたダウンロード操作 {#download-dialog}
+
+以前は、複数のアセットやフォルダーをダウンロード用に選択した場合に、技術以外のユーザーや新規ユーザーにとって特にあいまいな、アセットごとに個別のフォルダーを作成、電子メールアセット、オリジナルのアセットを選択、カスタムレンディション、動的レンディションを除外、 **** また、すべてのアセットレンディションを表示したり、特定のカスタムレンディションまたは動的レンディションを除外したりすることはできません。
+
+新しい **[!UICONTROL ダウンロード]** ダイアログでは、アセットの選択とフィルタリング処理が一般化され、Brand Portalユーザーがアセットレンディションのダウンロード中に効果的な判断を行いやすくなります。 これは、「 [**[!UICONTROL ダウンロード]**](brand-portal-download-assets.md) 」設定と「 **[!UICONTROL ダウンロード]** 」設定に応じて、選択したすべてのアセットとそのレンディションをリストします。
+
+<!--
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
+-->
+
+[ **[!UICONTROL ダウンロード]** ]ダイアログでは、次の操作を実行できます。
+
+* ダウンロードリスト内の任意のアセットの使用可能なすべてのレンディションを表示します。
+* ダウンロードに必要でないアセットのレンディションを除外します。
+* 1回のクリックで、同じレンディションのセットを同じアセットタイプにすべて適用できます。
+* アセットタイプごとに異なるレンディションのセットを適用します。
+* アセットごとに別のフォルダーを作成.
+* 選択したアセットとレンディションをダウンロードします。
+
+ダウンロードワークフローは、スタンドアロンのアセット、複数のアセット、アセットを含むフォルダ、ライセンス済みまたはライセンスされていないアセット、および共有リンクを使用したアセットのダウンロードで常に発生します。
+
+![download-dialog](assets/download-dialog-box.png)
+
+### クイックナビゲーション  {#quick-navigation}
+
+以前は、「表示 **[!UICONTROL ファイル]****[!UICONTROL 」、「]**&#x200B;コレクション **** 」、「共有リンク」の各オプションは非表示になっており、別の表示に切り替えるたびに複数回クリックする必要がありました。
+
+Brand Portal 2020.10.0では、ユーザーはクイックナビゲーションリンクを使用して、すべてのBrand Portalページから **[!UICONTROL ファイル]**、 **[!UICONTROL コレクション]**、 **[!UICONTROL 共有リンク]** (Shared Links)に1回のクリックで移動できます。
+
+![収集ナビゲーション](assets/collection-navigation.png)
+
+### 拡張レンディションパネル {#rendition-panel}
+
+以前は、設定で「 **[!UICONTROL カスタムレンディション]** 」または「 **[!UICONTROL システムレンディション]********** のダウンロード」が有効になっている場合に、元のアセットとそのレンディションのみをレンディションパネルに表示できました。 また、必要のない特定のカスタムレンディションまたは動的レンディションを除外するフィルターがないので、ユーザーはすべてのアセットレンディションをダウンロードする必要がありました。
+
+<!--
+Earlier, if any of the custom or system renditions was enabled in the **[!UICONTROL Download]** settings, an additional **[!UICONTROL Download]** dialog appeared on clicking the **[!UICONTROL Download]** button wherein the user had to manually select the set of renditions (original asset, custom renditions, dynamic renditions) to download.
+There was no filter to exclude specific custom or dynamic renditions which were not required for download.
+-->
+
+Brand Portal 2020.10.0では、ユーザーは、 **[!UICONTROL ダウンロード]** ダイアログを開かずに、特定のレンディションを除外し、アセットの詳細ページのレンディション **** パネルから選択したレンディションを直接ダウンロードできます。
+
+
+<!-- 
+In Brand Portal 2020.10.0, direct download and exclude renditions features are introduced in the **[!UICONTROL Renditions]** panel on the asset details page. All the renditions (original asset, custom renditions, dynamic renditions) under the rendition panel are now associated with a check box and are enabled by default. 
+
+The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the **[!UICONTROL Renditions]** panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog.
+-->
+
+![レンディションパネル](assets/rendition-panel.png)
+
+
+### ダウンロード権限の設定 {#download-permissions}
+
+既存の [**[!UICONTROL ダウンロード]**](brand-portal-download-assets.md) 設定に加えて、Brand Portal管理者は、表示に対する様々なグループの権限を設定したり、アセットの詳細ページから元のアセットとそのレンディションをダウンロード（またはその両方）したりできます。 これらの設定により、アセットレンディションにアクセスできるユーザーと、アセットレンディションのダウンロード（またはその両方）が定義されます。
+
+以前は、この設定は、グループユーザーが元のアセットをダウンロードするのを制限する目的でのみ使用できました。
+
+<!-- 
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the **[!UICONTROL Download]** configuration and **[!UICONTROL Download]** settings are enabled for the group users, then all the renditions of the selected assets or folders containing assets are available to the users for download.
+-->
+
+管理者は、 **[!UICONTROL ユーザーの役割]** ( **[!UICONTROL User Roles]** )ページの「グループ」タブで、表示とダウンロードの設定を指定できます。
+
+* 「オリジナルを **[!UICONTROL ダウンロード]** 」と「レンディションを **** ダウンロード」の両方の設定がオンになっている場合、選択したグループのユーザは、オリジナルのアセットとそのレンディションを表示してダウンロードできます。
+* 両方の設定をオフにした場合、元のアセットの表示のみが可能です。 アセットのレンディションは、アセットの詳細ページのユーザーには表示されません。
+* 「 **[!UICONTROL Download Original]** （オリジナルのダウンロード）」設定のみがオンになっている場合、ユーザはアセットの詳細ページからオリジナルのアセットのみを表示してダウンロードできます。
+* 「レンディションを **[!UICONTROL ダウンロード」設定のみが有効になっている場合]** 、ユーザは元のアセットを表示できますが、ダウンロードすることはできません。 ただし、ユーザーはアセットのレンディションを表示してダウンロードできます。
+
+![表示ダウンロード権限](assets/download-permissions.png)
+
+>[!NOTE]
+>
+>ユーザーが複数のグループに追加され、そのいずれかに制限がある場合、制限がユーザーに適用されます。
+
+
+<!--
+>Restrictions to access the original asset and their renditions do not apply to administrators even if they are members of restricted groups.
+ >
+ >The users can always download assets and their renditions from the repository using a `curl` request even if the download configurations are turned-off.
+ >
+-->
 
 ## 6.4.7 の変更点 {#what-changed-in-647}
 
@@ -238,7 +326,6 @@ Brand Portal 6.4.3 リリースでは、様々な機能が強化されていま�
 
 ![](assets/edit-search-form.png)
 
-**使用事例**
 
 ルートフォルダーから始まる階層ではなく、参照した特定のフォルダー内でのみアセットを検索することができます。
 
@@ -254,7 +341,7 @@ Dynamic Media ハイブリッドモードの AEM オーサーインスタンス�
 
 特定のテナントアカウントでダイナミックメディアレンディションのプレビューおよびダウンロードができるようにするには、管理者が管理ツールパネルの&#x200B;**ビデオ**&#x200B;設定で **Dynamic Media 設定**（ダイナミックビデオを取得するためのビデオサービスの URL（Dynamic Media ゲートウェイの URL）と登録 ID）を指定する必要があります。
 
-**使用事例**
+
 Dynamic Media ビデオは以下の場所でプレビューできます。
 
 * アセットの詳細ページ
@@ -277,6 +364,7 @@ Dynamic Media ビデオエンコードは以下の場所からダウンロード
 同様に、「Brand Portal で非公開」ワークフローのスケジュールを設定することで、公開されているアセットを未来の特定の日時にポータルから取り下げることができます。
 
 ![](assets/schedule-publish.png)
+
 ![](assets/publishlater-workflow.png)
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
@@ -290,8 +378,7 @@ Dynamic Media ビデオエンコードは以下の場所からダウンロード
 
 ただし、AEM オーサーインスタンスを[設定](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)する際にはテナント ID URL のみを使用できます。テナントエイリアス（代替）URL は使用できません。
 
-**使用事例**
-以下のアイテムをアドビから提供された URL をそのまま使用するのではなく、カスタマイズされたポータル URL を取得して、ブランドのニーズを満たすことができます。
+アドビから提供された URL をそのまま使用するのではなく、カスタマイズされたポータル URL を取得して、ブランドのニーズを満たすことができます。
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
@@ -299,8 +386,8 @@ Dynamic Media ビデオエンコードは以下の場所からダウンロード
 
 このリリースでは、以下の状況におけるクリックや警告の数を低減し、シンプルなダウンロードエクスペリエンスを実現しています。
 
-* レンディションのみをダウンロードする（オリジナルのアセットはダウンロードしない）ことの選択
-* オリジナルのレンディションへのアクセスが制限されているときのアセットのダウンロード
+* レンディションのみ（元のアセットはダウンロードしない）をダウンロードするようにオプトする。
+* 元のレンディションへのアクセス時のアセットのダウンロードは制限されます。
 
 ## 6.4.2 の変更点 {#what-changed-in-1}
 
