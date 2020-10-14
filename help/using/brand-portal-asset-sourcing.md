@@ -19,7 +19,7 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 100%
@@ -43,6 +43,7 @@ ht-degree: 100%
 >
 >アセットソーシングは、AEM Assets as a Cloud Service ではサポートされていません。
 
+
 >[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ![Brand Portal アセットソーシング](assets/asset-sourcing.png)
@@ -55,6 +56,7 @@ ht-degree: 100%
 >この問題は AEM 6.5.5 で修正されました。お使いの AEM Assets インスタンスを最新のサービスパック AEM 6.5.5 にアップグレードし、Adobe 開発者コンソールで[設定をアップグレード](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)してください。
 >
 >AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダウンロード](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)して、オーサーインスタンスにインストールすることをお勧めします。
+
 
 ## 関連トピック {#reference-articles}
 
