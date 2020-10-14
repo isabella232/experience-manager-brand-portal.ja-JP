@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 100%
@@ -223,6 +223,7 @@ Brand Portal グループにユーザーを追加するには、[!UICONTROL Admi
    >
    >ユーザーの管理者権限を失効するには、**[!UICONTROL 管理者を編集]**&#x200B;ページで適切な変更をおこない、「**[!UICONTROL 保存]**」をクリックします。
 
+
 ## ユーザーの役割の管理 {#manage-user-roles}
 
 管理者は、Brand Portal でユーザーの役割を変更できます。
@@ -250,9 +251,11 @@ Brand Portal グループにユーザーを追加するには、[!UICONTROL Admi
    >
    >管理者ユーザーの[!UICONTROL 役割]リストは無効になっています。管理者ユーザーを選択して、役割を変更することはできません。
 
+
    >[!NOTE]
    >
    >ユーザーがエディターグループのメンバーの場合は、ユーザーの役割も無効になっています。ユーザーの編集権限を失効するには、エディターグループからそのユーザーを削除するか、グループ全体の役割を「閲覧者」に変更します。
+
 
 1. 「**[!UICONTROL 保存]**」をクリックします。対応するユーザーの役割が変更されます。複数のユーザーを選択している場合は、すべてのユーザーの役割が同時に変更されます。
 
@@ -287,8 +290,10 @@ Brand Portal グループにユーザーを追加するには、[!UICONTROL Admi
    >
    >また、管理者は、画像ファイルのオリジナルのレンディションへのアクセスに関する制約を受けません（その管理者が制約対象となるグループのメンバーである場合も、制約は適用されません）。
 
+
 1. 「**[!UICONTROL 保存]**」をクリックします。対応するグループの役割が変更されます。
 
    >[!NOTE]
    >
    >ユーザーとグループの関連付け、またはユーザーのグループメンバーシップは、8 時間おきに Brand Portal と同期されます。ユーザーまたはグループの役割の変更は、次回の同期ジョブの実行後に反映されます。
+
