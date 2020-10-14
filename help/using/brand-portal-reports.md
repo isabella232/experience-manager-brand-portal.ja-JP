@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 100%
@@ -78,7 +78,6 @@ ht-degree: 100%
    >[!NOTE]
    >
    >リンク共有レポートには、リンク経由で共有されたアセットにアクセスしたユーザーや、リンクからアセットをダウンロードしたユーザーは表示されません。
-   >
    >
    >共有リンクからのダウンロードを追跡するには、**[!UICONTROL レポートを作成]**&#x200B;ページで「**[!UICONTROL リンク共有ダウンロードのみ]**」オプションを選択した後、ダウンロードレポートを生成する必要があります。ただし、この場合、ユーザー（ダウンロードしたユーザー）は匿名です。
 
