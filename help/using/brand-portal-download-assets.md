@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 71409bb00357a32541b0c7dbc001e7ec308d6dec
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 100%
@@ -107,11 +107,13 @@ Brand Portal からアセットまたはアセットを含むフォルダーを�
       >
       >初めてアセットをダウンロードするときに、ブラウザーに IBM Aspera Connect がインストールされていない場合は、Aspera ダウンロードアクセラレーターをインストールするように求めるプロンプトが表示されます。
 
+
       >[!NOTE]
       >
       >ダウンロードするアセットに、ライセンスが必要なアセットが含まれている場合は、**[!UICONTROL 著作権管理]**&#x200B;ページにリダイレクトされます。このページで、アセットを選択し、「**[!UICONTROL 同意する]**」をクリックし、「**[!UICONTROL ダウンロード]**」をクリックします。「同意しない」を選択した場合は、ライセンスが必要なアセットはダウンロードされません。
       > 
       >ライセンスで保護されているアセットには、[使用許諾契約が添付](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)されています。この処理は、Experience Manager Assets でアセットの[メタデータプロパティ](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)を設定することでおこなわれます。
+
 
       ![](assets/licensed-asset-download-1.png)
 
@@ -152,6 +154,7 @@ Brand Portal からアセットまたはアセットを含むフォルダーを�
       >
       >管理者は、電子メールのメッセージ内容、つまりロゴ、説明およびフッターを、[ブランディング](../using/brand-portal-branding.md)機能を使用してカスタマイズできます。
 
+
    * 定義済みの画像プリセットを選択するか、**[!UICONTROL ダウンロード]**&#x200B;ダイアログボックスから、カスタム動的レンディションを作成できます。
 
       [アセットとそのレンディションにカスタムの画像プリセット](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages)を適用するには、「**[!UICONTROL 動的レンディション]**」チェックボックスをオンにします。カスタムの画像プロパティ（サイズ、フォーマット、カラースペース、解像度、画像の修飾子など）を指定して、アセットとそのレンディションをダウンロードするときにカスタムの画像プリセットを適用します。動的レンディションのみをダウンロードするには、「**[!UICONTROL アセット]**」チェックボックスをオフにします。
@@ -166,6 +169,7 @@ Brand Portal からアセットまたはアセットを含むフォルダーを�
       >
       >アセットの動的レンディションをプレビューまたはダウンロードするには、ダイナミックメディアが有効になっていて、アセットのピラミッド TIFF レンディションがアセットの公開元の AEM Assets オーサーインスタンスに存在している必要があります。Brand Portal にアセットを公開すると、そのピラミッド TIFF レンディションも公開されます。
 
+
    * アセットをダウンロードする際に Brand Portal のフォルダー階層を保持するには、「**[!UICONTROL アセットごとに別のフォルダーを作成]**」チェックボックスをオンにします。デフォルトでは、Brand Portal のフォルダー階層は無視され、すべてのアセットがローカルシステムの 1 つのフォルダーにダウンロードされます。
 
 1. 「**[!UICONTROL ダウンロード]**」をクリックします。
@@ -177,6 +181,7 @@ Brand Portal からアセットまたはアセットを含むフォルダーを�
    >[!NOTE]
    >
    >個別にダウンロードしたアセットは、アセットダウンロードレポートに表示されます。ただし、アセットを含んだフォルダーをダウンロードした場合は、そのフォルダーもアセットも、アセットダウンロードレポートに表示されません。
+
 
 ## 期待されるダウンロードパフォーマンス {#expected-download-performance}
 
@@ -193,6 +198,8 @@ Brand Portal からアセットまたはアセットを含むフォルダーを�
 | ロンドン | 179 ミリ秒 | 0.32 MB/秒 | 106 分 |
 | シンガポール | 196 ミリ秒 | 0.5 MB/秒 | 68 分 |
 
+
 >[!NOTE]
 >
 >引用したデータは、テスト条件下において確認されたものであり、レイテンシや帯域幅の異なる場所にいるユーザーの場合は結果が異なる可能性があります。
+
