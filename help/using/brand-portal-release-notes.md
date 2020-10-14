@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 2931e19289ad8a722e3bb952e39f25b374f743c4
+source-git-commit: 87169580dfa5386bd7b3b6a3cc0b611c0eceb1d5
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 59%
+source-wordcount: '544'
+ht-degree: 55%
 
 ---
 
@@ -55,19 +55,29 @@ Brand Portal users can exclude specific renditions which are not required and di
 
 * 既存の **[!UICONTROL ダウンロード]** 設定に加えて、Brand Portal管理者は、表示に対する様々なグループの権限を設定したり、アセットの詳細ページから元のアセットとそのレンディションをダウンロード（またはその両方）したりできます。 これらの設定により、アセットレンディションにアクセスできるユーザーと、アセットレンディションのダウンロード（またはその両方）が定義されます。
 
+### 機能強化 {#enhancements}
 
-### 修正された重要な問題 {#critical-issues-fixed}
+このリリースで強化された機能は次のとおりです。
 
-このリリースには、次の重要な問題の修正が含まれています。
+* ゲストユーザーのセッションタイムアウトのしきい値が2時間から15分に短縮されました。
+* 複数ページのPDFに対して追加された **[!UICONTROL 表示ページ]** (Windows)オプションは削除されました。これは、Adobe Document CloudビューアからPDFページを表示できるようになったためです。
 
-* PDFにサブアセットが含まれている場合、ユーザーはPDFページを表示できません。
 
+<!--
+### Critical Issues Fixed {#critical-issues-fixed}
+
+This release includes fixes to the following critical issue:
+
+* The users are not able to view the PDF pages if the PDF contains sub assets.
+-->
 
 ### 既知の問題 {#known-issues}
 
 このリリースには、次の既知の問題が含まれています。
 
-* ユーザが共有リンクを使用してアセットをダウンロードする場合、「元のファイルのダウンロードを **[!UICONTROL 許可]** 」オプションが無効になっていても、元のアセットがダウンロードされます。
+* ア **[!UICONTROL セットレポートでの検索では]** 、製品インターフェイス上での処理が表示され、検索結果は表示されません。
+* ビデオDMエンコードは、アセットの詳細ページの管理者以外のユーザーには表示されません。
+* ダウンロードダイアログで、個々のアセットレンディションのサイズとダウンロードの合計サイズがゆがみます。
 
 
 
