@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 71409bb00357a32541b0c7dbc001e7ec308d6dec
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '5387'
 ht-degree: 87%
@@ -102,6 +102,7 @@ If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Renditio
 >
 >ユーザーが複数のグループに追加され、そのいずれかに制限がある場合、制限がユーザーに適用されます。
 
+
 <!--
 >Restrictions to access the original asset and their renditions do not apply to administrators even if they are members of restricted groups.
  >
@@ -128,6 +129,7 @@ Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Po
 >[!NOTE]
 >
 >その他のドキュメント形式の表示方法は変更されません。
+
 
 ![](assets/doc-viewer.png)
 
