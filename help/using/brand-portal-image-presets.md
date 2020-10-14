@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
@@ -29,6 +29,7 @@ ht-degree: 100%
 >
 >画像とそのレンディションをダウンロードするときは、既存のプリセットから選択することはできません。その代わりに、カスタム画像プリセットのプロパティを指定できます。詳しくは、[画像をダウンロードする際の画像プリセットの適用](../using/brand-portal-image-presets.md#main-pars-text-1403412644)を参照してください。
 
+
 画像プリセットの作成時に必要となるパラメーターについて詳しくは、[画像プリセットの管理](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html)を参照してください。
 
 ## 画像プリセットの作成 {#create-an-image-preset}
@@ -45,6 +46,7 @@ AEM 管理者は、アセットの詳細ページに動的レンディション�
 >これに対し、AEM（オーサー）インスタンスが **Dynamic Media Scene7 モード**&#x200B;で実行されている場合、画像アセットのピラミッド TIFF レンディションは Scene7 サーバー上に存在します。
 >
 >このようなアセットが Brand Portal に公開されると、画像プリセットが適用されて動的レンディションが表示されます。
+
 
 1. 上部の AEM ツールバーでアドビのロゴをクリックして、管理ツールにアクセスします。
 
