@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
@@ -43,6 +43,7 @@ AEM 管理者と、新しいフォルダーを作成する権限を持つ非管�
    >[!NOTE]
    >
    >管理者以外のユーザーは、アセット投稿フォルダーを作成および共有できますが、変更または削除することはできません。
+
 
    ![](assets/create-contribution-folder.png)
 
