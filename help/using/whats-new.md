@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
+source-git-commit: 20c557653305f15e32546481ab29d8efff969a4b
 workflow-type: tm+mt
 source-wordcount: '5387'
 ht-degree: 87%
@@ -249,13 +249,13 @@ Brand Portal 6.4.5 は機能リリースで、オーサー環境にアクセス�
 
 Brand Portal 6.4.4 リリースでは、テキスト検索の機能強化と、お客様らのご要望への対応に重点を置いています。最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
 
-### 検索の機能強化 {#search-enhancements}
+### 検索の機能強化
 
 Brand Portal 6.4.4 以降では、フィルタリングウィンドウのプロパティの述語で部分テキスト検索がサポートされます。部分テキスト検索を可能にするには、検索フォームの「プロパティの述語」で「**部分検索**」を有効にする必要があります。
 
 部分テキスト検索およびワイルドカード検索について詳しくは、以下の説明を参照してください。
 
-#### 部分フレーズ検索        {#partial-phrase-search}
+#### 部分フレーズ検索          {#partial-phrase-search}
 
 フィルタリングウィンドウで、検索対象フレーズの一部分（1 つか 2 つの単語）のみを指定してアセットを検索できます。
 
@@ -556,11 +556,15 @@ Brand Portal 6.4.1 はプラットフォームのアップグレードリリー�
 
 
 
+
+
 共有リンクの情報を提供する新しいレポートが追加されました。リンク共有レポートには、指定期間内に組織全体にわたって内部および外部のユーザーと共有されるすべてのアセットへの URL が示されます。さらに、リンクがいつ共有されたか、誰と共有されたか、いつ期限が切れるかという情報も示されます。
 
 ![](assets/navigatereport.png)
 
 **使用状況レポートへのアクセスエントリポイントの変更**
+
+
 
 
 
@@ -696,7 +700,7 @@ Brand Portal 6.3.1 は、Brand Portal と AEM の統合に向けた新機能と�
 
 ネストされたフォルダーをダウンロードした後も、元のフォルダー階層を保持できます。ネストされたフォルダー内のアセットを、それぞれのフォルダーではなく、単一のフォルダーにダウンロードすることも可能です。
 
-### パフォーマンスの強化 {#improved-performance}
+### パフォーマンスの向上 {#improved-performance}
 
 参照、検索およびダウンロード機能が強化され、Brand Portal のパフォーマンスが大幅に向上しています。
 
