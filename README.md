@@ -1,9 +1,16 @@
 ---
-source-git-commit: 70e35f77b6bdd606ebcc73f1bb7951e53874e669
-translation-type: ht
+source-git-commit: dca4fd9dfa7a021491cb77391b4d98d6fe61eafc
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '157'
+ht-degree: 52%
 
 ---
 # Adobe Experience Manager Brand Portal ドキュメント
+
+| EXL-PR | EXL | プレビュー | アクティベート | 公開済み | ヘルプ |
+|--- |--- |--- |--- |--- |--- |
+| [![ビルドの状態](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-brand-portal.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-brand-portal.en_pr-exl/lastBuild/) | [![ビルドの状態](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-brand-portal.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-brand-portal.en_exl/lastBuild/lastBuild) | [プレビュー URL](https://experienceleague.corp.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [ライブURL](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en) | [オーサリングガイド](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Adobe Experience Manager Brand Portal ドキュメントのリポジトリです。
 
