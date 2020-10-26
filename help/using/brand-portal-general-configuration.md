@@ -1,17 +1,17 @@
 ---
 title: 一般的なテナント設定の管理
 seo-title: 一般的なテナント設定の管理
-description: ダウンロードアクセラレーション、公開スマート[!UICONTROL コレクション]の作成、公開[!UICONTROL コレクション]の作成を設定し、管理者ユーザーがテナントのアセットアクセスを削除できるようにします。
-seo-description: ダウンロードアクセラレーション、公開スマート[!UICONTROL コレクション]の作成、公開[!UICONTROL コレクション]の作成を設定し、管理者ユーザーがテナントのアセットアクセスを削除できるようにします。
+description: ダウンロードアクセラレーション、公開スマートコレクションの作成、公開コレクションの作成を設定し、管理者ユーザーがテナントのアセットアクセスを削除できるようにします。
+seo-description: ダウンロードアクセラレーション、公開スマートコレクションの作成、公開コレクションの作成を設定し、管理者ユーザーがテナントのアセットアクセスを削除できるようにします。
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
-translation-type: ht
-source-git-commit: 307bed102148f6e5a68bac8273a93729b9d49854
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 59faef1d9ecdabad95326717548d534229cbff16
+workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ AEM Assets Brand Portal では、各組織が特定のテナントについて�
 
 **D**：共有フォルダーの（ルートからの）フォルダー階層を管理者以外のユーザー（編集者、閲覧者、ゲストユーザー）に表示する設定（デフォルトでは無効になっています）
 
-## 一般設定の有効化／無効化{#enable-disable-general-configurations}
+## 一般設定の有効化／無効化 {#enable-disable-general-configurations}
 
 これらの設定を有効化／無効化するには、次のようにします。
 
@@ -50,7 +50,7 @@ AEM Assets Brand Portal では、各組織が特定のテナントについて�
 1. **[!UICONTROL 変更内容を保存します。]**
 1. ログアウトして変更を有効にします。
 
-## 管理者が Brand Portal からアセットを削除することを許可{#allow-admin-users-to-delete-assets-from-brand-portal}
+## 管理者が Brand Portal からアセットを削除することを許可 {#allow-admin-users-to-delete-assets-from-brand-portal}
 
 「**[!UICONTROL ユーザーによる削除を許可]**」設定では、管理者権限を持つユーザーがアセットやフォルダーを Brand Portal から削除することを許可（または禁止）できます。
 
