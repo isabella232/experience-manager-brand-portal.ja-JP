@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 20c557653305f15e32546481ab29d8efff969a4b
+source-git-commit: ffded73e9fc16c325c6a77e963ebdb9ede5a7458
 workflow-type: tm+mt
-source-wordcount: '5387'
+source-wordcount: '5439'
 ht-degree: 87%
 
 ---
@@ -32,6 +32,10 @@ Brand Portal 2020.10.0は、アセットのダウンロード操作の簡素化�
 以前は、複数のアセットやフォルダーをダウンロード用に選択した場合に、技術以外のユーザーや新規ユーザーにとって特にあいまいな、アセットごとに個別のフォルダーを作成、電子メールアセット、オリジナルのアセットを選択、カスタムレンディション、動的レンディションを除外、 **** また、すべてのアセットレンディションを表示したり、特定のカスタムレンディションまたは動的レンディションを除外したりすることはできません。
 
 新しい **[!UICONTROL ダウンロード]** ダイアログでは、アセットの選択とフィルタリング処理が一般化され、Brand Portalユーザーがアセットレンディションのダウンロード中に効果的な判断を行いやすくなります。 これは、「 [**[!UICONTROL ダウンロード]**](brand-portal-download-assets.md) 」設定と「 **[!UICONTROL ダウンロード]** 」設定に応じて、選択したすべてのアセットとそのレンディションをリストします。
+
+>[!NOTE]
+>
+>すべてのユーザーは、デフォルトで **[!UICONTROL 高速ダウンロードを有効になり]** 、Brand Portalからアセットをダウンロードする前に、ブラウザーの拡張機能にIBM Aspera Connect 3.9.9がインストールされている必要があります。
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
@@ -67,7 +71,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-Brand Portal 2020.10.0では、ユーザーは、 **[!UICONTROL ダウンロード]** ダイアログを開かずに、特定のレンディションを除外し、アセットの詳細ページのレンディション **** パネルから選択したレンディションを直接ダウンロードできます。
+Brand Portal 2020.10.0では、ユーザーは特定のレンディションを除外し、アセットの詳細ページの [レンディション **[!UICONTROL パネル]** から選択したレンディションを直接ダウンロードできます。](brand-portal-download-assets.md#download-assets-from-asset-details-page) ダウンロード **** ダイアログを開く必要はありません。
 
 
 <!-- 
@@ -76,18 +80,18 @@ In Brand Portal 2020.10.0, direct download and exclude renditions features are i
 The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the **[!UICONTROL Renditions]** panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog.
 -->
 
-![レンディションパネル](assets/rendition-panel.png)
+![レンディションパネル](assets/renditions-panel.png)
 
 
 ### ダウンロード権限の設定 {#download-permissions}
 
-既存の [**[!UICONTROL ダウンロード]**](brand-portal-download-assets.md) 設定に加えて、Brand Portal管理者は、表示に対する様々なグループの権限を設定したり、アセットの詳細ページから元のアセットとそのレンディションをダウンロード（またはその両方）したりできます。 これらの設定により、アセットレンディションにアクセスできるユーザーと、アセットレンディションのダウンロード（またはその両方）が定義されます。
+既存の [**[!UICONTROL ダウンロード]**](brand-portal-download-assets.md) 設定に加えて、Brand Portal管理者は、表示に対する様々なグループの権限を設定したり、アセットの詳細ページから元のアセットとそのレンディションをダウンロード（またはその両方）したりできます。
+
+Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Users]**.
+
+ユー **[!UICONTROL ザーの役割]** ページで、「 **[!UICONTROL グループ]** 」タブに移動して、ユーザーを設定し、表示グループに対する（または）ダウンロード権限を設定します
 
 以前は、この設定は、グループユーザーが元のアセットをダウンロードするのを制限する目的でのみ使用できました。
-
-<!-- 
-If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the **[!UICONTROL Download]** configuration and **[!UICONTROL Download]** settings are enabled for the group users, then all the renditions of the selected assets or folders containing assets are available to the users for download.
--->
 
 管理者は、 **[!UICONTROL ユーザーの役割]** ( **[!UICONTROL User Roles]** )ページの「グループ」タブで、表示とダウンロードの設定を指定できます。
 
