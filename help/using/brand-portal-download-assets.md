@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 71623676e70168fda2fef286119bb20a4c2f4782
+source-git-commit: 124cfde2f5a72636202a0614c0c77e3c3c6b1691
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1879'
 ht-degree: 37%
 
 ---
@@ -166,7 +166,7 @@ Brand Portalのユーザーは、Brand Portalインターフェイスから複�
 
    使用可能なレンディションを表示するアセットをクリックし、ダウンロードするレンディションに対応するチェックボックスを選択します。
 
-   個々のアセットのレンディションを手動で選択または除外することができます。また、 **適用** アイコンをクリックして、ダウンロード用に選択したすべての類似のアセットタイプ（この例のすべての画像ファイル）に同じレンディションのセットを適用することもできます。 「 **[!UICONTROL 完了]** 」をクリックして、適用したルールを確定します。
+   個々のアセットのレンディションを手動で選択または除外するか、 **適用** アイコンをクリックして同じレンディションのセットを選択し、類似のアセットタイプ（この例のすべての画像ファイル）にダウンロードできます。 すべて **[!UICONTROL を適用ダイアログで]** 、「 **[!UICONTROL 完了]** 」をクリックして、類似するすべてのアセットにルールを適用します。
 
    ![apply-all](assets/apply.png)
 
