@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
+source-git-commit: 5cf924ce71433e33506449bbad608d5e57a41b8d
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 50%
@@ -39,7 +39,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 このリリースには、次の新機能が含まれています。
 
-* 不要なレンディションを除外し、類似のアセットタイプに同じルールセットを適用し、選択したアセットレンディションをダウンロードするための追加のオプションが付いた **[!UICONTROL ダウンロード]** ダイアログがリスト表示に改訂されました。 ブランドポータルからアセットをダウンロードする [手順を参照してください](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets)。
+* 不要なレンディションを除外し、類似のアセットタイプに同じルールセットを適用し、選択したアセットレンディションをダウンロードするための追加のオプションが付いた **[!UICONTROL ダウンロード]** ダイアログがリスト表示に改訂されました。 Brand Portalからアセットをダウンロードする [手順を参照してください](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets)。
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
@@ -47,7 +47,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 * 1回のクリックで、すべてのBrand Portalページから **[!UICONTROL ファイル]**、 **[!UICONTROL コレクション]**、 **[!UICONTROL 共有リンク]** へのナビゲーションが可能になりました。
 
-* アセットの詳細ページの **[!UICONTROL レンディション]** パネルで、Brand Portalユーザーが元のアセットと（または）特定のアセットレンディションを選択し、 **[!UICONTROL レンディションパネルから直接ダウンロードできるようになりました。]** ダウンロード **** ダイアログを開く必要はありません。 詳しくは、アセットの詳細ページからの [アセットのダウンロードを参照してください](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)。
+* アセットの詳細ページの **[!UICONTROL レンディション]** パネルで、Brand Portalユーザーが元のアセットと（または）特定のアセットレンディションを選択し、 **[!UICONTROL レンディションパネルから直接ダウンロードできるようになりました。]** ダウンロード **** ダイアログを開く必要はありません。 アセットの詳細ページからのアセットの [ダウンロードを参照してください](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)。
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
