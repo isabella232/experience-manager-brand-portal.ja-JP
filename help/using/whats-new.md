@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 5226e167491f3b9ab4a9e905b1f25e3d89e93cf6
+source-git-commit: 1d57e3ec19f1ffc944e2547989b2627988cd19c1
 workflow-type: tm+mt
-source-wordcount: '5471'
+source-wordcount: '5479'
 ht-degree: 86%
 
 ---
@@ -35,7 +35,7 @@ Brand Portal 2020.10.0は、アセットのダウンロード操作の簡素化�
 
 >[!NOTE]
 >
->すべてのユーザーは、デフォルトで **[!UICONTROL 高速ダウンロードを有効になり]** 、Brand Portalからアセットをダウンロードする前に、ブラウザーの拡張機能にIBM Aspera Connect 3.9.9がインストールされている必要があります。
+>すべてのユーザーは、デフォルトで **[!UICONTROL 高速ダウンロード]** (Fast Download)を有効にします。Brand Portalからアセットをダウンロードする前に、ブラウザーの拡張機能に [](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) IBM Aspera Connect 3.9.9をインストールする必要があります。
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
