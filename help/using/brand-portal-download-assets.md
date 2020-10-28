@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
+source-git-commit: b27d61753367df23bcf707c290e036f201ab3351
 workflow-type: tm+mt
-source-wordcount: '1878'
+source-wordcount: '1886'
 ht-degree: 35%
 
 ---
@@ -29,7 +29,7 @@ Adobe Experience Manager Assets Brand Portal は、Brand Portal から複数の�
 
 >[!NOTE]
 >
->Brand Portal 2020.10.0（およびそれ以降）では、「 **[!UICONTROL 高速ダウンロード]** 」設定はデフォルトで有効になっています。この設定では、IBM Aspera Connectを使用してアセットのダウンロードを高速化します。 Brand Portal からアセットをダウンロードする前に、ブラウザーの拡張機能に IBM Aspera Connect 3.9.9 をインストールします。For more details, see [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
+>Brand Portal 2020.10.0（およびそれ以降）では、「 **[!UICONTROL 高速ダウンロード]** 」設定はデフォルトで有効になっています。この設定では、IBM Aspera Connectを使用してアセットのダウンロードを高速化します。 [Brand Portal からアセットをダウンロードする前に、ブラウザーの拡張機能に IBM Aspera Connect 3.9.9 をインストールします。](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html)For more details, see [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
 >
 >IBM Aspera Connectを使用せず、通常のダウンロード処理を続行する場合は、Brand Portal管理者に問い合わせて、 **[!UICONTROL 高速ダウンロード]** 設定をオフにします。
 
