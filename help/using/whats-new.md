@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ffded73e9fc16c325c6a77e963ebdb9ede5a7458
+source-git-commit: 5226e167491f3b9ab4a9e905b1f25e3d89e93cf6
 workflow-type: tm+mt
-source-wordcount: '5439'
-ht-degree: 87%
+source-wordcount: '5471'
+ht-degree: 86%
 
 ---
 
@@ -50,7 +50,7 @@ If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Renditio
 * アセットごとに別のフォルダーを作成.
 * 選択したアセットとレンディションをダウンロードします。
 
-ダウンロードワークフローは、スタンドアロンのアセット、複数のアセット、アセットを含むフォルダ、ライセンス済みまたはライセンスされていないアセット、および共有リンクを使用したアセットのダウンロードで常に発生します。
+ダウンロードワークフローは、スタンドアロンのアセット、複数のアセット、アセットを含むフォルダ、ライセンス済みまたはライセンスされていないアセット、および共有リンクを使用したアセットのダウンロードで常に発生します。 Brand Portalからアセットをダウンロードする [手順を参照してください](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets)。
 
 ![download-dialog](assets/download-dialog-box.png)
 
@@ -71,7 +71,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-Brand Portal 2020.10.0では、ユーザーは特定のレンディションを除外し、アセットの詳細ページの [レンディション **[!UICONTROL パネル]** から選択したレンディションを直接ダウンロードできます。](brand-portal-download-assets.md#download-assets-from-asset-details-page) ダウンロード **** ダイアログを開く必要はありません。
+Brand Portal 2020.10.0では、ユーザーは、 [ダウンロード](brand-portal-download-assets.md#download-assets-from-asset-details-page) ダイアログを開かずに、特定のレンディションを除外し、アセットの詳細ページのレンディションパネル **** から選択したレンディションを直接ダウンロードできます。
 
 
 <!-- 
@@ -85,7 +85,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 ### ダウンロード権限の設定 {#download-permissions}
 
-既存の [**[!UICONTROL ダウンロード]**](brand-portal-download-assets.md) 設定に加えて、Brand Portal管理者は、表示に対する様々なグループの権限を設定したり、アセットの詳細ページから元のアセットとそのレンディションをダウンロード（またはその両方）したりできます。
+既存の **[!UICONTROL ダウンロード]** 設定に加えて、Brand Portal管理者は、表示に対する様々なグループの権限を設定したり、アセットの詳細ページから元のアセットとそのレンディションをダウンロード（またはその両方）したりできます。
 
 Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Users]**.
 
@@ -99,6 +99,8 @@ Log in to your Brand Portal tenant as an administrator and navigate to **[!UICON
 * 両方の設定をオフにした場合、元のアセットの表示のみが可能です。 アセットのレンディションは、アセットの詳細ページのユーザーには表示されません。
 * 「 **[!UICONTROL Download Original]** （オリジナルのダウンロード）」設定のみがオンになっている場合、ユーザはアセットの詳細ページからオリジナルのアセットのみを表示してダウンロードできます。
 * 「レンディションを **[!UICONTROL ダウンロード」設定のみが有効になっている場合]** 、ユーザは元のアセットを表示できますが、ダウンロードすることはできません。 ただし、ユーザーはアセットのレンディションを表示してダウンロードできます。
+
+詳しくは、アセットのダウンロードの [設定を参照してください](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions)。
 
 ![表示ダウンロード権限](assets/download-permissions.png)
 
