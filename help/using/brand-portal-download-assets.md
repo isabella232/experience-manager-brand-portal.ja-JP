@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 124cfde2f5a72636202a0614c0c77e3c3c6b1691
+source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
 workflow-type: tm+mt
-source-wordcount: '1879'
-ht-degree: 37%
+source-wordcount: '1878'
+ht-degree: 35%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Experience Manager Assets Brand Portal は、Brand Portal から複数の�
 
 >[!NOTE]
 >
->Brand Portal 2020.10.0（およびそれ以降）では、「 **[!UICONTROL 高速ダウンロード]** 」設定はデフォルトで有効になっています。この設定では、IBM Aspera Connectを使用してアセットのダウンロードを高速化します。 Brand Portal からアセットをダウンロードする前に、ブラウザーの拡張機能に IBM Aspera Connect 3.9.9 をインストールします。
+>Brand Portal 2020.10.0（およびそれ以降）では、「 **[!UICONTROL 高速ダウンロード]** 」設定はデフォルトで有効になっています。この設定では、IBM Aspera Connectを使用してアセットのダウンロードを高速化します。 Brand Portal からアセットをダウンロードする前に、ブラウザーの拡張機能に IBM Aspera Connect 3.9.9 をインストールします。For more details, see [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
 >
 >IBM Aspera Connectを使用せず、通常のダウンロード処理を続行する場合は、Brand Portal管理者に問い合わせて、 **[!UICONTROL 高速ダウンロード]** 設定をオフにします。
 
@@ -52,13 +52,11 @@ Brand Portalからレンディションにアクセスしてダウンロード�
 
    IBM Aspera Connectを使用して、アセットのダウンロードを高速化します。 By default, the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**.
 
-   詳しくは、[Brand Portal からのダウンロードを高速化するためのガイド](../using/accelerated-download.md)を参照してください。
-
 * **[!UICONTROL カスタムレンディション]**
 
    アセットのカスタムレンディションおよび（または）動的レンディションのダウンロードを有効にします。
 
-   元のアセットおよびシステム生成レンディション以外のすべてのアセットレンディションは、カスタムレンディションと呼ばれます。 これには、アセットに使用できる静的レンディションと動的レンディションが含まれます。どのユーザーも AEM Assets でカスタムの静的レンディションを作成できますが、カスタムの動的レンディションを作成できるのは AEM 管理者のみです。詳しくは、[画像プリセットまたは動的レンディションの適用方法](../using/brand-portal-image-presets.md)を参照してください。
+   元のアセットおよびシステム生成レンディション以外のすべてのアセットレンディションは、カスタムレンディションと呼ばれます。 これには、アセットに使用できる静的レンディションと動的レンディションが含まれます。どのユーザーも AEM Assets でカスタムの静的レンディションを作成できますが、カスタムの動的レンディションを作成できるのは AEM 管理者のみです。For details, see [how to apply image presets or dynamic renditions](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL システムレンディション]**
 
