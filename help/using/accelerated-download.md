@@ -9,11 +9,11 @@ topic-tags: download-install
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
-translation-type: ht
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
-workflow-type: ht
-source-wordcount: '1090'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 45664ffc0a5eb36e941d75a5773ef59cfa6b4646
+workflow-type: tm+mt
+source-wordcount: '1107'
+ht-degree: 94%
 
 ---
 
@@ -35,9 +35,9 @@ Brand Portal では、インストールオンデマンドアプリケーショ�
 ファイルのダウンロードを高速化するには、必ず以下をおこないます。
 
 * **[!UICONTROL ツール]**／**[!UICONTROL ダウンロード]**&#x200B;に移動し、**[!UICONTROL ダウンロード設定]**&#x200B;で、「**[!UICONTROL 高速ダウンロード]**」設定が有効になっていることを確認します。
-* ファイアウォールのポート 33001（TCP と UDP の両方）を開きます。前提条件について詳しくは、[Aspera Connect Client のドキュメント](https://downloads.asperasoft.com/en/documentation/8)を参照してください。
-* 管理者権限を使用して Aspera Connect をインストールします。
-* Aspera 転送クライアントのプラットフォームサポートについては、[Aspera Connect プラットフォームサポート一覧表](https://www.asperasoft.com/company/support/transfer-clients/)を参照してください。
+* ファイアウォールでポート33001 （TCPとUDPの両方）が開いていることを確認します。 For more information on the prerequisites, see [IBM Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
+* [管理者権限を使用して、ブラウザーの拡張機能にIBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) をインストールします。
+* For platform support of Aspera transfer client, see [IBM Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
 
 ## ダウンロードドメイン {#download-domains}
 
