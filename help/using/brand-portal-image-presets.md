@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '871'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 画像プリセットは、プレビューしたりダウンロードしたりできる画像の動的レンディションを生成するために使用します。画像とそのレンディションをプレビューするときは、プリセットを選択することにより、管理者が設定した仕様で画像を再フォーマットできます。
 
-（*AEM（オーサー）インスタンスが&#x200B;**Dynamic Media ハイブリッドモード***で実行されている場合）Brand Portal でアセットの動的レンディションを表示するには、Brand Portal に公開する AEM オーサーインスタンスにピラミッド TIFF レンディションが存在することを確認します。アセットを公開すると、その PTIFF レンディションも Brand Portal に公開されます。
+（*AEM（オーサー）インスタンスが **Dynamic Media ハイブリッドモード***で実行されている場合）Brand Portal でアセットの動的レンディションを表示するには、Brand Portal に公開する AEM オーサーインスタンスにピラミッド TIFF レンディションが存在することを確認します。アセットを公開すると、その PTIFF レンディションも Brand Portal に公開されます。
 
 >[!NOTE]
 >
@@ -41,9 +41,9 @@ AEM 管理者は、アセットの詳細ページに動的レンディション�
 >画像の動的レンディションは、ピラミッド TIFF を使用して作成されます。ピラミッド TIFF がどのアセットにも使用できない場合、そのアセットの動的レンディションを Brand Portal で取得することはできません。
 
 >
->AEM（オーサー）インスタンスが **Dynamic Media ハイブリッドモード**&#x200B;で実行されている場合、画像アセットのピラミッド TIFF レンディションが作成されて AEM リポジトリに保存されます。
+>AEM（オーサー）インスタンスが **Dynamic Media ハイブリッドモード**&#x200B;で実行されている場合、画像アセットのピラミッド TIFF レンディションが作成されて AEM リポジトリに保存されます。
 >
->これに対し、AEM（オーサー）インスタンスが **Dynamic Media Scene7 モード**&#x200B;で実行されている場合、画像アセットのピラミッド TIFF レンディションは Scene7 サーバー上に存在します。
+>これに対し、AEM（オーサー）インスタンスが **Dynamic Media Scene7 モード**&#x200B;で実行されている場合、画像アセットのピラミッド TIFF レンディションは Scene7 サーバー上に存在します。
 >
 >このようなアセットが Brand Portal に公開されると、画像プリセットが適用されて動的レンディションが表示されます。
 
@@ -58,7 +58,7 @@ AEM 管理者は、アセットの詳細ページに動的レンディション�
 
    ![](assets/image_preset_homepage.png)
 
-1. **[!UICONTROL 画像プリセットを編集]**&#x200B;ページで、「**[!UICONTROL 基本]**」または「**[!UICONTROL 詳細]**」のどちらか該当するタブに、名前などの値を入力します。オプションの概要については、[画像プリセットオプション](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options )で説明しています。プリセットは左側のウィンドウに表示され、他のアセットにすぐに使用できます。
+1. **[!UICONTROL 画像プリセットを編集]**&#x200B;ページで、「**[!UICONTROL 基本]**」または「**[!UICONTROL 詳細]**」のどちらか該当するタブに、名前などの値を入力します。オプションの概要については、[画像プリセットオプション](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options)で説明しています。プリセットは左側のウィンドウに表示され、他のアセットにすぐに使用できます。
 
    ![](assets/image_preset_create.png)
 
@@ -69,7 +69,7 @@ AEM 管理者は、アセットの詳細ページに動的レンディション�
 1. 「**[!UICONTROL 保存]**」をクリックします。画像プリセットが作成され、画像プリセットページに表示されます。
 1. 画像プリセットを削除するには、画像プリセットページから削除する画像プリセットを選択し、「**[!UICONTROL 削除]**」をクリックします。確認ページで「**[!UICONTROL 削除]**」をクリックして、削除することを確認します。指定した画像プリセットが、画像プリセットページから削除されます。
 
-## 画像をプレビューする際の画像プリセットの適用    {#apply-image-presets-when-previewing-images}
+## 画像をプレビューする際の画像プリセットの適用 {#apply-image-presets-when-previewing-images}
 
 画像とそのレンディションをプレビューするときは、既存のプリセットから選択することで、管理者が設定した仕様で画像を再フォーマットできます。
 
