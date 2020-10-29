@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 5cf924ce71433e33506449bbad608d5e57a41b8d
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 50%
+ht-degree: 86%
 
 ---
 
@@ -39,28 +39,28 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 このリリースには、次の新機能が含まれています。
 
-* 不要なレンディションを除外し、類似のアセットタイプに同じルールセットを適用し、選択したアセットレンディションをダウンロードするための追加のオプションが付いた **[!UICONTROL ダウンロード]** ダイアログがリスト表示に改訂されました。 Brand Portalからアセットをダウンロードする [手順を参照してください](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets)。
+* The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. Brand Portalからアセットをダウンロードする [手順を参照してください](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets)。
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
 -->
 
-* 1回のクリックで、すべてのBrand Portalページから **[!UICONTROL ファイル]**、 **[!UICONTROL コレクション]**、 **[!UICONTROL 共有リンク]** へのナビゲーションが可能になりました。
+* 1 回のクリックで、すべての Brand Portal ページから&#x200B;**[!UICONTROL ファイル]**、**[!UICONTROL コレクション]**、**[!UICONTROL 共有リンク]**&#x200B;へのナビゲーションが可能になりました。
 
-* アセットの詳細ページの **[!UICONTROL レンディション]** パネルで、Brand Portalユーザーが元のアセットと（または）特定のアセットレンディションを選択し、 **[!UICONTROL レンディションパネルから直接ダウンロードできるようになりました。]** ダウンロード **** ダイアログを開く必要はありません。 アセットの詳細ページからのアセットの [ダウンロードを参照してください](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)。
+* アセットの詳細ページの&#x200B;**[!UICONTROL レンディション]**&#x200B;パネルで、Brand Portal ユーザーが元のアセットと（または）特定のアセットレンディションを選択し、**[!UICONTROL ダウンロード]**&#x200B;ダイアログを開かなくて&#x200B;**[!UICONTROL レンディション]**&#x200B;パネルから直接ダウンロードできるようになりました。アセットの詳細ページからのアセットの [ダウンロードを参照してください](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)。
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
 -->
 
-* 既存の **[!UICONTROL ダウンロード]** 設定に加えて、Brand Portal管理者は、表示に対する様々なグループのユーザーの権限を [](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) 設定したり、アセットの詳細ページから元のアセットとそのレンディションをダウンロード（または）したりできます。 これらの設定により、アセットレンディションにアクセスできるユーザーと、アセットレンディションのダウンロード（またはその両方）が定義されます。
+* 既存の&#x200B;**[!UICONTROL ダウンロード]**&#x200B;設定に加えて、Brand Portal 管理者は、様々なユーザーのグループに対し、アセットの詳細ページからの元のアセットとそのレンディションを表示およびダウンロードする権限を設定できます。[](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions)これらの設定により、アセットレンディションにアクセスできるユーザー、およびアセットレンディションのダウンロードが定義されます。
 
 ### 機能強化 {#enhancements}
 
 このリリースで強化された機能は次のとおりです。
 
-* ゲストユーザーのセッションタイムアウトのしきい値が2時間から15分に短縮されました。
-* 複数ページのPDFに対して追加された **[!UICONTROL 表示ページ]** (Windows)オプションは削除されました。これは、Adobe Document CloudビューアからPDFページを表示できるようになったためです。
+* ゲストユーザーのセッションタイムアウトのしきい値が 2 時間から 15 分に短縮されました。
+* ユーザーがAdobe Document Cloud ビューアから PDF ページを表示できるようになったため、複数ページの PDF に対する追加の「**[!UICONTROL ページの表示]**」オプションは削除されました。
 
 
 <!--
@@ -75,9 +75,9 @@ This release includes fixes to the following critical issue:
 
 このリリースには、次の既知の問題が含まれています。
 
-* ア **[!UICONTROL セットレポートでの検索では]** 、製品インターフェイス上での処理が表示され、検索結果は表示されません。
-* ビデオDMエンコードは、アセットの詳細ページの管理者以外のユーザーには表示されません。
-* ダウンロードダイアログで、個々のアセットレンディションのサイズとダウンロードの合計サイズがゆがみます。
+* **[!UICONTROL Assets レポート]**&#x200B;検索を実行すると、製品インターフェイス上での処理が表示され、検索結果は表示されません。
+* アセットの詳細ページでは、管理者以外のユーザーにはビデオ DM エンコードは表示されません。
+* ダウンロードダイアログで、個々のアセットレンディションのサイズとダウンロードの合計サイズが正常に整列されません。
 
 
 
@@ -131,7 +131,7 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 * 簡体字中国語
 * 韓国語
 
-## 認定プラットフォーム  {#certified-platforms}
+## 認定プラットフォーム {#certified-platforms}
 
 このリリースの Brand Portal を実行できる認定プラットフォームを確認するには、[技術要件](https://helpx.adobe.com/jp/experience-manager/6-4/sites/deploying/using/technical-requirements.html)の「**オーサリングユーザーインターフェイス向けにサポートされているブラウザー**」節に記載されている表の「**UI のサポート**」列を参照してください。
 
