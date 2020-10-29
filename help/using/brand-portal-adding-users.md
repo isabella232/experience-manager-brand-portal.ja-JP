@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2209'
 ht-degree: 100%
 
@@ -198,7 +198,7 @@ Brand Portal グループにユーザーを追加するには、[!UICONTROL Admi
 
    ![Admin Console でのユーザーの追加](assets/admin_console_adduseruserpage.png)
 
-1. ユーザープロファイルページ下部の「**[!UICONTROL 管理権限]**」セクションで、**[!UICONTROL 省略記号（...）／管理者権限を編集]**を選択します。
+1. ユーザープロファイルページ下部の「**[!UICONTROL 管理権限]**」セクションで、**[!UICONTROL 省略記号（...）／管理者権限を編集]** を選択します。
    ![Admin Console の管理者権限](assets/admin_console_editadminrights.png)
 
 1. [!UICONTROL 管理者を編集]ページで、「システム管理者」または「製品管理者」を選択します。
