@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 0a3f1a4379398730e92e9ac85b04134f92af9d23
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 100%
+source-wordcount: '380'
+ht-degree: 91%
 
 ---
 
@@ -49,7 +49,7 @@ AEM 管理者は、AEM Assets のアクティブな Brand Portal ユーザーリ
 
 >[!NOTE]
 >
->CSV ファイルの形式は、Admin Console での一括ユーザー読み込みでサポートされている形式と同じです。電子メールと氏名は必須です。
+>CSVファイルの形式は、一括Admin Consoleインポートのためのユーザーでサポートされている形式と同じです。 電子メールと氏名は必須です。
 
 管理者は、AEM Admin Console で新規ユーザーを追加できます。詳しくは、[ユーザーの管理](brand-portal-adding-users.md)を参照してください。Admin Console でユーザーを追加したら、これらのユーザーを Brand Portal ユーザー設定ファイルに追加して、投稿フォルダーへのアクセス権を割り当てることができます。
 
@@ -65,6 +65,6 @@ AEM 管理者は、AEM Assets のアクティブな Brand Portal ユーザーリ
    ![](assets/upload-user-list2.png)
 
 
-管理者は、投稿フォルダーを設定する際に、このユーザーリストから特定のユーザー／グループに対してアクセス権を付与できます。
+管理者は、貢献度フォルダーの設定時に、このユーザーリストーから特定のユーザーへのアクセスを提供できます。
 
 詳しくは、[投稿フォルダーの設定](brand-portal-contribution-folder.md)を参照してください。
