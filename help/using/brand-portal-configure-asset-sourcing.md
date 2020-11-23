@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
-workflow-type: ht
-source-wordcount: '383'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c8f859fd371f303a8424ed473927812f658d2b8e
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ AEM 管理者は、AEM オーサーインスタンス内から&#x200B;**アセ�
 
 次のビデオでは、AEM オーサーインスタンスでアセットソーシングを設定する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/29771?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/29771)
 
 ## アセットソーシングの有効化 {#enable-asset-sourcing}
 
@@ -62,6 +62,6 @@ AEM 管理者は、AEM Assets のアクティブな Brand Portal ユーザーリ
    ![](assets/upload-user-list2.png)
 
 
-管理者は、投稿フォルダーを設定する際に、このユーザーリストから特定のユーザー／グループに対してアクセス権を付与できます。
+管理者は、貢献度フォルダーの設定時に、このユーザーリストーから特定のユーザーへのアクセスを提供できます。
 
 詳しくは、[投稿フォルダーの設定](brand-portal-contribution-folder.md)を参照してください。
