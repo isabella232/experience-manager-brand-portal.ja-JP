@@ -9,7 +9,7 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 0ae9860e2b6beb96f53e92bb114bb5756e371ad6
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 100%
@@ -123,6 +123,7 @@ Brand Portal のレプリケーションの設定時に「**[!UICONTROL 公開�
 
 1. 必要であれば、「**[!UICONTROL サムネールを変更]**」をクリックしてフォルダーのサムネール画像を変更します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
+
 1. 共有フォルダーにアクセスするには、フォルダーを共有するユーザーの資格情報を使用して Brand Portal にログインします。インターフェイスで共有フォルダーを確認します。
 
 ## フォルダーの共有解除 {#unshare-the-folders}
