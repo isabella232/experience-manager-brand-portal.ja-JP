@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 100%
+source-wordcount: '1029'
+ht-degree: 89%
 
 ---
 
@@ -42,8 +42,11 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## ゲストセッションの期間 {#guest-session-duration}
 
-ゲストユーザーセッションは 2 時間アクティブのままになります。つまり、**[!UICONTROL Lightbox]** の状態はセッションの開始時刻から 1 時間保持され、2 時間後に現在のゲストセッションが再起動して Lightbox の状態が失われます。\
-例えば、ゲストユーザーが 15:00 に Brand Portal にログインし、16:50 にダウンロード用の Lightbox にアセットを追加するとします。ユーザーが 17:00 より前に **[!UICONTROL Lightbox]** コレクション（またはそのアセット）をダウンロードしなかった場合、**[!UICONTROL Lightbox]** は空になります。これは、ユーザーが 1 時間の最後（17:00）にセッションを再起動しなければならないからです。
+
+ゲストユーザーセッションは15分間アクティブのままです。
+This means that the state of the **[!UICONTROL Lightbox]** is preserved for 15 mins from the session start time, and after that the current guest session restarts so the Lightbox state is lost.
+
+For example, a guest user logs in to Brand Portal at 1500 hours and adds assets to **[!UICONTROL Lightbox]** for download at 15:05 hours. ユーザーが15:15時間（ログインから15分以内）前に **[!UICONTROL Lightbox]** コレクション（またはそのアセット）をダウンロードしない場合は、ユーザーはセッションを再起動する必要があります。 ライトボックス **[!UICONTROL は空になり]** 、セッションが失われた場合に、アップロードされたアセットは使用できなくなります。
 
 ## 許可されている同時ゲストセッション {#concurrent-guest-sessions-allowed}
 
