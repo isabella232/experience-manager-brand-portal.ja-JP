@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 100%
@@ -55,10 +55,13 @@ AEM 管理者は、AEM Assets のアクティブな Brand Portal ユーザーリ
 
 **Brand Portal ユーザーリストをアップロードするには：**
 1. AEM オーサーインスタンス（デフォルト URL：http://localhost:4502/aem/start.html）にログインします。
-1. **ツール**（![](assets/tools.png)）パネルで、**[!UICONTROL アセット／Brand Portal ユーザー]**に移動します。
+1. **ツール**（）パネルで、**[!UICONTROL アセット／Brand Portal ユーザー]**&#x200B;に移動します。
+
    ![](assets/upload-user-list1.png)
+
 1. Brand Portal 投稿者をアップロードウィンドウが開きます。ローカルマシンから参照して、アクティブな Brand Portal ユーザーリストを含む&#x200B;**設定（.csv）ファイル**&#x200B;をアップロードします。
 1. 「**[!UICONTROL 保存]**」をクリックします。
+
    ![](assets/upload-user-list2.png)
 
 
