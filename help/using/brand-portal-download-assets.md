@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: a1c0811f8a1f6be0ecafcf6ed9b46eb52bcd49c5
+source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
 workflow-type: tm+mt
-source-wordcount: '1883'
-ht-degree: 36%
+source-wordcount: '1886'
+ht-degree: 39%
 
 ---
 
@@ -56,7 +56,7 @@ Brand Portalからレンディションにアクセスしてダウンロード�
 
    アセットのカスタムレンディションおよび（または）動的レンディションのダウンロードを有効にします。
 
-   元のアセットおよびシステム生成レンディション以外のすべてのアセットレンディションは、カスタムレンディションと呼ばれます。 アセットに使用できる静的および動的なレンディションが含まれます。 どのユーザーも AEM Assets でカスタムの静的レンディションを作成できますが、カスタムの動的レンディションを作成できるのは AEM 管理者のみです。For details, see [how to apply image presets or dynamic renditions](../using/brand-portal-image-presets.md).
+   元のアセットおよびシステム生成レンディション以外のすべてのアセットレンディションは、カスタムレンディションと呼ばれます。 これには、アセットに使用できる静的レンディションと動的レンディションが含まれます。どのユーザーも AEM Assets でカスタムの静的レンディションを作成できますが、カスタムの動的レンディションを作成できるのは AEM 管理者のみです。For details, see [how to apply image presets or dynamic renditions](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL システムレンディション]**
 
@@ -197,11 +197,11 @@ Brand Portalのユーザーは、Brand Portalインターフェイスから複�
 
 >[!NOTE]
 >
->Brand Portalは、ハイブリッドモードとScene7モードの両方でのダイナミックメディアの設定をサポートしています。
+>Brand Portalは、ハイブリッドモードとScene 7モードの両方でのダイナミックメディアの設定をサポートしています。
 >
 >（*AEM オーサーインスタンスが **Dynamic Media ハイブリッドモード***で動作している場合）
 >
->アセットの動的レンディションをプレビューまたはダウンロードするには、動的メディアが有効で、アセットのピラミッドTIFFレンディションがアセットの公開元のAEM Assets作成者インスタンスに存在することを確認します。 アセットがAEMからBrand Portalに公開されると、ピラミッドTIFFレンディションも公開されます。
+>アセットの動的レンディションをプレビューまたはダウンロードするには、ダイナミックメディアが有効になっていて、アセットのピラミッド TIFF レンディションがアセットの公開元の AEM Assets オーサーインスタンスに存在している必要があります。アセットがAEMからBrand Portalに公開されると、ピラミッドTIFFレンディションも公開されます。
 
 
 
