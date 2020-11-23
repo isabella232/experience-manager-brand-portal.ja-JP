@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: c2f230fabfa62768ad63d1f0952335ed8c6fd004
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 100%
+source-wordcount: '1029'
+ht-degree: 89%
 
 ---
 
@@ -42,8 +42,15 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## ゲストセッションの期間 {#guest-session-duration}
 
-ゲストユーザーセッションは 2 時間アクティブのままになります。つまり、**[!UICONTROL Lightbox]** の状態はセッションの開始時刻から 1 時間保持され、2 時間後に現在のゲストセッションが再起動して Lightbox の状態が失われます。\
-例えば、ゲストユーザーが 15:00 に Brand Portal にログインし、16:50 にダウンロード用の Lightbox にアセットを追加するとします。ユーザーが 17:00 より前に **[!UICONTROL Lightbox]** コレクション（またはそのアセット）をダウンロードしなかった場合、**[!UICONTROL Lightbox]** は空になります。これは、ユーザーが 1 時間の最後（17:00）にセッションを再起動しなければならないからです。
+ゲストユーザーセッションは15分間アクティブのままです。
+This means that the state of the **[!UICONTROL Lightbox]** is preserved for 15 mins from the session start time, and after that the current guest session restarts so the Lightbox state is lost.
+
+For example, a guest user logs in to Brand Portal at 1500 hours and adds assets to **[!UICONTROL Lightbox]** for download at 15:05 hours. ユーザーが15:15時間（ログインから15分以内）前に **[!UICONTROL Lightbox]** コレクション（またはそのアセット）をダウンロードしない場合は、ユーザーはセッションを再起動する必要があります。 ライトボックス **[!UICONTROL は空になり]** 、セッションが失われた場合に、アップロードされたアセットは使用できなくなります。
+
+<!--
+A guest user session remains active for 2 hours. This means that the state of the **[!UICONTROL Lightbox]** is preserved until 1 hour from the session start time, and after 2 hours the current guest session restarts so the Lightbox state is lost.  
+For example, a guest user logs in to the Brand Portal at 1500 hours and adds assets to Lightbox for download at 16:50 hours. If the user doesn't download the **[!UICONTROL Lightbox]** collection (or its assets) before 17:00 hours, the **[!UICONTROL Lightbox]** will become empty as the user will have to restart the session at the end of 1 hour (that is 1700 hours).
+-->
 
 ## 許可されている同時ゲストセッション {#concurrent-guest-sessions-allowed}
 
