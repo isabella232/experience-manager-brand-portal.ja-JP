@@ -10,17 +10,17 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c8f859fd371f303a8424ed473927812f658d2b8e
+source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 88%
+source-wordcount: '193'
+ht-degree: 100%
 
 ---
 
 
 # Brand Portal への投稿フォルダーの公開 {#publish-contribution-folder-to-brand-portal}
 
-[投稿フォルダーが設定されると](brand-portal-configure-contribution-folder-properties.md)、AEM ユーザー（管理者／管理者以外のユーザー）は、AEM Assets から Brand Portal に投稿フォルダーを公開できます。貢献度フォルダーへのアクセス権限を持つBrand Portalユーザーは、発行アクションの完了時に電子メール/パルス通知を受け取ります。
+[投稿フォルダーが設定されると](brand-portal-configure-contribution-folder-properties.md)、AEM ユーザー（管理者／管理者以外のユーザー）は、AEM Assets から Brand Portal に投稿フォルダーを公開できます。投稿フォルダーへのアクセス権を持つ Brand Portal ユーザー／グループは、公開アクションの完了時に電子メール／パルス通知を受け取ります。
 
 **投稿フォルダーを公開するには：**
 
