@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c8f859fd371f303a8424ed473927812f658d2b8e
+source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 95%
+source-wordcount: '383'
+ht-degree: 100%
 
 ---
 
@@ -62,6 +62,6 @@ AEM 管理者は、AEM Assets のアクティブな Brand Portal ユーザーリ
    ![](assets/upload-user-list2.png)
 
 
-管理者は、貢献度フォルダーの設定時に、このユーザーリストーから特定のユーザーへのアクセスを提供できます。
+管理者は、投稿フォルダーを設定する際に、このユーザーリストから特定のユーザー／グループに対してアクセス権を付与できます。
 
 詳しくは、[投稿フォルダーの設定](brand-portal-contribution-folder.md)を参照してください。
