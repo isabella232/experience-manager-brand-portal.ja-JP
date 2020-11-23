@@ -11,10 +11,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 0a3f1a4379398730e92e9ac85b04134f92af9d23
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 91%
+source-wordcount: '296'
+ht-degree: 82%
 
 ---
 
@@ -25,11 +25,9 @@ AEM 管理者は、投稿フォルダーのプロパティを設定する際に�
 
 * **説明を追加**：投稿フォルダーの大まかな説明を提供します。
 * **概要をアップロード**：アセット関連情報を含むアセット要件ドキュメントをアップロードします。
-* **投稿者を追加**：投稿フォルダーへのアクセス権を付与するために Brand Portal ユーザーまたはグループを追加します。
+* **寄追加稿者**:Brand 追加 Portalユーザーに貢献度フォルダーへのアクセス権を付与します。
 
 アセット要件は、管理者によって提供された詳細を参照して、投稿者（Brand Portal ユーザー）が投稿フォルダーのニーズおよび要件を理解できるようにします。管理者は、投稿フォルダーに追加する必要があるアセットのタイプおよびアセット関連情報（目的、画像のタイプ、最大サイズなど）に関する概要を含むアセット要件ドキュメントをアップロードします。
-
-その後、管理者は、Brand Portal ユーザー／グループに投稿フォルダーへのアクセス権を付与してから、新しく作成した投稿フォルダーを Brand Portal に公開できます。
 
 **投稿フォルダーのプロパティを設定するには：**
 
@@ -53,5 +51,7 @@ AEM 管理者は、投稿フォルダーのプロパティを設定する際に�
    ![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
+>
+>現在、グループを貢献度フォルダーに割り当てることはできません。
 >
 >検索結果は、AEM Assets に設定された Brand Portal ユーザーリストに基づきます。Brand Portal ユーザーリストを更新しておくようにします。[Brand Portal ユーザーリストのアップロード](brand-portal-configure-asset-sourcing.md)を参照してください。
