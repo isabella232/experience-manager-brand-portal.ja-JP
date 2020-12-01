@@ -51,7 +51,7 @@ Brand Portal では、管理者は期限切れアセットを表示したり、�
 >
 >閲覧者およびエディターが期限切れアセットと期限切れでないアセットを含むフォルダーをダウンロードした場合は、期限切れでないアセットのみがダウンロードされます。フォルダーに期限切れアセットのみが含まれている場合は、空のフォルダーがダウンロードされます。
 
-### アセットの有効期限ステータス {#expiration-status-of-assets}
+### アセットの有効期限ステータス  {#expiration-status-of-assets}
 
 アセットの有効期限ステータスは&#x200B;**[!UICONTROL カード表示]**&#x200B;で確認できます。カード上の赤いフラグは、そのアセットが期限切れであることを示しています。
 
@@ -61,7 +61,7 @@ Brand Portal では、管理者は期限切れアセットを表示したり、�
 >
 >リスト表示と列表示では、アセットの有効期限ステータスは表示されません。
 
-## アセットのリンクの有効期限 {#asset-link-expiration}
+## アセットのリンクの有効期限  {#asset-link-expiration}
 
 管理者およびエディターは、リンクを通じてアセットを共有する一方で、**[!UICONTROL リンク共有]**&#x200B;ダイアログボックスの「**[!UICONTROL 有効期限]**」フィールドを使用して有効期限の日時を設定できます。リンクのデフォルトの有効期限は、リンクが共有された日から 7 日間です。
 
@@ -75,7 +75,7 @@ Brand Portal では、管理者は期限切れアセットを表示したり、�
 
 ライセンスで保護されたアセットを Brand Portal からダウンロードするときは、事前に使用許諾契約への同意が求められます。ライセンスで保護されたアセットの使用許諾契約は、アセットを Brand Portal から直接ダウンロードまたは共有リンクを介してダウンロードするときに表示されます。ライセンスで保護されたアセットは、期限切れの場合も期限切れでない場合も、すべてのユーザーが見ることができます。しかし、ライセンスで保護された期限切れアセットのダウンロードと使用には制限が適用されます。ライセンスで保護された期限切れアセットの動作と、ユーザーの役割に基づいて許可される活動については、[期限切れアセットの使用権限](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets)を参照してください。
 
-ライセンスで保護されているアセットには、[使用許諾契約が添付](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)されています。この処理は、AEM Assets でアセットの[メタデータプロパティ](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)を設定することでおこなわれます。
+ライセンスで保護されているアセットには、[使用許諾契約が添付](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)されています。この処理は、AEM Assets でアセットの[メタデータプロパティ](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)を設定することでおこなわれます。
 
 ライセンスで保護されたアセットをダウンロードする場合は、**[!UICONTROL 著作権管理]**&#x200B;ページにリダイレクトされます。
 
@@ -87,7 +87,7 @@ Brand Portal では、管理者は期限切れアセットを表示したり、�
 
 選択した項目に保護されたアセットが複数含まれている場合は、アセットを 1 つずつ選択して使用許諾契約に同意し、アセットのダウンロードに進みます。
 
-## 期限切れアセットに関するレポートの生成 {#generate-report-about-expired-assets}
+## 期限切れアセットに関するレポートの生成  {#generate-report-about-expired-assets}
 
 管理者は、特定の期間内に期限切れになったすべてのアセットをリストするレポートを生成してダウンロードできます。このレポートには、期限切れアセットについての詳細情報（サイズ、種類、アセット階層内のアセットの場所を示すパス、アセットが期限切れになった日時、アセットが公開された日時など）が含まれます。このレポートの列はカスタマイズ可能であり、表示するデータを要件に応じて増やすことができます。
 
