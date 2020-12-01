@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係�
    >[!NOTE]
    >
    >ダウンロードするアセットに、ライセンスが必要なアセットが含まれている場合は、**[!UICONTROL 著作権管理]**&#x200B;ページにリダイレクトされます。このページで、ライセンスが必要なアセットを選択し、「**[!UICONTROL 同意する]**」をクリックした後、「**[!UICONTROL ダウンロード]**」をクリックします。「同意しない」を選択した場合は、ライセンスが不要なアセットのみがダウンロードされます。\
-   >ライセンスで保護されているアセットには、[使用許諾契約が添付](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)されています。この処理は、[!DNL AEM Assets] の[メタデータプロパティ](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)を設定することでおこなわれます。
+   >ライセンスで保護されているアセットには、[使用許諾契約が添付](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)されています。この処理は、[!DNL AEM Assets] の[メタデータプロパティ](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)を設定することでおこなわれます。
 
    ![](assets/licensed-asset-download.png)
 
@@ -126,39 +126,39 @@ AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係�
 
 | アセット形式 | サムネールのサポート | プレビューのサポート |
 |--------------|-------------------|-----------------|
-| PNG | ✓ | ✓ |
-| GIF | ✓ | ✓ |
-| TIFF | ✓ | ✕ |
-| JPEG | ✓ | ✓ |
-| BMP | ✓ | ✕ |
+| PNG | ✓ | kid |
+| GIF | kid | kid |
+| TIFF | kid | ✕ |
+| JPEG | kid | kid |
+| BMP | kid | ✕ |
 | PNM* | 該当なし | 該当なし |
 | PGM* | 該当なし | 該当なし |
 | PBM* | 該当なし | 該当なし |
 | PPM* | 該当なし | 該当なし |
-| PSD | ✓ | ✕ |
+| PSD | kid | ✕ |
 | EPS | 該当なし | ✕ |
-| DNG | ✓ | ✕ |
-| PICT | ✓ | ✕ |
-| PSB* | ✓ | ✕ |
-| JPG | ✓ | ✓ |
-| AI | ✓ | ✕ |
+| DNG | kid | ✕ |
+| PICT | kid | ✕ |
+| PSB* | kid | ✕ |
+| JPG | kid | kid |
+| AI | kid | ✕ |
 | DOC | ✕ | ✕ |
 | DOCX | ✕ | ✕ |
 | ODT* | ✕ | ✕ |
-| PDF | ✓ | ✕ |
+| PDF | kid | ✕ |
 | HTML | ✕ | ✕ |
 | RTF | ✕ | ✕ |
-| TXT | ✓ | ✕ |
+| TXT | kid | ✕ |
 | XLS | ✕ | ✕ |
 | XLSX | ✕ | ✕ |
 | ODS | ✕ | ✕ |
-| PPT | ✓ | ✕ |
+| PPT | kid | ✕ |
 | PPTX | ✕ | ✕ |
 | ODP | ✕ | ✕ |
-| INDD | ✓ | ✕ |
+| INDD | kid | ✕ |
 | PS | ✕ | ✕ |
 | QXP | ✕ | ✕ |
-| EPUB | ✓ | ✕ |
+| EPUB | kid | ✕ |
 | AAC | ✕ | ✕ |
 | MIDI | ✕ | ✕ |
 | 3GP | ✕ | ✕ |
@@ -178,16 +178,16 @@ AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係�
 | WMV | ✕ | ✕ |
 | SWF | ✕ | ✕ |
 | TGZ | 該当なし | ✕ |
-| JAR | ✓ | ✕ |
+| JAR | kid | ✕ |
 | RAR | 該当なし | ✕ |
 | TAR | 該当なし | ✕ |
-| ZIP | ✓ | ✕ |
+| ZIP | kid | ✕ |
 
 以下に、この表で使用する記号の意味を示します。
 
 | 記号 | 意味 |
 |---|---|
-| ✓ | この機能はサポートされています。 |
+| kid | この機能はサポートされています。 |
 | ✕ | この機能はサポートされていません |
 | 該当なし | この機能は適用されません |
 | * | この機能を AEM オーサーインスタンスで使用するには、このファイル形式用のアドオンサポートが必要です。ただし、アセットが Brand Portal に公開された後、Brand Portal で使用する際には不要です |
