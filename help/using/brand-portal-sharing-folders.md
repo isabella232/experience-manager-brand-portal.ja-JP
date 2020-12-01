@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Brand Portal は、アセットの取り込みをサポートしていません。したがって、事前設定済みの AEM オーサーインスタンスから Brand Portal にアセットを公開する必要があります。
 
-## Brand Portal でのフォルダー共有ワークフロー {#folder-sharing-workflow-in-brand-portal}
+## Brand Portal でのフォルダー共有ワークフロー  {#folder-sharing-workflow-in-brand-portal}
 
 以下に、フォルダー共有のワークフローとユーザーアクセスを示します。
 
@@ -126,7 +126,7 @@ Brand Portal のレプリケーションの設定時に「**[!UICONTROL 公開�
 
 1. 共有フォルダーにアクセスするには、フォルダーを共有するユーザーの資格情報を使用して Brand Portal にログインします。インターフェイスで共有フォルダーを確認します。
 
-## フォルダーの共有解除 {#unshare-the-folders}
+## フォルダーの共有解除  {#unshare-the-folders}
 
 共有フォルダーの共有を解除するには、以下の手順に従います。
 
