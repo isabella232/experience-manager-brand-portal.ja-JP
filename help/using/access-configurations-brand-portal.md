@@ -40,7 +40,7 @@ AEM Assets Brand Portal 6.4.2 以降では、管理者は、所属組織の Bran
 
 ![](assets/bp-welcome-screen.png)
 
-## ユーザーのアクセス要求を許可 {#allow-users-to-request-access}
+## ユーザーのアクセス要求を許可  {#allow-users-to-request-access}
 
 管理者は、組織ユーザーに対し、ようこそ画面から Brand Portal へのアクセスを要求することを許可できます。ただし、管理者は「**[!UICONTROL ユーザーのアクセス要求を許可]**」設定を有効にして、ようこそ画面にアクセス要求用のリンクが表示されるようにする必要があります。
 
