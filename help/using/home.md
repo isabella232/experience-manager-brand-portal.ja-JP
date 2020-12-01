@@ -3,9 +3,9 @@ title: Adobe Experience Manager Assets Brand Portal ガイド
 seo-title: Adobe Experience Manager Assets Brand Portal ガイド
 description: Adobe Experience Manager Assets Brand Portal ガイド
 seo-description: Brand Portal の使用方法について説明します
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 100%
 
