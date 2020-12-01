@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a502a60a7d93595a202d50a79e2374c8d9734486
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 100%
 
