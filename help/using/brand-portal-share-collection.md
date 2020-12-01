@@ -18,23 +18,23 @@ ht-degree: 38%
 ---
 
 
-# コレクションを共有 {#share-collections}
+# コレクションを共有{#share-collections}
 
-コレクションは、Adobe Experience Managerアセットブランドポータルにまとめて保存される、関連アセットのグループを表します。 ユーザーは、Omnisearchまたはファセット検索を [適用して関連アセットを除外し](brand-portal-searching.md) 、一緒に保存して簡単にアクセスし、他のBrand Portalユーザーと共有することで、スマートコレクションを作成できます。
+コレクションは、Adobe Experience Managerアセットブランドポータルにまとめて保存される、関連アセットのグループを表します。 ユーザーは、Omnisearchまたはファセット検索を適用してスマートコレクションを作成し、関連アセット[をフィルターで除外し、一緒に保存して、簡単にアクセスし、他のBrand Portalユーザーと共有できます。](brand-portal-searching.md)
 
 管理者は、許可されたBrand Portalユーザーとコレクションを共有および共有解除できます。 エディターとビューアは、自分が作成したコレクション、共有したコレクション、公開コレクションに表示して共有できます。
 
 >[!NOTE]
 >
->Editors cannot change a public collection to a non-public collection and therefore do not have the **[!UICONTROL Public Collection]** check box available in **[!UICONTROL Collection Settings]** dialog.
+>編集者はパブリックコレクションを非パブリックコレクションに変更できないため、**[!UICONTROL コレクション設定]**&#x200B;ダイアログで使用できる「**[!UICONTROL パブリックコレクション]**」チェックボックスはありません。
 
 ## コレクションの共有 {#share-collection}
 
 承認されたBrand Portalユーザーとコレクションを共有する手順は次のとおりです。
 
-1. Brand Portalテナントにログインします。 デフォルトでは、 **[!UICONTROL ファイル]** 表示が開き、発行済みのすべてのアセットとフォルダが含まれます。
+1. Brand Portalテナントにログインします。 デフォルトでは、**[!UICONTROL ファイル]**&#x200B;表示が開き、発行済みのすべてのアセットとフォルダーが含まれます。
 
-1. 上部のクイックナビゲーションで、「 **[!UICONTROL コレクション]**」をクリックします。
+1. 上部のクイックナビゲーションで、「**[!UICONTROL コレクション]**」をクリックします。
 
 1. **[!UICONTROL コレクション]**&#x200B;コンソールで、以下のいずれかの手順を実行します。
 
@@ -46,27 +46,27 @@ ht-degree: 38%
 
       ![](assets/collection-console.png)
 
-1. In the **[!UICONTROL Collection Settings]** dialog box, select the users with whom you want to share the collection and select the role for the user to match their global role. 例えば、グローバルエディタにエディタロールを割り当て、グローバルビューアにビューアロールを割り当てます。
+1. **[!UICONTROL コレクション設定]**&#x200B;ダイアログボックスで、コレクションを共有するユーザーを選択し、グローバルロールに一致するユーザーのロールを選択します。 例えば、グローバルエディタにエディタロールを割り当て、グローバルビューアにビューアロールを割り当てます。
 
-   Alternatively, to make the collection available to all the users irrespective of their group membership and role, make it public by selecting the **[!UICONTROL Public Collection]** check box.
+   また、グループのメンバーシップと役割に関係なく、すべてのユーザーがコレクションを利用できるようにするには、「**[!UICONTROL 公開コレクション]**」チェックボックスをオンにして、コレクションを公開にします。
 
    >[!NOTE]
    >
-   >ただし、公開コレクションが大量に作成されてシステムの容量に影響しないように、管理者以外のユーザーによる公開コレクションの作成を制限できます。Organizations can disable the **[!UICONTROL Allow public collections creation]** configuration from **[!UICONTROL General]** settings available in the admin tools panel.
+   >ただし、公開コレクションが大量に作成されてシステムの容量に影響しないように、管理者以外のユーザーによる公開コレクションの作成を制限できます。組織は、管理ツールパネルの&#x200B;**[!UICONTROL 一般的な]**&#x200B;設定から、**[!UICONTROL パブリックコレクションの作成を許可]**&#x200B;設定を無効にできます。
 
    ![](assets/collection_sharingadduser.png)
 
-   The editors cannot change a public collection to a non-public collection and therefore do not have **[!UICONTROL Public Collection]** check box available in **[!UICONTROL Collection Settings]** dialog.
+   編集者はパブリックコレクションを非パブリックコレクションに変更できないため、**[!UICONTROL コレクション設定]**&#x200B;ダイアログで使用できる「**[!UICONTROL パブリックコレクション]**」チェックボックスはありません。
 
    ![](assets/collection-setting-editor.png)
 
-1. ユーザーを追加する **[!UICONTROL 追加ボタンをクリックし、「]** 保存 **[!UICONTROL 」をクリックします]**。 コレクションはユーザーと共有されます。
+1. **[!UICONTROL 追加]**&#x200B;ボタンをクリックしてユーザーを追加し、**[!UICONTROL 「保存]**」をクリックします。 コレクションはユーザーと共有されます。
 
    >[!NOTE]
    >
    >コレクション内のアセットやフォルダーへのアクセスは、ユーザーの役割によって決まります。アセットへのアクセス権を持たないユーザーは、空のコレクションを共有します。また、コレクションに対して実行できるアクションも、ユーザーの役割によって決まります。
 
-## コレクションの共有解除 {#unshare-a-collection}
+## コレクションの共有解除  {#unshare-a-collection}
 
 コレクションの共有を解除するには、以下の手順を実行します。
 
@@ -76,15 +76,15 @@ ht-degree: 38%
 
    ![](assets/collection_settings.png)
 
-1. [ **[!UICONTROL コレクションの設定]** ]ダイアログボックスの[ **[!UICONTROL メンバ]** ]セクションで、ユーザーの横の **[!UICONTROL x]** 記号をクリックして、コレクションにアクセスできるユーザーのリストからユーザーを削除します。
+1. **[!UICONTROL コレクション設定]**&#x200B;ダイアログボックスの「**[!UICONTROL メンバー]**」セクションで、ユーザーの横の&#x200B;**[!UICONTROL x]**&#x200B;記号をクリックして、コレクションにアクセスしているユーザーのリストから削除します。
 
    ![](assets/unshare_collection.png)
 
-1. 警告メッセージが表示されます。 「 **[!UICONTROL 確認]** 」をクリックして、コレクションの共有を解除します。
+1. 警告メッセージが表示されます。 **[!UICONTROL 「]**&#x200B;確認&lt;a1/>」をクリックして、コレクションの共有を解除します。
 
-1. Click **[!UICONTROL Save]** to apply the changes.
+1. 「**[!UICONTROL 保存]**」をクリックして変更を適用します。
 
-   ユーザーが共有コレクションから削除されると、非共有リストはユーザーの **[!UICONTROL コレクション]** コンソールから削除されます。
+   ユーザーが共有リストーから削除されると、非共有コレクションはユーザーの&#x200B;**[!UICONTROL コレクション]**&#x200B;コンソールから削除されます。
 
 <!--
 1. Click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.
