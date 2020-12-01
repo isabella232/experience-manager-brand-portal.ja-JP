@@ -39,7 +39,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 このリリースには、次の新機能が含まれています。
 
-* The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. Brand Portalからアセットをダウンロードする [手順を参照してください](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets)。
+* リスト表示で&#x200B;**[!UICONTROL ダウンロード]**&#x200B;ダイアログが改訂され、不要なレンディションを除外し、類似のアセットタイプに同じルールセットを適用し、選択したアセットレンディションをダウンロードするオプションが追加されました。 ブランドポータル[からアセットをダウンロードする手順を参照してください。](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets)
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
@@ -47,7 +47,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 * 1 回のクリックで、すべての Brand Portal ページから&#x200B;**[!UICONTROL ファイル]**、**[!UICONTROL コレクション]**、**[!UICONTROL 共有リンク]**&#x200B;へのナビゲーションが可能になりました。
 
-* アセットの詳細ページの&#x200B;**[!UICONTROL レンディション]**&#x200B;パネルで、Brand Portal ユーザーが元のアセットと（または）特定のアセットレンディションを選択し、**[!UICONTROL ダウンロード]**&#x200B;ダイアログを開かなくて&#x200B;**[!UICONTROL レンディション]**&#x200B;パネルから直接ダウンロードできるようになりました。アセットの詳細ページからのアセットの [ダウンロードを参照してください](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)。
+* アセットの詳細ページの&#x200B;**[!UICONTROL レンディション]**&#x200B;パネルで、Brand Portal ユーザーが元のアセットと（または）特定のアセットレンディションを選択し、**[!UICONTROL ダウンロード]**&#x200B;ダイアログを開かなくて&#x200B;**[!UICONTROL レンディション]**&#x200B;パネルから直接ダウンロードできるようになりました。[アセットの詳細ページ](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)からのアセットのダウンロードを参照してください。
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
@@ -131,7 +131,7 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 * 簡体字中国語
 * 韓国語
 
-## 認定プラットフォーム {#certified-platforms}
+## 認定プラットフォーム  {#certified-platforms}
 
 このリリースの Brand Portal を実行できる認定プラットフォームを確認するには、[技術要件](https://helpx.adobe.com/jp/experience-manager/6-4/sites/deploying/using/technical-requirements.html)の「**オーサリングユーザーインターフェイス向けにサポートされているブラウザー**」節に記載されている表の「**UI のサポート**」列を参照してください。
 
