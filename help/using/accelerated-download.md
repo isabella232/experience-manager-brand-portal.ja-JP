@@ -35,9 +35,9 @@ Brand Portal では、インストールオンデマンドアプリケーショ�
 ファイルのダウンロードを高速化するには、必ず以下をおこないます。
 
 * **[!UICONTROL ツール]**／**[!UICONTROL ダウンロード]**&#x200B;に移動し、**[!UICONTROL ダウンロード設定]**&#x200B;で、「**[!UICONTROL 高速ダウンロード]**」設定が有効になっていることを確認します。
-* ファイアウォールでポート33001 （TCPとUDPの両方）が開いていることを確認します。 For more information on the prerequisites, see [IBM Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
-* [管理者権限を使用して、ブラウザーの拡張機能にIBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) をインストールします。
-* For platform support of Aspera transfer client, see [IBM Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
+* ファイアウォールでポート33001 （TCPとUDPの両方）が開いていることを確認します。 前提条件について詳しくは、[IBM Aspera Connect Clientドキュメント](https://downloads.asperasoft.com/en/documentation/8)を参照してください。
+* [管理者権限を使用して、ブラウザーの拡張機能](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) にIBM Aspera Connect 3.9.9をインストールします。
+* Aspera転送クライアントのプラットフォームサポートについては、[IBM Aspera Connectプラットフォームサポートマトリックス](https://www.asperasoft.com/company/support/transfer-clients/)を参照してください。
 
 ## ダウンロードドメイン {#download-domains}
 
@@ -133,7 +133,7 @@ Microsoft Edge で高速ダウンロード機能を使用するには、信頼�
 1. 「**[!UICONTROL 信頼済みサイトゾーン]**」、「**[!UICONTROL サイト]**」の順にクリックします。
 1. リストから Brand Portal サイトを削除します。
 
-## Aspera Connect クライアントの環境設定 {#aspera-connect-client-preferences}
+## Aspera Connect クライアントの環境設定  {#aspera-connect-client-preferences}
 
 アイコンを右クリックし、「**[!UICONTROL 環境設定]**」を選択して IBM Aspara Connect クライアント環境設定で指定できる、便利な環境設定がいくつかあります。
 
@@ -147,7 +147,7 @@ Microsoft Edge で高速ダウンロード機能を使用するには、信頼�
 
 ![](assets/aspera-automaticallylaunch.png)
 
-## ダウンロードアクセラレーションに関する問題のトラブルシューティング {#troubleshoot-issues-with-download-acceleration}
+## ダウンロードアクセラレーションに関する問題のトラブルシューティング  {#troubleshoot-issues-with-download-acceleration}
 
 ダウンロードアクセラレーションが機能しない場合は、次の手順に従ってトラブルシューティングをおこなってください。
 
