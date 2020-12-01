@@ -39,7 +39,7 @@ AEM Assets Brand Portal では、各組織が特定のテナントについて�
 
 **D**：共有フォルダーの（ルートからの）フォルダー階層を管理者以外のユーザー（編集者、閲覧者、ゲストユーザー）に表示する設定（デフォルトでは無効になっています）
 
-## 一般設定の有効化／無効化 {#enable-disable-general-configurations}
+## 一般設定の有効化／無効化  {#enable-disable-general-configurations}
 
 これらの設定を有効化／無効化するには、次のようにします。
 
@@ -50,7 +50,7 @@ AEM Assets Brand Portal では、各組織が特定のテナントについて�
 1. **[!UICONTROL 変更内容を保存します。]**
 1. ログアウトして変更を有効にします。
 
-## 管理者が Brand Portal からアセットを削除することを許可 {#allow-admin-users-to-delete-assets-from-brand-portal}
+## 管理者が Brand Portal からアセットを削除することを許可  {#allow-admin-users-to-delete-assets-from-brand-portal}
 
 「**[!UICONTROL ユーザーによる削除を許可]**」設定では、管理者権限を持つユーザーがアセットやフォルダーを Brand Portal から削除することを許可（または禁止）できます。
 
