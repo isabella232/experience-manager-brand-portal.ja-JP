@@ -44,9 +44,9 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 
 ゲストユーザーセッションは15分間アクティブのままです。
-This means that the state of the **[!UICONTROL Lightbox]** is preserved for 15 mins from the session start time, and after that the current guest session restarts so the Lightbox state is lost.
+つまり、**[!UICONTROL Lightbox]**&#x200B;の状態は、セッション開始時間から15分間保持され、その後、現在のゲストセッションが再開され、Lightboxの状態が失われます。
 
-For example, a guest user logs in to Brand Portal at 1500 hours and adds assets to **[!UICONTROL Lightbox]** for download at 15:05 hours. ユーザーが15:15時間（ログインから15分以内）前に **[!UICONTROL Lightbox]** コレクション（またはそのアセット）をダウンロードしない場合は、ユーザーはセッションを再起動する必要があります。 ライトボックス **[!UICONTROL は空になり]** 、セッションが失われた場合に、アップロードされたアセットは使用できなくなります。
+例えば、ゲストユーザーが1500時間にブランドポータルにログインし、15:05時間にダウンロード用に&#x200B;**[!UICONTROL Lightbox]**&#x200B;にアセットを追加したとします。 ユーザーが15:15時間（ログインから15分以内）前に&#x200B;**[!UICONTROL Lightbox]**&#x200B;コレクション（またはそのアセット）をダウンロードしない場合、ユーザーはセッションを再起動する必要があります。 **[!UICONTROL ライトボックス]**&#x200B;は空になります。つまり、セッションが失われた場合に、アップロードされたアセットは使用できなくなります。
 
 ## 許可されている同時ゲストセッション {#concurrent-guest-sessions-allowed}
 
