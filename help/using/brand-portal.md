@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1524'
 ht-degree: 100%
 
@@ -60,10 +60,10 @@ Brand Portal では次のユーザー役割をサポートしています。
 
 |  | **参照** | **検索** | **ダウンロード** | **フォルダーの共有** | **コレクションの共有** | **アセットをリンクとして共有** | **管理ツールにアクセス** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| **ゲストユーザー** | ✓* | ✓* | ✓* | x | x | x | x |
-| **閲覧者** | ✓ | ✓ | ✓ | x | x | x | x |
-| **編集者** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
-| **管理者** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **ゲストユーザー** | ✓* | △ | △ | x | x | x | x |
+| **閲覧者** | ✓ | kid | kid | x | x | x | x |
+| **編集者** | kid | kid | kid | kid | kid | kid | x |
+| **管理者** | kid | kid | kid | kid | kid | kid | kid |
 
 * ゲストユーザーは、公開フォルダーおよび公開コレクション内にあるアセットのみを参照、アクセス、および検索できます。
 
