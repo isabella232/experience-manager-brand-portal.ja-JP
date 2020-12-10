@@ -9,10 +9,10 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: cd6dc0501546a772b1ffd71ef1b09ba0a716e858
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 100%
+source-wordcount: '1298'
+ht-degree: 96%
 
 ---
 
@@ -69,6 +69,12 @@ Brand Portal では[ファセット検索](../using/brand-portal-searching.md#se
    >「**[!UICONTROL 部分検索]**」チェックボックスを選択すると、デフォルトで「**[!UICONTROL 大文字と小文字を区別しない]**」がオンになります。
 
 1. 「**[!UICONTROL プロパティ名]**」フィールドで、プロパティピッカーを開き、検索に使用するプロパティを選択します。または、プロパティの名前を入力します。例えば、`  jcr :content/metadata/dc:title` や `./jcr:content/metadata/dc:title` を入力します。
+
+   >[!NOTE]
+   >
+   >Brand Portalでは、`dam:asset`の`jcrcontent/metadata`にあるすべてのプロパティ（`xmp`で始まるものを除く）のインデックスがデフォルトで作成されます。
+   >
+   >プロパティの述語を作成する際は、インデックスが作成された任意のプロパティを使用できます。 インデックスが付いていないプロパティが設定されている場合、インデックスが付けられていないプロパティの検索クエリでは検索結果が表示されない場合があります。
 
    ![](assets/title-prop.png)
 
