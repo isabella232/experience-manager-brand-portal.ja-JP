@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 8e08fdfb95686d28960c0fd440754b90c22ae557
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 100%
+source-wordcount: '263'
+ht-degree: 69%
 
 ---
 
@@ -39,5 +39,16 @@ Brand Portal ユーザーは、AEM オーサーインスタンスにアクセス
 1. **キューに登録済み** - Brand Portal で公開ワークフローがトリガーされると、Brand Portal ユーザーおよび Brand Portal 管理者に通知が送信されます。
 
 1. **完了** — 投稿フォルダーが AEM Assets へ正常に公開されると、Brand Portal ユーザーおよび Brand Portal 管理者に通知が送信されます。
+
+
+**公開ジョブの状態**
+
+管理者は、Brand PortalからAEM Assetsに公開されたアセット貢献度フォルダーのステータスを表示するのに使用できる2つのレポートがあります。
+
+* Brand Portalで、**[!UICONTROL ツール]**/**[!UICONTROL アセット貢献度ステータス]**&#x200B;に移動します。 このレポートは、投稿ワークフローの様々な段階（キューに登録済みおよび完了）を含む、すべての投稿ジョブのステータスを反映しています。
+
+* AEM Assets作成者インスタンスで、**[!UICONTROL ツール]** > **[!UICONTROL ジョブ]**&#x200B;に移動します。 このレポートには、保留状態の公開ジョブのみが反映されます。
+
+
 
 
