@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 46e6bf2865aa90953791fdee9f24673e92cb19b7
+source-git-commit: 8ab18a4a177f9764150ff571f89ae94a1f699d89
 workflow-type: tm+mt
 source-wordcount: '1940'
 ht-degree: 37%
@@ -39,7 +39,7 @@ Brand Portal管理者は、Brand Portalユーザーのアセットのダウン�
 
 >[!NOTE]
 >
->ユーザーインターフェイスに適用されるダウンロード設定を使用すると、Brand Portalユーザーに対するセルフサービス体験が容易になり、アセットレンディションを簡単に設定およびダウンロードできます。 例えば、ユーザーは、完全なURLパスを使用してアセットレンディションにアクセスしたり、アセットレンディションをダウンロードしたりできるので、アプリケーションレイヤーでのアセットのダウンロードは制限されません。
+>ユーザーインターフェイスに適用されるダウンロード設定を使用すると、Brand Portalユーザーに対するセルフサービス体験が容易になり、アセットレンディションを簡単に設定およびダウンロードできます。 アプリケーションレイヤーでのアセットのダウンロードは制限されません。例えば、完全なURLパスを使用してアセットレンディションにアクセスしたり、アセットレンディションをダウンロードしたりできます。
 
 Brand Portalインターフェイスからアセットレンディションにアクセスしてダウンロードする方法は、次の設定で定義されます。
 
