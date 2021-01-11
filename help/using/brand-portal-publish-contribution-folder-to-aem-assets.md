@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 8e08fdfb95686d28960c0fd440754b90c22ae557
+source-git-commit: 6eb01e2eec7de6b704976c990fb6ffacbc67471a
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 69%
+source-wordcount: '261'
+ht-degree: 70%
 
 ---
 
@@ -45,9 +45,13 @@ Brand Portal ユーザーは、AEM オーサーインスタンスにアクセス
 
 管理者は、Brand PortalからAEM Assetsに公開されたアセット貢献度フォルダーのステータスを表示するのに使用できる2つのレポートがあります。
 
-* Brand Portalで、**[!UICONTROL ツール]**/**[!UICONTROL アセット貢献度ステータス]**&#x200B;に移動します。 このレポートは、投稿ワークフローの様々な段階（キューに登録済みおよび完了）を含む、すべての投稿ジョブのステータスを反映しています。
+* Brand Portalで、**[!UICONTROL ツール]**/**[!UICONTROL アセット貢献度ステータス]**&#x200B;に移動します。 このレポートは、投稿ワークフローの様々な段階でのすべての投稿ジョブのステータスを反映します。
 
-* AEM Assets作成者インスタンスで、**[!UICONTROL ツール]** > **[!UICONTROL ジョブ]**&#x200B;に移動します。 このレポートには、保留状態の公開ジョブのみが反映されます。
+   ![](assets/contribution-folder-status.png)
+
+* AEM Assets作成者インスタンスで、**[!UICONTROL ツール]** > **[!UICONTROL ジョブ]**&#x200B;に移動します。 このレポートは、すべての公開ジョブの最終状態（成功またはエラー）を反映します。
+
+   ![](assets/publishing-status.png)
 
 
 
