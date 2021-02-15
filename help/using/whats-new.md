@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: c26a5cbabd9d12f9cf8b0b0ac61aca596bea1b0e
+source-git-commit: ff7f7c15d6852fe798152ac9960b3adef9c7676f
 workflow-type: tm+mt
-source-wordcount: '5798'
+source-wordcount: '5796'
 ht-degree: 91%
 
 ---
@@ -35,7 +35,7 @@ Brand Portal 2021.02.0は、アセットのダウンロード操作性の向上�
 Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
 -->
 
-以前は、すべてのアセットレンディションがzipフォルダーに直接ダウンロードされていました。 **[!UICONTROL ダウンロード]**&#x200B;ダイアログがフォルダーとコレクションでスキップされ、アセットのダウンロード動作を制御する方法がなく、大量のダウンロード済みレンディションから特定のレンディションを検索するのが困難でした。
+以前は、すべてのアセットレンディションがzipフォルダーに直接ダウンロードされていました。 **[!UICONTROL ダウンロード]**&#x200B;ダイアログがフォルダーとコレクションでスキップされ、アセットのダウンロード動作を制御する方法がなく、大量のダウンロードから特定のレンディションを検索するのが困難でした。
 
 **[!UICONTROL アセットの]** ダウンロード設定で、アセットのフォルダー、コレクション、または一括ダウンロードをダウンロードする際に、各アセットに対して個別のフォルダーを作成するオプションが提供されるようになりました。
 
