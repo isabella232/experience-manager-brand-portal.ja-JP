@@ -1,8 +1,8 @@
 ---
 title: AEM Assets Brand Portal の新機能
 seo-title: AEM Assets Brand Portal の新機能
-description: 2020.10.0 の新機能と機能強化について説明します。
-seo-description: 2020.10.0 の新機能と機能強化について説明します。
+description: 2021.02.0 の新機能と機能強化について説明します。
+seo-description: 2021.02.0 の新機能と機能強化について説明します。
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 1d57e3ec19f1ffc944e2547989b2627988cd19c1
+source-git-commit: c26a5cbabd9d12f9cf8b0b0ac61aca596bea1b0e
 workflow-type: tm+mt
-source-wordcount: '5479'
-ht-degree: 97%
+source-wordcount: '5798'
+ht-degree: 91%
 
 ---
 
@@ -21,6 +21,44 @@ ht-degree: 97%
 # AEM Assets Brand Portal の新機能 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。アドビは Brand Portal の全体的なエクスペリエンスの強化に取り組んでいます。以下に、最新機能と機能強化について簡単に紹介します。
+
+## 2021.02.0 の変更点 {#what-changed-in-feb-2021}
+
+Brand Portal 2021.02.0は、アセットのダウンロード操作性の向上に重点を置いた機能強化リリースで、重要な修正が含まれています。 これにより、管理者は、フォルダー、コレクション、およびアセットの一括ダウンロードのデフォルトのダウンロード動作をテナントレベルで設定できます。 また、ブランドポータル&#x200B;**[!UICONTROL 使用状況レポート]**&#x200B;も、アクティブなブランドポータルユーザーを反映するように変更されました。 最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
+
+
+### アセットのダウンロード{#asset-download-setting}
+
+既存の&#x200B;**[!UICONTROL ダウンロード設定]**&#x200B;に加えて、Brand Portal管理者は、**[!UICONTROL アセットのダウンロード]**&#x200B;設定を構成できるようになりました。 この設定を使用すると、管理者は、フォルダー、コレクション、およびアセット（20を超えるアセット）のデフォルトのダウンロード動作をテナントレベルで管理できます。
+
+<!--
+Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
+-->
+
+以前は、すべてのアセットレンディションがzipフォルダーに直接ダウンロードされていました。 **[!UICONTROL ダウンロード]**&#x200B;ダイアログがフォルダーとコレクションでスキップされ、アセットのダウンロード動作を制御する方法がなく、大量のダウンロード済みレンディションから特定のレンディションを検索するのが困難でした。
+
+**[!UICONTROL アセットの]** ダウンロード設定で、アセットのフォルダー、コレクション、または一括ダウンロードをダウンロードする際に、各アセットに対して個別のフォルダーを作成するオプションが提供されるようになりました。
+
+**[!UICONTROL アセットのダウンロード]**&#x200B;設定が無効になっている場合、共有リンクを使用したアセットのダウンロードを除き、フォルダーまたはコレクションは、同じフォルダー下のすべてのアセットレンディションを含むzipフォルダーにダウンロードされます。
+
+
+Brand Portal テナントに管理者としてログインし、**[!UICONTROL ツール]**／**[!UICONTROL ダウンロード]**&#x200B;に移動します。管理者は、「**[!UICONTROL アセットのダウンロード]**」設定を有効にして、アセットごとに個別のフォルダーを作成しながら、アセットのフォルダー、コレクション、一括ダウンロードをダウンロードできます。
+
+![](assets/download-settings-new.png)
+
+<!--
+### Download using Share link {#download-using-share-link}
+
+The default behavior of downloading the assets using share link is now independent of the **[!UICONTROL Download Settings]**. A separate folder is created for each asset while downloading the assets using share link. 
+-->
+
+### 使用状況レポート{#usage-report}
+
+ブランドポータル&#x200B;**[!UICONTROL 使用状況レポート]**&#x200B;は、アクティブなブランドポータルユーザーのみを反映するように変更されました。 Admin Console内のどの製品プロファイルにも割り当てられていないブランドポータルユーザーは、非アクティブユーザーと見なされ、**[!UICONTROL 使用状況レポート]**&#x200B;には反映されません。
+
+以前は、アクティブユーザーと非アクティブユーザーの両方が使用状況レポートに表示されていました。
+
+![](assets/usage-report.png)
 
 ## 2020.10.0 の変更点 {#what-changed-in-oct-2020}
 
@@ -50,7 +88,7 @@ If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Renditio
 * アセットごとに別のフォルダーを作成する。
 * 選択したアセットとレンディションをダウンロードする。
 
-ダウンロードワークフローは、スタンドアロンのアセット、複数のアセット、アセットを含むフォルダー、ライセンス取得済みアセットまたはライセンスを取得していないアセット、共有リンクを使用してダウンロードするアセットに対して一定に保たれます。ブランドポータル[からアセットをダウンロードする手順を参照してください。](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets)
+ダウンロードワークフローは、スタンドアロンのアセット、複数のアセット、アセットを含むフォルダー、ライセンス取得済みアセットまたはライセンスを取得していないアセット、共有リンクを使用してダウンロードするアセットに対して一定に保たれます。ブランドポータル](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets)からアセットをダウンロードする手順を参照してください。[
 
 ![download-dialog](assets/download-dialog-box.png)
 
@@ -83,13 +121,13 @@ The user can clear the check boxes to exclude the renditions which are not requi
 ![レンディションパネル](assets/renditions-panel.png)
 
 
-### ダウンロード権限の設定 {#download-permissions}
+### ダウンロード設定を構成{#download-permissions}
 
-既存の&#x200B;**[!UICONTROL ダウンロード]**&#x200B;設定に加えて、Brand Portal 管理者は、様々なユーザーのグループに対し、アセットの詳細ページからの元のアセットとそのレンディションを表示およびダウンロードする権限を設定できます。
+既存の&#x200B;**[!UICONTROL ダウンロード]**&#x200B;設定に加えて、Brand Portal管理者は、表示に対するユーザーのグループごとの設定を行ったり、アセットの詳細ページから元のアセットとそのレンディションをダウンロードしたりできます。
 
 Brand Portalテナントに管理者としてログインし、**[!UICONTROL ツール]**/**[!UICONTROL ユーザー]**&#x200B;に移動します。
 
-**[!UICONTROL ユーザーの役割]**&#x200B;ページで、**[!UICONTROL グループ]**&#x200B;タブに移動し、ユーザーを設定し、表示グループの（または）ダウンロード権限を設定します
+**[!UICONTROL ユーザーの役割]**&#x200B;ページで、**[!UICONTROL グループ]**&#x200B;タブに移動し、ユーザーグループの表示および（または）ダウンロード設定を構成します。
 
 以前は、この設定は、グループユーザーによる元のアセットのダウンロードを制限する目的でのみ使用できました。
 
@@ -159,8 +197,6 @@ Brand Portal 管理者は、任意の組み合わせを有効にして、アセ�
 * 「**[!UICONTROL カスタムレンディション]**」または「**[!UICONTROL システムレンディション]**」のいずれかが有効な場合は、**[!UICONTROL ダウンロード]**&#x200B;ダイアログが表示され、元のアセットとアセットレンディションがダウンロードされます。「**[!UICONTROL 高速ダウンロード]**」設定を有効にすると、ダウンロード処理が高速になります。
 
 設定に基づき、ダウンロードワークフローは、スタンドアロンのアセット、複数のアセット、アセットを含むフォルダー、ライセンス取得済みアセットまたはライセンスを取得していないアセット、共有リンクを使用してダウンロードするアセットに対して一定に保たれます。
-
-![](assets/download-configuration.png)
 
 
 ## 6.4.6 の変更点 {#what-changed-in-646}
@@ -261,7 +297,7 @@ Brand Portal 6.4.4 以降では、フィルタリングウィンドウのプロ�
 
 部分テキスト検索およびワイルドカード検索について詳しくは、以下の説明を参照してください。
 
-#### 部分フレーズ検索  {#partial-phrase-search}
+#### 部分フレーズ検索 {#partial-phrase-search}
 
 フィルタリングウィンドウで、検索対象フレーズの一部分（1 つか 2 つの単語）のみを指定してアセットを検索できます。
 
