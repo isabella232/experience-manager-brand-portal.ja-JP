@@ -1,8 +1,8 @@
 ---
 title: リリースノート
 seo-title: リリースノート
-description: Adobe Experience Manager Assets Brand Portal 2020.10.0 リリースの機能、機能強化、修正された重要な問題および既知の問題について説明します。
-seo-description: Adobe Experience Manager Assets Brand Portal 2020.10.0 リリースの機能強化、修正された重要な問題および既知の問題について説明します。
+description: Adobe Experience Manager Assets Brand Portal 2021.02.0 リリースの機能、機能強化、修正された重要な問題および既知の問題について説明します。
+seo-description: Adobe Experience Manager Assets Brand Portal 2021.02.0 リリースの機能強化、修正された重要な問題および既知の問題について説明します。
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,75 +10,95 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 5cf924ce71433e33506449bbad608d5e57a41b8d
+source-git-commit: 69cf1756a546355ed767ac13c51fb09932254dbc
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 86%
+source-wordcount: '515'
+ht-degree: 59%
 
 ---
 
 
 # リリースノート {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 2020.10.0 リリースの新機能、機能強化、修正された重要な問題および既知の問題について説明します。
+Adobe Experience Manager Assets Brand Portal 2021.02.0 リリースの新機能、機能強化、修正された重要な問題および既知の問題について説明します。
 
 ## リリース情報 {#release-information}
 
 | 製品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| バージョン | 2020.10.0 |
-| 日付 | 2020 年 10 月 |
+| バージョン | 2021.02.0 |
+| 日付 | 2021 年 2 月 |
 
 ## 概要 {#overview}
 
 Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。Brand Portal では、アセットの参照、検索、プレビュー、ダウンロードおよび会社で承認された形式での書き出しを、いつでも、どこでも実行できます。
 
-## 2020.10.0 の新機能 {#whats-new-in-2020.10.0}
+## 2021.02.0 の新機能 {#whats-new-in-2021.02.0}
 
 ### 新機能 {#new-features}
 
 このリリースには、次の新機能が含まれています。
 
-* リスト表示で&#x200B;**[!UICONTROL ダウンロード]**&#x200B;ダイアログが改訂され、不要なレンディションを除外し、類似のアセットタイプに同じルールセットを適用し、選択したアセットレンディションをダウンロードするオプションが追加されました。 ブランドポータル[からアセットをダウンロードする手順を参照してください。](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets)
+* **[!UICONTROL ダウンロード設定]**&#x200B;に、追加の&#x200B;**[!UICONTROL アセットのダウンロード]**&#x200B;設定が追加されました。 アセットごとに個別のフォルダーが作成され、フォルダー、コレクション、またはアセットの一括ダウンロードが同時に行われます。 [ダウンロード設定](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download)を参照してください。
+
+<!-- 
+* The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
+-->
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
 -->
 
-* 1 回のクリックで、すべての Brand Portal ページから&#x200B;**[!UICONTROL ファイル]**、**[!UICONTROL コレクション]**、**[!UICONTROL 共有リンク]**&#x200B;へのナビゲーションが可能になりました。
+<!-- 
+* Navigation to the **[!UICONTROL Files]**, **[!UICONTROL Collections]**, and **[!UICONTROL Shared Links]** is now possible from all the Brand Portal pages in one-click.  
 
-* アセットの詳細ページの&#x200B;**[!UICONTROL レンディション]**&#x200B;パネルで、Brand Portal ユーザーが元のアセットと（または）特定のアセットレンディションを選択し、**[!UICONTROL ダウンロード]**&#x200B;ダイアログを開かなくて&#x200B;**[!UICONTROL レンディション]**&#x200B;パネルから直接ダウンロードできるようになりました。[アセットの詳細ページ](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)からのアセットのダウンロードを参照してください。
+* The **[!UICONTROL Renditions]** panel in the asset details page now allows the Brand Portal users to select the original asset and (or) specific asset renditions, and directly download them from the **[!UICONTROL Renditions]** panel without having to open the **[!UICONTROL Download]** dialog. See [download assets from asset details page](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page).
+-->
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
 -->
 
-* 既存の&#x200B;**[!UICONTROL ダウンロード]**&#x200B;設定に加えて、Brand Portal 管理者は、様々なユーザーのグループに対し、アセットの詳細ページからの元のアセットとそのレンディションを表示およびダウンロードする権限を設定できます。[](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions)これらの設定により、アセットレンディションにアクセスできるユーザー、およびアセットレンディションのダウンロードが定義されます。
+<!-- 
+* In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also [configure permissions for different group of users](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
+-->
 
 ### 機能強化 {#enhancements}
 
 このリリースで強化された機能は次のとおりです。
 
-* ゲストユーザーのセッションタイムアウトのしきい値が 2 時間から 15 分に短縮されました。
-* ユーザーがAdobe Document Cloud ビューアから PDF ページを表示できるようになったため、複数ページの PDF に対する追加の「**[!UICONTROL ページの表示]**」オプションは削除されました。
-
+* フォルダーのダウンロードでは、**[!UICONTROL ダウンロード設定]**&#x200B;に関係なく、共有リンクを使用してアセットごとに個別のフォルダーが作成されます。
+* ブランドポータル&#x200B;**[!UICONTROL 使用状況レポート]**&#x200B;は、アクティブなブランドポータルユーザーのみを反映するように変更されました。
 
 <!--
-### Critical Issues Fixed {#critical-issues-fixed}
-
-This release includes fixes to the following critical issue:
-
-* The users are not able to view the PDF pages if the PDF contains sub assets.
+* The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
+* The additional **[!UICONTROL View pages]** option has been removed for multi-page PDFs as the user can now view the PDF pages from the Adobe Document Cloud Viewer.
 -->
 
-### 既知の問題 {#known-issues}
 
-このリリースには、次の既知の問題が含まれています。
+### 修正された重要な問題 {#critical-issues-fixed}
 
-* **[!UICONTROL Assets レポート]**&#x200B;検索を実行すると、製品インターフェイス上での処理が表示され、検索結果は表示されません。
-* アセットの詳細ページでは、管理者以外のユーザーにはビデオ DM エンコードは表示されません。
-* ダウンロードダイアログで、個々のアセットレンディションのサイズとダウンロードの合計サイズが正常に整列されません。
+このリリースでは、次の重要な問題が修正されています。
 
+* 元のアセットのみがダウンロードされた場合、そのアセットには独自の拡張子が反映され、拡張子が手動でzipに変更されるまで開きません。
+* コレクションフォルダーのユーザーインターフェイスが、ナビゲーション矢印のクリックに応答しない。
+* **** Createbuttonは、フォルダーが空の場合でも **** Columnviewに表示されます。
+* **[!UICONTROL Omni]** Searchは、Brand Portalインスタンスへのアクセス中にディスパッチャーがバイパスされた場合、414エラーメッセージ（リクエスト —URIが長すぎます）が表示されて失敗します。
+* アセットのファイル名にコンマ(`,`)が含まれている場合は、空のzipフォルダーがダウンロードされます。
+* Viewerのユーザーは、自分が作成したコレクションにユーザーを追加するオプションを利用できます。
+* 共有リンクを使用してアセット（サムネールまたはWebレンディション）をダウンロードすると、動作が異なる。
+
+[Brand Portal 2021.02.0の新機能](whats-new.md)を参照してください。
+
+<!--
+### Known Issues {#known-issues}
+
+This release includes the following known issue:
+
+* Search on the **[!UICONTROL Asset Reports]** shows processing on the product interface with no search result.
+* The video DM encodes are not visible to the non-admin users on the asset details page.
+* The alignment of the size of individual asset renditions and total download size is distorted in the Download dialog.
+-->
 
 
 <!--
@@ -131,7 +151,7 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 * 簡体字中国語
 * 韓国語
 
-## 認定プラットフォーム  {#certified-platforms}
+## 認定プラットフォーム {#certified-platforms}
 
 このリリースの Brand Portal を実行できる認定プラットフォームを確認するには、[技術要件](https://helpx.adobe.com/jp/experience-manager/6-4/sites/deploying/using/technical-requirements.html)の「**オーサリングユーザーインターフェイス向けにサポートされているブラウザー**」節に記載されている表の「**UI のサポート**」列を参照してください。
 
