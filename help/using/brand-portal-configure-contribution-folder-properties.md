@@ -11,10 +11,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 0a3f1a4379398730e92e9ac85b04134f92af9d23
+source-git-commit: 1a2ede041a08c687022108a3d5f52c258c6b945a
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 82%
+source-wordcount: '285'
+ht-degree: 78%
 
 ---
 
@@ -45,13 +45,11 @@ AEM 管理者は、投稿フォルダーのプロパティを設定する際に�
 
    ![](assets/upload.png)
 
-1. 「**[!UICONTROL ユーザーまたはグループを追加]**」フィールドで、投稿フォルダーを共有したい Brand Portal ユーザーを追加します。これらのユーザーは、ブランドポータルインターフェイスを使用して、コンテンツにアクセスし、貢献度フォルダーにアップロードできます。
+1. 「**[!UICONTROL 追加ユーザー]**」フィールドに、貢献度フォルダーを共有するBrand Portalユーザーを追加します。 これらのユーザーは、ブランドポータルインターフェイスを使用して、コンテンツにアクセスし、貢献度フォルダーにアップロードできます。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   ![](assets/contribution-folder-property2.png)
+   ![](assets/contribution-folder-property3.png)
 
 >[!NOTE]
->
->現在、グループを貢献度フォルダーに割り当てることはできません。
 >
 >検索結果は、AEM Assets に設定された Brand Portal ユーザーリストに基づきます。Brand Portal ユーザーリストを更新しておくようにします。[Brand Portal ユーザーリストのアップロード](brand-portal-configure-asset-sourcing.md)を参照してください。
