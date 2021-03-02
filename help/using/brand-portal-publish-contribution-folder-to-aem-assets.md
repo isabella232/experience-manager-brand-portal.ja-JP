@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
+source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 79%
+source-wordcount: '1043'
+ht-degree: 75%
 
 ---
 
@@ -119,7 +119,7 @@ Brand Portal ユーザーは、AEM オーサーインスタンスにアクセス
 
 投稿フォルダー作成の目的を達成したら、Brand Portal 管理者は投稿フォルダーを削除して、他のユーザーが使用できるようアップロード領域を解放できます。
 
-**公開ジョブの状態**
+## 公開ジョブの状態{#publishing-job-status}
 
 管理者は、Brand PortalからAEM Assetsに公開されたアセット貢献度フォルダーのステータスを表示するのに使用できる2つのレポートがあります。
 
@@ -127,13 +127,27 @@ Brand Portal ユーザーは、AEM オーサーインスタンスにアクセス
 
    ![](assets/contribution-folder-status.png)
 
-* AEM Assets作成者インスタンスで、**[!UICONTROL ツール]** > **[!UICONTROL ジョブ]**&#x200B;に移動します。 このレポートは、すべての公開ジョブの最終状態（成功またはエラー）を反映します。
+* AEM Assets（オンプレミスまたはマネージドサービス）で、**[!UICONTROL ツール]**/**[!UICONTROL ジョブ]**&#x200B;に移動します。 このレポートは、すべての公開ジョブの最終状態（成功またはエラー）を反映します。
 
    ![](assets/publishing-status.png)
 
+* Cloud ServiceとしてAEM Assetsで、**[!UICONTROL ツール]** > **[!UICONTROL アセット]** > **[!UICONTROL レポート]**&#x200B;に移動します。
+
+   「**[!UICONTROL 作成]**」ボタンをクリックし、「**[!UICONTROL 発行]**」を選択して発行レポートを作成します。
+
+   ![](assets/create-publish-report.png)
+
+   「**[!UICONTROL タイトル]**」と「**[!UICONTROL 説明]**」を入力し、貢献度フォルダーの「**[!UICONTROL フォルダーパス]**」を選択して、**[!UICONTROL 今すぐ]**」用にレポートをスケジュールします。 「**[!UICONTROL Next]**」をクリックします。
+
+   ![](assets/create-publish-report1.png)
+
+   レポートに含めるフィールド属性を選択し、生成します。 このレポートは、すべての公開ジョブの最終状態（成功またはエラー）を反映します。
+
+<!--
 >[!NOTE]
 >
->Cloud ServiceとしてのAEM Assetsのユーザーインターフェイスには若干の違いがありますが、ワークフローは変わりません。
+>Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
+-->
 
 
 
