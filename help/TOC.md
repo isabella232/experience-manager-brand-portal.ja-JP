@@ -7,10 +7,10 @@ user-guide-title: AEM Assets Brand Portal
 breadcrumb-title: Brand Portal ガイド
 user-guide-description: AEM Assets Brand Portal を使用すれば、承認済みのブランドアセットや製品アセットを外部の代理店、パートナー、内部チーム、販売店などへとダウンロードで安全に配布し、マーケティングニーズに応えることができます。
 translation-type: tm+mt
-source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
+source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 97%
 
 ---
 
@@ -36,19 +36,9 @@ ht-degree: 100%
    + [Brand Portal へのタグの公開](using/brand-portal-publish-tags.md)
    + [Brand Portal へのプリセット、スキーマ、ファセットの公開](using/publish-schema-search-facets-presets.md)
 + Brand Portal でのアセットソーシング {#asset-sourcing-in-brand-portal}
-   + [概要](using/brand-portal-asset-sourcing.md)
-   + [AEM でのアセットソーシングの設定](using/brand-portal-configure-asset-sourcing.md)
-   + AEM Assets での投稿フォルダーの設定 {#configure-contribution-folder}
-      + [概要](using/brand-portal-contribution-folder.md)
-      + [投稿フォルダーの作成](using/brand-portal-create-contribution-folder.md)
-      + [投稿フォルダーのプロパティの設定](using/brand-portal-configure-contribution-folder-properties.md)
-      + [ベースラインアセットのアップロード](using/brand-portal-upload-baseline-assets.md)
-      + [Brand Portal への投稿フォルダーの公開](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + Brand Portal でのアセットソーシングの使用 {#using-asset-sourcing}
-      + [概要](using/brand-portal-overiew-using-asset-sourcing.md)
-      + [アセット要件のダウンロード](using/brand-portal-download-asset-requirements.md)
-      + [投稿フォルダーへのアセットのアップロード](using/brand-portal-upload-assets-to-contribution-folder.md)
-      + [AEM Assets への投稿フォルダーの公開](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+   + [アセットソーシングの概要](using/brand-portal-asset-sourcing.md)
+   + [AEM Assetsでの貢献度フォルダーの設定](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + [AEM Assets への投稿フォルダーの公開](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + ユーザーとのアセットの共有 {#share}
    + [コレクションの共有](using/brand-portal-share-collection.md)
    + [フォルダーの共有](using/brand-portal-sharing-folders.md)
