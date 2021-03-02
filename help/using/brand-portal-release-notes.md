@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 69cf1756a546355ed767ac13c51fb09932254dbc
+source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 59%
+source-wordcount: '558'
+ht-degree: 55%
 
 ---
 
@@ -38,6 +38,8 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 ### 新機能 {#new-features}
 
 このリリースには、次の新機能が含まれています。
+
+* アセットソーシング機能は、Cloud ServiceとしてAEM Assetsで使用できるようになりました。 Brand Portalユーザーは、許可された貢献度フォルダーにアセットをアップロードし、Brand PortalからCloud ServiceインスタンスとしてAEM Assetsに貢献度フォルダーを公開できます。
 
 * **[!UICONTROL ダウンロード設定]**&#x200B;に、追加の&#x200B;**[!UICONTROL アセットのダウンロード]**&#x200B;設定が追加されました。 アセットごとに個別のフォルダーが作成され、フォルダー、コレクション、またはアセットの一括ダウンロードが同時に行われます。 [ダウンロード設定](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download)を参照してください。
 
@@ -151,7 +153,7 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 * 簡体字中国語
 * 韓国語
 
-## 認定プラットフォーム {#certified-platforms}
+## 認定プラットフォーム  {#certified-platforms}
 
 このリリースの Brand Portal を実行できる認定プラットフォームを確認するには、[技術要件](https://helpx.adobe.com/jp/experience-manager/6-4/sites/deploying/using/technical-requirements.html)の「**オーサリングユーザーインターフェイス向けにサポートされているブラウザー**」節に記載されている表の「**UI のサポート**」列を参照してください。
 
