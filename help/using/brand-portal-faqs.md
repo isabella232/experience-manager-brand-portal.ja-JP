@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
+source-git-commit: 4983e2e160b5cfb213e249f731e1858fab2cf972
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1516'
 ht-degree: 100%
 
 ---
@@ -95,7 +95,7 @@ AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダ
 
 **質問：Brand Portal ユーザーとして必要なアクションはありますか。**
 
-**回答：** Brand Portal 6.4.5 リリースには、「アセットソーシング」という新機能が含まれています。AEM 管理者は、AEM Assets でアセットソーシング機能を設定し、Brand Portal ユーザーに対して有効にする必要があります。詳しくは、「[アセットソーシングの有効化](brand-portal-configure-asset-sourcing.md)」を参照してください。
+**回答：** Brand Portal 6.4.5 リリースには、「アセットソーシング」という新機能が含まれています。AEM 管理者は、AEM Assets でアセットソーシング機能を設定し、Brand Portal ユーザーに対して有効にする必要があります。詳しくは、「[アセットソーシングの有効化](brand-portal-asset-sourcing.md)」を参照してください。
 
 
 
@@ -136,7 +136,7 @@ Brand Portal ユーザーは**投稿**&#x200B;フォルダーにアクセスし�
 
 >[!NOTE]
 >
->既存の Brand Portal ユーザーでない場合は、AEM 管理コンソールでユーザーを作成して Brand Portal ユーザーリストのユーザー設定ファイルにプロファイルを追加するように AEM 管理者に依頼します。「[Brand Portal ユーザーの追加](brand-portal-configure-asset-sourcing.md)」を参照してください。
+>既存の Brand Portal ユーザーでない場合は、AEM 管理コンソールでユーザーを作成して Brand Portal ユーザーリストのユーザー設定ファイルにプロファイルを追加するように AEM 管理者に依頼します。
 
 **質問：ユーザー読み込み用の CSV ファイルの形式は何ですか。**
 
@@ -170,7 +170,7 @@ Brand Portal ユーザーは**投稿**&#x200B;フォルダーにアクセスし�
 
 **質問：新しいアセットを投稿フォルダーにアップロードする方法を教えてください。**
 
-**回答：**&#x200B;詳しくは、[アセットを投稿フォルダーにアップロードする](brand-portal-upload-assets-to-contribution-folder.md)方法についてのドキュメントを参照してください。
+**回答：**&#x200B;詳しくは、[アセットを投稿フォルダーにアップロードする](brand-portal-publish-contribution-folder-to-brand-portal.md)方法についてのドキュメントを参照してください。
 
 
 
