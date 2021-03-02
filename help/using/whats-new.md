@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ff7f7c15d6852fe798152ac9960b3adef9c7676f
+source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
 workflow-type: tm+mt
-source-wordcount: '5796'
-ht-degree: 91%
+source-wordcount: '5907'
+ht-degree: 90%
 
 ---
 
@@ -24,8 +24,14 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 ## 2021.02.0 の変更点 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0は、アセットのダウンロード操作性の向上に重点を置いた機能強化リリースで、重要な修正が含まれています。 これにより、管理者は、フォルダー、コレクション、およびアセットの一括ダウンロードのデフォルトのダウンロード動作をテナントレベルで設定できます。 また、ブランドポータル&#x200B;**[!UICONTROL 使用状況レポート]**&#x200B;も、アクティブなブランドポータルユーザーを反映するように変更されました。 最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
+Brand Portal 2021.02.0は、Cloud ServiceとしてのAEM Assetsのアセットソーシング機能の容易化、アセットのダウンロードエクスペリエンスの改善、および重要な修正に重点を置いた機能強化リリースです。 これにより、管理者は、フォルダー、コレクション、およびアセットの一括ダウンロードのデフォルトのダウンロード動作をテナントレベルで設定できます。 また、ブランドポータル&#x200B;**[!UICONTROL 使用状況レポート]**&#x200B;も、アクティブなブランドポータルユーザーを反映するように変更されました。 最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
 
+
+### Cloud Service{#asset-sourcing-on-cloud-service}としてAEM Assetsでアセットソーシング
+
+アセットソーシング機能は、Cloud ServiceとしてAEM Assetsで使用できるようになりました。 この機能は、すべてのクラウドサービスユーザーに対してデフォルトで有効になっています。 許可されたBrand Portalユーザーは、新しいアセットを貢献度フォルダーにアップロードし、貢献度フォルダーをBrand PortalからAEM AssetsにCloud Serviceインスタンスとして発行することで、アセットのソーシングに貢献できます。 管理者は、Brand Portalユーザーの貢献度を確認して承認し、他のBrand Portalユーザーにさらに配布できます。
+
+以前は、Asset Sourcingは、AEM Assets（オンプレミスおよびマネージドサービス）でのみ使用可能でした。
 
 ### アセットのダウンロード{#asset-download-setting}
 
@@ -258,7 +264,7 @@ Brand Portal 6.4.5 は機能リリースで、オーサー環境にアクセス�
 
 アセットソーシングを使用すると、追加の&#x200B;**アセット投稿**&#x200B;プロパティを持つ新しいフォルダーを AEM ユーザー（管理者／管理者以外のユーザー）が作成できるので、この新規作成フォルダーを Brand Portal ユーザーによるアセット送信に利用することができます。これにより、新しく作成された&#x200B;**投稿**&#x200B;フォルダー内に NEW および SHARED という 2 つのサブフォルダーを追加作成するワークフローが自動的にトリガーされます。
 
-次に、AEM ユーザーは要件を定義します。それには、投稿フォルダーに追加する必要があるアセットのタイプの[概要](brand-portal-configure-contribution-folder-properties.md)と[ベースラインアセット](brand-portal-upload-baseline-assets.md)を **SHARED** フォルダーにアップロードして、Brand Portal ユーザーが必要とする参照情報を確実に入手できるようにします。その後、管理者は、アクティブな Brand Portal ユーザーに投稿フォルダーへのアクセスを許可してから、新しく作成した&#x200B;**投稿**&#x200B;フォルダーを Brand Portal に公開することができます。
+次に、AEM ユーザーは要件を定義します。それには、投稿フォルダーに追加する必要があるアセットのタイプの概要とベースラインアセットを **SHARED** フォルダーにアップロードして、Brand Portal ユーザーが必要とする参照情報を確実に入手できるようにします。その後、管理者は、アクティブな Brand Portal ユーザーに投稿フォルダーへのアクセスを許可してから、新しく作成した&#x200B;**投稿**&#x200B;フォルダーを Brand Portal に公開することができます。
 
 
 **NEW** フォルダーへのコンテンツの追加を完了したら、ユーザーは、投稿フォルダーを AEM オーサー環境に公開できます。なお、読み込みが完了し、新しく公開したコンテンツが AEM Assets 内に反映されるまでに数分かかる場合があります。
@@ -273,7 +279,7 @@ Brand Portal 6.4.5 は機能リリースで、オーサー環境にアクセス�
 
 ### 投稿フォルダーへのアセットのアップロード {#upload-assets-in-bp}
 
-適切な権限を持つ Brand Portal ユーザーは、投稿のニーズを理解するために[アセット要件をダウンロード](brand-portal-download-asset-requirements.md)したり、複数のアセットや、複数のアセットを含むフォルダーを投稿フォルダーにアップロードしたりできます。ただし、Brand Portal ユーザーは **NEW** サブフォルダーにのみアセットをアップロードできます。**SHARED** フォルダーは、要件とベースラインアセットを配布するためのものです。[投稿フォルダーへのアセットのアップロード](brand-portal-upload-assets-to-contribution-folder.md)を参照してください。
+適切な権限を持つ Brand Portal ユーザーは、投稿のニーズを理解するためにアセット要件をダウンロードしたり、複数のアセットや、複数のアセットを含むフォルダーを投稿フォルダーにアップロードしたりできます。ただし、Brand Portal ユーザーは **NEW** サブフォルダーにのみアセットをアップロードできます。**SHARED** フォルダーは、要件とベースラインアセットを配布するためのものです。
 
 ![](assets/upload-asset6.png)
 
@@ -297,7 +303,7 @@ Brand Portal 6.4.4 以降では、フィルタリングウィンドウのプロ�
 
 部分テキスト検索およびワイルドカード検索について詳しくは、以下の説明を参照してください。
 
-#### 部分フレーズ検索 {#partial-phrase-search}
+#### 部分フレーズ検索  {#partial-phrase-search}
 
 フィルタリングウィンドウで、検索対象フレーズの一部分（1 つか 2 つの単語）のみを指定してアセットを検索できます。
 
