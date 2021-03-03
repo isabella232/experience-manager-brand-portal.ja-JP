@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 55%
+source-wordcount: '580'
+ht-degree: 54%
 
 ---
 
@@ -91,6 +91,13 @@ Brand Portal users can exclude specific renditions which are not required and di
 * 共有リンクを使用してアセット（サムネールまたはWebレンディション）をダウンロードすると、動作が異なる。
 
 [Brand Portal 2021.02.0の新機能](whats-new.md)を参照してください。
+
+
+### 既知の問題 {#known-issues}
+
+このリリースには、次の既知の問題が含まれています。
+
+* アセットソーシング発行ワークフローに関する電子メール通知は受信されません。
 
 <!--
 ### Known Issues {#known-issues}
