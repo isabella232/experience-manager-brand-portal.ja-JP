@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 75%
+source-wordcount: '1025'
+ht-degree: 72%
 
 ---
 
@@ -43,14 +43,23 @@ Brand Portal ユーザーは、アセット要件をダウンロードするた�
 
 1. Brand Portal インスタンスにログインします。
 1. Brand Portal ダッシュボードから投稿フォルダーを選択します。
-1. 「**[!UICONTROL プロパティ]**」![](assets/properties.png)をクリックします。プロパティウィンドウが開き、アセットの投稿フォルダーの詳細が表示されます。
-   ![](assets/download-asset-requirement1.png)
-1. 「**[!UICONTROL 概要をダウンロード]**」![](assets/download.png)をクリックして、アセット要件ドキュメントをローカルマシンにダウンロードします。
+1. 「**[!UICONTROL プロパティ]**」をクリックします。貢献度フォルダーの詳細を含むプロパティーウィンドウが開きます。
+
+   ![](assets/properties.png)
+
    ![](assets/download-asset-requirement2.png)
+
+1. 「**[!UICONTROL Download Brief]**」オプションをクリックして、ローカルマシンにアセット要件ドキュメントをダウンロードします。
+
+   ![](assets/download.png)
+
 1. Brand Portal ダッシュボードに戻ります。
 1. クリックして投稿フォルダーを開くと、投稿フォルダー内に **[!UICONTROL SHARED]** と **[!UICONTROL NEW]** の 2 つのサブフォルダーが表示されます。SHARED フォルダーには、管理者によって共有されたすべてのベースラインアセット（参照用コンテンツ）が含まれます。
-1. すべてのベースラインアセットを含む **[!UICONTROL SHARED]** フォルダーをローカルマシンにダウンロードできます。または、**[!UICONTROL SHARED]** フォルダーを開き、**ダウンロード**&#x200B;アイコン![](assets/download.png)をクリックして、個別のファイル／フォルダーをダウンロードできます。
-   ![](assets/download-asset-requirement3.png)
+1. すべてのベースラインアセットを含む **[!UICONTROL SHARED]** フォルダーをローカルマシンにダウンロードできます。または、**[!UICONTROL SHARED]**&#x200B;フォルダーを開き、**Download**&#x200B;アイコンをクリックして、個々のファイル/フォルダーをダウンロードできます。
+
+   ![](assets/download.png)
+
+   ![](assets/download-asset-requirement4.png)
 
 概要（アセット要件ドキュメント）を確認し、ベースラインアセットを参照して、アセット要件を理解します。これで、貢献度の新しいアセットを作成し、貢献度フォルダーにアップロードできます。
 
@@ -80,15 +89,15 @@ Brand Portalのユーザーは、アセットの要件を確認した後、貢�
 
 1. **[!UICONTROL NEW]** フォルダーをクリックします。
 
-   ![](assets/upload-new-assets1.png)
+   ![](assets/upload-new-assets4.png)
 
 1. **[!UICONTROL 作成]**／**[!UICONTROL ファイル]**&#x200B;をクリックして、複数のアセットを含む個別のファイルまたはフォルダー（.zip）をアップロードします。
 
-   ![](assets/upload-new-assets2.png)
+   ![](assets/upload-new-assets5.png)
 
 1. アセット（ファイルまたはフォルダー）を参照し、**[!UICONTROL NEW]** フォルダーへとアップロードします。
 
-   ![](assets/upload-new-assets3.png)
+   ![](assets/upload-new-assets6.png)
 
 すべてのアセットまたはフォルダーを NEW フォルダーにアップロードしたら、投稿フォルダーを AEM Assets に公開します。
 
@@ -108,7 +117,7 @@ Brand Portal ユーザーは、AEM オーサーインスタンスにアクセス
 
    ![](assets/export.png)
 
-   ![](assets/publish-contribution-folder-to-aem.png)
+   ![](assets/publish-contribution-folder-to-aem1.png)
 
 公開ワークフローの様々な段階で、電子メール／パルス通知が Brand Portal ユーザーおよび管理者に送信されます。
 1. **キューに登録済み** - Brand Portal で公開ワークフローがトリガーされると、Brand Portal ユーザーおよび Brand Portal 管理者に通知が送信されます。
@@ -127,21 +136,17 @@ Brand Portal ユーザーは、AEM オーサーインスタンスにアクセス
 
    ![](assets/contribution-folder-status.png)
 
-* AEM Assets（オンプレミスまたはマネージドサービス）で、**[!UICONTROL ツール]**/**[!UICONTROL ジョブ]**&#x200B;に移動します。 このレポートは、すべての公開ジョブの最終状態（成功またはエラー）を反映します。
+* AEM Assets（オンプレミスまたはマネージドサービス）で、**[!UICONTROL アセット]** > **[!UICONTROL ジョブ]**&#x200B;に移動します。 このレポートは、すべての公開ジョブの最終状態（成功またはエラー）を反映します。
 
    ![](assets/publishing-status.png)
 
-* Cloud ServiceとしてAEM Assetsで、**[!UICONTROL ツール]** > **[!UICONTROL アセット]** > **[!UICONTROL レポート]**&#x200B;に移動します。
+* Cloud ServiceとしてAEM Assetsで、**[!UICONTROL アセット]** > **[!UICONTROL ジョブ]**&#x200B;に移動します。
 
-   「**[!UICONTROL 作成]**」ボタンをクリックし、「**[!UICONTROL 発行]**」を選択して発行レポートを作成します。
+   または、グローバルナビゲーションから&#x200B;**[!UICONTROL ジョブ]**&#x200B;に直接移動できます。
 
-   ![](assets/create-publish-report.png)
+   このレポートは、ブランドポータルからAEM AssetsへのアセットのCloud Serviceとしてのインポートを含む、すべての公開ジョブの最終状態（成功またはエラー）を反映します。
 
-   「**[!UICONTROL タイトル]**」と「**[!UICONTROL 説明]**」を入力し、貢献度フォルダーの「**[!UICONTROL フォルダーパス]**」を選択して、**[!UICONTROL 今すぐ]**」用にレポートをスケジュールします。 「**[!UICONTROL Next]**」をクリックします。
-
-   ![](assets/create-publish-report1.png)
-
-   レポートに含めるフィールド属性を選択し、生成します。 このレポートは、すべての公開ジョブの最終状態（成功またはエラー）を反映します。
+   ![](assets/cloud-service-job-status.png)
 
 <!--
 >[!NOTE]
