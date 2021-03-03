@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1125'
 ht-degree: 78%
 
 ---
@@ -40,9 +40,12 @@ AEM ユーザーは、投稿フォルダーを設定する際に、次のアク�
 
 AEM 管理者と、新しいフォルダーを作成する権限を持つ非管理者ユーザーは、AEM Assets に投稿フォルダーを作成できます。投稿フォルダーを作成するには、アセット投稿タイプの新しいフォルダーを作成します。作成した新しいフォルダーは Brand Portal ユーザーによるアセット送信に利用できるようになります。これにより、投稿フォルダー内に SHARED および NEW という 2 つのサブフォルダーを追加作成するワークフローが自動的にトリガーされます。
 
+
 >[!NOTE]
 >
 >フォルダー内に複数の貢献度フォルダーを作成できます。貢献度フォルダーは、別の貢献度フォルダー内に作成しないでください。
+
+貢献度フォルダーの作成時と同様に、貢献度フォルダーのプロパティも個別に設定できます。 この例では、プロパティを個別に設定します。
 
 **投稿フォルダーを作成するには：**
 1. AEM Assetsインスタンスにログインします。
@@ -66,7 +69,6 @@ AEM 管理者と、新しいフォルダーを作成する権限を持つ非管�
 
    ![](assets/contribution-folder.png)
 
-貢献度フォルダーの作成時に、貢献度フォルダーのプロパティを設定することもできます。
 
 ## 投稿フォルダーのプロパティの設定 {#configure-contribution-folder-properties}
 
