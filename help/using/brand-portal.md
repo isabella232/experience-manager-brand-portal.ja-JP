@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: c7e76a1b06d94eec3bdd38411eb40dbaa4238eaf
+source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1554'
 ht-degree: 91%
 
 ---
@@ -39,7 +39,7 @@ Brand PortalでAdobe Experience Managerアセットを設定すると、Brand Po
 
 Cloud ServiceとしてのAEM Assetsは、Cloud ManagerからBrand Portalをアクティブ化することで、Brand Portalで自動的に設定されます。 アクティベーションワークフローは、バックエンドで必要な設定を作成し、Cloud ServiceインスタンスとしてAEM Assetsと同じIMS組織でBrand Portalをアクティブにします。
 
-一方、AEM Assets(オンプレミスおよびManaged Services)は、Adobe開発者コンソールを使用してBrand Portalで手動で設定します。これにより、Brand Portalテナントの認証用にAdobeIdentity Managementサービス(IMS)トークンが調達されます。
+一方、AEM Assets（オンプレミスおよびマネージドサービス）は、Adobe開発者コンソールを使用してBrand Portalで手動設定します。これにより、Brand Portalテナントの認証用にAdobeIdentity Managementサービス(IMS)トークンが調達されます。
 
 詳しくは、[ブランドポータルでのAEM Assetsの設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
 
