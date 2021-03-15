@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: d32c06e08499acb97badff40658fded0edeb2038
+source-git-commit: 7bb5e71bd25b312a77f0a6cc15ad86b6f9d43407
 workflow-type: tm+mt
-source-wordcount: '6053'
-ht-degree: 88%
+source-wordcount: '6125'
+ht-degree: 87%
 
 ---
 
@@ -28,9 +28,19 @@ Brand Portal 2021.02.0は、Cloud ServiceとしてAEM AssetsのBrand Portal自�
 
 ### Cloud ServiceとしてのAEM Assetsでのブランドポータルの自動化{#bp-automation-on-cloud-service}
 
-Cloud ServiceとしてのAEM Assetsは、Cloud ManagerからBrand Portalをアクティブ化することで、Brand Portalで自動的に設定されます。 Cloud Managerユーザーは、アクティベーションワークフローをトリガーします。このワークフローは、バックエンドで必要な設定を作成し、Cloud ServiceインスタンスとしてAEM Assetsと同じIMS組織上のBrand Portalをアクティブにします。
+Cloud ServiceとしてのAEM Assetsは、Cloud ManagerからBrand Portalをアクティブ化することで、Brand Portalで自動的に設定されます。
 
 以前は、Cloud ServiceとしてのAEM Assetsは、Adobeデベロッパーコンソールを使用してBrand Portalで手動で設定していました。
+
+Cloud Managerユーザーは、アクティベーションワークフローをトリガーします。このワークフローは、バックエンドで必要な設定を作成し、Cloud ServiceインスタンスとしてAEM Assetsと同じIMS組織上のBrand Portalをアクティブにします。
+
+AEM AssetsでBrand PortalをCloud Serviceインスタンスとしてアクティブ化するには：
+
+1. Adobeクラウドマネージャーにログインし、**[!UICONTROL 環境]**&#x200B;に移動します。
+1. 環境の詳細を表示するリストから環境を（1つずつ）選択します。 Brand Portalに関連付けられている環境を見つけたら、「**[!UICONTROL Brand Portalをアクティブにする]**」ボタンをクリックして、アクティベーションワークフローを開始します。
+1. Brand Portalテナントがアクティブ化されると、ステータスが「アクティブ化済み」に変わります。
+
+![表示ステータス](assets/create-environment5.png)
 
 「[Cloud ServiceとしてAEM Assetsのブランドポータルをアクティブにする](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en)」を参照してください。
 
