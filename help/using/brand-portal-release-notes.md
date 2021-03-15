@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
+source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '587'
 ht-degree: 54%
 
 ---
@@ -27,7 +27,7 @@ Adobe Experience Manager Assets Brand Portal 2021.02.0 リリースの新機能�
 | 製品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | バージョン | 2021.02.0 |
-| 日付 | 2021 年 2 月 |
+| 日付 | 2021 年 2 月 日 |
 
 ## 概要 {#overview}
 
@@ -39,9 +39,11 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 このリリースには、次の新機能が含まれています。
 
+* Cloud ServiceとしてのAEM Assetsは、Cloud ManagerからBrand Portalをアクティブ化することで、Brand Portalで自動的に設定されます。
+
 * アセットソーシング機能は、Cloud ServiceとしてAEM Assetsで使用できるようになりました。 Brand Portalユーザーは、許可された貢献度フォルダーにアセットをアップロードし、Brand PortalからCloud ServiceインスタンスとしてAEM Assetsに貢献度フォルダーを公開できます。
 
-* **[!UICONTROL ダウンロード設定]**&#x200B;に、追加の&#x200B;**[!UICONTROL アセットのダウンロード]**&#x200B;設定が追加されました。 アセットごとに個別のフォルダーが作成され、フォルダー、コレクション、またはアセットの一括ダウンロードが同時に行われます。 [ダウンロード設定](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download)を参照してください。
+* **[!UICONTROL ダウンロード設定]**&#x200B;に、追加の&#x200B;**[!UICONTROL アセットのダウンロード]**&#x200B;設定が追加されました。 アセットごとに個別のフォルダーが作成され、フォルダー、コレクション、またはアセットの一括ダウンロードが同時に行われます。
 
 <!-- 
 * The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
