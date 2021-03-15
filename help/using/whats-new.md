@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 979545105694eca65652d6c8e6ad5b9fdd9eea86
+source-git-commit: d32c06e08499acb97badff40658fded0edeb2038
 workflow-type: tm+mt
-source-wordcount: '6069'
+source-wordcount: '6053'
 ht-degree: 88%
 
 ---
@@ -30,7 +30,7 @@ Brand Portal 2021.02.0は、Cloud ServiceとしてAEM AssetsのBrand Portal自�
 
 Cloud ServiceとしてのAEM Assetsは、Cloud ManagerからBrand Portalをアクティブ化することで、Brand Portalで自動的に設定されます。 Cloud Managerユーザーは、アクティベーションワークフローをトリガーします。このワークフローは、バックエンドで必要な設定を作成し、Cloud ServiceインスタンスとしてAEM Assetsと同じIMS組織上のBrand Portalをアクティブにします。
 
-以前は、Cloud ServiceとしてのAEM Assetsは、Adobe開発者コンソールを使用してBrand Portalで手動で設定されていました。このコンソールは、Brand Portalテナントの認証用にAdobeIdentity Managementサービス(IMS)トークンを調達します。
+以前は、Cloud ServiceとしてのAEM Assetsは、Adobeデベロッパーコンソールを使用してBrand Portalで手動で設定していました。
 
 「[Cloud ServiceとしてAEM Assetsのブランドポータルをアクティブにする](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en)」を参照してください。
 
