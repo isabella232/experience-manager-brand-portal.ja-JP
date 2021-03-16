@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
+source-git-commit: 26fbcf9970a77fc531b82919b29010bc37a1ab8e
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 54%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 このリリースには、次の新機能が含まれています。
 
-* Cloud ServiceとしてのAEM Assetsは、Cloud ManagerからBrand Portalをアクティブ化することで、Brand Portalで自動的に設定されます。
+* AEM Assetsは、事前設定済みのブランドポータルインスタンスを持つ権利をCloud Serviceに付与されました。 Cloud Managerユーザーは、Cloud Serviceインスタンスとして、AEM Assetsでブランドポータルをアクティブ化できます。
 
 * アセットソーシング機能は、Cloud ServiceとしてAEM Assetsで使用できるようになりました。 Brand Portalユーザーは、許可された貢献度フォルダーにアセットをアップロードし、Brand PortalからCloud ServiceインスタンスとしてAEM Assetsに貢献度フォルダーを公開できます。
 
