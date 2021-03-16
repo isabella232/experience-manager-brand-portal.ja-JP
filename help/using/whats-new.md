@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 7bb5e71bd25b312a77f0a6cc15ad86b6f9d43407
+source-git-commit: 26fbcf9970a77fc531b82919b29010bc37a1ab8e
 workflow-type: tm+mt
-source-wordcount: '6125'
+source-wordcount: '6138'
 ht-degree: 87%
 
 ---
@@ -24,11 +24,11 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 ## 2021.02.0 の変更点 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0は、Cloud ServiceとしてAEM AssetsのBrand Portal自動化ワークフローを導入し、AEM AssetsのAsset Sourcing機能をCloud Serviceとして利用し、アセットのダウンロード操作を改善し、重要な修正を含む機能強化リリースです。 また、管理者は、フォルダー、コレクション、およびアセットの一括ダウンロードのデフォルトのダウンロード動作をテナントレベルで設定することもできます。 また、ブランドポータル&#x200B;**[!UICONTROL 使用状況レポート]**&#x200B;も、アクティブなブランドポータルユーザーを反映するように変更されました。 最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
+Brand Portal 2021.02.0は、Cloud ServiceとしてAEM AssetsのBrand Portalアクティベーションワークフローを導入し、Cloud ServiceとしてAEM AssetsのAsset Sourcing機能を容易にし、アセットのダウンロード操作を改善し、重要な修正を含む機能強化リリースです。 また、管理者は、フォルダー、コレクション、およびアセットの一括ダウンロードのデフォルトのダウンロード動作をテナントレベルで設定することもできます。 また、ブランドポータル&#x200B;**[!UICONTROL 使用状況レポート]**&#x200B;も、アクティブなブランドポータルユーザーを反映するように変更されました。 最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
 
-### Cloud ServiceとしてのAEM Assetsでのブランドポータルの自動化{#bp-automation-on-cloud-service}
+### Cloud ServiceとしてAEM AssetsのBrand Portalをアクティブにする{#bp-automation-on-cloud-service}
 
-Cloud ServiceとしてのAEM Assetsは、Cloud ManagerからBrand Portalをアクティブ化することで、Brand Portalで自動的に設定されます。
+AEM Assetsは、事前設定済みのブランドポータルインスタンスを持つ権利をCloud Serviceに付与されました。 Cloud Managerユーザーは、Cloud Serviceインスタンスとして、AEM Assetsでブランドポータルをアクティブ化できます。
 
 以前は、Cloud ServiceとしてのAEM Assetsは、Adobeデベロッパーコンソールを使用してBrand Portalで手動で設定していました。
 
