@@ -6,10 +6,12 @@ audience: end-user
 user-guide-title: AEM Assets Brand Portal
 breadcrumb-title: Brand Portal ガイド
 user-guide-description: AEM Assets Brand Portal を使用すれば、承認済みのブランドアセットや製品アセットを外部の代理店、パートナー、内部チーム、販売店などへとダウンロードで安全に配布し、マーケティングニーズに応えることができます。
+feature: Brand Portal
+role: 開業医
 translation-type: tm+mt
-source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
+source-git-commit: 06a7a37c2978351342369c703416fbdb58145f20
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '287'
 ht-degree: 97%
 
 ---
