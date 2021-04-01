@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: adobe experience manager
 sub-product: experience manager brand portal
 audience: end-user
@@ -7,9 +7,9 @@ user-guide-title: AEM Assets Brand Portal
 breadcrumb-title: Brand Portal ガイド
 user-guide-description: AEM Assets Brand Portal を使用すれば、承認済みのブランドアセットや製品アセットを外部の代理店、パートナー、内部チーム、販売店などへとダウンロードで安全に配布し、マーケティングニーズに応えることができます。
 feature: Brand Portal
-role: 開業医
+role: 業務担当者
 translation-type: tm+mt
-source-git-commit: 06a7a37c2978351342369c703416fbdb58145f20
+source-git-commit: 0240080cf98fa0c1ba12dbcc9df17b2836064847
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 97%
