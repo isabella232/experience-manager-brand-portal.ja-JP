@@ -1,24 +1,24 @@
 ---
-title: 'AEM AssetsからBrand Portalへの貢献度フォルダーの設定と公開 '
-seo-title: AEM AssetsからBrand Portalへの貢献度フォルダーの設定と公開
-description: 貢献度フォルダーをAEM AssetsからBrand Portalに設定して公開する方法を理解できます。
-seo-description: 貢献度フォルダーをAEM AssetsからBrand Portalに設定して公開する方法を理解できます。
+title: 'AEM Assets での投稿フォルダーの設定と Brand Portal への公開 '
+seo-title: AEM Assets での投稿フォルダーの設定と Brand Portal への公開
+description: AEM Assets での投稿フォルダーの設定と Brand Portal への公開について説明します。
+seo-description: AEM Assets での投稿フォルダーの設定と Brand Portal への公開について説明します。
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1125'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 
-# AEM Assets{#configure-contribution-folder}で貢献度フォルダーを構成
+# AEM Assets での投稿フォルダーの設定 {#configure-contribution-folder}
 
 共同アセットソーシングの場合、AEM ユーザー（管理者および権限を持つ非管理者ユーザー）は&#x200B;**アセット投稿**&#x200B;タイプの新しいフォルダーを作成できます。作成した新しいフォルダーは、Brand Portal ユーザーがアセット送信に利用できます。これにより、新しく作成された&#x200B;**投稿**&#x200B;フォルダー内に **SHARED** および **NEW** という 2 つのサブフォルダーを追加作成するワークフローが自動的にトリガーされます。
 
@@ -31,32 +31,34 @@ ht-degree: 78%
 AEM ユーザーは、投稿フォルダーを設定する際に、次のアクティビティを実行します。
 
 * [投稿フォルダーの作成](#create-contribution-folder)
-* [アセット要件のアップロードと寄稿者の割り当て](#configure-contribution-folder-properties)
+* [アセット要件のアップロードと投稿者の割り当て](#configure-contribution-folder-properties)
 * [ベースラインアセットのアップロード](#uplad-new-assets-to-contribution-folder)
-* [AEM AssetsからBrand Portalに貢献度フォルダーを公開する](#publish-contribution-folder-to-brand-portal)
+* [AEM Assets から Brand Portal への投稿フォルダーの公開](#publish-contribution-folder-to-brand-portal)
 
 ## 投稿フォルダーの作成 {#create-contribution-folder}
 
 
-AEM 管理者と、新しいフォルダーを作成する権限を持つ非管理者ユーザーは、AEM Assets に投稿フォルダーを作成できます。投稿フォルダーを作成するには、アセット投稿タイプの新しいフォルダーを作成します。作成した新しいフォルダーは Brand Portal ユーザーによるアセット送信に利用できるようになります。これにより、投稿フォルダー内に SHARED および NEW という 2 つのサブフォルダーを追加作成するワークフローが自動的にトリガーされます。
+AEM 管理者と、新しいフォルダーを作成する権限を持つ非管理者ユーザーは、AEM Assets に投稿フォルダーを作成できます。
+投稿フォルダーを作成するには、アセット投稿タイプの新しいフォルダーを作成します。作成した新しいフォルダーは Brand Portal ユーザーによるアセット送信に利用できるようになります。これにより、投稿フォルダー内に SHARED および NEW という 2 つのサブフォルダーを追加作成するワークフローが自動的にトリガーされます。
 
 
 >[!NOTE]
 >
->フォルダー内に複数の貢献度フォルダーを作成できます。貢献度フォルダーは、別の貢献度フォルダー内に作成しないでください。
+>1 つのフォルダー内に複数の投稿フォルダーを作成できます。別の投稿フォルダー内に投稿フォルダーを作成することはできません。
 
-貢献度フォルダーの作成時と同様に、貢献度フォルダーのプロパティも個別に設定できます。 この例では、プロパティを個別に設定します。
+投稿フォルダーの作成時だけでなく、個別に投稿フォルダーのプロパティを設定することもできます。この例では、個別にプロパティを設定します。
 
 **投稿フォルダーを作成するには：**
-1. AEM Assetsインスタンスにログインします。
+1. AEM Assets インスタンスにログインします。
 
-1. **[!UICONTROL Assets]**／**[!UICONTROL ファイル]**&#x200B;に移動します。AEM Assets リポジトリの既存のすべてのフォルダーがリストされます。
+1. **[!UICONTROL アセット]**／**[!UICONTROL ファイル]**&#x200B;に移動します。AEM Assets リポジトリーの既存のすべてのフォルダーがリストされます。
 
 1. 「**[!UICONTROL 作成]**」をクリックして、新規フォルダーを作成します。「**[!UICONTROL フォルダーを作成]**」ダイアログが開きます。
 
-1. フォルダーの「**[!UICONTROL タイトル]**」および「**[!UICONTROL 名前]**」を入力し、「**[!UICONTROL アセット投稿]**」チェックボックスをオンにします。フォルダーの名前には、スペースを含まない小文字のアルファベットを使用することをお勧めします。
+1. フォルダーの「**[!UICONTROL タイトル]**」および「**[!UICONTROL 名前]**」を入力し、「**[!UICONTROL アセット投稿]**」チェックボックスをオンにします。
+フォルダーの名前には、スペースを含まない小文字のアルファベットを使用することをお勧めします。
 
-1. 「**[!UICONTROL 作成]**」をクリックします。AEM Assets リポジトリに、投稿フォルダーがリストされます。
+1. 「**[!UICONTROL 作成]**」をクリックします。AEM Assets リポジトリーに、投稿フォルダーがリストされます。
 
    >[!NOTE]
    >
@@ -76,16 +78,16 @@ AEM 管理者は、投稿フォルダーのプロパティを設定する際に�
 
 * **説明を追加**：投稿フォルダーの大まかな説明を提供します。
 * **概要をアップロード**：アセット関連情報を含むアセット要件ドキュメントをアップロードします。
-* **寄追加稿者**:Brand 追加 Portalユーザーに貢献度フォルダーへのアクセス権を付与します。
+* **投稿者を追加**：Brand Portal ユーザーを追加し投稿フォルダーへのアクセス権を付与します。
 
 アセット要件は、管理者によって提供された詳細を参照して、投稿者（Brand Portal ユーザー）が投稿フォルダーのニーズおよび要件を理解できるようにします。管理者は、投稿フォルダーに追加する必要があるアセットのタイプおよびアセット関連情報（目的、画像のタイプ、最大サイズなど）に関する概要を含むアセット要件ドキュメントをアップロードします。
 
 **投稿フォルダーのプロパティを設定するには：**
 
-1. AEM Assetsインスタンスにログインします。
+1. AEM Assets インスタンスにログインします。
 
 1. **[!UICONTROL アセット／ファイル]**&#x200B;に移動して、投稿フォルダーを探します。
-1. 貢献度フォルダーを選択し、「**[!UICONTROL プロパティ]**」をクリックして、フォルダーのプロパティーウィンドウを開きます。
+1. 投稿フォルダーを選択し、「**[!UICONTROL プロパティ]**」をクリックしてフォルダーのプロパティウィンドウを開きます。
 
    ![](assets/properties.png)
 
@@ -97,7 +99,7 @@ AEM 管理者は、投稿フォルダーのプロパティを設定する際に�
 
    ![](assets/upload.png)
 
-1. 「**[!UICONTROL 追加ユーザー]**」フィールドに、貢献度フォルダーを共有するBrand Portalユーザーを追加します。 これらのユーザーは、ブランドポータルインターフェイスを使用して、コンテンツにアクセスし、貢献度フォルダーにアップロードできます。
+1. 「**[!UICONTROL ユーザーを追加]**」フィールドで、投稿フォルダーの共有相手となる Brand Portal ユーザーを追加します。これらのユーザーは、Brand Portal インターフェイスを使用して、投稿フォルダーにアクセスし、コンテンツをアップロードできます。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/contribution-folder-property3.png)
@@ -131,7 +133,8 @@ Brand Portal のユーザーは、アセット要件をダウンロードして�
 
 **新しいアセットをアップロードするには：**
 
-1. Brand Portal インスタンスにログインします。新しく共有された投稿フォルダーと共に、Brand Portal ユーザーに対して許可された既存のすべてのフォルダーが Brand Portal ダッシュボードに反映されます。
+1. Brand Portal インスタンスにログインします。
+新しく共有された投稿フォルダーと共に、Brand Portal ユーザーに対して許可された既存のすべてのフォルダーが Brand Portal ダッシュボードに反映されます。
 
 1. 投稿フォルダーを選択し、クリックして開きます。投稿フォルダーには、**[!UICONTROL SHARED]** と **[!UICONTROL NEW]** の 2 つのサブフォルダーが含まれます。
 
@@ -152,19 +155,19 @@ Brand Portal のユーザーは、アセット要件をダウンロードして�
 
 ## Brand Portal への投稿フォルダーの公開 {#publish-contribution-folder-to-brand-portal}
 
-投稿フォルダーが設定されると、AEM ユーザー（管理者／管理者以外のユーザー）は、AEM Assets から Brand Portal に投稿フォルダーを公開できます。貢献度フォルダーへのアクセス権限を持つBrand Portalユーザーは、発行アクションの完了時に電子メール/パルス通知を受け取ります。
+投稿フォルダーが設定されると、AEM ユーザー（管理者／管理者以外のユーザー）は、AEM Assets から Brand Portal に投稿フォルダーを公開できます。投稿フォルダーへのアクセス権を持つ Brand Portal ユーザーは、公開アクションの完了時に電子メール／パルス通知を受け取ります。
 
 
 **投稿フォルダーを公開するには：**
 
-1. AEM Assetsインスタンスにログインします。
+1. AEM Assets インスタンスにログインします。
 
 1. **[!UICONTROL アセット／ファイル]**&#x200B;に移動して、Brand Portal に公開する投稿フォルダーを探します。
-1. 貢献度フォルダーを選択し、**[!UICONTROL クイック投稿]**/**[!UICONTROL ブランドポータルに投稿]**&#x200B;をクリックします。
+1. 投稿フォルダーを選択して、**[!UICONTROL クイック公開]**／**[!UICONTROL Brand Portal に公開]**&#x200B;をクリックします。
 
    ![](assets/publish-contribution-folder-to-bp.png)
 
    
 投稿フォルダーが Brand Portal に公開されると、成功メッセージを受け取ります。
 
-投稿フォルダーに割り当てられた Brand Portal ユーザーに電子メール／パルス通知が送信されます。Brand Portal ユーザーは、投稿フォルダーにアクセスして投稿を開始できます。詳しくは、[アセットを貢献度フォルダーにアップロードし、AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)に公開するを参照してください。
+投稿フォルダーに割り当てられた Brand Portal ユーザーに電子メール／パルス通知が送信されます。Brand Portal ユーザーは、投稿フォルダーにアクセスして投稿を開始できます。詳しくは、[Brand Portal での投稿フォルダーへのアセットのアップロードと AEM Assets への投稿フォルダーの公開](brand-portal-publish-contribution-folder-to-aem-assets.md)を参照してください。
