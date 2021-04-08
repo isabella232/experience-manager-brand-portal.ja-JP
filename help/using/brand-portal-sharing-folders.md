@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0ae9860e2b6beb96f53e92bb114bb5756e371ad6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1154'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Brand Portal は、アセットの取り込みをサポートしていません。したがって、事前設定済みの AEM オーサーインスタンスから Brand Portal にアセットを公開する必要があります。
 
-## Brand Portal でのフォルダー共有ワークフロー  {#folder-sharing-workflow-in-brand-portal}
+## Brand Portal でのフォルダー共有ワークフロー {#folder-sharing-workflow-in-brand-portal}
 
 以下に、フォルダー共有のワークフローとユーザーアクセスを示します。
 
@@ -113,7 +113,8 @@ Brand Portal のレプリケーションの設定時に「**[!UICONTROL 公開�
    ![](assets/folder_properties.png)
 
 1. デフォルトの名前をユーザーに表示しないようにする場合は、**[!UICONTROL フォルダーのプロパティ]**&#x200B;コンソールで、「**[!UICONTROL フォルダーのタイトル]**」フィールドにフォルダーのタイトルを指定します。
-1. 「**[!UICONTROL ユーザーを追加]**」リストで、フォルダーを共有するユーザーまたはグループを選択して、「**[!UICONTROL 追加]**」をクリックします。フォルダーをゲストユーザーとのみ共有し、他のユーザーとは共有しない場合は、「**[!UICONTROL メンバー]**」ドロップダウンから「**[!UICONTROL 匿名ユーザー]**」を選択します。
+1. 「**[!UICONTROL ユーザーを追加]**」リストで、フォルダーを共有するユーザーまたはグループを選択して、「**[!UICONTROL 追加]**」をクリックします。
+フォルダーをゲストユーザーとのみ共有し、他のユーザーとは共有しない場合は、「**[!UICONTROL メンバー]**」ドロップダウンから「**[!UICONTROL 匿名ユーザー]**」を選択します。
 
    ![](assets/only-anonymous.png)
 
@@ -126,7 +127,7 @@ Brand Portal のレプリケーションの設定時に「**[!UICONTROL 公開�
 
 1. 共有フォルダーにアクセスするには、フォルダーを共有するユーザーの資格情報を使用して Brand Portal にログインします。インターフェイスで共有フォルダーを確認します。
 
-## フォルダーの共有解除  {#unshare-the-folders}
+## フォルダーの共有解除 {#unshare-the-folders}
 
 共有フォルダーの共有を解除するには、以下の手順に従います。
 
@@ -139,6 +140,7 @@ Brand Portal のレプリケーションの設定時に「**[!UICONTROL 公開�
 
    ![](assets/folder_propertiesunshare.png)
 
-1. 警告メッセージボックスの「**[!UICONTROL 確認]**」をクリックして、共有を解除することを確認します。「**[!UICONTROL 保存]**」をクリックします。
+1. 警告メッセージボックスの「**[!UICONTROL 確認]**」をクリックして、共有を解除することを確認します。
+「**[!UICONTROL 保存]**」をクリックします。
 
 1. 共有リストから削除したユーザーの資格情報を使用して、Brand Portal にログインします。そのフォルダーは、そのユーザーの Brand Portal インターフェイスで利用できなくなっています。
