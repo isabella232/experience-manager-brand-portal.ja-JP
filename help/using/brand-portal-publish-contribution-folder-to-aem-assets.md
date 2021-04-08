@@ -1,19 +1,19 @@
 ---
-title: アセットをアップロードし、Brand PortalからAEM Assetsに貢献度フォルダーを公開する
-seo-title: アセットをアップロードし、Brand PortalからAEM Assetsに貢献度フォルダーを公開する
-description: 新しいアセットのアップロードと、Brand PortalからAEM Assetsへの貢献度フォルダーの公開について把握できます。
-seo-description: 新しいアセットのアップロードと、Brand PortalからAEM Assetsへの貢献度フォルダーの公開について把握できます。
+title: Brand Portal での投稿フォルダーへのアセットのアップロードと AEM Assets への投稿フォルダーの公開
+seo-title: Brand Portal での投稿フォルダーへのアセットのアップロードと AEM Assets への投稿フォルダーの公開
+description: Brand Portal での投稿フォルダーへの新しいアセットのアップロードと AEM Assets への投稿フォルダーの公開について説明します。
+seo-description: Brand Portal での投稿フォルダーへの新しいアセットのアップロードと AEM Assets への投稿フォルダーの公開について説明します。
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1025'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -43,30 +43,31 @@ Brand Portal ユーザーは、アセット要件をダウンロードするた�
 
 1. Brand Portal インスタンスにログインします。
 1. Brand Portal ダッシュボードから投稿フォルダーを選択します。
-1. 「**[!UICONTROL プロパティ]**」をクリックします。貢献度フォルダーの詳細を含むプロパティーウィンドウが開きます。
+1. 「**[!UICONTROL プロパティ]**」をクリックします。投稿フォルダーの詳細を表示したプロパティーウィンドウが開きます。
 
    ![](assets/properties.png)
 
    ![](assets/download-asset-requirement2.png)
 
-1. 「**[!UICONTROL Download Brief]**」オプションをクリックして、ローカルマシンにアセット要件ドキュメントをダウンロードします。
+1. 「**[!UICONTROL 概要をダウンロード]**」オプションをクリックして、アセット要件ドキュメントをローカルマシンにダウンロードします。
 
    ![](assets/download.png)
 
 1. Brand Portal ダッシュボードに戻ります。
 1. クリックして投稿フォルダーを開くと、投稿フォルダー内に **[!UICONTROL SHARED]** と **[!UICONTROL NEW]** の 2 つのサブフォルダーが表示されます。SHARED フォルダーには、管理者によって共有されたすべてのベースラインアセット（参照用コンテンツ）が含まれます。
-1. すべてのベースラインアセットを含む **[!UICONTROL SHARED]** フォルダーをローカルマシンにダウンロードできます。または、**[!UICONTROL SHARED]**&#x200B;フォルダーを開き、**Download**&#x200B;アイコンをクリックして、個々のファイル/フォルダーをダウンロードできます。
+1. すべてのベースラインアセットを含む **[!UICONTROL SHARED]** フォルダーをローカルマシンにダウンロードできます。
+または、**[!UICONTROL SHARED]** フォルダーを開き、**ダウンロード**&#x200B;アイコンをクリックして、個別のファイル／フォルダーをダウンロードできます。
 
    ![](assets/download.png)
 
    ![](assets/download-asset-requirement4.png)
 
-概要（アセット要件ドキュメント）を確認し、ベースラインアセットを参照して、アセット要件を理解します。これで、貢献度の新しいアセットを作成し、貢献度フォルダーにアップロードできます。
+概要（アセット要件ドキュメント）を確認し、ベースラインアセットを参照して、アセット要件を理解します。これで、投稿用の新しいアセットを作成して、投稿フォルダーにアップロードできます。
 
 
 ## 投稿フォルダーへのアセットのアップロード {#uplad-new-assets-to-contribution-folder}
 
-Brand Portalのユーザーは、アセットの要件を確認した後、貢献度の新しいアセットを作成して、貢献度フォルダー内の新しいフォルダーにアップロードできます。
+Brand Portal ユーザーは、アセット要件を確認した後、投稿用の新しいアセットを作成して投稿フォルダー内の NEW フォルダーにアップロードできます。
 
 >[!NOTE]
 >
@@ -83,7 +84,8 @@ Brand Portalのユーザーは、アセットの要件を確認した後、貢�
 
 **新しいアセットをアップロードするには：**
 
-1. Brand Portal インスタンスにログインします。新しく共有された投稿フォルダーと共に、Brand Portal ユーザーに対して許可された既存のすべてのフォルダーが Brand Portal ダッシュボードに反映されます。
+1. Brand Portal インスタンスにログインします。
+新しく共有された投稿フォルダーと共に、Brand Portal ユーザーに対して許可された既存のすべてのフォルダーが Brand Portal ダッシュボードに反映されます。
 
 1. 投稿フォルダーを選択し、クリックして開きます。投稿フォルダーには、**[!UICONTROL SHARED]** と **[!UICONTROL NEW]** の 2 つのサブフォルダーが含まれます。
 
@@ -122,29 +124,29 @@ Brand Portal ユーザーは、AEM オーサーインスタンスにアクセス
 公開ワークフローの様々な段階で、電子メール／パルス通知が Brand Portal ユーザーおよび管理者に送信されます。
 1. **キューに登録済み** - Brand Portal で公開ワークフローがトリガーされると、Brand Portal ユーザーおよび Brand Portal 管理者に通知が送信されます。
 
-1. **完了** — 投稿フォルダーが AEM Assets へ正常に公開されると、Brand Portal ユーザーおよび Brand Portal 管理者に通知が送信されます。
+1. **完了** - 投稿フォルダーが AEM Assets へ正常に公開されると、Brand Portal ユーザーおよび Brand Portal 管理者に通知が送信されます。
 
 新しく作成したアセットを AEM Assets に公開した後、Brand Portal のユーザーは、NEW フォルダーからそれらのアセットを削除できます。一方、Brand Portal 管理者は、NEW フォルダーと SHARED フォルダーの両方からアセットを削除できます。
 
 投稿フォルダー作成の目的を達成したら、Brand Portal 管理者は投稿フォルダーを削除して、他のユーザーが使用できるようアップロード領域を解放できます。
 
-## 公開ジョブの状態{#publishing-job-status}
+## ジョブステータスの公開 {#publishing-job-status}
 
-管理者は、Brand PortalからAEM Assetsに公開されたアセット貢献度フォルダーのステータスを表示するのに使用できる2つのレポートがあります。
+Brand Portal から AEM Assets に公開したアセット投稿フォルダーのステータスを表示するのに管理者が利用できるレポートが 2 つあります。
 
-* Brand Portalで、**[!UICONTROL ツール]**/**[!UICONTROL アセット貢献度ステータス]**&#x200B;に移動します。 このレポートは、投稿ワークフローの様々な段階でのすべての投稿ジョブのステータスを反映します。
+* Brand Portal で、**[!UICONTROL ツール]**／**[!UICONTROL アセット投稿のステータス]**&#x200B;に移動します。このレポートには、公開ワークフローの様々な段階におけるすべての公開ジョブのステータスが表示されます。
 
    ![](assets/contribution-folder-status.png)
 
-* AEM Assets（オンプレミスまたはマネージドサービス）で、**[!UICONTROL アセット]** > **[!UICONTROL ジョブ]**&#x200B;に移動します。 このレポートは、すべての公開ジョブの最終状態（成功またはエラー）を反映します。
+* AEM Assets（オンプレミス版または Managed Services 版）で、**[!UICONTROL アセット]**／**[!UICONTROL ジョブ]**&#x200B;に移動します。このレポートには、すべての公開ジョブの最終状態（成功またはエラー）が表示されます。
 
    ![](assets/publishing-status.png)
 
-* Cloud ServiceとしてAEM Assetsで、**[!UICONTROL アセット]** > **[!UICONTROL ジョブ]**&#x200B;に移動します。
+* AEM Assets as a Cloud Service で、**[!UICONTROL アセット]**／**[!UICONTROL ジョブ]**&#x200B;に移動します。
 
    または、グローバルナビゲーションから&#x200B;**[!UICONTROL ジョブ]**&#x200B;に直接移動できます。
 
-   このレポートは、ブランドポータルからAEM AssetsへのアセットのCloud Serviceとしてのインポートを含む、すべての公開ジョブの最終状態（成功またはエラー）を反映します。
+   このレポートには、Brand Portal から AEM Assets as a Cloud Service へのアセットのインポートなど、すべての公開ジョブの最終状態（成功またはエラー）が表示されます。
 
    ![](assets/cloud-service-job-status.png)
 
