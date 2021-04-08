@@ -7,12 +7,12 @@ user-guide-title: AEM Assets Brand Portal
 breadcrumb-title: Brand Portal ガイド
 user-guide-description: AEM Assets Brand Portal を使用すれば、承認済みのブランドアセットや製品アセットを外部の代理店、パートナー、内部チーム、販売店などへとダウンロードで安全に配布し、マーケティングニーズに応えることができます。
 feature: Brand Portal
-role: 業務担当者
+role: Business Practitioner
 translation-type: tm+mt
 source-git-commit: 0240080cf98fa0c1ba12dbcc9df17b2836064847
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 97%
+source-wordcount: '285'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 97%
    + [Brand Portal へのプリセット、スキーマ、ファセットの公開](using/publish-schema-search-facets-presets.md)
 + Brand Portal でのアセットソーシング {#asset-sourcing-in-brand-portal}
    + [アセットソーシングの概要](using/brand-portal-asset-sourcing.md)
-   + [AEM Assetsでの貢献度フォルダーの設定](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + [AEM Assets での投稿フォルダーの設定](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
    + [AEM Assets への投稿フォルダーの公開](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + ユーザーとのアセットの共有 {#share}
    + [コレクションの共有](using/brand-portal-share-collection.md)
