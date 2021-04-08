@@ -9,9 +9,9 @@ contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4983e2e160b5cfb213e249f731e1858fab2cf972
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1516'
 ht-degree: 100%
 
@@ -83,7 +83,8 @@ AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダ
 
 **質問：新しいバージョンの Brand Portal にはいつ移行しますか。**
 
-**回答：** Brand Portal 6.4.5 は、2019 年 10 月に実稼動環境へリリースされました。Brand Portal の次期バージョンは、2020 年の第 3 四半期にリリース予定です。アップデートとバージョンの変更については、Brand Portal の[リリースノート](brand-portal-release-notes.md)と [Brand Portal の新機能](whats-new.md)を確認することをお勧めします。
+**回答：**Brand Portal 6.4.5 は、2019 年 10 月に実稼動環境へリリースされました。Brand Portal の次期バージョンは、2020 年の第 3 四半期にリリース予定です。
+アップデートとバージョンの変更については、Brand Portal の[リリースノート](brand-portal-release-notes.md)と [Brand Portal の新機能](whats-new.md)を確認することをお勧めします。
 
 
 
@@ -101,7 +102,8 @@ AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダ
 
 **質問：投稿フォルダーは誰が作成できますか。**
 
-**回答：** AEM Assets に新しいフォルダーを作成する権限を持つ AEM ユーザーであれば、誰でも&#x200B;**投稿**&#x200B;フォルダーを作成できます。**投稿**&#x200B;フォルダーを作成するには、**アセット投稿**&#x200B;タイプの新しいフォルダーを作成します。このフォルダーは、投稿用として、アクティブな Brand Portal ユーザーと共有されます。
+**回答：** AEM Assets に新しいフォルダーを作成する権限を持つ AEM ユーザーであれば、誰でも&#x200B;**投稿**&#x200B;フォルダーを作成できます。**投稿**&#x200B;フォルダーを作成するには、**アセット投稿**タイプの新しいフォルダーを作成します。
+このフォルダーは、投稿用として、アクティブな Brand Portal ユーザーと共有されます。
 
 
 
@@ -114,7 +116,7 @@ Brand Portal ユーザーは**投稿**&#x200B;フォルダーにアクセスし�
 
 **質問：既存の投稿フォルダーの名前を変更できますか。**
 
-**回答：****いいえ**、既存の&#x200B;**投稿**&#x200B;フォルダーの名前を変更することはできません。
+**回答：** **いいえ**、既存の&#x200B;**投稿**&#x200B;フォルダーの名前を変更することはできません。
 
 
 
@@ -194,7 +196,7 @@ Brand Portal ユーザーは**投稿**&#x200B;フォルダーにアクセスし�
 >リリース日程は暫定的なものであり、変更の可能性があります。最新のリリース日程についてアドビのアカウントマネージャーまたはカスタマーサポートにお問い合わせください。
 
 
-## 製品のアクセスとサポート（制限付きサイト）{#product-access-and-support-restricted-sites}
+## 製品のアクセスとサポート（制限付きサイト） {#product-access-and-support-restricted-sites}
 
 以下のサイトは既存ユーザーのみが参照できます。アクセス権を必要とするお客様は、アドビのアカウントマネージャーにご連絡ください。
 
