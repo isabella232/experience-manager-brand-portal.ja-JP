@@ -9,14 +9,14 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
+exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 translation-type: tm+mt
-source-git-commit: 26fbcf9970a77fc531b82919b29010bc37a1ab8e
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '600'
+ht-degree: 94%
 
 ---
-
 
 # リリースノート {#release-notes}
 
@@ -27,7 +27,7 @@ Adobe Experience Manager Assets Brand Portal 2021.02.0 リリースの新機能�
 | 製品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | バージョン | 2021.02.0 |
-| 日付 | 2021 年 2 月 日 |
+| 日付 | 2021 年 2 月 |
 
 ## 概要 {#overview}
 
@@ -41,9 +41,9 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 * AEM Assetsは、事前設定済みのブランドポータルインスタンスを持つ権利をCloud Serviceに付与されました。 Cloud Managerユーザーは、Cloud Serviceインスタンスとして、AEM Assetsでブランドポータルをアクティブ化できます。
 
-* アセットソーシング機能は、Cloud ServiceとしてAEM Assetsで使用できるようになりました。 Brand Portalユーザーは、許可された貢献度フォルダーにアセットをアップロードし、Brand PortalからCloud ServiceインスタンスとしてAEM Assetsに貢献度フォルダーを公開できます。
+* アセットソーシング機能が AEM Assets as a Cloud Service で使用できるようになりました。これにより、Brand Portal ユーザーが、許可された投稿フォルダーにアセットをアップロードし、Brand Portal から AEM Assets as a Cloud Service インスタンスに投稿フォルダーを公開できるようになります。
 
-* **[!UICONTROL ダウンロード設定]**&#x200B;に、追加の&#x200B;**[!UICONTROL アセットのダウンロード]**&#x200B;設定が追加されました。 アセットごとに個別のフォルダーが作成され、フォルダー、コレクション、またはアセットの一括ダウンロードが同時に行われます。
+* **[!UICONTROL ダウンロード設定]**&#x200B;に「**[!UICONTROL アセットのダウンロード]**」設定が追加されました。アセットフォルダー、アセットコレクション、複数アセットのいずれかをダウンロードする際にアセットごとに別個のフォルダーが作成されます。
 
 <!-- 
 * The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
@@ -71,8 +71,8 @@ Brand Portal users can exclude specific renditions which are not required and di
 
 このリリースで強化された機能は次のとおりです。
 
-* フォルダーのダウンロードでは、**[!UICONTROL ダウンロード設定]**&#x200B;に関係なく、共有リンクを使用してアセットごとに個別のフォルダーが作成されます。
-* ブランドポータル&#x200B;**[!UICONTROL 使用状況レポート]**&#x200B;は、アクティブなブランドポータルユーザーのみを反映するように変更されました。
+* フォルダーのダウンロードの場合は、**[!UICONTROL ダウンロード設定]**&#x200B;に関係なく、共有リンクを使用してアセットごとに個別のフォルダーが作成されます。
+* Brand Portal の&#x200B;**[!UICONTROL 使用状況レポート]**&#x200B;が変更され、アクティブな Brand Portal ユーザーのみを反映するようになりました。
 
 <!--
 * The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
@@ -84,22 +84,22 @@ Brand Portal users can exclude specific renditions which are not required and di
 
 このリリースでは、次の重要な問題が修正されています。
 
-* 元のアセットのみがダウンロードされた場合、そのアセットには独自の拡張子が反映され、拡張子が手動でzipに変更されるまで開きません。
-* コレクションフォルダーのユーザーインターフェイスが、ナビゲーション矢印のクリックに応答しない。
-* **** Createbuttonは、フォルダーが空の場合でも **** Columnviewに表示されます。
-* **[!UICONTROL Omni]** Searchは、Brand Portalインスタンスへのアクセス中にディスパッチャーがバイパスされた場合、414エラーメッセージ（リクエスト —URIが長すぎます）が表示されて失敗します。
-* アセットのファイル名にコンマ(`,`)が含まれている場合は、空のzipフォルダーがダウンロードされます。
-* Viewerのユーザーは、自分が作成したコレクションにユーザーを追加するオプションを利用できます。
-* 共有リンクを使用してアセット（サムネールまたはWebレンディション）をダウンロードすると、動作が異なる。
+* 元のアセットのみがダウンロードされる場合、そのアセットには独自の拡張子が反映され、拡張子が手動で zip に変更されるまでアセットが開きません。
+* コレクションフォルダーのユーザーインターフェイスが、ナビゲーション矢印のクリックに応答しません。
+* フォルダーが空でも、**[!UICONTROL 列]**&#x200B;表示で「**[!UICONTROL 作成]**」ボタンが表示されます。
+* Brand Portal インスタンスへのアクセス時に Dispatcher がバイパスされた場合、414 エラーメッセージ（要求 URI が長すぎる）が表示されて、**[!UICONTROL オムニサーチ]**&#x200B;が失敗します。
+* アセットのファイル名にコンマ（`,`）が含まれている場合、空の zip フォルダーがダウンロードされます。
+* 閲覧者ユーザーは、自分が作成したコレクションにユーザーを追加するオプションを使用できます。
+* 共有リンクを使用してアセット（サムネールまたは Web レンディション）をダウンロードする場合、動作に一貫性がありません。
 
-[Brand Portal 2021.02.0の新機能](whats-new.md)を参照してください。
+詳しくは、[Brand Portal 2021.02.0 の新機能](whats-new.md)を参照してください。
 
 
 ### 既知の問題 {#known-issues}
 
 このリリースには、次の既知の問題が含まれています。
 
-* アセットソーシング発行ワークフローに関する電子メール通知は受信されません。
+* アセットソーシングの公開ワークフローに関係する電子メール通知がユーザーに届きません。
 
 <!--
 ### Known Issues {#known-issues}
@@ -162,7 +162,7 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 * 簡体字中国語
 * 韓国語
 
-## 認定プラットフォーム    {#certified-platforms}
+## 認定プラットフォーム  {#certified-platforms}
 
 このリリースの Brand Portal を実行できる認定プラットフォームを確認するには、[技術要件](https://helpx.adobe.com/jp/experience-manager/6-4/sites/deploying/using/technical-requirements.html)の「**オーサリングユーザーインターフェイス向けにサポートされているブラウザー**」節に記載されている表の「**UI のサポート**」列を参照してください。
 
