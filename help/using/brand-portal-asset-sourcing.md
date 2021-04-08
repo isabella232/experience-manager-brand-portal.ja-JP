@@ -17,14 +17,14 @@ activity: use
 audience: author, marketer
 version: 6.5
 kt: 3838
+exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
 translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '841'
+ht-degree: 100%
 
 ---
-
 
 # アセットソーシングの概要 {#overview-asset-sourcing-in-bp}
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ## 前提条件 {#prerequisites}
 
-* Cloud ServiceインスタンスとしてのAEM Assets、AEM Assets6.5.2以降。
+* AEM Assets as a Cloud Service インスタンス、AEM Assets 6.5.2 以降。
 * AEM Assets インスタンスと Brand Portal の連携が設定されていることを確認します。[AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
 * Brand Portal テナントが 1 つの AEM Assets オーサーインスタンスで構成されていることを確認します。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->AEM Assets6.5.4には既知の問題があります。Brand Portalユーザーは、Adobeデベロッパーコンソールにアップグレードする際に、貢献度フォルダーのアセットをAEM Assetsに公開できません。
+>AEM Assets 6.5.4 には既知の問題があります。Adobe 開発者コンソールにアップグレードすると、Brand Portal ユーザーが投稿フォルダーのアセットを AEM Assets に公開できなくなります。
 >
 >この問題は AEM 6.5.5 で修正されました。お使いの AEM Assets インスタンスを最新のサービスパック AEM 6.5.5 にアップグレードし、Adobe 開発者コンソールで[設定をアップグレード](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)してください。
 >
@@ -53,34 +53,34 @@ ht-degree: 0%
 
 ## アセットソーシングの設定 {#configure-asset-sourcing}
 
-**アセット** ソースは、AEM Assetsの作成者インスタンス内から設定します。管理者は、**AEM Web Console Configuration**&#x200B;からアセットソーシング機能のフラグ設定を有効にし、**AEM Assets**&#x200B;にアクティブなBrand Portalユーザーリストをアップロードできます。
+**アセットソーシング**&#x200B;は、AEM Assets オーサーインスタンス内から設定します。管理者は、**AEM Web コンソール設定**&#x200B;からアセットソーシング機能のフラグ設定を有効にし、アクティブな Brand Portal ユーザーリストを **AEM Assets** にアップロードできます。
 
 >[!NOTE]
 >
->資産調達は、デフォルトで、Cloud ServiceとしてAEM Assetsで有効になっています。 AEM管理者は、アクティブなBrand Portalユーザを直接アップロードして、アセットソーシング機能へのアクセスを許可できます。
+>AEM Assets as a Cloud Service では、アセットソーシングはデフォルトで有効になっています。AEM 管理者は、アクティブな Brand Portal ユーザーを直接アップロードして、これらのユーザーにアセットソーシング機能へのアクセスを許可することができます。
 
 >[!NOTE]
 >
 >設定を開始する前に、AEM Assets インスタンスと Brand Portal の連携が設定されていることを確認します。[AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
 
-次のビデオでは、AEM Assets作成者インスタンスでアセットソーシングを設定する方法を示します。
+次のビデオでは、AEM Assets オーサーインスタンスでアセットソーシングを設定する方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/29771)
 
 ### アセットソーシングの有効化 {#enable-asset-sourcing}
 
-AEM管理者は、AEM Web Console Configuration（Configuration Managerなど）内でアセットソーシング機能フラグを有効にできます。
+AEM 管理者は、AEM Web コンソール設定（Configuration Manager）内からアセットソーシング機能のフラグを有効にすることができます。
 
 >[!NOTE]
 >
->この手順は、Cloud ServiceとしてのAEM Assetsには適用されません。
+>この手順は、AEM Assets as a Cloud Service には適用されません。
 
 
 **アセットソーシングを有効にするには：**
-1. AEM Assets作成者インスタンスにログインし、Configuration Managerを開きます。
-デフォルトURL:http:// localhost:4502/system/console/configMgr.
-1. キーワード&#x200B;**アセットソーシング**&#x200B;を使用して&#x200B;**[!UICONTROL アセットソーシング機能フラグConfig]**&#x200B;を検索します。
-1. 「**[!UICONTROL アセットソーシング機能フラグ設定]**」をクリックして設定ウィンドウを開きます。
+1. AEM Assets オーサーインスタンスにログインして、Configuration Manager を開きます。
+デフォルトの URL は http://localhost:4502/system/console/configMgr です。
+1. キーワード「**Asset Sourcing**」を使用して検索し、**[!UICONTROL Asset Sourcing Feature Flag Config]** を探します。
+1. 「**[!UICONTROL Asset Sourcing Feature Flag Config]**」をクリックして、設定ウィンドウを開きます。
 1. 「**[!UICONTROL feature.flag.active.status]**」チェックボックスをオンにします。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -88,28 +88,29 @@ AEM管理者は、AEM Web Console Configuration（Configuration Managerなど）
 
 ### Brand Portal ユーザーリストのアップロード {#upload-bp-user-list}
 
-AEM 管理者は、AEM Assets のアクティブな Brand Portal ユーザーリストを含む Brand Portal ユーザー設定（.csv）ファイルをアップロードできます。投稿フォルダーは、ユーザーリストで定義されたアクティブな Brand Portal ユーザーのみ共有できます。管理者は、設定ファイルに新しいユーザーを追加し、変更したユーザーリストをアップロードすることもできます。
+AEM 管理者は、AEM Assets のアクティブな Brand Portal ユーザーリストを含む Brand Portal ユーザー設定（.csv）ファイルをアップロードできます。投稿フォルダーは、ユーザーリストで定義されたアクティブな Brand Portal ユーザーのみ共有できます。また、管理者は、設定ファイルに新規ユーザーを追加して、変更したユーザーリストをアップロードできます。
 
 >[!NOTE]
 >
->CSVファイルの形式は、一括Admin Consoleインポートのためのユーザーでサポートされている形式と同じです。 電子メールと氏名は必須です。
+>CSV ファイルの形式は、Admin Console で一括ユーザー読み込み用にサポートされている形式と同じです。電子メールと氏名は必須です。
 
-管理者はAEMAdmin Consoleで新しいユーザーを追加できます。詳しくは、[ユーザーの管理](brand-portal-adding-users.md)を参照してください。 Admin Console でユーザーを追加したら、これらのユーザーを Brand Portal ユーザー設定ファイルに追加して、投稿フォルダーへのアクセス権を割り当てることができます。
+管理者は、AEM Admin Console で新規ユーザーを追加できます。詳しくは、[ユーザーの管理](brand-portal-adding-users.md)を参照してください。Admin Console でユーザーを追加したら、これらのユーザーを Brand Portal ユーザー設定ファイルに追加して、投稿フォルダーへのアクセス権を割り当てることができます。
 
 **Brand Portal ユーザーリストをアップロードするには：**
-1. AEM Assetsインスタンスにログインします。
-1. **ツール**&#x200B;パネルで、**[!UICONTROL アセット]**/**[!UICONTROL ブランドポータルユーザー]**&#x200B;に移動します。
+1. AEM Assets インスタンスにログインします。
+1. **ツール**&#x200B;パネルで、**[!UICONTROL アセット]**／**[!UICONTROL Brand Portal ユーザー]**&#x200B;に移動します。
 
-1. Brand Portal 投稿者をアップロードウィンドウが開きます。ローカルマシンから参照して、アクティブな Brand Portal ユーザーリストを含む&#x200B;**設定（.csv）ファイル**&#x200B;をアップロードします。
+1. Brand Portal 投稿者をアップロードウィンドウが開きます。
+ローカルマシンから参照して、アクティブな Brand Portal ユーザーリストを含む**設定（.csv）ファイル**&#x200B;をアップロードします。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/upload-user-list2.png)
 
 
-管理者は、貢献度フォルダーの設定時に、このユーザーリストーから特定のユーザーへのアクセスを提供できます。 貢献度フォルダーに割り当てられたユーザーのみが、貢献度フォルダーにアクセスし、Brand PortalからAEM Assetsにアセットを公開できます。
+管理者は、投稿フォルダーを設定する際に、このユーザーリスト内の特定のユーザーにアクセス権を付与できます。投稿フォルダーにアクセスし Brand Portal から AEM Assets にアセットを公開できるのは、投稿フォルダーに割り当てられたユーザーのみです。
 
 ## 関連トピック {#reference-articles}
 
-* [貢献度フォルダーを設定し、Brand Portalに公開する](brand-portal-publish-contribution-folder-to-brand-portal.md)
+* [AEM Assets での投稿フォルダーの設定と Brand Portal への公開](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
 * [AEM Assets への投稿フォルダーの公開](brand-portal-publish-contribution-folder-to-aem-assets.md)
