@@ -9,11 +9,11 @@ topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1029'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -43,10 +43,10 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 ## ゲストセッションの期間 {#guest-session-duration}
 
 
-ゲストユーザーセッションは15分間アクティブのままです。
-つまり、**[!UICONTROL Lightbox]**&#x200B;の状態は、セッション開始時間から15分間保持され、その後、現在のゲストセッションが再開され、Lightboxの状態が失われます。
+ゲストユーザーセッションが 15 分間アクティブのままになります。
+つまり、**[!UICONTROL Lightbox]** の状態はセッションの開始時刻から 15 分間保持され、その後は現在のゲストセッションが再起動するので、Lightbox の状態が失われます。
 
-例えば、ゲストユーザーが1500時間にブランドポータルにログインし、15:05時間にダウンロード用に&#x200B;**[!UICONTROL Lightbox]**&#x200B;にアセットを追加したとします。 ユーザーが15:15時間（ログインから15分以内）前に&#x200B;**[!UICONTROL Lightbox]**&#x200B;コレクション（またはそのアセット）をダウンロードしない場合、ユーザーはセッションを再起動する必要があります。 **[!UICONTROL ライトボックス]**&#x200B;は空になります。つまり、セッションが失われた場合に、アップロードされたアセットは使用できなくなります。
+例えば、ゲストユーザーが 15 時 00 分に Brand Portal にログインし、15 時 05 分にダウンロード対象のアセットを **[!UICONTROL Lightbox]** に追加するとします。ユーザーが 15 時 15 分より前（ログインから 15 分以内）に **[!UICONTROL Lightbox]** コレクション（またはそのアセット）をダウンロードしない場合、ユーザーはセッションを再起動する必要があります。その場合、**[!UICONTROL Lightbox]** は空になります。つまり、セッションが失われた場合、アップロードしたアセットは使用できなくなります。
 
 ## 許可されている同時ゲストセッション {#concurrent-guest-sessions-allowed}
 
@@ -83,7 +83,8 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 Brand Portal には、選択したアセット／フォルダーの&#x200B;**[!UICONTROL アセットプロパティ]**&#x200B;をゲストユーザーが表示できる「**[!UICONTROL 概要]**」オプションがあります。「**[!UICONTROL 概要]**」オプションは、次の場所に表示されます。
 
 * アセットやフォルダーを選択する際に上部に表示されるツールバー。
-* パネルセレクターを選択する際のドロップダウン。アセットやフォルダーを選択した状態で「**[!UICONTROL 概要]**」オプションを選択すると、タイトル、パス、アセット作成時間を確認できます。一方、アセットの詳細ページで「**[!UICONTROL 概要]**」オプションを選択すると、アセットのメタデータを確認できます。
+* パネルセレクターを選択する際のドロップダウン。
+アセットやフォルダーを選択した状態で「**[!UICONTROL 概要]**」オプションを選択すると、タイトル、パス、アセット作成時間を確認できます。一方、アセットの詳細ページで「**[!UICONTROL 概要]**」オプションを選択すると、アセットのメタデータを確認できます。
 
 ![](assets/overview-option-1.png)
 
