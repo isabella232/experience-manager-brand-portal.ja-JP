@@ -9,14 +9,14 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 role: Administrator
+exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
 translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 92%
+source-wordcount: '1023'
+ht-degree: 100%
 
 ---
-
 
 # レポートの操作 {#work-with-reports}
 
@@ -40,11 +40,11 @@ ht-degree: 92%
 
    >[!NOTE]
    >
-   >使用状況レポートは、ブランドポータルで生成されるデフォルトのレポートです。 使用状況レポートは作成も削除もできません。ただし、ダウンロードレポート、有効期限レポート、公開レポート、リンク共有レポートおよびユーザーログインレポートは、作成、ダウンロードおよび削除できます。
+   >使用状況レポートは、Brand Portal で生成されるデフォルトのレポートです。使用状況レポートは作成も削除もできません。ただし、ダウンロードレポート、有効期限レポート、公開レポート、リンク共有レポートおよびユーザーログインレポートは、作成、ダウンロードおよび削除できます。
 
-   レポートを表示するには、レポートのリンクをクリックします。 または、レポートを選択し、ツールバーの「表示」アイコンをタップまたはクリックします。
+   レポートを表示するには、レポートのリンクをクリックします。または、レポートを選択し、ツールバーの「表示」アイコンをタップまたはクリックします。
 
-   **[!UICONTROL 使用状況]** レポートには、アクティブなBrand Portalユーザ数、すべてのアセットが占めるストレージ領域、およびBrand Portalでの総アセット数に関する情報が表示されます。Admin Console内のどの製品プロファイルにも割り当てられていないブランドポータルユーザーは、非アクティブユーザーと見なされ、**[!UICONTROL 使用状況レポート]**には反映されません。
+   **[!UICONTROL 使用状況レポート]**&#x200B;には、アクティブな Brand Portal ユーザーの数、すべてのアセットで占有されるストレージ領域、Brand Portal 内の合計アセット数に関する情報が表示されます。Admin Console でどの製品プロファイルにも割り当てられていない Brand Portal ユーザーは、非アクティブユーザーと見なされ、**[!UICONTROL 使用状況レポート]**には反映されません。
 また、それぞれの情報指標で許可されている容量も表示されます。
 
    ![](assets/usage-report.png)
