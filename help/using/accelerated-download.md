@@ -9,18 +9,18 @@ topic-tags: download-install
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1049'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
 # Brand Portal のダウンロードの高速化 {#guide-to-accelerate-downloads-from-brand-portal}
 
-Adobe Experience Managerアセットブランドポータルでは、インストールオンデマンドアプリケーションのIBM Aspera Connectとの統合により、大きなアセットファイルのダウンロードパフォーマンスを向上できます。 このアプリケーションは、TCP オーバーヘッドをなくす独自のテクノロジーを使用し、アセットファイルの転送速度を向上させます。この連携により、ダウンロードエクスペリエンスを確実に強化できます。
+Adobe Experience Manager Assets Brand Portal では、インストールオンデマンドアプリケーションである IBM Aspera Connect との連携により、大きなアセットファイルのダウンロードパフォーマンスを強化できます。このアプリケーションは、TCP オーバーヘッドをなくす独自のテクノロジーを使用し、アセットファイルの転送速度を向上させます。この連携により、ダウンロードエクスペリエンスを確実に強化できます。
 
 >[!NOTE]
 >
@@ -91,9 +91,9 @@ Brand Portal より早くアセットをダウンロードするには：
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
-1. デフォルトでは「**[!UICONTROL ダウンロード設定]**」の「**[!UICONTROL 高速ダウンロード]**」設定が有効になっています。したがって、IBM Aspera Connectを使用してアセットをダウンロードする場合は、確認ボックスが表示されます。
+1. デフォルトでは「**[!UICONTROL ダウンロード設定]**」の「**[!UICONTROL 高速ダウンロード]**」設定が有効になっています。したがって、IBM Aspera Connect を使用してアセットをダウンロードするための確認ボックスが表示されます。
 
-   初めてアセットをダウンロードする場合で、ブラウザーにIBM Aspera Connectがインストールされていない場合、または既存のバージョンが古い場合は、Asperaダウンロードアクセラレーター](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html)をインストールするように求められます。[
+   初めてアセットをダウンロードするときに、IBM Aspera Connect がブラウザーにインストールされていない場合や既存のバージョンが古い場合は、[Aspera ダウンロードアクセラレーターをインストール](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html)するように求めるプロンプトが表示されます。
 
    ![](assets/aspera-not-launched.png)
 
@@ -187,7 +187,7 @@ Microsoft Edge で高速ダウンロード機能を使用するには、信頼�
 1. 「**[!UICONTROL 信頼済みサイトゾーン]**」、「**[!UICONTROL サイト]**」の順にクリックします。
 1. リストから Brand Portal サイトを削除します。
 
-## Aspera Connect クライアントの環境設定    {#aspera-connect-client-preferences}
+## Aspera Connect クライアントの環境設定 {#aspera-connect-client-preferences}
 
 アイコンを右クリックし、「**[!UICONTROL 環境設定]**」を選択して IBM Aspara Connect クライアント環境設定で指定できる、便利な環境設定がいくつかあります。
 
@@ -201,7 +201,7 @@ Microsoft Edge で高速ダウンロード機能を使用するには、信頼�
 
 ![](assets/aspera-automaticallylaunch.png)
 
-## ダウンロードアクセラレーションに関する問題のトラブルシューティング  {#troubleshoot-issues-with-download-acceleration}
+## ダウンロードアクセラレーションに関する問題のトラブルシューティング {#troubleshoot-issues-with-download-acceleration}
 
 ダウンロードアクセラレーションが機能しない場合は、次の手順に従ってトラブルシューティングをおこなってください。
 
