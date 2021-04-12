@@ -9,9 +9,9 @@ user-guide-description: AEM Assets Brand Portal を使用すれば、承認済�
 feature: Brand Portal
 role: Business Practitioner
 translation-type: tm+mt
-source-git-commit: 0240080cf98fa0c1ba12dbcc9df17b2836064847
+source-git-commit: be344fc258d82c39fe0d6a0af1fbebdc9bef2dcf
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '281'
 ht-degree: 100%
 
 ---
@@ -60,7 +60,6 @@ ht-degree: 100%
    + [初回のログイン操作](using/brand-portal-onboarding.md)
    + [ユーザー、グループ、ユーザーの役割の管理](using/brand-portal-adding-users.md)
    + [壁紙、ヘッダーおよび電子メールメッセージのカスタマイズ](using/brand-portal-branding.md)
-   + [カスタム検索ファセットの使用](using/brand-portal-search-facets.md)
    + [メタデータスキーマフォームの使用](using/brand-portal-metadata-schemas.md)
    + [画像プリセットまたは動的レンディションの適用](using/brand-portal-image-presets.md)
    + [レポートの操作](using/brand-portal-reports.md)
