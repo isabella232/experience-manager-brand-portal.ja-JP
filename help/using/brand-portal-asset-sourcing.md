@@ -9,7 +9,6 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-product: experience-manager
 sub-product: アセット
 topics: collaboration, content-velocity, sharing
 doc-type: feature-video
@@ -19,7 +18,7 @@ version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
 translation-type: tm+mt
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: e8bb1149582329f5304bda7e5e67e8dcc27cfc7b
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 100%
