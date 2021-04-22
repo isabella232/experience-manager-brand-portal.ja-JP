@@ -10,14 +10,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
 role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
-workflow-type: tm+mt
-source-wordcount: '303'
+exl-id: 27a9cd26-9bb3-473b-b1ac-37f77975c912
+translation-type: ht
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+workflow-type: ht
+source-wordcount: '302'
 ht-degree: 100%
 
 ---
-
 
 # Brand Portal でのユーザーアクセスの管理 {#administer-user-access-on-brand-portal}
 
@@ -41,7 +41,7 @@ AEM Assets Brand Portal 6.4.2 以降では、管理者は、所属組織の Bran
 
 ![](assets/bp-welcome-screen.png)
 
-## ユーザーのアクセス要求を許可  {#allow-users-to-request-access}
+## ユーザーのアクセス要求を許可 {#allow-users-to-request-access}
 
 管理者は、組織ユーザーに対し、ようこそ画面から Brand Portal へのアクセスを要求することを許可できます。ただし、管理者は「**[!UICONTROL ユーザーのアクセス要求を許可]**」設定を有効にして、ようこそ画面にアクセス要求用のリンクが表示されるようにする必要があります。
 
