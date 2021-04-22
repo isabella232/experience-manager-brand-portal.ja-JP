@@ -9,14 +9,14 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
-workflow-type: tm+mt
-source-wordcount: '1757'
+exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
+translation-type: ht
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+workflow-type: ht
+source-wordcount: '1756'
 ht-degree: 100%
 
 ---
-
 
 # メタデータスキーマフォームの使用 {#use-the-metadata-schema-form}
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 
 1. コンポーネントを設定するには、コンポーネントを選択して、「**[!UICONTROL 設定]**」タブでそのプロパティを変更します。
 
-### 「フォームを作成」タブのコンポーネント{#components-in-the-build-form-tab}
+### 「フォームを作成」タブのコンポーネント {#components-in-the-build-form-tab}
 
 「**[!UICONTROL フォームを作成]**」タブには、スキーマフォーム内で使用できるフォーム項目が表示されます。「**[!UICONTROL 設定]**」タブに、「**[!UICONTROL フォームを作成]**」タブで選択した各項目の属性が表示されます。「**[!UICONTROL フォームを作成]**」タブで使用できるフォーム項目を次の表に示します。
 
@@ -105,7 +105,7 @@ ht-degree: 100%
 
 * **[!UICONTROL フィールドラベル]**：アセットのプロパティページに表示されるメタデータプロパティの名前。
 
-* **[!UICONTROL プロパティにマッピング]**：このプロパティの値には、CRX リポジトリに保存される場所にあるアセットノードへの相対パスまたは名前を指定します。この値は、「**./**」で開始し、パスがアセットのノード配下にあることを示します。
+* **[!UICONTROL プロパティにマッピング]**：このプロパティの値には、CRX リポジトリーに保存される場所にあるアセットノードへの相対パスまたは名前を指定します。この値は、「**./**」で開始し、パスがアセットのノード配下にあることを示します。
 
 このプロパティの有効な値は次のとおりです。
 
@@ -170,7 +170,7 @@ Brand Portal では、選択した特定の情報のみをアセットの&#x200B
 >
 >ネストされたスキーマを含むスキーマを、ビデオファイルを含むフォルダーに適用すると、そのビデオファイルのメタデータプロパティが適切にレンダリングされない場合があります。メタデータプロパティを適切にレンダリングするには、ネストされたスキーマを削除し、フォルダーに親スキーマのみを適用します。
 
-## メタデータスキーマフォームの削除  {#delete-a-metadata-schema-form}
+## メタデータスキーマフォームの削除 {#delete-a-metadata-schema-form}
 
 Brand Portal では、カスタムのスキーマフォームのみを削除できます。デフォルトのスキーマフォームまたはテンプレートを削除することはできません。ただし、これらのフォームでのカスタムの変更内容は削除できます。
 
@@ -192,7 +192,7 @@ Brand Portal では、カスタムのスキーマフォームのみを削除で�
 
 各種 MIME タイプ用の既存のテンプレートを使用できます。例えば、MIME タイプが **image/png** のアセットには、**image/jpeg** フォームを使用します。
 
-この場合は、CRX リポジトリ内の [!UICONTROL `/etc/dam/metadataeditor/mimetypemappings`] に新しいノードを作成します。そのノードの名前を指定し、次のプロパティを定義します。
+この場合は、CRX リポジトリー内の [!UICONTROL `/etc/dam/metadataeditor/mimetypemappings`] に新しいノードを作成します。そのノードの名前を指定し、次のプロパティを定義します。
 
 | **名前** | **種類** | **値** |
 |---|---|---|
