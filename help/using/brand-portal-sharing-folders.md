@@ -8,14 +8,14 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
+exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
 translation-type: ht
-source-git-commit: 0ae9860e2b6beb96f53e92bb114bb5756e371ad6
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: ht
 source-wordcount: '1154'
 ht-degree: 100%
 
 ---
-
 
 # Brand Portal でフォルダーを共有する {#share-folders}
 
