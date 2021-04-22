@@ -9,14 +9,14 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
-workflow-type: tm+mt
-source-wordcount: '893'
+exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
+translation-type: ht
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+workflow-type: ht
+source-wordcount: '892'
 ht-degree: 100%
 
 ---
-
 
 # Brand Portal への並列公開における問題のトラブルシューティング {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
@@ -68,14 +68,14 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 1. `localhost:4502/crx/de/` に移動します（localhost:4502 でオーサーインスタンスを実行していると仮定）。\
    i. `/etc/replication/agents.author/mp_replication` を削除します。
-ii.次を削除します。 
+ii. 次を削除します。 
 `/etc/cloudservices/mediaportal/<config_name>`
 
 1. localhost:4502/useradmin に移動します。\
    i. ユーザー `mac-<tenantid>replication` を検索します。
-ii.このユーザーを削除します。
+ii. このユーザーを削除します。
 
-これによってシステム全体がクリーンアップされます。これで新しい            クラウドサービス設定の作成を試せるようになります。あるいは、[https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) 内の既存の JWT アプリケーションを引き続き使用することもできます。新しいアプリケーションを作成する必要はなく、新しく作成したクラウド設定から公開鍵を更新するだけで構いません。
+これによってシステム全体がクリーンアップされます。これで新しいクラウドサービス設定の作成を試せるようになります。あるいは、[https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) 内の既存の JWT アプリケーションを引き続き使用することもできます。新しいアプリケーションを作成する必要はなく、新しく作成したクラウド設定から公開鍵を更新するだけで構いません。
 
 ## Developer Connection の JWT アプリケーションテナントの可視性の問題 {#developer-connection-jwt-application-tenant-visibility-issue}
 
