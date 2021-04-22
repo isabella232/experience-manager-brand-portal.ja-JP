@@ -9,17 +9,17 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1554'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # AEM Assets Brand Portal の概要 {#overview-of-aem-assets-brand-portal}
 
-マーケターは、関連するデジタルコンテンツの作成、管理および顧客への配信をすばやくおこなうために、チャネルパートナーや内部のビジネスユーザーとの共同作業を必要とする場合があります。関連するコンテンツをカスタマージャーニー全体にわたってタイミングよく配信することは、顧客のニーズやコンバージョン、エンゲージメント、ロイヤリティを促進するために不可欠です。
+マーケターは、関連するデジタルコンテンツの作成、管理および顧客への配信をすばやくおこなうために、チャネルパートナーや内部のビジネスユーザーとの連携が必要となる場合があります。関連するコンテンツをカスタマージャーニー全体にわたってタイミングよく配信することは、顧客のニーズやコンバージョン、エンゲージメント、ロイヤリティを促進するために不可欠です。
 
 しかし問題は、広範囲に広がる内部チームやパートナー、リセラーとの間でブランドロゴやガイドライン、キャンペーンアセット、製品の写真を効率的かつ安全に共有できるソリューションを構築するのは容易ではないということです。
 
@@ -32,17 +32,17 @@ ht-degree: 91%
 
 ## AEM Assets と Brand Portal の連携の設定 {#configure-brand-portal}
 
-Brand PortalでAdobe Experience Managerアセットを設定すると、Brand Portalユーザのアセット公開、アセット配信、およびアセット貢献度機能を有効にできます。
+Adobe Experience Manager Assets と Brand Portal の連携を設定すると、Brand Portal ユーザー向けにアセットの公開、アセットの配布、アセットの投稿機能が可能になります。
 
 >[!NOTE]
 >
->Brand Portalを使用したAEM Assetsの設定は、Cloud ServiceとしてのAEM Assets6.3以降、AEM Assetsでサポートされます。
+>AEM Assets と Brand Portal の連携の設定は、AEM Assets as a Cloud Service および AEM Assets 6.3 以降でサポートされています。
 
-Cloud ServiceとしてのAEM Assetsは、Cloud ManagerからBrand Portalをアクティブ化することで、Brand Portalで自動的に設定されます。 アクティベーションワークフローは、バックエンドで必要な設定を作成し、Cloud ServiceインスタンスとしてAEM Assetsと同じIMS組織でBrand Portalをアクティブにします。
+Cloud Manager から Brand Portal をアクティベートすると、AEM Assets as a Cloud Service と Brand Portal の連携が自動的に設定されます。アクティベーションワークフローにより、バックエンドで必要な設定が作成され、AEM Assets as a Cloud Service インスタンスと同じ IMS 組織に Brand Portal がアクティベートされます。
 
-一方、AEM Assets（オンプレミスおよびマネージドサービス）は、Adobe開発者コンソールを使用してBrand Portalで手動設定します。これにより、Brand Portalテナントの認証用にAdobeIdentity Managementサービス(IMS)トークンが調達されます。
+一方、AEM Assets（オンプレミス版および Managed Services 版）と Brand Portal の連携は、Adobe Developer Console を使用して手動で設定されます。このコンソールでは、Brand Portal テナントの認証に使用する Adobe Identity Management サービス（IMS）トークンを調達します。
 
-詳しくは、[ブランドポータルでのAEM Assetsの設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
+詳しくは、[AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
 
 ## Brand Portal でのユーザーのペルソナ {#Personas}
 
@@ -57,10 +57,10 @@ Brand Portal では次のユーザー役割をサポートしています。
 
 |  | **参照** | **検索** | **ダウンロード** | **フォルダーの共有** | **コレクションの共有** | **アセットをリンクとして共有** | **管理ツールにアクセス** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| **ゲストユーザー** | ✓* | △ | △ | x | x | x | x |
-| **閲覧者** | ✓ | kid | kid | x | x | x | x |
-| **編集者** | kid | kid | kid | kid | kid | kid | x |
-| **管理者** | kid | kid | kid | kid | kid | kid | kid |
+| **ゲストユーザー** | ✓* | ✓* | ✓* | x | x | x | x |
+| **閲覧者** | ✓ | ✓ | ✓ | x | x | x | x |
+| **編集者** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
+| **管理者** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 * ゲストユーザーは、公開フォルダーおよび公開コレクション内にあるアセットのみを参照、アクセス、および検索できます。
 
@@ -74,7 +74,7 @@ Brand Portal では次のユーザー役割をサポートしています。
 
 ### ゲストユーザー {#guest-user}
 
-認証なしで Brand Portal 上のアセットに対する制限付きのアクセス権を持つユーザーはすべてゲストユーザーです。ゲストセッションは、ユーザーに対し、公開フォルダーおよび公開コレクションへのアクセスを許可します。ゲストユーザーは、アセットの詳細を参照したり、公開フォルダーおよび公開コレクションのメンバーのアセットの完全なアセット表示をおこなったりできます。公開アセットを検索、ダウンロード、および [!UICONTROL Lightbox] コレクションに追加できます。
+認証なしで Brand Portal 上のアセットに対する制限付きのアクセス権を持つユーザーはすべてゲストユーザーです。ゲストセッションは、ユーザーに対し、公開フォルダーおよび公開コレクションへのアクセスを許可します。ゲストユーザーは、アセットの詳細を参照したり、公開フォルダーおよび公開コレクションのメンバーのアセットの完全なアセット表示を行ったりできます。公開アセットを検索、ダウンロード、および [!UICONTROL Lightbox] コレクションに追加できます。
 
 ただし、ゲストセッションでは、コレクションや保存済みの検索結果を作成したり、それらを共有したりすることはできません。ゲストセッション中のユーザーはフォルダーやコレクションの設定にアクセスしたり、アセットをリンクとして共有したりすることはできません。次に、ゲストユーザーが実行できるタスクの一覧を示します。
 
@@ -143,7 +143,7 @@ Brand Portal 6.4.3 以降では、各組織はそれぞれの Brand Portal テ�
 
 >[!NOTE]
 >
->既存のポータル URL 中のテナント名のエイリアスを取得するには、各組織からアドビサポートへ新規テナント名の作成依頼を出す必要があります。このリクエストが処理される際は、まずそのエイリアスが使用可能かどうかの確認がおこなわれ、その後でエイリアスが作成されます。
+>既存のポータル URL 中のテナント名のエイリアスを取得するには、各組織からアドビサポートへ新規テナント名の作成依頼を出す必要があります。このリクエストが処理される際は、まずそのエイリアスが使用可能かどうかの確認が行われ、その後でエイリアスが作成されます。
 >
 >古いエイリアスを置き換えたり、古いエイリアスを削除するには、同じ手続きに従う必要があります。
 
