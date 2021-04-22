@@ -9,14 +9,14 @@ contentOwner: Vishabh Gupta
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
+exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
 translation-type: ht
-source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: ht
 source-wordcount: '1935'
 ht-degree: 100%
 
 ---
-
 
 # Brand Portal からのアセットのダウンロード {#download-assets-from-bp}
 
@@ -419,4 +419,3 @@ Following are the steps to download assets or folders containing assets from Bra
 >[!NOTE]
 >
 >引用したデータは、テスト条件下において確認されたものであり、レイテンシや帯域幅の異なる場所にいるユーザーの場合は結果が異なる可能性があります。
-
