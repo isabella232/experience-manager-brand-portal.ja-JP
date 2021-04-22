@@ -9,14 +9,14 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
 role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
-workflow-type: tm+mt
-source-wordcount: '285'
+exl-id: 84160b81-e321-4920-9a86-e4cce3fa874c
+translation-type: ht
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+workflow-type: ht
+source-wordcount: '284'
 ht-degree: 100%
 
 ---
-
 
 # Lightbox コレクションの管理 {#manage-the-lightbox-collection}
 
