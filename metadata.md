@@ -5,10 +5,10 @@ solution: Experience Manager
 feature-set: Experience Manager Assets
 type: Documentation
 index: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0240080cf98fa0c1ba12dbcc9df17b2836064847
-workflow-type: tm+mt
-source-wordcount: '112'
+workflow-type: ht
+source-wordcount: '111'
 ht-degree: 100%
 
 ---
