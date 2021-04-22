@@ -10,26 +10,26 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 role: Administrator
-translation-type: tm+mt
-source-git-commit: 6b9433bd5a225a2bbaddc09980c9f7b866a75fe8
-workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 59%
+exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
+translation-type: ht
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+workflow-type: ht
+source-wordcount: '433'
+ht-degree: 100%
 
 ---
 
-
 # AEM Assets と Brand Portal の連携の設定 {#configure-integration}
 
-Brand PortalでAdobe Experience Managerアセットを設定すると、Brand Portalユーザのアセット公開、アセット配信、およびアセット貢献度機能を有効にできます。 これにより、AEM Assetsのユーザは、Brand Portalユーザと共にアセットを公開および配信できます。 Brand Portalのユーザは、アセット貢献度フォルダに新しいアセットをアップロードしてAEM Assetsに公開することで、共有アセットにアクセスして貢献できます。
+Adobe Experience Manager Assets と Brand Portal の連携を設定すると、Brand Portal ユーザー向けにアセットの公開、アセットの配布、アセットの投稿機能が可能になります。これにより、AEM Assets ユーザーは、Brand Portal ユーザーにアセットを公開および配布できます。Brand Portal ユーザーは、共有アセットにアクセスしたり、アセットを投稿したりできます。アセットを投稿するには、アセット投稿フォルダーに新しいアセットをアップロードし、その投稿フォルダーを AEM Assets に公開します。
 
-Brand PortalでのAEM Assetsの設定は、次の場所でサポートされています。
+AEM Assets と Brand Portal の連携の設定は、次のバージョンでサポートされています。
 * AEM Assets as a Cloud Service
-* AEM Assets（オンプレミスおよびマネージドサービス） 6.3以降
+* AEM Assets（オンプレミス版および Managed Services 版）6.3 以降
 
-Cloud ServiceとしてのAEM Assetsは、Cloud ManagerからBrand Portalをアクティブ化することで、Brand Portalで自動的に設定されます。 アクティベーションワークフローは、バックエンドで必要な設定を作成し、Cloud ServiceインスタンスとしてAEM Assetsと同じIMS組織でBrand Portalをアクティブにします。
+Cloud Manager から Brand Portal をアクティベートすると、AEM Assets as a Cloud Service と Brand Portal の連携が自動的に設定されます。アクティベーションワークフローにより、バックエンドで必要な設定が作成され、AEM Assets as a Cloud Service インスタンスと同じ IMS 組織に Brand Portal がアクティベートされます。
 
-一方、AEM Assets（オンプレミスおよびマネージドサービス）は、Adobe開発者コンソールを使用してBrand Portalで手動設定します。これにより、Brand Portalテナントの認証用にAdobeIdentity Managementサービス(IMS)トークンが調達されます。
+一方、AEM Assets（オンプレミス版および Managed Services 版）と Brand Portal の連携は、Adobe Developer Console を使用して手動で設定されます。このコンソールでは、Brand Portal テナントの認証に使用する Adobe Identity Management サービス（IMS）トークンを調達します。
 
 >[!NOTE]
 >
@@ -37,16 +37,16 @@ Cloud ServiceとしてのAEM Assetsは、Cloud ManagerからBrand Portalをア�
 >
 >これまで、Brand Portal は、旧来の OAuth ゲートウェイを通じてクラシックインターフェイスで設定されていました。このゲートウェイは、JSON Web トークン（JWT）交換を使用して認証用の IMS トークンを取得します。
 >
->旧来の OAuth を使用した設定は、2020 年 4 月 6 日以降はサポートされなくなり、Adobe 開発者コンソールを使用した設定に変更されました。
+>旧来の OAuth を使用した設定は、2020 年 4 月 6 日以降はサポートされなくなり、Adobe Developer Console を使用した設定に変更されました。
 
 
 >[!TIP]
 >
->***既存のお客様専用（オンプレミスおよびマネージドサービス）***
+>***既存のお客様のみ（オンプレミス版および Managed Services 版）***
 >
 >旧来の OAuth ゲートウェイを通じた設定は、既存のお客様には引き続きご利用いただけます。
 >
->旧来の OAuth ゲートウェイを通じた設定で問題が発生した場合は、Adobe 開発者コンソールで既存の設定を削除し新しい設定を作成します。
+>旧来の OAuth ゲートウェイを通じた設定で問題が発生した場合は、Adobe Developer Console で既存の設定を削除して新しい設定を作成します。
 
 AEM Assets と Brand Portal の連携を設定する手順は、AEM のバージョンと、初めて設定するか既存の設定をアップグレードするかによって異なります。
 
