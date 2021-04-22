@@ -9,14 +9,14 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+exl-id: 212a1b3a-686f-4250-be06-b679b6039887
+translation-type: ht
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+workflow-type: ht
+source-wordcount: '871'
+ht-degree: 100%
 
 ---
-
 
 # 画像プリセットまたは動的レンディションの適用 {#apply-image-presets-or-dynamic-renditions}
 
@@ -40,7 +40,6 @@ AEM 管理者は、アセットの詳細ページに動的レンディション�
 >[!NOTE]
 >
 >画像の動的レンディションは、ピラミッド TIFF を使用して作成されます。ピラミッド TIFF がどのアセットにも使用できない場合、そのアセットの動的レンディションを Brand Portal で取得することはできません。
-
 >
 >AEM（オーサー）インスタンスが **Dynamic Media ハイブリッドモード**&#x200B;で実行されている場合、画像アセットのピラミッド TIFF レンディションが作成されて AEM リポジトリに保存されます。
 >
@@ -70,7 +69,7 @@ AEM 管理者は、アセットの詳細ページに動的レンディション�
 1. 「**[!UICONTROL 保存]**」をクリックします。画像プリセットが作成され、画像プリセットページに表示されます。
 1. 画像プリセットを削除するには、画像プリセットページから削除する画像プリセットを選択し、「**[!UICONTROL 削除]**」をクリックします。確認ページで「**[!UICONTROL 削除]**」をクリックして、削除することを確認します。指定した画像プリセットが、画像プリセットページから削除されます。
 
-## 画像をプレビューする際の画像プリセットの適用   {#apply-image-presets-when-previewing-images}
+## 画像をプレビューする際の画像プリセットの適用  {#apply-image-presets-when-previewing-images}
 
 画像とそのレンディションをプレビューするときは、既存のプリセットから選択することで、管理者が設定した仕様で画像を再フォーマットできます。
 
@@ -83,7 +82,7 @@ AEM 管理者は、アセットの詳細ページに動的レンディション�
 
    ![](assets/image-preset-previewrenditionthumbnail.png)
 
-## 画像をダウンロードする際の画像プリセットの適用  {#apply-image-presets-when-downloading-images}
+## 画像をダウンロードする際の画像プリセットの適用 {#apply-image-presets-when-downloading-images}
 
 Brand Portal から画像とそのレンディションをダウンロードするときは、既存の画像プリセットから選択することはできません。ただし、再フォーマットする画像に基づいて、画像プリセットのプロパティをカスタマイズできます。
 
