@@ -9,14 +9,14 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
+exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
 translation-type: ht
-source-git-commit: b69025074080b83ac699da434fc525fea1cb100a
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: ht
 source-wordcount: '1207'
 ht-degree: 100%
 
 ---
-
 
 # Brand Portal でのダイナミックビデオのサポート {#dynamic-video-support-on-brand-portal}
 
