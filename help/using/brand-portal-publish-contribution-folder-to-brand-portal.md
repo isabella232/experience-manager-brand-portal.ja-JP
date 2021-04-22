@@ -9,14 +9,14 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
+exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
 translation-type: ht
-source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: ht
 source-wordcount: '1125'
 ht-degree: 100%
 
 ---
-
 
 # AEM Assets での投稿フォルダーの設定 {#configure-contribution-folder}
 
