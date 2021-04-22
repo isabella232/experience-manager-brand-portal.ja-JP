@@ -10,11 +10,11 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '600'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 このリリースには、次の新機能が含まれています。
 
-* AEM Assetsは、事前設定済みのブランドポータルインスタンスを持つ権利をCloud Serviceに付与されました。 Cloud Managerユーザーは、Cloud Serviceインスタンスとして、AEM Assetsでブランドポータルをアクティブ化できます。
+* AEM Assets as a Cloud Service は、事前設定済みの Brand Portal インスタンスを持つことができるようになりました。Cloud Manager ユーザーは、AEM Assets as a Cloud Service インスタンスに Brand Portal をアクティベートできます。
 
 * アセットソーシング機能が AEM Assets as a Cloud Service で使用できるようになりました。これにより、Brand Portal ユーザーが、許可された投稿フォルダーにアセットをアップロードし、Brand Portal から AEM Assets as a Cloud Service インスタンスに投稿フォルダーを公開できるようになります。
 
@@ -162,7 +162,7 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 * 簡体字中国語
 * 韓国語
 
-## 認定プラットフォーム  {#certified-platforms}
+## 認定プラットフォーム {#certified-platforms}
 
 このリリースの Brand Portal を実行できる認定プラットフォームを確認するには、[技術要件](https://helpx.adobe.com/jp/experience-manager/6-4/sites/deploying/using/technical-requirements.html)の「**オーサリングユーザーインターフェイス向けにサポートされているブラウザー**」節に記載されている表の「**UI のサポート**」列を参照してください。
 
