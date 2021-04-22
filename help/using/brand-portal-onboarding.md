@@ -8,14 +8,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: e8d06818-29c7-4810-bff1-40b3e2818114
-translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
-workflow-type: tm+mt
+exl-id: 1f52045b-afb1-4501-878d-c327d394e258
+translation-type: ht
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+workflow-type: ht
 source-wordcount: '338'
 ht-degree: 100%
 
 ---
-
 
 # 初回のログイン操作 {#first-time-login-experience}
 
