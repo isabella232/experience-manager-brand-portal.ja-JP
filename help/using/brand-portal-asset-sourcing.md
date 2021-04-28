@@ -17,9 +17,9 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e8bb1149582329f5304bda7e5e67e8dcc27cfc7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '841'
 ht-degree: 100%
 
