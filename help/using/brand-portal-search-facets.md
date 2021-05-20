@@ -9,10 +9,9 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Administrator
-exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141,cd0e6c36-aa23-4a50-aca6-81ca365ce447
-translation-type: ht
-source-git-commit: 1185de93369fc80231e64e3b5d81ac73837c153f
-workflow-type: ht
+exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
+source-git-commit: b4aa1bf08b8edc21d980d16d8a0068e453ae627d
+workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 100%
 
@@ -103,7 +102,7 @@ Brand Portal では[ファセット検索](../using/brand-portal-searching.md#se
 | **[!UICONTROL 日付]** | 日付プロパティに基づいて、スライダーを使用してアセットを検索するための検索用述語。 | <ul><li>フィールドラベル</li><li>プロパティ名</li><li>説明</li></ul> |
 | **[!UICONTROL ファイルサイズ]** | サイズに基づいてアセットを検索するための検索用述語。 | <ul><li>フィールドラベル</li><li>プロパティ名</li><li>パス</li><li>説明</li></ul> |
 | **[!UICONTROL 最終変更アセット]** | 最終変更日に基づいてアセットを検索するための検索用述語。 | <ul><li>フィールドラベル</li><li>プロパティ名</li><li>説明</li></ul> |
-| **[!UICONTROL 承認ステータス]** | 承認メタデータプロパティに基づいてアセットを検索するための検索用述語。デフォルトのプロパティ名は **dam:status** です。 | <ul><li>フィールドラベル</li><li>プロパティ名</li><li>説明</li></ul> |
+| **[!UICONTROL 承認ステータス]** | 承認メタデータプロパティに基づいてアセットを検索するための検索用述語。デフォルトのプロパティ名は **dam:status**. | <ul><li>フィールドラベル</li><li>プロパティ名</li><li>説明</li></ul> |
 | **[!UICONTROL チェックアウトステータス]** | アセットが AEM Assets から公開されたときのチェックアウトステータスに基づいてアセットを検索するための検索用述語。 | <ul><li>フィールドラベル</li><li>プロパティ名</li><li>説明</li></ul> |
 | **[!UICONTROL チェックアウト実行者]** | アセットをチェックアウトしたユーザーに基づいてアセットを検索するための検索用述語。 | <ul><li>フィールドラベル</li><li>プロパティ名</li><li>説明</li></ul> |
 | **[!UICONTROL 有効期限ステータス]** | 有効期限ステータスに基づいてアセットを検索するための検索用述語。 | <ul><li>フィールドラベル</li><li>プロパティ名</li><li>説明</li></ul> |
