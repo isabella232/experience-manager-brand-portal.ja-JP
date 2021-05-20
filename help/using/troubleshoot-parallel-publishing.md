@@ -10,9 +10,8 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Administrator
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-translation-type: ht
 source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 100%
 
