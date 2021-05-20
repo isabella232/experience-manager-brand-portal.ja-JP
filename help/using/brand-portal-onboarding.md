@@ -9,9 +9,8 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: e8d06818-29c7-4810-bff1-40b3e2818114
 exl-id: 1f52045b-afb1-4501-878d-c327d394e258
-translation-type: ht
 source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 100%
 
