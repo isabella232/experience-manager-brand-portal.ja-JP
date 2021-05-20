@@ -9,9 +9,8 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-translation-type: ht
 source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1554'
 ht-degree: 100%
 
@@ -84,7 +83,7 @@ Brand Portal では次のユーザー役割をサポートしています。
 
 [公開アセットのダウンロード](brand-portal-download-assets.md)
 
-[[!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox) へのアセットの追加
+[[!UICONTROL Lightbox] へのアセットの追加](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### 閲覧者 {#viewer}
 
