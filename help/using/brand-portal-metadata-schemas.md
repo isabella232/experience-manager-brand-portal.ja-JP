@@ -10,9 +10,8 @@ topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Administrator
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-translation-type: ht
 source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1756'
 ht-degree: 100%
 
@@ -170,7 +169,7 @@ Brand Portal では、選択した特定の情報のみをアセットの&#x200B
 >
 >ネストされたスキーマを含むスキーマを、ビデオファイルを含むフォルダーに適用すると、そのビデオファイルのメタデータプロパティが適切にレンダリングされない場合があります。メタデータプロパティを適切にレンダリングするには、ネストされたスキーマを削除し、フォルダーに親スキーマのみを適用します。
 
-## メタデータスキーマフォームの削除 {#delete-a-metadata-schema-form}
+## メタデータスキーマフォームの削除  {#delete-a-metadata-schema-form}
 
 Brand Portal では、カスタムのスキーマフォームのみを削除できます。デフォルトのスキーマフォームまたはテンプレートを削除することはできません。ただし、これらのフォームでのカスタムの変更内容は削除できます。
 
