@@ -9,9 +9,8 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
 exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
-translation-type: ht
 source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 100%
 
@@ -35,7 +34,7 @@ AEM Assets から Brand Portal にタグを公開する方法を学習します�
 
 AEM でタグを作成し、そのタグを Brand Portal に公開し、適切なアセット（またはコレクション）に関連付けるには、次のようにします。
 
-1. **タグを作成します。**
+1. タグを作成します。****
 管理者権限で AEM オーサーインスタンスにサインインし、グローバルナビゲーションから **[!UICONTROL AEM タグ]**&#x200B;コンソールにアクセスします。
 
    1. 「**[!UICONTROL ツール]**」を選択します
@@ -67,7 +66,7 @@ AEM でタグを作成し、そのタグを Brand Portal に公開し、適切�
 
 1. **タグをアセット（またはコレクション）に関連付けます**。
 
-   アセット（またはコレクション）を選択し、そのアセットの「プロパティ」セクションまたは「タグを管理」セクションを使用して、目的のタグを関連付けます。AEM Assets でアセットにタグを割り当てる方法について詳しくは、[タグを使用したアセットの構成](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets)を参照してください。
+   アセット（またはコレクション）を選択し、そのアセットの「プロパティ」セクションまたは「タグを管理」セクションを使用して、目的のタグを関連付けます。AEM Assets でアセットにタグを割り当てる方法について詳しくは、[タグを使用したアセットの構成](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets)を参照してください。
 
 1. **アセット（またはコレクション）を Brand Portal に公開します**。\
    アセット（またはコレクション）を Brand Portal に公開すると、関連付けられているタグも Brand Portal 上で利用できるようになります。
