@@ -10,9 +10,8 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-translation-type: ht
 source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 100%
 
@@ -66,7 +65,7 @@ ht-degree: 100%
    >
    >コレクション内のアセットやフォルダーへのアクセスは、ユーザーの役割によって決まります。アセットへのアクセス権を持たないユーザーは、空のコレクションを共有します。また、コレクションに対して実行できるアクションも、ユーザーの役割によって決まります。
 
-## コレクションの共有解除 {#unshare-a-collection}
+## コレクションの共有解除  {#unshare-a-collection}
 
 コレクションの共有を解除するには、以下の手順を実行します。
 
