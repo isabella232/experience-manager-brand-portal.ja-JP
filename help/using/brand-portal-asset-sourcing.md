@@ -17,10 +17,10 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: e8bb1149582329f5304bda7e5e67e8dcc27cfc7b
+source-git-commit: bfbc90e3cdc9e3fc72a6e54f6730922753585471
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 100%
+source-wordcount: '684'
+ht-degree: 91%
 
 ---
 
@@ -30,16 +30,24 @@ ht-degree: 100%
 
 また、既存の機能はすべてそのままで変わりません。Brand Portal ユーザーは、投稿フォルダーおよび許可された他のフォルダーからアセットを表示、検索およびダウンロードできます。さらに、管理者は投稿フォルダーの共有、プロパティの変更、コレクションへのアセットの追加をおこなうことができます。
 
+![Brand Portal アセットソーシング](assets/asset-sourcing.png)
+
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+
 ## 前提条件 {#prerequisites}
 
 * AEM Assets as a Cloud Service インスタンス、AEM Assets 6.5.2 以降。
 * AEM Assets インスタンスと Brand Portal の連携が設定されていることを確認します。[AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
-* Brand Portal テナントが 1 つの AEM Assets オーサーインスタンスで構成されていることを確認します。
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+<!--
+* Ensure that your Brand Portal tenant is configured with one AEM Assets author instance.
+-->
 
-![Brand Portal アセットソーシング](assets/asset-sourcing.png)
-
+>[!NOTE]
+>
+>アセットソーシング機能は、AEM Assets as aCloud Service(AEM Assets 6.5.9以降)で、デフォルトで有効になっています。
+>
+>既存の設定は、以前のバージョンで引き続き機能します。
 
 >[!NOTE]
 >
@@ -49,44 +57,55 @@ ht-degree: 100%
 >
 >AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダウンロード](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)して、オーサーインスタンスにインストールすることをお勧めします。
 
-## アセットソーシングの設定 {#configure-asset-sourcing}
+<!--
+## Configure Asset Sourcing {#configure-asset-sourcing}
 
-**アセットソーシング**&#x200B;は、AEM Assets オーサーインスタンス内から設定します。管理者は、**AEM Web コンソール設定**&#x200B;からアセットソーシング機能のフラグ設定を有効にし、アクティブな Brand Portal ユーザーリストを **AEM Assets** にアップロードできます。
-
->[!NOTE]
->
->AEM Assets as a Cloud Service では、アセットソーシングはデフォルトで有効になっています。AEM 管理者は、アクティブな Brand Portal ユーザーを直接アップロードして、これらのユーザーにアセットソーシング機能へのアクセスを許可することができます。
+**Asset Sourcing** is configured from within the AEM Assets author instance. The administrators can enable the Asset Sourcing feature flag configuration from the **AEM Web Console Configuration** and upload the active Brand Portal users list in **AEM Assets**.
 
 >[!NOTE]
 >
->設定を開始する前に、AEM Assets インスタンスと Brand Portal の連携が設定されていることを確認します。[AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
+>Asset Sourcing is by default enabled on AEM Assets as a Cloud Service. The AEM administrator can directly upload the active Brand Portal users to allow them access to the Asset Sourcing feature.
 
-次のビデオでは、AEM Assets オーサーインスタンスでアセットソーシングを設定する方法について説明します。
+>[!NOTE]
+>
+>Before you begin with the configuration, ensure that your AEM Assets instance is configured with Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md). 
+
+The following video demonstrates, how to configure Asset Sourcing on your AEM Assets author instance:
 
 >[!VIDEO](https://video.tv.adobe.com/v/29771)
+-->
 
-### アセットソーシングの有効化 {#enable-asset-sourcing}
+<!--
+### Enable Asset Sourcing {#enable-asset-sourcing}
 
-AEM 管理者は、AEM Web コンソール設定（Configuration Manager）内からアセットソーシング機能のフラグを有効にすることができます。
+AEM administrators can enable the Asset Sourcing feature flag from within the AEM Web Console Configuration (a.k.a Configuration Manager).
 
 >[!NOTE]
 >
->この手順は、AEM Assets as a Cloud Service には適用されません。
+>This step is not applicable for AEM Assets as a Cloud Service.
 
 
-**アセットソーシングを有効にするには：**
-1. AEM Assets オーサーインスタンスにログインして、Configuration Manager を開きます。
-デフォルトの URL は http://localhost:4502/system/console/configMgr です。
-1. キーワード「**Asset Sourcing**」を使用して検索し、**[!UICONTROL Asset Sourcing Feature Flag Config]** を探します。
-1. 「**[!UICONTROL Asset Sourcing Feature Flag Config]**」をクリックして、設定ウィンドウを開きます。
-1. 「**[!UICONTROL feature.flag.active.status]**」チェックボックスをオンにします。
-1. 「**[!UICONTROL 保存]**」をクリックします。
+**To enable Asset Sourcing:**
+1. Log in to your AEM Assets author instance and open Configuration Manager. 
+Default URL: http:// localhost:4502/system/console/configMgr.
+1. Search using the keyword **Asset Sourcing** to locate **[!UICONTROL Asset Sourcing Feature Flag Config]**.
+1. Click **[!UICONTROL Asset Sourcing Feature Flag Config]** to open the configuration window.
+1. Select the **[!UICONTROL feature.flag.active.status]** check box.
+1. Click **[!UICONTROL Save]**.
 
 ![](assets/enable-asset-sourcing.png)
+-->
+
 
 ### Brand Portal ユーザーリストのアップロード {#upload-bp-user-list}
 
-AEM 管理者は、AEM Assets のアクティブな Brand Portal ユーザーリストを含む Brand Portal ユーザー設定（.csv）ファイルをアップロードできます。投稿フォルダーは、ユーザーリストで定義されたアクティブな Brand Portal ユーザーのみ共有できます。また、管理者は、設定ファイルに新規ユーザーを追加して、変更したユーザーリストをアップロードできます。
+AEM管理者は、アクティブなBrand Portalユーザーリストを含むBrand Portalユーザー設定(.csv)ファイルをAEM Assetsにアップロードして、アセットソーシング機能へのアクセスを許可できます。
+
+投稿フォルダーは、ユーザーリストで定義されたアクティブな Brand Portal ユーザーのみ共有できます。また、管理者は、設定ファイルに新規ユーザーを追加して、変更したユーザーリストをアップロードできます。
+
+>[!NOTE]
+>
+>AEM Assets インスタンスと Brand Portal の連携が設定されていることを確認します。[AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
 
 >[!NOTE]
 >
