@@ -18,9 +18,9 @@ version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
 source-git-commit: bfbc90e3cdc9e3fc72a6e54f6730922753585471
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '684'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->アセットソーシング機能は、AEM Assets as aCloud Service(AEM Assets 6.5.9以降)で、デフォルトで有効になっています。
+>アセットソーシング機能は、AEM Assets as a Cloud Service（AEM Assets 6.5.9 以降）では、アセットソーシング機能がデフォルトで有効になっています。
 >
 >既存の設定は、以前のバージョンで引き続き機能します。
 
@@ -99,7 +99,7 @@ Default URL: http:// localhost:4502/system/console/configMgr.
 
 ### Brand Portal ユーザーリストのアップロード {#upload-bp-user-list}
 
-AEM管理者は、アクティブなBrand Portalユーザーリストを含むBrand Portalユーザー設定(.csv)ファイルをAEM Assetsにアップロードして、アセットソーシング機能へのアクセスを許可できます。
+AEM　管理者は、アクティブな Brand Portal ユーザーリストを含む Brand Portal ユーザー設定（.csv）ファイルを AEM Assets にアップロードして、アセットソーシング機能へのアクセスを許可できます。
 
 投稿フォルダーは、ユーザーリストで定義されたアクティブな Brand Portal ユーザーのみ共有できます。また、管理者は、設定ファイルに新規ユーザーを追加して、変更したユーザーリストをアップロードできます。
 
