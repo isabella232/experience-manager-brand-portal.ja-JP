@@ -9,9 +9,9 @@ topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
-role: Administrator
+role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 100%
@@ -51,7 +51,7 @@ Brand Portal では、管理者は期限切れアセットを表示したり、�
 >
 >閲覧者およびエディターが期限切れアセットと期限切れでないアセットを含むフォルダーをダウンロードした場合は、期限切れでないアセットのみがダウンロードされます。フォルダーに期限切れアセットのみが含まれている場合は、空のフォルダーがダウンロードされます。
 
-### アセットの有効期限ステータス  {#expiration-status-of-assets}
+### アセットの有効期限ステータス {#expiration-status-of-assets}
 
 アセットの有効期限ステータスは&#x200B;**[!UICONTROL カード表示]**&#x200B;で確認できます。カード上の赤いフラグは、そのアセットが期限切れであることを示しています。
 
@@ -61,7 +61,7 @@ Brand Portal では、管理者は期限切れアセットを表示したり、�
 >
 >リスト表示と列表示では、アセットの有効期限ステータスは表示されません。
 
-## アセットのリンクの有効期限  {#asset-link-expiration}
+## アセットのリンクの有効期限 {#asset-link-expiration}
 
 管理者およびエディターは、リンクを通じてアセットを共有する一方で、**[!UICONTROL リンク共有]**&#x200B;ダイアログボックスの「**[!UICONTROL 有効期限]**」フィールドを使用して有効期限の日時を設定できます。リンクのデフォルトの有効期限は、リンクが共有された日から 7 日間です。
 
@@ -87,7 +87,7 @@ Brand Portal では、管理者は期限切れアセットを表示したり、�
 
 選択した項目に保護されたアセットが複数含まれている場合は、アセットを 1 つずつ選択して使用許諾契約に同意し、アセットのダウンロードに進みます。
 
-## 期限切れアセットに関するレポートの生成  {#generate-report-about-expired-assets}
+## 期限切れアセットに関するレポートの生成 {#generate-report-about-expired-assets}
 
 管理者は、特定の期間内に期限切れになったすべてのアセットをリストするレポートを生成してダウンロードできます。このレポートには、期限切れアセットについての詳細情報（サイズ、種類、アセット階層内のアセットの場所を示すパス、アセットが期限切れになった日時、アセットが公開された日時など）が含まれます。このレポートの列はカスタマイズ可能であり、表示するデータを要件に応じて増やすことができます。
 
