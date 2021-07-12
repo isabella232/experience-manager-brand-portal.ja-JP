@@ -8,12 +8,12 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-role: Administrator
+role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '892'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 公開がうまくいかない場合によくある原因は、公開を実行するユーザー（例：`mac-<tenantid>-replication`）が最新の秘密鍵を持っていないことです。そのため、公開が「401 Unauthorized」エラーで失敗し、レプリケーションエージェントログに他のエラーは記録されません。その場合は、トラブルシューティングをおこなうのではなく、新しい設定を作成することをお勧めします。新しい設定を正しく機能させるには、AEM オーサーインスタンスのセットアップから以下をクリーンアップします。
 
-1. `localhost:4502/crx/de/` に移動します（localhost:4502 でオーサーインスタンスを実行していると仮定）。\
+1. `localhost:4502/crx/de/`に移動します（ローカルホスト:4502:でオーサーインスタンスを実行していると仮定）。\
    i. `/etc/replication/agents.author/mp_replication` を削除します。
 ii. 次を削除します。 
 `/etc/cloudservices/mediaportal/<config_name>`
