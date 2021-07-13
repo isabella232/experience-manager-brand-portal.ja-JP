@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
 source-git-commit: 6e6d771e93a3b76f72548f1a3cc61d75e31342ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1049'
 ht-degree: 100%
 
@@ -186,7 +186,7 @@ Microsoft Edge で高速ダウンロード機能を使用するには、信頼�
 1. 「**[!UICONTROL 信頼済みサイトゾーン]**」、「**[!UICONTROL サイト]**」の順にクリックします。
 1. リストから Brand Portal サイトを削除します。
 
-## Aspera Connect クライアントの環境設定  {#aspera-connect-client-preferences}
+## Aspera Connect クライアントの環境設定 {#aspera-connect-client-preferences}
 
 アイコンを右クリックし、「**[!UICONTROL 環境設定]**」を選択して IBM Aspara Connect クライアント環境設定で指定できる、便利な環境設定がいくつかあります。
 
@@ -196,15 +196,15 @@ Microsoft Edge で高速ダウンロード機能を使用するには、信頼�
 
 ![](assets/aspera-preferences.png)
 
-また、接続クライアントを実行して素早くダウンロードを始められるよう、システム起動時に Aspera Connect クライアントを自動的に開始するようマークすることもできます。
+また、接続クライアントを実行してすばやくダウンロードを始められるよう、システム起動時に Aspera Connect クライアントを自動的に開始するようマークすることもできます。
 
 ![](assets/aspera-automaticallylaunch.png)
 
-## ダウンロードアクセラレーションに関する問題のトラブルシューティング  {#troubleshoot-issues-with-download-acceleration}
+## ダウンロードアクセラレーションに関する問題のトラブルシューティング {#troubleshoot-issues-with-download-acceleration}
 
 ダウンロードアクセラレーションが機能しない場合は、次の手順に従ってトラブルシューティングをおこなってください。
 
-1. お使いのコンピューターから [https://test-connect.asperasoft.com/](https://test-connect.asperasoft.com/) にアクセスして、そのポートがブロックされていないことを確認します。
+1. お使いのコンピューターから [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) にアクセスして、そのポートがブロックされていないことを確認します。
 
    ポートに問題がある場合は、ネットワークチームに連絡して、ポート 33001（TCP と UDP の両方）がファイアウォールでブロックされていないことを確認します。
 
