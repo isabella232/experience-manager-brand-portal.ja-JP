@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1482'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 100%
 Brand Portal FAQ では、最新の AEM Assets Brand Portal 6.4.6 リリース以前のバージョンで作業中に発生する可能性のある問題やエンドユーザーからの問い合わせを重点的に扱っています。
 
 
-## Brand Portal 6.4.6 に関する FAQ {#faqs-bp646}
+## Brand Portal 6.4.6 に関する FAQ   {#faqs-bp646}
 
 **質問：既存のレガシー OAuth エンドポイント（`https://legacy-oauth.cloud.adobe.io/login`）が機能していません。考えられる理由は何でしょうか？**
 
@@ -38,9 +38,13 @@ Brand Portal FAQ では、最新の AEM Assets Brand Portal 6.4.6 リリース�
 
 **回答：**&#x200B;はい。投稿フォルダーのアセットを Adobe 開発者コンソールで AEM 6.5.4 上の AEM Assets に公開する際に発生する既知の問題があります。
 
-この問題は AEM 6.5.5 で修正されました。お使いの AEM Assets インスタンスを最新のサービスパック AEM 6.5.5 にアップグレードし、Adobe 開発者コンソールで[設定をアップグレード](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)してください。
+この問題は AEM 6.5.5 で修正されました。お使いの AEM Assets インスタンスを最新のサービスパック AEM 6.5.5 にアップグレードし、Adobe 開発者コンソールで[設定をアップグレード](https://docs.adobe.com/content/help/ja/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)してください。
 
-AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダウンロード](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)して、AEM オーサーインスタンスにインストールすることをお勧めします。
+<!--
+Broken link of download hotfix, comment out this section until we have the latest URL.
+
+For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
+-->
 
 **質問：Brand Portal から公開された投稿フォルダー内コンテンツが AEM Assets に表示されません。考えられる理由は何でしょうか？**
 
@@ -65,7 +69,7 @@ AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダ
 1. サーバーを再起動し、接続を確認します。
 
 
-## Brand Portal 6.4.5 に関する FAQ {#faqs-bp645}
+## Brand Portal 6.4.5 に関する FAQ   {#faqs-bp645}
 
 **質問：Brand Portal 6.4.5 リリースの主な変更点は何ですか。**
 
@@ -195,7 +199,7 @@ Brand Portal ユーザーは**投稿**&#x200B;フォルダーにアクセスし�
 >リリース日程は暫定的なものであり、変更の可能性があります。最新のリリース日程についてアドビのアカウントマネージャーまたはカスタマーサポートにお問い合わせください。
 
 
-## 製品のアクセスとサポート（制限付きサイト） {#product-access-and-support-restricted-sites}
+## 製品のアクセスとサポート（制限付きサイト）  {#product-access-and-support-restricted-sites}
 
 以下のサイトは既存ユーザーのみが参照できます。アクセス権を必要とするお客様は、アドビのアカウントマネージャーにご連絡ください。
 
