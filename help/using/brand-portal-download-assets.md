@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 30a97ddeda3df4714f2746cb60b5c25dae0848f1
-workflow-type: ht
-source-wordcount: '1960'
-ht-degree: 100%
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+workflow-type: tm+mt
+source-wordcount: '1954'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Experience Manager Assets Brand Portal は、Brand Portal から複数の�
 
 >[!NOTE]
 >
->Brand Portal 2020.10.0（およびそれ以降）では、「**[!UICONTROL 高速ダウンロード]**」設定がデフォルトで有効になっており、IBM Aspera Connect を使用してアセットのダウンロードが高速化されます。Brand Portal からアセットをダウンロードする前に、ブラウザーの拡張機能に [IBM Aspera Connect 3.9.9 をインストール](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html)してください。詳しくは、[Brand Portal からのダウンロードを高速化するためのガイド](../using/accelerated-download.md)を参照してください。
+>Brand Portal 2020.10.0（およびそれ以降）では、「**[!UICONTROL 高速ダウンロード]**」設定がデフォルトで有効になっており、IBM Aspera Connect を使用してアセットのダウンロードが高速化されます。Brand Portal からアセットをダウンロードする前に、ブラウザーの拡張機能に [IBM Aspera Connect 3.9.9 をインストール](https://www.ibm.com/docs/en/aspera-connect/3.9.9)してください。詳しくは、[Brand Portal からのダウンロードを高速化するためのガイド](../using/accelerated-download.md)を参照してください。
 >
 >IBM Aspera Connect を使用せず、通常のダウンロードプロセスを引き続き使用する場合は、Brand Portal 管理者に連絡して、「**[!UICONTROL 高速ダウンロード]**」設定をオフにしてください。
 
@@ -156,14 +156,14 @@ Brand Portal インターフェイスからアセットまたはアセットを�
 
       >[!NOTE]
       >
-      >初めてアセットをダウンロードするときに、ブラウザーに IBM Aspera Connect がインストールされていない場合は、[Aspera ダウンロードアクセラレーターをインストールする](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html)ように求めるプロンプトが表示されます。
+      >初めてアセットをダウンロードするときに、ブラウザーに IBM Aspera Connect がインストールされていない場合は、[Aspera ダウンロードアクセラレーターをインストールする](https://www.ibm.com/docs/en/aspera-connect/3.9.9)ように求めるプロンプトが表示されます。
 
 
       >[!NOTE]
       >
       >ダウンロードするアセットに、ライセンスが必要なアセットが含まれている場合は、**[!UICONTROL 著作権管理]**&#x200B;ページにリダイレクトされます。このページで、アセットを選択し、「**[!UICONTROL 同意する]**」をクリックし、「**[!UICONTROL ダウンロード]**」をクリックします。「同意しない」を選択した場合は、ライセンスが必要なアセットはダウンロードされません。
       > 
-      >ライセンスで保護されているアセットには、[使用許諾契約が添付](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)されています。この処理は、Experience Manager Assets でアセットの[メタデータプロパティ](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)を設定することでおこなわれます。
+      >ライセンスで保護されているアセットには、[使用許諾契約が添付](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)されています。この処理は、Experience Manager Assets でアセットの[メタデータプロパティ](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)を設定することでおこなわれます。
 
 
       ![licensed-asset](assets/licensed-asset-new.png)
