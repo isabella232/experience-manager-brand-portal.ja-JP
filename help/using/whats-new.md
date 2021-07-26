@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 11ceff7818760ea8c5ad39de93f792bfb5a96e5b
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '6154'
+source-wordcount: '6148'
 ht-degree: 99%
 
 ---
@@ -138,7 +138,7 @@ Brand Portal 2020.10.0 はアセットのダウンロード操作の簡素化に
 
 >[!NOTE]
 >
->すべてのユーザーで、「**[!UICONTROL 高速ダウンロード]**」がデフォルトで有効になります。Brand Portal からアセットをダウンロードする前に、[IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) をブラウザーの拡張機能にインストールする必要があります。
+>すべてのユーザーで、「**[!UICONTROL 高速ダウンロード]**」がデフォルトで有効になります。Brand Portal からアセットをダウンロードする前に、[IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9) をブラウザーの拡張機能にインストールする必要があります。
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
@@ -585,7 +585,7 @@ Brand Portal には、選択したアセット／フォルダーのアセット�
 
 ### Adobe I/O UI による OAuth 統合の設定
 
-Brand Portal 6.4.2 以降では、Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) インターフェイスを使用して JWT アプリケーションを作成しています。このアプリケーションでは、AEM Assets と Brand Portal の統合を許可するように OAuth 統合を設定できます。OAuth 統合を設定するための UI は、以前、`https://marketing.adobe.com/developer/` / でホストされていました。Brand Portal にアセットとコレクションを公開するための、AEM Assets と Brand Portal の統合について詳しくは、[AEM Assets と Brand Portal の統合の設定](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html)を参照してください。
+Brand Portal 6.4.2以降では、レガシーOAuth(`https://legacy-oauth.cloud.adobe.io/`)インターフェイスを使用してJWTアプリケーションを作成しています。このアプリケーションでは、AEM AssetsとBrand Portalの統合を許可するようにOAuth統合を設定できます。 OAuth 統合を設定するための UI は、以前、`https://marketing.adobe.com/developer/` / でホストされていました。Brand Portal にアセットとコレクションを公開するための、AEM Assets と Brand Portal の統合について詳しくは、[AEM Assets と Brand Portal の統合の設定](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html)を参照してください。
 
 ## 検索の機能強化
 
