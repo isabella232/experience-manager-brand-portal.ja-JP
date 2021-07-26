@@ -10,10 +10,10 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 98%
+source-wordcount: '884'
+ht-degree: 97%
 
 ---
 
@@ -74,11 +74,11 @@ ii. 次を削除します。
    i. ユーザー `mac-<tenantid>replication` を検索します。
 ii. このユーザーを削除します。
 
-これによってシステム全体がクリーンアップされます。これで新しいクラウドサービス設定の作成を試せるようになります。あるいは、[https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) 内の既存の JWT アプリケーションを引き続き使用することもできます。新しいアプリケーションを作成する必要はなく、新しく作成したクラウド設定から公開鍵を更新するだけで構いません。
+これによってシステム全体がクリーンアップされます。これで新しいクラウドサービス設定の作成を試せるようになります。あるいは、`https://legacy-oauth.cloud.adobe.io/` / 内の既存の JWT アプリケーションを引き続き使用することもできます。新しいアプリケーションを作成する必要はなく、新しく作成したクラウド設定から公開鍵を更新するだけで構いません。
 
 ## Developer Connection の JWT アプリケーションテナントの可視性の問題 {#developer-connection-jwt-application-tenant-visibility-issue}
 
-[https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) 上であれば、現在のユーザーがシステム管理者を抱えているすべての組織（テナント）が一覧表示されます。ここに組織名が表示されない場合や、必要なテナントのアプリケーションを作成できない場合は、そのための十分な（システム管理者の）権限を持っているかを確認してください。
+`https://legacy-oauth.cloud.adobe.io/`上の場合、現在のユーザーがシステム管理者を抱えているすべての組織（テナント）が表示されます。 ここに組織名が表示されない場合や、必要なテナントのアプリケーションを作成できない場合は、そのための十分な（システム管理者の）権限を持っているかを確認してください。
 
 このユーザーインターフェイスには、既知の問題が 1 つあります。つまり、どのテナントでも上位 10 件のアプリケーションしか表示されないことです。アプリケーションを作成したら、そのページにとどまり、URL をブックマークしてください。アプリケーションの一覧ページに移動して、自分が作成したアプリケーションを探す必要はありません。ブックマークした URL に直接アクセスして、いつでも必要なときにアプリケーションを更新または削除できます。
 
