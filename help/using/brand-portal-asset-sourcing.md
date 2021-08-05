@@ -17,9 +17,9 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: bfbc90e3cdc9e3fc72a6e54f6730922753585471
-workflow-type: ht
-source-wordcount: '684'
+source-git-commit: 88526c235a12d47f5cbb5f442683f8b0ac2f21e5
+workflow-type: tm+mt
+source-wordcount: '651'
 ht-degree: 100%
 
 ---
@@ -53,9 +53,12 @@ ht-degree: 100%
 >
 >AEM Assets 6.5.4 には既知の問題があります。Adobe 開発者コンソールにアップグレードすると、Brand Portal ユーザーが投稿フォルダーのアセットを AEM Assets に公開できなくなります。
 >
->この問題は AEM 6.5.5 で修正されました。お使いの AEM Assets インスタンスを最新のサービスパック AEM 6.5.5 にアップグレードし、Adobe 開発者コンソールで[設定をアップグレード](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)してください。
->
->AEM 6.5.4 の即時修正をおこなうには、[ホットフィックスをダウンロード](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)して、オーサーインスタンスにインストールすることをお勧めします。
+>この問題は AEM 6.5.5 で修正されました。お使いの AEM Assets インスタンスを最新のサービスパック AEM 6.5.5 にアップグレードし、Adobe 開発者コンソールで[設定をアップグレード](https://docs.adobe.com/content/help/ja/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)してください。
+
+<!--
+
+>For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your author instance.
+-->
 
 <!--
 ## Configure Asset Sourcing {#configure-asset-sourcing}
