@@ -12,7 +12,7 @@ discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
 role: Admin
 exl-id: 27a9cd26-9bb3-473b-b1ac-37f77975c912
 source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '302'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ AEM Assets Brand Portal 6.4.2 以降では、管理者は、所属組織の Bran
 
 ![](assets/access-configs.png)
 
-**A**：Brand Portal のようこそ画面の&#x200B;**[!UICONTROL ゲストとしてアクセスしますか？]**&#x200B;リンクを使用して、Brand Portal でゲストによるアクセスを許可する設定（デフォルトでは無効になっています）
+**A**：Brand Portal のようこそ画面の **[!UICONTROL ゲストとしてアクセスしますか？]**&#x200B;リンクを使用して、Brand Portal でゲストによるアクセスを許可する設定（デフォルトでは無効になっています）
 
 **B**：Brand Portal ようこそ画面の **[!UICONTROL アクセスが必要ですか？]**&#x200B;リンクを使用して、Brand Portal でゲストによるアクセスを許可する設定（デフォルトでは無効になっています）
 
@@ -35,7 +35,7 @@ AEM Assets Brand Portal 6.4.2 以降では、管理者は、所属組織の Bran
 1. 管理ツールにアクセスするには、上部のツールバーにある AEM ロゴを選択します。
 1. 管理ツールパネルで、**[!UICONTROL アクセス]**&#x200B;を選択して&#x200B;**[!UICONTROL アクセス設定]**&#x200B;ページを開きます。
 1. 「**[!UICONTROL ゲストによるアクセスを許可]**」設定を有効にします。
-1. **[!UICONTROL 変更内容を保存します。]**
+1. 変更内容を&#x200B;**[!UICONTROL 保存]**&#x200B;します。
 1. ログアウトして変更を有効にします。
 
 ![](assets/bp-welcome-screen.png)
@@ -49,5 +49,5 @@ AEM Assets Brand Portal 6.4.2 以降では、管理者は、所属組織の Bran
 1. 管理ツールにアクセスするには、上部のツールバーにある AEM ロゴを選択します。
 1. 管理ツールパネルで、**[!UICONTROL アクセス]**&#x200B;を選択して&#x200B;**[!UICONTROL アクセス設定]**&#x200B;ページを開きます。
 1. 「**[!UICONTROL ユーザーのアクセス要求を許可]**」設定を有効にします。
-1. **[!UICONTROL 変更内容を保存します。]**
+1. 変更内容を&#x200B;**[!UICONTROL 保存]**&#x200B;します。
 1. ログアウトして変更を有効にします。
