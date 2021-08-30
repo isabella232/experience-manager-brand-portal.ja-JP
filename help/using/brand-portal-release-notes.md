@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 54af86b96ef3c3cfe3b1c0db7772d369cac9bb71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Experience Manager Assets Brand Portal 2021.06.0 リリースの新機能�
 | 製品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | バージョン | 2021.06.0 |
-| 日付 | 2021 年 6 月 日（PT） |
+| 日付 | 2021 年 6 月 |
 
 ## 概要 {#overview}
 
@@ -95,13 +95,13 @@ This release includes the following enhancements:
 
 ### 修正された重要な問題 {#critical-issues-fixed}
 
-Brand Portal 2021.06.0は内部リリースで、次の重要な問題の修正が含まれています。
+Brand Portal 2021.06.0 は内部リリースであり、次の重要な問題の修正が含まれています。
 
 * アセットソーシングに関する電子メール通知が、一部の組織で配信されない。
 
-* 拡張子が.movのビデオファイルがBrand Portalで動作していません。
+* 拡張子が .mov のビデオファイルが Brand Portal で動作しない。
 
-* 「スマートコレクション」ドロップダウンには、10個の保存済みコレクションのみが表示されます。
+* 「スマートコレクション」ドロップダウンに、保存済みコレクションが 10 個しか表示されない。
 
 <!--
 * *_deleted tenants are listed as valid tenant which fails during the execution of TenantCustomizers/TenantUpdates where tenant id is returned as /etc/tenants/`<nodename>`.
@@ -199,7 +199,7 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 * [Adobe Experience Manager 製品ページ（adobe.com）](http://www.adobe.com/jp/marketing-cloud/experience-manager.html)
 * [Assets Brand Portal のドキュメント](https://helpx.adobe.com/jp/experience-manager/brand-portal/user-guide.html)
 
-## 製品のアクセスとサポート（制限付きサイト）  {#product-access-and-support-restricted-sites}
+## 製品のアクセスとサポート（制限付きサイト） {#product-access-and-support-restricted-sites}
 
 以下のサイトは既存ユーザーのみが参照できます。アクセス権を必要とするお客様は、アドビのアカウントマネージャーにご連絡ください。
 
