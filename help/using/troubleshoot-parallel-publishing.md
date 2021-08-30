@@ -1,8 +1,8 @@
 ---
 title: Brand Portal への並列公開における問題のトラブルシューティング
-seo-title: Brand Portal への並列公開における問題のトラブルシューティング
+seo-title: Troubleshoot issues in parallel publishing to Brand Portal
 description: 並列公開における問題のトラブルシューティングです。
-seo-description: 並列公開における問題のトラブルシューティングです。
+seo-description: Troubleshoot parallel publishing.
 uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -12,8 +12,8 @@ role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
 source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -65,16 +65,16 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 公開がうまくいかない場合によくある原因は、公開を実行するユーザー（例：`mac-<tenantid>-replication`）が最新の秘密鍵を持っていないことです。そのため、公開が「401 Unauthorized」エラーで失敗し、レプリケーションエージェントログに他のエラーは記録されません。その場合は、トラブルシューティングをおこなうのではなく、新しい設定を作成することをお勧めします。新しい設定を正しく機能させるには、AEM オーサーインスタンスのセットアップから以下をクリーンアップします。
 
-1. `localhost:4502/crx/de/`に移動します（ローカルホスト:4502:でオーサーインスタンスを実行していると仮定）。\
+1. `localhost:4502/crx/de/` に移動します（localhost でオーサーインスタンスを実行していると仮定）。:4502:\
    i. `/etc/replication/agents.author/mp_replication` を削除します。
-ii. 次を削除します。 
+ii.次を削除します。 
 `/etc/cloudservices/mediaportal/<config_name>`
 
 1. localhost:4502/useradmin に移動します。\
    i. ユーザー `mac-<tenantid>replication` を検索します。
-ii. このユーザーを削除します。
+ii.このユーザーを削除します。
 
-これによってシステム全体がクリーンアップされます。これで新しいクラウドサービス設定の作成を試せるようになります。あるいは、`https://legacy-oauth.cloud.adobe.io/` / 内の既存の JWT アプリケーションを引き続き使用することもできます。新しいアプリケーションを作成する必要はなく、新しく作成したクラウド設定から公開鍵を更新するだけで構いません。
+これによってシステム全体がクリーンアップされます。これで新しい  クラウドサービス設定の作成を試せるようになります。あるいは、`https://legacy-oauth.cloud.adobe.io/` / 内の既存の JWT アプリケーションを引き続き使用することもできます。新しいアプリケーションを作成する必要はなく、新しく作成したクラウド設定から公開鍵を更新するだけです。
 
 ## Developer Connection の JWT アプリケーションテナントの可視性の問題 {#developer-connection-jwt-application-tenant-visibility-issue}
 
@@ -111,7 +111,7 @@ permission
 </g> denied to dam-replication-service, raise a support ticket.</p>
 -->
 
-それまで問題なく Brand Portal への公開をおこなっていたレプリケーションエージェントが公開ジョブの処理を停止した場合は、レプリケーションログを確認してください。AEM には自動再試行の機能が組み込まれているので、特定のアセットの公開が失敗しても、自動的に再試行されます。ネットワークエラーなどの問題が断続的に発生している場合でも、再試行するうちに公開が成功することがあります。
+それまで問題なく Brand Portal への公開を行っていたレプリケーションエージェントが公開ジョブの処理を停止した場合は、レプリケーションログを確認してください。AEM には自動再試行の機能が組み込まれているので、特定のアセットの公開が失敗しても、自動的に再試行されます。ネットワークエラーなどの問題が断続的に発生している場合でも、再試行するうちに公開が成功することがあります。
 
 公開エラーが引き続き発生し、キューがブロックされる場合は、**[!UICONTROL 接続テスト]**&#x200B;の結果を確認し、報告されるエラーの解決を試みてください。
 
