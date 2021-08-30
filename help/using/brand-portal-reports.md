@@ -11,7 +11,7 @@ discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
 source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1023'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
    レポートを表示するには、レポートのリンクをクリックします。または、レポートを選択し、ツールバーの「表示」アイコンをタップまたはクリックします。
 
-   **[!UICONTROL 使用状況レポート]**&#x200B;には、アクティブな Brand Portal ユーザーの数、すべてのアセットで占有されるストレージ領域、Brand Portal 内の合計アセット数に関する情報が表示されます。Admin Console でどの製品プロファイルにも割り当てられていない Brand Portal ユーザーは、非アクティブユーザーと見なされ、**[!UICONTROL 使用状況レポート]**には反映されません。
+   **[!UICONTROL 使用状況レポート]**&#x200B;には、アクティブな Brand Portal ユーザーの数、すべてのアセットで占有されるストレージ領域、Brand Portal 内の合計アセット数に関する情報が表示されます。Admin Console でどの製品プロファイルにも割り当てられていない Brand Portal ユーザーは、非アクティブユーザーと見なされ、 **[!UICONTROL 使用状況レポート]** には反映されません。
 また、それぞれの情報指標で許可されている容量も表示されます。
 
    ![](assets/usage-report.png)
