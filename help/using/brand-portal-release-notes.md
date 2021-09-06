@@ -1,8 +1,8 @@
 ---
 title: リリースノート
-seo-title: リリースノート
-description: Adobe Experience Manager Assets Brand Portal 2021.06.0 リリースの機能、機能強化、修正された重要な問題および既知の問題について説明します。
-seo-description: Adobe Experience Manager Assets Brand Portal 2021.06.0 リリースの機能強化、修正された重要な問題および既知の問題について説明します。
+seo-title: Release Notes
+description: Adobe Experience Manager Assets Brand Portal 2021.08.0 リリースの機能、機能強化、修正された重要な問題および既知の問題について説明します。
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.08.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,29 +10,29 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 54af86b96ef3c3cfe3b1c0db7772d369cac9bb71
-workflow-type: ht
-source-wordcount: '327'
-ht-degree: 100%
+source-git-commit: c7ffeda69beb92ce8fa549fe270cc5156fa1ec1c
+workflow-type: tm+mt
+source-wordcount: '494'
+ht-degree: 55%
 
 ---
 
 # リリースノート {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 2021.06.0 リリースの新機能、機能強化、修正された重要な問題および既知の問題について説明します。
+Adobe Experience Manager Assets Brand Portal 2021.08.0 リリースの新機能、機能強化、修正された重要な問題および既知の問題について説明します。
 
 ## リリース情報 {#release-information}
 
 | 製品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| バージョン | 2021.06.0 |
-| 日付 | 2021 年 6 月 |
+| バージョン | 2021.08.0 |
+| 日付 | 2021 年 8 月 日（PT） |
 
 ## 概要 {#overview}
 
 Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。Brand Portal では、アセットの参照、検索、プレビュー、ダウンロードおよび会社で承認された形式での書き出しを、いつでも、どこでも実行できます。
 
-## 2021.06.0 の新機能 {#whats-new-in-2021.06.0}
+## 2021.08.0 の新機能 {#whats-new-in-2021.08.0}
 
 <!--
 ### New Features {#new-features}
@@ -67,20 +67,22 @@ Brand Portal users can exclude specific renditions which are not required and di
 * In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also [configure permissions for different group of users](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
 -->
 
-<!--
-### Enhancements {#enhancements}
 
-Brand Portal 2021.06.0 is an internal release for T2E migration that introduces a new workflow to facilitate orgranization specific entitlement to the Brand Portal users. 
+### 機能強化 {#enhancements}
 
-This release includes the following enhancements:
+Brand Portal 2021.08.0は、企業やチームのお客様が自社のアセットをより細かく制御できるように、ビジネスプロファイルを導入する内部リリースです。
 
-* For a new or migrated T2E organization, the users will have an organization specific entitlement. 
+このリリースで強化された機能は次のとおりです。
 
+* ユーザーには、新しい組織と移行された組織に対する組織固有の権限が付与されます。 ユーザーに複数の組織の権利が付与されている場合、ユーザーはログイン時に組織を選択する必要があります。
 
-* The new users added to Admin Console will have to **Join Team** to get entitled to the T2E organization. 
+* Admin Consoleに追加される新しいユーザーは、組織に対する権利を得るには、**チームに参加**&#x200B;する必要があります。
 
-* The administrators will get an additional screen to select the T2E organization while navigating from Brand Portal to Admin Console.
--->
+>[!NOTE]
+>
+>ビジネスプロファイルは、現在、2021年8月17日以降に作成される新しい組織に適用されます。
+>
+>組織が移行されるまでは、引き続きAdobe ID、Enterprise IDまたはFederated IDタイプを使用して組織にアクセスできます。
 
 <!-- 
 * For folder download, a separate folder is created for each asset using share link irrespective of the **[!UICONTROL Download Settings]**. 
@@ -95,13 +97,13 @@ This release includes the following enhancements:
 
 ### 修正された重要な問題 {#critical-issues-fixed}
 
-Brand Portal 2021.06.0 は内部リリースであり、次の重要な問題の修正が含まれています。
+このリリースでは、次の重要な問題が修正されています。
 
 * アセットソーシングに関する電子メール通知が、一部の組織で配信されない。
 
-* 拡張子が .mov のビデオファイルが Brand Portal で動作しない。
+* 拡張子が`.mov`のビデオファイルがBrand Portalで動作していません。
 
-* 「スマートコレクション」ドロップダウンに、保存済みコレクションが 10 個しか表示されない。
+* 「**[!UICONTROL スマートコレクション]**」ドロップダウンリストには、10個の保存済みコレクションのみが表示されます。
 
 <!--
 * *_deleted tenants are listed as valid tenant which fails during the execution of TenantCustomizers/TenantUpdates where tenant id is returned as /etc/tenants/`<nodename>`.
@@ -119,15 +121,19 @@ In case only the original assets are downloaded, the asset reflects its own exte
 See [what's new in Brand Portal 2021.02.0](whats-new.md).
 -->
 
-<!--
-### Known Issues {#known-issues}
 
-This release includes the following known issue:
+### 既知の問題 {#known-issues}
 
-* The users will not be able to login to Brand Portal during the migration of their existing organization to T2E. 
+このリリースには、次の既知の問題が含まれています。
 
-  However, the active users will be able to continue to work untill their current session expires or the migration is complete.   
--->
+* ユーザーは、既存の組織の移行中にBrand Portalにログインできません。
+
+   ただし、Brand Portalにログインしているアクティブなユーザーは、現在のセッションの期限が切れるまで引き続き機能します。
+
+* 管理者は、Brand PortalからAdmin Consoleに移動する際に、組織を選択するための画面を追加で表示する場合があります。
+
+* ユーザーは、適用されたメタデータスキーマプロファイルをフォルダーから削除できません。
+
 
 <!--
 ### Known Issues {#known-issues}
@@ -192,12 +198,12 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 
 ## 認定プラットフォーム {#certified-platforms}
 
-このリリースの Brand Portal を実行できる認定プラットフォームを確認するには、[技術要件](https://helpx.adobe.com/jp/experience-manager/6-4/sites/deploying/using/technical-requirements.html)の「**オーサリングユーザーインターフェイス向けにサポートされているブラウザー**」節に記載されている表の「**UI のサポート**」列を参照してください。
+このリリースの Brand Portal を実行できる認定プラットフォームを確認するには、[技術要件](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html)の「**オーサリングユーザーインターフェイス向けにサポートされているブラウザー**」節に記載されている表の「**UI のサポート**」列を参照してください。
 
 ## リンク {#links}
 
-* [Adobe Experience Manager 製品ページ（adobe.com）](http://www.adobe.com/jp/marketing-cloud/experience-manager.html)
-* [Assets Brand Portal のドキュメント](https://helpx.adobe.com/jp/experience-manager/brand-portal/user-guide.html)
+* [Adobe Experience Manager 製品ページ（adobe.com）](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
+* [Assets Brand Portal のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
 
 ## 製品のアクセスとサポート（制限付きサイト） {#product-access-and-support-restricted-sites}
 
@@ -209,4 +215,4 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 
 * [製品へのアクセス](https://login.marketing.adobe.com)
 
-* [アドビカスタマーケア](https://helpx.adobe.com/jp/contact.html)
+* [カスタマーサポート](https://helpx.adobe.com/jp/contact.html)

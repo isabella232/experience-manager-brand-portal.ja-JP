@@ -1,8 +1,8 @@
 ---
 title: アセットをリンクとして共有
-seo-title: アセットをリンクとして共有
+seo-title: Share assets as a link
 description: AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係者（パートナーやベンダーを含む）との間で複数のアセットのリンクを共有できます。編集者は、管理者によって共有されたアセットのみを閲覧および共有できます。
-seo-description: AEM Assets Brand Portal 管理者は、内部のユーザーや外部の関係者（パートナーやベンダーを含む）との間で複数のアセットのリンクを共有できます。編集者は、管理者によって共有されたアセットのみを閲覧および共有できます。
+seo-description: AEM Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
 content-type: reference
@@ -10,10 +10,10 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: a7cd98a48a92f45e439577c352c8b399d24912a9
-workflow-type: ht
-source-wordcount: '1013'
-ht-degree: 100%
+source-git-commit: b1f72b060b88f1de0a16d75319f21f02a4b72915
+workflow-type: tm+mt
+source-wordcount: '965'
+ht-degree: 98%
 
 ---
 
@@ -27,10 +27,6 @@ Adobe Experience Manager Assets Brand Portal 管理者は、許可された内�
 -->
 
 詳しくは、[ユーザー、グループ、ユーザーの役割の管理](../using/brand-portal-adding-users.md#manage-user-roles)を参照してください。
-
->[!NOTE]
->
->Brand Portal のリンク共有機能では、Zip ファイルのダウンロードが最大 5 GB まで可能です。
 
 
 アセットをリンクとして共有する手順を次に示します。
@@ -107,7 +103,7 @@ Adobe Experience Manager Assets Brand Portal 管理者は、許可された内�
 
 >[!NOTE]
 >
->Brand Portal では、ファイルサイズが 5 GB を超えるアセットのダウンロードは制限されています。
+>Brand Portalでは、リンク共有を使用したファイルサイズあたり&#x200B;**1** GBを超えるアセットのダウンロードは制限されています。
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -128,9 +124,6 @@ Adobe Experience Manager Assets Brand Portal 管理者は、許可された内�
 
 1. Click **[!UICONTROL Download]**. The assets (and renditions if selected) are downloaded as a ZIP file to your local folder. However, no zip file is created if a single asset is downloaded without any of the renditions, thereby ensuring speedy download.
 
->[!NOTE]
->
->Brand Portal restricts downloading assets larger than 5GB per file size.
 -->
 
 ## プレビューおよびサムネールをサポートするアセット形式 {#preview-thumbnail-support}
