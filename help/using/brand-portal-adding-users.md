@@ -11,9 +11,9 @@ discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
 source-git-commit: 1e6da0b6576d0314bf3b4fc3929662359f003399
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2181'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Comment Type: draft
    ![Brand Portal へのユーザーの追加](assets/add_user_to_aem_bp.png)
 
 1. 1 つ以上の製品プロファイル（旧称：製品設定）にユーザーを割り当てます。製品プロファイルに割り当てられたユーザーは、Brand Portal にアクセスできます。「**[!UICONTROL この製品のプロファイルを選択してください]**」フィールドから、適切な製品プロファイルを選択します。
-1. 「**[!UICONTROL 保存]**」をクリックします。新しく追加されたユーザーに「ようこそ」の電子メールが送信されます。 招待されたユーザーは、「ようこそ」の電子メールに記載されているリンクをクリックして、Brand Portalにアクセスできます。 ユーザーは、Admin Consoleで設定された電子メールID([!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID]、または[!UICONTROL フィードID])を使用してログインできます。 詳しくは、[初回のログイン操作](../using/brand-portal-onboarding.md)を参照してください。
+1. 「**[!UICONTROL 保存]**」をクリックします。新しく追加されたユーザーに「ようこそ」のメールが送信されます。招待されたユーザーは、「ようこそ」のメールに記載されているリンクをクリックして、Brand Portal にアクセスできます。ユーザーは、Admin Console で設定されたメール ID（[!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID]、または[!UICONTROL フィードID]）を使用してログインできます。詳しくは、[初回のログイン操作](../using/brand-portal-onboarding.md)を参照してください。
 
    >[!NOTE]
    >
