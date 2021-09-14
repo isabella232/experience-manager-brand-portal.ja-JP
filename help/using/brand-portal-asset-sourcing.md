@@ -1,15 +1,15 @@
 ---
 title: Brand Portal でのアセットソーシング
-seo-title: Brand Portal でのアセットソーシング
+seo-title: Asset Sourcing in Brand Portal
 description: Adobe Experience Manager Assets Brand Portal でリリースされたアセットソーシング機能について説明します。
-seo-description: Adobe Experience Manager Assets Brand Portal でリリースされたアセットソーシング機能について説明します。
+seo-description: Get an insight into the asset sourcing feature released in the Adobe Experience Manager Assets Brand Portal.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-sub-product: アセット
+sub-product: assets
 topics: collaboration, content-velocity, sharing
 doc-type: feature-video
 activity: use
@@ -18,8 +18,8 @@ version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
 source-git-commit: 88526c235a12d47f5cbb5f442683f8b0ac2f21e5
-workflow-type: tm+mt
-source-wordcount: '651'
+workflow-type: ht
+source-wordcount: '628'
 ht-degree: 100%
 
 ---
@@ -102,7 +102,7 @@ Default URL: http:// localhost:4502/system/console/configMgr.
 
 ### Brand Portal ユーザーリストのアップロード {#upload-bp-user-list}
 
-AEM　管理者は、アクティブな Brand Portal ユーザーリストを含む Brand Portal ユーザー設定（.csv）ファイルを AEM Assets にアップロードして、アセットソーシング機能へのアクセスを許可できます。
+AEM 管理者は、アクティブな Brand Portal ユーザーリストを含む Brand Portal ユーザー設定（.csv）ファイルを AEM Assets にアップロードして、アセットソーシング機能へのアクセスを許可できます。
 
 投稿フォルダーは、ユーザーリストで定義されたアクティブな Brand Portal ユーザーのみ共有できます。また、管理者は、設定ファイルに新規ユーザーを追加して、変更したユーザーリストをアップロードできます。
 
