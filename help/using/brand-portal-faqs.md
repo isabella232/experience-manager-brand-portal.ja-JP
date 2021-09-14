@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
 source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1482'
 ht-degree: 100%
 
@@ -145,7 +145,7 @@ Brand Portal ユーザーは**投稿**&#x200B;フォルダーにアクセスし�
 
 **質問：ユーザー読み込み用の CSV ファイルの形式は何ですか。**
 
-**回答：** 管理コンソールでの一括ユーザー読み込みでサポートされている形式と同じです。電子メールと氏名は必須です。
+**回答：** Admin Console での一括ユーザー読み込みでサポートされている形式と同じです。電子メールと氏名は必須です。
 
 
 
@@ -199,7 +199,7 @@ Brand Portal ユーザーは**投稿**&#x200B;フォルダーにアクセスし�
 >リリース日程は暫定的なものであり、変更の可能性があります。最新のリリース日程についてアドビのアカウントマネージャーまたはカスタマーサポートにお問い合わせください。
 
 
-## 製品のアクセスとサポート（制限付きサイト）  {#product-access-and-support-restricted-sites}
+## 製品のアクセスとサポート（制限付きサイト） {#product-access-and-support-restricted-sites}
 
 以下のサイトは既存ユーザーのみが参照できます。アクセス権を必要とするお客様は、アドビのアカウントマネージャーにご連絡ください。
 
