@@ -13,7 +13,7 @@ exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 source-git-commit: c7ffeda69beb92ce8fa549fe270cc5156fa1ec1c
 workflow-type: tm+mt
 source-wordcount: '6331'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -197,7 +197,7 @@ If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Renditio
 
 ダウンロードワークフローは、スタンドアロンのアセット、複数のアセット、アセットを含むフォルダー、ライセンス取得済みアセットまたはライセンスを取得していないアセット、「リンクを共有」を使用してダウンロードするアセットに対して一定に保たれます。[Brand Portal からアセットをダウンロードする手順](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html)を参照してください。
 
-![ダウンロードダイアログ](assets/download-dialog-box.png)
+![download-dialog](assets/download-dialog-box.png)
 
 ### クイックナビゲーション  {#quick-navigation}
 
@@ -343,7 +343,7 @@ AEM Assets と Brand Portal の連携を設定する手順は、AEM のバージ
 | **AEM のバージョン** | **新しい設定** | **設定のアップグレード** |
 |---|---|---|
 | **AEM Assets as a Cloud Service** | [設定の作成](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
-| **AEM 6.5（6.5.4.0 以降）** | [設定の作成](https://docs.adobe.com/content/help/ja/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [設定のアップグレード](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
+| **AEM 6.5（6.5.4.0 以降）** | [設定の作成](https://docs.adobe.com/content/help/ja/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [設定のアップグレード](https://docs.adobe.com/content/help/ja/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
 | **AEM 6.4（6.4.8.0 以降）** | [設定の作成](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [設定のアップグレード](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3（6.3.3.8 以降）** | [設定の作成](https://helpx.adobe.com/jp/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [設定のアップグレード](https://helpx.adobe.com/jp/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | サポートへのお問い合わせ | サポートへのお問い合わせ |
@@ -625,7 +625,7 @@ Brand Portal には、選択したアセット／フォルダーのアセット�
 
 ### Adobe I/O UI による OAuth 統合の設定
 
-Brand Portal 6.4.2以降では、レガシーOAuth(`https://legacy-oauth.cloud.adobe.io/`)インターフェイスを使用してJWTアプリケーションを作成しています。このアプリケーションでは、AEM AssetsとBrand Portalの統合を許可するようにOAuth統合を設定できます。 OAuth 統合を設定するための UI は、以前、`https://marketing.adobe.com/developer/` / でホストされていました。Brand Portal にアセットとコレクションを公開するための、AEM Assets と Brand Portal の統合について詳しくは、[AEM Assets と Brand Portal の統合の設定](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html)を参照してください。
+Brand Portal 6.4.2 以降では、従来の OAuth （`https://legacy-oauth.cloud.adobe.io/`）インターフェイスを使用して JWT アプリケーションを作成しています。このアプリケーションでは、AEM Assets と Brand Portal の統合を許可するように OAuth 統合を設定できます。OAuth 統合を設定するための UI は、以前、`https://marketing.adobe.com/developer/` / でホストされていました。Brand Portal にアセットとコレクションを公開するための、AEM Assets と Brand Portal の統合について詳しくは、[AEM Assets と Brand Portal の統合の設定](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html)を参照してください。
 
 ## 検索の機能強化
 
@@ -694,11 +694,13 @@ Brand Portal 6.4.1 はプラットフォームのアップグレードリリー�
 ### レポート機能の強化
 
 **リンク共有レポートの追加**
+
 共有リンクの情報を提供する新しいレポートが追加されました。リンク共有レポートには、指定期間内に組織全体にわたって内部および外部のユーザーと共有されるすべてのアセットへの URL が示されます。さらに、リンクがいつ共有されたか、誰と共有されたか、いつ期限が切れるかという情報も示されます。
 
 ![](assets/navigatereport.png)
 
 **使用状況レポートへのアクセスエントリポイントの変更**
+
 使用状況レポートは他のレポートと統合され、アセットレポートコンソールから表示できるようになりました。アセットレポートコンソールにアクセスするには、管理ツールパネルから、**レポートを作成／管理**&#x200B;を選択します。
 
 ![](assets/accessassetreport.png)
