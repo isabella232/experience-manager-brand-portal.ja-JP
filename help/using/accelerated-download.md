@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
-workflow-type: ht
-source-wordcount: '1017'
-ht-degree: 100%
+source-git-commit: f5b5840897b3975631e072744a01fedb624379ff
+workflow-type: tm+mt
+source-wordcount: '1037'
+ht-degree: 92%
 
 ---
 
@@ -37,6 +37,10 @@ Adobe Experience Manager Assets Brand Portal では、インストールオン�
 * ファイアウォールのポート 33001（TCP と UDP の両方）が開いていることを確認します。前提条件について詳しくは、[IBM Aspera Connect Client のドキュメント](https://downloads.asperasoft.com/en/documentation/8)を参照してください。
 * 管理者権限（`https://www.ibm.com/docs/en/aspera-connect/3.9.9`）を使用して、ブラウザーの拡張機能に **IBM Aspera Connect 3.9.9** をインストールします。
 * Aspera 転送クライアントのプラットフォームサポートについては、[IBM Aspera Connect プラットフォームサポート一覧表](https://www.asperasoft.com/company/support/transfer-clients/)を参照してください。
+
+>[!NOTE]
+>
+>IBM Aspera Connectには既知の問題があります。 高速ダウンロードは、IBM Aspera Connectバージョン3.10以降では機能しません。
 
 ## ダウンロードドメイン {#download-domains}
 
@@ -92,7 +96,7 @@ Brand Portal より早くアセットをダウンロードするには：
 
 1. デフォルトでは「**[!UICONTROL ダウンロード設定]**」の「**[!UICONTROL 高速ダウンロード]**」設定が有効になっています。したがって、IBM Aspera Connect を使用してアセットをダウンロードするための確認ボックスが表示されます。
 
-   初めてアセットをダウンロードするときに、IBM Aspera Connect がブラウザーにインストールされていない場合や既存のバージョンが古い場合は、Aspera ダウンロードアクセラレーター（`https://www.ibm.com/docs/en/aspera-connect/3.9.9`）をインストールするように求めるプロンプトが表示されます()。
+   アセットを初めてダウンロードする際に、ブラウザーにIBM Aspera Connectがインストールされていない場合、または既存のバージョンが古い場合は、Asperaダウンロードアクセラレーター(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)をインストールするよう求めるプロンプトが表示されます。
 
    ![](assets/aspera-not-launched.png)
 
@@ -208,7 +212,7 @@ Microsoft Edge で高速ダウンロード機能を使用するには、信頼�
 
    ポートに問題がある場合は、ネットワークチームに連絡して、ポート 33001（TCP と UDP の両方）がファイアウォールでブロックされていないことを確認します。
 
-1. ポートに問題がない場合は、[https://www.speedtest.net/](https://www.speedtest.net/) を使用して使用可能な帯域幅を測定し、ネットワークが低速になっていないかどうかを確認します。
+1. ポートに問題がない場合は、[https://www.speedtest.net/](https://www.speedtest.net/)を使用して使用可能な帯域幅を測定し、ネットワークが低速になっていないかどうかを確認します。
 
    帯域幅が少ない（1～10 Mbps）または Kbps 単位の場合、Aspera の環境設定を使用して、利用可能な帯域幅と同じ帯域幅に制限してみてください。
 
