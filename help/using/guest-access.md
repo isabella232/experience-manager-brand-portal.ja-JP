@@ -1,27 +1,27 @@
 ---
 title: Brand Portal へのゲストによるアクセス
-seo-title: Brand Portal へのゲストによるアクセス
-description: ゲストによるアクセスを許可し、認証が不要な多数のユーザーのオンボーディングにかかる労力を省きます。
-seo-description: ゲストによるアクセスを許可し、認証が不要な多数のユーザーのオンボーディングにかかる労力を省きます。
+seo-title: Guest Access to Brand Portal
+description: ゲストによるアクセスを許可し、多数のユーザーを認証なしでオンボーディングする手間を省きます。
+seo-description: Allow guest access and save the effort to onboard numerous users without authentication.
 uuid: edb4378d-1710-44a2-97a6-594d99f62fff
-contentOwner: mgulati
+contentOwner: VG
 topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: e7877973da87362c5fddd6c3aa8135719eff044a
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 100%
+source-wordcount: '998'
+ht-degree: 80%
 
 ---
 
 # Brand Portal へのゲストによるアクセス {#guest-access-to-brand-portal}
 
-AEM Brand Portal は、ゲストによるポータルへのアクセスを許可します。ゲストユーザーは資格情報がなくてもポータルに入ることができ、ポータルの公開アセット（およびコレクション）へのアクセス権を持ちます。ゲストセッション中のユーザーは Lightbox（非公開コレクション）にアセットを追加でき、セッションが続いている間（[[!UICONTROL セッションの終了]](#exit-guest-session)を選択した場合を除いてセッションの開始から 2 時間）は同様にダウンロードすることができます。
+Experience ManagerAssets Brand Portalでは、ゲストによるポータルへのアクセスが許可されます。 ゲストユーザーは資格情報がなくてもポータルに入ることができ、ポータルの公開アセット（およびコレクション）にアクセスできます。 ゲストセッションのユーザーは、Lightbox（非公開コレクション）にアセットを追加し、セッションが終了するまで同じものをダウンロードできます。セッションは、ゲストユーザーが「[[!UICONTROL セッションを終了]](#exit-guest-session)」を選択しない限り、セッションの開始時から2時間です。
 
-ゲストによるアクセス機能を使用すれば、組織は対象オーディエンスのオンボーディングをおこなわなくても、[承認済みアセットをすばやく共有](../using/brand-portal-sharing-folders.md#how-to-share-folders)することができます。Brand Portal 6.4.2 以降には、複数の同時ゲストユーザー（組織あたりの合計ユーザークォータの 10%）に対応する機能が搭載されています。ゲストによるアクセスを許可することで、Brand Portal の限られた機能を使う必要があるユーザーのスコアの管理やオンボーディングにかかる時間を節約できます。\
+ゲストによるアクセス機能を使用すれば、組織は対象オーディエンスのオンボーディングをおこなわなくても、[承認済みアセットをすばやく共有](../using/brand-portal-sharing-folders.md#how-to-share-folders)することができます。Brand Portal 6.4.2 以降には、複数の同時ゲストユーザー（組織あたりの合計ユーザークォータの 10%）に対応する機能が搭載されています。ゲストによるアクセスを許可すると、Brand Portalの限られた機能を持つユーザーのスコアの管理やオンボーディングにかかる時間を節約できます。\
 管理ツールパネルの「**[!UICONTROL アクセス]**」設定の「**[!UICONTROL ゲストによるアクセスを許可]**」オプションを使用して、組織の Brand Portal アカウントでのゲストによるアクセスを有効化（または無効化）できます。
 
 <!--
@@ -35,7 +35,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## ゲストセッションの開始 {#begin-guest-session}
 
-匿名で Brand Portal に入るには、Brand Portal のようこそ画面で「**[!UICONTROL ゲストとしてアクセスしますか？]**」の横にある「**[!UICONTROL ここをクリックしてください]**」を選択します。CAPTCHA セキュリティチェックを入力して、Brand Portal へのアクセスを許可します。
+匿名で Brand Portal に入るには、Brand Portal のようこそ画面で「**[!UICONTROL ゲストとしてアクセスしますか？]**」の横にある「**[!UICONTROL ここをクリックしてください]**」を選択します。Brand Portalを使用するアクセス権を付与するには、Captchaセキュリティチェックを入力します。
 
 ![](assets/bp-login-screen.png)
 
@@ -45,11 +45,11 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 ゲストユーザーセッションが 15 分間アクティブのままになります。
 つまり、**[!UICONTROL Lightbox]** の状態はセッションの開始時刻から 15 分間保持され、その後は現在のゲストセッションが再起動するので、Lightbox の状態が失われます。
 
-例えば、ゲストユーザーが 15 時 00 分に Brand Portal にログインし、15 時 05 分にダウンロード対象のアセットを **[!UICONTROL Lightbox]** に追加するとします。ユーザーが 15 時 15 分より前（ログインから 15 分以内）に **[!UICONTROL Lightbox]** コレクション（またはそのアセット）をダウンロードしない場合、ユーザーはセッションを再起動する必要があります。その場合、**[!UICONTROL Lightbox]** は空になります。つまり、セッションが失われた場合、アップロードしたアセットは使用できなくなります。
+例えば、ゲストユーザーが 15 時 00 分に Brand Portal にログインし、15 時 05 分にダウンロード対象のアセットを **[!UICONTROL Lightbox]** に追加するとします。ユーザーが15:15時間（ログイン後15分以内）前に&#x200B;**[!UICONTROL Lightbox]**&#x200B;コレクション（またはそのアセット）をダウンロードしない場合、ユーザーはセッションを再開する必要があります。 **[!UICONTROL Lightbox]**&#x200B;は空で、セッションが失われた場合に、アップロードされたアセットを使用できなくなります。
 
 ## 許可されている同時ゲストセッション {#concurrent-guest-sessions-allowed}
 
-同時ゲストセッションの数は、組織あたりの合計ユーザークォータの 10% に制限されます。つまり、ユーザークォータが 200 の組織の場合、最大 20 人のゲストユーザーが同時に作業をすることができます。21 番目のユーザーはアクセスを拒否され、20 人のアクティブなゲストユーザーのいずれかがセッションを終了した場合にのみゲストとしてアクセスできるようになります。
+同時ゲストセッションの数は、組織あたりの合計ユーザークォータの 10% に制限されます。つまり、ユーザークォータが200の組織では、最大20人のゲストユーザーが同時に作業を行うことができます。 21 番目のユーザーはアクセスを拒否され、20 人のアクティブなゲストユーザーのいずれかがセッションを終了した場合にのみゲストとしてアクセスできるようになります。
 
 ## ゲストユーザーの Brand Portal の操作 {#guest-user-interaction-with-brand-portal}
 
@@ -83,11 +83,12 @@ Brand Portal には、選択したアセット／フォルダーの&#x200B;**[!U
 
 * アセットやフォルダーを選択する際に上部に表示されるツールバー。
 * パネルセレクターを選択する際のドロップダウン。
+
 アセットやフォルダーを選択した状態で「**[!UICONTROL 概要]**」オプションを選択すると、タイトル、パス、アセット作成時間を確認できます。一方、アセットの詳細ページで「**[!UICONTROL 概要]**」オプションを選択すると、アセットのメタデータを確認できます。
 
 ![](assets/overview-option-1.png)
 
-![](assets/overview-rail-selector-1.png)<br />
+![](assets/overview-rail-selector-1.png)
 
 左パネルの「**[!UICONTROL ナビゲーション]**」オプションでは、ファイルからコレクションに移動したり、ユーザーがファイルやコレクションのアセットから参照できるよう、ゲストセッションに戻ったりすることができます。
 
