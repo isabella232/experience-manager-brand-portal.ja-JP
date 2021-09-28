@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: e7877973da87362c5fddd6c3aa8135719eff044a
+source-git-commit: 51dc6f9c3b3a59751d7910513279e52906d97b88
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 80%
+source-wordcount: '1026'
+ht-degree: 78%
 
 ---
 
@@ -50,6 +50,10 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 ## 許可されている同時ゲストセッション {#concurrent-guest-sessions-allowed}
 
 同時ゲストセッションの数は、組織あたりの合計ユーザークォータの 10% に制限されます。つまり、ユーザークォータが200の組織では、最大20人のゲストユーザーが同時に作業を行うことができます。 21 番目のユーザーはアクセスを拒否され、20 人のアクティブなゲストユーザーのいずれかがセッションを終了した場合にのみゲストとしてアクセスできるようになります。
+
+>[!NOTE]
+>
+>Brand Portalは、ライセンスユーザーの数が契約値（割り当て）を超えた場合に通知を送信しません。 また、ライセンスされたユーザーのアクティビティは制限されません。
 
 ## ゲストユーザーの Brand Portal の操作 {#guest-user-interaction-with-brand-portal}
 
