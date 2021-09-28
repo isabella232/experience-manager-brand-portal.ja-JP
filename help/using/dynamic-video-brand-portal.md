@@ -1,8 +1,8 @@
 ---
 title: Brand Portal でのダイナミックビデオのサポート
-seo-title: Brand Portal でのダイナミックビデオのサポート
+seo-title: Dynamic video support on Brand Portal
 description: Brand Portal でのダイナミックビデオのサポート
-seo-description: Brand Portal でのダイナミックビデオのサポート
+seo-description: Dynamic video support on Brand Portal
 uuid: a3502a4d-3971-4ea4-953c-44ba04446269
 contentOwner: mgulati
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 100%
+source-wordcount: '1185'
+ht-degree: 96%
 
 ---
 
@@ -41,7 +41,7 @@ Brand Portal テナントの複製先となる AEM オーサーインスタン�
 >
 >**[!UICONTROL Scene7Connect]** 実行モードで動作している AEM オーサーとの連携が設定された Brand Portal テナントでは、ダイナミックビデオはサポートされていません。
 
-## ダイナミックビデオの再生方法 {#how-are-dynamic-videos-played}
+## ダイナミックビデオの再生方法  {#how-are-dynamic-videos-played}
 
 ![ビデオエンコードはクラウドから取得される](assets/VideoEncodes.png)
 
@@ -66,7 +66,7 @@ Dynamic Media ハイブリッドと Dynamic Media **[!UICONTROL S7]** の機能�
 * **Brand Portal に適用したビデオエンコードを含んだフォルダーを公開する**
 [ビデオエンコーディング](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/video-profiles.html)を適用し、リッチメディアアセットを含んだフォルダーを AEM オーサーインスタンスから Brand Portal に公開します。
 * **セキュアプレビューが有効な場合は、SPS でエグレス IP を許可リストに登録する**：
-（会社に対して[セキュアプレビューが有効 ](https://docs.adobe.com/content/help/ja/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)な状態で）Dynamic Media -**[!DNL Scene 7]** を使用する場合は、 の **[!DNL Scene 7]** 会社管理者が SPS（**[!UICONTROL Scene7]** Publishing System）Flash UI を使用して、それぞれの地域の[公開エグレス IP を許可リストに登録する](https://docs.adobe.com/content/help/ja/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)ことをお勧めします。
+（会社に対して[セキュアプレビューが有効 ](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)な状態で）Dynamic Media -**[!DNL Scene 7]** を使用する場合は、 の **[!DNL Scene 7]** 会社管理者が SPS（**[!UICONTROL Scene7]** Publishing System）Flash UI を使用して、それぞれの地域の[公開エグレス IP を許可リストに登録する](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)ことをお勧めします。
 エグレス IP は次のとおりです。
 
 | **地域** | **エグレス IP** |
@@ -75,7 +75,7 @@ Dynamic Media ハイブリッドと Dynamic Media **[!UICONTROL S7]** の機能�
 | EMEA | 185.34.189.1 |
 | APAC | 63.140.44.54 |
 
-これらのいずれかのエグレス IP を許可リストに登録するには、[セキュアテストサービス用アカウントの準備方法](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)を参照してください。
+これらのいずれかのエグレス IP を許可リストに登録するには、[セキュアテストサービス用アカウントの準備方法](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)を参照してください。
 
 ## ベストプラクティス
 
@@ -83,7 +83,8 @@ Dynamic Media ハイブリッドと Dynamic Media **[!UICONTROL S7]** の機能�
 
 ### Dynamic Media ハイブリッドモードと Dynamic Media Scene7 モードでテナントが異なる {#separate-tenants}
 
-Dynamic Media **[!DNL Scene 7]** 機能と Dynamic Media ハイブリッド機能の両方を使用している場合は、Dynamic Media ハイブリッドモードと Dynamic Media **[!DNL Scene 7]** モードで設定された AEM オーサーインスタンスに異なる Brand Portal テナントを使用することをお勧めします。<br />
+Dynamic Media **[!DNL Scene 7]** 機能と Dynamic Media ハイブリッド機能の両方を使用している場合は、Dynamic Media ハイブリッドモードと Dynamic Media **[!DNL Scene 7]** モードで設定された AEM オーサーインスタンスに異なる Brand Portal テナントを使用することをお勧めします。
+
 
 ![オーサーと BP が 1 対 1 で対応](assets/BPDynamicMedia.png)
 
@@ -93,9 +94,9 @@ Dynamic Media **[!DNL Scene 7]** 機能と Dynamic Media ハイブリッド機�
 
 ### Dynamic Media Scene7 モードの公開エグレス IP を許可リストに登録する
 
-Dynamic Media **[!UICONTROL Scene7]**（[セキュアプレビューが有効](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)）を使用して Brand Portal にビデオアセットを配信する場合、**[!UICONTROL Scene7]** はステージング環境または内部アプリケーション用に専用の画像サーバーを設定します。このサーバーへのリクエストはすべて、発信元 IP アドレスをチェックします。受信リクエストが IP アドレスの承認済みリストに含まれていない場合は、失敗のレスポンスが返されます。
+Dynamic Media **[!UICONTROL Scene7]**（[セキュアプレビューが有効](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)）を使用して Brand Portal にビデオアセットを配信する場合、**[!UICONTROL Scene7]** はステージング環境または内部アプリケーション用に専用の画像サーバーを設定します。このサーバーへのリクエストはすべて、発信元 IP アドレスをチェックします。受信リクエストが IP アドレスの承認済みリストに含まれていない場合は、失敗のレスポンスが返されます。
 そのため、**[!UICONTROL Scene7]** の会社管理者は、**[!UICONTROL SPS]**（Scene7 Publishing System）Flash UI を使用して、自社の&#x200B;**[!UICONTROL セキュアテスト]**環境用の承認済み IP アドレスリストを設定します。該当するそれぞれの地域のエグレス IP（以下を参照）を、その承認済みリストに必ず追加してください。
-これらのいずれかのエグレス IP を許可リストに登録するには、[セキュアテストサービス用アカウントの準備方法](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)を参照してください。
+これらのいずれかのエグレス IP を許可リストに登録するには、[セキュアテストサービス用アカウントの準備方法](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)を参照してください。
 エグレス IP は次のとおりです。
 
 | **地域** | **エグレス IP** |
@@ -134,15 +135,21 @@ Brand Portal テナントで Dynamic Media **[!UICONTROL Scene7]** 設定をセ�
 
 1. Brand Portal で上部のツールバーにある AEM ロゴをクリックして、管理ツールにアクセスします。
 
-2. 管理ツールパネルで **[!UICONTROL Dynamic Media 設定]**&#x200B;タイルを選択します。<br />
+2. 管理ツールパネルで **[!UICONTROL Dynamic Media 設定]**&#x200B;タイルを選択します。
+
    ![Brand Portal での DM [!UICONTROL Scene7] の設定](assets/DMS7-Tile.png)
-   **[!UICONTROL Dynamic Media 設定を編集]**&#x200B;ページが開きます。<br />
+
+   **[!UICONTROL Dynamic Media 設定を編集]**&#x200B;ページが開きます。
+
    ![Brand Portal での Scene7 の設定](assets/S7Config.png)
 
 3. 以下を指定します。
+
    * **[!UICONTROL タイトル]**
    * Scene7 サーバーにアクセスするための認証情報（**[!UICONTROL 電子メール ID]** と&#x200B;**[!UICONTROL パスワード]**）
-   * **[!UICONTROL 地域]**：これらの値が、AEM オーサーインスタンスで指定した内容と同じであることを確認してください。
+   * **[!UICONTROL 地域]**
+
+   これらの詳細が、AEM オーサーインスタンスで指定した詳細と同じであることを確認してください。
 
 4. 「**[!UICONTROL Dynamic Media に接続]**」をクリックします。
 

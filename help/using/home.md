@@ -1,13 +1,13 @@
 ---
 title: Adobe Experience Manager Assets Brand Portal ガイド
-seo-title: Adobe Experience Manager Assets Brand Portal ガイド
+seo-title: Adobe Experience Manager Assets Brand Portal Guide
 description: Adobe Experience Manager Assets Brand Portal ガイド
-seo-description: Brand Portal の使用方法について説明します
+seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 100%
+source-wordcount: '345'
+ht-degree: 98%
 
 ---
 
@@ -49,4 +49,4 @@ Brand Portal ソリューションワークフローを次の画像に示しま�
 
 ### 役立つリソース
 
-* [AEM Assets と Brand Portal について](https://docs.adobe.com/content/help/ja-JP/experience-manager-brand-portal/using/home.html)
+* [AEM Assets と Brand Portal について](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)

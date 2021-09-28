@@ -1,8 +1,8 @@
 ---
 title: Brand Portal でのアセットの検索
-seo-title: AEM Brand Portal でのアセット検索と検索の保存
+seo-title: Asset searching and saved search on AEM Brand Portal
 description: Brand Portal の検索機能では、オムニサーチを使用して目的のアセットをすばやく検索し、検索フィルターを使用して検索をさらに絞り込むことができます。検索設定をスマートコレクションとして保存しておき、後で呼び出すこともできます。
-seo-description: Brand Portal の検索機能では、オムニサーチを使用して目的のアセットをすばやく検索し、検索フィルターを使用して検索をさらに絞り込むことができます。検索設定をスマートコレクションとして保存しておき、後で呼び出すこともできます。
+seo-description: Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and search filters help you further narrow down your search. Save your searches as smart collections for future.
 uuid: c2955198-bdc0-4853-a13a-661e6a9ec61f
 contentOwner: bdhar
 content-type: reference
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1123'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ Brand Portal 上でアセットを検索するには、次のようにします�
 
 フィルターパネルの検索ファセットを使用すると、詳細な検索条件を指定して、検索効率を高めることができます。検索ファセットでは、複数のディメンション（述語）を使用して、より複雑な検索を実行できます。より焦点を絞った検索のために、目的の詳細レベルまで簡単にドリルダウンできます。
 
-例えば、画像を検索する場合、ビットマップとベクトル画像のどちらを検索するかを選択できます。「ファイルタイプ」検索ファセットで画像の MIME タイプを指定することで、さらに検索の範囲を絞り込むことができます。同様に、ドキュメントを検索する場合は、PDF や MS Word などの形式を指定できます。<br />
+例えば、画像を検索する場合、ビットマップとベクトル画像のどちらを検索するかを選択できます。「ファイルタイプ」検索ファセットで画像の MIME タイプを指定することで、さらに検索の範囲を絞り込むことができます。同様に、ドキュメントを検索する場合は、PDF や MS Word などの形式を指定できます。
 
 ![Brand Portal のフィルターパネル](assets/file-type-search.png "Brand Portal のフィルターパネル")
 

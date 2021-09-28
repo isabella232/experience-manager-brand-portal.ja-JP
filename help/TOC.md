@@ -8,10 +8,10 @@ breadcrumb-title: Brand Portal ガイド
 user-guide-description: AEM Assets Brand Portal を使用すれば、承認済みのブランドアセットや製品アセットを外部の代理店、パートナー、内部チーム、販売店などへとダウンロードで安全に配布し、マーケティングニーズに応えることができます。
 feature: Brand Portal
 role: User
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: ht
-source-wordcount: '281'
-ht-degree: 100%
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 89%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 100%
    + [よくある質問](using/brand-portal-faqs.md)
    + [サポートされているファイル形式](using/brand-portal-supported-formats.md)
    + [Brand Portal へのゲストによるアクセス](using/guest-access.md)
-   + [AEM Assets と Brand Portal について](https://docs.adobe.com/content/help/ja-JP/experience-manager-brand-portal/using/home.html)
+   + [AEM Assets と Brand Portal について](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
    + [Brand Portal でのアセットの参照](using/browse-assets-brand-portal.md)
 + AEM Assets から Brand Portal への公開 {#publish}
    + [AEM Assets と Brand Portal の連携の設定](using/configure-aem-assets-with-brand-portal.md)
-   + [Brand Portal へのアセットの公開](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
-   + [Brand Portal へのフォルダーの公開](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
-   + [Brand Portal へのコレクションの公開](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
+   + [Brand Portal へのアセットの公開](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
+   + [Brand Portal へのフォルダーの公開](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
+   + [Brand Portal へのコレクションの公開](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
    + [Brand Portal への並列公開における問題のトラブルシューティング](using/troubleshoot-parallel-publishing.md)
    + [Brand Portal へのタグの公開](using/brand-portal-publish-tags.md)
    + [Brand Portal へのプリセット、スキーマ、ファセットの公開](using/publish-schema-search-facets-presets.md)

@@ -17,10 +17,10 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 88526c235a12d47f5cbb5f442683f8b0ac2f21e5
-workflow-type: ht
-source-wordcount: '628'
-ht-degree: 100%
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+workflow-type: tm+mt
+source-wordcount: '626'
+ht-degree: 98%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 >
 >AEM Assets 6.5.4 には既知の問題があります。Adobe 開発者コンソールにアップグレードすると、Brand Portal ユーザーが投稿フォルダーのアセットを AEM Assets に公開できなくなります。
 >
->この問題は AEM 6.5.5 で修正されました。お使いの AEM Assets インスタンスを最新のサービスパック AEM 6.5.5 にアップグレードし、Adobe 開発者コンソールで[設定をアップグレード](https://docs.adobe.com/content/help/ja/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)してください。
+>この問題は AEM 6.5.5 で修正されました。お使いの AEM Assets インスタンスを最新のサービスパック AEM 6.5.5 にアップグレードし、Adobe 開発者コンソールで[設定をアップグレード](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)してください。
 
 <!--
 
@@ -117,6 +117,7 @@ AEM 管理者は、アクティブな Brand Portal ユーザーリストを含�
 管理者は、AEM Admin Console で新規ユーザーを追加できます。詳しくは、[ユーザーの管理](brand-portal-adding-users.md)を参照してください。Admin Console でユーザーを追加したら、これらのユーザーを Brand Portal ユーザー設定ファイルに追加して、投稿フォルダーへのアクセス権を割り当てることができます。
 
 **Brand Portal ユーザーリストをアップロードするには：**
+
 1. AEM Assets インスタンスにログインします。
 1. **ツール**&#x200B;パネルで、**[!UICONTROL アセット]**／**[!UICONTROL Brand Portal ユーザー]**&#x200B;に移動します。
 

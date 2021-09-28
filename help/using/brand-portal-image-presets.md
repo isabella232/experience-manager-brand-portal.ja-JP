@@ -1,8 +1,8 @@
 ---
 title: 画像プリセットまたは動的レンディションの適用
-seo-title: 画像プリセットまたは動的レンディションの適用
+seo-title: Apply image presets or dynamic renditions
 description: '画像プリセットは、マクロと同様、サイズとフォーマットに関するコマンドのコレクションを事前に定義し、名前を付けて保存したものです。画像プリセットを使用すると、サイズ、形式、プロパティが様々に異なる画像を AEM Assets Brand Portal で動的に配信できます。 '
-seo-description: '画像プリセットは、マクロと同様、サイズとフォーマットに関するコマンドのコレクションを事前に定義し、名前を付けて保存したものです。画像プリセットを使用すると、サイズ、形式、プロパティが様々に異なる画像を AEM Assets Brand Portal で動的に配信できます。 '
+seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: ht
-source-wordcount: '871'
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+workflow-type: tm+mt
+source-wordcount: '800'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 >画像とそのレンディションをダウンロードするときは、既存のプリセットから選択することはできません。その代わりに、カスタム画像プリセットのプロパティを指定できます。詳しくは、[画像をダウンロードする際の画像プリセットの適用](../using/brand-portal-image-presets.md#main-pars-text-1403412644)を参照してください。
 
 
-画像プリセットの作成時に必要となるパラメーターについて詳しくは、[画像プリセットの管理](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html)を参照してください。
+画像プリセットの作成時に必要となるパラメーターについて詳しくは、[画像プリセットの管理](../using/brand-portal-image-presets.md)を参照してください。
 
 ## 画像プリセットの作成 {#create-an-image-preset}
 
@@ -57,7 +57,7 @@ AEM 管理者は、アセットの詳細ページに動的レンディション�
 
    ![](assets/image_preset_homepage.png)
 
-1. **[!UICONTROL 画像プリセットを編集]**&#x200B;ページで、「**[!UICONTROL 基本]**」または「**[!UICONTROL 詳細]**」のどちらか該当するタブに、名前などの値を入力します。オプションの概要については、[画像プリセットオプション](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options)で説明しています。プリセットは左側のウィンドウに表示され、他のアセットにすぐに使用できます。
+1. **[!UICONTROL 画像プリセットを編集]**&#x200B;ページで、「**[!UICONTROL 基本]**」または「**[!UICONTROL 詳細]**」のどちらか該当するタブに、名前などの値を入力します。プリセットは左側のウィンドウに表示され、他のアセットにすぐに使用できます。
 
    ![](assets/image_preset_create.png)
 

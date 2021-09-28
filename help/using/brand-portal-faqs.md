@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
-workflow-type: ht
-source-wordcount: '1482'
-ht-degree: 100%
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+workflow-type: tm+mt
+source-wordcount: '1480'
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ Brand Portal FAQ では、最新の AEM Assets Brand Portal 6.4.6 リリース�
 
 **回答：**&#x200B;はい。投稿フォルダーのアセットを Adobe 開発者コンソールで AEM 6.5.4 上の AEM Assets に公開する際に発生する既知の問題があります。
 
-この問題は AEM 6.5.5 で修正されました。お使いの AEM Assets インスタンスを最新のサービスパック AEM 6.5.5 にアップグレードし、Adobe 開発者コンソールで[設定をアップグレード](https://docs.adobe.com/content/help/ja/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)してください。
+この問題は AEM 6.5.5 で修正されました。お使いの AEM Assets インスタンスを最新のサービスパック AEM 6.5.5 にアップグレードし、Adobe 開発者コンソールで[設定をアップグレード](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)してください。
 
 <!--
 Broken link of download hotfix, comment out this section until we have the latest URL.
@@ -58,6 +58,7 @@ For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https
 **回答：**&#x200B;通常、公開がタイムアウトエラーで失敗する場合は、レプリケーションキューに保留中のリクエストが複数あります。この問題を解決するには、タイムアウトを回避するようにレプリケーションエージェントを設定します。
 
 レプリケーションエージェントを設定するには、次の手順を実行します。
+
 1. AEM Assets オーサーインスタンスにログインします。
 1. **ツール**&#x200B;パネルで、**[!UICONTROL デプロイメント]**／**[!UICONTROL レプリケーション]**&#x200B;に移動します。
 1. レプリケーションページで、「**[!UICONTROL 作成者のエージェント]**」をクリックします。Brand Portal テナントの 4 つのレプリケーションエージェントを表示できます。
