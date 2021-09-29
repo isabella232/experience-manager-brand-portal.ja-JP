@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
-source-git-commit: 1e6da0b6576d0314bf3b4fc3929662359f003399
-workflow-type: ht
+source-git-commit: 257a4686e1f5fba1ae4900bfa966e3ad6bb81a7a
+workflow-type: tm+mt
 source-wordcount: '2181'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 管理者は、Adobe Admin Console を使用して AEM Assets Brand Portal のユーザーおよび製品プロファイルを作成でき、それらのユーザーの役割を Brand Portal ユーザーインターフェイスで管理できます。これは閲覧者と編集者にはない権限です。
 
-[[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) には、組織に関連するあらゆる製品が表示されます。これには、例えば Adobe Analytics や Adobe Target、AEM Brand Portal など、様々な Adobe Experience Cloud ソリューションが含まれます。AEM Brand Portal 製品を選択し、製品プロファイルを作成する必要があります。
+[[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) には、組織に関連するあらゆる製品が表示されます。これには、例えば Adobe Analytics や Adobe Target、AEM Brand Portal など、様々な Adobe Experience Cloud ソリューションが含まれます。AEM Brand Portal 製品を選択し、製品プロファイルを作成する必要があります。
 
 <!--
 Comment Type: draft
@@ -41,15 +41,15 @@ Comment Type: draft
 
 ## ユーザーの追加 {#add-a-user}
 
-製品管理者は、Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) を使用してユーザーを作成し、それらのユーザーを製品プロファイル（*旧称：製品設定*）に割り当てることができます。製品プロファイルは Brand Portal にグループとして表示されます。これにより、グループを使用して役割の管理やアセットの共有などの操作を一括して実行できます。
+製品管理者は、Adobe [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) を使用してユーザーを作成し、それらのユーザーを製品プロファイル（*旧称：製品設定*）に割り当てることができます。製品プロファイルは Brand Portal にグループとして表示されます。これにより、グループを使用して役割の管理やアセットの共有などの操作を一括して実行できます。
 
 >[!NOTE]
 >
->Brand Portal へのアクセス権がない新しいユーザーは、Brand Portal のログイン画面からアクセス権を申請できます。詳しくは、[Brand Portal へのアクセス権の申請](../using/brand-portal.md#request-access-to-brand-portal)を参照してください。管理者は、通知領域にアクセス権申請の通知が届いたら、関連する通知をクリックして「**[!UICONTROL アクセス権を付与]**」をクリックします。または、アクセス権申請の電子メールが届いたら、そこに記載されているリンクをクリックします。その後、[Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) からユーザーを追加するには、以下の手順 4～7 をおこないます。
+>Brand Portal へのアクセス権がない新しいユーザーは、Brand Portal のログイン画面からアクセス権を申請できます。詳しくは、[Brand Portal へのアクセス権の申請](../using/brand-portal.md#request-access-to-brand-portal)を参照してください。管理者は、通知領域にアクセス権申請の通知が届いたら、関連する通知をクリックして「**[!UICONTROL アクセス権を付与]**」をクリックします。または、アクセス権申請の電子メールが届いたら、そこに記載されているリンクをクリックします。その後、[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) からユーザーを追加するには、以下の手順 4～7 をおこないます。
 
 >[!NOTE]
 >
->[Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) には、直接または Brand Portal からログインできます。直接ログインした場合は、以下の手順 4～7 に従って、ユーザーを追加します。
+>[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) には、直接または Brand Portal からログインできます。直接ログインした場合は、以下の手順 4～7 に従って、ユーザーを追加します。
 
 1. 上部の AEM ツールバーでアドビのロゴをクリックして、管理ツールにアクセスします。
 
@@ -92,7 +92,7 @@ Comment Type: draft
 
 >[!NOTE]
 >
->[[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) には、直接または Brand Portal からログインできます。[!UICONTROL Admin Console] に直接ログインした場合は、以下の手順 4～7 に従って、製品プロファイルを追加します。
+>[[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) には、直接または Brand Portal からログインできます。[!UICONTROL Admin Console] に直接ログインした場合は、以下の手順 4～7 に従って、製品プロファイルを追加します。
 
 1. 上部の AEM ツールバーでアドビのロゴをクリックして、管理ツールにアクセスします。
 
@@ -125,7 +125,7 @@ Brand Portal グループにユーザーを追加するには、[!UICONTROL Admi
 
 >[!NOTE]
 >
->[[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) には、直接または Brand Portal からログインできます。Admin Console に直接ログインした場合は、以下の手順 4～7 に従って、製品プロファイルにユーザーを追加します。
+>[[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) には、直接または Brand Portal からログインできます。Admin Console に直接ログインした場合は、以下の手順 4～7 に従って、製品プロファイルにユーザーを追加します。
 
 1. 上部の AEM ツールバーでアドビのロゴをクリックして、管理ツールにアクセスします。
 

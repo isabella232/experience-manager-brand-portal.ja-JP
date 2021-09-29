@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 67a745fed6a13cfdb30e26062eecc3c8d1775e36
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '485'
 ht-degree: 55%
 
 ---
@@ -213,6 +213,6 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 * [https://daycare.day.com](https://daycare.day.com) 
 -->
 
-* [製品へのアクセス](https://login.marketing.adobe.com)
-
-* [カスタマーサポート](https://helpx.adobe.com/jp/contact.html)
+<!--
+* [Customer Support](https://helpx.adobe.com/contact.html)
+-->
