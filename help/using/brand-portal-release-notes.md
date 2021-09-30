@@ -1,8 +1,8 @@
 ---
 title: リリースノート
 seo-title: Release Notes
-description: Adobe Experience Manager Assets Brand Portal 2021.08.0 リリースの機能、機能強化、修正された重要な問題および既知の問題について説明します。
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.08.0 release.
+description: Adobe Experience Manager Assets Brand Portal 2021.10.0 リリースの機能、機能強化、修正された重要な問題および既知の問題について説明します。
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.10.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,29 +10,29 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 67a745fed6a13cfdb30e26062eecc3c8d1775e36
+source-git-commit: d5e39edc43d6d405e96edc76cbd1357ade58ea89
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 55%
+source-wordcount: '391'
+ht-degree: 64%
 
 ---
 
 # リリースノート {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 2021.08.0 リリースの新機能、機能強化、修正された重要な問題および既知の問題について説明します。
+Adobe Experience Manager Assets Brand Portal 2021.10.0 リリースの新機能、機能強化、修正された重要な問題および既知の問題について説明します。
 
 ## リリース情報 {#release-information}
 
 | 製品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| バージョン | 2021.08.0 |
-| 日付 | 2021 年 8 月 |
+| バージョン | 2021.10.0 |
+| 日付 | 2021 年 10 月 |
 
 ## 概要 {#overview}
 
 Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。Brand Portal では、アセットの参照、検索、プレビュー、ダウンロードおよび会社で承認された形式での書き出しを、いつでも、どこでも実行できます。
 
-## 2021.08.0 の新機能 {#whats-new-in-2021.08.0}
+## 2021.10.0 の新機能 {#whats-new-in-2021.10.0}
 
 <!--
 ### New Features {#new-features}
@@ -67,22 +67,23 @@ Brand Portal users can exclude specific renditions which are not required and di
 * In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also [configure permissions for different group of users]() to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
 -->
 
+<!--
+### Enhancements {#enhancements}
 
-### 機能強化 {#enhancements}
+Brand Portal 2021.08.0 is an internal release that introduces Business profiles for enterprise and teams customers to give organizations better control over their assets. 
 
-Brand Portal 2021.08.0は、企業やチームのお客様が自社のアセットをより細かく制御できるように、ビジネスプロファイルを導入する内部リリースです。
+This release includes the following enhancements:
 
-このリリースで強化された機能は次のとおりです。
+* The users now have organization-specific entitlement on the new and migrated organizations. If a user is entitled to multiple organizations, the user has to select the organization at the time of login.
 
-* ユーザーには、新しい組織と移行された組織に対する組織固有の権限が付与されます。 ユーザーに複数の組織の権利が付与されている場合、ユーザーはログイン時に組織を選択する必要があります。
-
-* Admin Consoleに追加される新しいユーザーは、組織に対する権利を得るには、**チームに参加**&#x200B;する必要があります。
+* The new users that are added in Admin Console must **Join Team** to get entitled to the organization. 
 
 >[!NOTE]
 >
->ビジネスプロファイルは、現在、2021年8月17日以降に作成される新しい組織に適用されます。
+>Business profiles are currently applicable for the new organizations that are created after August 16, 2021. 
 >
->組織が移行されるまでは、引き続きAdobe ID、Enterprise IDまたはFederated IDタイプを使用して組織にアクセスできます。
+>Until your organization is migrated, you can continue to use Adobe ID, Enterprise ID, or Federated ID types to access the organization.   
+-->
 
 <!-- 
 * For folder download, a separate folder is created for each asset using share link irrespective of the **[!UICONTROL Download Settings]**. 
@@ -99,12 +100,19 @@ Brand Portal 2021.08.0は、企業やチームのお客様が自社のアセッ�
 
 このリリースでは、次の重要な問題が修正されています。
 
-* アセットソーシングに関する電子メール通知が、一部の組織で配信されない。
+* Brand Portalから公開されたアセットが、特定の投稿フォルダーのExperience Managerアセットに表示されない。
+* Brand Portalテナントの **[!UICONTROL totalUploadSize]** は、投稿フォルダーを非公開にしても減少しません。
+* ユーザーは、適用されたメタデータスキーマプロファイルをフォルダーから削除できません。
+* ユーザー権限ページのグループ数が正しくありません。
+* リスト内を移動する際に、コレクションページに時間がかかりすぎる。
 
-* 拡張子が`.mov`のビデオファイルがBrand Portalで動作していません。
+<!--
+* Asset Sourcing email notifications are not delivered for some organizations. 
 
-* 「**[!UICONTROL スマートコレクション]**」ドロップダウンリストには、10個の保存済みコレクションのみが表示されます。
+* Video files with extension `.mov` are not running on Brand Portal. 
 
+* In the **[!UICONTROL Smart Collections]** dropdown list, only ten saved collections are visible. 
+-->
 <!--
 * *_deleted tenants are listed as valid tenant which fails during the execution of TenantCustomizers/TenantUpdates where tenant id is returned as /etc/tenants/`<nodename>`.
 -->
@@ -128,11 +136,9 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 * ユーザーは、既存の組織の移行中にBrand Portalにログインできません。
 
-   ただし、Brand Portalにログインしているアクティブなユーザーは、現在のセッションの期限が切れるまで引き続き機能します。
+   ただし、Brand Portalにログインしているアクティブなユーザーは、現在のセッションの有効期限が切れるまで、引き続き機能します。
 
-* 管理者は、Brand PortalからAdmin Consoleに移動する際に、組織を選択するための画面を追加で表示する場合があります。
-
-* ユーザーは、適用されたメタデータスキーマプロファイルをフォルダーから削除できません。
+* 管理者は、Brand PortalからAdmin Consoleに移動する際に、組織を選択するための追加の画面が表示される場合があります。
 
 
 <!--
