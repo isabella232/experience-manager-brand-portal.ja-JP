@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: d5e39edc43d6d405e96edc76cbd1357ade58ea89
+source-git-commit: a2a6eb19fb5405f59e3c88182c2a9c15f2bb4183
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 64%
+source-wordcount: '396'
+ht-degree: 63%
 
 ---
 
@@ -100,8 +100,8 @@ This release includes the following enhancements:
 
 このリリースでは、次の重要な問題が修正されています。
 
-* Brand Portalから公開されたアセットが、特定の投稿フォルダーのExperience Managerアセットに表示されない。
-* Brand Portalテナントの **[!UICONTROL totalUploadSize]** は、投稿フォルダーを非公開にしても減少しません。
+* 同じサイズの投稿フォルダーのアセットは、Brand PortalからExperience ManagerAssets に公開されません。
+* 投稿フォルダーを非公開にしても、アセット投稿フォルダーのサイズは小さくなりません。
 * ユーザーは、適用されたメタデータスキーマプロファイルをフォルダーから削除できません。
 * ユーザー権限ページのグループ数が正しくありません。
 * リスト内を移動する際に、コレクションページに時間がかかりすぎる。
