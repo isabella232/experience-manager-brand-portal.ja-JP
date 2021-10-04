@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 96%
+source-wordcount: '1190'
+ht-degree: 87%
 
 ---
 
@@ -29,17 +29,18 @@ Brand Portal を使用すると、次のことが可能になります。
 
 >[!NOTE]
 >
->ビデオを操作したり Brand Portal に公開したりするには、AEM オーサーインスタンスが Dynamic Media ハイブリッドモードか Dynamic Media **[!DNL Scene 7]** モードのいずれかに設定されていることを確認してください。
+>ビデオを操作してBrand Portalに公開するには、Experience ManagerオーサーインスタンスがDynamic MediaハイブリッドモードかDynamic Media **[!DNL Scene 7]** モードのいずれかに設定されていることを確認してください。
 
 ビデオをプレビュー、再生、ダウンロードするために、Brand Portal では次の 2 つの設定を管理者に公開しています。
 
-* [Dynamic Media ハイブリッド設定](#configure-dm-hybrid-settings)：AEM オーサーインスタンスが Dynamic Media ハイブリッドモードで動作している場合。
-* [Dynamic Media [!DNL Scene 7] 設定](#configure-dm-scene7-settings)：AEM オーサーインスタンスが Dynamic Media **[!DNL Scene 7]** モードで動作している場合。
-Brand Portal テナントの複製先となる AEM オーサーインスタンスに指定した設定に基づいて、これらの設定のいずれかを指定します。
+* [Dynamic Mediaハイブリ](#configure-dm-hybrid-settings)
+ッド設定：Experience Managerオーサーインスタンスが Dynamic Media ハイブリッドモードで動作している場合。
+* [Dynamic Media [!DNL Scene 7] ](#configure-dm-scene7-settings)
+設定：Experience Managerオーサーインスタンスが Dynamic Media モードで動作し**[!DNL Scene 7]** ている場合。Brand Portalテナントの複製先となるExperience Managerオーサーインスタンスに設定した設定に基づいて、これらの設定のいずれかを指定します。
 
 >[!NOTE]
 >
->**[!UICONTROL Scene7Connect]** 実行モードで動作している AEM オーサーとの連携が設定された Brand Portal テナントでは、ダイナミックビデオはサポートされていません。
+>**[!UICONTROL Scene7Connect]** 実行モードで動作しているExperience Managerオーサーで設定されたBrand Portalテナントでは、ダイナミックビデオはサポートされていません。
 
 ## ダイナミックビデオの再生方法  {#how-are-dynamic-videos-played}
 

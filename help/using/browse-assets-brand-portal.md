@@ -1,26 +1,26 @@
 ---
 title: Brand Portal でアセットを参照する
-seo-title: Brand Portal でアセットを参照する
+seo-title: Browse assets on Brand Portal
 description: Brand Portal の様々な表示オプションや UI 要素を使用して、アセットの参照、アセット階層のトラバース、およびアセットの検索をおこないます。
-seo-description: Brand Portal の様々な表示オプションや UI 要素を使用して、アセットの参照、アセット階層のトラバース、およびアセットの検索をおこないます。
+seo-description: Browse through assets, traverse asset hierarchies, and search assets, using different view options and UI elements on Brand Portal.
 uuid: 178ce217-0050-4922-a204-f4539d46f539
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 100%
+source-wordcount: '1016'
+ht-degree: 95%
 
 ---
 
 # Brand Portal でアセットを参照する {#browsing-assets-on-brand-portal}
 
-AEM Assets Brand Portal は、別の表示オプションを使用しながらリソースの参照、アセット階層のトラバース、およびアセットの検索を容易におこなえる様々な機能とユーザーインターフェイス要素を提供します。
+Experience ManagerAssets Brand Portalには、別の表示オプションを使用しながらリソースの参照、アセット階層のトラバース、およびアセットの検索を容易におこなえる様々な機能とユーザーインターフェイス要素が用意されています。
 
-管理者ユーザーは、上部にある AEM ツールバーの AEM ロゴから、管理ツールパネルへアクセスできます。
+Experience Manager上部のツールバーにあるツールロゴを使用すると、管理者ユーザーは管理ツールパネルにアクセスできます。
 
 ![](assets/aemlogo.png)
 

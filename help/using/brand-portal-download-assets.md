@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
-workflow-type: ht
-source-wordcount: '1918'
-ht-degree: 100%
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+workflow-type: tm+mt
+source-wordcount: '1924'
+ht-degree: 94%
 
 ---
 
@@ -59,13 +59,13 @@ Brand Portal インターフェイスからのアセットレンディション�
 
    アセットのカスタムレンディションおよび（または）動的レンディションのダウンロードを有効にします。
 
-   元のアセットとシステム生成レンディション以外のすべてのアセットレンディションは、カスタムレンディションと呼ばれます。これには、アセットに使用できる静的レンディションと動的レンディションが含まれます。どのユーザーも AEM Assets でカスタムの静的レンディションを作成できますが、カスタムの動的レンディションを作成できるのは AEM 管理者のみです。詳しくは、[画像プリセットまたは動的レンディションの適用方法](../using/brand-portal-image-presets.md)を参照してください。
+   元のアセットとシステム生成レンディション以外のすべてのアセットレンディションは、カスタムレンディションと呼ばれます。これには、アセットに使用できる静的レンディションと動的レンディションが含まれます。どのユーザーも、Experience Managerアセットでカスタムの静的レンディションを作成できますが、カスタムの動的レンディションを作成できるのは管理者のみです。 詳しくは、[画像プリセットまたは動的レンディションの適用方法](../using/brand-portal-image-presets.md)を参照してください。
 
 * **[!UICONTROL システムレンディション]**
 
    アセットのシステム生成レンディションのダウンロードを有効にします。
 
-   これらは、「DAM アセットの更新」ワークフローに基づいて、AEM Assets で自動的に生成されるサムネールです。
+   これらは、「DAM アセットの更新」ワークフローに基づいて、Experience Managerアセットで自動的に生成されるサムネールです。
 
 * **[!UICONTROL アセットのダウンロード]**
 
@@ -163,7 +163,7 @@ Brand Portal インターフェイスからアセットまたはアセットを�
       >
       >ダウンロードするアセットに、ライセンスが必要なアセットが含まれている場合は、**[!UICONTROL 著作権管理]**&#x200B;ページにリダイレクトされます。このページで、アセットを選択し、「**[!UICONTROL 同意する]**」をクリックし、「**[!UICONTROL ダウンロード]**」をクリックします。「同意しない」を選択した場合は、ライセンスが必要なアセットはダウンロードされません。
       > 
-      >ライセンスで保護されているアセットには、[使用許諾契約が添付](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)されています。この処理は、Experience Manager Assets でアセットの[メタデータプロパティ](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)を設定することでおこなわれます。
+      >ライセンスで保護されているアセットには、[使用許諾契約が添付](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)されています。この処理は、Experience Manager Assets でアセットの[メタデータプロパティ](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)を設定することでおこなわれます。
 
 
       ![licensed-asset](assets/licensed-asset-new.png)
@@ -208,9 +208,9 @@ Brand Portal インターフェイスからアセットまたはアセットを�
 >
 >Brand Portal では、ハイブリッドモードと Scene7 モードの両方の Dynamic Media 設定をサポートしています。
 >
->（*AEM オーサーインスタンスが **Dynamic Media ハイブリッドモード***で動作している場合）
+>(*Experience Managerアセットのオーサーインスタンスが&#x200B;**Dynamic Mediaハイブリッドモード*** で動作している場合 )
 >
->アセットの動的レンディションをプレビューまたはダウンロードするには、ダイナミックメディアが有効になっていて、アセットのピラミッド TIFF レンディションがアセットの公開元の AEM Assets オーサーインスタンスに存在している必要があります。AEM から Brand Portal にアセットを公開すると、そのビラミッド TIFF レンディションも公開されます。
+>アセットの動的レンディションをプレビューまたはダウンロードするには、Dynamic Media が有効で、Experience Managerのピラミッド TIFF レンディションが、アセットの公開元のアセットオーサーインスタンスに存在している必要があります。 Experience ManagerアセットからBrand Portalにアセットを公開すると、そのピラミッド TIFF レンディションも公開されます。
 
 
 

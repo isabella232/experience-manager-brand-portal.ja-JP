@@ -10,14 +10,14 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d5e39edc43d6d405e96edc76cbd1357ade58ea89
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '6339'
+source-wordcount: '6340'
 ht-degree: 85%
 
 ---
 
-# AEM Assets Brand Portal の新機能 {#what-s-new-in-aem-assets-brand-portal}
+# Experience ManagerAssets Brand Portalの新機能 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portalは、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、様々なデバイスをまたいで、外部の関係者や内部のビジネスユーザーに安全に配布します。 アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。アドビは Brand Portal の全体的なエクスペリエンスの強化に取り組んでいます。以下に、最新機能と機能強化について簡単に紹介します。
 
@@ -524,7 +524,7 @@ Dynamic Media ビデオエンコードは以下の場所からダウンロード
 
 ### URL 中の設定可能なテナントエイリアス
 
-組織のポータル URL に代替プレフィックスを含めて、カスタマイズされたポータル URL を取得することができます。既存のポータル URL 内のテナント名のエイリアスを取得するには、各組織がAdobeサポートに連絡する必要があります。
+組織のポータル URL に代替プレフィックスを含めて、カスタマイズされたポータル URL を取得することができます。既存のポータル URL のテナント名のエイリアスを取得するには、各組織がカスタマーサポートに問い合わせる必要があります。
 
 カスタマイズできるのはBrand Portal URL のプレフィックスのみで、URL 全体ではありません。\
 例えば、**geomettrix.brand-portal.adobe.com** という既存ドメインを持つ組織は、アドビに依頼することで **geomettrixinc.brand-portal.adobe.com** という URL を作成できます。
@@ -667,7 +667,7 @@ Brand Portal 6.4.1 はプラットフォームのアップグレードリリー�
 
 * AEM からアップロードされたオーディオファイルをアセットの詳細ページでプレビューできるようになりました。
 * アセットのプロパティに新しい関連アセット機能が追加されました。AEM の他のソースや派生アセットと関連し、Brand Portal で公開されるアセットが、Brand Portal 内でもその関連性を維持するようになりました（プロパティページに関連アセットへのリンクが含まれます）。
-* 管理者以外のユーザーによる公開コレクションの作成を制限する新しい設定が追加されました。各組織はアドビサポートチームと連携して、この機能を特定のアカウントに設定することができます。
+* 管理者以外のユーザーによる公開コレクションの作成を制限する新しい設定が追加されました。組織は、カスタマーサポートチームと協力して、特定のアカウントにこの機能を設定できます。
 
 ### 検索の機能強化
 

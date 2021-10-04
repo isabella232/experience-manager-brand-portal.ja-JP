@@ -1,8 +1,8 @@
 ---
 title: メタデータスキーマフォームの使用
-seo-title: メタデータスキーマフォームの使用
+seo-title: Use the metadata schema form
 description: メタデータスキーマは、プロパティページのレイアウトと、特定のスキーマを使用するアセット用に表示されるメタデータプロパティを記述します。アセットにどのスキーマを適用するかによって、そのアセットのプロパティページに表示されるメタデータフィールドが決まります。
-seo-description: メタデータスキーマは、プロパティページのレイアウトと、特定のスキーマを使用するアセット用に表示されるメタデータプロパティを記述します。アセットにどのスキーマを適用するかによって、そのアセットのプロパティページに表示されるメタデータフィールドが決まります。
+seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
 uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,10 +10,10 @@ topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: ht
-source-wordcount: '1756'
-ht-degree: 100%
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+workflow-type: tm+mt
+source-wordcount: '1718'
+ht-degree: 91%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 100%
 
 メタデータスキーマは、プロパティページのレイアウトと、特定のスキーマを使用するアセット用に表示されるメタデータプロパティを記述します。アセットにどのスキーマを適用するかによって、そのアセットのプロパティページに表示されるメタデータフィールドが決まります。
 
-各アセットの&#x200B;**[!UICONTROL プロパティ]**&#x200B;ページには、そのアセットの MIME タイプに応じたデフォルトのメタデータプロパティが表示されます。管理者は、メタデータスキーマエディターを使用して、既存のスキーマを変更したり、カスタムのメタデータスキーマを追加したりできます。AEM Assets Brand Portal には、各種 MIME タイプのアセット用のデフォルトフォームが用意されていますが、これらのアセット用のカスタムフォームも追加できます。
+各アセットの&#x200B;**[!UICONTROL プロパティ]**&#x200B;ページには、そのアセットの MIME タイプに応じたデフォルトのメタデータプロパティが表示されます。管理者は、メタデータスキーマエディターを使用して、既存のスキーマを変更したり、カスタムのメタデータスキーマを追加したりできます。Experience ManagerAssets Brand Portalには、様々な MIME タイプのアセットに応じたデフォルトのフォームが用意されています。 ただし、このようなアセットのカスタムフォームを追加することもできます。
 
 ## メタデータスキーマフォームの追加 {#add-a-metadata-schema-form}
 
 新しいメタデータスキーマフォームを作成するには、以下の手順を実行します。
 
-1. 上部の AEM ツールバーでアドビのロゴをクリックして、管理ツールにアクセスします。
+1. 上部のツールバーのExperience Managerロゴをクリックして、管理ツールにアクセスします。
 
    ![](assets/aemlogo.png)
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 メタデータスキーマフォームを編集するには、以下の手順を実行します。
 
-1. 上部の AEM ツールバーでアドビのロゴをクリックして、管理ツールにアクセスします。
+1. 上部のツールバーのExperience Managerロゴをクリックして、管理ツールにアクセスします。
 
    ![](assets/aemlogo.png)
 
@@ -86,12 +86,12 @@ ht-degree: 100%
 | **[!UICONTROL 番号]** | 数値コンポーネントを追加します。 |
 | **[!UICONTROL 日付]** | 日付コンポーネントを追加します。 |
 | **[!UICONTROL ドロップダウン]** | ドロップダウンリストを追加します。 |
-| **[!UICONTROL 標準タグ]** | タグを追加します。**注意：** AEM から公開するメタデータスキーマフォームのパスにテナント情報（例：`/etc/tags/<custom_tag_namespace>`）が含まれていない場合は、管理者がパス値（例：`/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`）を変更しなければならないことがあります。 |
-| **[!UICONTROL スマートタグ]** | AEM スマートタグアドオンを購入して設定済みの場合に自動検出されるタグです。 |
+| **[!UICONTROL 標準タグ]** | タグを追加します。**注意：** Experience Managerアセットからメタデータスキーマフォームを公開する場合、管理者は、パスにテナント情報 ( 例： `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`) が含まれていない場合、パス値 ( 例： `/etc/tags/<custom_tag_namespace>`) を変更しなければならないことがあります。 |
+| **[!UICONTROL スマートタグ]** | Experience Managerアセットのスマートタグアドオンを購入して設定済みの場合に自動検出されるタグです。 |
 | **[!UICONTROL 非表示のフィールド]** | 非表示のフィールドを追加します。このフィールドは、アセットの保存時に POST パラメーターとして送信されます。 |
 | **[!UICONTROL アセットの参照元]** | このアセットが参照しているアセットのリストを表示するには、このコンポーネントを追加します。 |
 | **[!UICONTROL アセットの参照]** | このアセットを参照しているアセットのリストを表示するには、このコンポーネントを追加します。 |
-| **[!UICONTROL アセット評価]** | AEM Assets から追加されるアセットの、Brand Portal に公開される前の平均評価です。 |
+| **[!UICONTROL アセット評価]** | Brand Portalに公開される前に、Experience Managerアセットから追加されたアセットの平均評価です。 |
 | **[!UICONTROL コンテキストメタデータ]** | アセットのプロパティページにある他のメタデータタブの表示を制御するために追加します。 |
 
 >[!NOTE]
@@ -123,7 +123,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->アセットのメタデータエディターフォームでは、すべてのメタデータフィールドが読み取り専用です。これは、Brand Portal にアセットを公開する前に、そのアセットのメタデータを AEM Assets で編集する必要があるからです。
+>アセットのメタデータエディターフォームでは、すべてのメタデータフィールドが読み取り専用です。これは、アセットをBrand Portalに公開する前に、Experience Managerのメタデータをアセットアセットで編集する必要があるからです。
 
 #### スキーマフォームでのタブの追加または削除 {#add-or-delete-a-tab-in-the-schema-form}
 
@@ -143,7 +143,7 @@ Brand Portal では、選択した特定の情報のみをアセットの&#x200B
 
 フォルダーにメタデータスキーマフォームを適用するには、以下の手順を実行します。
 
-1. 上部の AEM ツールバーでアドビのロゴをクリックして、管理ツールにアクセスします。
+1. 上部のツールバーのExperience Managerロゴをクリックして、管理ツールにアクセスします。
 
    ![](assets/aemlogo.png)
 

@@ -1,8 +1,8 @@
 ---
-title: Brand Portal での投稿フォルダーへのアセットのアップロードと AEM Assets への投稿フォルダーの公開
-seo-title: Brand Portal での投稿フォルダーへのアセットのアップロードと AEM Assets への投稿フォルダーの公開
-description: Brand Portal での投稿フォルダーへの新しいアセットのアップロードと AEM Assets への投稿フォルダーの公開について説明します。
-seo-description: Brand Portal での投稿フォルダーへの新しいアセットのアップロードと AEM Assets への投稿フォルダーの公開について説明します。
+title: アセットをアップロードし、Brand PortalからExperience ManagerAssets に投稿フォルダーを公開します。
+seo-title: Upload assets and publish the Contribution folder from Brand Portal to Experience Manager Assets
+description: 新しいアセットのアップロードと、Brand PortalからExperience ManagerAssets への投稿フォルダーの公開について説明します。
+seo-description: Get an insight into uploading new assets and publishing the contribution folder from Brand Portal to Experience Manager Assets.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,14 +10,14 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 100%
+source-wordcount: '1011'
+ht-degree: 68%
 
 ---
 
-# AEM Assets への投稿フォルダーの公開 {#using-asset-souring-in-bp}
+# 投稿フォルダーのExperience Managerアセットへの公開 {#using-asset-souring-in-bp}
 
 適切な権限を持つ Brand Portal ユーザーは、複数のアセットや、複数のアセットを含むフォルダーを投稿フォルダーにアップロードできます。ただし、Brand Portal ユーザーは **NEW** フォルダーにのみアセットをアップロードできます。す。**SHARED** フォルダーは、ベースラインアセット（参照用コンテンツ）を配布するためのものです。投稿用の新しいアセットを作成する際に Brand Portal ユーザーが使用できます。
 
@@ -25,11 +25,11 @@ ht-degree: 100%
 
 * [アセット要件のダウンロード](#download-asset-requirements)
 * [投稿フォルダーへの新しいアセットのアップロード](#uplad-new-assets-to-contribution-folder)
-* [AEM Assets への投稿フォルダーの公開](#publish-contribution-folder-to-aem)
+* [投稿フォルダーのExperience Managerアセットへの公開](#publish-contribution-folder-to-aem)
 
 ## アセット要件のダウンロード {#download-asset-requirements}
 
-Brand Portal ユーザーは、投稿フォルダーが AEM ユーザーによって共有されるたびに、電子メール／パルス通知を自動的に受け取ります。これにより、アセット要件を確実に理解するための概要（アセット要件）ドキュメントおよびベースラインアセット（参照用コンテンツ）を **SHARED** フォルダーからダウンロードできます。
+Brand Portalのユーザーは、投稿フォルダーがExperience Managerの Assets ユーザーによって共有されるたびに、電子メール/パルス通知を自動的に受け取り、基準アセット（参照コンテンツ）を **SHARED** フォルダーからダウンロードして、アセット要件を理解できます。
 
 Brand Portal ユーザーは、アセット要件をダウンロードするために、次のアクティビティを実行します。
 
@@ -76,9 +76,9 @@ Brand Portal ユーザーは、アセット要件を確認した後、投稿用�
 
 >[!NOTE]
 >
->投稿フォルダーを AEM Assets に公開した後、アップロード領域を解放し、他の Brand Portal ユーザーが投稿に使用できるようにすることをお勧めします。
+>他のBrand Portalユーザーが投稿できるように、投稿フォルダーをExperience Managerー Assets に公開してからアップロード領域を解放することをお勧めします。
 >
->Brand Portal テナントのアップロード制限を拡張して **10** GB を超えるようにする必要がある場合は、Adobe サポートに連絡して、要件を指定してください。
+>Brand Portalテナントのアップロード制限を **10** GB を超えて拡張する必要がある場合は、カスタマーサポートに連絡して、要件を指定してください。
 
 
 **新しいアセットをアップロードするには：**
@@ -100,12 +100,12 @@ Brand Portal ユーザーは、アセット要件を確認した後、投稿用�
 
    ![](assets/upload-new-assets6.png)
 
-すべてのアセットまたはフォルダーを NEW フォルダーにアップロードしたら、投稿フォルダーを AEM Assets に公開します。
+すべてのアセットまたはフォルダーを NEW フォルダーにアップロードしたら、投稿フォルダーをExperience ManagerAssets に公開します。
 
 
-## AEM Assets への投稿フォルダーの公開 {#publish-contribution-folder-to-aem}
+## 投稿フォルダーのExperience Managerアセットへの公開 {#publish-contribution-folder-to-aem}
 
-Brand Portal ユーザーは、AEM オーサーインスタンスにアクセスすることなく、投稿フォルダーを AEM Assets に公開できます。
+Brand Portalユーザーは、投稿フォルダーをExperience Managerアセットに公開できます。投稿オーサーインスタンスにアクセスする必要はありません。
 
 必ずアセット要件を確認してから、投稿フォルダー内の **NEW** フォルダーに新しく作成されたアセットをアップロードします。
 
@@ -121,31 +121,32 @@ Brand Portal ユーザーは、AEM オーサーインスタンスにアクセス
    ![](assets/publish-contribution-folder-to-aem1.png)
 
 公開ワークフローの様々な段階で、電子メール／パルス通知が Brand Portal ユーザーおよび管理者に送信されます。
+
 1. **キューに登録済み** - Brand Portal で公開ワークフローがトリガーされると、Brand Portal ユーザーおよび Brand Portal 管理者に通知が送信されます。
 
-1. **完了** - 投稿フォルダーが AEM Assets へ正常に公開されると、Brand Portal ユーザーおよび Brand Portal 管理者に通知が送信されます。
+1. **完了**  — 投稿フォルダーがBrand Portal Assets へ正常に公開されると、Brand PortalユーザーおよびExperience Manager管理者に通知が送信されます。
 
-新しく作成したアセットを AEM Assets に公開した後、Brand Portal のユーザーは、NEW フォルダーからそれらのアセットを削除できます。一方、Brand Portal 管理者は、NEW フォルダーと SHARED フォルダーの両方からアセットを削除できます。
+新しく作成したアセットをExperience ManagerAssets に公開した後、Brand Portalユーザーは NEW フォルダーから削除できます。 一方、Brand Portal 管理者は、NEW フォルダーと SHARED フォルダーの両方からアセットを削除できます。
 
 投稿フォルダー作成の目的を達成したら、Brand Portal 管理者は投稿フォルダーを削除して、他のユーザーが使用できるようアップロード領域を解放できます。
 
 ## ジョブステータスの公開 {#publishing-job-status}
 
-Brand Portal から AEM Assets に公開したアセット投稿フォルダーのステータスを表示するのに管理者が利用できるレポートが 2 つあります。
+管理者は、Brand PortalからExperience Managerアセットに公開されたアセット投稿フォルダーのステータスを表示するために使用できるレポートを 2 つ用意しています。
 
 * Brand Portal で、**[!UICONTROL ツール]**／**[!UICONTROL アセット投稿のステータス]**&#x200B;に移動します。このレポートには、公開ワークフローの様々な段階におけるすべての公開ジョブのステータスが表示されます。
 
    ![](assets/contribution-folder-status.png)
 
-* AEM Assets（オンプレミス版または Managed Services 版）で、**[!UICONTROL アセット]**／**[!UICONTROL ジョブ]**&#x200B;に移動します。このレポートには、すべての公開ジョブの最終状態（成功またはエラー）が表示されます。
+* Experience Managerアセット（オンプレミスまたはマネージドサービス）で、**[!UICONTROL Assets]** / **[!UICONTROL ジョブ]** に移動します。 このレポートには、すべての公開ジョブの最終状態（成功またはエラー）が表示されます。
 
    ![](assets/publishing-status.png)
 
-* AEM Assets as a Cloud Service で、**[!UICONTROL アセット]**／**[!UICONTROL ジョブ]**&#x200B;に移動します。
+* Experience ManagerアセットをCloud Serviceーとして開き、**[!UICONTROL Assets]** > **[!UICONTROL Jobs]** に移動します。
 
    または、グローバルナビゲーションから&#x200B;**[!UICONTROL ジョブ]**&#x200B;に直接移動できます。
 
-   このレポートには、Brand Portal から AEM Assets as a Cloud Service へのアセットのインポートなど、すべての公開ジョブの最終状態（成功またはエラー）が表示されます。
+   このレポートは、Brand PortalからExperience ManagerアセットへのCloud Serviceとしてのアセットの読み込みを含む、すべての公開ジョブの最終状態（成功またはエラー）を反映します。
 
    ![](assets/cloud-service-job-status.png)
 

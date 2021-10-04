@@ -1,8 +1,8 @@
 ---
 title: 一般的なテナント設定の管理
-seo-title: 一般的なテナント設定の管理
+seo-title: Administer general tenant configurations
 description: ダウンロードアクセラレーション、公開スマートコレクションの作成、公開コレクションの作成を設定し、管理者ユーザーがテナントのアセットを削除できるようにします。
-seo-description: ダウンロードアクセラレーション、公開スマートコレクションの作成、公開コレクションの作成を設定し、管理者ユーザーがテナントのアセットを削除できるようにします。
+seo-description: Configure download acceleration, public smart collection creation, public collection creation, and enable admin users to delete assets on tenants.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
@@ -11,16 +11,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 role: Admin
 exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: ht
-source-wordcount: '402'
-ht-degree: 100%
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 92%
 
 ---
 
 # 一般的なテナント設定の管理 {#administer-general-tenant-configurations}
 
-AEM Assets Brand Portal では、各組織が特定のテナントについて以下の機能を設定することができます。
+Experience ManagerAssets Brand Portalでは、各組織が特定のテナントに対して次の機能を設定できます。
 
 * 管理者によるアセットの削除
 * 管理者以外のユーザーによる公開コレクションの作成
@@ -44,7 +44,7 @@ AEM Assets Brand Portal では、各組織が特定のテナントについて�
 これらの設定を有効化／無効化するには、次のようにします。
 
 1. 管理者権限でログインします。
-1. 管理ツールにアクセスするには、上部のツールバーにある AEM ロゴを選択します。
+1. 上部のExperience Managerのツールバーで、管理ツールにアクセスするツールロゴを選択します。
 1. 管理ツールパネルから、**[!UICONTROL 一般]**&#x200B;を選択して&#x200B;**[!UICONTROL 一般設定]**&#x200B;ページを開きます。
 1. それぞれの切り替えスイッチを使用して一般設定を有効化／無効化します。
 1. 変更内容を&#x200B;**[!UICONTROL 保存]**&#x200B;します。

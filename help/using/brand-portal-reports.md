@@ -1,8 +1,8 @@
 ---
 title: レポートの操作
-seo-title: レポートの操作
-description: AEM Assets Brand Portal 管理者は、Brand Portal の使用状況に関するレポートを表示できます。また、ダウンロードされたアセット、有効期限が切れたアセット、公開されたアセット、リンクで共有されているアセットに関するレポートを、Brand Portal を介して作成、管理および表示することもできます。
-seo-description: AEM Assets Brand Portal 管理者は、Brand Portal の使用状況に関するレポートを表示できます。また、ダウンロードされたアセット、有効期限が切れたアセット、公開されたアセット、リンクで共有されているアセットに関するレポートを、Brand Portal を介して作成、管理および表示することもできます。
+seo-title: Work with reports
+description: Experience ManagerAssets Brand Portal管理者は、Brand Portalの使用状況に関するレポートを表示したり、Brand Portalを通じてダウンロードされたアセット、期限切れのアセット、公開されたアセット、リンクに関するレポートを作成、管理および表示したりできます。
+seo-description: Experience Manager Assets Brand Portal Administrators can view report about Brand Portal usage, and create, manage, and view reports around assets downloaded, expired, published, and link shared through Brand Portal.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
 topic-tags: administration
@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: ht
-source-wordcount: '1023'
-ht-degree: 100%
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+workflow-type: tm+mt
+source-wordcount: '996'
+ht-degree: 91%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 レポートを表示するには、以下の手順に従います。
 
-1. 上部のツールバーの AEM ロゴをタップまたはクリックして、管理ツールにアクセスします。
+1. 上部のツールバーのExperience Managerロゴをタップまたはクリックして、管理ツールにアクセスします。
 
    ![](assets/aemlogo.png)
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
    ![](assets/expiration-report.png)
 
-   **[!UICONTROL 公開]**&#x200B;レポートには、特定の期間内に AEM から Brand Portal に公開されたすべてのアセットと、それらに関する情報が表示されます。
+   **** 公開レポートには、指定した期間にExperience ManagerアセットからBrand Portalに公開されたすべてのアセットと、それらに関する情報が表示されます。
 
    ![](assets/publish-report.png)
 
@@ -94,7 +94,7 @@ ht-degree: 100%
 
 ダウンロード、有効期限および公開レポートの列は、カスタマイズして表示できます。レポートを生成するには、以下の手順に従います。
 
-1. 上部のツールバーの AEM ロゴをタップまたはクリックして、管理ツールにアクセスします。
+1. 上部のツールバーのExperience Managerロゴをタップまたはクリックして、管理ツールにアクセスします。
 
 1. 管理ツールパネルの「**[!UICONTROL レポートを作成 / 管理]**」をタップまたはクリックして、**[!UICONTROL アセットレポート]**&#x200B;ページを開きます。
 

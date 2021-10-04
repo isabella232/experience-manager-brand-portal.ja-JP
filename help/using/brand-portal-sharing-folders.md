@@ -1,30 +1,30 @@
 ---
 title: フォルダーの共有
-seo-title: フォルダーの共有
-description: Brand Portal は、アセットの取り込みをサポートしていません。したがって、事前設定済みの AEM オーサーインスタンスから Brand Portal にアセットを公開する必要があります。公開されたアセットは、AEM インスタンスとのレプリケーションの設定時に特に指定しない限り、Brand Portal の管理者以外のユーザーからはアクセスできなくなります。そこで、共有するための設定をおこなう必要があります。
-seo-description: Brand Portal は、アセットの取り込みをサポートしていません。したがって、事前設定済みの AEM オーサーインスタンスから Brand Portal にアセットを公開する必要があります。公開されたアセットは、AEM インスタンスとのレプリケーションの設定時に特に指定しない限り、Brand Portal の管理者以外のユーザーからはアクセスできなくなります。そこで、共有するための設定をおこなう必要があります。
+seo-title: Share folders
+description: Brand PortalはExperience Managerの取り込みをサポートしていないので、事前設定済みのアセットアセットオーサーインスタンスからBrand Portalにアセットを公開する必要があります。 公開済みアセットは、Brand Portalの管理者以外のユーザーは、Experience Managerインスタンスでレプリケーションを設定する際に設定されている場合を除き、アクセスできません。また、そのユーザーと共有する必要があります。
+seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
 uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 100%
+source-wordcount: '1110'
+ht-degree: 90%
 
 ---
 
 # Brand Portal でフォルダーを共有する {#share-folders}
 
-Brand Portal は、アセットの取り込みをサポートしていません。したがって、事前設定済みの AEM オーサーインスタンスから Brand Portal にアセットを公開する必要があります。
+Brand Portalはアセットの取り込みをサポートしていないので、事前設定済みのExperience ManagerオーサーインスタンスからBrand Portalにアセットを公開する必要があります。
 
-## Brand Portal でのフォルダー共有ワークフロー  {#folder-sharing-workflow-in-brand-portal}
+## Brand Portal でのフォルダー共有ワークフロー {#folder-sharing-workflow-in-brand-portal}
 
 以下に、フォルダー共有のワークフローとユーザーアクセスを示します。
 
-* AEM Assets から Brand Portal に公開されるすべてのフォルダーは、レプリケーションの設定時に「公開」として指定されていない限り、デフォルトで Brand Portal 管理者にのみ表示されます。
+* デフォルトでは、Experience ManagerAssets からBrand Portalに公開されたすべてのフォルダーは、レプリケーションの設定時に「公開」とマークされない限り、Brand Portal管理者にのみ表示されます。
 * 管理者は、**[!UICONTROL フォルダーのプロパティ]**&#x200B;コンソールを使用して、一部の選択したユーザーやグループとのみフォルダーを共有します。フォルダーを共有しているこれらのユーザーとグループのみが、Brand Portal へのログイン後にフォルダーを表示できます。それ以外のユーザーにフォルダーは表示されません。
 * 管理者は、**[!UICONTROL フォルダーのプロパティ]**&#x200B;コンソールの「**[!UICONTROL 公開フォルダー]**」チェックボックスを利用して、フォルダーを公開フォルダーとして設定できます。公開フォルダーはすべてのユーザーに表示されます。
 
@@ -126,7 +126,7 @@ Brand Portal のレプリケーションの設定時に「**[!UICONTROL 公開�
 
 1. 共有フォルダーにアクセスするには、フォルダーを共有するユーザーの資格情報を使用して Brand Portal にログインします。インターフェイスで共有フォルダーを確認します。
 
-## フォルダーの共有解除  {#unshare-the-folders}
+## フォルダーの共有解除 {#unshare-the-folders}
 
 共有フォルダーの共有を解除するには、以下の手順に従います。
 

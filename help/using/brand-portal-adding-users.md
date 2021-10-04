@@ -1,8 +1,8 @@
 ---
 title: ユーザー、グループ、ユーザーの役割の管理
 seo-title: Manage users, groups, and user roles
-description: 管理者は、Adobe Admin Console を使用して AEM Assets Brand Portal のユーザーおよび製品プロファイルを作成でき、それらのユーザーの役割を Brand Portal ユーザーインターフェイスで管理できます。これは閲覧者と編集者にはない権限です。
-seo-description: Administrators can use Adobe Admin Console to create AEM Assets Brand Portal users and product profiles, and manage their roles using the Brand Portal user interface. This privilege is not available to Viewers and Editors.
+description: 管理者は、Adobe Admin Console を使用して Brand Portal のユーザーおよび製品プロファイルを作成でき、それらのユーザーの役割を Brand Portal ユーザーインターフェイスで管理できます。これは閲覧者と編集者にはない権限です。
+seo-description: Administrators can use Adobe Admin Console to create Brand Portal users and product profiles, and manage their roles using the Brand Portal user interface. This privilege is not available to Viewers and Editors.
 uuid: 0dc1867c-6d1b-4d0d-a25e-0df207c269b8
 content-type: reference
 topic-tags: administration
@@ -10,18 +10,18 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
-source-git-commit: 257a4686e1f5fba1ae4900bfa966e3ad6bb81a7a
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '2181'
-ht-degree: 100%
+source-wordcount: '2185'
+ht-degree: 95%
 
 ---
 
 # ユーザー、グループ、ユーザーの役割の管理 {#manage-users-groups-and-user-roles}
 
-管理者は、Adobe Admin Console を使用して AEM Assets Brand Portal のユーザーおよび製品プロファイルを作成でき、それらのユーザーの役割を Brand Portal ユーザーインターフェイスで管理できます。これは閲覧者と編集者にはない権限です。
+管理者は、 Adobe Admin Consoleを使用して、Experience ManagerのAssets Brand Portalユーザーと製品プロファイルを作成し、Brand Portalユーザーインターフェイスを使用してその役割を管理できます。 これは閲覧者と編集者にはない権限です。
 
-[[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) には、組織に関連するあらゆる製品が表示されます。これには、例えば Adobe Analytics や Adobe Target、AEM Brand Portal など、様々な Adobe Experience Cloud ソリューションが含まれます。AEM Brand Portal 製品を選択し、製品プロファイルを作成する必要があります。
+[[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) には、組織に関連するあらゆる製品が表示されます。Adobe Analytics、Adobe Target、Experience ManagerAssets Brand Portalなど、任意のExperience Cloudソリューションが製品になります。 AEM Brand Portal 製品を選択し、製品プロファイルを作成する必要があります。
 
 <!--
 Comment Type: draft
@@ -127,7 +127,7 @@ Brand Portal グループにユーザーを追加するには、[!UICONTROL Admi
 >
 >[[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) には、直接または Brand Portal からログインできます。Admin Console に直接ログインした場合は、以下の手順 4～7 に従って、製品プロファイルにユーザーを追加します。
 
-1. 上部の AEM ツールバーでアドビのロゴをクリックして、管理ツールにアクセスします。
+1. 上部のツールバーのExperience Managerロゴをクリックして、管理ツールにアクセスします。
 
    ![AEM ロゴ](assets/aemlogo.png)
 
@@ -209,7 +209,7 @@ Brand Portal グループにユーザーを追加するには、[!UICONTROL Admi
    >
    >Brand Portal では、システム管理者と製品管理者の役割のみをサポートしています。
    >
-   >システム管理者の役割は使用しないことをお勧めします。なぜなら、システム管理者の役割は、組織のすべての製品に対する組織レベルの管理者権限を付与することになるからです。例えば、3 つのマーケティングクラウド製品を扱う組織のシステム管理者は、これら 3 つの製品に対するすべての権限を保有します。AEM Assets から Brand Portal にアセットを公開できるように AEM Assets を設定できるのは、システム管理者だけです。詳しくは、[AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
+   >システム管理者の役割は使用しないことをお勧めします。なぜなら、システム管理者の役割は、組織のすべての製品に対する組織レベルの管理者権限を付与することになるからです。例えば、3 つのマーケティングクラウド製品を扱う組織のシステム管理者は、これら 3 つの製品に対するすべての権限を保有します。Experience ManagerAssets からBrand Portalにアセットを公開できるようにシステム管理者のみがExperience ManagerAssets を設定できます。 詳しくは、[Brand Portal](../using/configure-aem-assets-with-brand-portal.md) でのExperience Managerアセットの設定を参照してください。
    >
    >それに対して、製品管理者の役割は、特定の製品に対する管理者権限のみを付与します。Brand Portal 内で、より詳細なアクセス制御を適用する場合は、製品管理者の役割を使用して、製品を「Brand Portal」として選択します。
 

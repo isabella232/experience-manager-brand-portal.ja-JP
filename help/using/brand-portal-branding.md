@@ -1,8 +1,8 @@
 ---
 title: 壁紙、ヘッダーおよび電子メールメッセージのカスタマイズ
-seo-title: 壁紙、ヘッダーおよび電子メールメッセージのカスタマイズ
+seo-title: Customize wallpaper, header, and email message
 description: Brand Portal 管理者は、ユーザーに表示されるインターフェイスをカスタマイズできます。Brand Portal ログインページのために固有の背景画像（壁紙）を選択できます。顧客のブランドに合わせてヘッダー画像を追加したり、アセット共有の電子メールをカスタマイズしたりできます。
-seo-description: Brand Portal 管理者は、ユーザーに表示されるインターフェイスをカスタマイズできます。Brand Portal ログインページのために固有の背景画像（壁紙）を選択できます。顧客のブランドに合わせてヘッダー画像を追加したり、アセット共有の電子メールをカスタマイズしたりできます。
+seo-description: Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.
 uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,10 +10,10 @@ topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: ht
-source-wordcount: '812'
-ht-degree: 100%
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+workflow-type: tm+mt
+source-wordcount: '762'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ Brand Portal 管理者は、ユーザーに表示されるインターフェイ�
 
 カスタムの壁紙画像がない場合、ログインページにはデフォルトの壁紙が表示されます。
 
-1. 上部の AEM ツールバーでアドビのロゴをクリックして、管理ツールにアクセスします。
+1. 上部のツールバーのExperience Managerロゴをクリックして、管理ツールにアクセスします。
 
    ![](assets/aemlogo.png)
 
@@ -75,7 +75,7 @@ Brand Portal 管理者は、ユーザーに表示されるインターフェイ�
 
 Brand Portal にログインすると、ヘッダーが様々な Brand Portal ページに表示されます。
 
-1. 上部の AEM ツールバーでアドビのロゴをクリックして、管理ツールにアクセスします。
+1. 上部のツールバーのExperience Managerロゴをクリックして、管理ツールにアクセスします。
 
    ![](assets/aemlogo.png)
 
@@ -126,7 +126,7 @@ Brand Portal にログインすると、ヘッダーが様々な Brand Portal �
 
 アセットをリンクとして共有すると、そのリンクを含む電子メールがユーザーに届きます。管理者は、これらの電子メールのメッセージ内容、つまりロゴ、説明およびフッターをカスタマイズできます。
 
-1. 上部の AEM ツールバーでアドビのロゴをクリックして、管理ツールにアクセスします。
+1. 上部のツールバーのExperience Managerロゴをクリックして、管理ツールにアクセスします。
 
    ![](assets/aemlogo.png)
 

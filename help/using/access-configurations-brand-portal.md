@@ -1,8 +1,8 @@
 ---
 title: Brand Portal でのユーザーアクセスの管理
-seo-title: Brand Portal でのユーザーアクセスの管理
+seo-title: Administer user access on Brand Portal
 description: Brand Portal でのゲストによるアクセスや新しいユーザーのアクセスを設定します。
-seo-description: Brand Portal でのゲストによるアクセスや新しいユーザーのアクセスを設定します。
+seo-description: Configure guest access and new users access on brand portal.
 uuid: 522b499d-33a0-455f-ac7e-719face48009
 contentOwner: mgulati
 topic-tags: administration
@@ -11,16 +11,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
 role: Admin
 exl-id: 27a9cd26-9bb3-473b-b1ac-37f77975c912
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: ht
-source-wordcount: '302'
-ht-degree: 100%
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 91%
 
 ---
 
 # Brand Portal でのユーザーアクセスの管理 {#administer-user-access-on-brand-portal}
 
-AEM Assets Brand Portal 6.4.2 以降では、管理者は、所属組織の Brand Portal でゲストによるアクセスを設定したり、ユーザーのアクセス要求を許可することができます。これらの設定は、管理パネルで&#x200B;**[!UICONTROL アクセス設定]**&#x200B;として提供されています。これらの設定は両方とも、デフォルトでは無効になっています。
+Adobe Experience Manager Assets Brand Portal 6.4.2 以降では、管理者は、自分たちの組織のBrand Portalでゲストによるアクセスを設定し、ユーザーのアクセス要求を許可できます。 これらの設定は、管理パネルで&#x200B;**[!UICONTROL アクセス設定]**&#x200B;として提供されています。これらの設定は両方とも、デフォルトでは無効になっています。
 
 ![](assets/access-configs.png)
 

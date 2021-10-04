@@ -1,24 +1,24 @@
 ---
 title: サポートされているファイル形式
-seo-title: サポートされているファイル形式
-description: 'AEM Assets Brand Portal でサポートされるファイル形式を以下の表に示します。 '
-seo-description: 'AEM Assets Brand Portal でサポートされるファイル形式を以下の表に示します。 '
+seo-title: Supported file formats
+description: '各Experience ManagerAssets Brand Portalは、マトリックスに示すように、特定のファイル形式をサポートしています。 '
+seo-description: Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix.
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 100%
+source-wordcount: '315'
+ht-degree: 90%
 
 ---
 
 # サポートされているファイル形式 {#supported-file-formats}
 
-AEM Assets Brand Portal でサポートされるファイル形式を以下の表に示します。
+各Experience ManagerAssets Brand Portalは、マトリックスに示すように、特定のファイル形式をサポートしています。
 
 | ファイル形式 | Brand Portal に公開されたアセット | Brand Portal に公開されたレンディション | Brand Portal に公開されたメタデータ | Brand Portal に公開されたサムネール | Brand Portal に公開されたアセット詳細ページ | リンク共有 | リンク共有のサムネール | リンク共有のプレビュー |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
