@@ -1,7 +1,7 @@
 ---
-title: Experience ManagerAssets Brand Portalの新機能
+title: Adobe Experience Manager Assets Brand Portal の新機能
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: 2021.10.0の新機能と機能強化
+description: 2021.10.0 の新機能と機能強化
 seo-description: What are the new features and enhancements for 2021.10.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -13,13 +13,13 @@ exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
 source-wordcount: '6340'
-ht-degree: 85%
+ht-degree: 98%
 
 ---
 
-# Experience ManagerAssets Brand Portalの新機能 {#what-s-new-in-aem-assets-brand-portal}
+# Adobe Experience Manager Assets Brand Portal の新機能 {#what-s-new-in-aem-assets-brand-portal}
 
-Adobe Experience Manager Assets Brand Portalは、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、様々なデバイスをまたいで、外部の関係者や内部のビジネスユーザーに安全に配布します。 アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。アドビは Brand Portal の全体的なエクスペリエンスの強化に取り組んでいます。以下に、最新機能と機能強化について簡単に紹介します。
+Adobe Experience Manager Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。アドビは Brand Portal の全体的なエクスペリエンスの強化に取り組んでいます。以下に、最新機能と機能強化について簡単に紹介します。
 
 ## 2021.10.0 の変更点 {#what-changed-in-october-2021}
 
@@ -27,37 +27,37 @@ Brand Portal 2021.10.0 は内部リリースであり、重要な問題の修正
 
 ## 2021.08.0 の変更点 {#what-changed-in-august-2021}
 
-Brand Portal 2021.08.0は、企業やチームのお客様向けのビジネスプロファイルを紹介する内部リリースで、組織が自社のアセットをより細かく制御できるようにします。 これで、新しい組織と移行された組織に対する、組織固有の権限がユーザーに付与されます。 移行中、既存のすべてのAdobe IDアカウントがビジネス ID に移行されます。
+Brand Portal 2021.08.0 は、エンタープライズユーザーやチームユーザーのビジネスプロファイルを導入して、組織がアセットをきめ細かく管理できるようにするための内部リリースです。ユーザーには、新規組織と移行後の組織に対する組織固有の権限が付与されるようになりました。移行時に、既存の Adobe ID アカウントはすべてビジネス ID に移行されます。
 
-* ビジネス ID は、移行後に新規および既存のすべての組織に割り当てられます。
-* ビジネス ID には、ドメインの要求や SSO の設定など、特定の設定は必要ありません。
-* gmail.com や outlook.com などの公開電子メールドメインを含む、任意の電子メールアドレスを持つユーザーを追加できます。
+* すべての新規組織および移行後の既存組織にビジネス ID が割り当てられます。
+* ビジネス ID には、ドメインの要求や SSO の設定などの、特定のセットアップは必要ありません。
+* gmail.com や outlook.com などのパブリック電子メールドメインを含む、任意の電子メールアドレスでユーザーを追加できます。
 
-**Brand Portalユーザーへの影響**
+**Brand Portal ユーザーへの影響**
 
-移行は、既存のデータセット、アセット、ユーザー、または設定には影響しません。 移行中に発生する内部的な変更は、既存の組織がビジネスプロファイルに対して付与される権限だけです。
+移行は、既存のデータセット、アセット、ユーザーまたは設定には影響しません。移行時に発生する内部的な変更は、既存組織の権限がビジネスプロファイルに付与されることだけです。
 
 >[!NOTE]
 >
->ビジネスプロファイルは、現在、2021 年 8 月 17 日以降に作成された新しい組織に適用されます。
+>ビジネスプロファイルは、現時点では、2021 年 8 月 16 日以降に作成される新しい組織に適用されます。
 >
->組織が移行されるまでは、引き続きAdobe ID、Enterprise IDまたはFederated IDタイプを使用して、組織にアクセスできます。
+>組織が移行されるまでは、引き続き Adobe ID、Enterprise ID、Federated ID のいずれかの ID を使用して組織にアクセスできます。
 
-### 参照記事 {#reference-articles}
+### 参考記事 {#reference-articles}
 
-* [Adobeプロファイルの概要](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html)
+* [アドビプロファイルの概要](https://helpx.adobe.com/jp/enterprise/kb/introducing-adobe-profiles.html)
 
-* [Adobeプロファイルの管理](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html)
+* [アドビプロファイルの管理](https://helpx.adobe.com/jp/enterprise/using/manage-adobe-profiles.html)
 
-* [ユーザーおよび管理者向けのログインエクスペリエンスの更新](https://helpx.adobe.com/enterprise/using/storage-for-business.html#new-admin-sign-in-exp)
+* [管理者のログインエクスペリエンスの更新](https://helpx.adobe.com/jp/enterprise/using/storage-for-business.html#new-admin-sign-in-exp)
 
-* [移行中のログイン制限](https://helpx.adobe.com/enterprise/kb/account-temporarily-unavailable.html)
+* [アカウントは現在利用できません](https://helpx.adobe.com/jp/enterprise/kb/account-temporarily-unavailable.html)
 
-* [ユーザーのAdmin Console](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
+* [Admin Console でユーザーを管理する方法](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html)
 
-* [エンタープライズユーザー向け製品プロファイルの管理](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html#assign-users)
+* [製品カードを介した製品プロファイルへのユーザーの割り当て](https://helpx.adobe.com/jp/enterprise/using/manage-product-profiles.html#assign-users)
 
-* [ドメインの信頼](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.ug.html#directory-trusting)
+* [ディレクトリの信頼性](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/set-up-identity.ug.html#directory-trusting)
 
 
 <!--   
@@ -122,12 +122,12 @@ Cloud Manager ユーザーはアクティベーションワークフローをト
 AEM Assets as a Cloud Service インスタンスに Brand Portal をアクティベートするには：
 
 1. Adobe Cloud Manager にログインし、**[!UICONTROL 環境]**&#x200B;に移動します。
-1. リストから環境を 1 つずつ選択します。 Brand Portal に関連付けられている環境が見つかったら、「**[!UICONTROL Brand Portal をアクティベート]**」ボタンをクリックしてアクティベーションワークフローを開始します。
+1. リストから環境を（1 つずつ）選択します。Brand Portal に関連付けられている環境が見つかったら、「**[!UICONTROL Brand Portal をアクティベート]**」ボタンをクリックしてアクティベーションワークフローを開始します。
 1. Brand Portal テナントがアクティベートされると、ステータスが「アクティベート済み」に変わります。
 
 ![ステータスの表示](assets/create-environment5.png)
 
-[AEM Assets as a Cloud Service への Brand Portal のアクティベーション](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html)を参照してください。
+[AEM Assets as a Cloud Service への Brand Portal のアクティベーション](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=ja)を参照してください。
 
 ### AEM Assets as a Cloud Service でのアセットソーシング {#asset-sourcing-on-cloud-service}
 
@@ -145,7 +145,7 @@ AEM Assets as a Cloud Service インスタンスに Brand Portal をアクティ
 Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
 -->
 
-これまでは、すべてのアセットレンディションが zip フォルダーに直接ダウンロードされていました。**[!UICONTROL ダウンロード]** ダイアログがフォルダーやコレクションでスキップされ、アセットのダウンロード動作を制御する方法がなかったので、多くのダウンロードで特定のレンディションを検索するのが困難でした。
+これまでは、すべてのアセットレンディションが zip フォルダーに直接ダウンロードされていました。フォルダーやコレクションの&#x200B;**[!UICONTROL ダウンロード]**&#x200B;のためのダイアログはスキップされ、アセットのダウンロード動作を管理する手段がなかったので、多数のダウンロードから特定のレンディションを検索することが困難でした。
 
 アセットフォルダー、アセットコレクション、複数アセットのいずれかをダウンロードする際にアセットごとに別個のフォルダーを作成するオプションが、「**[!UICONTROL アセットのダウンロード]**」設定に用意されるようになりました。
 
@@ -165,7 +165,7 @@ The default behavior of downloading the assets using share link is now independe
 
 ### 使用状況レポート {#usage-report}
 
-Brand Portal の&#x200B;**[!UICONTROL 使用状況レポート]**&#x200B;が変更され、アクティブな Brand Portal ユーザーのみを反映するようになりました。Admin Console内のどの製品プロファイルにも割り当てられていないBrand Portalユーザーは、非アクティブなユーザーと見なされ、**[!UICONTROL 使用状況レポート]** には反映されません。
+Brand Portal の&#x200B;**[!UICONTROL 使用状況レポート]**&#x200B;が変更され、アクティブな Brand Portal ユーザーのみを反映するようになりました。Admin Console でどの製品プロファイルにも割り当てられていない Brand Portal ユーザーは、非アクティブユーザーと見なされ、**[!UICONTROL 使用状況レポート]**&#x200B;には反映されません。
 
 これまでは、アクティブユーザーと非アクティブユーザーの両方が使用状況レポートに表示されていました。
 
@@ -184,7 +184,7 @@ Brand Portal 2020.10.0 はアセットのダウンロード操作の簡素化に
 
 >[!NOTE]
 >
->すべてのユーザーがデフォルトで **[!UICONTROL 高速ダウンロード]** を有効にし、Brand Portalからアセットをダウンロードする前に、ブラウザーの拡張機能に IBM Aspera Connect 3.9.9(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) をインストールする必要があります。
+>すべてのユーザーで、「**[!UICONTROL 高速ダウンロード]**」がデフォルトで有効になります。Brand Portal からアセットをダウンロードする前に、IBM Aspera Connect 3.9.9（`https://www.ibm.com/docs/en/aspera-connect/3.9.9`）をブラウザーの拡張機能にインストールする必要があります。
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
@@ -242,7 +242,7 @@ Brand Portal テナントに管理者としてログインし、**[!UICONTROL �
 
 以前は、この設定は、グループユーザーによる元のアセットのダウンロードを制限する目的でのみ使用できました。
 
-管理者は、**[!UICONTROL ユーザーの役割]**&#x200B;ページの「**[!UICONTROL グループ]**」タブで、表示とダウンロードの設定をおこなうことができます。
+管理者は、**[!UICONTROL ユーザーの役割]**&#x200B;ページの「**[!UICONTROL グループ]**」タブで、表示とダウンロードの設定を行うことができます。
 
 * 「**[!UICONTROL オリジナルをダウンロード]**」と「**[!UICONTROL レンディションをダウンロード]**」の両方の設定がオンになっている場合、選択したグループのユーザーは、オリジナルのアセットとそのレンディションを表示およびダウンロードできます。
 * 両方の設定をオフにした場合、ユーザーは元のアセットのみを表示できます。アセットの詳細ページでは、ユーザーにはアセットのレンディションは表示されません。
@@ -255,7 +255,7 @@ Brand Portal テナントに管理者としてログインし、**[!UICONTROL �
 
 >[!NOTE]
 >
->ユーザーが複数のグループに追加され、そのいずれかのグループに制限がある場合、その制限はユーザーに適用されます。
+>ユーザーが複数のグループに追加されていて、そのいずれかのグループが制約を受ける場合、そのユーザーにはこの制約が適用されます。
 
 
 <!--
@@ -275,7 +275,7 @@ Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Po
 
 ### ドキュメントビューア {#doc-viewer}
 
-ドキュメントビューアを使用すると、PDF の表示操作が向上します。Brand Portalで PDF ファイルを表示する際の、Adobe Document Cloudと同様の操作を実現します。
+ドキュメントビューアを使用すると、PDF の表示操作が向上します。これにより、Adobe Document Cloud が Brand Portal で PDF ファイルを表示する場合と同様の操作を行えます。
 
 以前は、PDF ファイルの表示には、制限付きのオプションが使用できました。
 
@@ -313,7 +313,7 @@ Brand Portal 管理者は、任意の組み合わせを有効にして、アセ�
 
 ## 6.4.6 の変更点 {#what-changed-in-646}
 
-Brand Portal 6.4.6 では、AEM Assets と Brand Portal の間の認証チャネルが変更されます。Brand Portal が AEM Assets as a Cloud Service、AEM Assets 6.3 以降でサポートされるようになりました。AEM Assets 6.3 以降では、Brand Portal は、従来の OAuth ゲートウェイを通じてクラシック UI で設定されていました。このゲートウェイは、JWT トークン交換を使用して認証用の IMS アクセストークンを取得します。AEM Assetsは、Brand Portalテナントの認証用の IMS トークンを取得するAdobe開発者コンソールを通じて、Brand Portalで設定されるようになりました。
+Brand Portal 6.4.6 では、AEM Assets と Brand Portal の間の認証チャネルが変更されます。Brand Portal が AEM Assets as a Cloud Service、AEM Assets 6.3 以降でサポートされるようになりました。AEM Assets 6.3 以降では、Brand Portal は、従来の OAuth ゲートウェイを通じてクラシック UI で設定されていました。このゲートウェイは、JWT トークン交換を使用して認証用の IMS アクセストークンを取得します。AEM Assets と Brand Portal の連携が、Brand Portal テナントの認証用の IMS トークンを取得する Adobe Developer Console を通じて設定されるようになりました。
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -364,18 +364,18 @@ AEM Assets と Brand Portal の連携を設定する手順は、AEM のバージ
 ## 6.4.5 の変更点 {#what-changed-in-645}
 
 
-Brand Portal 6.4.5 は機能リリースで、オーサー環境にアクセスしなくても Brand Portal ユーザー（外部の代理店／チーム）が Brand Portal にコンテンツをアップロードして AEM Assets に公開できるようにしたものです。この機能は、Brand Portal ](brand-portal-asset-sourcing.md)**でのアセットソーシングと呼ばれ、グローバルに分散した他のBrand Portalユーザーとのアセットの投稿と共有の双方向メカニズムを提供し、顧客体験を向上させます。**[
+Brand Portal 6.4.5 は機能リリースで、オーサー環境にアクセスしなくても Brand Portal ユーザー（外部の代理店／チーム）が Brand Portal にコンテンツをアップロードして AEM Assets に公開できるようにしたものです。この機能は **[Brand Portal でのアセットソーシング](brand-portal-asset-sourcing.md)**&#x200B;と呼ばれます。世界中に分散している他の Brand Portal ユーザーに対して、アセットの投稿と共有を実現する双方向メカニズムを提供することで、カスタマーエクスペリエンスを向上させます。
 
 ### Brand Portal でのアセットソーシング {#asset-sourcing-in-bp}
 
-アセットソーシングを使用すると、追加の **アセット投稿** プロパティを持つフォルダーをAEMユーザー（管理者/非管理者ユーザー）が作成でき、作成した新しいフォルダーをBrand Portalユーザーによるアセット送信に利用できます。 新しく作成された **投稿** フォルダー内に NEW および SHARED という 2 つのサブフォルダーを追加作成するワークフローを自動的にトリガーします。
+アセットソーシングを使用すると、追加の&#x200B;**アセット投稿**&#x200B;プロパティを持つフォルダーを AEM ユーザー（管理者／管理者以外のユーザー）が作成できるので、この新規作成フォルダーを Brand Portal ユーザーによるアセット送信に利用することができます。これにより、新しく作成された&#x200B;**投稿**&#x200B;フォルダー内に NEW および SHARED という 2 つのサブフォルダーを追加作成するワークフローが自動的にトリガーされます。
 
-次に、AEMユーザーは、投稿フォルダーに追加する必要があるアセットのタイプに関する概要をアップロードし、ベースラインアセットを **SHARED** フォルダーにアップロードして、Brand Portalユーザーが必要な参照情報を取得できるようにします。 その後、管理者は、アクティブな Brand Portal ユーザーに投稿フォルダーへのアクセスを許可してから、新しく作成した&#x200B;**投稿**&#x200B;フォルダーを Brand Portal に公開することができます。
+次に、AEM ユーザーは要件を定義します。それには、投稿フォルダーに追加する必要があるアセットのタイプの概要とベースラインアセットを **SHARED** フォルダーにアップロードして、Brand Portal ユーザーが必要とする参照情報を確実に入手できるようにします。その後、管理者は、アクティブな Brand Portal ユーザーに投稿フォルダーへのアクセスを許可してから、新しく作成した&#x200B;**投稿**&#x200B;フォルダーを Brand Portal に公開することができます。
 
 
 **NEW** フォルダーへのコンテンツの追加を完了したら、ユーザーは、投稿フォルダーを AEM オーサー環境に公開できます。なお、読み込みが完了し、新しく公開したコンテンツが AEM Assets 内に反映されるまでに数分かかる場合があります。
 
-また、既存の機能は変更されません。 Brand Portalユーザーは、投稿フォルダーや、許可された他のフォルダーのアセットを表示、検索およびダウンロードできます。 さらに、管理者は投稿フォルダーの共有、プロパティの変更、コレクションへのアセットの追加をおこなうことができます。
+また、既存の機能はすべてそのままで変わりません。Brand Portal ユーザーは、投稿フォルダーおよび許可された他のフォルダーからアセットを表示、検索およびダウンロードできます。さらに、管理者は投稿フォルダーの共有、プロパティの変更、コレクションへのアセットの追加を行うことができます。
 
 >[!NOTE]
 >
@@ -394,7 +394,7 @@ Brand Portal 6.4.5 は機能リリースで、オーサー環境にアクセス�
 
 ### AEM Assets への投稿フォルダーの公開 {#publish-assets-to-aem}
 
-**NEW** フォルダーへのアップロードが完了したら、Brand Portal ユーザーは投稿フォルダーを AEM に公開できます。読み込みが完了して公開したコンテンツ／アセットが AEM Assets に反映されるまでに数分かかる場合があります。[AEM Assetsへの投稿フォルダーの公開 ](brand-portal-publish-contribution-folder-to-aem-assets.md) を参照してください。
+**NEW** フォルダーへのアップロードが完了したら、Brand Portal ユーザーは投稿フォルダーを AEM に公開できます。読み込みが完了して公開したコンテンツ／アセットが AEM Assets に反映されるまでに数分かかる場合があります。[AEM Assets への投稿フォルダーの公開](brand-portal-publish-contribution-folder-to-aem-assets.md)を参照してください。
 
 
 ![](assets/upload-asset5.png)
@@ -405,7 +405,7 @@ Brand Portal 6.4.4 リリースでは、テキスト検索の機能強化と、�
 
 ### 検索の機能強化
 
-Brand Portal 6.4.4 以降では、フィルタリングウィンドウのプロパティの述語で部分テキスト検索がサポートされます。部分テキスト検索を許可するには、検索フォームの「プロパティの述語」で「**部分検索**」を有効にする必要があります。
+Brand Portal 6.4.4 以降では、フィルタリングウィンドウのプロパティの述語で部分テキスト検索がサポートされます。部分テキスト検索を可能にするには、検索フォームの「プロパティの述語」で「**部分検索**」を有効にする必要があります。
 
 部分テキスト検索およびワイルドカード検索について詳しくは、以下の説明を参照してください。
 
@@ -413,9 +413,10 @@ Brand Portal 6.4.4 以降では、フィルタリングウィンドウのプロ�
 
 フィルタリングウィンドウで、検索対象フレーズの一部分（1 つか 2 つの単語）のみを指定してアセットを検索できます。
 
-**使用事例**&#x200B;部分フレーズ検索は、検索対象フレーズに出現する正確な単語の組み合わせが不明な場合に役立ちます。
+**使用事例**
+部分フレーズ検索は、検索対象フレーズに出現する正確な単語の組み合わせが不明な場合に役立ちます。
 
-例えば、Brand Portal の検索フォームで、「プロパティの述語」を使用してアセットのタイトルの部分検索をおこなう場合、「**camp**」という単語を指定すると、タイトルフレーズで「camp」という単語を使用しているアセットがすべて返されます。
+例えば、Brand Portal の検索フォームで、「プロパティの述語」を使用してアセットのタイトルの部分検索を行う場合、「**camp**」という単語を指定すると、タイトルフレーズで「camp」という単語を使用しているアセットがすべて返されます。
 
 ![](assets/partialphrasesearch.png)
 
@@ -423,9 +424,9 @@ Brand Portal 6.4.4 以降では、フィルタリングウィンドウのプロ�
 
 Brand Portal では、検索クエリに、検索対象フレーズの単語の一部とアスタリスク（*）を使用できます。
 
-**使用例. 検索対象フレーズに出現する正確な単語が不明な場合は、ワイルドカード検索を使用して検索クエリを補完できます。
+**使用例。検索対象フレーズに出現する正確な単語が不明な場合は、ワイルドカード検索を使用して検索クエリを補完できます。
 
-例えば、Brand Portal の検索フォームで、「プロパティの述語」を使用してアセットのタイトルの部分検索をおこなう場合に、「**climb***」と指定すると、「**climb**」で始まる単語がタイトルフレーズで使用されているアセットがすべて返されます。
+例えば、Brand Portal の検索フォームで、「プロパティの述語」を使用してアセットのタイトルの部分検索を行う場合に、「**climb***」と指定すると、「**climb**」で始まる単語がタイトルフレーズで使用されているアセットがすべて返されます。
 
 ![](assets/wildcard-prop.png)
 
@@ -482,7 +483,7 @@ Brand Portal 6.4.3 リリースでは、様々な機能が強化されていま�
 
 ルートフォルダーから始まる階層ではなく、参照した特定のフォルダー内でのみアセットを検索することができます。
 
-これらのフォルダーで検索すると、そのユーザーと共有されているアセットの結果のみが返されます。
+これらのフォルダーで検索を行うと、ユーザーと共有されているアセットで検索した結果のみが返されます。
 
 ![](assets/filter-panel.png)
 
@@ -492,7 +493,7 @@ Brand Portal 6.4.3 リリースでは、様々な機能が強化されていま�
 
 Dynamic Media ハイブリッドモードの AEM オーサーインスタンスを使用しているユーザーは、オリジナルのビデオファイルに加えて、Dynamic Media レンディションをプレビューしたりダウンロードしたりできます。
 
-特定のテナントアカウントで Dynamic Media レンディションのプレビューとダウンロードを許可するには、管理ツールパネルの **Video** 設定で **Dynamic Media設定**( ビデオサービス URL(DM-Gateway URL) と登録 ID を指定する必要があります。
+特定のテナントアカウントでダイナミックメディアレンディションのプレビューおよびダウンロードができるようにするには、管理者が管理ツールパネルの&#x200B;**ビデオ**&#x200B;設定で **Dynamic Media 設定**（ダイナミックビデオを取得するためのビデオサービスの URL（Dynamic Media ゲートウェイの URL）と登録 ID）を指定する必要があります。
 
 
 Dynamic Media ビデオは以下の場所でプレビューできます。
@@ -514,7 +515,7 @@ Dynamic Media ビデオエンコードは以下の場所からダウンロード
 
 [AEM（6.4.2.0）](https://helpx.adobe.com/jp/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011)オーサーインスタンスから Brand Portal へのアセット（およびフォルダー）公開ワークフローのスケジュールに未来の日時を指定できるようになりました。
 
-同様に、公開済みのアセットを後でポータルから削除する場合も、「 Brand Portalで非公開」ワークフローをスケジュールします。
+同様に、「Brand Portal で非公開」ワークフローのスケジュールを設定することで、公開されているアセットを後でポータルから取り下げることができます。
 
 ![](assets/schedule-publish.png)
 
@@ -526,7 +527,7 @@ Dynamic Media ビデオエンコードは以下の場所からダウンロード
 
 組織のポータル URL に代替プレフィックスを含めて、カスタマイズされたポータル URL を取得することができます。既存のポータル URL のテナント名のエイリアスを取得するには、各組織がカスタマーサポートに問い合わせる必要があります。
 
-カスタマイズできるのはBrand Portal URL のプレフィックスのみで、URL 全体ではありません。\
+カスタマイズできるのは Brand Portal URL のプレフィックスのみであり、URL 全体ではありません。\
 例えば、**geomettrix.brand-portal.adobe.com** という既存ドメインを持つ組織は、アドビに依頼することで **geomettrixinc.brand-portal.adobe.com** という URL を作成できます。
 
 ただし、AEM オーサーインスタンスを[設定](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)する際にはテナント ID URL のみを使用できます。テナントエイリアス（代替）URL は使用できません。
@@ -544,7 +545,7 @@ Dynamic Media ビデオエンコードは以下の場所からダウンロード
 
 ## 6.4.2 の変更点 {#what-changed-in-1}
 
-Brand Portal 6.4.2 リリースでは、組織のアセット配布ニーズに対応し、ゲストによるアクセスを通じてグローバルに配布された多くのユーザーに対して、高速ダウンロードでの最適なエクスペリエンスを提供できます。 また、Brand Portal は、管理者向けの新しい設定や新しく追加されたレポートを通じてきめ細かな制御を実現し、お客様の要求に応じます。
+Brand Portal 6.4.2 リリースでは、組織のアセット配布ニーズに対応するための様々な機能が取り入れられており、高速ダウンロードを使用した最適なエクスペリエンスとゲストによるアクセスを通じて世界中に分散している多数のユーザーに到達できるようサポートしています。また、Brand Portal は、管理者向けの新しい設定や新しく追加されたレポートを通じてきめ細かな制御を実現し、お客様の要求に応じます。
 
 ### ゲストによるアクセス
 
@@ -558,7 +559,7 @@ AEM Brand Portal は、ゲストによるポータルへのアクセスを許可
 
 ### ダウンロードの高速化
 
-Brand Portalのユーザーは、IBM Aspera Connect ベースの高速ダウンロードを適用して、最大 25 倍の速度を実現し、世界中の場所に関係なくシームレスなダウンロードエクスペリエンスを実現できます。 Brand Portal または共有リンクからアセットを高速にダウンロードするには、ダウンロードダイアログで「**ダウンロードアクセラレーションを有効化**」オプションを選択する必要があります（その組織で高速ダウンロードが有効になっていることが前提です）。
+Brand Portal ユーザーは、IBM Aspera Connect に基づく高速ダウンロードを適用して、最大 25 倍の速度を実現し、世界中のどこにいてもシームレスにダウンロードを行うことができます。Brand Portal または共有リンクからアセットを高速にダウンロードするには、ダウンロードダイアログで「**ダウンロードアクセラレーションを有効化**」オプションを選択する必要があります（その組織で高速ダウンロードが有効になっていることが前提です）。
 
 ![](assets/donload-assets-dialog-2.png)
 
@@ -682,9 +683,9 @@ Brand Portal 6.4.1 はプラットフォームのアップグレードリリー�
 ### ダウンロードの最適化
 
 * サイズが大きい単一のファイルを、zip ファイルを作成しなくても直接ダウンロードできるようになり、処理速度とスループットが向上しました。
-* リンク共有機能のファイルサイズごとのダウンロード制限は **1** GB です。
+* リンク共有機能のファイルサイズごとのダウンロード上限は **1** GB です。
 
-* Brand Portalから、または共有リンク機能を使用してアセットをダウンロードする際に、カスタムおよびオリジナルのファイルのみをダウンロードし、標準のレンディションを防ぐように選択できるようになりました。
+* アセットを Brand Portal から、または共有リンク機能を利用してダウンロードする際に、カスタムファイルと元のファイルのみをダウンロードするように選択して、標準レンディションのダウンロードを避けることができるようになりました。
 
 ![](assets/excludeautorendition.png)
 
@@ -699,13 +700,11 @@ Brand Portal 6.4.1 はプラットフォームのアップグレードリリー�
 ### レポート機能の強化
 
 **リンク共有レポートの追加**
-
 共有リンクの情報を提供する新しいレポートが追加されました。リンク共有レポートには、指定期間内に組織全体にわたって内部および外部のユーザーと共有されるすべてのアセットへの URL が示されます。さらに、リンクがいつ共有されたか、誰と共有されたか、いつ期限が切れるかという情報も示されます。
 
 ![](assets/navigatereport.png)
 
 **使用状況レポートへのアクセスエントリポイントの変更**
-
 使用状況レポートは他のレポートと統合され、アセットレポートコンソールから表示できるようになりました。アセットレポートコンソールにアクセスするには、管理ツールパネルから、**レポートを作成／管理**&#x200B;を選択します。
 
 ![](assets/accessassetreport.png)
@@ -852,7 +851,7 @@ Brand Portal 6.3.1 は、Brand Portal と AEM の統合に向けた新機能と�
 
 ### 追加のメタデータ {#additional-metadata}
 
-Brand Portal 6.3.1 には、AEM Assets 6.3 と同じメタデータが追加されています。スキーマエディターフォームを使用して、アセットのプロパティページに表示するメタデータを制御できます。アセットメタデータは、外部のリンク共有ユーザーには表示されません。これらのユーザーは、リンク共有 URL を使用して、アセットのプレビューとダウンロードのみおこなえます。
+Brand Portal 6.3.1 には、AEM Assets 6.3 と同じメタデータが追加されています。スキーマエディターフォームを使用して、アセットのプロパティページに表示するメタデータを制御できます。アセットメタデータは、外部のリンク共有ユーザーには表示されません。これらのユーザーは、リンク共有 URL を使用して、アセットのプレビューとダウンロードのみ行えます。
 
 ![](assets/additionsinmetadata.png)
 

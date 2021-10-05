@@ -13,7 +13,7 @@ exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
 source-wordcount: '967'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -98,12 +98,12 @@ Adobe Experience Manager Assets Brand Portal 管理者は、許可された内�
 
    >[!NOTE]
    >
-   >アセットをリンクとして共有したユーザーが、[オリジナルレンディションへのアクセスを管理者によって許可](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges)されていない場合、共有リンクを使用してオリジナルレンディションのダウンロードをおこなうことはできません。
+   >アセットをリンクとして共有したユーザーが、[オリジナルレンディションへのアクセスを管理者によって許可](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges)されていない場合、共有リンクを使用してオリジナルレンディションのダウンロードを行うことはできません。
 
 
 >[!NOTE]
 >
->Brand Portalでは、リンク共有を使用したファイルサイズあたり **1** GB を超えるアセットのダウンロードは制限されています。
+>Brand Portal では、ファイルサイズあたり **1** GB を超えるアセットをリンク共有を使用してダウンロードすることは制限されています。
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.

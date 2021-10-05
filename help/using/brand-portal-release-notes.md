@@ -13,7 +13,7 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 262d69829eda31b6f55d2e9c3254efd62fe259c1
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 63%
+ht-degree: 85%
 
 ---
 
@@ -134,11 +134,11 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 このリリースには、次の既知の問題が含まれています。
 
-* ユーザーは、既存の組織の移行中にBrand Portalにログインできません。
+* ユーザーは、既存の組織の移行中に Brand Portal にログインできません。
 
-   ただし、Brand Portalにログインしているアクティブなユーザーは、現在のセッションの有効期限が切れるまで、引き続き機能します。
+   ただし、Brand Portal にログインしているアクティブなユーザーは、現在のセッションが期限切れになるまで引き続き作業できます。
 
-* 管理者は、Brand PortalからAdmin Consoleに移動する際に、組織を選択するための追加の画面が表示される場合があります。
+* 管理者が Brand Portal から Admin Console に移動する際に、組織を選択するための画面が追加で表示される場合があります。
 
 
 <!--
@@ -204,12 +204,12 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 
 ## 認定プラットフォーム {#certified-platforms}
 
-このリリースの Brand Portal を実行できる認定プラットフォームを確認するには、[技術要件](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html)の「**オーサリングユーザーインターフェイス向けにサポートされているブラウザー**」節に記載されている表の「**UI のサポート**」列を参照してください。
+このリリースの Brand Portal を実行できる認定プラットフォームを確認するには、[技術要件](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html?lang=ja)の「**オーサリングユーザーインターフェイス向けにサポートされているブラウザー**」節に記載されている表の「**UI のサポート**」列を参照してください。
 
 ## リンク {#links}
 
-* [Adobe Experience Manager 製品ページ（adobe.com）](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
-* [Assets Brand Portal のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+* [Adobe Experience Manager 製品ページ（adobe.com）](https://business.adobe.com/jp/products/experience-manager/adobe-experience-manager.html)
+* [Assets Brand Portal のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=ja)
 
 ## 製品のアクセスとサポート（制限付きサイト） {#product-access-and-support-restricted-sites}
 
