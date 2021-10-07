@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
+source-git-commit: 5503a34f4896816bf991216b457cd824707ae5ed
 workflow-type: tm+mt
-source-wordcount: '6340'
+source-wordcount: '6294'
 ht-degree: 98%
 
 ---
@@ -325,7 +325,7 @@ Brand Portal 6.4.6 では、AEM Assets と Brand Portal の間の認証チャネ
 | **AEM 6.5** |[Create new integration](../using/brand-portal-configure-integration-65.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
 | **AEM 6.4** |[Create new integration](../using/brand-portal-configure-integration-64.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
 | **AEM 6.3** |[Create new integration](../using/brand-portal-configure-integration-63.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
-| **AEM 6.2** |Contact Support |Contact Support | 
+| **AEM 6.2** | | 
 
    -->
 
@@ -336,7 +336,7 @@ AEM Assets と Brand Portal の連携を設定する手順は、AEM のバージ
 | **AEM 6.5 (6.5.4.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-65.md) |[Upgrade configuration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
 | **AEM 6.4 (6.4.8.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-64.md) |[Upgrade configuration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
 | **AEM 6.3 (6.3.3.8 and above)** |[Create configuration](../using/brand-portal-configure-integration-63.md) |[Upgrade configuration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
-| **AEM 6.2** |Contact Support |Contact Support | 
+
 -->
 
 
@@ -351,7 +351,7 @@ AEM Assets と Brand Portal の連携を設定する手順は、AEM のバージ
 | **AEM 6.5（6.5.4.0 以降）** | [設定の作成](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [設定のアップグレード](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
 | **AEM 6.4（6.4.8.0 以降）** | [設定の作成](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [設定のアップグレード](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3（6.3.3.8 以降）** | [設定の作成](https://helpx.adobe.com/jp/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [設定のアップグレード](https://helpx.adobe.com/jp/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
-| **AEM 6.2** | サポートへのお問い合わせ | サポートへのお問い合わせ |
+| **AEM 6.2** | カスタマーサポートへの問い合わせ | カスタマーサポートへの問い合わせ |
 
 >[!NOTE]
 >
@@ -440,7 +440,7 @@ Brand Portal では、検索クエリに、検索対象フレーズの単語の�
 >
 >「**部分検索**」チェックボックスを選択すると、デフォルトで「**大文字と小文字を区別しない**」がオンになります。
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
+[![](assets/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
 ## 6.4.3 の変更点 {#what-changed-in}
 
@@ -467,7 +467,7 @@ Brand Portal 6.4.3 リリースでは、様々な機能が強化されていま�
 
 ![](assets/hierarchy1-nonadmin-2.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-general-configuration.md)
+[![](assets/see-the-guide.png)](../using/brand-portal-general-configuration.md)
 
 ### 特定のフォルダー階層またはパス内での検索
 
@@ -487,7 +487,7 @@ Brand Portal 6.4.3 リリースでは、様々な機能が強化されていま�
 
 ![](assets/filter-panel.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
+[![](assets/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
 ### Dynamic Media ビデオレンディションのサポート
 
@@ -509,11 +509,11 @@ Dynamic Media ビデオエンコードは以下の場所からダウンロード
 
 ![](assets/edit-dynamic-media-config.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Brand Portal への公開のスケジュール設定
 
-[AEM（6.4.2.0）](https://helpx.adobe.com/jp/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011)オーサーインスタンスから Brand Portal へのアセット（およびフォルダー）公開ワークフローのスケジュールに未来の日時を指定できるようになりました。
+[AEM（6.4.2.0）](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=ja)オーサーインスタンスから Brand Portal へのアセット（およびフォルダー）公開ワークフローのスケジュールに未来の日時を指定できるようになりました。
 
 同様に、「Brand Portal で非公開」ワークフローのスケジュールを設定することで、公開されているアセットを後でポータルから取り下げることができます。
 
@@ -521,7 +521,7 @@ Dynamic Media ビデオエンコードは以下の場所からダウンロード
 
 ![](assets/publishlater-workflow.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### URL 中の設定可能なテナントエイリアス
 
@@ -530,11 +530,11 @@ Dynamic Media ビデオエンコードは以下の場所からダウンロード
 カスタマイズできるのは Brand Portal URL のプレフィックスのみであり、URL 全体ではありません。\
 例えば、**geomettrix.brand-portal.adobe.com** という既存ドメインを持つ組織は、アドビに依頼することで **geomettrixinc.brand-portal.adobe.com** という URL を作成できます。
 
-ただし、AEM オーサーインスタンスを[設定](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)する際にはテナント ID URL のみを使用できます。テナントエイリアス（代替）URL は使用できません。
+ただし、AEM オーサーインスタンスを[設定](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html)する際にはテナント ID URL のみを使用できます。テナントエイリアス（代替）URL は使用できません。
 
 アドビから提供された URL をそのまま使用するのではなく、カスタマイズされたポータル URL を取得して、ブランドのニーズを満たすことができます。
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### ダウンロードエクスペリエンスの強化
 
@@ -754,7 +754,7 @@ Adobe ID を持っている場合と、Adobe ID を作成する必要がある�
 
 ![](assets/bp_maintenance_notification-1.png)
 
-詳しくは、[Brand Portal のメンテナンス通知](https://helpx.adobe.com/jp/experience-manager/brand-portal/using/brand-portal.html#BrandPortalmaintenancenotification)を参照してください。
+詳しくは、[Brand Portal のメンテナンス通知](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal.html?lang=ja)を参照してください。
 
 ### リンク共有機能で共有される要ライセンスアセットの機能強化 {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
 
