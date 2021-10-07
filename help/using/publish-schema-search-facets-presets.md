@@ -1,18 +1,18 @@
 ---
 title: Brand Portal へのプリセット、スキーマ、ファセットの公開
-seo-title: Brand Portal へのプリセット、スキーマ、ファセットの公開
+seo-title: Publish presets, schema, and facets to Brand Portal
 description: プリセット、スキーマ、ファセットを Brand Portal に公開する方法を説明します。
-seo-description: プリセット、スキーマ、ファセットを Brand Portal に公開する方法を説明します。
+seo-description: Learn how to publish presets, schema, and facets to Brand Portal.
 uuid: c836d9bb-074a-4113-9c91-b2bf7658b88d
 topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 exl-id: 9b585606-6538-459b-87a9-2e68df0087b3
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 100%
+source-wordcount: '1141'
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ Brand Portal への画像プリセットの公開を取り消すには、次の�
 1. AEM オーサーインスタンスで、AEM のロゴをタップまたはクリックしてグローバルナビゲーションコンソールにアクセスし、**[!UICONTROL ツール]**&#x200B;アイコンをタップまたはクリックして&#x200B;**[!UICONTROL アセット／画像プリセット]**&#x200B;の順に移動します。
 1. 画像プリセットを選択し、上部にあるオプションから「**[!UICONTROL Brand Portal から削除]**」を選択します。
 
-## Brand Portal へのメタデータスキーマの公開 {#publish-metadata-schema-to-brand-portal}
+## Brand Portal へのメタデータスキーマの公開   {#publish-metadata-schema-to-brand-portal}
 
 メタデータスキーマは、アセットまたはコレクションのプロパティページに表示されるレイアウトとプロパティを記述します。
 
@@ -85,7 +85,7 @@ Brand Portal へのメタデータスキーマの公開を取り消すには、�
 
 ## Brand Portal への検索ファセットの公開 {#publish-search-facets-to-brand-portal}
 
-検索フォームは、Brand Portal のユーザーに[ファセット検索](../using/brand-portal-search-facets.md)の機能を提供します。検索ファセットは Brand Portal 上での詳細検索を可能にします。検索フォームに[追加されている述語](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/search-facets.html#AddingaPredicate)はすべて、検索フィルター内の検索ファセットとしてユーザーに提供されます。
+検索フォームは、Brand Portal のユーザーに[ファセット検索](../using/brand-portal-search-facets.md)の機能を提供します。検索ファセットは Brand Portal 上での詳細検索を可能にします。検索フォームに[追加されている述語](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/search-facets.html)はすべて、検索フィルター内の検索ファセットとしてユーザーに提供されます。
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)

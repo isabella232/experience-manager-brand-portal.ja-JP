@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 262d69829eda31b6f55d2e9c3254efd62fe259c1
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 85%
@@ -100,7 +100,7 @@ This release includes the following enhancements:
 
 このリリースでは、次の重要な問題が修正されています。
 
-* 同じサイズの投稿フォルダーのアセットは、Brand PortalからExperience ManagerAssets に公開されません。
+* 同じサイズの投稿フォルダーのアセットは、Brand PortalからExperience Manager Assetsに公開されません。
 * アセット投稿フォルダーを非公開にしても、投稿フォルダーのサイズは小さくなりません。
 * ユーザーは、適用されたメタデータスキーマプロファイルをフォルダーから削除できません。
 * ユーザー権限ページのグループ数が正しくありません。
@@ -220,5 +220,5 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 -->
 
 <!--
-* [Customer Support](https://helpx.adobe.com/contact.html)
+* [Customer Support]()
 -->

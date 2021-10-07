@@ -1,7 +1,7 @@
 ---
 title: フォルダーの共有
 seo-title: Share folders
-description: Brand PortalはExperience Managerの取り込みをサポートしていないので、事前設定済みのアセットアセットオーサーインスタンスからBrand Portalにアセットを公開する必要があります。 公開済みアセットは、Brand Portalの管理者以外のユーザーは、Experience Managerインスタンスでレプリケーションを設定する際に設定されている場合を除き、アクセスできません。また、そのユーザーと共有する必要があります。
+description: Brand Portalはアセットの取り込みをサポートしていないので、事前設定済みのExperience Manager AssetsオーサーインスタンスからBrand Portalにアセットを公開する必要があります。 公開済みアセットは、Brand Portalの管理者以外のユーザーは、Experience Managerインスタンスでレプリケーションを設定する際に設定されている場合を除き、アクセスできません。また、そのユーザーと共有する必要があります。
 seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
 uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
 content-type: reference
@@ -9,9 +9,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1109'
 ht-degree: 90%
 
 ---
@@ -24,7 +24,7 @@ Brand Portalはアセットの取り込みをサポートしていないので�
 
 以下に、フォルダー共有のワークフローとユーザーアクセスを示します。
 
-* デフォルトでは、Experience ManagerAssets からBrand Portalに公開されたすべてのフォルダーは、レプリケーションの設定時に「公開」とマークされない限り、Brand Portal管理者にのみ表示されます。
+* デフォルトでは、Experience Manager AssetsからBrand Portalに公開されたすべてのフォルダーは、レプリケーションの設定時に「公開」とマークされない限り、Brand Portal管理者にしか表示されません。
 * 管理者は、**[!UICONTROL フォルダーのプロパティ]**&#x200B;コンソールを使用して、一部の選択したユーザーやグループとのみフォルダーを共有します。フォルダーを共有しているこれらのユーザーとグループのみが、Brand Portal へのログイン後にフォルダーを表示できます。それ以外のユーザーにフォルダーは表示されません。
 * 管理者は、**[!UICONTROL フォルダーのプロパティ]**&#x200B;コンソールの「**[!UICONTROL 公開フォルダー]**」チェックボックスを利用して、フォルダーを公開フォルダーとして設定できます。公開フォルダーはすべてのユーザーに表示されます。
 
@@ -32,7 +32,7 @@ Brand Portalはアセットの取り込みをサポートしていないので�
 
 ### Brand Portal 上でフォルダーをユーザーグループと共有する {#sharing-folders-with-user-groups-on-brand-portal}
 
-フォルダーのアセットに対するアクセス権は、その親フォルダーに対するアクセス権に依存します。子フォルダーの設定には関係ありません。この動作は AEM 内の [ACL](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM) によって制御されます。子フォルダーは親フォルダーの ACL を継承するためです。例えば、フォルダー A の中にフォルダー B があり、その中にフォルダー C がある場合、フォルダー A に対するアクセス権を持つユーザーグループ（またはユーザー）は、フォルダー B および C に対しても同じアクセス権を持ちます。フォルダー B は A の子フォルダーであるため A の ACL を継承し、フォルダー C はフォルダー B の子フォルダーであるため B の ACL を継承します。
+フォルダーのアセットに対するアクセス権は、その親フォルダーに対するアクセス権に依存します。子フォルダーの設定には関係ありません。この動作は AEM 内の [ACL](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=ja) によって制御されます。子フォルダーは親フォルダーの ACL を継承するためです。例えば、フォルダー A の中にフォルダー B があり、その中にフォルダー C がある場合、フォルダー A に対するアクセス権を持つユーザーグループ（またはユーザー）は、フォルダー B および C に対しても同じアクセス権を持ちます。フォルダー B は A の子フォルダーであるため A の ACL を継承し、フォルダー C はフォルダー B の子フォルダーであるため B の ACL を継承します。
 
 同様に、フォルダー B のみに対するアクセス権を持つユーザーグループ（またはユーザー）は、フォルダー C に対して同じアクセス権を持ちますが、フォルダー A に対するアクセス権は持ちません。したがって、組織がコンテンツを整理する際には、広範囲に公開するアセットは子フォルダーに配置して、子からルートフォルダーへのアクセスを制限することをお勧めします。
 
