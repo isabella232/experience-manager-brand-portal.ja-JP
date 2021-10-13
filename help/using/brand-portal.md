@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: ec52e1900e4ac9ec664d88c4b5fb492df4d4a32f
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 85%
+source-wordcount: '1528'
+ht-degree: 84%
 
 ---
 
@@ -61,7 +61,9 @@ Brand Portal では次のユーザー役割をサポートしています。
 | **編集者** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **管理者** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
-* ゲストユーザーは、公開フォルダーおよび公開コレクション内にあるアセットのみを参照、アクセス、および検索できます。
+>[!NOTE]
+>
+>ゲストユーザーは、公開フォルダーおよび公開コレクション内のアセットのみを参照、アクセス、検索できます。
 
 <!--
 &#42; Viewer users can access and download the public assets shared with them, and can add these assets to create their own collections.
@@ -77,23 +79,23 @@ Brand Portal では次のユーザー役割をサポートしています。
 
 ただし、ゲストセッションでは、コレクションや保存済みの検索結果を作成したり、それらを共有したりすることはできません。ゲストセッション中のユーザーはフォルダーやコレクションの設定にアクセスしたり、アセットをリンクとして共有したりすることはできません。次に、ゲストユーザーが実行できるタスクの一覧を示します。
 
-[公開アセットの参照および公開アセットへのアクセス](browse-assets-brand-portal.md)
+* [公開アセットの参照および公開アセットへのアクセス](browse-assets-brand-portal.md)
 
-[公開アセットの検索](brand-portal-searching.md)
+* [公開アセットの検索](brand-portal-searching.md)
 
-[公開アセットのダウンロード](brand-portal-download-assets.md)
+* [公開アセットのダウンロード](brand-portal-download-assets.md)
 
-[[!UICONTROL Lightbox] へのアセットの追加](brand-portal-light-box.md#add-assets-to-lightbox)
+* [[!UICONTROL Lightbox] へのアセットの追加](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### 閲覧者 {#viewer}
 
 Brand Portal の標準ユーザーは一般的に、閲覧者の役割を持ちます。この役割を持つユーザーは、承認されたフォルダー、コレクションおよびアセットにアクセスできます。また、アセット（元のアセットまたは特定のレンディション）を参照、プレビュー、ダウンロードおよび書き出したり、アカウント設定を指定したり、アセットを検索したりすることもできます。次に、閲覧者が実行できるタスクの一覧を示します。
 
-[アセットの参照](browse-assets-brand-portal.md)
+* [アセットの参照](browse-assets-brand-portal.md)
 
-[アセットの検索](brand-portal-searching.md)
+* [アセットの検索](brand-portal-searching.md)
 
-[アセットのダウンロード](brand-portal-download-assets.md)
+* [アセットのダウンロード](brand-portal-download-assets.md)
 
 ### 編集者 {#editor}
 
@@ -101,11 +103,11 @@ Brand Portal の標準ユーザーは一般的に、閲覧者の役割を持ち�
 
 編集者は、閲覧者が実行できるタスクに加えて、次のタスクを実行できます。
 
-[フォルダーの共有](brand-portal-sharing-folders.md)
+* [フォルダーの共有](brand-portal-sharing-folders.md)
 
-[コレクションの共有](brand-portal-share-collection.md)
+* [コレクションの共有](brand-portal-share-collection.md)
 
-[アセットをリンクとして共有](brand-portal-link-share.md)
+* [アセットをリンクとして共有](brand-portal-link-share.md)
 
 ### 管理者 {#administrator}
 
@@ -113,30 +115,30 @@ Brand Portal の標準ユーザーは一般的に、閲覧者の役割を持ち�
 
 管理者は、編集者が実行できるすべてのタスクに加えて、次のタスクを実行できます。
 
-[ユーザー、グループ、ユーザーの役割の管理](brand-portal-adding-users.md)
+* [ユーザー、グループ、ユーザーの役割の管理](brand-portal-adding-users.md)
 
-[壁紙、ページヘッダーおよび電子メールのカスタマイズ](brand-portal-branding.md)
+* [壁紙、ページヘッダーおよび電子メールのカスタマイズ](brand-portal-branding.md)
 
-[カスタム検索ファセットの使用](brand-portal-search-facets.md)
+* [カスタム検索ファセットの使用](brand-portal-search-facets.md)
 
-[メタデータスキーマフォームの使用](brand-portal-metadata-schemas.md)
+* [メタデータスキーマフォームの使用](brand-portal-metadata-schemas.md)
 
-[画像プリセットまたは動的レンディションの適用](brand-portal-image-presets.md)
+* [画像プリセットまたは動的レンディションの適用](brand-portal-image-presets.md)
 
-[レポートの操作](brand-portal-reports.md)
+* [レポートの操作](brand-portal-reports.md)
 
 AEM Assets の作成者は、上記のタスクに加えて、次のタスクを実行できます。
 
-[AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)
+* [AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)
 
-[Brand Portal へのフォルダーの公開](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
+* [Brand Portal へのフォルダーの公開](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
 
-[Brand Portal へのコレクションの公開](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
+* [Brand Portal へのコレクションの公開](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
 
 ## Brand Portal URL の代替エイリアス {#tenant-alias-for-portal-url}
 
 Brand Portal 6.4.3 以降では、各組織はそれぞれの Brand Portal テナントの既存 URL に対して 1 つの代替（エイリアス）URL を持つことができます。エイリアス URL を作成するには、既存の URL に代替プレフィックスを含めます。\
-カスタマイズできるのは Brand Portal URL のプレフィックスのみであり、URL 全体でないことに注意してください。例えば、**[!UICONTROL geomettrix.brand-portal.adobe.com]** という既存ドメインを持つ組織は、アドビに依頼することで **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** という URL を作成できます。
+カスタマイズできるのは Brand Portal URL のプレフィックスのみであり、URL 全体でないことに注意してください。例えば、`geomettrix.brand-portal.adobe.com` という既存ドメインを持つ組織は、アドビに依頼することで `geomettrixinc.brand-portal.adobe.com` という URL を作成できます。
 
 ただし、AEM オーサーインスタンスを[設定](../using/configure-aem-assets-with-brand-portal.md)する際にはテナント ID URL のみを使用できます。テナントエイリアス（代替）URL は使用できません。
 
@@ -160,30 +162,33 @@ Brand Portal 6.4.3 以降では、各組織はそれぞれの Brand Portal テ�
 
 1. 組織の Brand Portal へのアクセスを申請するには、有効な [!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID]、[!UICONTROL Federated ID] のいずれかが必要です。
 
-   [!UICONTROL アクセスを申請]ページで、自分の ID を使用してログインするか（シナリオ 1）、[!UICONTROL Adobe ID] を作成します（シナリオ 2）。<br />
+   [!UICONTROL アクセスを申請]ページで、自分の ID を使用してログインするか（シナリオ 1）、[!UICONTROL Adobe ID] を作成します（シナリオ 2）。
+
    ![[!UICONTROL アクセスの申請]](assets/bplogin_request_access_2.png)
 
    **シナリオ 1**
+
    1. [!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID] または [!UICONTROL Federated ID] を持っている場合は、「**[!UICONTROL ログイン]**」をクリックします。
 [!UICONTROL ログイン]ページが開きます。
-   1. [!UICONTROL Adobe ID] 資格情報を入力し、「**[!UICONTROL ログイン]**」をクリックします。<br />
 
-   ![アドビへのログイン](assets/bplogin_request_access_3.png)
+   1. [!UICONTROL Adobe ID] 資格情報を入力し、「**[!UICONTROL ログイン]**」をクリックします。
 
-   [!UICONTROL アクセスを申請]ページにリダイレクトされます。<br />
+      ![アドビへのログイン](assets/bplogin_request_access_3.png)
+   [!UICONTROL アクセスを申請]ページにリダイレクトされます。
+
    **シナリオ 2**
+
    1. [!UICONTROL Adobe ID] を持っていない場合は、[!UICONTROL アクセスを申請]ページの「**[!UICONTROL Adobe ID を取得]**」をクリックして、Adobe ID を作成します。
 [!UICONTROL ログイン]ページが開きます。
    1. 「**[!UICONTROL Adobe ID を取得]**」をクリックします。
 [!UICONTROL 新規登録]ページが開きます。
    1. 名前、電子メール ID およびパスワードを入力します。
-   1. 「**[!UICONTROL 新規登録]**」をクリックします。<br />
+   1. 「**[!UICONTROL 新規登録]**」をクリックします。
 
-   ![](assets/bplogin_request_access_5.png)
-
+      ![](assets/bplogin_request_access_5.png)
    [!UICONTROL アクセスを申請]ページにリダイレクトされます。
 
-1. アクセスの申請に使用する現在のユーザーの名前と電子メール ID が次のページに表示されます。管理者のコメントは空欄のまま、「**[!UICONTROL 送信]**」をクリックします。<br />
+1. アクセスの申請に使用する現在のユーザーの名前と電子メール ID が次のページに表示されます。管理者のコメントは空欄のまま、「**[!UICONTROL 送信]**」をクリックします。
 
    ![](assets/bplogin-request-access.png)
 
@@ -206,7 +211,7 @@ Brand Portal の言語は、Adobe [!UICONTROL Experience Cloud 設定]で変更�
 
 言語を変更するには：
 
-1. 上部メニューから、[!UICONTROL ユーザー]／[!UICONTROL プロファイルを編集]を選択します。<br />
+1. 上部メニューから、[!UICONTROL ユーザー]／[!UICONTROL プロファイルを編集]を選択します。
 
    ![プロファイルを編集](assets/EditBPProfile.png)
 
