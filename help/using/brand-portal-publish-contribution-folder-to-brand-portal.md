@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 47e810aebedd5dbc945828fe8bdd987639538317
+source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 62%
+source-wordcount: '1149'
+ht-degree: 61%
 
 ---
 
@@ -43,9 +43,9 @@ Experience Manager Assets管理者と、新しいフォルダーを作成する�
 
 >[!NOTE]
 >
->1 つのフォルダー内に複数の投稿フォルダーを作成できます。
+>管理者は、1 つのフォルダー内に複数のアセット投稿フォルダーを作成できます。
 >
->アセット投稿フォルダーには、アセットの配布と投稿を行うための NEW フォルダーと SHARED フォルダーが含まれます。 アセット投稿フォルダー内にアセット、フォルダー、投稿フォルダーを作成しないでください。
+>アセット投稿フォルダーには、アセットの配布と投稿を行うための NEW フォルダーと SHARED フォルダーが含まれます。 投稿フォルダー内にアセット、フォルダー、投稿フォルダーを作成しないでください。
 
 
 投稿フォルダーの作成時だけでなく、個別に投稿フォルダーのプロパティを設定することもできます。この例では、個別にプロパティを設定します。
