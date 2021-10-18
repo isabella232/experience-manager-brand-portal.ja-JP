@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
+source-git-commit: 533b2a637700770ff08c88da92892af863265902
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 61%
+source-wordcount: '1217'
+ht-degree: 57%
 
 ---
 
@@ -109,7 +109,11 @@ Experience Manager Assets管理者は、投稿フォルダーのプロパティ�
 
 >[!NOTE]
 >
->検索結果は、Experience Manager Assetsで設定されたBrand Portalユーザーリストに基づきます。 Brand Portal ユーザーリストを更新しておくようにします。
+>検索結果は、Experience Manager Assetsで設定されたBrand Portalユーザーリストに基づきます。 更新されたBrand Portalユーザーリストがあることを確認します。
+
+管理者は、[!DNL Admin Console] から `user.csv` ファイルをダウンロードし、Brand Portalユーザーを追加する際の基本テンプレートとして使用できます。 [!UICONTROL  ユーザー ] に移動し、「[!UICONTROL  ユーザーリストを csv に書き出し ]」オプションをクリックして、`users.csv` ファイルをダウンロードします。 次のサンプルユーザーは、ユーザーの追加に必要な属性の詳細をリストします。 ユーザーエントリに必須の属性は `Email` のみで、その他の属性はすべてオプションです。
+
+[ファイルを入手](assets/users.csv)
 
 ## 投稿フォルダーへのアセットのアップロード {#uplad-new-assets-to-contribution-folder}
 
