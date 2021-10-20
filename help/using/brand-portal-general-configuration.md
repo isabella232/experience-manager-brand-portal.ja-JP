@@ -12,15 +12,15 @@ discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 role: Admin
 exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # 一般的なテナント設定の管理 {#administer-general-tenant-configurations}
 
-Experience ManagerAssets Brand Portalでは、各組織が特定のテナントに対して次の機能を設定できます。
+Experience Manager Assets Brand Portal では、各組織が特定のテナントについて以下の機能を設定することができます。
 
 * 管理者によるアセットの削除
 * 管理者以外のユーザーによる公開コレクションの作成
@@ -37,14 +37,14 @@ Experience ManagerAssets Brand Portalでは、各組織が特定のテナント�
 
 **C**：管理者以外のユーザーに対し、公開スマートコレクションを作成することを許可する設定（デフォルトでは有効になっています）
 
-**D**：共有フォルダーの（ルートからの）フォルダー階層を管理者以外のユーザー（編集者、閲覧者、ゲストユーザー）に表示する設定（デフォルトでは無効になっています）。
+**D**：共有フォルダーの（ルートからの）フォルダー階層を管理者以外のユーザー（編集者、閲覧者、ゲストユーザー）に表示する設定（デフォルトでは無効になっています）
 
 ## 一般設定の有効化／無効化 {#enable-disable-general-configurations}
 
 これらの設定を有効化／無効化するには、次のようにします。
 
 1. 管理者権限でログインします。
-1. 上部のExperience Managerのツールバーで、管理ツールにアクセスするツールロゴを選択します。
+1. 管理ツールにアクセスするには、上部のツールバーにある Experience Manager ロゴを選択します。
 1. 管理ツールパネルから、**[!UICONTROL 一般]**&#x200B;を選択して&#x200B;**[!UICONTROL 一般設定]**&#x200B;ページを開きます。
 1. それぞれの切り替えスイッチを使用して一般設定を有効化／無効化します。
 1. 変更内容を&#x200B;**[!UICONTROL 保存]**&#x200B;します。
