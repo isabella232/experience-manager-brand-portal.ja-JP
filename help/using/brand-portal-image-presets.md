@@ -1,7 +1,7 @@
 ---
 title: 画像プリセットまたは動的レンディションの適用
 seo-title: Apply image presets or dynamic renditions
-description: '画像プリセットは、マクロと同様、サイズとフォーマットに関するコマンドのコレクションを事前に定義し、名前を付けて保存したものです。画像プリセットを使用すると、Experience ManagerAssets Brand Portalは、サイズ、形式およびプロパティが様々な画像を動的に配信できます。 '
+description: '画像プリセットは、マクロと同様、サイズとフォーマットに関するコマンドのコレクションを事前に定義し、名前を付けて保存したものです。画像プリセットを使用すると、サイズ、形式、プロパティが様々に異なる画像を Experience Manager Assets Brand Portal で動的に配信できます。 '
 seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
@@ -11,19 +11,19 @@ discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 # 画像プリセットまたは動的レンディションの適用 {#apply-image-presets-or-dynamic-renditions}
 
-画像プリセットは、マクロと同様、サイズとフォーマットに関するコマンドのコレクションを事前に定義し、名前を付けて保存したものです。画像プリセットを使用すると、Experience ManagerAssets Brand Portalは、サイズ、形式およびプロパティが様々な画像を動的に配信できます。
+画像プリセットは、マクロと同様、サイズとフォーマットに関するコマンドのコレクションを事前に定義し、名前を付けて保存したものです。画像プリセットを使用すると、サイズ、形式、プロパティが様々に異なる画像を Experience Manager Assets Brand Portal で動的に配信できます。
 
 画像プリセットは、プレビューしたりダウンロードしたりできる画像の動的レンディションを生成するために使用します。画像とそのレンディションをプレビューするときは、プリセットを選択することにより、管理者が設定した仕様で画像を再フォーマットできます。
 
-(*Experience Managerアセットのオーサーインスタンスが&#x200B;**Dynamic Mediaハイブリッドモード*** で実行されている場合 ) Brand Portalでアセットの動的レンディションを表示するには、Brand Portalへの公開元のExperience Managerアセットオーサーインスタンスにピラミッド TIFF レンディションが存在します。 アセットを公開すると、その PTIFF レンディションも Brand Portal に公開されます。
+（*Experience Manager Assets（オーサー）インスタンスが **Dynamic Media ハイブリッドモード***で実行されている場合）Brand Portal でアセットの動的レンディションを表示するには、Brand Portal に公開する Experience Manager Assets オーサーインスタンスにピラミッド TIFF レンディションが存在することを確認します。アセットを公開すると、その PTIFF レンディションも Brand Portal に公開されます。
 
 >[!NOTE]
 >
@@ -34,20 +34,20 @@ ht-degree: 79%
 
 ## 画像プリセットの作成 {#create-an-image-preset}
 
-Experience Managerアセットの管理者は、アセットの詳細ページに動的レンディションとして表示される画像プリセットを作成できます。 画像プリセットを一から作成することも、既存の画像プリセットに新しい名前を付けて保存することもできます。画像プリセットを作成するときは、画像配信のサイズと、フォーマットコマンドを選択します。画像が表示用に配信されるときには、選択したコマンドに応じて画像の外観が最適化されます。
+Experience Manager Assets 管理者は、アセットの詳細ページに動的レンディションとして表示される画像プリセットを作成できます。画像プリセットを一から作成することも、既存の画像プリセットに新しい名前を付けて保存することもできます。画像プリセットを作成するときは、画像配信のサイズと、フォーマットコマンドを選択します。画像が表示用に配信されるときには、選択したコマンドに応じて画像の外観が最適化されます。
 
 >[!NOTE]
 >
 >画像の動的レンディションは、ピラミッド TIFF を使用して作成されます。ピラミッド TIFF がどのアセットにも使用できない場合、そのアセットの動的レンディションを Brand Portal で取得することはできません。
 >
->Experience Managerアセットのオーサーインスタンスが **Dynamic Mediaハイブリッドモード** で実行されている場合、画像アセットのピラミッド TIFF レンディションが作成され、Experience Managerアセットリポジトリに保存されます。
+>Experience Manager Assets オーサーインスタンスが **Dynamic Media ハイブリッドモード**&#x200B;で実行されている場合、画像アセットのピラミッド TIFF レンディションが作成されて Experience Manager Assets リポジトリに保存されます。
 >
->これに対し、Experience Managerアセットのオーサーインスタンスが **Dynamic Media Scene7 モード** で実行されている場合、画像アセットのピラミッド TIFF レンディションは Scene7 サーバーに存在します。
+>これに対して、Experience Manager Assets オーサーインスタンスが **Dynamic Media Scene7 モード**&#x200B;で実行されている場合、画像アセットのピラミッド TIFF レンディションは Scene7 サーバー上に存在します。
 >
 >このようなアセットが Brand Portal に公開されると、画像プリセットが適用されて動的レンディションが表示されます。
 
 
-1. 上部のツールバーのExperience Managerロゴをクリックして、管理ツールにアクセスします。
+1. 上部のツールバーで Experience Manager ロゴをクリックして、管理ツールにアクセスします。
 
 1. 管理ツールパネルの「**[!UICONTROL 画像プリセット]**」をクリックします。
 
@@ -104,4 +104,4 @@ Brand Portal から画像とそのレンディションをダウンロードす�
 
    ![](assets/dynamicrenditions.png)
 
-1. 「**[!UICONTROL ダウンロード]**」をクリックします。カスタムの動的レンディションが、ダウンロード対象として選択した画像とレンディションと一緒に ZIP ファイルにダウンロードされます。ただし、ダウンロードするアセットが 1 つだけの場合は、迅速なダウンロードをおこなうために ZIP ファイルは作成されません。
+1. 「**[!UICONTROL ダウンロード]**」をクリックします。カスタムの動的レンディションが、ダウンロード対象として選択した画像とレンディションと一緒に ZIP ファイルにダウンロードされます。ただし、ダウンロードするアセットが 1 つだけの場合は、迅速なダウンロードを行うために ZIP ファイルは作成されません。
