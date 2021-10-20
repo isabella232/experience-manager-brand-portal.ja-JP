@@ -11,9 +11,9 @@ discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Brand Portal 管理者は、ユーザーに表示されるインターフェイ�
 
 カスタムの壁紙画像がない場合、ログインページにはデフォルトの壁紙が表示されます。
 
-1. 上部のツールバーのExperience Managerロゴをクリックして、管理ツールにアクセスします。
+1. 上部のツールバーで Experience Manager ロゴをクリックして、管理ツールにアクセスします。
 
    ![](assets/aemlogo.png)
 
@@ -42,7 +42,7 @@ Brand Portal 管理者は、ユーザーに表示されるインターフェイ�
 
    ![](assets/choose_wallpaperimage.png)
 
-   次のいずれかの操作をおこないます。
+   次のいずれかの操作を行います。
 
    * お使いのコンピューターから画像をアップロードするには、「**[!UICONTROL アップロード]**」をクリックします。必要な画像に移動してアップロードします。
    * Brand Portal の既存の画像を使用するには、「**[!UICONTROL 既存から選択]**」をクリックします。アセットピッカーを使用して画像を選択します。
@@ -75,7 +75,7 @@ Brand Portal 管理者は、ユーザーに表示されるインターフェイ�
 
 Brand Portal にログインすると、ヘッダーが様々な Brand Portal ページに表示されます。
 
-1. 上部のツールバーのExperience Managerロゴをクリックして、管理ツールにアクセスします。
+1. 上部のツールバーで Experience Manager ロゴをクリックして、管理ツールにアクセスします。
 
    ![](assets/aemlogo.png)
 
@@ -99,7 +99,8 @@ Brand Portal にログインすると、ヘッダーが様々な Brand Portal �
 
 1. ヘッダー画像に URL を含めるには、「**[!UICONTROL 画像 URL]**」ボックスに URL を指定します。外部または内部 URL を指定できます。内部リンクの場合は、
    [!UICONTROL `/mediaportal.html/content/dam/mac/tenant_id/tags`] などの相対リンクにすることも可能です。
-このリンクをクリックすると、tags フォルダーに移動します。変更内容を保存するには、上部のツールバーの「**[!UICONTROL 保存]**」をクリックします。
+このリンクをクリックすると、tags フォルダーに移動します。
+変更内容を保存するには、上部のツールバーの「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/configure_brandingheaderimageurl.png)
 
@@ -126,7 +127,7 @@ Brand Portal にログインすると、ヘッダーが様々な Brand Portal �
 
 アセットをリンクとして共有すると、そのリンクを含む電子メールがユーザーに届きます。管理者は、これらの電子メールのメッセージ内容、つまりロゴ、説明およびフッターをカスタマイズできます。
 
-1. 上部のツールバーのExperience Managerロゴをクリックして、管理ツールにアクセスします。
+1. 上部のツールバーで Experience Manager ロゴをクリックして、管理ツールにアクセスします。
 
    ![](assets/aemlogo.png)
 
