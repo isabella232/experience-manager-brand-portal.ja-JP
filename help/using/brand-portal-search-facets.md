@@ -11,9 +11,9 @@ discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1279'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,13 +27,13 @@ Brand Portal では[ファセット検索](../using/brand-portal-searching.md#se
 
 >[!NOTE]
 >
->Experience Managerアセットを使用すると、カスタマイズされた検索フォームを AEM オーサーインスタンス (](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal)) からBrand Portalに [ 公開できます。Brand Portal上で同じフォームを作り直す必要はありません。
+>Experience Manager Assets では、[カスタマイズされた検索フォームを AEM オーサーインスタンスから Brand Portal に公開](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal)することができます。同じフォームを Brand Portal 上で作り直す必要はありません。
 
 ## 検索用述語の追加 {#add-a-search-predicate}
 
 **[!UICONTROL フィルター]**&#x200B;パネルに検索用述語を追加するには、次のようにします。
 
-1. 管理ツールにアクセスするには、上部のExperience Managerのロゴをクリックします。
+1. 管理ツールにアクセスするには、上部のツールバーにある Experience Manager ロゴをクリックします。
 
    ![](assets/aemlogo.png)
 
