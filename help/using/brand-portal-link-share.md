@@ -1,7 +1,7 @@
 ---
 title: アセットをリンクとして共有
 seo-title: Share assets as a link
-description: Adobe Experience Manager Assets Brand Portal管理者は、内部のユーザーや外部の関係者（パートナーやベンダーを含む）との間で複数のアセットのリンクを共有できます。 編集者は、管理者によって共有されたアセットのみを閲覧および共有できます。
+description: Adobe Experience Manager Assets Brand Portal 管理者は、許可された内部ユーザーや外部関係者（パートナーやベンダーなど）との間で複数のアセットのリンクを共有できます。編集者は、管理者によって共有されたアセットのみを閲覧および共有できます。
 seo-description: Adobe Experience Manager Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '967'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -193,7 +193,7 @@ Adobe Experience Manager Assets Brand Portal 管理者は、許可された内�
 
 | 記号 | 意味 |
 |---|---|
-| ✓ | この機能はサポートされています。 |
+| ✓ | この機能はサポートされています |
 | ✕ | この機能はサポートされていません |
 | 該当なし | この機能は適用されません |
 | * | この機能を AEM オーサーインスタンスで使用するには、このファイル形式用のアドオンサポートが必要です。ただし、アセットが Brand Portal に公開された後、Brand Portal で使用する際には不要です |
