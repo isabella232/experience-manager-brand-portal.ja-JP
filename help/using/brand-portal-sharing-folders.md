@@ -1,7 +1,7 @@
 ---
 title: フォルダーの共有
 seo-title: Share folders
-description: Brand Portalはアセットの取り込みをサポートしていないので、事前設定済みのExperience Manager AssetsオーサーインスタンスからBrand Portalにアセットを公開する必要があります。 公開済みアセットは、Brand Portalの管理者以外のユーザーは、Experience Managerインスタンスでレプリケーションを設定する際に設定されている場合を除き、アクセスできません。また、そのユーザーと共有する必要があります。
+description: Brand Portal は、アセットの取り込みをサポートしていません。したがって、事前設定済みの Experience Manager Assets オーサーインスタンスから Brand Portal にアセットを公開する必要があります。公開されたアセットは、Experience Manager インスタンスとのレプリケーションの設定時に特に指定しない限り、Brand Portal の管理者以外のユーザーからはアクセスできなくなります。そこで、共有するための設定を行う必要があります。
 seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
 uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
 content-type: reference
@@ -11,20 +11,20 @@ discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
 source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Brand Portal でフォルダーを共有する {#share-folders}
 
-Brand Portalはアセットの取り込みをサポートしていないので、事前設定済みのExperience ManagerオーサーインスタンスからBrand Portalにアセットを公開する必要があります。
+Brand Portal は、アセットの取り込みをサポートしていません。したがって、事前設定済みの Experience Manager オーサーインスタンスから Brand Portal にアセットを公開する必要があります。
 
 ## Brand Portal でのフォルダー共有ワークフロー {#folder-sharing-workflow-in-brand-portal}
 
 以下に、フォルダー共有のワークフローとユーザーアクセスを示します。
 
-* デフォルトでは、Experience Manager AssetsからBrand Portalに公開されたすべてのフォルダーは、レプリケーションの設定時に「公開」とマークされない限り、Brand Portal管理者にしか表示されません。
+* Experience Manager Assets から Brand Portal に公開されるすべてのフォルダーは、レプリケーションの設定時に「公開」として指定されていない限り、デフォルトで Brand Portal 管理者にのみ表示されます。
 * 管理者は、**[!UICONTROL フォルダーのプロパティ]**&#x200B;コンソールを使用して、一部の選択したユーザーやグループとのみフォルダーを共有します。フォルダーを共有しているこれらのユーザーとグループのみが、Brand Portal へのログイン後にフォルダーを表示できます。それ以外のユーザーにフォルダーは表示されません。
 * 管理者は、**[!UICONTROL フォルダーのプロパティ]**&#x200B;コンソールの「**[!UICONTROL 公開フォルダー]**」チェックボックスを利用して、フォルダーを公開フォルダーとして設定できます。公開フォルダーはすべてのユーザーに表示されます。
 

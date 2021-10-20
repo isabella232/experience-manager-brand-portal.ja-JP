@@ -12,8 +12,8 @@ discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 source-git-commit: 5503a34f4896816bf991216b457cd824707ae5ed
 workflow-type: tm+mt
-source-wordcount: '6294'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -348,8 +348,8 @@ AEM Assets と Brand Portal の連携を設定する手順は、AEM のバージ
 | **AEM のバージョン** | **新しい設定** | **設定のアップグレード** |
 |---|---|---|
 | **AEM Assets as a Cloud Service** | [設定の作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
-| **AEM 6.5（6.5.4.0 以降）** | [設定の作成](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [設定のアップグレード](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
-| **AEM 6.4（6.4.8.0 以降）** | [設定の作成](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [設定のアップグレード](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
+| **AEM 6.5（6.5.4.0 以降）** | [設定の作成](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=ja) | [設定のアップグレード](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=ja#upgrade-integration-65) |
+| **AEM 6.4（6.4.8.0 以降）** | [設定の作成](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=ja) | [設定のアップグレード](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=ja#upgrade-integration-64) |
 | **AEM 6.3（6.3.3.8 以降）** | [設定の作成](https://helpx.adobe.com/jp/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [設定のアップグレード](https://helpx.adobe.com/jp/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | カスタマーサポートへの問い合わせ | カスタマーサポートへの問い合わせ |
 
@@ -525,7 +525,7 @@ Dynamic Media ビデオエンコードは以下の場所からダウンロード
 
 ### URL 中の設定可能なテナントエイリアス
 
-組織のポータル URL に代替プレフィックスを含めて、カスタマイズされたポータル URL を取得することができます。既存のポータル URL のテナント名のエイリアスを取得するには、各組織がカスタマーサポートに問い合わせる必要があります。
+組織のポータル URL に代替プレフィックスを含めて、カスタマイズされたポータル URL を取得することができます。既存のポータル URL 中のテナント名のエイリアスを取得するには、各組織からカスタマーサポートへ依頼する必要があります。
 
 カスタマイズできるのは Brand Portal URL のプレフィックスのみであり、URL 全体ではありません。\
 例えば、**geomettrix.brand-portal.adobe.com** という既存ドメインを持つ組織は、アドビに依頼することで **geomettrixinc.brand-portal.adobe.com** という URL を作成できます。
@@ -668,7 +668,7 @@ Brand Portal 6.4.1 はプラットフォームのアップグレードリリー�
 
 * AEM からアップロードされたオーディオファイルをアセットの詳細ページでプレビューできるようになりました。
 * アセットのプロパティに新しい関連アセット機能が追加されました。AEM の他のソースや派生アセットと関連し、Brand Portal で公開されるアセットが、Brand Portal 内でもその関連性を維持するようになりました（プロパティページに関連アセットへのリンクが含まれます）。
-* 管理者以外のユーザーによる公開コレクションの作成を制限する新しい設定が追加されました。組織は、カスタマーサポートチームと協力して、特定のアカウントにこの機能を設定できます。
+* 管理者以外のユーザーによる公開コレクションの作成を制限する新しい設定が追加されました。各組織はカスタマーサポートチームと連携して、この機能を特定のアカウントに設定することができます。
 
 ### 検索の機能強化
 

@@ -1,8 +1,8 @@
 ---
 source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 # Adobe Experience Manager ドキュメントの投稿に関するガイドライン
@@ -39,7 +39,7 @@ AEM ドキュメントの改善に役立つアイデアの投稿を歓迎しま�
 
 AEM の使用方法や技術的な問題に関して質問がある場合は、[Experience Cloud Enterprise サポートポータル](https://experienceleague.adobe.com/?support-solution=General#support)の通常のサポートプロセスを通じて報告したり、[Adobe Experience Manager コミュニティ](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)でディスカッションしたりする必要があります。
 
-***AEMドキュメントへの投稿は、Adobeカスタマーサポ*** ートの代わりとなるものではありません。サポート関連の質問に対する回答を求めるような投稿は拒否されます。
+***AEM ドキュメントの投稿は、アドビのカスタマーサポートに代わるものではありません。***&#x200B;サポート関連の質問に対する回答を求めるような投稿は拒否されます。
 
 ### 投稿は、影響を受けるドキュメントページを明確に参照する必要があります。
 

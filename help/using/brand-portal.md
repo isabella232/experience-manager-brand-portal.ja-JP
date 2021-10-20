@@ -1,7 +1,7 @@
 ---
-title: Experience Manager Assets Brand Portalの概要
+title: Experience Manager Assets Brand Portal の概要
 seo-title: Overview of Experience Manager Assets Brand Portal
-description: Experience Manager Assets Brand Portalは、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、様々なデバイスをまたいで、外部の関係者や内部のビジネスユーザーに安全に配布できます。
+description: Experience Manager Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、様々なデバイスをまたいで、外部の関係者や内部のビジネスユーザーに安全に配布できます。
 seo-description: Experience Manager Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
 uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
 content-type: reference
@@ -11,20 +11,20 @@ discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
 source-git-commit: ec52e1900e4ac9ec664d88c4b5fb492df4d4a32f
 workflow-type: tm+mt
-source-wordcount: '1528'
-ht-degree: 84%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Experience Manager Assets Brand Portalの概要 {#overview-of-aem-assets-brand-portal}
+# Experience Manager Assets Brand Portal の概要 {#overview-of-aem-assets-brand-portal}
 
-マーケターは、関連するデジタルコンテンツの作成、管理および顧客への配信をすばやくおこなうために、チャネルパートナーや内部のビジネスユーザーとの連携が必要となる場合があります。関連するコンテンツをカスタマージャーニー全体にわたってタイミングよく配信することは、顧客のニーズやコンバージョン、エンゲージメント、ロイヤリティを促進するために不可欠です。
+マーケターは、関連するデジタルコンテンツの作成、管理および顧客への配信をすばやく行うために、チャネルパートナーや内部のビジネスユーザーとの連携が必要となる場合があります。関連するコンテンツをカスタマージャーニー全体にわたってタイミングよく配信することは、顧客のニーズやコンバージョン、エンゲージメント、ロイヤリティを促進するために不可欠です。
 
 しかし問題は、広範囲に広がる内部チームやパートナー、リセラーとの間でブランドロゴやガイドライン、キャンペーンアセット、製品の写真を効率的かつ安全に共有できるソリューションを構築するのは容易ではないということです。
 
 **Adobe Experience Manager（AEM）Assets Brand Portal** は、アセット配布およびアセット投稿機能を提供することで、世界中に分散している Brand Portal ユーザーと効果的にコラボレーションするというマーケティング担当者のニーズに注力しています。
 
-アセット配布により、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、様々なデバイスをまたいで、外部の関係者や内部のビジネスユーザーに安全に配布できます。一方、アセット投稿を使用すると、Brand Portalユーザーは、オーサー環境にアクセスしなくても、Brand Portalにアセットをアップロードし、Experience Manager Assetsに公開できます。 投稿機能は、**Brand Portal でのアセットソーシング**と呼ばれます。これらにより、Brand Portal ユーザー（外部の代理店／チーム）からのアセット配布および投稿の全体的な Brand Portal エクスペリエンスを向上させ、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。
+アセット配布により、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、様々なデバイスをまたいで、外部の関係者や内部のビジネスユーザーに安全に配布できます。一方、アセット投稿により、Brand Portal ユーザーは、オーサー環境にアクセスすることなく、Brand Portal にアセットをアップロードしたり、Experience Manager Assets に公開したりできます。投稿機能は、**Brand Portal でのアセットソーシング**と呼ばれます。これらにより、Brand Portal ユーザー（外部の代理店／チーム）からのアセット配布および投稿の全体的な Brand Portal エクスペリエンスを向上させ、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。
 [Brand Portal でのアセットソーシング](brand-portal-asset-sourcing.md)を参照してください。
 
 ブラウザーベースのポータル環境では、アセットを簡単にアップロード、参照、検索、プレビュー、承認された形式で書き出すことができます。
@@ -35,13 +35,13 @@ Adobe Experience Manager Assets と Brand Portal の連携を設定すると、B
 
 >[!NOTE]
 >
->Brand PortalでのExperience Manager Assetsの設定は、Experience Manager Assets as a Cloud Service、Experience Manager Assets 6.3 以降でサポートされています。
+>Experience Manager Assets と Brand Portal の連携の設定は、Experience Manager Assets as a Cloud Service および Experience Manager Assets 6.3 以降でサポートされています。
 
-Experience Manager Assets as a Cloud Serviceは、Cloud Manager からBrand Portalをアクティベートすることで、Brand Portalで自動的に設定されます。 アクティベーションワークフローは、バックエンドで必要な設定を作成し、Experience Manager Assets as a Cloud Serviceインスタンスと同じ IMS 組織でBrand Portalをアクティベートします。
+Cloud Manager から Brand Portal をアクティベートすると、Experience Manager Assets as a Cloud Service と Brand Portal の連携が自動的に設定されます。アクティベーションワークフローにより、バックエンドで必要な設定が作成され、Experience Manager Assets as a Cloud Service インスタンスと同じ IMS 組織に Brand Portal がアクティベートされます。
 
-これに対し、Experience Manager Assets（オンプレミスおよびマネージドサービス）は、Adobe開発者コンソールを使用してBrand Portalで手動で設定します。開発者コンソールは、Brand Portalテナントの認証用のAdobeIdentity Managementサービス (IMS) トークンを取得します。
+一方、Experience Manager Assets（オンプレミス版および Managed Services 版）と Brand Portal の連携は、Adobe Developer Console を使用して手動で設定されます。このコンソールでは、Brand Portal テナントの認証に使用する Adobe Identity Management サービス（IMS）トークンを調達します。
 
-詳しくは、[Brand PortalとのExperience Manager Assetsの設定 ](../using/configure-aem-assets-with-brand-portal.md) を参照してください。
+詳しくは、[Experience Manager Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
 
 ## Brand Portal でのユーザーのペルソナ {#Personas}
 
@@ -131,9 +131,9 @@ AEM Assets の作成者は、上記のタスクに加えて、次のタスクを
 
 * [AEM Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)
 
-* [Brand Portal へのフォルダーの公開](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
+* [Brand Portal へのフォルダーの公開](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html?lang=ja)
 
-* [Brand Portal へのコレクションの公開](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
+* [Brand Portal へのコレクションの公開](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html?lang=ja)
 
 ## Brand Portal URL の代替エイリアス {#tenant-alias-for-portal-url}
 
@@ -144,7 +144,7 @@ Brand Portal 6.4.3 以降では、各組織はそれぞれの Brand Portal テ�
 
 >[!NOTE]
 >
->既存のポータル URL 内のテナント名のエイリアスを取得するには、各組織からカスタマーサポートに連絡して、新しいテナント名の作成リクエストをおこなう必要があります。 このリクエストが処理される際は、まずそのエイリアスが使用可能かどうかの確認が行われ、その後でエイリアスが作成されます。
+>既存のポータル URL 中のテナント名のエイリアスを取得するには、各組織からカスタマーサポートへ新規テナント名の作成依頼を出す必要があります。このリクエストが処理される際は、まずそのエイリアスが使用可能かどうかの確認が行われ、その後でエイリアスが作成されます。
 >
 >古いエイリアスを置き換えたり、古いエイリアスを削除するには、同じ手続きに従う必要があります。
 

@@ -1,7 +1,7 @@
 ---
 title: Brand Portal へのタグの公開
 seo-title: Publish tags to Brand Portal
-description: Experience Manager AssetsからBrand Portalにタグを公開する方法を説明します。
+description: Experience Manager Assets から Brand Portal にタグを公開する方法について説明します。
 seo-description: Learn how to publish tags from Experience Manager Assets to Brand Portal.
 uuid: 4167367e-1af8-476b-97a5-730c43bd0816
 topic-tags: publish
@@ -11,16 +11,16 @@ discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
 exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
 source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Brand Portal へのタグの公開 {#publish-tags-to-brand-portal}
 
-Experience Manager AssetsからBrand Portalにタグを公開する方法を説明します。
+Experience Manager Assets から Brand Portal にタグを公開する方法について説明します。
 
-タグはアセットの整理に役立ちます。また、アセットにタグを関連付けると検索性が向上します。タグはアセットに関連付けられるキーワードやラベル（メタデータ）のようなもので、検索結果の中から目的のアセットをすばやく見つけるために役立ちます。Experience Manager Assetsでアセットにタグを割り当てる方法については、[ タグを使用したアセットの構成 ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/organize-assets.html) を参照してください。
+タグはアセットの整理に役立ちます。また、アセットにタグを関連付けると検索性が向上します。タグはアセットに関連付けられるキーワードやラベル（メタデータ）のようなもので、検索結果の中から目的のアセットをすばやく見つけるために役立ちます。Experience Manager Assets でアセットにタグを割り当てる方法については、[タグを使用したアセットの構成](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/organize-assets.html)を参照してください。
 
 関連タグの付いたアセット（およびコレクション）が Brand Portal に公開されると、（AEM でアセットやコレクションに関連付けられた）タグが Brand Portal に自動公開されます。公開されたタグは、そのタグに関連付けられているアセットを検索で探す際に役立ちます。
 
@@ -87,4 +87,5 @@ AEM Assets Brand Portal では、キーワードタグに基づいて特定の�
 
 1. 変更内容を保存します。
 1. アセットを Brand Portal に公開します。
-1. Brand Portal にログインします。アセットの「**[!UICONTROL プロパティ]**」セクションの「**[!UICONTROL 詳細]**」タブを表示します。なお、アセットのプロパティには「**[!UICONTROL 昇格を検索]**」のキーワードも表示されます。
+1. Brand Portal にログインします。アセットの「**[!UICONTROL プロパティ]**」セクションの「**[!UICONTROL 詳細]**」タブを表示します。
+なお、アセットのプロパティには「**[!UICONTROL 昇格を検索]**」のキーワードも表示されます。
