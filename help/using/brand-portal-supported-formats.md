@@ -1,7 +1,7 @@
 ---
 title: サポートされているファイル形式
 seo-title: Supported file formats
-description: '各Experience ManagerAssets Brand Portalは、マトリックスに示すように、特定のファイル形式をサポートしています。 '
+description: 'Experience Manager Assets Brand Portal でサポートされるファイル形式を以下の表に示します。 '
 seo-description: Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix.
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
@@ -10,15 +10,15 @@ topic-tags: introduction
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # サポートされているファイル形式 {#supported-file-formats}
 
-各Experience ManagerAssets Brand Portalは、マトリックスに示すように、特定のファイル形式をサポートしています。
+Experience Manager Assets Brand Portal でサポートされるファイル形式を以下の表に示します。
 
 | ファイル形式 | Brand Portal に公開されたアセット | Brand Portal に公開されたレンディション | Brand Portal に公開されたメタデータ | Brand Portal に公開されたサムネール | Brand Portal に公開されたアセット詳細ページ | リンク共有 | リンク共有のサムネール | リンク共有のプレビュー |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
