@@ -11,17 +11,17 @@ discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2185'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # ユーザー、グループ、ユーザーの役割の管理 {#manage-users-groups-and-user-roles}
 
-管理者は、 Adobe Admin Consoleを使用して、Experience ManagerのAssets Brand Portalユーザーと製品プロファイルを作成し、Brand Portalユーザーインターフェイスを使用してその役割を管理できます。 これは閲覧者と編集者にはない権限です。
+管理者は、Adobe Admin Console を使用して Experience Manager Assets Brand Portal のユーザーおよび製品プロファイルを作成でき、ユーザーの役割を Brand Portal ユーザーインターフェイスで管理できます。これは閲覧者と編集者にはない権限です。
 
-[[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) には、組織に関連するあらゆる製品が表示されます。Adobe Analytics、Adobe Target、Experience ManagerAssets Brand Portalなど、任意のExperience Cloudソリューションが製品になります。 AEM Brand Portal 製品を選択し、製品プロファイルを作成する必要があります。
+[[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) には、組織に関連するあらゆる製品が表示されます。これには、例えば Adobe Analytics や Adobe Target、Experience Manager Assets Brand Portal など、様々な Adobe Experience Cloud ソリューションが含まれます。AEM Brand Portal 製品を選択し、製品プロファイルを作成する必要があります。
 
 <!--
 Comment Type: draft
@@ -45,7 +45,7 @@ Comment Type: draft
 
 >[!NOTE]
 >
->Brand Portal へのアクセス権がない新しいユーザーは、Brand Portal のログイン画面からアクセス権を申請できます。詳しくは、[Brand Portal へのアクセス権の申請](../using/brand-portal.md#request-access-to-brand-portal)を参照してください。管理者は、通知領域にアクセス権申請の通知が届いたら、関連する通知をクリックして「**[!UICONTROL アクセス権を付与]**」をクリックします。または、アクセス権申請の電子メールが届いたら、そこに記載されているリンクをクリックします。その後、[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) からユーザーを追加するには、以下の手順 4～7 をおこないます。
+>Brand Portal へのアクセス権がない新しいユーザーは、Brand Portal のログイン画面からアクセス権を申請できます。詳しくは、[Brand Portal へのアクセス権の申請](../using/brand-portal.md#request-access-to-brand-portal)を参照してください。管理者は、通知領域にアクセス権申請の通知が届いたら、関連する通知をクリックして「**[!UICONTROL アクセス権を付与]**」をクリックします。または、アクセス権申請の電子メールが届いたら、そこに記載されているリンクをクリックします。その後、[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) からユーザーを追加するには、以下の手順 4～7 を行います。
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ Brand Portal グループにユーザーを追加するには、[!UICONTROL Admi
 >
 >[[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) には、直接または Brand Portal からログインできます。Admin Console に直接ログインした場合は、以下の手順 4～7 に従って、製品プロファイルにユーザーを追加します。
 
-1. 上部のツールバーのExperience Managerロゴをクリックして、管理ツールにアクセスします。
+1. 上部のツールバーで Experience Manager ロゴをクリックして、管理ツールにアクセスします。
 
    ![AEM ロゴ](assets/aemlogo.png)
 
@@ -209,7 +209,7 @@ Brand Portal グループにユーザーを追加するには、[!UICONTROL Admi
    >
    >Brand Portal では、システム管理者と製品管理者の役割のみをサポートしています。
    >
-   >システム管理者の役割は使用しないことをお勧めします。なぜなら、システム管理者の役割は、組織のすべての製品に対する組織レベルの管理者権限を付与することになるからです。例えば、3 つのマーケティングクラウド製品を扱う組織のシステム管理者は、これら 3 つの製品に対するすべての権限を保有します。Experience ManagerAssets からBrand Portalにアセットを公開できるようにシステム管理者のみがExperience ManagerAssets を設定できます。 詳しくは、[Brand Portal](../using/configure-aem-assets-with-brand-portal.md) でのExperience Managerアセットの設定を参照してください。
+   >システム管理者の役割は使用しないことをお勧めします。なぜなら、システム管理者の役割は、組織のすべての製品に対する組織レベルの管理者権限を付与することになるからです。例えば、3 つのマーケティングクラウド製品を扱う組織のシステム管理者は、これら 3 つの製品に対するすべての権限を保有します。Experience Manager Assets から Brand Portal にアセットを公開できるように Experience Manager Assets を設定できるのは、システム管理者だけです。詳しくは、[Experience Manager Assets と Brand Portal の連携の設定](../using/configure-aem-assets-with-brand-portal.md)を参照してください。
    >
    >それに対して、製品管理者の役割は、特定の製品に対する管理者権限のみを付与します。Brand Portal 内で、より詳細なアクセス制御を適用する場合は、製品管理者の役割を使用して、製品を「Brand Portal」として選択します。
 
@@ -221,7 +221,7 @@ Brand Portal グループにユーザーを追加するには、[!UICONTROL Admi
 
    >[!NOTE]
    >
-   >ユーザーの管理者権限を失効するには、**[!UICONTROL 管理者を編集]**&#x200B;ページで適切な変更をおこない、「**[!UICONTROL 保存]**」をクリックします。
+   >ユーザーの管理者権限を失効にするには、**[!UICONTROL 管理者を編集]**&#x200B;ページで適切な変更を行い、「**[!UICONTROL 保存]**」をクリックします。
 
 
 ## ユーザーの役割の管理 {#manage-user-roles}
@@ -265,7 +265,7 @@ Brand Portal グループにユーザーを追加するには、[!UICONTROL Admi
 
 ## グループの役割および権限の管理 {#manage-group-roles-and-privileges}
 
-管理者は、Brand Portal で特定の権限をユーザー[グループ](../using/brand-portal-adding-users.md#main-pars-title-278567577)に関連付けることができます。**[!UICONTROL ユーザーの役割]**&#x200B;ページの「**[!UICONTROL グループ]**」タブでは、管理者は次の操作をおこなうことができます。
+管理者は、Brand Portal で特定の権限をユーザー[グループ](../using/brand-portal-adding-users.md#main-pars-title-278567577)に関連付けることができます。**[!UICONTROL ユーザーの役割]**&#x200B;ページの「**[!UICONTROL グループ]**」タブでは、管理者は次の操作を行うことができます。
 
 * ユーザーグループに役割を割り当てる
 * ユーザーグループが Brand Portal から画像ファイル（.jpeg、.tiff、.png、.bmp、.gif、.pjpeg、x-portable-anymap、x-portable-bitmap、x-portable-graymap、x-portable-pixmap、x-rgb、x-xbitmap、x-xpixmap、x-icon、image/photoshop、image/x-photoshop、.psd、image/vnd.adobe.photoshop）のオリジナルのレンディションをダウンロードすることを制限する
