@@ -1,7 +1,7 @@
 ---
 title: レポートの操作
 seo-title: Work with reports
-description: Experience ManagerAssets Brand Portal管理者は、Brand Portalの使用状況に関するレポートを表示したり、Brand Portalを通じてダウンロードされたアセット、期限切れのアセット、公開されたアセット、リンクに関するレポートを作成、管理および表示したりできます。
+description: Experience Manager Assets Brand Portal 管理者は、Brand Portal の使用状況に関するレポートを表示できます。また、ダウンロードされたアセット、有効期限が切れたアセット、公開されたアセット、リンクで共有されているアセットに関するレポートを、Brand Portal を介して作成、管理および表示することもできます。
 seo-description: Experience Manager Assets Brand Portal Administrators can view report about Brand Portal usage, and create, manage, and view reports around assets downloaded, expired, published, and link shared through Brand Portal.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
@@ -11,9 +11,9 @@ discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '996'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 91%
 
 レポート機能は、Brand Portal の使用状況を調べたり、内部および外部ユーザーによる承認済みアセットの使用方法を確認したりするのに便利です。管理者は Brand Portal 使用状況レポートを表示できます。このレポートは、アセットレポートページでいつでも利用することができます。ただし、ユーザーログイン数、ダウンロードされたアセット、期限切れのアセット、公開されたアセット、およびリンクから共有されたアセットに関するレポートは、アセットレポートページから生成および表示できます。これらのレポートは、アセット導入を分析するために役立ちます。これらのレポートを利用して、承認されたアセットが組織の内外でどのくらい採用されたかを測定するための重要な成功指標を導き出すことができます。
 
-レポート管理インターフェイスは直観的な設計になっており、保存済みレポートにアクセスするためのきめ細かいオプションとコントロールを備えています。レポートの表示、ダウンロード、削除はアセットレポートページでおこないます。このページには、過去今までに生成されたすべてのレポートが表示されます。
+レポート管理インターフェイスは直観的な設計になっており、保存済みレポートにアクセスするためのきめ細かいオプションとコントロールを備えています。レポートの表示、ダウンロード、削除はアセットレポートページで行います。このページには、過去に生成されたすべてのレポートが表示されます。
 
 ## レポートの表示 {#view-reports}
 
 レポートを表示するには、以下の手順に従います。
 
-1. 上部のツールバーのExperience Managerロゴをタップまたはクリックして、管理ツールにアクセスします。
+1. 上部のツールバーで Experience Manager ロゴをタップまたはクリックして、管理ツールにアクセスします。
 
    ![](assets/aemlogo.png)
 
@@ -43,7 +43,7 @@ ht-degree: 91%
 
    レポートを表示するには、レポートのリンクをクリックします。または、レポートを選択し、ツールバーの「表示」アイコンをタップまたはクリックします。
 
-   **[!UICONTROL 使用状況レポート]**&#x200B;には、アクティブな Brand Portal ユーザーの数、すべてのアセットで占有されるストレージ領域、Brand Portal 内の合計アセット数に関する情報が表示されます。Admin Console でどの製品プロファイルにも割り当てられていない Brand Portal ユーザーは、非アクティブユーザーと見なされ、 **[!UICONTROL 使用状況レポート]** には反映されません。
+   **[!UICONTROL 使用状況レポート]**&#x200B;には、アクティブな Brand Portal ユーザーの数、すべてのアセットで占有されるストレージ領域、Brand Portal 内の合計アセット数に関する情報が表示されます。Admin Console でどの製品プロファイルにも割り当てられていない Brand Portal ユーザーは、非アクティブユーザーと見なされ、**[!UICONTROL 使用状況レポート]**には反映されません。
 また、それぞれの情報指標で許可されている容量も表示されます。
 
    ![](assets/usage-report.png)
@@ -64,7 +64,7 @@ ht-degree: 91%
 
    ![](assets/expiration-report.png)
 
-   **** 公開レポートには、指定した期間にExperience ManagerアセットからBrand Portalに公開されたすべてのアセットと、それらに関する情報が表示されます。
+   **[!UICONTROL 公開]**&#x200B;レポートには、特定の期間内に Experience Manager Assets から Brand Portal に公開されたすべてのアセットと、それらに関する情報が表示されます。
 
    ![](assets/publish-report.png)
 
@@ -94,7 +94,7 @@ ht-degree: 91%
 
 ダウンロード、有効期限および公開レポートの列は、カスタマイズして表示できます。レポートを生成するには、以下の手順に従います。
 
-1. 上部のツールバーのExperience Managerロゴをタップまたはクリックして、管理ツールにアクセスします。
+1. 上部のツールバーの Experience Manager ロゴをタップまたはクリックして、管理ツールにアクセスします。
 
 1. 管理ツールパネルの「**[!UICONTROL レポートを作成 / 管理]**」をタップまたはクリックして、**[!UICONTROL アセットレポート]**&#x200B;ページを開きます。
 
@@ -130,7 +130,8 @@ ht-degree: 91%
    1. 「**[!UICONTROL 列名]**」フィールドで列名を指定します。
    1. プロパティピッカーを使用して、列と対応付ける必要があるプロパティを選択します。
 
-      ![](assets/property-picker.png)または、プロパティパスフィールドにパスを入力します。
+      ![](assets/property-picker.png)
+または、プロパティパスフィールドにパスを入力します。
 
       ![](assets/property-path.png)
 
