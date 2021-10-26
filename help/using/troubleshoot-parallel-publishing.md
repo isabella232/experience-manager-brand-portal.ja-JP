@@ -10,10 +10,10 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
-workflow-type: ht
-source-wordcount: '871'
-ht-degree: 100%
+source-git-commit: 72cd0ebbf05067287d94e1dc4e1b68f5fb6c2888
+workflow-type: tm+mt
+source-wordcount: '953'
+ht-degree: 91%
 
 ---
 
@@ -61,7 +61,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 <p>?? another thing to check in /useradmin</p>
 -->
 
-### 既存の Brand Portal 公開設定のクリーンアップ {#clean-up-existing-config}
+## 既存の Brand Portal 公開設定のクリーンアップ {#clean-up-existing-config}
 
 公開がうまくいかない場合によくある原因は、公開を実行するユーザー（例：`mac-<tenantid>-replication`）が最新の秘密鍵を持っていないことです。そのため、公開が「401 Unauthorized」エラーで失敗し、レプリケーションエージェントログに他のエラーは記録されません。その場合は、トラブルシューティングを行うのではなく、設定を作成することをお勧めします。新しい設定を正しく機能させるには、Experience Manager オーサーインスタンスのセットアップから以下をクリーンアップします。
 
@@ -121,6 +121,14 @@ permission
 公開エラーが引き続き発生し、キューがブロックされる場合は、**[!UICONTROL 接続テスト]**&#x200B;の結果を確認し、報告されるエラーの解決を試みてください。
 
 エラーの内容に基づき、サポートチケットを発行することもできます。その場合は Brand Portal のエンジニアリングチームが問題解決をお手伝いします。
+
+## Brand Portal IMS 設定トークンの期限切れ {#token-expired}
+
+Brand Portal環境が突然停止した場合は、IMS 設定が正しく機能しない可能性があります。 システムは異常な IMS 設定を表示し、アクセストークンの有効期限が切れたというエラーメッセージ（以下のような）を反映します。
+
+`com.adobe.granite.auth.oauth.AccessTokenProvider failed to get access token from authorization server status: 400 response: Unknown macro: {"error"}`
+
+この問題を解決するには、IMS 設定を手動で保存して閉じ、ヘルスステータスを再度確認することをお勧めします。 設定が機能しない場合は、既存の設定を削除し、新しい設定を作成します。
 
 
 ## 接続タイムアウトエラーを回避するためのレプリケーションエージェントの設定 {#connection-timeout}
