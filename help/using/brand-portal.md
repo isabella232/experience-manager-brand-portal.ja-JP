@@ -10,9 +10,9 @@ topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
 source-git-commit: ec52e1900e4ac9ec664d88c4b5fb492df4d4a32f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1528'
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Brand Portal では次のユーザー役割をサポートしています。
 
 >[!NOTE]
 >
->ゲストユーザーは、公開フォルダーおよび公開コレクション内のアセットのみを参照、アクセス、検索できます。
+>ゲストユーザーは、公開フォルダーおよび公開コレクション内にあるアセットのみを参照、アクセス、および検索できます。
 
 <!--
 &#42; Viewer users can access and download the public assets shared with them, and can add these assets to create their own collections.
