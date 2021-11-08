@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
 source-git-commit: 533b2a637700770ff08c88da92892af863265902
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1217'
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Experience Manager Assets 管理者と、新しいフォルダーを作成する
 >
 >管理者は、1 つのフォルダー内に複数のアセット投稿フォルダーを作成できます。
 >
->アセット投稿フォルダーには、アセットの配布と投稿を行うための NEW フォルダーと SHARED フォルダーが含まれます。 投稿フォルダー内にアセット、フォルダー、投稿フォルダーを作成しないでください。
+>アセット投稿フォルダーには、アセットの配布と投稿をおこなうための NEW フォルダーと SHARED フォルダーが含まれます。投稿フォルダー内にアセット、フォルダー、投稿フォルダーを作成しないでください。
 
 
 投稿フォルダーの作成時だけでなく、個別に投稿フォルダーのプロパティを設定することもできます。この例では、個別にプロパティを設定します。
@@ -54,7 +54,7 @@ Experience Manager Assets 管理者と、新しいフォルダーを作成する
 
 1. Experience Manager Assets インスタンスにログインします。
 
-1. **[!UICONTROL アセット]**／**[!UICONTROL ファイル]**&#x200B;に移動します。Experience Manager Assets リポジトリに既に存在するすべてのフォルダーが一覧表示されます。
+1. **[!UICONTROL Assets]**／**[!UICONTROL ファイル]**&#x200B;に移動します。Experience Manager Assets リポジトリに既に存在するすべてのフォルダーが一覧表示されます。
 
 1. 「**[!UICONTROL 作成]**」をクリックして、新規フォルダーを作成します。「**[!UICONTROL フォルダーを作成]**」ダイアログが開きます。
 
@@ -89,7 +89,7 @@ Experience Manager Assets 管理者は、投稿フォルダーのプロパティ
 
 1. Experience Manager Assets インスタンスにログインします。
 
-1. **[!UICONTROL アセット／ファイル]**&#x200B;に移動して、投稿フォルダーを探します。
+1. **[!UICONTROL Assets／ファイル]**&#x200B;に移動して、投稿フォルダーを探します。
 1. 投稿フォルダーを選択し、「**[!UICONTROL プロパティ]**」をクリックしてフォルダーのプロパティウィンドウを開きます。
 
    ![](assets/properties.png)
@@ -109,9 +109,9 @@ Experience Manager Assets 管理者は、投稿フォルダーのプロパティ
 
 >[!NOTE]
 >
->検索結果は、Experience Manager Assets に設定された Brand Portal ユーザーリストに基づきます。更新されたBrand Portalユーザーリストがあることを確認します。
+>検索結果は、Experience Manager Assets に設定された Brand Portal ユーザーリストに基づきます。Brand Portal ユーザーリストを更新しておくようにします。
 
-管理者は、 `user.csv` ～からファイルを作る [!DNL Admin Console] Brand Portalユーザーを追加する際の基本テンプレートとして使用します。 に移動します。 [!UICONTROL ユーザー] をクリックし、 [!UICONTROL ユーザーリストを CSV に書き出す] ダウンロードするオプション `users.csv` ファイル。 次のサンプルユーザーは、ユーザーの追加に必要な属性の詳細をリストします。 ユーザーエントリに必須の属性は、 `Email` その他の属性はすべてオプションです。
+管理者は、[!DNL Admin Console] から `user.csv` ファイルをダウンロードして、Brand Portal ユーザーを追加する際の基本テンプレートとして使用できます。「[!UICONTROL ユーザー]」に移動し、「[!UICONTROL ユーザーリストを CSV に書き出す]」オプションをクリックして `users.csv` ファイルをダウンロードします。次のサンプルユーザーは、ユーザーの追加に必要な属性の詳細をリストします。ユーザーエントリに必須の属性は`Email` で、その他の属性はすべてオプションです。
 
 [ファイルを入手](assets/users.csv)
 
@@ -169,7 +169,7 @@ Brand Portal のユーザーは、アセット要件をダウンロードして�
 
 1. Experience Manager Assets インスタンスにログインします。
 
-1. **[!UICONTROL アセット／ファイル]**&#x200B;に移動して、Brand Portal に公開する投稿フォルダーを探します。
+1. **[!UICONTROL Assets／ファイル]**&#x200B;に移動して、Brand Portal に公開する投稿フォルダーを探します。
 1. 投稿フォルダーを選択して、**[!UICONTROL クイック公開]**／**[!UICONTROL Brand Portal に公開]**&#x200B;をクリックします。
 
    ![](assets/publish-contribution-folder-to-bp.png)
