@@ -10,9 +10,9 @@ content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 exl-id: 9b585606-6538-459b-87a9-2e68df0087b3
 source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1141'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Brand Portal へのメタデータスキーマの公開を取り消すには、�
 
 ## Brand Portal への検索ファセットの公開 {#publish-search-facets-to-brand-portal}
 
-検索フォームは、Brand Portal のユーザーに[ファセット検索](../using/brand-portal-search-facets.md)の機能を提供します。検索ファセットは Brand Portal 上での詳細検索を可能にします。検索フォームに[追加されている述語](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/search-facets.html)はすべて、検索フィルター内の検索ファセットとしてユーザーに提供されます。
+検索フォームは、Brand Portal のユーザーに[ファセット検索](../using/brand-portal-search-facets.md)の機能を提供します。検索ファセットは Brand Portal 上での詳細検索を可能にします。検索フォームに[追加されている述語](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/search-facets.html?lang=ja)はすべて、検索フィルター内の検索ファセットとしてユーザーに提供されます。
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)
