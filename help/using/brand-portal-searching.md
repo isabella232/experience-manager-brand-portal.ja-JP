@@ -11,9 +11,9 @@ topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
 source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1124'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Brand Portal 上でアセットを検索するには、次のようにします�
 
    *オムニサーチを使用したアセット検索*
 
-スマートタグ付きアセットでの検索動作については、[AEM でのアセットの検索](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/search-assets.html)を参照してください。
+スマートタグ付きアセットでの検索動作については、[AEM でのアセットの検索](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/search-assets.html?lang=ja)を参照してください。
 
 ## フィルターパネルでのファセットを使用した検索 {#search-using-facets-in-filters-panel}
 
@@ -61,7 +61,7 @@ Brand Portal 上でアセットを検索するには、次のようにします�
 
    ![](assets/selectorrail.png)
 
-1. 左側の&#x200B;**[!UICONTROL フィルター]**パネルから、適切なオプションを選択して、関連するフィルターを適用します。
+1. 左側の **[!UICONTROL フィルター]** パネルから、適切なオプションを選択して、関連するフィルターを適用します。
 例えば、以下の標準のフィルターを使用します。
 
    * **[!UICONTROL パスブラウザー]**：特定のディレクトリ内のアセットを検索します。パスブラウザーの述語のデフォルト検索パスは `/content/dam/mac/<tenant-id>/` です。これはデフォルトの検索フォームを編集することで設定できます。
