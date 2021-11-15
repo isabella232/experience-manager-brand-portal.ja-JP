@@ -11,9 +11,9 @@ discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
 source-git-commit: 72cd0ebbf05067287d94e1dc4e1b68f5fb6c2888
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '953'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -67,12 +67,12 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 1. `localhost:4502/crx/de/` に移動します（localhost でオーサーインスタンスを実行していると仮定）。:4502:\
    i. `/etc/replication/agents.author/mp_replication` を削除します。
-ii. 次を削除します。 
+ii.次を削除します。 
 `/etc/cloudservices/mediaportal/<config_name>`
 
 1. localhost:4502/useradmin に移動します。\
    i. ユーザー `mac-<tenantid>replication` を検索します。
-ii. このユーザーを削除します。
+ii.このユーザーを削除します。
 
 これによってシステム全体がクリーンアップされます。これで、クラウドサービス設定を作成し、既存の JWT アプリケーションを引き続き使用することができます。アプリケーションを作成する必要はなく、新しく作成したクラウド設定から公開鍵を更新するだけです。
 
@@ -122,13 +122,13 @@ permission
 
 エラーの内容に基づき、サポートチケットを発行することもできます。その場合は Brand Portal のエンジニアリングチームが問題解決をお手伝いします。
 
-## Brand Portal IMS 設定トークンの期限切れ {#token-expired}
+## Brand Portal IMS 設定トークンの期限が切れました {#token-expired}
 
-Brand Portal環境が突然停止した場合は、IMS 設定が正しく機能しない可能性があります。 システムは異常な IMS 設定を表示し、アクセストークンの有効期限が切れたというエラーメッセージ（以下のような）を反映します。
+Brand Portal 環境が突然停止した場合は、IMS 設定が正しく動作していない可能性があります。システムは異常な IMS 設定を表示し、（以下のような）アクセストークンの有効期限が切れたというエラーメッセージを反映します。
 
 `com.adobe.granite.auth.oauth.AccessTokenProvider failed to get access token from authorization server status: 400 response: Unknown macro: {"error"}`
 
-この問題を解決するには、IMS 設定を手動で保存して閉じ、ヘルスステータスを再度確認することをお勧めします。 設定が機能しない場合は、既存の設定を削除し、新しい設定を作成します。
+この問題を解決するには、IMS 設定を手動で保存してから閉じ、ヘルスステータスを再度確認することをお勧めします。設定が機能しない場合は、既存の設定を削除して新しく作成します。
 
 
 ## 接続タイムアウトエラーを回避するためのレプリケーションエージェントの設定 {#connection-timeout}
