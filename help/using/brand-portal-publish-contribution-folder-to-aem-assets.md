@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
-workflow-type: ht
-source-wordcount: '1011'
-ht-degree: 100%
+source-git-commit: 3845d9fa17e75d59493383303ca0978349ca0401
+workflow-type: tm+mt
+source-wordcount: '1027'
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Brand Portal ユーザーは、アセット要件をダウンロードするた�
 
    ![](assets/download.png)
 
-   ![](assets/download-asset-requirement4.png)
+   ![](assets/download-asset-requirement5.png)
 
 概要（アセット要件ドキュメント）を確認し、ベースラインアセットを参照して、アセット要件を理解します。これで、投稿用の新しいアセットを作成して、投稿フォルダーにアップロードできます。
 
@@ -73,6 +73,8 @@ Brand Portal ユーザーは、アセット要件を確認した後、投稿用�
 >Brand Portal ユーザーは、アセットを NEW フォルダーにのみアップロードできます。
 >
 >Brand Portal テナントの最大アップロード数は **10** GBです。これは累積的にすべての投稿フォルダーに適用されます。
+>
+>Brand Portalにアップロードされたアセットは、レンディション用に処理されず、プレビューが含まれません。
 
 >[!NOTE]
 >
@@ -98,7 +100,7 @@ Brand Portal ユーザーは、アセット要件を確認した後、投稿用�
 
 1. アセット（ファイルまたはフォルダー）を参照し、**[!UICONTROL NEW]** フォルダーへとアップロードします。
 
-   ![](assets/upload-new-assets6.png)
+   ![](assets/upload-asset4.png)
 
 すべてのアセットまたはフォルダーを NEW フォルダーにアップロードしたら、投稿フォルダーを Experience Manager Assets に公開します。
 

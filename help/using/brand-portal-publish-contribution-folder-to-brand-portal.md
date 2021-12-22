@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 533b2a637700770ff08c88da92892af863265902
-workflow-type: ht
-source-wordcount: '1217'
-ht-degree: 100%
+source-git-commit: 3845d9fa17e75d59493383303ca0978349ca0401
+workflow-type: tm+mt
+source-wordcount: '1037'
+ht-degree: 97%
 
 ---
 
@@ -117,33 +117,15 @@ Experience Manager Assets 管理者は、投稿フォルダーのプロパティ
 
 ## 投稿フォルダーへのアセットのアップロード {#uplad-new-assets-to-contribution-folder}
 
-Brand Portal のユーザーは、アセット要件をダウンロードして、投稿の必要性を理解できます。
-また、投稿用の新しいアセットを作成して、投稿フォルダー内の NEW フォルダーにアップロードできます。
+Experience Manager Assetsユーザーは、一連のベースラインアセットを **共有** フォルダーを使用して、Brand Portalユーザーが必要な情報を取得できるようにします。
 
->[!NOTE]
->
->Brand Portal ユーザーは、アセットを NEW フォルダーにのみアップロードできます。
->
->Brand Portal テナントの最大アップロード数は **10** GBです。これは累積的にすべての投稿フォルダーに適用されます。
+**ベースラインアセットをアップロードするには：**
 
+1. Experience Manager Assets インスタンスにログインします。
 
-新しく作成したアセットを Experience Manager Assets に公開した後、Brand Portal のユーザーは、NEW フォルダーからそれらのアセットを削除できます。一方、Brand Portal 管理者は、NEW フォルダーと SHARED フォルダーの両方からアセットを削除できます。
+1. **[!UICONTROL Assets／ファイル]**&#x200B;に移動して、投稿フォルダーを探します。
 
-投稿フォルダー作成の目的を達成したら、Brand Portal 管理者は投稿フォルダーを削除して、他のユーザーが使用できるようアップロード領域を解放できます。
-
->[!NOTE]
->
->投稿フォルダーを Experience Manager Assets に公開した後、アップロード領域を解放し、他の Brand Portal ユーザーが投稿に使用できるようにすることをお勧めします。
->
->Brand Portal テナントのアップロード制限を拡張して **10** GB を超えるようにする必要がある場合は、カスタマーサポートに連絡して、要件を指定してください。
-
-
-**新しいアセットをアップロードするには：**
-
-1. Brand Portal インスタンスにログインします。
-新しく共有された投稿フォルダーと共に、Brand Portal ユーザーに対して許可された既存のすべてのフォルダーが Brand Portal ダッシュボードに反映されます。
-
-1. 投稿フォルダーを選択し、クリックして開きます。投稿フォルダーには、**[!UICONTROL SHARED]** と **[!UICONTROL NEW]** の 2 つのサブフォルダーが含まれます。
+1. 投稿フォルダーを選択し、クリックして開きます。
 
 1. **[!UICONTROL NEW]** フォルダーをクリックします。
 
@@ -155,7 +137,7 @@ Brand Portal のユーザーは、アセット要件をダウンロードして�
 
 1. アセット（ファイルまたはフォルダー）を参照し、**[!UICONTROL NEW]** フォルダーへとアップロードします。
 
-   ![](assets/upload-new-assets3.png)
+   ![](assets/upload-asset4.png)
 
 すべてのアセットまたはフォルダーを NEW フォルダーにアップロードしたら、投稿フォルダーを Experience Manager Assets に公開します。
 
