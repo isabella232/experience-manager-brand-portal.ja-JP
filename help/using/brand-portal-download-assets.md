@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
-workflow-type: ht
-source-wordcount: '1924'
-ht-degree: 100%
+source-git-commit: 3abf39161febc536f431206c2f098e7d61a10846
+workflow-type: tm+mt
+source-wordcount: '2026'
+ht-degree: 94%
 
 ---
 
@@ -163,7 +163,7 @@ Brand Portal インターフェイスからアセットまたはアセットを�
       >
       >ダウンロードするアセットに、ライセンスが必要なアセットが含まれている場合は、**[!UICONTROL 著作権管理]**&#x200B;ページにリダイレクトされます。このページで、アセットを選択し、「**[!UICONTROL 同意する]**」をクリックし、「**[!UICONTROL ダウンロード]**」をクリックします。「同意しない」を選択した場合は、ライセンスが必要なアセットはダウンロードされません。
       > 
-      >ライセンスで保護されているアセットには、[使用許諾契約が添付](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=ja)されています。この処理は、Experience Manager Assets でアセットの[メタデータプロパティ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=ja)を設定することで行われます。
+      >ライセンスで保護されているアセットには、[使用許諾契約が添付](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=ja)されています。この処理は、Experience Manager Assets でアセットの[メタデータプロパティ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html)を設定することで行われます。
 
 
       ![licensed-asset](assets/licensed-asset-new.png)
@@ -185,6 +185,12 @@ Brand Portal インターフェイスからアセットまたはアセットを�
    ダウンロードボタンは、選択した項目の数を反映しています。ルールの適用が完了したら、「**[!UICONTROL 項目をダウンロード]**」をクリックします。
 
    ![download-dialog](assets/download-dialog-box-new.png)
+
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assetsas a Cloud Service** のみ ) 次の既知の問題は、今後のリリースで修正されます。
+   >
+   >ダウンロードダイアログには、選択したアセットのスマート切り抜きレンディションが一覧表示されますが、ユーザーはスマート切り抜きレンディションをダウンロードできません。
 
 1. デフォルトでは「**[!UICONTROL ダウンロード設定]**」の「**[!UICONTROL 高速ダウンロード]**」設定が有効になっています。したがって、IBM Aspera Connect を使用した高速ダウンロードを許可するための確認ボックスが表示されます。
 
@@ -243,6 +249,14 @@ Brand Portal インターフェイスからアセットまたはアセットを�
    ダウンロードする特定のレンディションを選択し、「**[!UICONTROL 項目をダウンロード]**」をクリックします。
 
    ![レンディションパネル](assets/renditions-panel.png)
+
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assetsas a Cloud Service** のみ ) 次の既知の問題は、今後のリリースで修正されます。
+   >
+   >この **[!UICONTROL レンディション]** 2021 年 12 月 16 日以降にBrand Portalに公開されるアセットの静的レンディションがすべてリストされない。
+   >
+   >この **[!UICONTROL レンディション]** パネルには、アセットのスマート切り抜きレンディションが一覧表示されますが、ユーザーはスマート切り抜きレンディションをプレビューまたはダウンロードできません。
 
 1. デフォルトでは「**[!UICONTROL ダウンロード設定]**」の「**[!UICONTROL 高速ダウンロード]**」設定が有効になっています。したがって、IBM Aspera Connect を使用した高速ダウンロードを許可するための確認ボックスが表示されます。
 
