@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
 source-git-commit: 3845d9fa17e75d59493383303ca0978349ca0401
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1037'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -117,7 +117,7 @@ Experience Manager Assets 管理者は、投稿フォルダーのプロパティ
 
 ## 投稿フォルダーへのアセットのアップロード {#uplad-new-assets-to-contribution-folder}
 
-Experience Manager Assetsユーザーは、一連のベースラインアセットを **共有** フォルダーを使用して、Brand Portalユーザーが必要な情報を取得できるようにします。
+Experience Manager Assets ユーザーは、一連のベースラインアセットを&#x200B;**共有**&#x200B;フォルダーにアップロードして、Brand Portal ユーザーに必要な情報を提供できるようにします。
 
 **ベースラインアセットをアップロードするには：**
 
