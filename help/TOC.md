@@ -8,7 +8,7 @@ breadcrumb-title: Brand Portal ガイド
 user-guide-description: Experience Manager Assets Brand Portal を使用すれば、承認済みのブランドアセットや製品アセットを外部の代理店、パートナー、内部チーム、販売店などへとダウンロードで安全に配布し、マーケティングニーズに応えることができます。
 feature: Brand Portal
 role: User
-source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
+source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 100%
@@ -48,7 +48,7 @@ ht-degree: 100%
    + [Brand Portal でのアセットの検索](using/brand-portal-searching.md)
    + [カスタム検索ファセットの使用](using/brand-portal-search-facets.md)
 + ダウンロード機能の使用 {#download}
-   + [アセットのダウンロード](using/download-assets.md)
+   + [アセットのダウンロード](using/brand-portal-download-assets.md)
    + [Brand Portal でのダイナミックビデオのサポート](using/dynamic-video-brand-portal.md)
    + [Lightbox コレクションの管理](using/brand-portal-light-box.md)
    + [アセットのデジタル著作権の管理](using/manage-digital-rights-of-assets.md)
