@@ -1,8 +1,8 @@
 ---
 title: リリースノート
 seo-title: Release Notes
-description: Adobe Experience Manager Assets Brand Portal 2021.10.0 リリースの機能、機能強化、修正された重要な問題および既知の問題について説明します。
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.10.0 release.
+description: Adobe Experience Manager Assets Brand Portal 2022.02.0 リリースの機能、機能強化、修正された重要な問題および既知の問題について説明します。
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.02.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,29 +10,29 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
-workflow-type: ht
-source-wordcount: '396'
-ht-degree: 100%
+source-git-commit: 853b4f8abf085bdad4f9537aacb23b8c45a083d5
+workflow-type: tm+mt
+source-wordcount: '537'
+ht-degree: 60%
 
 ---
 
 # リリースノート {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 2021.10.0 リリースの新機能、機能強化、修正された重要な問題および既知の問題について説明します。
+Adobe Experience Manager Assets Brand Portal 2022.02.0 リリースの新機能、機能強化、修正された重要な問題および既知の問題について説明します。
 
 ## リリース情報 {#release-information}
 
 | 製品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| バージョン | 2021.10.0 |
-| 日付 | 2021 年 10 月 |
+| バージョン | 2022.02.0 |
+| 日付 | 2022 年 2 月 |
 
 ## 概要 {#overview}
 
 Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。Brand Portal では、アセットの参照、検索、プレビュー、ダウンロードおよび会社で承認された形式での書き出しを、いつでも、どこでも実行できます。
 
-## 2021.10.0 の新機能 {#whats-new-in-2021.10.0}
+## 2022.02.0 の新機能 {#whats-new-in-2022.02.0}
 
 <!--
 ### New Features {#new-features}
@@ -100,11 +100,16 @@ This release includes the following enhancements:
 
 このリリースでは、次の重要な問題が修正されています。
 
-* 投稿フォルダーの同じサイズのアセットが Brand Portal から Experience Manager Assets に公開されません。
-* アセット投稿フォルダーを非公開にしても、投稿フォルダーのサイズが小さくなりません。
-* ユーザーは、適用されたメタデータスキーマプロファイルをフォルダーから削除できません。
-* ユーザー権限ページのグループ数が正しくありません。
-* コレクションページでリスト内の移動に時間がかかりすぎます。
+* ユーザーは、フォルダーを検索、移動、または開くことができません。 ユーザーインターフェイスに次のエラーメッセージが反映されます。 `Failed to load data`.
+* この **[!UICONTROL レンディション]** パネルには、Brand Portalに公開されているアセットのすべての静的レンディションがリストされない。
+* この **[!UICONTROL レンディション]** パネルには、アセットのスマート切り抜きレンディションが一覧表示されますが、ユーザーはスマート切り抜きレンディションをプレビューまたはダウンロードできません。
+* ダウンロードダイアログには、選択したアセットのスマート切り抜きレンディションが一覧表示されますが、ユーザーはスマート切り抜きレンディションをダウンロードできません。
+* 管理者以外のユーザーが、アセットのダウンロード時に元のアセットレンディションのみを取得する。 システムレンディションとカスタムレンディションはダウンロードされません。
+* 検索フィルターを適用してアセットをダウンロードする場合、 `Download` ボタンがダウンロードダイアログで無効になっており、ユーザーはアセットのダウンロードを実行できません。
+* If `Smart Tags` および（または） `Color Tags` が有効な場合は、ダウンロードダイアログに `json` レンディションとしてファイルを作成し、これらをダウンロードします `json` ファイルがアーカイブされた zip フォルダーに保存されています。
+* 匿名ユーザーは、リンクがBrand Portalのログインページにリダイレクトされるので、共有リンクを使用してアセットをダウンロードできません。
+* アクティブな同時使用ユーザー数に対して正しい値が反映されていません。
+
 
 <!--
 * Asset Sourcing email notifications are not delivered for some organizations. 
@@ -139,6 +144,8 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
    ただし、Brand Portal にログインしているアクティブなユーザーは、現在のセッションが期限切れになるまで引き続き作業できます。
 
 * 管理者が Brand Portal から Admin Console に移動する際に、組織を選択するための画面が追加で表示される場合があります。
+
+* If `Color Tags` を有効にし、ユーザーがフォルダーまたはコレクションをダウンロードする場合、 `xml` ファイルが、アーカイブされた zip フォルダー内のフォルダー（またはコレクション）の各アセットに対してダウンロードされます。
 
 
 <!--

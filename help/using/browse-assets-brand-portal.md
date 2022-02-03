@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 3abf39161febc536f431206c2f098e7d61a10846
+source-git-commit: a219adc020d63897b10dca83d9ce31fd3ebf847c
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 91%
+source-wordcount: '1018'
+ht-degree: 97%
 
 ---
 
@@ -256,13 +256,15 @@ Comment Type: draft
 
 ![](assets/renditions.png)
 
+<!-- removed as it is fixed in 2022.02.0 release
 >[!CAUTION]
 >
->(**Experience Manager Assetsas a Cloud Service** のみ ) 次の既知の問題は、今後のリリースで修正されます。
+>(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
 >
->この **[!UICONTROL レンディション]** 2021 年 12 月 16 日以降にBrand Portalに公開されるアセットの静的レンディションがすべてリストされない。
+>The **[!UICONTROL Renditions]** panel does not list all the static renditions of the assets that are published to Brand Portal after December 16, 2021.
 >
->この **[!UICONTROL レンディション]** パネルには、アセットのスマート切り抜きレンディションが一覧表示されますが、ユーザーはスマート切り抜きレンディションをプレビューまたはダウンロードできません。
+>The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
+-->
 
 アセットプロパティページを開くには、上部のバーにある「**[!UICONTROL プロパティ (p)]**」オプションを使用します。
 

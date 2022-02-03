@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 98b6ed1aad82d773f0e6d6866d6b197428d3f3df
+source-git-commit: 7f08db48bb259795860415a0569929eef58f8ca5
 workflow-type: tm+mt
-source-wordcount: '2026'
-ht-degree: 94%
+source-wordcount: '1924'
+ht-degree: 100%
 
 ---
 
@@ -123,6 +123,7 @@ Brand Portal ユーザーは、Brand Portal インターフェイスから複数
 >アセットレンディションにアクセスまたはアセットレンディションをダウンロードする権限がない場合は、Brand Portal 管理者に問い合わせてください。
 
 ユーザーがレンディションにアクセスできる場合は、次の機能を備えた強化版&#x200B;**[!UICONTROL ダウンロード]**&#x200B;ダイアログが提供されます。
+
 * ダウンロードリストで任意のアセットの使用可能なすべてのレンディションを表示する。
 * ダウンロードに必要でないアセットのレンディションを除外する。
 * 1 回のクリックで、同じレンディションセットをすべての類似アセットタイプに適用する。
@@ -186,17 +187,19 @@ Brand Portal インターフェイスからアセットまたはアセットを�
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
-   >[!CAUTION]
-   >
-   >(**Experience Manager Assetsas a Cloud Service** のみ ) 次の既知の問題は、今後のリリースで修正されます。
-   >
-   >ダウンロードダイアログには、選択したアセットのスマート切り抜きレンディションが一覧表示されますが、ユーザーはスマート切り抜きレンディションをダウンロードできません。
-
 1. デフォルトでは「**[!UICONTROL ダウンロード設定]**」の「**[!UICONTROL 高速ダウンロード]**」設定が有効になっています。したがって、IBM Aspera Connect を使用した高速ダウンロードを許可するための確認ボックスが表示されます。
 
    「**[!UICONTROL 高速ダウンロード]**」を引き続き使用するには、「**[!UICONTROL 許可]**」をクリックします。選択したすべてのレンディションが、IBM Aspera Connect を使用して zip フォルダーにダウンロードされます。
 
    IBM Aspera Connect を使用しない場合は、「**[!UICONTROL 拒否]**」をクリックします。「**[!UICONTROL 高速ダウンロード]**」が拒否された場合や失敗した場合は、エラーメッセージが表示されます。「**[!UICONTROL 通常のダウンロード]**」ボタンをクリックして、アセットのダウンロードを続行します。
+
+<!-- removed the known issue from step 2 as it is fixed in 2022.02.0 release.
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** only) The following known issue will be fixed in the upcoming release:
+   >
+   >The download dialog lists the smart crop renditions of the selected asset, however, the user cannot download the smart crop renditions.
+-->
 
 >[!NOTE]
 >
@@ -250,19 +253,22 @@ Brand Portal インターフェイスからアセットまたはアセットを�
 
    ![レンディションパネル](assets/renditions-panel.png)
 
-   >[!CAUTION]
-   >
-   >(**Experience Manager Assetsas a Cloud Service** のみ ) 次の既知の問題は、今後のリリースで修正されます。
-   >
-   >この **[!UICONTROL レンディション]** 2021 年 12 月 16 日以降にBrand Portalに公開されるアセットの静的レンディションがすべてリストされない。
-   >
-   >この **[!UICONTROL レンディション]** パネルには、アセットのスマート切り抜きレンディションが一覧表示されますが、ユーザーはスマート切り抜きレンディションをプレビューまたはダウンロードできません。
 
 1. デフォルトでは「**[!UICONTROL ダウンロード設定]**」の「**[!UICONTROL 高速ダウンロード]**」設定が有効になっています。したがって、IBM Aspera Connect を使用した高速ダウンロードを許可するための確認ボックスが表示されます。
 
    「**[!UICONTROL 高速ダウンロード]**」を引き続き使用するには、「**[!UICONTROL 許可]**」をクリックします。選択したすべてのレンディションが、IBM Aspera Connect を使用して zip フォルダーにダウンロードされます。
 
    「**[!UICONTROL 高速ダウンロード]**」の使用を拒否すると、エラーメッセージが表示されます。「**[!UICONTROL 通常のダウンロード]**」ボタンをクリックして、アセットのダウンロードを続行します。
+
+<!-- removed the known issue from step 3 as it is fixed in 2022.02.0 release.
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
+   >
+   >The **[!UICONTROL Renditions]** panel does not list all the static renditions of the assets that are published to Brand Portal after December 16, 2021.
+   >
+   >The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
+-->
 
 >[!NOTE]
 >
