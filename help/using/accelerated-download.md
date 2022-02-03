@@ -10,8 +10,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: f5b5840897b3975631e072744a01fedb624379ff
-workflow-type: ht
+source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
+workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 100%
 
@@ -90,7 +90,7 @@ Brand Portal より早くアセットをダウンロードするには：
 
    アセットをダウンロードする際に Brand Portal のフォルダー階層を保持するには、「**[!UICONTROL アセットごとに別のフォルダーを作成]**」チェックボックスをオンにします。
 
-   ダウンロードボタンは、選択した項目の数を反映しています。ルールの適用が完了したら、「**[!UICONTROL 項目をダウンロード]**」をクリックします。ルールの適用方法について詳しくは、[アセットのダウンロード](../using/brand-portal-download-assets.md#download-assets)を参照してください。
+   ダウンロードボタンは、選択した項目の数を反映しています。ルールの適用が完了したら、「**[!UICONTROL 項目をダウンロード]**」をクリックします。ルールの適用方法について詳しくは、[アセットのダウンロード](../using/download-assets.md#download-assets)を参照してください。
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
