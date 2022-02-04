@@ -12,7 +12,7 @@ exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
 source-git-commit: a219adc020d63897b10dca83d9ce31fd3ebf847c
 workflow-type: tm+mt
 source-wordcount: '1018'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -252,7 +252,7 @@ Comment Type: draft
 
 ![](assets/asset-overview.png)
 
-アセットの詳細ページでアセットの使用可能なすべてのレンディションを表示し、 **[!UICONTROL レンディション]** パネルを使用してプレビューできます。
+アセットの詳細ページでアセットの利用可能なレンディションをすべて表示し、**[!UICONTROL レンディション]**&#x200B;パネルからレンディションを選択してプレビューできます。
 
 ![](assets/renditions.png)
 
