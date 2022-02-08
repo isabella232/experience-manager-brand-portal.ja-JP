@@ -10,16 +10,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
-workflow-type: ht
-source-wordcount: '1124'
-ht-degree: 100%
+source-git-commit: dc425522f134781b4420eb8643ee6ee65d98b6cc
+workflow-type: tm+mt
+source-wordcount: '1151'
+ht-degree: 96%
 
 ---
 
 # Brand Portal でのアセットの検索 {#search-assets-on-brand-portal}
 
-Brand Portal の検索機能では、オムニサーチや、フィルターを使用して検索をさらに絞り込むことができるファセット検索を使用して、目的のアセットをすばやく検索することができます。検索設定をスマートコレクションとして保存しておき、後で呼び出すこともできます。
+Brand Portal の検索機能では、オムニサーチや、フィルターを使用して検索をさらに絞り込むことができるファセット検索を使用して、目的のアセットをすばやく検索することができます。ファイルレベルまたはフォルダーレベルでアセットを検索し、検索結果をスマートコレクションとして保存できます。 ただし、オムニサーチやファセット検索を使用してコレクションのアセットを検索することはできません。
 
 ## オムニサーチを使用したアセット検索 {#search-assets-using-omnisearch}
 
@@ -113,7 +113,7 @@ Brand Portal 上でアセットを検索するには、次のようにします�
 
 ## 検索設定をスマートコレクションとして保存 {#save-your-searches-as-smart-collection}
 
-検索設定をスマートコレクションとして保存しておくと、同じ検索をすぐに再実行することができ、同じ設定をし直す必要がなくなります。
+検索設定をスマートコレクションとして保存しておくと、同じ検索をすぐに再実行することができ、同じ設定をし直す必要がなくなります。ただし、コレクションに検索フィルターを適用することはできません。
 
 検索設定をスマートコレクションとして保存するには、次のようにします。
 
