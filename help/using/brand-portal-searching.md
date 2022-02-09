@@ -10,16 +10,22 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: dc425522f134781b4420eb8643ee6ee65d98b6cc
+source-git-commit: 100b0945c04a21a7bf6810c9ae0fee750809ebdb
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 96%
+source-wordcount: '1225'
+ht-degree: 90%
 
 ---
 
 # Brand Portal でのアセットの検索 {#search-assets-on-brand-portal}
 
-Brand Portal の検索機能では、オムニサーチや、フィルターを使用して検索をさらに絞り込むことができるファセット検索を使用して、目的のアセットをすばやく検索することができます。ファイルレベルまたはフォルダーレベルでアセットを検索し、検索結果をスマートコレクションとして保存できます。 ただし、オムニサーチやファセット検索を使用してコレクションのアセットを検索することはできません。
+Brand Portal の検索機能では、オムニサーチや、フィルターを使用して検索をさらに絞り込むことができるファセット検索を使用して、目的のアセットをすばやく検索することができます。ファイルレベルまたはフォルダーレベルでアセットを検索し、検索結果をスマートコレクションとして保存できます。
+
+>[!NOTE]
+>
+>Brand Portalは、オムニサーチを使用したコレクション検索をサポートしていません。
+>
+>ただし、 [検索フィルターを使用して、関連するコレクションのリストを取得する](#search-collection).
 
 ## オムニサーチを使用したアセット検索 {#search-assets-using-omnisearch}
 
@@ -134,3 +140,12 @@ Brand Portal 上でアセットを検索するには、次のようにします�
 1. **[!UICONTROL スマートコレクションを編集]**&#x200B;ダイアログボックスで、「**[!UICONTROL 名前を付けて保存]**」を選択し、スマートコレクションの名前を入力します。「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/saveas_smartsearch.png)
+
+
+## コレクションを検索 {#search-collection}
+
+コレクションでは、オムニサーチはサポートされていません。 ただし、検索フィルターを適用して、 [!UICONTROL コレクション] インターフェイス。
+
+次の [!UICONTROL コレクション] インターフェイスの左側のパネルでフィルターパネルを開くには、オーバーレイアイコンをクリックします。 使用可能なフィルター (`modified date`, `access type`、および `tags`) をクリックします。 適用されたフィルターに基づいて、最も関連性の高いコレクションのセットがリストされます。
+
+![](assets/collection-search.png)
