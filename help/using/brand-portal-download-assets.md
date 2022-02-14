@@ -1,7 +1,7 @@
 ---
 title: アセットのダウンロード
 seo-title: Download assets
-description: すべてのユーザーが、アクセス可能なアセットやフォルダーを同時にダウンロードできます。 これにより、承認されたブランドアセットを安全に配布して、オフラインで使用できます。
+description: すべてのユーザーが、アクセス可能なアセットやフォルダーを同時にダウンロードできます。これにより、承認されたブランドアセットを安全に配布して、オフラインで使用できます。
 seo-description: All users can simultaneously download assets and folders accessible to them. This way, approved brand assets can be securely distributed for offline use.
 uuid: 4b57118e-a76e-4d8a-992a-cb3c3097bc03
 content-type: reference
@@ -11,15 +11,15 @@ topic-tags: download, download-install, download assets
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
 source-git-commit: fe6677df928a4125185051d80ae3055afb479369
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1921'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # アセットのダウンロード {#download-assets-from-bp}
 
-Adobe Experience Manager Assets Brand Portalでは、Brand Portalからアクセス可能なアセットやフォルダーを同時にダウンロードできるので、ダウンロードエクスペリエンスが強化されます。 これにより、承認されたブランドアセットを安全に配布して、オフラインで使用できます。Brand Portalからアセット（承認済みアセット）をダウンロードする方法と、 [ダウンロードパフォーマンス](#expected-download-performance).
+Adobe Experience Manager Assets Brand Portal では、ダウンロードエクスペリエンスが強化されており、アクセス可能な複数のアセットやフォルダーをユーザーが Brand Portal から同時にダウンロードできます。これにより、承認されたブランドアセットを安全に配布して、オフラインで使用できます。以下では、Brand Portal からアセット（承認済みアセット）をダウンロードする方法や、期待される[ダウンロードパフォーマンス](#expected-download-performance)などについて説明します。
 
 
 >[!NOTE]
@@ -34,7 +34,7 @@ Brand Portal 管理者は、Brand Portal ユーザーのアセットダウンロ
 
 >[!NOTE]
 >
->ユーザーインターフェイスで適用されたダウンロード設定を使用すると、Brand Portalのユーザーは、アセットレンディションを簡単に設定およびダウンロードできるセルフサービスエクスペリエンスを容易におこなえます。 アプリケーションレイヤーでのアセットのダウンロードは制限されません。例えば、ユーザーは、完全な URL パスを使用して、アセットレンディションにアクセスし、ダウンロードできます。
+>ユーザーインターフェイスで適用されたダウンロード設定を使用すると、Brand Portal ユーザーに対するセルフサービスエクスペリエンスがスムーズになり、アセットレンディションを容易に設定およびダウンロードできるようになります。アプリケーションレイヤーでのアセットのダウンロードは制限されません。例えば、完全な URL パスを使用してアセットレンディションにアクセスしたり、アセットレンディションをダウンロードしたりすることが引き続き可能です。
 
 Brand Portal インターフェイスからのアセットレンディションへのアクセスとアセットレンディションのダウンロードは、次の設定で定義されます。
 
@@ -70,7 +70,7 @@ Brand Portal インターフェイスからのアセットレンディション�
 
 Brand Portal テナントに管理者としてログインし、**[!UICONTROL ツール]**／**[!UICONTROL ダウンロード]**&#x200B;に移動します。
 
-管理者は、Brand Portalユーザーがアセットレンディションにアクセスしてダウンロードするための設定を、任意の組み合わせで有効にすることができます。
+管理者は、Brand Portal ユーザーがレンディションにアクセスしてダウンロードするための設定を任意に組み合わせることができます。
 
 ![](assets/download-settings-new.png)
 
@@ -160,7 +160,7 @@ Brand Portal インターフェイスからアセットまたはアセットを�
       >
       >ダウンロードするアセットに、ライセンスが必要なアセットが含まれている場合は、**[!UICONTROL 著作権管理]**&#x200B;ページにリダイレクトされます。このページで、アセットを選択し、「**[!UICONTROL 同意する]**」をクリックし、「**[!UICONTROL ダウンロード]**」をクリックします。「同意しない」を選択した場合は、ライセンスが必要なアセットはダウンロードされません。
       > 
-      >ライセンスで保護されているアセットには、[使用許諾契約が添付](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=ja)されています。この処理は、Experience Manager Assets でアセットの[メタデータプロパティ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html)を設定することで行われます。
+      >ライセンスで保護されているアセットには、[使用許諾契約が添付](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=ja)されています。この処理は、Experience Manager Assets でアセットの[メタデータプロパティ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=ja)を設定することで行われます。
 
 
       ![licensed-asset](assets/licensed-asset-new.png)
@@ -233,7 +233,7 @@ Brand Portal インターフェイスからアセットまたはアセットを�
 
 ダウンロードワークフローに加えて、個々のアセットのレンディションをアセットの詳細ページから直接ダウンロードする方法もあります。
 
-ユーザーは、様々なアセットレンディションをプレビューし、特定のレンディションを選択し、 **[!UICONTROL レンディション]** パネルを開かなくてもアセットの詳細ページに表示される **[!UICONTROL ダウンロード]** ダイアログ。
+ユーザーは、**[!UICONTROL ダウンロード]**&#x200B;ダイアログを開かなくても、アセットの詳細ページの&#x200B;**[!UICONTROL レンディション]**&#x200B;パネルから様々なアセットレンディションをプレビューし、特定のレンディションを選択して、アセットレンディションを直接ダウンロードすることができます。
 
 
 アセットの詳細ページからアセットレンディションをダウンロードする手順は、次のとおりです。
