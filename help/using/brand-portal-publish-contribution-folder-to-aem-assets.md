@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 3845d9fa17e75d59493383303ca0978349ca0401
-workflow-type: ht
-source-wordcount: '1027'
-ht-degree: 100%
+source-git-commit: 7046f6523a2aa38ef2d4c7edf266953953543ae0
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 98%
 
 ---
 
@@ -70,7 +70,7 @@ Brand Portal ユーザーは、アセット要件を確認した後、投稿用�
 
 >[!NOTE]
 >
->Brand Portal ユーザーは、アセットを NEW フォルダーにのみアップロードできます。
+>Brand Portalのユーザーは、アセットをアップロードできます ( 最大 **2** NEW フォルダーに保存します。
 >
 >Brand Portal テナントの最大アップロード数は **10** GBです。これは累積的にすべての投稿フォルダーに適用されます。
 >
