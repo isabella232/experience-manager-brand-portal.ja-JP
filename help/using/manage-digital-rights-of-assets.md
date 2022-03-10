@@ -12,9 +12,9 @@ discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
 source-git-commit: d1487434b10b01eaf55f34672267490fd8fd907e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '907'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -75,22 +75,22 @@ Brand Portal では、管理者は期限切れアセットを表示したり、�
 
 ライセンスで保護されたアセットを Brand Portal からダウンロードするときは、事前に使用許諾契約への同意が求められます。ライセンスで保護されたアセットの使用許諾契約は、アセットを Brand Portal から直接ダウンロードまたは共有リンクを介してダウンロードするときに表示されます。ライセンスで保護されたアセットは、期限切れの場合も期限切れでない場合も、すべてのユーザーが見ることができます。しかし、ライセンスで保護された期限切れアセットのダウンロードと使用には制限が適用されます。ライセンスで保護された期限切れアセットの動作と、ユーザーの役割に基づいて許可される活動については、[期限切れアセットの使用権限](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets)を参照してください。
 
-ライセンスで保護されたアセットには [添付されたライセンス契約](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=ja) これらに割り当てます。それには、 [!DNL Experience Manager Assets].
+ライセンスで保護されているアセットには、[使用許諾契約が添付](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=ja)されています。この処理は、[!DNL Experience Manager Assets] のメタデータプロパティを設定することで行われます。
 
 アセットに次のいずれかまたは両方のメタデータプロパティが含まれている場合、アセットは保護されていると見なされます。
 
-* `xmpRights:WebStatement`:このプロパティは、そのアセットの使用許諾契約書を含むページのパスを指します。 `xmpRights:WebStatement` は、リポジトリ内の有効なパスである必要があります。
-* `adobe_dam:restrictions`:このプロパティの値は、使用許諾契約を指定する生HTMLです。
+* `xmpRights:WebStatement`：このプロパティが、そのアセットの使用許諾契約書を含むページのパスを指している。`xmpRights:WebStatement` は、リポジトリ内の有効なパスである必要があります。
+* `adobe_dam:restrictions`：このプロパティの値が、使用許諾契約書を指定する変換前の HTML である。
 
 
-ライセンスで保護されたアセットをダウンロードする場合は、 **[!UICONTROL 著作権管理]** ページを指定できます。
+ライセンスで保護されたアセットをダウンロードする場合は、メタデータプロパティに応じて&#x200B;**[!UICONTROL 著作権管理]**&#x200B;ページを指定できます。
 
 | `adobe_dam:restrictions` | `xmpRights:WebStatement` | 著作権管理 |
 | --- | --- | --- |
-| はい | - | このインターフェイスは、Assets とBrand Portalの両方に表示されます |
+| はい | - | このインターフェイスは、Assets と Brand Portal の両方に表示されます |
 | - | はい（無効なパス） | インターフェイスなし |
 | はい | はい（無効なパス） | インターフェイスなし |
-| はい | はい（有効なパス） | このインターフェイスは Assets またはBrand Portalに表示されます </br> パスが Assets とBrand Portal（またはその両方）のどちらに対して有効かに応じて異なります。 |
+| はい | はい（有効なパス） | このインターフェイスは、パスが Assets と Brand Portal のどちらに対して有効か（または両方に有効か）に応じて Assets または Brand Portal </br> に表示されます。 |
 
 ![](assets/asset-copyright-mgmt.png)
 
