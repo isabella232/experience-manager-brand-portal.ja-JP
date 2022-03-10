@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
 source-git-commit: 7046f6523a2aa38ef2d4c7edf266953953543ae0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1032'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -66,13 +66,13 @@ Brand Portal ユーザーは、アセット要件をダウンロードするた�
 
 ## 投稿フォルダーへのアセットのアップロード {#uplad-new-assets-to-contribution-folder}
 
-Brand Portal ユーザーは、アセット要件を確認した後、投稿用の新しいアセットを作成して投稿フォルダー内の NEW フォルダーにアップロードできます。
+Brand Portal ユーザーは、アセット要件を確認した後、投稿用の新しいアセットを作成して、投稿フォルダー内の新規フォルダーにアップロードできます。
 
 >[!NOTE]
 >
->Brand Portalのユーザーは、アセットをアップロードできます ( 最大 **2** NEW フォルダーに保存します。
+>Brand Portal ユーザーはアセットを新規フォルダーをアップロードできます（ファイルサイズごとに最大 **2** GB）。
 >
->Brand Portal テナントの最大アップロード数は **10** GBです。これは累積的にすべての投稿フォルダーに適用されます。
+>Brand Portal テナントのアップロード上限は **10** GBです。これは累積的にすべての投稿フォルダーに適用されます。
 >
 >Brand Portal にアップロードされたアセットは、レンディション用に処理されず、プレビューを含んでいません。
 
