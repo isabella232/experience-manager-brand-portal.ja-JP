@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
-workflow-type: ht
-source-wordcount: '6316'
-ht-degree: 100%
+source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
+workflow-type: tm+mt
+source-wordcount: '6325'
+ht-degree: 97%
 
 ---
 
@@ -203,7 +203,7 @@ If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Renditio
 * アセットごとに別のフォルダーを作成する。
 * 選択したアセットとレンディションをダウンロードする。
 
-ダウンロードワークフローは、スタンドアロンのアセット、複数のアセット、アセットを含むフォルダー、ライセンス取得済みアセットまたはライセンスを取得していないアセット、「リンクを共有」を使用してダウンロードするアセットに対して一定に保たれます。[Brand Portal からアセットをダウンロードする手順](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=ja)を参照してください。
+ダウンロードワークフローは、スタンドアロンのアセット、複数のアセット、アセットを含むフォルダー、ライセンス取得済みアセットまたはライセンスを取得していないアセット、「リンクを共有」を使用してダウンロードするアセットに対して一定に保たれます。[Brand Portal からアセットをダウンロードする手順](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html)を参照してください。
 
 ![download-dialog](assets/download-dialog-box.png)
 
@@ -253,7 +253,7 @@ Brand Portal テナントに管理者としてログインし、**[!UICONTROL �
 * 「**[!UICONTROL オリジナルをダウンロード]**」設定のみがオンになっている場合、ユーザーはアセットの詳細ページからオリジナルのアセットのみを表示およびダウンロードできます。
 * 「**[!UICONTROL レンディションをダウンロード]**」設定のみが有効になっている場合、ユーザーは元のアセットを表示できますが、ダウンロードすることはできません。ただし、ユーザーはアセットのレンディションを表示およびダウンロードできます。
 
-詳しくは、[アセットのダウンロード設定](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=ja#configure-download-permissions)を参照してください。
+詳しくは、[アセットのダウンロード設定](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions)を参照してください。
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -351,7 +351,7 @@ AEM Assets と Brand Portal の連携を設定する手順は、AEM のバージ
 
 | **AEM のバージョン** | **新しい設定** | **設定のアップグレード** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [設定の作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=ja) | - |
+| **AEM Assets as a Cloud Service** | [設定の作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
 | **AEM 6.5（6.5.4.0 以降）** | [設定の作成](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=ja) | [設定のアップグレード](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=ja#upgrade-integration-65) |
 | **AEM 6.4（6.4.8.0 以降）** | [設定の作成](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=ja) | [設定のアップグレード](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=ja#upgrade-integration-64) |
 | **AEM 6.3（6.3.3.8 以降）** | [設定の作成](https://helpx.adobe.com/jp/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [設定のアップグレード](https://helpx.adobe.com/jp/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
@@ -389,7 +389,10 @@ Brand Portal 6.4.5 は機能リリースで、オーサー環境にアクセス�
 
 ### 投稿フォルダーへのアセットのアップロード {#upload-assets-in-bp}
 
-適切な権限を持つ Brand Portal ユーザーは、投稿のニーズを理解するためにアセット要件をダウンロードしたり、複数のアセットや、複数のアセットを含むフォルダーを投稿フォルダーにアップロードしたりできます。ただし、Brand Portal ユーザーは **NEW** サブフォルダーにのみアセットをアップロードできます。**SHARED** フォルダーは、要件とベースラインアセットを配布するためのものです。
+適切な権限を持つBrand Portalユーザーは、複数のアセットを含む個々のアセットまたはフォルダー（.zip ファイル）を投稿フォルダーにアップロードできます。 ユーザーは、複数のアセットをアセット投稿フォルダーにアップロードできます。 ただし、一度に作成できるフォルダーは 1 つだけです。
+
+Brand Portalユーザーは、 **新規** サブフォルダー。 **SHARED** フォルダーは、要件とベースラインアセットを配布するためのものです。
+
 
 ![](assets/upload-asset6.png)
 
@@ -426,25 +429,25 @@ Brand Portal 6.4.4 以降では、フィルタリングウィンドウのプロ�
 
 #### ワイルドカード検索 {#wildcard-search}
 
-Brand Portal では、検索クエリに、検索対象フレーズの単語の一部とアスタリスク（*）を使用できます。
+Brand Portalでは、アスタリスク (&#42;) を検索クエリ内で使用し、検索対象フレーズ内の単語の一部を指定します。
 
 **使用例。検索対象フレーズに出現する正確な単語が不明な場合は、ワイルドカード検索を使用して検索クエリを補完できます。
 
-例えば、Brand Portal の検索フォームで、「プロパティの述語」を使用してアセットのタイトルの部分検索を行う場合に、「**climb***」と指定すると、「**climb**」で始まる単語がタイトルフレーズで使用されているアセットがすべて返されます。
+例： **登る&#42;** 文字で始まる単語を含むすべてのアセットを返します **登る** Brand Portalの検索フォームで、アセットのタイトルの部分検索に「プロパティの述語」が使用されている場合のタイトルフレーズ。
 
 ![](assets/wildcard-prop.png)
 
 さらに、以下のような指定ができます。
 
-* 「**\*climb**」と指定すると、「**climb**」で終わる単語がタイトルフレーズで使用されているアセットがすべて返されます。
+* **&#42;登る** は、文字で終わる単語を含むすべてのアセットを返します **登る** という名前を付けます。
 
-* 「**\*climb\***」と指定すると、「**climb**」という部分文字列を含んだ単語がタイトルフレーズで使用されているアセットがすべて返されます。
+* **&#42;登る&#42;** 次の文字を含む単語を持つすべてのアセットを返します **登る** という名前を付けます。
 
 >[!NOTE]
 >
 >「**部分検索**」チェックボックスを選択すると、デフォルトで「**大文字と小文字を区別しない**」がオンになります。
 
-[![&#128279;](assets/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
+[! [](assets/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
 ## 6.4.3 の変更点 {#what-changed-in}
 
@@ -471,7 +474,7 @@ Brand Portal 6.4.3 リリースでは、様々な機能が強化されていま�
 
 ![](assets/hierarchy1-nonadmin-2.png)
 
-[![&#128279;](assets/see-the-guide.png)](../using/brand-portal-general-configuration.md)
+[! [](assets/see-the-guide.png)](../using/brand-portal-general-configuration.md)
 
 ### 特定のフォルダー階層またはパス内での検索
 
@@ -491,7 +494,7 @@ Brand Portal 6.4.3 リリースでは、様々な機能が強化されていま�
 
 ![](assets/filter-panel.png)
 
-[![&#128279;](assets/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
+[! [](assets/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
 ### Dynamic Media ビデオレンディションのサポート
 
@@ -513,7 +516,7 @@ Dynamic Media ビデオエンコードは以下の場所からダウンロード
 
 ![](assets/edit-dynamic-media-config.png)
 
-[![&#128279;](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[! [](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Brand Portal への公開のスケジュール設定
 
@@ -525,7 +528,7 @@ Dynamic Media ビデオエンコードは以下の場所からダウンロード
 
 ![](assets/publishlater-workflow.png)
 
-[![&#128279;](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[! [](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### URL 中の設定可能なテナントエイリアス
 
@@ -534,11 +537,11 @@ Dynamic Media ビデオエンコードは以下の場所からダウンロード
 カスタマイズできるのは Brand Portal URL のプレフィックスのみであり、URL 全体ではありません。\
 例えば、**geomettrix.brand-portal.adobe.com** という既存ドメインを持つ組織は、アドビに依頼することで **geomettrixinc.brand-portal.adobe.com** という URL を作成できます。
 
-ただし、AEM オーサーインスタンスを[設定](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=ja)する際にはテナント ID URL のみを使用できます。テナントエイリアス（代替）URL は使用できません。
+ただし、AEM オーサーインスタンスを[設定](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html)する際にはテナント ID URL のみを使用できます。テナントエイリアス（代替）URL は使用できません。
 
 アドビから提供された URL をそのまま使用するのではなく、カスタマイズされたポータル URL を取得して、ブランドのニーズを満たすことができます。
 
-[![&#128279;](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[! [](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### ダウンロードエクスペリエンスの強化
 
@@ -635,7 +638,7 @@ Brand Portal には、選択したアセット／フォルダーのアセット�
 
 ### Adobe I/O UI による OAuth 統合の設定
 
-Brand Portal 6.4.2 以降では、従来の OAuth （`https://legacy-oauth.cloud.adobe.io/`）インターフェイスを使用して JWT アプリケーションを作成しています。このアプリケーションでは、AEM Assets と Brand Portal の統合を許可するように OAuth 統合を設定できます。OAuth 統合を設定するための UI は、以前、`https://marketing.adobe.com/developer/` / でホストされていました。Brand Portal にアセットとコレクションを公開するための、AEM Assets と Brand Portal の統合について詳しくは、[AEM Assets と Brand Portal の統合の設定](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=ja)を参照してください。
+Brand Portal 6.4.2 以降では、従来の OAuth （`https://legacy-oauth.cloud.adobe.io/`）インターフェイスを使用して JWT アプリケーションを作成しています。このアプリケーションでは、AEM Assets と Brand Portal の統合を許可するように OAuth 統合を設定できます。OAuth 統合を設定するための UI は、以前、`https://marketing.adobe.com/developer/` / でホストされていました。Brand Portal にアセットとコレクションを公開するための、AEM Assets と Brand Portal の統合について詳しくは、[AEM Assets と Brand Portal の統合の設定](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html)を参照してください。
 
 ## 検索の機能強化
 
@@ -710,7 +713,6 @@ Brand Portal 6.4.1 はプラットフォームのアップグレードリリー�
 ![](assets/navigatereport.png)
 
 **使用状況レポートへのアクセスエントリポイントの変更**
-
 使用状況レポートは他のレポートと統合され、アセットレポートコンソールから表示できるようになりました。アセットレポートコンソールにアクセスするには、管理ツールパネルから、**レポートを作成／管理**&#x200B;を選択します。
 
 ![](assets/accessassetreport.png)
