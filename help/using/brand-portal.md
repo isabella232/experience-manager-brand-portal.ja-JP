@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
+source-git-commit: 72a303082c1456b98143f740c228c73926f2fb3e
 workflow-type: tm+mt
-source-wordcount: '1528'
-ht-degree: 100%
+source-wordcount: '1558'
+ht-degree: 97%
 
 ---
 
@@ -113,7 +113,11 @@ Brand Portal の標準ユーザーは一般的に、閲覧者の役割を持ち�
 
 管理者には、[!UICONTROL Admin Console] でシステム管理者または Brand Portal 製品管理者としてマーキングされているユーザーが含まれます。管理者は、システム管理者とユーザーを追加／削除したり、プリセットを定義したりできます。また、ユーザーに電子メールを送信したり、ポータルの使用状況とストレージに関するレポートを表示したりできます。
 
-管理者は、編集者が実行できるすべてのタスクに加えて、次のタスクを実行できます。
+>[!NOTE]
+>
+>Brand Portalで、 [!UICONTROL Admin Console] は、システム管理者と同じ権限を持っています。
+
+管理者は、編集者が実行できるすべてのタスクを実行できます。 管理者が実行できる追加タスクを次に示します。
 
 * [ユーザー、グループ、ユーザーの役割の管理](brand-portal-adding-users.md)
 
