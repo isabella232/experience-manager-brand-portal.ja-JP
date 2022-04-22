@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 72a303082c1456b98143f740c228c73926f2fb3e
+source-git-commit: af697978ce140a618fda59cec050dfaedb0c296b
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 97%
+source-wordcount: '1585'
+ht-degree: 91%
 
 ---
 
@@ -73,9 +73,9 @@ Brand Portal では次のユーザー役割をサポートしています。
 >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
 -->
 
-### ゲストユーザー {#guest-user}
+### ゲストユーザー（Light ユーザー） {#guest-user}
 
-認証なしで Brand Portal 上のアセットに対する制限付きのアクセス権を持つユーザーはすべてゲストユーザーです。ゲストセッションは、ユーザーに対し、公開フォルダーおよび公開コレクションへのアクセスを許可します。ゲストユーザーは、アセットの詳細を参照したり、公開フォルダーおよび公開コレクションのメンバーのアセットの完全なアセット表示を行ったりできます。公開アセットを検索、ダウンロード、および [!UICONTROL Lightbox] コレクションに追加できます。
+Experience Manager Assets Brand Portal許可 [ゲストアクセス](#request-access-to-brand-portal) Brand Portal ゲストユーザーは資格情報がなくてもポータルに入ることができ、公開フォルダーおよび公開コレクションにアクセスできます。 ゲストユーザーは、アセットの詳細を参照したり、公開フォルダーおよび公開コレクションのメンバーのアセットの完全なアセット表示を行ったりできます。公開アセットを検索、ダウンロード、および [!UICONTROL Lightbox] コレクションに追加できます。
 
 ただし、ゲストセッションでは、コレクションや保存済みの検索結果を作成したり、それらを共有したりすることはできません。ゲストセッション中のユーザーはフォルダーやコレクションの設定にアクセスしたり、アセットをリンクとして共有したりすることはできません。次に、ゲストユーザーが実行できるタスクの一覧を示します。
 
@@ -87,9 +87,11 @@ Brand Portal では次のユーザー役割をサポートしています。
 
 * [[!UICONTROL Lightbox] へのアセットの追加](brand-portal-light-box.md#add-assets-to-lightbox)
 
-### 閲覧者 {#viewer}
+詳しくは、 [Brand Portalへのゲストによるアクセス](../using/guest-access.md).
 
-Brand Portal の標準ユーザーは一般的に、閲覧者の役割を持ちます。この役割を持つユーザーは、承認されたフォルダー、コレクションおよびアセットにアクセスできます。また、アセット（元のアセットまたは特定のレンディション）を参照、プレビュー、ダウンロードおよび書き出したり、アカウント設定を指定したり、アセットを検索したりすることもできます。次に、閲覧者が実行できるタスクの一覧を示します。
+### ビューア（標準ユーザー） {#viewer}
+
+標準ユーザーとは、 [!DNL Admin Console] このユーザーは、閲覧者の役割を持つBrand Portalにアクセスできます。 この役割を持つユーザーは、Brand Portalにログインし、許可されたフォルダー、コレクション、アセットにアクセスできます。 また、アセット（元のアセットまたは特定のレンディション）を参照、プレビュー、ダウンロードおよび書き出したり、アカウント設定を指定したり、アセットを検索したりすることもできます。次に、閲覧者が実行できるタスクの一覧を示します。
 
 * [アセットの参照](browse-assets-brand-portal.md)
 
