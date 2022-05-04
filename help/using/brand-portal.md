@@ -12,7 +12,7 @@ exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
 source-git-commit: af697978ce140a618fda59cec050dfaedb0c296b
 workflow-type: tm+mt
 source-wordcount: '1585'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -117,9 +117,9 @@ Experience Manager Assets Brand Portal許可 [ゲストアクセス](#request-ac
 
 >[!NOTE]
 >
->Brand Portalで、 [!UICONTROL Admin Console] は、システム管理者と同じ権限を持っています。
+>Brand Portal では、[!UICONTROL Admin Console] でのサポート管理者の役割とマークが付けられているユーザーは、システム管理者と同じ権限を持っています。
 
-管理者は、編集者が実行できるすべてのタスクを実行できます。 管理者が実行できる追加タスクを次に示します。
+管理者は、編集者が実行可能なすべてのタスクを実行できます。管理者が実行できるその他のタスクを次に示します。
 
 * [ユーザー、グループ、ユーザーの役割の管理](brand-portal-adding-users.md)
 
