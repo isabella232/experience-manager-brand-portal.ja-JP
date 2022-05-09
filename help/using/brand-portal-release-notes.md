@@ -1,38 +1,38 @@
 ---
 title: リリースノート
 seo-title: Release Notes
-description: Adobe Experience Manager Assets Brand Portal 2022.02.0 リリースの機能、機能強化、修正された重大な問題および既知の問題について説明します。
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.02.0 release.
+description: Adobe Experience Manager Assets Brand Portal 2022.05.0 リリースの機能、機能強化、修正された重大な問題および既知の問題について説明します。
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.05.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
-contentOwner: Vishabh Gupta
+contentOwner: Anuj Kapoor
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
-workflow-type: ht
-source-wordcount: '537'
-ht-degree: 100%
+source-git-commit: 5ca00738be59632ffcd481c2d007f869b561b9db
+workflow-type: tm+mt
+source-wordcount: '445'
+ht-degree: 60%
 
 ---
 
 # リリースノート {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 2022.02.0 リリースの新機能、機能強化、修正された重大な問題および既知の問題について説明します。
+Adobe Experience Manager Assets Brand Portal 2022.05.0 リリースの新機能、機能強化、修正された重大な問題および既知の問題について説明します。
 
 ## リリース情報 {#release-information}
 
 | 製品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| バージョン | 2022.02.0 |
-| 日付 | 2022年2月 |
+| バージョン | 2022.05.0 |
+| 日付 | 2022 年 5 月 |
 
 ## 概要 {#overview}
 
 Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。Brand Portal では、アセットの参照、検索、プレビュー、ダウンロードおよび会社で承認された形式での書き出しを、いつでも、どこでも実行できます。
 
-## 2022.02.0 の新機能 {#whats-new-in-2022.02.0}
+## 2022.05.0 の新機能 {#whats-new-in-2022.05.0}
 
 <!--
 ### New Features {#new-features}
@@ -93,22 +93,38 @@ This release includes the following enhancements:
 <!--
 * The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
 * The additional **[!UICONTROL View pages]** option has been removed for multi-page PDFs as the user can now view the PDF pages from the Adobe Document Cloud Viewer.
+
+* The users are unable to search, navigate, or open folders. The user interface reflects the error message: `Failed to load data`. 
+* The **[!UICONTROL Renditions]** panel does not list all the static renditions of the assets that are published to Brand Portal.
+* The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
+* The download dialog lists the smart crop renditions of the selected asset, however, the user cannot download the smart crop renditions. 
+* A non-admin user is getting only the original asset rendition when downloading an asset. The system and custom renditions are not downloaded.  
+* When applying search filter to download an asset, the `Download` button is disabled in the download dialog and does not allows the user to download the asset.
+* If `Smart Tags` and (or) `Color Tags` are enabled, the download dialog lists the `json` files as renditions and downloads these `json` files in the archived zip folder.
+* The anonymous users are unable to download assets using a shared link because the link redirects to the Brand Portal login page. 
+* The system is not reflecting the correct value for the number of active concurrent users.
 -->
+
+### 新機能 {#new-features}
+
+Brand Portalでは、12 時間ごとに自動ジョブを実行して、AEMに公開されているすべてのBrand Portalアセットを削除するようになりました。 その結果、投稿フォルダー内のアセットを手動で削除して、フォルダーサイズをしきい値の下限に抑える必要がなくなりました。 詳しくは、 [Experience Manager Assets Brand Portalの新機能](whats-new.md).
 
 
 ### 修正された重要な問題 {#critical-issues-fixed}
 
 このリリースでは、次の重要な問題が修正されています。
 
-* ユーザーがフォルダーを検索、移動または開くことができません。「`Failed to load data`」というエラーメッセージがユーザーインターフェイスに表示されます。
-* Brand Portal に公開されているアセットの静的レンディションの一部が&#x200B;**[!UICONTROL レンディション]**&#x200B;パネルに一覧表示されません。
-* **[!UICONTROL レンディション]**&#x200B;パネルには、アセットのスマート切り抜きレンディションが一覧表示されますが、ユーザーがスマート切り抜きレンディションをプレビューまたはダウンロードできません。
-* ダウンロードダイアログには、選択したアセットのスマート切り抜きレンディションが一覧表示されますが、ユーザーがスマート切り抜きレンディションをダウンロードできません。
-* 管理者以外のユーザーは、アセットのダウンロード時に元のアセットレンディションのみ取得します。システムレンディションとカスタムレンディションはダウンロードされません。
-* 検索フィルターを適用してアセットをダウンロードする際に、ダウンロードダイアログで「`Download`」ボタンが無効になっているので、ユーザーがアセットをダウンロードできません。
-* `Smart Tags` および（または）`Color Tags` が有効な場合、ダウンロードダイアログに `json` ファイルがレンディションとして一覧表示され、アーカイブされた zip フォルダーにこれらの `json` ファイルがダウンロードされます。
-* 共有リンクが Brand Portal のログインページにリダイレクトされるので、匿名ユーザーが共有リンクを使用してアセットをダウンロードできません。
-* アクティブな同時使用ユーザー数の正しい値がシステムに表示されません。
+* カラータグが付いたアセットを含むフォルダーまたはコレクションをダウンロードすると、XML ファイルもダウンロードされます。
+
+* レンディションを含むビデオをダウンロードすると、Brand Portalは無効な.ZIP ファイルを作成します。
+
+* AEMのオーサー環境でプリセットとアセットを作成し、Brand Portalに公開して、アセットのダウンロード中に動的レンディションを選択した場合は、ダウンロードしたを抽出できません。 ZIP ファイル。
+
+* Brand Portalで使用可能な特定のフォルダーからビデオアセットをダウンロードする際に問題が発生します。
+
+* 電子メールを使用して投稿フォルダーの URL を共有すると、閲覧者と編集者の役割は、パンくずリストを使用して親フォルダーにアクセスする際に問題を抱えます。
+
+* ソーシングの公開済みレポートに、正しくないジョブの開始時間が表示される。
 
 
 <!--
@@ -139,13 +155,7 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 このリリースには、次の既知の問題が含まれています。
 
-* ユーザーは、既存の組織の移行中に Brand Portal にログインできません。
-
-   ただし、Brand Portal にログインしているアクティブなユーザーは、現在のセッションが期限切れになるまで引き続き作業できます。
-
-* 管理者が Brand Portal から Admin Console に移動する際に、組織を選択するための画面が追加で表示される場合があります。
-
-* `Color Tags` が有効になっていて、ユーザーがフォルダーまたはコレクションをダウンロードする場合、アーカイブされた zip フォルダー内のフォルダー（またはコレクション）のアセットごとに追加の `xml` ファイルがダウンロードされます。
+* アセットソーシングレポートのコンテンツの部分的なローカリゼーション
 
 
 <!--
@@ -204,7 +214,7 @@ Brand Portal ユーザーインターフェイスは次の言語で使用でき�
 * フランス語
 * スペイン語
 * イタリア語
-* ブラジル語ポルトガル語
+* ポルトガル語（ブラジル）
 * 日本語
 * 簡体字中国語
 * 韓国語

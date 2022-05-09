@@ -1,8 +1,8 @@
 ---
 title: Adobe Experience Manager Assets Brand Portal の新機能
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: 2022.02.0 の新機能と機能強化
-seo-description: What are the new features and enhancements for 2022.02.0
+description: 2022.05.0 の新機能と機能強化
+seo-description: What are the new features and enhancements for 2022.05.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,16 +10,35 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
+source-git-commit: feaf10256c2dfb97d53d665edfb4b4de0e824fea
 workflow-type: tm+mt
-source-wordcount: '6325'
-ht-degree: 97%
+source-wordcount: '6482'
+ht-degree: 95%
 
 ---
 
 # Adobe Experience Manager Assets Brand Portal の新機能 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。アドビは Brand Portal の全体的なエクスペリエンスの強化に取り組んでいます。以下に、最新機能と機能強化について簡単に紹介します。
+
+## 2022.05.0 の変更点 {#what-changed-in-May-2022}
+
+Brand Portalでは、12 時間ごとに自動ジョブを実行して、AEMに公開されているすべてのBrand Portalアセットを削除するようになりました。 その結果、投稿フォルダー内のアセットを手動で削除して、フォルダーサイズをしきい値の下限に抑える必要がなくなりました。 また、自動的に実行される削除ジョブのステータスを監視するには、 **[!UICONTROL ツール]** > **[!UICONTROL アセット貢献度ステータス]** > **[!UICONTROL 削除レポート]** Brand Portalのオプション ジョブのレポートには、次の詳細が表示されます。
+
+* ジョブの開始時間
+* ジョブの終了時間
+* ジョブステータス
+* ジョブに含まれる合計アセット数
+* ジョブで正常に削除された合計アセット数。
+
+![削除レポート](assets/deletion-reports.png)
+
+さらにドリルダウンして、削除ジョブに含まれる各アセットの詳細を表示することもできます。 アセットのタイトル、サイズ、作成者、削除ステータス、削除時間などの詳細がレポートに含まれます。
+
+![削除レポートの詳細](assets/deletion-reports-detailed.png)
+
+さらに、Brand Portal 2022.05.0には、重要な問題に対する修正が含まれています。 最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
+
 
 ## 2022.02.0 の変更点 {#what-changed-in-Feb-2022}
 
