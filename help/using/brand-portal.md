@@ -10,9 +10,9 @@ topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
 source-git-commit: af697978ce140a618fda59cec050dfaedb0c296b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1585'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Brand Portal では次のユーザー役割をサポートしています。
 
 ### ゲストユーザー（Light ユーザー） {#guest-user}
 
-Experience Manager Assets Brand Portal許可 [ゲストアクセス](#request-access-to-brand-portal) Brand Portal ゲストユーザーは資格情報がなくてもポータルに入ることができ、公開フォルダーおよび公開コレクションにアクセスできます。 ゲストユーザーは、アセットの詳細を参照したり、公開フォルダーおよび公開コレクションのメンバーのアセットの完全なアセット表示を行ったりできます。公開アセットを検索、ダウンロード、および [!UICONTROL Lightbox] コレクションに追加できます。
+Experience Manager Assets Brand Portal では、Brand Portal への[ゲストによるアクセス](#request-access-to-brand-portal)を許可します。ゲストユーザーは認証情報がなくてもポータルに入ることができ、公開フォルダー（およびコレクション）にアクセスできます。ゲストユーザーは、アセットの詳細を参照したり、公開フォルダーおよび公開コレクションのメンバーのアセットの完全なアセット表示を行ったりできます。公開アセットを検索、ダウンロード、および [!UICONTROL Lightbox] コレクションに追加できます。
 
 ただし、ゲストセッションでは、コレクションや保存済みの検索結果を作成したり、それらを共有したりすることはできません。ゲストセッション中のユーザーはフォルダーやコレクションの設定にアクセスしたり、アセットをリンクとして共有したりすることはできません。次に、ゲストユーザーが実行できるタスクの一覧を示します。
 
@@ -87,11 +87,11 @@ Experience Manager Assets Brand Portal許可 [ゲストアクセス](#request-ac
 
 * [[!UICONTROL Lightbox] へのアセットの追加](brand-portal-light-box.md#add-assets-to-lightbox)
 
-詳しくは、 [Brand Portalへのゲストによるアクセス](../using/guest-access.md).
+詳しくは、[Brand Portal へのゲストによるアクセス](../using/guest-access.md)を参照してください。
 
 ### ビューア（標準ユーザー） {#viewer}
 
-標準ユーザーとは、 [!DNL Admin Console] このユーザーは、閲覧者の役割を持つBrand Portalにアクセスできます。 この役割を持つユーザーは、Brand Portalにログインし、許可されたフォルダー、コレクション、アセットにアクセスできます。 また、アセット（元のアセットまたは特定のレンディション）を参照、プレビュー、ダウンロードおよび書き出したり、アカウント設定を指定したり、アセットを検索したりすることもできます。次に、閲覧者が実行できるタスクの一覧を示します。
+標準ユーザーとは、閲覧者の役割を持ち、Brand Portal へのアクセス権を持つと [!DNL Admin Console] で定義される Brand Portal ユーザーです。この役割を持つユーザーは、Brand Portal にログインし、許可されたフォルダー、コレクション、アセットにアクセスできます。また、アセット（元のアセットまたは特定のレンディション）を参照、プレビュー、ダウンロードおよび書き出したり、アカウント設定を指定したり、アセットを検索したりすることもできます。次に、閲覧者が実行できるタスクの一覧を示します。
 
 * [アセットの参照](browse-assets-brand-portal.md)
 
