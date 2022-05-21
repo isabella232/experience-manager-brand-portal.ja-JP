@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: af697978ce140a618fda59cec050dfaedb0c296b
-workflow-type: ht
-source-wordcount: '1585'
-ht-degree: 100%
+source-git-commit: fb2ce4d39fd9e7aa69ba541bd48a6b9cddd3b4c5
+workflow-type: tm+mt
+source-wordcount: '1576'
+ht-degree: 98%
 
 ---
 
@@ -73,7 +73,7 @@ Brand Portal では次のユーザー役割をサポートしています。
 >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
 -->
 
-### ゲストユーザー（Light ユーザー） {#guest-user}
+### ゲストユーザー {#guest-user}
 
 Experience Manager Assets Brand Portal では、Brand Portal への[ゲストによるアクセス](#request-access-to-brand-portal)を許可します。ゲストユーザーは認証情報がなくてもポータルに入ることができ、公開フォルダー（およびコレクション）にアクセスできます。ゲストユーザーは、アセットの詳細を参照したり、公開フォルダーおよび公開コレクションのメンバーのアセットの完全なアセット表示を行ったりできます。公開アセットを検索、ダウンロード、および [!UICONTROL Lightbox] コレクションに追加できます。
 
@@ -89,9 +89,9 @@ Experience Manager Assets Brand Portal では、Brand Portal への[ゲストに
 
 詳しくは、[Brand Portal へのゲストによるアクセス](../using/guest-access.md)を参照してください。
 
-### ビューア（標準ユーザー） {#viewer}
+### 閲覧者 {#viewer}
 
-標準ユーザーとは、閲覧者の役割を持ち、Brand Portal へのアクセス権を持つと [!DNL Admin Console] で定義される Brand Portal ユーザーです。この役割を持つユーザーは、Brand Portal にログインし、許可されたフォルダー、コレクション、アセットにアクセスできます。また、アセット（元のアセットまたは特定のレンディション）を参照、プレビュー、ダウンロードおよび書き出したり、アカウント設定を指定したり、アセットを検索したりすることもできます。次に、閲覧者が実行できるタスクの一覧を示します。
+Brand Portalユーザー定義 [!DNL Admin Console] このユーザーは、閲覧者の役割を持つBrand Portalにアクセスできます。 この役割を持つユーザーは、Brand Portal にログインし、許可されたフォルダー、コレクション、アセットにアクセスできます。また、アセット（元のアセットまたは特定のレンディション）を参照、プレビュー、ダウンロードおよび書き出したり、アカウント設定を指定したり、アセットを検索したりすることもできます。次に、閲覧者が実行できるタスクの一覧を示します。
 
 * [アセットの参照](browse-assets-brand-portal.md)
 
