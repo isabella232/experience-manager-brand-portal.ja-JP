@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
-workflow-type: ht
-source-wordcount: '1053'
-ht-degree: 100%
+source-git-commit: 606f4389780025f5cf92b11bf8cac464e36be44a
+workflow-type: tm+mt
+source-wordcount: '1471'
+ht-degree: 71%
 
 ---
 
@@ -64,7 +64,7 @@ Brand Portal ユーザーは、アセット要件をダウンロードするた�
 概要（アセット要件ドキュメント）を確認し、ベースラインアセットを参照して、アセット要件を理解します。これで、投稿用の新しいアセットを作成して、投稿フォルダーにアップロードできます。
 
 
-## 投稿フォルダーへのアセットのアップロード {#uplad-new-assets-to-contribution-folder}
+## 投稿フォルダーへのアセットのアップロード {#upload-new-assets-to-contribution-folder}
 
 Brand Portal ユーザーは、アセット要件を確認した後、投稿用の新しいアセットを作成して、投稿フォルダー内の新規フォルダーにアップロードできます。ユーザーは、複数のアセットをアセット投稿フォルダーにアップロードできます。ただし、一度に作成できるフォルダーは 1 つだけです。
 
@@ -138,7 +138,7 @@ Brand Portal から Experience Manager Assets に公開したアセット投稿�
 
 * Brand Portal で、**[!UICONTROL ツール]**／**[!UICONTROL アセット投稿のステータス]**&#x200B;に移動します。このレポートには、公開ワークフローの様々な段階におけるすべての公開ジョブのステータスが表示されます。
 
-   ![](assets/contribution-folder-status.png)
+   ![](assets/contribution-folder-status-v2.png)
 
 * Experience Manager Assets（オンプレミス版または Managed Services 版）で、**[!UICONTROL アセット]**／**[!UICONTROL ジョブ]**&#x200B;に移動します。このレポートには、すべての公開ジョブの最終状態（成功またはエラー）が表示されます。
 
@@ -157,3 +157,58 @@ Brand Portal から Experience Manager Assets に公開したアセット投稿�
 >
 >Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
 -->
+
+## 投稿フォルダーからExperience Manager Assetsに公開されたアセットを自動的に削除 {#automatically-delete-published-assets-from-contribution-folder}
+
+Brand Portalは、12 時間ごとに自動ジョブを実行し、すべての投稿フォルダーをスキャンして、AEMに公開されているすべてのアセットを削除するようになりました。 その結果、投稿フォルダー内のアセットを手動で削除して、 [しきい値制限](#upload-new-assets-to-contribution-folder). また、過去 7 日間に自動的に実行された削除ジョブのステータスを監視することもできます。 ジョブのレポートには、次の詳細が表示されます。
+
+* ジョブの開始時間
+* ジョブの終了時間
+* ジョブステータス
+* ジョブに含まれる合計アセット数
+* ジョブで正常に削除された合計アセット数
+* ジョブの実行の結果として使用可能になった合計ストレージ
+
+   ![削除レポート](assets/deletion-reports.png)
+
+さらにドリルダウンして、削除ジョブに含まれる各アセットの詳細を表示することもできます。 アセットのタイトル、サイズ、作成者、削除ステータス、削除時間などの詳細がレポートに含まれます。
+
+![削除レポートの詳細](assets/deletion-reports-detailed.png)
+
+>[!NOTE]
+>
+> * お客様は、Adobeカスタマーサポートに対し、自動削除ジョブ機能の無効化と再有効化、または実行頻度の変更を要求できます。
+> * この機能は、Experience Manager6.5.13.0以降のリリースで使用できます。
+
+
+### 削除レポートの表示とダウンロード {#view-delete-jobs}
+
+削除ジョブのレポートを表示およびダウンロードするには：
+
+1. Brand Portalで、に移動します。 **[!UICONTROL ツール]**>**[!UICONTROL アセット貢献度ステータス]**>**[!UICONTROL 削除レポート]** オプション。
+
+1. ジョブを選択し、 **[!UICONTROL 表示]** をクリックして、レポートを表示します。
+
+   削除ジョブに含まれる各アセットの詳細を表示します。 アセットのタイトル、サイズ、作成者、削除ステータス、削除時間などの詳細がレポートに含まれます。 クリック **[!UICONTROL ダウンロード]** をクリックして、ジョブのレポートを CSV 形式でダウンロードします。
+
+   レポート内のアセットの削除ステータスには、次の値を指定できます。
+
+   * **削除済み**  — アセットは投稿フォルダーから正常に削除されました。
+
+   * **見つかりません** - Brand Portalは投稿フォルダー内にアセットを見つけられませんでした。 アセットは既にフォルダーから手動で削除されています。
+
+   * **スキップ済み** - Brand Portalは、アセットに対して使用できる新しいバージョンが投稿フォルダーにあるので、アセットの削除をスキップしました。投稿フォルダーは、まだExperience Managerに公開されていません。
+
+   * **失敗** - Brand Portalはアセットを削除できませんでした。 を使用して 1 つのアセットを削除しようとすると、 `Failed` ステータスを削除します。 アセットが 3 回目の削除再試行に失敗した場合は、手動でアセットを削除する必要があります。
+
+### レポートの削除
+
+また、Brand Portalでは、1 つまたは複数のレポートを選択し、手動で削除することもできます。
+
+レポートを削除するには：
+
+1. に移動します。 **[!UICONTROL ツール]**>**[!UICONTROL アセット貢献度ステータス]**>**[!UICONTROL 削除レポート]** オプション。
+
+1. 1 つ以上のレポートを選択し、 **[!UICONTROL 削除]**.
+
+

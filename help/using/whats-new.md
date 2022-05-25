@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: feaf10256c2dfb97d53d665edfb4b4de0e824fea
+source-git-commit: d02b9b347c37e6960f18fe3772b219d0d79dc8c5
 workflow-type: tm+mt
-source-wordcount: '6482'
+source-wordcount: '6493'
 ht-degree: 97%
 
 ---
@@ -29,7 +29,8 @@ Brand Portalでは、12 時間ごとに自動ジョブを実行して、AEMに�
 * ジョブの終了時間
 * ジョブステータス
 * ジョブに含まれる合計アセット数
-* ジョブで正常に削除された合計アセット数。
+* ジョブで正常に削除された合計アセット数
+* ジョブの実行の結果として使用可能になった合計ストレージ
 
 ![削除レポート](assets/deletion-reports.png)
 
