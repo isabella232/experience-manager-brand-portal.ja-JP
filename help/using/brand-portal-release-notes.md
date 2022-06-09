@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 5ca00738be59632ffcd481c2d007f869b561b9db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '445'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Experience Manager Assets Brand Portal 2022.05.0 リリースの新機能�
 | 製品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | バージョン | 2022.05.0 |
-| 日付 | 2022 年 5 月 |
+| 日付 | 2022年5月 |
 
 ## 概要 {#overview}
 
@@ -107,24 +107,24 @@ This release includes the following enhancements:
 
 ### 新機能 {#new-features}
 
-Brand Portalでは、12 時間ごとに自動ジョブを実行して、AEMに公開されているすべてのBrand Portalアセットを削除するようになりました。 その結果、投稿フォルダー内のアセットを手動で削除して、フォルダーサイズをしきい値の下限に抑える必要がなくなりました。 詳しくは、 [Experience Manager Assets Brand Portalの新機能](whats-new.md).
+Brand Portal では、12 時間ごとに自動ジョブを実行して、AEM に公開されているすべての Brand Portal アセットを削除するようになりました。その結果、投稿フォルダー内のアセットを手動で削除して、フォルダーサイズをしきい値の制限以下に保つ必要がなくなりました。 [Experience Manager Assets Brand Portal の新機能](whats-new.md)を参照してください。
 
 
 ### 修正された重要な問題 {#critical-issues-fixed}
 
 このリリースでは、次の重要な問題が修正されています。
 
-* カラータグが付いたアセットを含むフォルダーまたはコレクションをダウンロードすると、XML ファイルもダウンロードされます。
+* カラータグが付いたアセットを含むフォルダーまたはコレクションをダウンロードすると、XML ファイルもダウンロードされる。
 
-* レンディションを含むビデオをダウンロードすると、Brand Portalは無効な.ZIP ファイルを作成します。
+* レンディションを含むビデオをダウンロードすると、Brand Portal によって無効な .ZIP ファイルが作成される。
 
-* AEMのオーサー環境でプリセットとアセットを作成し、Brand Portalに公開して、アセットのダウンロード中に動的レンディションを選択した場合は、ダウンロードしたを抽出できません。 ZIP ファイル。
+* AEM オーサーでプリセットとアセットを作成し、Brand Portal に公開してから、アセットのダウンロード中に動的レンディションを選択すると、ダウンロードした ZIP ファイルを抽出できなくなることがある。
 
-* Brand Portalで使用可能な特定のフォルダーからビデオアセットをダウンロードする際に問題が発生します。
+* Brand Portal で使用可能な特定のフォルダーからビデオアセットをダウンロードする際の問題。
 
-* 電子メールを使用して投稿フォルダーの URL を共有すると、閲覧者と編集者の役割は、パンくずリストを使用して親フォルダーにアクセスする際に問題を抱えます。
+* メールを使用して投稿フォルダーの URL を共有すると、閲覧者と編集者の役割を持つユーザーがパンくずリストを使用して親フォルダーにアクセスする際に問題が発生する。
 
-* ソーシングの公開済みレポートに、正しくないジョブの開始時間が表示される。
+* 公開されたレポートをソーシングすると、誤ったジョブ開始時刻が表示される。
 
 
 <!--
