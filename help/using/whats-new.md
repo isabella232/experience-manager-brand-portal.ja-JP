@@ -13,7 +13,7 @@ exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 source-git-commit: d02b9b347c37e6960f18fe3772b219d0d79dc8c5
 workflow-type: tm+mt
 source-wordcount: '6493'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Experience Manager Assets Brand Portal では、承認されたクリエ�
 
 ## 2022.05.0 の変更点 {#what-changed-in-May-2022}
 
-Brand Portalでは、12 時間ごとに自動ジョブを実行して、AEMに公開されているすべてのBrand Portalアセットを削除するようになりました。 その結果、投稿フォルダー内のアセットを手動で削除して、フォルダーサイズをしきい値の下限に抑える必要がなくなりました。 また、自動的に実行される削除ジョブのステータスを監視するには、 **[!UICONTROL ツール]** > **[!UICONTROL アセット貢献度ステータス]** > **[!UICONTROL 削除レポート]** Brand Portalのオプション ジョブのレポートには、次の詳細が表示されます。
+Brand Portal では、12 時間ごとに自動ジョブを実行して、AEM に公開されているすべての Brand Portal アセットを削除するようになりました。その結果、投稿フォルダー内のアセットを手動で削除して、フォルダーサイズをしきい値の制限以下に保つ必要がなくなりました。 また、Brand Portal の&#x200B;**[!UICONTROL ツール]**／**[!UICONTROL アセット投稿ステータス]**／**[!UICONTROL 削除レポート]**&#x200B;オプションを使用して、自動的に実行された削除ジョブの状況を監視することもできます。ジョブのレポートには、次の詳細が表示されます。
 
 * ジョブの開始時間
 * ジョブの終了時間
@@ -34,11 +34,11 @@ Brand Portalでは、12 時間ごとに自動ジョブを実行して、AEMに�
 
 ![削除レポート](assets/deletion-reports.png)
 
-さらにドリルダウンして、削除ジョブに含まれる各アセットの詳細を表示することもできます。 アセットのタイトル、サイズ、作成者、削除ステータス、削除時間などの詳細がレポートに含まれます。
+さらにドリルダウンして、削除ジョブに含まれる各アセットの詳細を表示することもできます。レポートには、アセットのタイトル、サイズ、作成者、削除ステータス、削除時間などの詳細が含まれます。
 
 ![削除レポートの詳細](assets/deletion-reports-detailed.png)
 
-さらに、Brand Portal 2022.05.0には、重要な問題に対する修正が含まれています。 最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
+さらに、Brand Portal 2022.05.0 には、重要な問題に対する修正が含まれています。最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
 
 
 ## 2022.02.0 の変更点 {#what-changed-in-Feb-2022}
