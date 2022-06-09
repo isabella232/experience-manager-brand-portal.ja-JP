@@ -5,7 +5,7 @@ description: Experience Manager Assets Brand Portal を使用すれば、承認�
 seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
 source-git-commit: 08162bdd26983c0362598625e26705addd32975f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
 ht-degree: 100%
 
