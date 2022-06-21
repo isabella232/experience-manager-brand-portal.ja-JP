@@ -10,9 +10,9 @@ topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
 source-git-commit: fb2ce4d39fd9e7aa69ba541bd48a6b9cddd3b4c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1576'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Experience Manager Assets Brand Portal では、Brand Portal への[ゲストに
 
 ### 閲覧者 {#viewer}
 
-Brand Portalユーザー定義 [!DNL Admin Console] このユーザーは、閲覧者の役割を持つBrand Portalにアクセスできます。 この役割を持つユーザーは、Brand Portal にログインし、許可されたフォルダー、コレクション、アセットにアクセスできます。また、アセット（元のアセットまたは特定のレンディション）を参照、プレビュー、ダウンロードおよび書き出したり、アカウント設定を指定したり、アセットを検索したりすることもできます。次に、閲覧者が実行できるタスクの一覧を示します。
+[!DNL Admin Console] で定義され閲覧者の役割で Brand Portal にアクセスできる Brand Portal ユーザーです。この役割を持つユーザーは、Brand Portal にログインし、許可されたフォルダー、コレクション、アセットにアクセスできます。また、アセット（元のアセットまたは特定のレンディション）を参照、プレビュー、ダウンロードおよび書き出したり、アカウント設定を指定したり、アセットを検索したりすることもできます。次に、閲覧者が実行できるタスクの一覧を示します。
 
 * [アセットの参照](browse-assets-brand-portal.md)
 
