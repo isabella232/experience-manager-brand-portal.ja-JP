@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 8a34c69a8ca3868fb7904897ac4970ded91883a5
+source-git-commit: 383528c3efa0d2c77b00f70b1103fc8c9122ab1f
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 66%
+source-wordcount: '358'
+ht-degree: 69%
 
 ---
 
@@ -37,7 +37,8 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 ### 修正された重要な問題 {#critical-issues-fixed}
 
 このリリースでは、次の重要な問題が修正されています。
-* NUI がExperience Manager内のアセットの処理に失敗した場合、Brand Portalに不正確なアセットの読み込みステータスが表示されます。
+
+* asset computeがExperience Manager内のアセットの処理に失敗した場合、Brand Portalには不正確なアセットの読み込みステータスが表示されます。
 * プレビューアクションが失敗した場合、失敗を伝える通知はありません。
 * テナントのテナントアップロードクォータプロパティが、テナントに対して正しく設定されていません。
 * クリック時 **すべての項目をダウンロード** また、アセットに使用できるレンディションが多数あるので、Brand Portalは無効な.ZIP ファイルをダウンロードします。
