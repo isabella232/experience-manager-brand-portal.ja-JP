@@ -10,29 +10,38 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 5ca00738be59632ffcd481c2d007f869b561b9db
-workflow-type: ht
-source-wordcount: '445'
-ht-degree: 100%
+source-git-commit: 8a34c69a8ca3868fb7904897ac4970ded91883a5
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 66%
 
 ---
 
 # リリースノート {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 2022.05.0 リリースの新機能、機能強化、修正された重大な問題および既知の問題について説明します。
+Adobe Experience Manager Assets Brand Portal 2022.08.0 リリースの新機能、機能強化、修正された重大な問題および既知の問題について説明します。
 
 ## リリース情報 {#release-information}
 
 | 製品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| バージョン | 2022.05.0 |
-| 日付 | 2022年5月 |
+| バージョン | 2022.08.0 |
+| 日付 | 2022 年 8 月 |
 
 ## 概要 {#overview}
 
-Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。Brand Portal では、アセットの参照、検索、プレビュー、ダウンロードおよび会社で承認された形式での書き出しを、いつでも、どこでも実行できます。
+Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。これにより、アセット共有の効率が向上し、アセットの市場投入までの時間が短縮され、コンプライアンス違反や不正アクセスのリスクが軽減されます。 Brand Portal では、アセットの参照、検索、プレビュー、ダウンロードおよび会社で承認された形式での書き出しを、いつでも、どこでも実行できます。
 
-## 2022.05.0 の新機能 {#whats-new-in-2022.05.0}
+## 2022.08.0 の新機能 {#whats-new-in-2022.08.0}
+
+### 修正された重要な問題 {#critical-issues-fixed}
+
+このリリースでは、次の重要な問題が修正されています。
+* NUI がExperience Manager内のアセットの処理に失敗した場合、Brand Portalに不正確なアセットの読み込みステータスが表示されます。
+* プレビューアクションが失敗した場合、失敗を伝える通知はありません。
+* テナントのテナントアップロードクォータプロパティが、テナントに対して正しく設定されていません。
+* クリック時 **すべての項目をダウンロード** また、アセットに使用できるレンディションが多数あるので、Brand Portalは無効な.ZIP ファイルをダウンロードします。
+* 一部の文字列の翻訳は、Brand Portalユーザーインターフェイスで切り捨てられます。
 
 <!--
 ### New Features {#new-features}
@@ -105,28 +114,28 @@ This release includes the following enhancements:
 * The system is not reflecting the correct value for the number of active concurrent users.
 -->
 
-### 新機能 {#new-features}
+<!--
+### New features {#new-features}
 
-Brand Portal では、12 時間ごとに自動ジョブを実行して、AEM に公開されているすべての Brand Portal アセットを削除するようになりました。その結果、投稿フォルダー内のアセットを手動で削除して、フォルダーサイズをしきい値の制限以下に保つ必要がなくなりました。 [Experience Manager Assets Brand Portal の新機能](whats-new.md)を参照してください。
+Brand Portal now executes automatic jobs every twelve hours to delete all Brand Portal assets that are published to AEM. As a result, you do not need to delete the assets in the Contribution folder manually to keep the folder size below the threshold limit. See [What's new in Experience Manager Assets Brand Portal](whats-new.md).
+-->
 
+<!--
+This release includes fixes to the following critical issues:
 
-### 修正された重要な問題 {#critical-issues-fixed}
+* When you download a folder or a collection that includes assets with color tags, an XML file gets downloaded as well.
 
-このリリースでは、次の重要な問題が修正されています。
+* When you download a video that includes renditions, Brand Portal creates an invalid .ZIP file.
 
-* カラータグが付いたアセットを含むフォルダーまたはコレクションをダウンロードすると、XML ファイルもダウンロードされる。
+* When you create presets and assets on AEM author and publish them to Brand Portal and then select dynamic renditions while downloading the assets, you cannot extract the downloaded .ZIP file.
 
-* レンディションを含むビデオをダウンロードすると、Brand Portal によって無効な .ZIP ファイルが作成される。
+* Issues while downloading video assets from certain folders available on Brand Portal.
 
-* AEM オーサーでプリセットとアセットを作成し、Brand Portal に公開してから、アセットのダウンロード中に動的レンディションを選択すると、ダウンロードした ZIP ファイルを抽出できなくなることがある。
+* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
-* Brand Portal で使用可能な特定のフォルダーからビデオアセットをダウンロードする際の問題。
-
-* メールを使用して投稿フォルダーの URL を共有すると、閲覧者と編集者の役割を持つユーザーがパンくずリストを使用して親フォルダーにアクセスする際に問題が発生する。
-
-* 公開されたレポートをソーシングすると、誤ったジョブ開始時刻が表示される。
-
-
+* Sourcing published report displays an incorrect job start time.
+>
+ 
 <!--
 * Asset Sourcing email notifications are not delivered for some organizations. 
 
@@ -155,7 +164,7 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 このリリースには、次の既知の問題が含まれています。
 
-* アセットソーシングレポートのコンテンツの部分的なローカリゼーション
+* アセットソーシングレポートコンテンツの部分的なローカリゼーション
 
 
 <!--
