@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: fd7aed4cfa3104c1e8359d5f0eb8ae3d5c740b17
+source-git-commit: 6a111a24d999bdbf1aaa306ad95ae359053f374e
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 76%
+source-wordcount: '382'
+ht-degree: 68%
 
 ---
 
@@ -37,18 +37,19 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 ### 修正された重要な問題 {#critical-issues-fixed}
 
 このリリースでは、次の重要な問題が修正されています。
+
 * 大きなファイルをBrand Portalからサードパーティ製ツールにコピーする際、応答時間が遅くなる。
 * 「レンディション数」チェックボックスを選択すると、個々のレンディションを選択するためのチェックボックスが無効になります。
 * 検索の応答時間が遅い。
 
 >[!IMPORTANT]
 >
->AEM Assets Brand Portalの Pulse 通知は、2022 年 12 月 1 日から停止されます。 Pulse 通知の代わりに、次のイベントに関する電子メール通知を引き続き受信します。
->* リンクを介したアセットの共有
->* アクセスワークフローのリクエスト
->* 投稿フォルダーの共有
->* AEMへのエクスポートの開始
->* AEMへの書き出しが完了しました
+>AEM Assets Brand Portalの Pulse 通知は、2022 年 12 月 1 日から停止されます。 次のイベントに関する電子メール通知が引き続き送信されます：
+>* Brand Portalのアセットが共有リンクを介して共有されたとき
+>* 管理者がBrand Portalのアクセス要求を承認したとき。 また、Brand Portalのアクセス権を要求すると、管理者に通知が届きます。
+>* 投稿フォルダーが共有されたとき
+>* Brand PortalからAEMにアセットを公開し始めたとき
+>* アセットがBrand PortalからAEMに正常に公開されたとき
 
 
 <!--
@@ -152,7 +153,7 @@ This release includes fixes to the following critical issues:
 
 * Issues while downloading video assets from certain folders available on Brand Portal.
 
-* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
+* When you share the Contribution folder's URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
 * Sourcing published report displays an incorrect job start time.
 >
