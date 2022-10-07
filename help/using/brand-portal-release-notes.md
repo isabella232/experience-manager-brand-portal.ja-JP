@@ -10,40 +10,60 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 383528c3efa0d2c77b00f70b1103fc8c9122ab1f
-workflow-type: ht
-source-wordcount: '358'
-ht-degree: 100%
+source-git-commit: fd7aed4cfa3104c1e8359d5f0eb8ae3d5c740b17
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 76%
 
 ---
 
 # リリースノート {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 2022.08.0 リリースの新機能、機能強化、修正された重大な問題および既知の問題について説明します。
+Adobe Experience Manager Assets Brand Portal 2022.10.0 リリースの新機能、機能強化、修正された重大な問題および既知の問題について説明します。
 
 ## リリース情報 {#release-information}
 
 | 製品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| バージョン | 2022.08.0 |
-| 日付 | 2022年8月 |
+| バージョン | 2022.10.0 |
+| 日付 | 2022 年 10 月 |
 
 ## 概要 {#overview}
 
 Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを軽減できます。Brand Portal では、アセットの参照、検索、プレビュー、ダウンロードおよび会社で承認された形式でのエクスポートを、いつでも、どこでも実行できます。
 
-## 2022.08.0 の新機能 {#whats-new-in-2022.08.0}
+## 2022.10.0 の新機能 {#whats-new-in-2022.10.0}
 
-### 修正された重大な問題 {#critical-issues-fixed}
+### 修正された重要な問題 {#critical-issues-fixed}
 
 このリリースでは、次の重要な問題が修正されています。
+* 大きなファイルをBrand Portalからサードパーティ製ツールにコピーする際、応答時間が遅くなる。
+* 「レンディション数」チェックボックスを選択すると、個々のレンディションを選択するためのチェックボックスが無効になります。
+* 検索の応答時間が遅い。
 
-* Asset Compute で Experience Manager 内のアセットを処理できない場合は、Brand Portal に表示されるアセットのインポートステータスが不正確になります。
-* プレビューアクションが失敗した場合でも、失敗を知らせる通知はありません。
-* テナントのアップロードクォータプロパティが、テナントに対して正しく設定されていません。
-* アセットに使用できるレンディションが多数ある場合に&#x200B;**すべての項目をダウンロード**&#x200B;すると、Brand Portal でダウンロードされる .ZIP ファイルが無効です。
-* Brand Portal ユーザーインターフェイスで、一部の文字列の翻訳が切り詰められます。
+>[!IMPORTANT]
+>
+>AEM Assets Brand Portalの Pulse 通知は、2022 年 12 月 1 日から停止されます。 Pulse 通知の代わりに、次のイベントに関する電子メール通知を引き続き受信します。
+>* リンクを介したアセットの共有
+>* アクセスワークフローのリクエスト
+>* 投稿フォルダーの共有
+>* AEMへのエクスポートの開始
+>* AEMへの書き出しが完了しました
 
+
+<!--
+## What's New in 2022.08.0 {#whats-new-in-2022.08.0}
+
+### Critical Issues Fixed {#critical-issues-fixed}
+
+This release includes fixes to the following critical issues:
+
+* When Asset Compute fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
+* When the preview action fails, there is no notification to communicate the failure.
+* Tenant Upload Quota property is getting inaccurately set for tenants.
+* When you click **Download all items** and there are large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.
+* The translation of some strings gets truncated on the Brand Portal user interface.
+-->
 <!--
 ### New Features {#new-features}
 
@@ -160,13 +180,13 @@ In case only the original assets are downloaded, the asset reflects its own exte
 See [what's new in Brand Portal 2021.02.0](whats-new.md).
 -->
 
+<!--
+### Known Issues {#known-issues}
 
-### 既知の問題 {#known-issues}
+This release includes the following known issue:
 
-このリリースには、次の既知の問題が含まれています。
-
-* アセットソーシングレポートのコンテンツの部分的なローカリゼーション
-
+* Partial localization in Asset sourcing report content
+-->
 
 <!--
 ### Known Issues {#known-issues}
