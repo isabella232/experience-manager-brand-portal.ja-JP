@@ -13,7 +13,7 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 6a111a24d999bdbf1aaa306ad95ae359053f374e
 workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 68%
+ht-degree: 77%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Experience Manager Assets Brand Portal 2022.10.0 リリースの新機能�
 | 製品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | バージョン | 2022.10.0 |
-| 日付 | 2022 年 10 月 |
+| 日付 | 2022年10月 |
 
 ## 概要 {#overview}
 
@@ -39,12 +39,12 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 このリリースでは、次の重要な問題が修正されています。
 
 * 大きなファイルをBrand Portalからサードパーティ製ツールにコピーする際、応答時間が遅くなる。
-* 「レンディション数」チェックボックスを選択すると、個々のレンディションを選択するためのチェックボックスが無効になります。
+* 「レンディション数」チェックボックスを選択すると、個々のレンディションを選択するためのチェックボックスが無効になる。
 * 検索の応答時間が遅い。
 
 >[!IMPORTANT]
 >
->AEM Assets Brand Portalの Pulse 通知は、2022 年 12 月 1 日から停止されます。 次のイベントに関する電子メール通知が引き続き送信されます：
+>AEM Assets Brand Portal の Pulse 通知は、2022年12月1日（PT）以降停止されます。次のイベントに関する電子メール通知が引き続き送信されます：
 >* Brand Portalのアセットが共有リンクを介して共有されたとき
 >* 管理者がBrand Portalのアクセス要求を承認したとき。 また、Brand Portalのアクセス権を要求すると、管理者に通知が届きます。
 >* 投稿フォルダーが共有されたとき
