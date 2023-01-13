@@ -11,9 +11,9 @@ topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
 source-git-commit: ca43599fb0b35d1cdf3e368509288c11d9f4282c
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1254'
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ Brand Portal 上でアセットを検索するには、次のようにします�
 
       >[!NOTE]
       >
-      > Brand Portalでは、部分検索で次のフィールドがサポートされています。
+      > Brand Portal では、部分検索用に次のフィールドをサポートしています。
       >* jcr:content/metadata/dc:title
       >* jcr:content/jcr:title
       >* jcr:content/metadata/dam:search_promote
