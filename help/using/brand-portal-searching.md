@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 85e6495ab9f585ad19d92fe34794a995a7b637e8
+source-git-commit: cbdd943b904882cc9a455bab24c3cf732d5966ca
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 96%
+source-wordcount: '1358'
+ht-degree: 92%
 
 ---
 
@@ -42,7 +42,7 @@ Brand Portal 上でアセットを検索するには、次のようにします�
    >[!NOTE]
    >
    >* オムニサーチで検索候補が表示されるには、3 文字以上入力する必要があります。
-   >* キーワードを検索する場合 `mountain` または `biking` その後、オムニサーチは検索結果にテキストを表示する `mountain` および `biking` 」と入力します。 それ以外の場合、スマートタグの場合の動作は OR になり、これはでの結果を意味します。 `mountain` または `biking` それぞれのスマートタグが取得されます。
+   >* を検索する場合 `mountain biking`オムニサーチの場合は、 `mountain` および `biking` はメタデータフィールドで使用できます。 例： `mountain` 内 `Title` フィールドと `biking` 内 `Description` フィールドに入力します。 検索結果に表示するには、両方の用語がメタデータフィールドで使用可能である必要があります。 ただし、「スマートタグのメタデータ」フィールドで使用できる用語が 2 つのうち 1 つだけの場合でも、オムニサーチは検索結果にアセットを返します。 例えば、アセットに `mountain` をスマートタグの 1 つとして使用し、次を含まない `biking` 他のメタデータフィールドで `mountain biking`の場合、オムニサーチは、検索結果にアセットを返します。
 
 
 1. ドロップダウンリストに表示される関連候補の中から選択すれば、関連するアセットにすばやくアクセスできます。
