@@ -1,67 +1,71 @@
 ---
 title: リリースノート
 seo-title: Release Notes
-description: Adobe Experience Manager Assets Brand Portal 2022.05.0 リリースの機能、機能強化、修正された重大な問題および既知の問題について説明します。
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.05.0 release.
+description: Adobe Experience Manager Assets Brand Portal 2023.02.0 リリースの機能、機能強化、修正された重大な問題および既知の問題について説明します。
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.02.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
-contentOwner: Anuj Kapoor
+contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 6a111a24d999bdbf1aaa306ad95ae359053f374e
-workflow-type: ht
-source-wordcount: '382'
-ht-degree: 100%
+source-git-commit: 666db34a01bd9bb0d6d4967524121cdeb776394d
+workflow-type: tm+mt
+source-wordcount: '441'
+ht-degree: 65%
 
 ---
 
 # リリースノート {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 2022.10.0 リリースの新機能、機能強化、修正された重大な問題および既知の問題について説明します。
+Adobe Experience Manager Assets Brand Portal 2023.02.0 リリースの新機能、機能強化、修正された重大な問題および既知の問題について説明します。
 
 ## リリース情報 {#release-information}
 
 | 製品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| バージョン | 2022.10.0 |
-| 日付 | 2022年10月 |
+| バージョン | 2023.02.0 |
+| 日付 | 2023 年 2 月 |
 
 ## 概要 {#overview}
 
 Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを軽減できます。Brand Portal では、アセットの参照、検索、プレビュー、ダウンロードおよび会社で承認された形式でのエクスポートを、いつでも、どこでも実行できます。
 
-## 2022.10.0 の新機能 {#whats-new-in-2022.10.0}
+## 2023.02.0 の新機能 {#whats-new-in-2023.02.0}
 
-### 修正された重要な問題 {#critical-issues-fixed}
+### 修正された重大な問題 {#critical-issues-fixed}
+
+#### バグの修正 {#bug-fixes}
 
 このリリースでは、次の重要な問題が修正されています。
+* Brand Portalでプロファイル画像を更新できません。
+* コンテンツツリーウィンドウはサイズ変更できません。 ファイル名がコンテンツツリーのデフォルトの幅より長い場合、コンテンツツリーを水平および垂直にドラッグすることはできません。 その結果、長いファイル名は読み取れなくなります。
+* 検索フォーム内で 2 回使用されているのと同じプロパティの述語に一致しない検索結果が表示される。
+* 中間ログインページのテキストが、すべての言語にローカライズされているわけではありません。
 
-* 大きなファイルを Brand Portal からサードパーティ製ツールにコピーする際、応答時間が遅い。
-* 「レンディション数」チェックボックスを選択すると、個々のレンディションを選択するためのチェックボックスが無効になる。
-* 検索の応答時間が遅い。
+### 機能強化 {#enhancements}
 
->[!IMPORTANT]
->
->AEM Assets Brand Portal の Pulse 通知は、2022年12月1日（PT）以降停止されます。次のイベントに関する電子メール通知を引き続き受信します。
->* Brand Portal のアセットが共有リンクを介して共有されている場合
->* 管理者が Brand Portal のアクセスリクエストを承認した場合。Brand Portal へのアクセスをリクエストすると、管理者も通知を受信します。
->* 投稿フォルダーが共有されている場合
->* Brand Portal から AEM へアセットの公開を開始する場合
->* Brand Portal から AEM にアセットが正常に公開された場合
+このリリースで強化された機能は次のとおりです。
+* 新しい最新のPDFビューアが、PDFアセットのプレビューを改善しました。
+* 管理者向けのアセットソーシング通知を有効または無効にできるようになりました。 に移動します。 [!UICONTROL 一般設定] その後、有効または無効にします [!UICONTROL `Notify Administrator of asset contribution`].
 
+   ![アセット投稿を管理者に通知](assets/notify-admin.png)
+
+* リクエストのアクセスが無効になっている場合、権限のないユーザーはBrand Portalへのアクセスをリクエストできません。
+* Brand Portal用にプロビジョニングされた組織のみが、プロファイルピッカーリストに表示されます。
+
+### 既知の問題 {#known-issues}
+
+このリリースには、次の既知の問題が含まれています。
+
+* アセットソーシングレポートのコンテンツの部分的なローカリゼーション
 
 <!--
-## What's New in 2022.08.0 {#whats-new-in-2022.08.0}
-
-### Critical Issues Fixed {#critical-issues-fixed}
-
-This release includes fixes to the following critical issues:
-
-* When Asset Compute fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
+This release include fixes to the following critical issues:
+* When NUI fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
 * When the preview action fails, there is no notification to communicate the failure.
-* Tenant Upload Quota property is getting inaccurately set for tenants.
+* Inaccurate value for the totalUploadedSize property for each asset is fixed.
 * When you click **Download all items** and there are large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.
 * The translation of some strings gets truncated on the Brand Portal user interface.
 -->
@@ -153,7 +157,7 @@ This release includes fixes to the following critical issues:
 
 * Issues while downloading video assets from certain folders available on Brand Portal.
 
-* When you share the Contribution folder's URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
+* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
 * Sourcing published report displays an incorrect job start time.
 >
@@ -179,14 +183,6 @@ In case only the original assets are downloaded, the asset reflects its own exte
 * Inconsistent behavior is experienced when an asset (thumbnail or web rendition) is downloaded using share link.
 
 See [what's new in Brand Portal 2021.02.0](whats-new.md).
--->
-
-<!--
-### Known Issues {#known-issues}
-
-This release includes the following known issue:
-
-* Partial localization in Asset sourcing report content
 -->
 
 <!--

@@ -1,18 +1,18 @@
 ---
 title: Adobe Experience Manager Assets Brand Portal の新機能
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: 2022.10.0 の新機能と機能強化
-seo-description: What are the new features and enhancements for 2022.10.0
+description: 2032.02.0 の新機能と機能強化
+seo-description: What are the new features and enhancements for 2023.02.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
-contentOwner: Vishabh Gupta
+contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: dd0a61f0b7de156fd69fe9e24006c13468b56dbd
-workflow-type: ht
-source-wordcount: '6515'
+source-git-commit: 236204c8bcea7ef8e9f2d4708a65aac88cd77268
+workflow-type: tm+mt
+source-wordcount: '6547'
 ht-degree: 100%
 
 ---
@@ -21,13 +21,17 @@ ht-degree: 100%
 
 Adobe Experience Manager Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。アドビは Brand Portal の全体的なエクスペリエンスの強化に取り組んでいます。以下に、最新機能と機能強化について簡単に紹介します。
 
+## 2023.02.0 の変更点 {#what-changed-in-February-2023}
+
+Brand Portal 2023.02.0 は内部リリースであり、重大な問題の修正が含まれています。最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
+
 ## 2022.10.0 の変更点 {#what-changed-in-October-2022}
 
-Brand Portal 2022.10.0 には、重大な問題に対する修正が含まれています。最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
+Brand Portal 2022.10.0 は内部リリースであり、重大な問題の修正が含まれています。最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
 
 ## 2022.08.0 の変更点 {#what-changed-in-August-2022}
 
-Brand Portal 2022.08.0 には、重大な問題に対する修正が含まれています。最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
+Brand Portal 2022.08.0 は内部リリースであり、重大な問題の修正が含まれています。最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
 
 ## 2022.05.0 の変更点 {#what-changed-in-May-2022}
 
@@ -63,7 +67,7 @@ Brand Portal 2021.08.0 は、エンタープライズユーザーやチームユ
 
 * すべての新規組織および移行後の既存組織にビジネス ID が割り当てられます。
 * ビジネス ID には、ドメインの要求や SSO の設定などの、特定のセットアップは必要ありません。
-* gmail.com や outlook.com などのパブリック電子メールドメインを含む、任意の電子メールアドレスでユーザーを追加できます。
+* gmail.com や outlook.com などのパブリックメールドメインを含む、任意のメールアドレスでユーザーを追加できます。
 
 **Brand Portal ユーザーへの影響**
 
@@ -210,7 +214,7 @@ Brand Portal 2020.10.0 はアセットのダウンロード操作の簡素化に
 
 ### ダウンロード操作の簡素化 {#download-dialog}
 
-以前は、**[!UICONTROL ダウンロード]**&#x200B;ダイアログに複数のオプション（アセットや電子メールアセットごとに別のフォルダーを作成、オリジナルのアセット、カスタムレンディション、動的レンディションを選択、システムレンディションを除外、ダウンロードアクセラレーションを選択など）が表示され、複数のアセットやフォルダーをダウンロード用に選択した場合に、特に技術者以外のユーザーや新規ユーザーにとってわかりにくくなっていました。また、すべてのアセットレンディションを表示したり、特定のカスタムレンディションや動的レンディションを除外したりすることはできません。
+以前は、**[!UICONTROL ダウンロード]**&#x200B;ダイアログに複数のオプション（アセットやメールアセットごとに個別のフォルダーを作成、オリジナルのアセット、カスタムレンディション、動的レンディションを選択、システムレンディションを除外、ダウンロードアクセラレーションを選択など）が表示され、複数のアセットやフォルダーをダウンロード用に選択した場合に、特に技術者以外のユーザーや新規ユーザーにとってわかりにくくなっていました。また、すべてのアセットレンディションを表示したり、特定のカスタムレンディションや動的レンディションを除外したりすることはできません。
 
 新しい&#x200B;**[!UICONTROL ダウンロード]**&#x200B;ダイアログでは、アセットの選択とフィルタリング処理が一般化され、Brand Portal ユーザーがアセットレンディションのダウンロード中に効果的な判断を行いやすくなります。「[**[!UICONTROL ダウンロード]**](brand-portal-download-assets.md)」の構成および「**[!UICONTROL ダウンロード]**」設定に応じて、選択したすべてのアセットとそのレンディションがリストされます。
 
@@ -604,7 +608,7 @@ Brand Portal ユーザーは、IBM Aspera Connect に基づく高速ダウンロ
 
 ユーザーのログインを追跡するための新しいレポートが導入されました。**ユーザーログイン**&#x200B;レポートは、組織が Brand Portal の委任管理者やその他のユーザーを監査および監視するし、目を光らせるのに便利です。
 
-レポートログには、Brand Portal 6.4.2 を導入してからレポート生成時までの各ユーザーの名前、電子メール ID、ペルソナ（管理者、閲覧者、編集者、ゲスト）、グループ、最後のログイン、アクティビティのステータス、およびログイン回数が表示されます。管理者は、レポートを .csv 形式で書き出すことができます。ユーザーログインレポートを他のレポートと併用すれば、組織はユーザーによる承認済みのブランドリソースの操作をより厳しく監視できるので、企業コンプライアンスオフィスへの適合性を確保することができます。
+レポートログには、Brand Portal 6.4.2 を導入してからレポート生成時までの各ユーザーの名前、メール ID、ペルソナ（管理者、閲覧者、エディター、ゲスト）、グループ、最後のログイン、アクティビティのステータス、およびログイン回数が表示されます。管理者は、レポートを .csv 形式で書き出すことができます。ユーザーログインレポートを他のレポートと併用すれば、組織はユーザーによる承認済みのブランドリソースの操作をより厳しく監視できるので、企業コンプライアンスオフィスへの適合性を確保することができます。
 
 ![](assets/user-logins-1.png)
 
@@ -759,7 +763,7 @@ Brand Portal のレポートインターフェイスが、より直観的に使�
 
 ![](assets/public-folder-publish.png)
 
-* Brand Portal へのアクセス権が申請されると、Brand Portal の通知領域に通知が届くほか、アクセス権の申請があったことを知らせる電子メールが管理者に送信されます。
+* Brand Portal へのアクセス権が申請されると、Brand Portal の通知領域に通知が届くほか、アクセス権の申請があったことを知らせるメールが管理者に送信されます。
 
 ## 6.3.2 の変更点 {#what-changed-in-3}
 
