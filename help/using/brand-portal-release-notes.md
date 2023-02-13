@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 666db34a01bd9bb0d6d4967524121cdeb776394d
+source-git-commit: b4efe1d2d5a2e6cf6163f6af9e6d862afbfbb129
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 65%
+source-wordcount: '432'
+ht-degree: 66%
 
 ---
 
@@ -39,7 +39,6 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 #### バグの修正 {#bug-fixes}
 
 このリリースでは、次の重要な問題が修正されています。
-* Brand Portalでプロファイル画像を更新できません。
 * コンテンツツリーウィンドウはサイズ変更できません。 ファイル名がコンテンツツリーのデフォルトの幅より長い場合、コンテンツツリーを水平および垂直にドラッグすることはできません。 その結果、長いファイル名は読み取れなくなります。
 * 検索フォーム内で 2 回使用されているのと同じプロパティの述語に一致しない検索結果が表示される。
 * 中間ログインページのテキストが、すべての言語にローカライズされているわけではありません。
