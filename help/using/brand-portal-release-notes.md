@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: db887c687ae1a5ab68d9dbaf50dab9da82905261
+source-git-commit: 045f82169583cac5d7e85216d82a6afd44d5b5af
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 63%
@@ -43,7 +43,6 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 * コンテンツツリーウィンドウはサイズ変更できません。 ファイル名がコンテンツツリーのデフォルトの幅より長い場合、コンテンツツリーを水平および垂直にドラッグすることはできません。 その結果、長いファイル名は読み取れなくなります。
 * 検索フォーム内で 2 回使用されているのと同じプロパティの述語に一致しない検索結果が表示される。
 * 中間ログインページのテキストが、すべての言語にローカライズされているわけではありません。
-* ユーザープロファイルの一部のフィールドは、次の場所で編集できません： `Edit` プロファイルページ。
 
 ### 機能強化 {#enhancements}
 
@@ -60,7 +59,8 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 このリリースには、次の既知の問題が含まれています。
 
-* アセットソーシングレポートのコンテンツの部分的なローカリゼーション
+* アセットソーシングレポートのコンテンツの部分的なローカリゼーション.
+* ユーザープロファイルの一部のフィールドは、ユーザープロファイルで編集できません。
 
 <!--
 This release include fixes to the following critical issues:
