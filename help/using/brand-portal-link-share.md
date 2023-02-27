@@ -10,10 +10,10 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: ht
-source-wordcount: '967'
-ht-degree: 100%
+source-git-commit: e3e35ad4be5c082ad7bac7bed8ea20a186d245ad
+workflow-type: tm+mt
+source-wordcount: '969'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Experience Manager Assets Brand Portal 管理者は、許可された内�
 
    ![](assets/link-sharing.png)
 
-   * 「電子メールアドレス」ボックスに、リンクを共有するユーザーの電子メール ID を入力します。リンクを複数のユーザーと共有できます。ユーザーが組織のメンバーの場合は、ドロップダウンリストに表示される候補の中から電子メール ID を選択します。外部ユーザーの場合は、電子メール ID を入力し、**[!UICONTROL Enter]** キーを押します。電子メール ID がユーザーの一覧に追加されます。
+   * 「メールアドレス」ボックスに、リンクを共有するユーザーのメール ID を入力します。リンクを複数のユーザーと共有できます。ユーザーが組織のメンバーの場合は、ドロップダウンリストに表示される候補の中から電子メール ID を選択します。外部ユーザーの場合は、メール ID を入力し、**[!UICONTROL Enter]** キーを押します。メール ID がユーザーの一覧に追加されます。
 
       ![](assets/link-sharing-text.png)
 
@@ -56,19 +56,19 @@ Adobe Experience Manager Assets Brand Portal 管理者は、許可された内�
 
    >[!NOTE]
    >
-   >リンクのデフォルトの有効期間は 7 日間です。リンクは、**[!UICONTROL リンク共有]**&#x200B;ダイアログボックスを使用してユーザーに電子メールで送信する必要があります。リンクを別途コピーして共有することはできません。
+   >リンクのデフォルトの有効期間は 7 日間です。リンクは、**[!UICONTROL リンク共有]**&#x200B;ダイアログボックスを使用してユーザーにメールで送信する必要があります。リンクを別途コピーして共有することはできません。
 
-1. 「**[!UICONTROL 共有]**」をクリックします。リンクをユーザーと共有することを確認するメッセージが表示されます。共有リンクを含んだ電子メールがユーザーに届きます。
+1. 「**[!UICONTROL 共有]**」をクリックします。リンクをユーザーと共有することを確認するメッセージが表示されます。共有リンクを含んだメールがユーザーに届きます。
 
    ![](assets/link-share-email.png)
 
    >[!NOTE]
    >
-   >管理者は、[ブランディング](../using/brand-portal-branding.md)機能を使用してロゴ、説明、フッターをカスタマイズするなど、電子メールメッセージをカスタマイズできます。
+   >管理者は、[ブランディング](../using/brand-portal-branding.md)機能を使用してロゴ、説明、フッターをカスタマイズするなど、メールメッセージをカスタマイズできます。
 
 ## 共有リンクからのアセットのダウンロード {#download-assets-from-shared-links}
 
-電子メール内のリンクをクリックして、共有アセットにアクセスします。AEM リンク共有ページが開きます。
+メール内のリンクをクリックして、共有アセットにアクセスします。AEM リンク共有ページが開きます。
 
 共有アセットをダウンロードするには：
 
@@ -103,7 +103,7 @@ Adobe Experience Manager Assets Brand Portal 管理者は、許可された内�
 
 >[!NOTE]
 >
->Brand Portal では、ファイルサイズあたり **1** GB を超えるアセットをリンク共有を使用してダウンロードすることは制限されています。
+>Brand Portalでは、リンク共有を使用した、サイズが 5 GB を超えるフォルダーやアセットのダウンロードは制限されています。
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -196,7 +196,7 @@ Adobe Experience Manager Assets Brand Portal 管理者は、許可された内�
 | ✓ | この機能はサポートされています |
 | ✕ | この機能はサポートされていません |
 | 該当なし | この機能は適用されません |
-| * | この機能を AEM オーサーインスタンスで使用するには、このファイル形式用のアドオンサポートが必要です。ただし、アセットが Brand Portal に公開された後、Brand Portal で使用する際には不要です |
+| &#42; | この機能を AEM オーサーインスタンスで使用するには、このファイル形式用のアドオンサポートが必要です。ただし、アセットが Brand Portal に公開された後、Brand Portal で使用する際には不要です |
 
 ## リンクとして共有されているアセットの共有解除 {#unshare-assets-shared-as-a-link}
 
