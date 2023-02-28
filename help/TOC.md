@@ -58,7 +58,7 @@ ht-degree: 100%
    + [一般的なテナント設定の管理](using/brand-portal-general-configuration.md)
    + [初回のログイン操作](using/brand-portal-onboarding.md)
    + [ユーザー、グループ、ユーザーの役割の管理](using/brand-portal-adding-users.md)
-   + [壁紙、ヘッダーおよび電子メールメッセージのカスタマイズ](using/brand-portal-branding.md)
+   + [壁紙、ヘッダーおよびメールメッセージのカスタマイズ](using/brand-portal-branding.md)
    + [メタデータスキーマフォームの使用](using/brand-portal-metadata-schemas.md)
    + [画像プリセットまたは動的レンディションの適用](using/brand-portal-image-presets.md)
    + [レポートの操作](using/brand-portal-reports.md)
