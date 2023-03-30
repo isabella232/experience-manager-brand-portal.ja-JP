@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 045f82169583cac5d7e85216d82a6afd44d5b5af
-workflow-type: ht
-source-wordcount: '453'
-ht-degree: 100%
+source-git-commit: d5284a2ad62be2a72d168358d86b473257856592
+workflow-type: tm+mt
+source-wordcount: '1047'
+ht-degree: 94%
 
 ---
 
@@ -62,14 +62,72 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 * アセットソーシングレポートのコンテンツの部分的なローカリゼーション。
 * ユーザープロファイルの一部のフィールドは、ユーザープロファイルでは編集できません。
 
-<!--
-This release include fixes to the following critical issues:
-* When NUI fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
-* When the preview action fails, there is no notification to communicate the failure.
-* Inaccurate value for the totalUploadedSize property for each asset is fixed.
-* When you click **Download all items** and there are large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.
-* The translation of some strings gets truncated on the Brand Portal user interface.
--->
+## 以前のリリース
+
+### 2022年10月リリース {#oct-2022}
+
+**修正された重大な問題**
+
+このリリースでは、次の重大な問題が修正されています。
+* 大きなファイルを Brand Portal からサードパーティ製ツールにコピーする際、応答時間が遅い。
+* 「レンディション数」チェックボックスを選択すると、個々のレンディションを選択するためのチェックボックスが無効になる。
+* 検索の応答時間が遅い。
+
+>[!IMPORTANT]
+>
+>AEM Assets Brand Portal の Pulse 通知は、2022年12月1日（PT）以降停止されます。Pulse 通知の代わりに、次のイベントに関するメール通知を引き続き受信できます。
+>* リンクを介したアセットの共有
+>* アクセスワークフローのリクエスト
+>* 投稿フォルダーの共有
+>* AEM への書き出しの開始
+>* AEM への書き出しが完了しました
+>
+
+
+### 2022年8月リリース {#aug-2022}
+
+**修正された重大な問題**
+
+このリリースでは、次の重大な問題が修正されています。
+* NUI で Experience Manager 内のアセットを処理できない場合は、Brand Portal に表示されるアセットのインポートステータスが不正確になります。
+* プレビューアクションが失敗した場合でも、失敗を知らせる通知はありません。
+* 各アセットの totalUploadedSize プロパティの不正確な値が修正されました。
+* アセットに使用できるレンディションが多数ある場合に&#x200B;**すべての項目をダウンロード**&#x200B;すると、Brand Portal でダウンロードされる .ZIP ファイルが無効です。
+* Brand Portal ユーザーインターフェイスで、一部の文字列の翻訳が切り詰められます。
+
+### 2022 年 5 月リリース {#may-2022}
+
+**新機能**
+
+Brand Portal では、12 時間ごとに自動ジョブを実行して、AEM に公開されているすべての Brand Portal アセットを削除するようになりました。その結果、投稿フォルダー内のアセットを手動で削除して、フォルダーサイズをしきい値の制限以下に保つ必要がなくなりました。 
+
+**修正された重大な問題**
+
+このリリースでは、次の重要な問題が修正されています。
+
+* カラータグが付いたアセットを含むフォルダーまたはコレクションをダウンロードすると、XML ファイルもダウンロードされる。
+* レンディションを含むビデオをダウンロードすると、Brand Portal によって無効な .ZIP ファイルが作成される。
+* AEMの作成者でプリセットとアセットを作成し、Brand Portalに公開して、アセットのダウンロード中に動的レンディションを選択した場合は、ダウンロードした.ZIP ファイルを抽出できません。
+* Brand Portal で使用可能な特定のフォルダーからビデオアセットをダウンロードする際の問題。
+* メールを使用して投稿フォルダーの URL を共有すると、閲覧者と編集者の役割を持つユーザーがパンくずリストを使用して親フォルダーにアクセスする際に問題が発生する。
+* 公開されたレポートをソーシングすると、誤ったジョブ開始時刻が表示される。
+
+### 2022 年 2 月リリース {#feb-2022}
+
+**新機能**
+
+* ゲストユーザーのセッションタイムアウトのしきい値が 2 時間から 15 分に短縮されました。
+* ユーザーがAdobe Document Cloud ビューアから PDF ページを表示できるようになったため、複数ページの PDF に対する追加の「**[!UICONTROL ページの表示]**」オプションは削除されました。
+* ユーザーがフォルダーを検索、移動または開くことができません。「`Failed to load data`」というエラーメッセージがユーザーインターフェイスに表示されます。
+* Brand Portal に公開されているアセットの静的レンディションの一部が&#x200B;**[!UICONTROL レンディション]**&#x200B;パネルに一覧表示されません。
+* **[!UICONTROL レンディション]**&#x200B;パネルには、アセットのスマート切り抜きレンディションが一覧表示されますが、ユーザーがスマート切り抜きレンディションをプレビューまたはダウンロードできません。
+* ダウンロードダイアログには、選択したアセットのスマート切り抜きレンディションが一覧表示されますが、ユーザーがスマート切り抜きレンディションをダウンロードできません。
+* 管理者以外のユーザーは、アセットのダウンロード時に元のアセットレンディションのみ取得します。システムレンディションとカスタムレンディションはダウンロードされません。
+* 検索フィルターを適用してアセットをダウンロードする際に、ダウンロードダイアログで「`Download`」ボタンが無効になっているので、ユーザーがアセットをダウンロードできません。
+* `Smart Tags` および（または）`Color Tags` が有効な場合、ダウンロードダイアログに `json` ファイルがレンディションとして一覧表示され、アーカイブされた zip フォルダーにこれらの `json` ファイルがダウンロードされます。
+* 共有リンクが Brand Portal のログインページにリダイレクトされるので、匿名ユーザーが共有リンクを使用してアセットをダウンロードできません。
+* アクティブな同時使用ユーザー数の正しい値がシステムに表示されません。
+
 <!--
 ### New Features {#new-features}
 
@@ -235,7 +293,7 @@ This release includes the following known issues:
 
 ## 言語 {#languages}
 
-Brand Portal ユーザーインターフェイスは次の言語で使用できます。
+Brand Portalのユーザーインターフェイスは、次の言語で使用できます。
 
 * 英語
 * ドイツ語
