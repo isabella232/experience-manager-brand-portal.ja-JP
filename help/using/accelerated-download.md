@@ -119,7 +119,8 @@ Brand Portal より早くアセットをダウンロードするには：
    IBM® Aspera Connect を使用しない場合は、「**[!UICONTROL 拒否]**」をクリックします。「**[!UICONTROL 高速ダウンロード]**」が拒否された場合や失敗した場合は、エラーメッセージが表示されます。「**[!UICONTROL 通常のダウンロード]**」ボタンをクリックして、アセットのダウンロードを続行します。
 
 >[!NOTE]
-管理者が「**[!UICONTROL 高速ダウンロード]**」設定をオフにした場合、選択したレンディションは、IBM® Aspera Connect を使用せずに、zip フォルダーに直接ダウンロードされます。
+>
+>管理者が「**[!UICONTROL 高速ダウンロード]**」設定をオフにした場合、選択したレンディションは、IBM® Aspera Connect を使用せずに、zip フォルダーに直接ダウンロードされます。
 
 <!-- 
 On successful completion of the download, a dialog box shows the location where assets are downloaded onto the user's system. If there is a failure, it shows error.
