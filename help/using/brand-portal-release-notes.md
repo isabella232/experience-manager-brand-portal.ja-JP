@@ -1,8 +1,8 @@
 ---
 title: リリースノート
 seo-title: Release Notes
-description: Adobe Experience Manager Assets Brand Portal 2023.02.0 リリースの機能、機能強化、修正された重大な問題および既知の問題について説明します。
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.02.0 release.
+description: Adobe Experience Manager Assets Brand Portal 2023.05.0 リリースの機能、機能強化、修正された重大な問題および既知の問題について説明します。
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.05.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
@@ -10,33 +10,50 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: d5284a2ad62be2a72d168358d86b473257856592
-workflow-type: ht
-source-wordcount: '1047'
-ht-degree: 100%
+source-git-commit: 78168800e22dc1bd18d77b958d1dec4892dc4d2d
+workflow-type: tm+mt
+source-wordcount: '1125'
+ht-degree: 96%
 
 ---
 
 # リリースノート {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 2023.02.0 リリースの新機能、機能強化、修正された重大な問題および既知の問題について説明します。
+Adobe Experience Manager Assets Brand Portal 2023.05.0 リリースの新機能、機能強化、修正された重大な問題および既知の問題について説明します。
 
 ## リリース情報 {#release-information}
 
 | 製品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| バージョン | 2023.02.0 |
-| 日付 | 2023年2月 |
+| バージョン | 2023.05.0 |
+| 日付 | 2023年5月 |
 
 ## 概要 {#overview}
 
 Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを軽減できます。Brand Portal では、アセットの参照、検索、プレビュー、ダウンロードおよび会社で承認された形式でのエクスポートを、いつでも、どこでも実行できます。
 
-## 2023.02.0 の新機能 {#whats-new-in-2023.02.0}
+## 2023.05.0 の新機能 {#whats-new-in-2023.05.0}
 
 ### 修正された重大な問題 {#critical-issues-fixed}
 
 #### バグの修正 {#bug-fixes}
+
+このリリースでは、次の重要な問題が修正されています。
+* 共有リンクからアセットをダウンロード中にエラーが発生した場合、 `Notice` および `Close` エラープロンプトのラベルがローカライズされていません。
+* Brand Portalディスプレイ **リクエストヘッダーフィールドが大きすぎます** 次を使用して検索フィルターにアクセス中にエラーが発生しました： `Filter` ウィンドウ
+
+### 既知の問題 {#known-issues}
+
+このリリースには、次の既知の問題が含まれています。
+
+* アセットソーシングレポートのコンテンツの部分的なローカリゼーション。
+* ユーザープロファイルの一部のフィールドは、ユーザープロファイルでは編集できません。
+
+## 以前のリリース
+
+### 2023年2月リリース {#feb-2023}
+
+**バグ修正**
 
 このリリースでは、次の重要な問題が修正されています。
 * Brand Portal でプロファイル画像を更新できません。
@@ -44,7 +61,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 * 検索フォーム内で 2 回使用されているのと同じプロパティの述語で、一致しない検索結果が表示される。
 * 一部の言語では、中間ログインページのテキストがローカライズされていません。
 
-### 機能強化 {#enhancements}
+**機能強化**
 
 このリリースで強化された機能は次のとおりです。
 * PDF アセットのプレビューが改善された、最新の PDF ビューアを利用できるようになりました。
@@ -55,14 +72,12 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 * アクセスのリクエストが無効になっている場合、権限のないユーザーは Brand Portal へのアクセスをリクエストできません。
 * Brand Portal 用にプロビジョニングされた組織のみが、プロファイルピッカーリストに表示されます。
 
-### 既知の問題 {#known-issues}
+**既知の問題**
 
 このリリースには、次の既知の問題が含まれています。
 
 * アセットソーシングレポートのコンテンツの部分的なローカリゼーション。
 * ユーザープロファイルの一部のフィールドは、ユーザープロファイルでは編集できません。
-
-## 以前のリリース
 
 ### 2022年10月リリース {#oct-2022}
 

@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 role: Admin
 exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
-source-git-commit: 5503a34f4896816bf991216b457cd824707ae5ed
-workflow-type: ht
-source-wordcount: '421'
+source-git-commit: 454b05c05359a2068cc29124f826d5bd25a1bad1
+workflow-type: tm+mt
+source-wordcount: '372'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ Adobe Experience Manager Assets と Brand Portal の連携を設定すると、B
 Experience Manager Assets と Brand Portal の連携の設定は、次のバージョンでサポートされています。
 
 * Experience Manager Assets as a Cloud Service
-* Experience Manager Assets（オンプレミス版および Managed Services 版）6.3 以降
+* Experience Manager Assets（オンプレミス版および Managed Services 版）6.5 以降
 
 Cloud Manager から Brand Portal をアクティベートすると、Experience Manager Assets as a Cloud Service と Brand Portal の連携が自動的に設定されます。アクティベーションワークフローにより、バックエンドで必要な設定が作成され、Experience Manager Assets as a Cloud Service インスタンスと同じ IMS 組織に Brand Portal がアクティベートされます。
 
@@ -33,7 +33,7 @@ Cloud Manager から Brand Portal をアクティベートすると、Experience
 
 >[!NOTE]
 >
->***Experience Manager Assets 6.3 以降の場合***
+>***Experience Manager Assets 6.5 以降の場合***
 >
 >これまで、Brand Portal は、旧来の OAuth ゲートウェイを通じてクラシックインターフェイスで設定されていました。このゲートウェイは、JSON Web トークン（JWT）交換を使用して認証用の IMS トークンを取得します。
 >
@@ -54,6 +54,3 @@ AEM Assets と Brand Portal の連携を設定する手順は、AEM のバージ
 |---|---|---|
 | **AEM Assets as a Cloud Service** | [Brand Portal のライセンス認証](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=ja) | - |
 | **AEM 6.5（6.5.4.0 以降）** | [設定の作成](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=ja) | [設定のアップグレード](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=ja#upgrade-integration-65) |
-| **AEM 6.4（6.4.8.0 以降）** | [設定の作成](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=ja) | [設定のアップグレード](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=ja#upgrade-integration-64) |
-| **AEM 6.3（6.3.3.8 以降）** | [設定の作成](https://helpx.adobe.com/jp/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [設定のアップグレード](https://helpx.adobe.com/jp/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
-| **AEM 6.2** | カスタマーサポートに連絡 | カスタマーサポートに連絡 |
