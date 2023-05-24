@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: 8924ff9c78c065895dd0f8d1099a5488b34a34e2
-workflow-type: ht
+source-git-commit: f56918ea8eb14ba04b7e141f4f1cae318e532512
+workflow-type: tm+mt
 source-wordcount: '1250'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 100%
 Dynamic Media をサポートしている Brand Portal でビデオをアダプティブにプレビューおよび再生します。また、ポータルおよび共有リンクから動的レンディションをダウンロードします。
 Brand Portal を使用すると、次のことが可能になります。
 
-* アセットの詳細ページ、カード表示、リンク共有のプレビューページでビデオをプレビューする。
-* アセットの詳細ページでビデオエンコードを再生する。
+* アセットの詳細ページ、カード表示およびリンク共有のプレビューページでビデオをプレビューします。
+* アセットの詳細ページでビデオエンコードを再生します。
 * アセットの詳細ページの「レンディション」タブで動的レンディションを表示する。
-* ビデオを格納したフォルダーとビデオエンコードをダウンロードする。
+* ビデオエンコードおよびビデオを含むフォルダーをダウンロードします。
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Dynamic Media 設定（[ハイブリッド](../using/dynamic-video-brand-portal.
 
 >[!NOTE]
 >
->Brand Portal では、ビデオビューアとビューアプリセットはサポートされません。ビデオは Brand Portal のデフォルトのビューアでプレビューおよび再生されます。
+>Brand Portalでは、ビデオビューアとビューアプリセットはサポートされていません。 ビデオはBrand Portalのデフォルトのビューアでプレビューおよび再生されます。
 
 ## 前提条件 {#prerequisites}
 
@@ -82,7 +82,7 @@ Dynamic Media - **[!UICONTROL Scene7]** モードで設定した Experience Mana
 
 ## ベストプラクティス
 
-ダイナミックビデオアセットが Brand Portal（および共有リンク）から正常にプレビュー、再生、ダウンロードされるようにするには、次のベストプラクティスに従います。
+ダイナミックビデオアセットがBrand Portal（および共有リンク）から正常にプレビュー、再生、ダウンロードされるようにするには、次のベストプラクティスに従います。
 
 ### Dynamic Media - Scene7 と Dynamic Media - ハイブリッドモードで別々のテナント {#separate-tenants}
 
@@ -99,7 +99,7 @@ Brand Portal と **[!UICONTROL Experience Manager クラウド設定]**&#x200B;�
 * **[!UICONTROL 登録 ID]**
 * **[!UICONTROL Dynamic Media - ハイブリッドモード]**&#x200B;での&#x200B;**[!UICONTROL ビデオサービス URL]**
 * **[!UICONTROL タイトル]**
-* 資格情報（**[!UICONTROL 電子メール]**&#x200B;およびパスワード）
+* 資格情報（**[!UICONTROL メール]**&#x200B;およびパスワード）
 * **[!UICONTROL 地域]**
 * Dynamic Media - **[!DNL Scene7]** モードでの&#x200B;**[!UICONTROL 会社情報]**
 
@@ -112,8 +112,8 @@ Dynamic Media **[!UICONTROL Scene7]**（[セキュアプレビューが有効](h
 
 | **地域** | **エグレス IP** |
 |--- |--- |
-| 該当なし | 130.248.160.66、52.151.32.108 |
-| EMEA | 185.34.189.1 |
+| 該当なし | 130.248.160.66, 20.94.203.130 |
+| EMEA | 51.132.146.75, 130.248.244.202, 130.248.244.203, 130.248.244.204, 130.248.244.210, 130.248.244.211, 130.248.244.212 |
 | APAC | 63.140.44.54 |
 
 ## Dynamic Media ハイブリッドの設定 {#configure-dm-hybrid-settings}
@@ -157,7 +157,7 @@ Brand Portal テナントで Dynamic Media **[!UICONTROL Scene7]** 設定をセ�
 3. 以下を指定します。
 
    * **[!UICONTROL タイトル]**
-   * Scene7 サーバーにアクセスするための認証情報（**[!UICONTROL 電子メール ID]** と&#x200B;**[!UICONTROL パスワード]**）
+   * Scene7 サーバーにアクセスするための認証情報（**[!UICONTROL メール ID]** と&#x200B;**[!UICONTROL パスワード]**）
    * **[!UICONTROL 地域]**
 
    これらの値が、Experience Manager オーサーインスタンスにある値と同じであることを確認してください。
