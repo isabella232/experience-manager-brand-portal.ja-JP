@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 78168800e22dc1bd18d77b958d1dec4892dc4d2d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1125'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,8 +39,8 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 #### バグの修正 {#bug-fixes}
 
 このリリースでは、次の重要な問題が修正されています。
-* 共有リンクからアセットをダウンロード中にエラーが発生した場合、 `Notice` および `Close` エラープロンプトのラベルがローカライズされていません。
-* Brand Portalディスプレイ **リクエストヘッダーフィールドが大きすぎます** 次を使用して検索フィルターにアクセス中にエラーが発生しました： `Filter` ウィンドウ
+* 共有リンクからアセットのダウンロード中にエラーが発生した場合、エラープロンプトの `Notice` および `Close` ラベルがローカライズされない。
+* Brand Portal で、`Filter` パネルを使用して検索フィルターにアクセスすると、**リクエストヘッダーフィールドが大きすぎる**&#x200B;というエラーが表示される。
 
 ### 既知の問題 {#known-issues}
 
