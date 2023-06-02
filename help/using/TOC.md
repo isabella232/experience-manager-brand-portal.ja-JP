@@ -10,8 +10,8 @@ feature: Brand Portal
 role: User
 source-git-commit: 3ef765c6b6127c1f3f19d27ee1fd74fbe2dc52af
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '277'
+ht-degree: 100%
 
 ---
 
