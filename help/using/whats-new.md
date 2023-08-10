@@ -1,8 +1,8 @@
 ---
 title: Adobe Experience Manager Assets Brand Portal の新機能
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: 2032.05.0 の新機能と機能強化
-seo-description: What are the new features and enhancements for 2023.05.0
+description: 2032.08.0 の新機能と機能強化
+seo-description: What are the new features and enhancements for 2023.08.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: aa19fec62efc31d24b75f87ebc8e07200df7f11e
+source-git-commit: eba7cce4bb2b27c149c95774206a4bb014d3749d
 workflow-type: tm+mt
-source-wordcount: '6514'
+source-wordcount: '6536'
 ht-degree: 100%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 100%
 # Adobe Experience Manager Assets Brand Portal の新機能 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。アドビは Brand Portal の全体的なエクスペリエンスの強化に取り組んでいます。以下に、最新機能と機能強化について簡単に紹介します。
+
+## 2023.08.0 の変更点 {#what-changed-in-August-2023}
+
+Brand Portal 2023.08.0 は内部リリースであり、重大な問題の修正が含まれています。最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
 
 ## 2023.05.0 の変更点 {#what-changed-in-May-2023}
 
@@ -501,7 +505,7 @@ Brand Portal 6.4.3 リリースでは、様々な機能が強化されていま�
 
 ![](assets/enabled-hierarchy1-2.png)
 
-共有フォルダーは、仮想フォルダー内の各ディレクトリ内で整理されます。仮想フォルダーには鍵のアイコンが付きます。
+共有フォルダーは、仮想フォルダー内のそれぞれのディレクトリ内で整理されます。仮想フォルダーには鍵のアイコンが付きます。
 
 最初の共有フォルダーのサムネール画像が仮想フォルダーのデフォルトのサムネールになります。
 
@@ -516,7 +520,7 @@ Brand Portal 6.4.3 リリースでは、様々な機能が強化されていま�
 * 管理者は、パスブラウザーを使用して、Brand Portal 上の任意のフォルダーディレクトリへ移動できます。
 * 管理者以外のユーザーは、パスブラウザーを使用して、自身に共有されているフォルダーへのみ移動できます（さらに、その親フォルダーへと階層をさかのぼることができます）。
 
-   例えば、`/content/dam/mac/<tenant-id>/folderA/folderB/folderC` が管理者以外のユーザーと共有されているとします。このユーザーは、パスブラウザーを使用して、folderC 内のアセットを検索できます。このユーザーは、folderB や folderA に移動することもできます（ユーザーと共有されている folderC の上位層だからです）。
+  例えば、`/content/dam/mac/<tenant-id>/folderA/folderB/folderC` が管理者以外のユーザーと共有されているとします。このユーザーは、パスブラウザーを使用して、folderC 内のアセットを検索できます。このユーザーは、folderB や folderA に移動することもできます（ユーザーと共有されている folderC の上位層だからです）。
 
 ![](assets/edit-search-form.png)
 
@@ -542,7 +546,7 @@ Dynamic Media ハイブリッドモードの AEM オーサーインスタンス�
 * アセットのカード表示
 * リンク共有のプレビューページ
 
-ダイナミックメディアビデオエンコードは以下の場所からダウンロードできます。
+Dynamic Media ビデオのエンコードは、次の場所からダウンロードできます。
 
 * Brand Portal
 * 共有リンク
@@ -591,7 +595,7 @@ Brand Portal 6.4.2 リリースでは、組織のアセット配布ニーズに�
 
 ![](assets/bp-login-screen-1.png)
 
-AEM Brand Portal は、ゲストによるポータルへのアクセスを許可します。ゲストユーザーは資格情報がなくてもポータルに入ることができます。また、すべての公開フォルダーおよび公開コレクションにアクセスしたり、それらをダウンロードしたりすることができます。ゲストユーザーは Lightbox（非公開コレクション）にアセットを追加したり、Lightbox からアセットをダウンロードしたりすることができます。また、管理者によって定められたスマートタグ検索や検索用述語を表示することもできます。ゲストセッションでは、ユーザーはコレクションや保存済みの検索を作成または共有したり、フォルダーやコレクションの設定にアクセスしたり、アセットをリンクとして共有したりすることはできません。
+AEM Brand Portal を使用すると、ゲストがポータルにアクセスできます。ゲストユーザーは資格情報がなくてもポータルに入ることができます。また、すべての公開フォルダーおよび公開コレクションにアクセスしたり、それらをダウンロードしたりすることができます。ゲストユーザーは Lightbox（非公開コレクション）にアセットを追加したり、Lightbox からアセットをダウンロードしたりすることができます。また、管理者によって定められたスマートタグ検索や検索用述語を表示することもできます。ゲストセッションでは、ユーザーはコレクションや保存済みの検索を作成または共有したり、フォルダーやコレクションの設定にアクセスしたり、アセットをリンクとして共有したりすることはできません。
 
 組織では、複数の同時ゲストセッションが許可されます（同時ゲストセッションの数は、組織あたりの合計ユーザークォータの 10％に制限されます）。
 

@@ -1,8 +1,8 @@
 ---
 title: リリースノート
 seo-title: Release Notes
-description: Adobe Experience Manager Assets Brand Portal 2023.05.0 リリースの機能、機能強化、修正された重大な問題および既知の問題について説明します。
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.05.0 release.
+description: Adobe Experience Manager Assets Brand Portal 2023.08.0 リリースの機能、機能強化、修正された重大な問題および既知の問題について説明します。
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
@@ -10,64 +10,81 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 78168800e22dc1bd18d77b958d1dec4892dc4d2d
-workflow-type: ht
-source-wordcount: '1125'
-ht-degree: 100%
+source-git-commit: 3b46e53ea29c498d3884a88b7532bb64d854f2a4
+workflow-type: tm+mt
+source-wordcount: '1214'
+ht-degree: 88%
 
 ---
 
 # リリースノート {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 2023.05.0 リリースの新機能、機能強化、修正された重大な問題および既知の問題について説明します。
+Adobe Experience Manager Assets Brand Portal 2023.08.0 リリースの新機能、機能強化、修正された重大な問題および既知の問題について説明します。
 
 ## リリース情報 {#release-information}
 
 | 製品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| バージョン | 2023.05.0 |
-| 日付 | 2023年5月 |
+| バージョン | 2023.08.0 |
+| 日付 | 2023年8月 |
 
 ## 概要 {#overview}
 
 Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを軽減できます。Brand Portal では、アセットの参照、検索、プレビュー、ダウンロードおよび会社で承認された形式でのエクスポートを、いつでも、どこでも実行できます。
 
-## 2023.05.0 の新機能 {#whats-new-in-2023.05.0}
+## 2023.08.0 の新機能 {#whats-new-in-2023.08.0}
 
 ### 修正された重大な問題 {#critical-issues-fixed}
 
-#### バグの修正 {#bug-fixes}
+#### バグの修正 および機能強化 {#bug-fixes-enhancements}
 
+このリリースには、次の機能強化の修正が含まれています。
+
+* 上でアセットを読み込む際のパフォーマンスの向上 [!UICONTROL ダウンロード] ポップアップ。
+* アセットまたはアセットのレンディションをダウンロードする際、zip ファイルではなく、元のファイルタイプ形式でダウンロードされるようになりました。
+
+このリリースには、次のバグ修正が含まれています。
+
+* 長いラベルまたはタグは、検索フィルターに対しては適切に表示されません。
+* ダウンロードダイアログに長いレンディション名を表示できない。
+* カード表示でビデオアセットをプレビューできません。
+
+
+## 以前のリリース
+
+### 2023年5月リリース {#may-2023}
+
+**バグの修正**
 このリリースでは、次の重要な問題が修正されています。
+
 * 共有リンクからアセットのダウンロード中にエラーが発生した場合、エラープロンプトの `Notice` および `Close` ラベルがローカライズされない。
 * Brand Portal で、`Filter` パネルを使用して検索フィルターにアクセスすると、**リクエストヘッダーフィールドが大きすぎる**&#x200B;というエラーが表示される。
 
-### 既知の問題 {#known-issues}
-
+**既知の問題**
 このリリースには、次の既知の問題が含まれています。
 
 * アセットソーシングレポートのコンテンツの部分的なローカリゼーション。
 * ユーザープロファイルの一部のフィールドは、ユーザープロファイルでは編集できません。
-
-## 以前のリリース
 
 ### 2023年2月リリース {#feb-2023}
 
 **バグ修正**
 
 このリリースでは、次の重要な問題が修正されています。
+
 * Brand Portal でプロファイル画像を更新できません。
 * コンテンツツリーパネルはサイズ変更できません。 ファイル名がコンテンツツリーのデフォルトの幅より長い場合、コンテンツツリーを水平および垂直にドラッグすることはできません。 その結果、長いファイル名は読み取れなくなります。
 * 検索フォーム内で 2 回使用されているのと同じプロパティの述語で、一致しない検索結果が表示される。
-* 一部の言語では、中間ログインページのテキストがローカライズされていません。
+* 中間ログインページのテキストが、すべての言語にローカライズされているわけではありません。
 
 **機能強化**
 
 このリリースで強化された機能は次のとおりです。
+
 * PDF アセットのプレビューが改善された、最新の PDF ビューアを利用できるようになりました。
 * 管理者向けのアセットソーシング通知を有効または無効にできるようになりました。 「[!UICONTROL 一般設定]」に移動してから、[!UICONTROL `Notify Administrator of asset contribution`] を有効または無効にします。
 
-   ![管理者にアセットの投稿を通知](assets/notify-admin.png)
+  ![管理者にアセットの投稿を通知](assets/notify-admin.png)
 
 * アクセスのリクエストが無効になっている場合、権限のないユーザーは Brand Portal へのアクセスをリクエストできません。
 * Brand Portal 用にプロビジョニングされた組織のみが、プロファイルピッカーリストに表示されます。
@@ -84,6 +101,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 **修正された重大な問題**
 
 このリリースでは、次の重大な問題が修正されています。
+
 * 大きなファイルを Brand Portal からサードパーティ製ツールにコピーする際、応答時間が遅い。
 * 「レンディション数」チェックボックスを選択すると、個々のレンディションを選択するためのチェックボックスが無効になる。
 * 検索の応答時間が遅い。
@@ -98,12 +116,12 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 >* AEM への書き出しが完了しました
 >
 
-
 ### 2022年8月リリース {#aug-2022}
 
 **修正された重大な問題**
 
 このリリースでは、次の重大な問題が修正されています。
+
 * NUI で Experience Manager 内のアセットを処理できない場合は、Brand Portal に表示されるアセットのインポートステータスが不正確になります。
 * プレビューアクションが失敗した場合でも、失敗を知らせる通知はありません。
 * 各アセットの totalUploadedSize プロパティの不正確な値が修正されました。
@@ -124,7 +142,7 @@ Brand Portal では、12 時間ごとに自動ジョブを実行して、AEM に
 * レンディションを含むビデオをダウンロードすると、Brand Portal によって無効な .ZIP ファイルが作成される。
 * AEM オーサーでプリセットとアセットを作成し、Brand Portal に公開してから、アセットのダウンロード中に動的レンディションを選択すると、ダウンロードした .ZIP ファイルを抽出できなくなる。
 * Brand Portal で使用可能な特定のフォルダーからビデオアセットをダウンロードする際の問題。
-* メールを使用して投稿フォルダーの URL を共有すると、閲覧者と編集者の役割を持つユーザーがパンくずリストを使用して親フォルダーにアクセスする際に問題が発生する。
+* 電子メールを使用して投稿フォルダーの URL を共有すると、閲覧者と編集者の役割は、パンくずリストを使用して親フォルダーにアクセスする際に問題を抱えます。
 * 公開されたレポートをソーシングすると、誤ったジョブ開始時刻が表示される。
 
 ### 2022年2月リリース {#feb-2022}
@@ -231,7 +249,7 @@ This release includes fixes to the following critical issues:
 
 * Issues while downloading video assets from certain folders available on Brand Portal.
 
-* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
+* When you share the Contribution folder's URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
 * Sourcing published report displays an incorrect job start time.
 >
