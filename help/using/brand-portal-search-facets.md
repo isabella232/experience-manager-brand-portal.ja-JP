@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 85271973e36cb53bd2feac731690b86c43a397a9
+source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 95%
+source-wordcount: '1312'
+ht-degree: 92%
 
 ---
 
@@ -68,7 +68,7 @@ Brand Portal では[ファセット検索](../using/brand-portal-searching.md#se
    >
    >「**[!UICONTROL 部分検索]**」チェックボックスを選択すると、デフォルトで「**[!UICONTROL 大文字と小文字を区別しない]**」がオンになります。
 
-1. 「**[!UICONTROL プロパティ名]**」フィールドで、プロパティピッカーを開き、検索に使用するプロパティを選択します。または、プロパティの名前を入力します。例えば、`  jcr :content/metadata/dc:title` や `./jcr:content/metadata/dc:title` を入力します。
+1. 「**[!UICONTROL プロパティ名]**」フィールドで、プロパティピッカーを開き、検索に使用するプロパティを選択します。または、プロパティの名前を入力します。例えば、`jcr :content/metadata/dc:title` や `./jcr:content/metadata/dc:title` を入力します。
 
    >[!NOTE]
    >
@@ -111,7 +111,8 @@ Brand Portal では[ファセット検索](../using/brand-portal-searching.md#se
 
 >[!NOTE]
 >
->次を使用しない **[!UICONTROL オプションの述語]**, **[!UICONTROL 公開ステータスの述語]**、および **[!UICONTROL 評価の述語]** これらの述語はBrand Portalでは機能しません。
+>* 次を使用しない **[!UICONTROL オプションの述語]**, **[!UICONTROL 公開ステータスの述語]**、および **[!UICONTROL 評価の述語]** これらの述語はBrand Portalでは機能しません。
+>* フォルダータイプの述語 `(nt:folder type)` はBrand Portalでサポートされていないので、パフォーマンスの問題が発生する可能性があります。 公開済みのカスタム検索フォームに存在する場合は、検索フォームを編集することで削除できます。
 
 ## 検索用述語の削除 {#delete-a-search-predicate}
 
