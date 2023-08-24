@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: ddca484ae2af6e24f89072270f876104a81a9025
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1210'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
