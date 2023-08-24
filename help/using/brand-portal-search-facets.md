@@ -11,9 +11,9 @@ discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
 source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1312'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Brand Portal では[ファセット検索](../using/brand-portal-searching.md#se
 
    >[!NOTE]
    >
-   >Brand Portalでは、で始まる文字列プロパティを除く、すべての文字列プロパティ。 `xmp`) `jcrcontent/metadata` / `dam:asset` は、デフォルトでインデックス付けされます。
+   >Brand Portal では、`dam:asset` の `jcrcontent/metadata` にあるすべての文字列プロパティ（`xmp` で始まるものを除く）にデフォルトでインデックスが作成されます。
    >
    >プロパティの述語を作成する際は、インデックスが作成された任意のプロパティを使用できます。インデックスが作成されていないプロパティが設定されている場合、インデックスが作成されていないプロパティに対して検索クエリを実行しても検索結果が得られない可能性があります。
 
@@ -102,7 +102,7 @@ Brand Portal では[ファセット検索](../using/brand-portal-searching.md#se
 | **[!UICONTROL 日付]** | 日付プロパティに基づいて、スライダーを使用してアセットを検索するための検索用述語。 | <ul><li>フィールドラベル</li><li>プロパティ名</li><li>説明</li></ul> |
 | **[!UICONTROL ファイルサイズ]** | サイズに基づいてアセットを検索するための検索用述語。 | <ul><li>フィールドラベル</li><li>プロパティ名</li><li>パス</li><li>説明</li></ul> |
 | **[!UICONTROL 最終変更アセット]** | 最終変更日に基づいてアセットを検索するための検索用述語。 | <ul><li>フィールドラベル</li><li>プロパティ名</li><li>説明</li></ul> |
-| **[!UICONTROL 承認ステータス]** | 承認メタデータプロパティに基づいてアセットを検索するための検索用述語。 デフォルトのプロパティ名はです。 **dam:status**. | <ul><li>フィールドラベル</li><li>プロパティ名</li><li>説明</li></ul> |
+| **[!UICONTROL 承認ステータス]** | 承認メタデータプロパティに基づいてアセットを検索するための検索用述語。デフォルトのプロパティ名は **dam:status** です。 | <ul><li>フィールドラベル</li><li>プロパティ名</li><li>説明</li></ul> |
 | **[!UICONTROL チェックアウトステータス]** | アセットが AEM Assets から公開されたときのチェックアウトステータスに基づいてアセットを検索するための検索用述語。 | <ul><li>フィールドラベル</li><li>プロパティ名</li><li>説明</li></ul> |
 | **[!UICONTROL チェックアウト実行者]** | アセットをチェックアウトしたユーザーに基づいてアセットを検索するための検索用述語。 | <ul><li>フィールドラベル</li><li>プロパティ名</li><li>説明</li></ul> |
 | **[!UICONTROL 有効期限ステータス]** | 有効期限ステータスに基づいてアセットを検索するための検索用述語。 | <ul><li>フィールドラベル</li><li>プロパティ名</li><li>説明</li></ul> |
@@ -111,8 +111,8 @@ Brand Portal では[ファセット検索](../using/brand-portal-searching.md#se
 
 >[!NOTE]
 >
->* 次を使用しない **[!UICONTROL オプションの述語]**, **[!UICONTROL 公開ステータスの述語]**、および **[!UICONTROL 評価の述語]** これらの述語はBrand Portalでは機能しません。
->* フォルダータイプの述語 `(nt:folder type)` はBrand Portalでサポートされていないので、パフォーマンスの問題が発生する可能性があります。 公開済みのカスタム検索フォームに存在する場合は、検索フォームを編集することで削除できます。
+>* 「**[!UICONTROL オプションの述語]**」、「**[!UICONTROL 公開ステータスの述語]**」および「**[!UICONTROL 評価の述語]**」を使用しないでください。これらの述語は Brand Portal では機能しません。
+>* フォルダータイプの述語 `(nt:folder type)` は Brand Portal ではサポートされていないので、パフォーマンスの問題が発生する可能性があります。公開済みのカスタム検索フォームに存在する場合は、検索フォームを編集することで削除できます。
 
 ## 検索用述語の削除 {#delete-a-search-predicate}
 
