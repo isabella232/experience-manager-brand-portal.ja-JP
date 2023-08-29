@@ -10,16 +10,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 51dc6f9c3b3a59751d7910513279e52906d97b88
-workflow-type: ht
-source-wordcount: '1026'
-ht-degree: 100%
+source-git-commit: 097776f2c5d4c2f227935199f0b4811c0b2dfea8
+workflow-type: tm+mt
+source-wordcount: '1034'
+ht-degree: 91%
 
 ---
 
 # Brand Portal へのゲストによるアクセス {#guest-access-to-brand-portal}
 
-Experience Manager Assets Brand Portal では、ゲストによるポータルへのアクセスを許可します。ゲストユーザーは資格情報がなくてもポータルに入ることができ、ポータルの公開アセット（およびコレクション）にアクセスできます。ゲストセッション中のユーザーは Lightbox（非公開コレクション）にアセットを追加でき、セッションが続いている間（[[!UICONTROL セッションの終了]](#exit-guest-session)を選択した場合を除いてセッションの開始から 2 時間）はダウンロードすることができます。
+Experience Manager Assets Brand Portal では、ゲストによるポータルへのアクセスを許可します。ゲストユーザーは資格情報がなくてもポータルに入ることができ、ポータルの公開アセット（およびコレクション）にアクセスできます。ゲストセッションのユーザーは、Lightbox（非公開コレクション）にアセットを追加し、セッションが終了するか、ゲストユーザーが選択しない限り、Lightbox にアセットをダウンロードできます。 [[!UICONTROL セッションを終了]](#exit-guest-session). ゲストユーザーセッションは 15 分間アクティブなままですが、実際のゲストユーザーのタイムアウトは 2 時間です。
 
 ゲストによるアクセス機能を使用すれば、組織は対象オーディエンスのオンボーディングを行わなくても、[承認済みアセットをすばやく共有](../using/brand-portal-sharing-folders.md#how-to-share-folders)することができます。Brand Portal 6.4.2 以降には、複数の同時ゲストユーザー（組織あたりの合計ユーザークォータの 10%）に対応する機能が搭載されています。ゲストによるアクセスを許可することで、Brand Portal の限られた機能を使用するユーザーのスコアの管理やオンボーディングにかかる時間を節約できます。\
 管理ツールパネルの「**[!UICONTROL アクセス]**」設定の「**[!UICONTROL ゲストによるアクセスを許可]**」オプションを使用して、組織の Brand Portal アカウントでのゲストによるアクセスを有効化（または無効化）できます。
@@ -40,7 +40,6 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 ![](assets/bp-login-screen.png)
 
 ## ゲストセッションの期間 {#guest-session-duration}
-
 
 ゲストユーザーセッションが 15 分間アクティブのままになります。
 つまり、**[!UICONTROL Lightbox]** の状態はセッションの開始時刻から 15 分間保持され、その後は現在のゲストセッションが再起動するので、Lightbox の状態が失われます。
@@ -65,7 +64,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ただし、管理者が「[フォルダー階層を有効化](../using/brand-portal-general-configuration.md#main-pars-header-1621071021)」設定を有効にしていた場合は、ゲストユーザーが Brand Portal にログインしたときに、ルートフォルダーから始まるフォルダーツリーと、それぞれの親フォルダー内に含まれる共有フォルダーが表示されます。
 
-これらの親フォルダーは仮想フォルダーであり、これらに対してアクションを実行することはできません。仮想フォルダーは鍵のアイコン付きで表示されます。
+これらの親フォルダーは仮想フォルダーであり、アクションを実行できません。 これらの仮想フォルダーには、鍵のアイコンが付きます。
 
 **[!UICONTROL カード表示]**&#x200B;でこれらをカーソルで指したり選択したりしても、共有フォルダーとは異なり、アクションタスクは表示されません。**[!UICONTROL 列表示]**&#x200B;や&#x200B;**[!UICONTROL リスト表示]**&#x200B;で仮想フォルダーを選択すると「**[!UICONTROL 概要]**」ボタンが表示されます。
 
@@ -137,4 +136,4 @@ Brand Portal には、選択したアセット／フォルダーの&#x200B;**[!U
 
 ## ゲストユーザーアクティビティの監視 {#monitoring-guest-user-activities}
 
-管理者は、Brand Portal でのゲストユーザーの操作を監視できます。Brand Portal で生成されたレポートは、ゲストユーザーアクティビティに関する重要なインサイトを提供できます。例えば、**[!UICONTROL ダウンロード]**&#x200B;レポートを使用すると、ゲストユーザーによってダウンロードされたアセットの数を追跡できます。**[!UICONTROL ユーザーログイン]**&#x200B;レポートでは、ゲストユーザーがポータルに最後にログインした時刻、および指定期間内のログイン頻度を確認ができます。
+管理者は、Brand Portalとのゲストユーザーのやり取りを監視できます。 Brand Portalで生成されたレポートは、ゲストユーザーアクティビティに関する重要なインサイトを提供できます。 例えば、**[!UICONTROL ダウンロード]**&#x200B;レポートを使用すると、ゲストユーザーによってダウンロードされたアセットの数を追跡できます。**[!UICONTROL ユーザーログイン]**&#x200B;レポートでは、ゲストユーザーがポータルに最後にログインした時刻、および指定期間内のログイン頻度を確認ができます。
