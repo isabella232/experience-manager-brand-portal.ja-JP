@@ -10,16 +10,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 10c310a0bc77abf73f058dc4da5cb09bce7c31d5
+source-git-commit: b66b8ea6a88dba41380ca94e613e77b3a2c1e253
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 96%
+source-wordcount: '1034'
+ht-degree: 91%
 
 ---
 
 # Brand Portal へのゲストによるアクセス {#guest-access-to-brand-portal}
 
-Experience Manager Assets Brand Portal では、ゲストによるポータルへのアクセスを許可します。ゲストユーザーは資格情報がなくてもポータルに入ることができ、ポータルの公開アセット（およびコレクション）にアクセスできます。ゲストセッション中のユーザーは Lightbox（非公開コレクション）にアセットを追加でき、セッションが続いている間（[[!UICONTROL セッションの終了]](#exit-guest-session)を選択した場合を除いてセッションの開始から 2 時間）はダウンロードすることができます。
+Experience Manager Assets Brand Portal では、ゲストによるポータルへのアクセスを許可します。ゲストユーザーは資格情報がなくてもポータルに入ることができ、ポータルの公開アセット（およびコレクション）にアクセスできます。ゲストセッションのユーザーは、Lightbox（非公開コレクション）にアセットを追加し、セッションが終了するか、ゲストユーザーが選択しない限り、Lightbox にアセットをダウンロードできます。 [[!UICONTROL セッションを終了]](#exit-guest-session). ゲストユーザーセッションは 15 分間アクティブなままですが、実際のゲストユーザーのタイムアウトは 2 時間です。
 
 ゲストによるアクセス機能を使用すれば、組織は対象オーディエンスのオンボーディングを行わなくても、[承認済みアセットをすばやく共有](../using/brand-portal-sharing-folders.md#how-to-share-folders)することができます。Brand Portal 6.4.2 以降には、複数の同時ゲストユーザー（組織あたりの合計ユーザークォータの 10%）に対応する機能が搭載されています。ゲストによるアクセスを許可することで、Brand Portal の限られた機能を使用するユーザーのスコアの管理やオンボーディングにかかる時間を節約できます。\
 管理ツールパネルの「**[!UICONTROL アクセス]**」設定の「**[!UICONTROL ゲストによるアクセスを許可]**」オプションを使用して、組織の Brand Portal アカウントでのゲストによるアクセスを有効化（または無効化）できます。
