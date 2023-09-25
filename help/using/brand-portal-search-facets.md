@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
-workflow-type: ht
-source-wordcount: '1312'
-ht-degree: 100%
+source-git-commit: c5c16d2aa1b488efac90dbc77023bba9897ae929
+workflow-type: tm+mt
+source-wordcount: '1325'
+ht-degree: 99%
 
 ---
 
@@ -72,7 +72,7 @@ Brand Portal では[ファセット検索](../using/brand-portal-searching.md#se
 
    >[!NOTE]
    >
-   >Brand Portal では、`dam:asset` の `jcrcontent/metadata` にあるすべての文字列プロパティ（`xmp` で始まるものを除く）にデフォルトでインデックスが作成されます。
+   >Brand Portal では、`dam:asset` の `jcrcontent/metadata` にあるすべての文字列プロパティ（`xmp` で始まるものを除く）にデフォルトでインデックスが作成されます。デフォルトでは、任意のタイプのその他すべてのカスタムプロパティはインデックス付けされません。
    >
    >プロパティの述語を作成する際は、インデックスが作成された任意のプロパティを使用できます。インデックスが作成されていないプロパティが設定されている場合、インデックスが作成されていないプロパティに対して検索クエリを実行しても検索結果が得られない可能性があります。
 
