@@ -1,7 +1,7 @@
 ---
 title: リリースノート
 seo-title: Release Notes
-description: Adobe Experience Manager Assets Brand Portal 2023.08.0 リリースの機能、機能強化、修正された重大な問題および既知の問題について説明します。
+description: Adobe Experience Manager Assets Brand Portal 2023.10.0 リリースの機能、機能強化、修正された重大な問題および既知の問題について説明します。
 seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
@@ -10,34 +10,59 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: ddca484ae2af6e24f89072270f876104a81a9025
-workflow-type: ht
-source-wordcount: '1210'
-ht-degree: 100%
+source-git-commit: 21fc4446c2ec56a58a3dcbf8362d661c6e8d3712
+workflow-type: tm+mt
+source-wordcount: '1312'
+ht-degree: 92%
 
 ---
 
 # リリースノート {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 2023.08.0 リリースの新機能、機能強化、修正された重大な問題および既知の問題について説明します。
+Adobe Experience Manager Assets Brand Portal 2023.10.0 リリースの新機能、機能強化、修正された重大な問題および既知の問題について説明します。
 
 ## リリース情報 {#release-information}
 
 | 製品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| バージョン | 2023.08.0 |
-| 日付 | 2023年8月 |
+| バージョン | 2023.10.0 |
+| 日付 | 2023年10月 |
 
 ## 概要 {#overview}
 
 Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを軽減できます。Brand Portal では、アセットの参照、検索、プレビュー、ダウンロードおよび会社で承認された形式でのエクスポートを、いつでも、どこでも実行できます。
 
-## 2023.08.0 の新機能 {#whats-new-in-2023.08.0}
+## 2023.10.0 の新機能 {#whats-new-in-2023.10.0}
 
 ### 修正された重大な問題 {#critical-issues-fixed}
 
-#### バグ修正および機能強化 {#bug-fixes-enhancements}
+#### バグ修正 {#bug-fixes}
 
+このリリースには、次のバグ修正が含まれています。
+
+* 保存できません [!UICONTROL 日付] および [!UICONTROL オプション] に対する述語 [!UICONTROL スマートコレクション].
+
+* The [!UICONTROL 日時] 英語以外のロケールで作業する場合、形式が一貫していません。
+
+* アセットの検索を実行する際に、 [!UICONTROL 削除] ボタンが見つかりません。
+
+* 次の場合、 [!UICONTROL タイトル] フィールドにマルチバイト記号が含まれています [!UICONTROL リンク共有]の場合、レポートはダウンロードできません。
+
+* PDFタイプのドキュメントの表示時に、ラベルとツールヒントがローカライズされない。
+
+#### 機能強化 {#enhancements}
+
+このリリースで強化された機能は次のとおりです。
+
+* 閲覧中のパフォーマンスの向上 [!UICONTROL コレクション].
+
+* オムニサーチフィールドを使用して部分検索を実行すると、結果が正確になりません。
+
+## 以前のリリース
+
+### 2023年8月リリース {#aug-2023}
+
+**バグ修正および機能強化**
 このリリースで強化された機能は次のとおりです。
 
 * [!UICONTROL ダウンロード]ポップアップでアセットを読み込む際のパフォーマンスの向上。
@@ -48,9 +73,6 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 * 長いラベルまたはタグが、検索フィルターでは適切に表示されない。
 * ダウンロードダイアログに長いレンディション名を表示できない。
 * カード表示でビデオアセットをプレビューできない。
-
-
-## 以前のリリース
 
 ### 2023年5月リリース {#may-2023}
 
@@ -100,7 +122,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 **修正された重大な問題**
 
-このリリースでは、次の重大な問題が修正されています。
+このリリースでは、次の重要な問題が修正されています。
 
 * 大きなファイルを Brand Portal からサードパーティ製ツールにコピーする際、応答時間が遅い。
 * 「レンディション数」チェックボックスを選択すると、個々のレンディションを選択するためのチェックボックスが無効になる。
