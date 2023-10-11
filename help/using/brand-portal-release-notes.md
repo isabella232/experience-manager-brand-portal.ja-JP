@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 21fc4446c2ec56a58a3dcbf8362d661c6e8d3712
+source-git-commit: 16400476286ba9656f49981412494d07e4e0edc1
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1310'
 ht-degree: 92%
 
 ---
@@ -56,7 +56,7 @@ Adobe Experience Manager（AEM）Assets Brand Portal では、承認されたク
 
 * 閲覧中のパフォーマンスの向上 [!UICONTROL コレクション].
 
-* オムニサーチフィールドを使用して部分検索を実行すると、結果が正確になりません。
+* オムニサーチフィールドを使用して部分検索を実行する際の検索結果の改善。
 
 ## 以前のリリース
 
