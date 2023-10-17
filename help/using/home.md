@@ -4,10 +4,10 @@ seo-title: Adobe Experience Manager Assets Brand Portal Guide
 description: Experience Manager Assets Brand Portal を使用すれば、承認済みのブランドアセットや製品アセットを外部の代理店、パートナー、内部チーム、販売店などへとダウンロードで安全に配布し、マーケティングニーズに応えることができます。
 seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
-source-git-commit: 08162bdd26983c0362598625e26705addd32975f
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+source-git-commit: f8959c00c35ecdb76f94c1f12a81ad7d26cb5724
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 86%
 
 ---
 
@@ -17,19 +17,18 @@ ht-degree: 100%
 
 安全なアセット共有ソリューションがないと、次のことが考えられます。
 
-* 電子メールまたはクラウドを通じた手動アセット共有
-* ブランドのコンプライアンスの問題が発生する
-* アセットの使用状況を制御できない
-* キャンペーンの開始や製品の発売が遅れる
-* 各地や各組織にコンテンツが重複して存在する
-* リリース前のアセットが安全でない場所に保管される
+* メールまたはクラウドを通じた手動アセット共有
+* ブランドコンプライアンスの問題
+* アセットの使用に対する制御の不足
+* キャンペーンと製品の起動の遅延
+* 地理的な場所や組織間でのコンテンツの重複
+* リリース前のアセットの保護されていないストレージ
 
-Brand Portal を利用することで、マーケティング担当者がチャネルパートナーや社内ビジネスユーザーと協力して最新のデザインガイドライン、ロゴ、キャンペーン、製品アセットを迅速に作成、管理、関係者に配信できるようになるので、組織はブランドコンプライアンスを保証できます。
-Brand Portal は、クラウドベースの SaaS 製品です。Adobe Experience Manager Assets 製品（オンプレミスまたはマネージドサービス）へのアドオンとして利用できます。
+Brand Portal を利用することで、マーケターがチャネルパートナーや社内ビジネスユーザーと協力して最新のデザインガイドライン、ロゴ、キャンペーン、製品アセットを迅速に作成、管理、関係者に配信できるようになるので、組織はブランドコンプライアンスを保証できます。Brand Portal は、クラウドベースの SaaS 製品です。Adobe Experience Manager Assets 製品（オンプレミスまたはマネージドサービス）へのアドオンとして利用できます。Brand Portalは、 [!DNL Adobe Experience Manager Assets] as a [!DNL Cloud Service]. 1 回 [設定済み](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=ja)を使用すると、 [!DNL Adobe Experience Manager Assets] as a [!DNL Cloud Service] インスタンスから [!DNL Brand Portal] Brand Portalユーザーに配布します。
 
 Brand Portal ソリューションワークフローを次の画像に示します。
 
-![](assets/BPWorkflow1.png)
+![Brand Portalワークフロー](assets/BPWorkflow1.png)
 
 ## Adobe Experience Manager Brand Portal ユーザーガイド
 
