@@ -5,9 +5,9 @@ description: Experience Manager Assets Brand Portal を使用すれば、承認�
 seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
 source-git-commit: f8959c00c35ecdb76f94c1f12a81ad7d26cb5724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 86%
 安全なアセット共有ソリューションがないと、次のことが考えられます。
 
 * メールまたはクラウドを通じた手動アセット共有
-* ブランドコンプライアンスの問題
-* アセットの使用に対する制御の不足
-* キャンペーンと製品の起動の遅延
-* 地理的な場所や組織間でのコンテンツの重複
-* リリース前のアセットの保護されていないストレージ
+* ブランドのコンプライアンスの問題が発生する
+* アセットの使用状況を制御できない
+* キャンペーンの開始や製品の発売が遅れる
+* 地域や組織をまたいでコンテンツが重複する
+* リリース前のアセットが安全でない場所に保管される
 
-Brand Portal を利用することで、マーケターがチャネルパートナーや社内ビジネスユーザーと協力して最新のデザインガイドライン、ロゴ、キャンペーン、製品アセットを迅速に作成、管理、関係者に配信できるようになるので、組織はブランドコンプライアンスを保証できます。Brand Portal は、クラウドベースの SaaS 製品です。Adobe Experience Manager Assets 製品（オンプレミスまたはマネージドサービス）へのアドオンとして利用できます。Brand Portalは、 [!DNL Adobe Experience Manager Assets] as a [!DNL Cloud Service]. 1 回 [設定済み](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=ja)を使用すると、 [!DNL Adobe Experience Manager Assets] as a [!DNL Cloud Service] インスタンスから [!DNL Brand Portal] Brand Portalユーザーに配布します。
+Brand Portal を利用することで、マーケターがチャネルパートナーや社内ビジネスユーザーと協力して最新のデザインガイドライン、ロゴ、キャンペーン、製品アセットを迅速に作成、管理、関係者に配信できるようになるので、組織はブランドコンプライアンスを保証できます。Brand Portal は、クラウドベースの SaaS 製品です。Adobe Experience Manager Assets 製品（オンプレミスまたはマネージドサービス）へのアドオンとして利用できます。Brand Portal は、[!DNL Adobe Experience Manager Assets] as a [!DNL Cloud Service] で利用できます。[設定済み](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=ja)になると、承認済みアセットを [!DNL Adobe Experience Manager Assets] as a [!DNL Cloud Service] インスタンスから [!DNL Brand Portal] に公開し、Brand Portal ユーザーに配布できます。
 
 Brand Portal ソリューションワークフローを次の画像に示します。
 
-![Brand Portalワークフロー](assets/BPWorkflow1.png)
+![Brand Portal ワークフロー](assets/BPWorkflow1.png)
 
 ## Adobe Experience Manager Brand Portal ユーザーガイド
 
