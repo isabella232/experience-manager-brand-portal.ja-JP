@@ -10,10 +10,10 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: ht
-source-wordcount: '534'
-ht-degree: 100%
+source-git-commit: 26c16668224d22f133419c13ea5fe4e24335a22f
+workflow-type: tm+mt
+source-wordcount: '672'
+ht-degree: 67%
 
 ---
 
@@ -21,7 +21,15 @@ ht-degree: 100%
 
 コレクションは、Adobe Experience Manager Assets Brand Portal にまとめて保存される関連アセットのグループを表します。ユーザーは、[オムニサーチまたはファセット検索を適用して関連アセットをフィルター](brand-portal-searching.md)し一緒に保存することでスマートコレクションを作成し、アクセスしやすくしたり、さらに他の Brand Portal ユーザーと共有したりできます。
 
-管理者は、承認された Brand Portal ユーザーとコレクションを共有および共有解除できます。編集者と閲覧者は、自身が作成したコレクション、共有が認められているコレクション、公開コレクションを閲覧および共有できます。
+<!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
+
+コレクションは、電子メールでリンクとして共有されます。 共有リンクにアクセスできるすべてのユーザーがコレクションを開くことができますが、共有電子メールは誰にでも転送できます。 また、 [共有リンク](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en) は一時的で、一定期間のみアクセスできます。 または、ユーザーを永続的なメンバーとしてコレクションに招待することもできます。 コレクションには、次のタイプのユーザーがあります。
+
+* **管理者** 許可されたBrand Portalユーザーとコレクションを共有または共有解除できます。 ユーザーは他のユーザーを特定のコレクションに招待し、そのコレクションでの役割を定義できます。 また、管理者は公開コレクションを作成できます。
+
+* **エディター** は、コレクションの作成と共有が許可されています。 ユーザーは他のユーザーを特定のコレクションに招待し、そのコレクションでの役割を定義できます。 また、編集者または所有者としてコレクションに招待された場合は、コレクションを共有することもできます。
+
+* **ビューア** 非公開コレクションのみを作成できます。 所有者として招待された場合でも、コレクションを共有することは許されません。
 
 >[!NOTE]
 >
@@ -33,17 +41,17 @@ ht-degree: 100%
 
 1. Brand Portal テナントにログインします。デフォルトで「**[!UICONTROL ファイル]**」ビューが開き、公開中のアセットとフォルダーがすべて表示されます。
 
-1. 上部のクイックナビゲーションで「**[!UICONTROL コレクション]**」をクリックします。
+1. 上部のクイックナビゲーションで、「 」をクリックします。 **[!UICONTROL コレクション]**.
 
 1. **[!UICONTROL コレクション]**&#x200B;コンソールで、以下のいずれかの手順を実行します。
 
-   * 共有するコレクションの上にマウスポインターを置きます。そのコレクションで使用できるクイックアクションサムネールから、**[!UICONTROL 設定]**&#x200B;アイコンをクリックします。
+   * 共有するコレクションの上にマウスポインターを置きます。 そのコレクションで使用できるクイックアクションサムネールから、**[!UICONTROL 設定]**&#x200B;アイコンをクリックします。
 
-      ![](assets/settings-icon.png)
+     ![](assets/settings-icon.png)
 
-   * 共有するコレクションを選択します。上部のツールバーの「**[!UICONTROL 設定]**」をクリックします。
+   * 共有するコレクションを選択します。 上部のツールバーの「**[!UICONTROL 設定]**」をクリックします。
 
-      ![](assets/collection-console.png)
+     ![](assets/collection-console.png)
 
 1. **[!UICONTROL コレクション設定]**&#x200B;ダイアログボックスで、そのコレクションの共有相手となるユーザーを選択し、それぞれのグローバルな役割に一致するユーザーの役割を選択します。例えば、グローバルな編集者には編集者の役割を割り当て、グローバルな閲覧者には閲覧者の役割を割り当てます。
 
@@ -67,9 +75,9 @@ ht-degree: 100%
 
 ## コレクションの共有解除 {#unshare-a-collection}
 
-コレクションの共有を解除するには、以下の手順を実行します。
+以前に共有されたコレクションの共有を解除するには、以下の手順を実行します。
 
-1. **[!UICONTROL コレクション]**&#x200B;コンソールで、共有を解除するコレクションを選択します。
+1. 次から： **[!UICONTROL コレクション]** コンソールで、共有を解除するコレクションを選択します。
 
    上部のツールバーの「**[!UICONTROL 設定]**」をクリックします。
 
