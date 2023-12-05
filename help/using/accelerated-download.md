@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
 source-git-commit: ce765700aaecba4bfff7b55effb05f981b94bdec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1019'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Experience Manager Assets Brand Portal では、インストールオン�
 
 * **[!UICONTROL ツール]**／**[!UICONTROL ダウンロード]**&#x200B;に移動し、**[!UICONTROL ダウンロード設定]**&#x200B;で、「**[!UICONTROL 高速ダウンロード]**」設定が有効になっていることを確認します。
 * ファイアウォールのポート 33001（TCP と UDP の両方）が開いていることを確認します。
-* **IBM® Aspera Connect 3.9.9 のインストール** を、管理者権限 ([IBM® Aspera Connect ダウンロード](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)) をクリックします。
+* 管理者権限を使用して、ブラウザーの拡張機能に **IBM® Aspera Connect 3.9.9 をインストール**&#x200B;します（[IBM® Asperra Connect のダウンロード](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)）。
 
 >[!NOTE]
 >
