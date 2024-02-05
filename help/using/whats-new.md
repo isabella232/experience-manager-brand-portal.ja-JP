@@ -1,8 +1,8 @@
 ---
 title: Adobe Experience Manager Assets Brand Portal の新機能
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: 2023.10.0 の新機能と機能強化
-seo-description: What are the new features and enhancements for 2023.10.0
+description: 2024.02.0 の新機能と機能強化
+seo-description: What are the new features and enhancements for 2024.02.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,16 +10,20 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 108746cb1647312aa886d00b6c8ef041eab8b91d
-workflow-type: ht
-source-wordcount: '6558'
-ht-degree: 100%
+source-git-commit: b24c96ee40cf481215ab45d0a691b8fa1f24fac0
+workflow-type: tm+mt
+source-wordcount: '6616'
+ht-degree: 99%
 
 ---
 
 # Adobe Experience Manager Assets Brand Portal の新機能 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal では、承認されたクリエイティブアセットを容易に取得、制御し、それらのアセットを、デバイスの種類を問わず、外部の関係者や内部のビジネスユーザーに安全に配布できます。アセットの共有を効率化し、アセットの市場投入までの時間を短縮し、コンプライアンス違反や不正アクセスのリスクを低減できます。アドビは Brand Portal の全体的なエクスペリエンスの強化に取り組んでいます。以下に、最新機能と機能強化について簡単に紹介します。
+
+## 2024.02.0 の変更点 {#what-changed-in-February-2024}
+
+Brand Portal 2024.02.0 は内部リリースであり、重大な問題の修正が含まれています。最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
 
 ## 2023.10.0 の変更点 {#what-changed-in-October-2023}
 
@@ -297,7 +301,7 @@ Brand Portal テナントに管理者としてログインし、**[!UICONTROL �
 * 「**[!UICONTROL オリジナルをダウンロード]**」設定のみがオンになっている場合、ユーザーはアセットの詳細ページからオリジナルのアセットのみを表示およびダウンロードできます。
 * 「**[!UICONTROL レンディションをダウンロード]**」設定のみが有効になっている場合、ユーザーは元のアセットを表示できますが、ダウンロードすることはできません。ただし、ユーザーはアセットのレンディションを表示およびダウンロードできます。
 
-詳しくは、[アセットのダウンロード設定](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=ja#configure-download-permissions)を参照してください。
+詳しくは、[アセットのダウンロード設定](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions)を参照してください。
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -404,7 +408,7 @@ AEM Assets と Brand Portal の連携を設定する手順は、AEM のバージ
 
 最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
 
-[Brand Portal FAQ](brand-portal-faqs.md) を参照してください。
+詳しくは、 [Brand Portalの FAQ](brand-portal-faqs.md).
 
 ## 6.4.5 の変更点 {#what-changed-in-645}
 
@@ -748,7 +752,7 @@ Brand Portal 6.4.1 はプラットフォームのアップグレードリリー�
 ### レポート機能の強化
 
 **リンク共有レポートの追加**
-共有リンクの情報を提供する新しいレポートが追加されました。リンク共有レポートには、指定期間内に組織全体にわたって内部および外部のユーザーと共有されるすべてのアセットへの URL が示されます。さらに、リンクがいつ共有されたか、誰と共有されたか、いつ期限が切れるかという情報も示されます。
+共有リンクに関する情報を提供する新しいレポートが追加されました。 リンク共有レポートには、指定期間内に組織全体にわたって内部および外部のユーザーと共有されるすべてのアセットへの URL が示されます。さらに、リンクがいつ共有されたか、誰と共有されたか、いつ期限が切れるかという情報も示されます。
 
 ![](assets/navigatereport.png)
 
