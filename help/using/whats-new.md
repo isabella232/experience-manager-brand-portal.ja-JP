@@ -11,9 +11,9 @@ topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 source-git-commit: b24c96ee40cf481215ab45d0a691b8fa1f24fac0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6616'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -301,7 +301,7 @@ Brand Portal テナントに管理者としてログインし、**[!UICONTROL �
 * 「**[!UICONTROL オリジナルをダウンロード]**」設定のみがオンになっている場合、ユーザーはアセットの詳細ページからオリジナルのアセットのみを表示およびダウンロードできます。
 * 「**[!UICONTROL レンディションをダウンロード]**」設定のみが有効になっている場合、ユーザーは元のアセットを表示できますが、ダウンロードすることはできません。ただし、ユーザーはアセットのレンディションを表示およびダウンロードできます。
 
-詳しくは、[アセットのダウンロード設定](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions)を参照してください。
+詳しくは、[アセットのダウンロード設定](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=ja#configure-download-permissions)を参照してください。
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -408,7 +408,7 @@ AEM Assets と Brand Portal の連携を設定する手順は、AEM のバージ
 
 最新の [Brand Portal リリースノート](brand-portal-release-notes.md)を参照してください。
 
-詳しくは、 [Brand Portalの FAQ](brand-portal-faqs.md).
+[Brand Portal FAQ](brand-portal-faqs.md) を参照してください。
 
 ## 6.4.5 の変更点 {#what-changed-in-645}
 
@@ -752,7 +752,7 @@ Brand Portal 6.4.1 はプラットフォームのアップグレードリリー�
 ### レポート機能の強化
 
 **リンク共有レポートの追加**
-共有リンクに関する情報を提供する新しいレポートが追加されました。 リンク共有レポートには、指定期間内に組織全体にわたって内部および外部のユーザーと共有されるすべてのアセットへの URL が示されます。さらに、リンクがいつ共有されたか、誰と共有されたか、いつ期限が切れるかという情報も示されます。
+共有リンクの情報を提供する新しいレポートが追加されました。リンク共有レポートには、指定期間内に組織全体にわたって内部および外部のユーザーと共有されるすべてのアセットへの URL が示されます。さらに、リンクがいつ共有されたか、誰と共有されたか、いつ期限が切れるかという情報も示されます。
 
 ![](assets/navigatereport.png)
 
